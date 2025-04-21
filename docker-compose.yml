@@ -1,0 +1,24 @@
+services:
+
+  db:
+    image: docker.io/pgvector/pgvector:pg17
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: secrete
+      POSTGRES_DB: ragdb
+    ports:
+      - 5432:5432
+    volumes:
+      - blograg_pgdata:/var/lib/postgresql/data
+
+  adminer:
+    image: docker.io/library/adminer:latest
+    restart: always
+    ports:
+      - 8080:8080
+    depends_on:
+      - db
+
+volumes:
+  blograg_pgdata:

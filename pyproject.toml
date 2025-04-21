@@ -1,0 +1,76 @@
+[project]
+name = "blograg"
+version = "0.1.0"
+description = ""
+authors = [{ name = "Major Hayden", email = "major@mhtx.net" }]
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "ollama (>=0.4.8,<0.5.0)",
+    "pydantic-settings (>=2.9.0,<3.0.0)",
+    "rich (>=14.0.0,<15.0.0)",
+    "pgvector (>=0.4.0,<0.5.0)",
+    "psycopg2 (>=2.9.10,<3.0.0)",
+    "python-frontmatter (>=1.1.0,<2.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+    "unstructured[md] (>=0.17.2,<0.18.0)",
+    "sqlalchemy (>=2.0.40,<3.0.0)",
+    "structlog (>=25.2.0,<26.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+pytest-cov = "^6.0.0"
+mypy = "^1.15.0"
+pre-commit = "^4.1.0"
+tox = "^4.24.2"
+pytest-sugar = "^1.0.0"
+pytest-randomly = "^3.16.0"
+ruff = "^0.11.0"
+types-peewee = "^3.17.9.20250401"
+
+
+[tool.pytest.ini_options]
+asyncio_default_fixture_loop_scope = "function"
+env = ["FORCE_COLOR=1"]
+addopts = [
+    "--cov=blograg",
+    "--cov-report=term-missing",
+    "--cov-report=html",
+    "--cov-report=xml",
+    "--cov-branch",
+    "--color=yes",
+    "--verbose",
+]
+# Having problems with tests? Uncomment the following line to see more output.
+# log_cli = false
+# log_level = "DEBUG"
+log_format = "%(asctime)s %(levelname)s %(message)s"
+log_date_format = "%Y-%m-%d %H:%M:%S"
+testpaths = ["tests"]
+
+
+[tool.mypy]
+files = ["stocknews"]
+disallow_untyped_defs = true
+disallow_any_unimported = false
+no_implicit_optional = true
+check_untyped_defs = true
+warn_return_any = true
+warn_unused_ignores = true
+show_error_codes = true
+
+[[tool.mypy.overrides]]
+module = ["pgvector"]
+follow_untyped_imports = true
+
+[tool.ruff]
+fix = true
+
+[tool.ruff.format]
+preview = true
