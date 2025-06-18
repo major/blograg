@@ -2,20 +2,7 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
         "config:recommended",
-    ],
-    "lockFileMaintenance": {
-        "enabled": true,
-        "automerge": true,
-        "automergeType": "branch",
-        "automergeStrategy": "rebase",
-        "commitBodyTable": true
-    },
-    "packageRules": [
-        {
-            "matchUpdateTypes": [
-                "*"
-            ],
-            "automerge": true
-        }
+        ":automergeAll",
+        "config:best-practices",
     ]
 }
