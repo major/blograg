@@ -1,7 +1,7 @@
 services:
 
   db:
-    image: docker.io/pgvector/pgvector:pg17
+    image: docker.io/pgvector/pgvector:pg17@sha256:5982c00a2cdf786c2daefa45ad90277309c6f8f5784a4332acc34963c2d61ba3
     restart: always
     environment:
       POSTGRES_USER: postgres
@@ -13,7 +13,7 @@ services:
       - blograg_pgdata:/var/lib/postgresql/data
 
   adminer:
-    image: docker.io/library/adminer:latest
+    image: docker.io/library/adminer:latest@sha256:5ee6e18fce9d4ec5d2e82c7f2937b414b076908f11963fe175116e561011b305
     restart: always
     ports:
       - 8080:8080
