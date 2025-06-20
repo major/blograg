@@ -1,0 +1,510 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 587996464687590654,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2014/08/06/unexpected-predictable-network-naming-systemd/",
+      "text": "/2014/08/06/unexpected-predictable-network-naming-systemd/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "centos",
+      "text": "centos",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "debian",
+      "text": "debian",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "network",
+      "text": "network",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "redhat",
+      "text": "redhat",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "systemd",
+      "text": "systemd",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "1",
+      "text": "1"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "While using a Dell R720 at work today, we stumbled upon a problem where the  predictable network device naming with systemd  gave us some unpredictable results. The server has four onboard network ports (two 10GbE and two 1GbE) and an add-on 10GbE card with two additional ports.",
+      "text": "While using a Dell R720 at work today, we stumbled upon a problem where the  predictable network device naming with systemd  gave us some unpredictable results. The server has four onboard network ports (two 10GbE and two 1GbE) and an add-on 10GbE card with two additional ports."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Running  lspci  gives this output:",
+      "text": "Running  lspci  gives this output:"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# lspci | grep Eth\n01:00.0 Ethernet controller: Intel Corporation Ethernet Controller 10-Gigabit X540-AT2 (rev 01)\n01:00.1 Ethernet controller: Intel Corporation Ethernet Controller 10-Gigabit X540-AT2 (rev 01)\n08:00.0 Ethernet controller: Intel Corporation I350 Gigabit Network Connection (rev 01)\n08:00.1 Ethernet controller: Intel Corporation I350 Gigabit Network Connection (rev 01)\n42:00.0 Ethernet controller: Intel Corporation Ethernet Controller 10-Gigabit X540-AT2 (rev 01)\n42:00.1 Ethernet controller: Intel Corporation Ethernet Controller 10-Gigabit X540-AT2 (rev 01)",
+      "text": "# lspci | grep Eth\n01:00.0 Ethernet controller: Intel Corporation Ethernet Controller 10-Gigabit X540-AT2 (rev 01)\n01:00.1 Ethernet controller: Intel Corporation Ethernet Controller 10-Gigabit X540-AT2 (rev 01)\n08:00.0 Ethernet controller: Intel Corporation I350 Gigabit Network Connection (rev 01)\n08:00.1 Ethernet controller: Intel Corporation I350 Gigabit Network Connection (rev 01)\n42:00.0 Ethernet controller: Intel Corporation Ethernet Controller 10-Gigabit X540-AT2 (rev 01)\n42:00.1 Ethernet controller: Intel Corporation Ethernet Controller 10-Gigabit X540-AT2 (rev 01)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If you're not familiar with that output, it says:",
+      "text": "If you're not familiar with that output, it says:"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Two 10GbE ports on PCI bus 1 (ports 0 and 1)",
+      "text": "Two 10GbE ports on PCI bus 1 (ports 0 and 1)",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Two 1GbE ports on PCI bus 8 (ports 0 and 1)",
+      "text": "Two 1GbE ports on PCI bus 8 (ports 0 and 1)",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Two 10GbE ports on PCI bus 42 (ports 0 and 1)",
+      "text": "Two 10GbE ports on PCI bus 42 (ports 0 and 1)",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "When the system boots up, the devices are named based on  systemd-udevd's criteria . Our devices looked like this after boot:",
+      "text": "When the system boots up, the devices are named based on  systemd-udevd's criteria . Our devices looked like this after boot:"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# ip addr | egrep ^[0-9]\n1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default\n2: enp8s0f0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000\n3: enp8s0f1: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000\n4: enp1s0f0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000\n5: enp1s0f1: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000\n6: enp66s0f0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000\n7: enp66s0f1: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000",
+      "text": "# ip addr | egrep ^[0-9]\n1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default\n2: enp8s0f0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000\n3: enp8s0f1: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000\n4: enp1s0f0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000\n5: enp1s0f1: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000\n6: enp66s0f0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000\n7: enp66s0f1: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Devices 2-5 make sense since they're on PCI buses 1 and 8. However, our two-port NIC on PCI bus 42 has suddenly been named 66. We rebooted the server with the  rd.udev.debug  kernel command line to display debug messages from systemd-udevd during boot. That gave us this:",
+      "text": "Devices 2-5 make sense since they're on PCI buses 1 and 8. However, our two-port NIC on PCI bus 42 has suddenly been named 66. We rebooted the server with the  rd.udev.debug  kernel command line to display debug messages from systemd-udevd during boot. That gave us this:"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# journalctl | grep enp66s0f0\nsystemd-udevd[471]: renamed network interface eth0 to enp66s0f0\nsystemd-udevd[471]: NAME 'enp66s0f0' /usr/lib/udev/rules.d/80-net-setup-link.rules:13\nsystemd-udevd[471]: changing net interface name from 'eth0' to 'enp66s0f0'\nsystemd-udevd[471]: renamed netif to 'enp66s0f0'\nsystemd-udevd[471]: changed devpath to '/devices/pci0000:40/0000:40:02.0/0000:42:00.0/net/enp66s0f0'",
+      "text": "# journalctl | grep enp66s0f0\nsystemd-udevd[471]: renamed network interface eth0 to enp66s0f0\nsystemd-udevd[471]: NAME 'enp66s0f0' /usr/lib/udev/rules.d/80-net-setup-link.rules:13\nsystemd-udevd[471]: changing net interface name from 'eth0' to 'enp66s0f0'\nsystemd-udevd[471]: renamed netif to 'enp66s0f0'\nsystemd-udevd[471]: changed devpath to '/devices/pci0000:40/0000:40:02.0/0000:42:00.0/net/enp66s0f0'",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "So the system sees that the enp66s0f0 device is actually on PCI bus 42. What gives? A quick trip to #systemd on Freenode caused a facepalm:",
+      "text": "So the system sees that the enp66s0f0 device is actually on PCI bus 42. What gives? A quick trip to #systemd on Freenode caused a facepalm:"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "mhayden | weird, udev shows it on pci bus 42 but yet names it 66\n    jwl | 0x42 = 66",
+      "text": "mhayden | weird, udev shows it on pci bus 42 but yet names it 66\n    jwl | 0x42 = 66",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I didn't expect to see hex. Sure enough, converting 42 in hex to decimal yields 66:",
+      "text": "I didn't expect to see hex. Sure enough, converting 42 in hex to decimal yields 66:"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ printf \"%d\\n\" 0x42\n66",
+      "text": "$ printf \"%d\\n\" 0x42\n66",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "That also helps to explain why the devices on buses 1 and 8 were unaffected. Converting 1 and 8 in hex to decimal gives 1 and 8. If you're new to hex, this  conversion table  may help.",
+      "text": "That also helps to explain why the devices on buses 1 and 8 were unaffected. Converting 1 and 8 in hex to decimal gives 1 and 8. If you're new to hex, this  conversion table  may help."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Photo Credit:  mindfieldz  via  Compfight   cc",
+      "text": "Photo Credit:  mindfieldz  via  Compfight   cc"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

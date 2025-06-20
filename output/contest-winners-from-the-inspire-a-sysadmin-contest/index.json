@@ -1,0 +1,375 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 3273464545520763806,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2011/08/22/contest-winners-from-the-inspire-a-sysadmin-contest/",
+      "text": "/2011/08/22/contest-winners-from-the-inspire-a-sysadmin-contest/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "advice",
+      "text": "advice",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "sysadmin",
+      "text": "sysadmin",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Before I get started, I'd like to give a big thanks to all of the visitors who dropped by and  participated in the contest  last week. Also, thanks to  ThinkGeek  for offering to pay for (and double) one of the prizes!",
+      "text": "Before I get started, I'd like to give a big thanks to all of the visitors who dropped by and  participated in the contest  last week. Also, thanks to  ThinkGeek  for offering to pay for (and double) one of the prizes!"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Here are the list of winners:",
+      "text": "Here are the list of winners:"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Grand Prize ($50 at ThinkGeek): ",
+      "text": "Grand Prize ($50 at ThinkGeek): ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Runners-Up ($25 at ThinkGeek): ",
+      "text": "Runners-Up ($25 at ThinkGeek): ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Dan's comment rang true  with me since much of a sysadmin's job involves responding to crises regardless of how much planning you put forth:",
+      "text": "Dan's comment rang true  with me since much of a sysadmin's job involves responding to crises regardless of how much planning you put forth:"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Keep a cool head. Focus. Work methodically. Figure out what to do and get it done, and people will remember you as the person who performs under pressure. Once you can do that, you're a sysadmin.",
+      "text": "Keep a cool head. Focus. Work methodically. Figure out what to do and get it done, and people will remember you as the person who performs under pressure. Once you can do that, you're a sysadmin."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Joe touched on a critical point  about system administration:",
+      "text": "Joe touched on a critical point  about system administration:"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Tell the truth. If you break something, 'fess up and fix it. If you don't know how to do something, admit it and learn how to do the task. Create your own culture of honesty on the job; others will respect and follow your example.",
+      "text": "Tell the truth. If you break something, 'fess up and fix it. If you don't know how to do something, admit it and learn how to do the task. Create your own culture of honesty on the job; others will respect and follow your example."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Susan offered some inspiration  for system administrators stuck in frustrating situations:",
+      "text": "Susan offered some inspiration  for system administrators stuck in frustrating situations:"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I know, I know - dumb users, RTFM. Believe me, I've been there. In fact - one of your strategies should be to establish a trusted community where you can VENT about these issues, and get support for yourself. Ask for answers when you don't know them. Restock on the compassion and patience.",
+      "text": "I know, I know - dumb users, RTFM. Believe me, I've been there. In fact - one of your strategies should be to establish a trusted community where you can VENT about these issues, and get support for yourself. Ask for answers when you don't know them. Restock on the compassion and patience."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Giovanni talked about the basics  and what every system administrator should know to get started in a career. We probably take this for granted, but this is critical to keep in mind:",
+      "text": "Giovanni talked about the basics  and what every system administrator should know to get started in a career. We probably take this for granted, but this is critical to keep in mind:"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If you are starting in the system administration area, don't praise yourself only because you (blindly?) fixed an issue or helped that friend with his/her server. Ask yourself: Why what I did fixed the issue? Why that was happening in the first place? And more importantly, how to avoid it for all eternity? You won't but it doesn't hurt to aim high.",
+      "text": "If you are starting in the system administration area, don't praise yourself only because you (blindly?) fixed an issue or helped that friend with his/her server. Ask yourself: Why what I did fixed the issue? Why that was happening in the first place? And more importantly, how to avoid it for all eternity? You won't but it doesn't hurt to aim high."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "7",
+      "text": "7"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Even though it isn't a runner-up,  Paul's comment  certainly deserves an honorable mention. His comment is actually a true story (with a slight amount of embellishment, of course) and it serves as a reminder that system administrators and developers must stand up for their beliefs even if it goes against the beliefs of their superiors. If your managers don't value the feedback, it might be a sign that a career change is in order.",
+      "text": "Even though it isn't a runner-up,  Paul's comment  certainly deserves an honorable mention. His comment is actually a true story (with a slight amount of embellishment, of course) and it serves as a reminder that system administrators and developers must stand up for their beliefs even if it goes against the beliefs of their superiors. If your managers don't value the feedback, it might be a sign that a career change is in order."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Once again,  a big thanks  goes out to everyone who submitted a comment. I'll reach out to the winners today and get the gift certificates sent out to them.",
+      "text": "Once again,  a big thanks  goes out to everyone who submitted a comment. I'll reach out to the winners today and get the gift certificates sent out to them."
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

@@ -1,0 +1,279 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 15399102812846501921,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2012/06/11/what-installing-a-ceiling-fan-can-teach-you-about-administering-servers/",
+      "text": "/2012/06/11/what-installing-a-ceiling-fan-can-teach-you-about-administering-servers/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "advice",
+      "text": "advice",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "sysadmin",
+      "text": "sysadmin",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The feedback from my last lengthy post ( Lessons learned in the ambulance pay dividends in the datacenter ) about analogies between EMS and server administration was mostly positive, so I decided to do it again!",
+      "text": "The feedback from my last lengthy post ( Lessons learned in the ambulance pay dividends in the datacenter ) about analogies between EMS and server administration was mostly positive, so I decided to do it again!"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Our ceiling fan in our living room died the night before we had all of our floors replaced and I knew that a portion of my weekend would be lost trying to replace it. The motor was totally dead but at least the lights still worked. However, in Texas, if the motor isn't running, no air is moving and the fan is worthless. Replacing the fan wouldn't be an easy task: our living room is 14 feet tall (that's about 4.3 meters) and our replacement fan was a pretty heavy one. Add in an almost-two-year-old running around the living room during the process and it gets a little tougher.",
+      "text": "Our ceiling fan in our living room died the night before we had all of our floors replaced and I knew that a portion of my weekend would be lost trying to replace it. The motor was totally dead but at least the lights still worked. However, in Texas, if the motor isn't running, no air is moving and the fan is worthless. Replacing the fan wouldn't be an easy task: our living room is 14 feet tall (that's about 4.3 meters) and our replacement fan was a pretty heavy one. Add in an almost-two-year-old running around the living room during the process and it gets a little tougher."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I took the old fan off pretty easily and was immediately stumped about the new one. The instructions had a method of installation that wasn't compatible with the outlet box in the ceiling and I didn't have the right bolts and washers for the job. A quick trip to Lowe's solved that and I was back in the game. The motor was soon hung, the wiring was connected, and I tested the wall switch. The motor didn't move.",
+      "text": "I took the old fan off pretty easily and was immediately stumped about the new one. The instructions had a method of installation that wasn't compatible with the outlet box in the ceiling and I didn't have the right bolts and washers for the job. A quick trip to Lowe's solved that and I was back in the game. The motor was soon hung, the wiring was connected, and I tested the wall switch. The motor didn't move."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "At this point, I figured that the light assembly was required for the motor to run. I screwed everything in, connected the light assembly, and still no movement. I thought that the light switch had possibly gone bad since my wife saw the lights flicker last week when she turned off the fan. Another trip to Lowe's yielded a new switch. Installed that - still no movement. Double-checked the breaker. Re-did the wiring in the fan. Tried the switch again. No movement.",
+      "text": "At this point, I figured that the light assembly was required for the motor to run. I screwed everything in, connected the light assembly, and still no movement. I thought that the light switch had possibly gone bad since my wife saw the lights flicker last week when she turned off the fan. Another trip to Lowe's yielded a new switch. Installed that - still no movement. Double-checked the breaker. Re-did the wiring in the fan. Tried the switch again. No movement."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The confusion soon started. The fan was new, the motor was new, the switch was new, and the wiring was verified. I called my stepfather in the hopes that he could think of something I couldn't but he said I'd thought of everything. He came over with a voltage tester and verified that the switch had power and so did the fan. He re-did the wiring and tried again. Still no movement.",
+      "text": "The confusion soon started. The fan was new, the motor was new, the switch was new, and the wiring was verified. I called my stepfather in the hopes that he could think of something I couldn't but he said I'd thought of everything. He came over with a voltage tester and verified that the switch had power and so did the fan. He re-did the wiring and tried again. Still no movement."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "He tilted his head for a second, then looked down at me:",
+      "text": "He tilted his head for a second, then looked down at me:"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "You did try pulling the chain for the fan, right? Usually the factory sets them up so that the lights and fan are off when you hang it. You know, for safety.",
+      "text": "You did try pulling the chain for the fan, right? Usually the factory sets them up so that the lights and fan are off when you hang it. You know, for safety."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "After a quick tug of the chain the motor was flying. I felt like an idiot and he had a good chuckle at my expense.",
+      "text": "After a quick tug of the chain the motor was flying. I felt like an idiot and he had a good chuckle at my expense."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "What's the point?",
+      "text": "What's the point?"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "We all do things like this when we administer servers. I touched on this back in  January 2010  and it's probably important enough to mention again.  Go for the simplest solutions first.  They're not only easier and faster to verify, but you'll be guaranteed to forget about them if you dive right into the more complicated stuff at first. Also, bear in mind that the same set of instructions won't fit all scenarios and situations. Trust your instincts when you know they're right.",
+      "text": "We all do things like this when we administer servers. I touched on this back in  January 2010  and it's probably important enough to mention again.  Go for the simplest solutions first.  They're not only easier and faster to verify, but you'll be guaranteed to forget about them if you dive right into the more complicated stuff at first. Also, bear in mind that the same set of instructions won't fit all scenarios and situations. Trust your instincts when you know they're right."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Sometimes situations crop up where you really need a second set of eyes. We're all eager to find the solution ourselves and avoid bothering others, but when you find yourself flailing for a solution, the best remedy may be to share your troubles with someone you trust.",
+      "text": "Sometimes situations crop up where you really need a second set of eyes. We're all eager to find the solution ourselves and avoid bothering others, but when you find yourself flailing for a solution, the best remedy may be to share your troubles with someone you trust."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

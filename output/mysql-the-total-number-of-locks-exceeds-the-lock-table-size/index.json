@@ -1,0 +1,391 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/html",
+    "binary_hash": 10832907696489173834,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2010/01/29/mysql-the-total-number-of-locks-exceeds-the-lock-table-size/",
+      "text": "/2010/01/29/mysql-the-total-number-of-locks-exceeds-the-lock-table-size/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "command line",
+      "text": "command line",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "database",
+      "text": "database",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "innodb",
+      "text": "innodb",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "memory",
+      "text": "memory",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "mysql",
+      "text": "mysql",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "This problem has cropped up for me a few times, but I've always forgotten to make a post about it. If you're working with a large InnoDB table and you're updating, inserting, or deleting a large volume of rows, you may stumble upon this error:",
+      "text": "This problem has cropped up for me a few times, but I've always forgotten to make a post about it. If you're working with a large InnoDB table and you're updating, inserting, or deleting a large volume of rows, you may stumble upon this error:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "ERROR 1206 (HY000): The total number of locks exceeds the lock table size",
+      "text": "ERROR 1206 (HY000): The total number of locks exceeds the lock table size",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "InnoDB stores its lock tables in the main buffer pool. This means that the number of locks you can have at the same time is limited by the",
+      "text": "InnoDB stores its lock tables in the main buffer pool. This means that the number of locks you can have at the same time is limited by the"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "innodb_buffer_pool_size",
+      "text": "innodb_buffer_pool_size",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "variable that was set when MySQL was started. By default, MySQL leaves this at 8MB, which is pretty useless if you're doing anything with InnoDB on your server.",
+      "text": "variable that was set when MySQL was started. By default, MySQL leaves this at 8MB, which is pretty useless if you're doing anything with InnoDB on your server."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Luckily, the fix for this issue is very easy: adjust",
+      "text": "Luckily, the fix for this issue is very easy: adjust"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "innodb_buffer_pool_size",
+      "text": "innodb_buffer_pool_size",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "to a more reasonable value. However, that fix does require a restart of the MySQL daemon. There's simply no way to adjust this variable on the fly (with the current stable MySQL versions as of this post's writing).",
+      "text": "to a more reasonable value. However, that fix does require a restart of the MySQL daemon. There's simply no way to adjust this variable on the fly (with the current stable MySQL versions as of this post's writing)."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Before you adjust the variable, make sure that your server can handle the additional memory usage. The",
+      "text": "Before you adjust the variable, make sure that your server can handle the additional memory usage. The"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "innodb_buffer_pool_size",
+      "text": "innodb_buffer_pool_size",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "variable is a server wide variable, not a per-thread variable, so it's shared between all of the connections to the MySQL server (like the query cache). If you set it to something like 1GB, MySQL won't use all of that up front. As MySQL finds more things to put in the buffer, the memory usage will gradually increase until it reaches 1GB. At that point, the oldest and least used data begins to get pruned when new data needs to be present.",
+      "text": "variable is a server wide variable, not a per-thread variable, so it's shared between all of the connections to the MySQL server (like the query cache). If you set it to something like 1GB, MySQL won't use all of that up front. As MySQL finds more things to put in the buffer, the memory usage will gradually increase until it reaches 1GB. At that point, the oldest and least used data begins to get pruned when new data needs to be present."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "So, you need a workaround without a MySQL restart?",
+      "text": "So, you need a workaround without a MySQL restart?"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "If you're in a pinch, and you need a workaround, break up your statements into chunks. If you need to delete a million rows, try deleting 5-10% of those rows per transaction. This may allow you to sneak under the lock table size limitations and clear out some data without restarting MySQL.",
+      "text": "If you're in a pinch, and you need a workaround, break up your statements into chunks. If you need to delete a million rows, try deleting 5-10% of those rows per transaction. This may allow you to sneak under the lock table size limitations and clear out some data without restarting MySQL."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "To learn more about InnoDB's parameters, visit the  MySQL documentation .",
+      "text": "To learn more about InnoDB's parameters, visit the  MySQL documentation ."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

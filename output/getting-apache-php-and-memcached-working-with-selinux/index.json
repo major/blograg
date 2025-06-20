@@ -1,0 +1,680 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 11544100772420515787,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2011/09/07/getting-apache-php-and-memcached-working-with-selinux/",
+      "text": "/2011/09/07/getting-apache-php-and-memcached-working-with-selinux/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "apache",
+      "text": "apache",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "centos",
+      "text": "centos",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "command line",
+      "text": "command line",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "memcached",
+      "text": "memcached",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "php",
+      "text": "php",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "red hat",
+      "text": "red hat",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ruby",
+      "text": "ruby",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "security",
+      "text": "security",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "selinux",
+      "text": "selinux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "sysadmin",
+      "text": "sysadmin",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "1",
+      "text": "1"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I'm using SELinux more often now on my Fedora 15 installations and I came up against a peculiar issue today on a new server. My PHP installation is configured to store its sessions in memcached and I brought over some working configurations from another server. However, each time I accessed a page which tried to initiate a session, the page load would hang for about a minute and I'd find this in my apache error logs:",
+      "text": "I'm using SELinux more often now on my Fedora 15 installations and I came up against a peculiar issue today on a new server. My PHP installation is configured to store its sessions in memcached and I brought over some working configurations from another server. However, each time I accessed a page which tried to initiate a session, the page load would hang for about a minute and I'd find this in my apache error logs:"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "[Thu Sep 08 03:23:40 2011] [error] [client 11.22.33.44] PHP Warning:\nUnknown: Failed to write session data (memcached). Please verify that\nthe current setting of session.save_path is correct (127.0.0.1:11211)\nin Unknown on line 0",
+      "text": "[Thu Sep 08 03:23:40 2011] [error] [client 11.22.33.44] PHP Warning:\nUnknown: Failed to write session data (memcached). Please verify that\nthe current setting of session.save_path is correct (127.0.0.1:11211)\nin Unknown on line 0",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I ran through my usual list of checks:",
+      "text": "I ran through my usual list of checks:"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "netstat showed memcached bound to the correct ports/interfaces",
+      "text": "netstat showed memcached bound to the correct ports/interfaces",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "memcached was running and I could reach it via telnet",
+      "text": "memcached was running and I could reach it via telnet",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "memcached-tool could connect and pull stats from memcached",
+      "text": "memcached-tool could connect and pull stats from memcached",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "double-checked my php.ini",
+      "text": "double-checked my php.ini",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "tested memcached connectivity via a PHP and ruby script - they worked",
+      "text": "tested memcached connectivity via a PHP and ruby script - they worked",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Even after all that, I still couldn't figure out what was wrong. I ran strace on memcached while I ran a curl against the page which creates a session and I found something significant - memcached wasn't seeing any connections whatsoever at that time. A quick check of the lo interface with tcpdump showed the same result. Just before I threw a chair, I remembered one thing:",
+      "text": "Even after all that, I still couldn't figure out what was wrong. I ran strace on memcached while I ran a curl against the page which creates a session and I found something significant - memcached wasn't seeing any connections whatsoever at that time. A quick check of the lo interface with tcpdump showed the same result. Just before I threw a chair, I remembered one thing:"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "SELinux.",
+      "text": "SELinux."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "A quick check for AVC denials showed the problem:",
+      "text": "A quick check for AVC denials showed the problem:"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# aureport --avc | tail -n 1\n4021. 09/08/2011 03:23:38 httpd system_u:system_r:httpd_t:s0 42 tcp_socket name_connect system_u:object_r:memcache_port_t:s0 denied 31536",
+      "text": "# aureport --avc | tail -n 1\n4021. 09/08/2011 03:23:38 httpd system_u:system_r:httpd_t:s0 42 tcp_socket name_connect system_u:object_r:memcache_port_t:s0 denied 31536",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I'm far from being a guru on SELinux, so I leaned on audit2allow for help:",
+      "text": "I'm far from being a guru on SELinux, so I leaned on audit2allow for help:"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# grep memcache /var/log/audit/audit.log | audit2allow\n\n#============= httpd_t ==============\n#!!!! This avc can be allowed using one of the these booleans:\n#     httpd_can_network_relay, httpd_can_network_memcache, httpd_can_network_connect\n\nallow httpd_t memcache_port_t:tcp_socket name_connect;",
+      "text": "# grep memcache /var/log/audit/audit.log | audit2allow\n\n#============= httpd_t ==============\n#!!!! This avc can be allowed using one of the these booleans:\n#     httpd_can_network_relay, httpd_can_network_memcache, httpd_can_network_connect\n\nallow httpd_t memcache_port_t:tcp_socket name_connect;",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The boolean we're looking for is ",
+      "text": "The boolean we're looking for is "
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "httpd_can_network_memcache",
+      "text": "httpd_can_network_memcache",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": ". Flipping the boolean can be done in a snap:",
+      "text": ". Flipping the boolean can be done in a snap:"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# setsebool -P httpd_can_network_memcache 1\n# getsebool httpd_can_network_memcache\nhttpd_can_network_memcache --> on",
+      "text": "# setsebool -P httpd_can_network_memcache 1\n# getsebool httpd_can_network_memcache\nhttpd_can_network_memcache --> on",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "After adjusting the boolean, apache was able to make connections to memcached without a hitch. My page which created sessions loaded quickly and I could see data being stored in memcached. If you want to check the status of all of the apache-related SELinux booleans, just use getsebool:",
+      "text": "After adjusting the boolean, apache was able to make connections to memcached without a hitch. My page which created sessions loaded quickly and I could see data being stored in memcached. If you want to check the status of all of the apache-related SELinux booleans, just use getsebool:"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# getsebool -a | grep httpd | grep off$\nallow_httpd_anon_write --> off\nallow_httpd_mod_auth_ntlm_winbind --> off\nallow_httpd_mod_auth_pam --> off\nallow_httpd_sys_script_anon_write --> off\nhttpd_can_check_spam --> off\nhttpd_can_network_connect_cobbler --> off\nhttpd_can_network_connect_db --> off\nhttpd_can_network_relay --> off\nhttpd_can_sendmail --> off\nhttpd_dbus_avahi --> off\nhttpd_enable_ftp_server --> off\nhttpd_enable_homedirs --> off\nhttpd_execmem --> off\nhttpd_read_user_content --> off\nhttpd_setrlimit --> off\nhttpd_ssi_exec --> off\nhttpd_tmp_exec --> off\nhttpd_unified --> off\nhttpd_use_cifs --> off\nhttpd_use_gpg --> off\nhttpd_use_nfs --> off",
+      "text": "# getsebool -a | grep httpd | grep off$\nallow_httpd_anon_write --> off\nallow_httpd_mod_auth_ntlm_winbind --> off\nallow_httpd_mod_auth_pam --> off\nallow_httpd_sys_script_anon_write --> off\nhttpd_can_check_spam --> off\nhttpd_can_network_connect_cobbler --> off\nhttpd_can_network_connect_db --> off\nhttpd_can_network_relay --> off\nhttpd_can_sendmail --> off\nhttpd_dbus_avahi --> off\nhttpd_enable_ftp_server --> off\nhttpd_enable_homedirs --> off\nhttpd_execmem --> off\nhttpd_read_user_content --> off\nhttpd_setrlimit --> off\nhttpd_ssi_exec --> off\nhttpd_tmp_exec --> off\nhttpd_unified --> off\nhttpd_use_cifs --> off\nhttpd_use_gpg --> off\nhttpd_use_nfs --> off",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If you're interested in SELinux, a good way to get your feet wet is to head over to the CentOS Wiki and review their  SELinux Howtos",
+      "text": "If you're interested in SELinux, a good way to get your feet wet is to head over to the CentOS Wiki and review their  SELinux Howtos"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

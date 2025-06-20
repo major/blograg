@@ -1,0 +1,178 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 6734076932019939781,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2007/07/18/importing-existing-keys-and-certificates-into-java-keystore-files/",
+      "text": "/2007/07/18/importing-existing-keys-and-certificates-into-java-keystore-files/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "command line",
+      "text": "command line",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "web",
+      "text": "web",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Making Java keystores at the same time as you create a CSR and key is pretty easy, but if you have a pre-made private key that you want to throw into a keystore, it can be difficult. However, follow these steps and you'll ber done quickly!",
+      "text": "Making Java keystores at the same time as you create a CSR and key is pretty easy, but if you have a pre-made private key that you want to throw into a keystore, it can be difficult. However, follow these steps and you'll ber done quickly!"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Save the new certificate to server.crt and the new key to server.key. If intermediate certificates are necessary, then place all of the certificates into a file called cacert.crt. Now, you will have to make a PKCS #12 file:",
+      "text": "Save the new certificate to server.crt and the new key to server.key. If intermediate certificates are necessary, then place all of the certificates into a file called cacert.crt. Now, you will have to make a PKCS #12 file:"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "openssl pkcs12 -export -inkey server.key -in server.crt \\\n    -name tomcat-domain.com -certfile cacert.crt -out domain.com.p12",
+      "text": "openssl pkcs12 -export -inkey server.key -in server.crt \\\n    -name tomcat-domain.com -certfile cacert.crt -out domain.com.p12",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "To perform the rest of the work, you will need a copy of the KeyTool GUI. In the GUI, make a new keystore in JKS format. Import the PKCS #12 key pair, and save the keystore as a JKS. Upload the keystore to the server and then configure the keystore within Tomcat/JBoss.",
+      "text": "To perform the rest of the work, you will need a copy of the KeyTool GUI. In the GUI, make a new keystore in JKS format. Import the PKCS #12 key pair, and save the keystore as a JKS. Upload the keystore to the server and then configure the keystore within Tomcat/JBoss."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

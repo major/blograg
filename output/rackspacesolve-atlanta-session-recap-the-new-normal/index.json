@@ -1,0 +1,245 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/html",
+    "binary_hash": 12238372473340910908,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2015/04/15/rackspacesolve-atlanta-session-recap-the-new-normal/",
+      "text": "/2015/04/15/rackspacesolve-atlanta-session-recap-the-new-normal/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "This post originally appeared on the  Rackspace Blog  and I've posted it here for readers of this blog. Feel free to send over any comments you have!",
+      "text": "This post originally appeared on the  Rackspace Blog  and I've posted it here for readers of this blog. Feel free to send over any comments you have!"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Most IT professionals would agree that 2014 was a long year. Heartbleed, Shellshock, Sandworm and POODLE were just a subset of the vulnerabilities that caused many of us to stay up late and reach for more coffee. As these vulnerabilities became public, I found myself fielding questions from non-technical family members after they watched the CBS Evening News and wondered what was happening. Security is now part of the popular discussion.",
+      "text": "Most IT professionals would agree that 2014 was a long year. Heartbleed, Shellshock, Sandworm and POODLE were just a subset of the vulnerabilities that caused many of us to stay up late and reach for more coffee. As these vulnerabilities became public, I found myself fielding questions from non-technical family members after they watched the CBS Evening News and wondered what was happening. Security is now part of the popular discussion."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Aaron Hackney and I delivered a presentation at Rackspace::Solve Atlanta called \"The New Normal\" where we armed the audience with security strategies that channel spending to the most effective security improvements. Our approach at Rackspace is simple and balanced: use common sense prevention strategies, invest heavily in detection, and be sure you're ready to respond when (not if) disaster strikes. We try to help companies prioritize by focusing on a few key areas. Know when there's a breach. Know what they touched. Know who's responsible. Below, I've included five ways to put this approach into practice.",
+      "text": "Aaron Hackney and I delivered a presentation at Rackspace::Solve Atlanta called \"The New Normal\" where we armed the audience with security strategies that channel spending to the most effective security improvements. Our approach at Rackspace is simple and balanced: use common sense prevention strategies, invest heavily in detection, and be sure you're ready to respond when (not if) disaster strikes. We try to help companies prioritize by focusing on a few key areas. Know when there's a breach. Know what they touched. Know who's responsible. Below, I've included five ways to put this approach into practice."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "First, common sense prevention includes using industry best practices like system and network hardening standards. Almost every device provides some kind of logging but we rarely review the logs and we often don't know which types of events should trigger suspicion. Monitoring logs, securely configuring devices, and segmenting networks will lead to a great prevention strategy without significant costs (in time or money).",
+      "text": "First, common sense prevention includes using industry best practices like system and network hardening standards. Almost every device provides some kind of logging but we rarely review the logs and we often don't know which types of events should trigger suspicion. Monitoring logs, securely configuring devices, and segmenting networks will lead to a great prevention strategy without significant costs (in time or money)."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Second, many businesses will overspend on more focused prevention strategies before they know what they're up against. This is where detection becomes key. Intrusion detection systems, log management systems, and NetFlow analysis can give you an idea of where an intruder might be within your systems and what they may have accessed. Combining these systems allows you to thwart the more advanced attackers that might use encrypted tunnels or move data via unusual protocols (like exfiltration via DNS or ICMP).",
+      "text": "Second, many businesses will overspend on more focused prevention strategies before they know what they're up against. This is where detection becomes key. Intrusion detection systems, log management systems, and NetFlow analysis can give you an idea of where an intruder might be within your systems and what they may have accessed. Combining these systems allows you to thwart the more advanced attackers that might use encrypted tunnels or move data via unusual protocols (like exfiltration via DNS or ICMP)."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Third, when an incident does happen, everyone needs to know their place: including employees, partners, and customers. Every business needs a way to communicate incident severity without talking about the incident in great detail. If you've seen the movie WarGames, you probably remember them changing DEFCON levels at NORAD. Everyone knew their place and their duties whenever the DECFON level changed even if they didn't know the specific nature of the incident. Think about how you will communicate when you really can't - this is critical.",
+      "text": "Third, when an incident does happen, everyone needs to know their place: including employees, partners, and customers. Every business needs a way to communicate incident severity without talking about the incident in great detail. If you've seen the movie WarGames, you probably remember them changing DEFCON levels at NORAD. Everyone knew their place and their duties whenever the DECFON level changed even if they didn't know the specific nature of the incident. Think about how you will communicate when you really can't - this is critical."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Fourth, the data gathered by the layers of detection combined with the root cause analysis (RCA) from the incident response will show you where to spend on additional prevention. RCA will also give you the metrics you need for conversation with executives around security changes.",
+      "text": "Fourth, the data gathered by the layers of detection combined with the root cause analysis (RCA) from the incident response will show you where to spend on additional prevention. RCA will also give you the metrics you need for conversation with executives around security changes."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "One last tip - when you think about changes, opt for a larger number of smaller changes. The implementation will be less expensive and the probability of employee and customer backlash is greatly reduced.",
+      "text": "One last tip - when you think about changes, opt for a larger number of smaller changes. The implementation will be less expensive and the probability of employee and customer backlash is greatly reduced."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "For more tips on making changes within a company, I highly recommend reading  Switch: How to Change When Change Is Hard .",
+      "text": "For more tips on making changes within a company, I highly recommend reading  Switch: How to Change When Change Is Hard ."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "We'd like to thank all of the Solve attendees who joined us for our talk. The questions after the talk were great and they led to plenty of hallway conversations afterwards. We hope to see you at a future Solve event!",
+      "text": "We'd like to thank all of the Solve attendees who joined us for our talk. The questions after the talk were great and they led to plenty of hallway conversations afterwards. We hope to see you at a future Solve event!"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "from",
+      "text": "from"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

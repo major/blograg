@@ -1,0 +1,342 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 6752228716787524297,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2014/06/25/get-colorful-ansible-output-in-jenkins/",
+      "text": "/2014/06/25/get-colorful-ansible-output-in-jenkins/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ansible",
+      "text": "ansible",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "jenkins",
+      "text": "jenkins",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "sudo",
+      "text": "sudo",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Working with ansible is enjoyable, but it's a little bland when you use it with Jenkins. Jenkins doesn't spawn a TTY and that causes ansible to skip over the code that outputs status lines with colors. The fix is relatively straightforward.",
+      "text": "Working with ansible is enjoyable, but it's a little bland when you use it with Jenkins. Jenkins doesn't spawn a TTY and that causes ansible to skip over the code that outputs status lines with colors. The fix is relatively straightforward."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "First, install the  AnsiColor Plugin  on your Jenkins node.",
+      "text": "First, install the  AnsiColor Plugin  on your Jenkins node."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Once that's done, edit your Jenkins job so that you export  ANSIBLE FORCE COLOR=true  before running ansible:",
+      "text": "Once that's done, edit your Jenkins job so that you export  ANSIBLE FORCE COLOR=true  before running ansible:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "export ANSIBLE_FORCE_COLOR=true\nansible-playbook -i hosts site.yml",
+      "text": "export ANSIBLE_FORCE_COLOR=true\nansible-playbook -i hosts site.yml",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If your ansible playbook requires sudo to run properly on your local host, be sure to use the  -E  option with sudo so that your environment variables are preserved when your job runs. For example:",
+      "text": "If your ansible playbook requires sudo to run properly on your local host, be sure to use the  -E  option with sudo so that your environment variables are preserved when your job runs. For example:"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "export ANSIBLE_FORCE_COLOR=true\nsudo -E ansible-playbook -i hosts site.yml",
+      "text": "export ANSIBLE_FORCE_COLOR=true\nsudo -E ansible-playbook -i hosts site.yml",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "HOLD UP:  As  Sam Sharpe  reminded me, the better way to handle environment variables with sudo is to add them to  env_keep  in your sudoers file (use ",
+      "text": "HOLD UP:  As  Sam Sharpe  reminded me, the better way to handle environment variables with sudo is to add them to  env_keep  in your sudoers file (use "
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "visudo",
+      "text": "visudo",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " to edit it):",
+      "text": " to edit it):"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "Defaults        env_reset\nDefaults        env_keep += \"ANSIBLE_FORCE_COLOR\"",
+      "text": "Defaults        env_reset\nDefaults        env_keep += \"ANSIBLE_FORCE_COLOR\"",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Adding it to  env_keep  is a more secure method and you won't need the  -E  any longer on the command line.",
+      "text": "Adding it to  env_keep  is a more secure method and you won't need the  -E  any longer on the command line."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "While you're on the configuration page for your Jenkins job, look for  Color ANSI Console Output  under the  Build Environment  section. Enable it and ensure  xterm  is selected in the drop-down box.",
+      "text": "While you're on the configuration page for your Jenkins job, look for  Color ANSI Console Output  under the  Build Environment  section. Enable it and ensure  xterm  is selected in the drop-down box."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Save your new configuration and run your job again. You should have some awesome colors in your console output when your ansible job runs.",
+      "text": "Save your new configuration and run your job again. You should have some awesome colors in your console output when your ansible job runs."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

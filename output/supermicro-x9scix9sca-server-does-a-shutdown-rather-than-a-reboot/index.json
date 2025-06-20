@@ -1,0 +1,438 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 17625745722079502389,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2013/06/03/supermicro-x9scix9sca-server-does-a-shutdown-rather-than-a-reboot/",
+      "text": "/2013/06/03/supermicro-x9scix9sca-server-does-a-shutdown-rather-than-a-reboot/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "centos",
+      "text": "centos",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "command line",
+      "text": "command line",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "red hat",
+      "text": "red hat",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "sysadmin",
+      "text": "sysadmin",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Most of my websites run on a pair of Supermicro servers that I purchased from  Silicon Mechanics  (and I can't say enough good things about them and their servers). One problem that kept cropping up was that the servers would become unresponsive during a reboot. If I issued the ",
+      "text": "Most of my websites run on a pair of Supermicro servers that I purchased from  Silicon Mechanics  (and I can't say enough good things about them and their servers). One problem that kept cropping up was that the servers would become unresponsive during a reboot. If I issued the "
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "reboot",
+      "text": "reboot",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " command in Linux, the machine would begin the reboot process, power off, and remain powered off.",
+      "text": " command in Linux, the machine would begin the reboot process, power off, and remain powered off."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Needless to say, this is highly annoying.",
+      "text": "Needless to say, this is highly annoying."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The only way to bring the machine back was to use ipmitool on my other server or access the IPMI/iKVM interface on the downed server. I tested Fedora 15 through 19 and confirmed the issue in each OS. Finally, I installed CentOS 6 and the problem disappeared. The servers would reboot and come back online as expected.",
+      "text": "The only way to bring the machine back was to use ipmitool on my other server or access the IPMI/iKVM interface on the downed server. I tested Fedora 15 through 19 and confirmed the issue in each OS. Finally, I installed CentOS 6 and the problem disappeared. The servers would reboot and come back online as expected."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Fast forward to this evening. I discovered a  helpful forum thread  where users were discussing a similar problem on a X9SCA-F Supermicro board. The fix was to blacklist a kernel module like this:",
+      "text": "Fast forward to this evening. I discovered a  helpful forum thread  where users were discussing a similar problem on a X9SCA-F Supermicro board. The fix was to blacklist a kernel module like this:"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/etc/modprobe.d/blacklist.conf",
+      "text": "/etc/modprobe.d/blacklist.conf",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I tried to ",
+      "text": "I tried to "
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "rmmod mei",
+      "text": "rmmod mei",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " and reboot, but the machine stayed powered off again. When I powered it back on with the module blacklisted from the start, I found that I could reboot normally and the server would boot up again. The module is from Intel:",
+      "text": " and reboot, but the machine stayed powered off again. When I powered it back on with the module blacklisted from the start, I found that I could reboot normally and the server would boot up again. The module is from Intel:"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# modinfo mei | grep desc\nsummary:    Intel(R) Management Engine Interface",
+      "text": "# modinfo mei | grep desc\nsummary:    Intel(R) Management Engine Interface",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The Intel Management Engine is a BIOS extension that enables Intel Active Management Technology (AMT). Intel  has a PDF  that gives an overview of AMT:",
+      "text": "The Intel Management Engine is a BIOS extension that enables Intel Active Management Technology (AMT). Intel  has a PDF  that gives an overview of AMT:"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Intel\u00ae Active Management Technology (Intel\u00ae AMT) is a capability embedded in Intel-based platforms that enhances the ability of IT organizations to manage enterprise computing facilities. Intel AMT operates independently of the platform processor and operating system. Remote platform management applications can access Intel AMT securely, even when the platform is turned off, as long as the platform is connected to line power and to a network. Independent software vendors (ISVs) can build applications that take advantage of the features of Intel AMT using the application programming interface (API).",
+      "text": "Intel\u00ae Active Management Technology (Intel\u00ae AMT) is a capability embedded in Intel-based platforms that enhances the ability of IT organizations to manage enterprise computing facilities. Intel AMT operates independently of the platform processor and operating system. Remote platform management applications can access Intel AMT securely, even when the platform is turned off, as long as the platform is connected to line power and to a network. Independent software vendors (ISVs) can build applications that take advantage of the features of Intel AMT using the application programming interface (API)."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "That's a mouthful.",
+      "text": "That's a mouthful."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "It essentially allows you to manage large amounts of hardware and keep an inventory. You can also pull event logs from the machine even if it's powered off. Applications running within the OS on the server can give data to the AMT interface that allows administrators to retrieve the data without needing access to the OS.",
+      "text": "It essentially allows you to manage large amounts of hardware and keep an inventory. You can also pull event logs from the machine even if it's powered off. Applications running within the OS on the server can give data to the AMT interface that allows administrators to retrieve the data without needing access to the OS."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The blacklisted module hasn't affected the server negatively (as far as I can tell).",
+      "text": "The blacklisted module hasn't affected the server negatively (as far as I can tell)."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

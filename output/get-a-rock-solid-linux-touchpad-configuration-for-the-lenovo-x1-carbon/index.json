@@ -1,0 +1,193 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 13442410682397166645,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2013/08/24/get-a-rock-solid-linux-touchpad-configuration-for-the-lenovo-x1-carbon/",
+      "text": "/2013/08/24/get-a-rock-solid-linux-touchpad-configuration-for-the-lenovo-x1-carbon/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "thinkpad",
+      "text": "thinkpad",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The X1 Carbon's touchpad has been my nemesis in Linux for quite some time because of its high sensitivity. I'd often find the cursor jumping over a few pixels each time I tried to tap to click. This was aggravating at first, but then I found myself closing windows when I wanted them minimized or confirming something in a dialog that I didn't want to confirm.",
+      "text": "The X1 Carbon's touchpad has been my nemesis in Linux for quite some time because of its high sensitivity. I'd often find the cursor jumping over a few pixels each time I tried to tap to click. This was aggravating at first, but then I found myself closing windows when I wanted them minimized or confirming something in a dialog that I didn't want to confirm."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Last December,  I wrote a post about some fixes . However, as I force myself to migrate to Linux (no turning back this time) again, my fixes didn't work well enough. I  stumbled upon a post  about the X1's touchpad and how an Ubuntu user found a configuration file that seemed to work well.",
+      "text": "Last December,  I wrote a post about some fixes . However, as I force myself to migrate to Linux (no turning back this time) again, my fixes didn't work well enough. I  stumbled upon a post  about the X1's touchpad and how an Ubuntu user found a configuration file that seemed to work well."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Just as a timesaver, I've reposted his configuration here:",
+      "text": "Just as a timesaver, I've reposted his configuration here:"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# softlink this file into:\n# /usr/share/X11/xorg.conf.d\n\n# and prevent the settings app from overwriting our settings:\n# gsettings set org.gnome.settings-daemon.plugins.mouse active false\n\n\nSection \"InputClass\"\n    Identifier \"nathan touchpad catchall\"\n    MatchIsTouchpad \"on\"\n    MatchDevicePath \"/dev/input/event*\"\n    Driver \"synaptics\"\n\n    # three fingers for the middle button\n    Option \"TapButton3\" \"2\"\n    # drag lock\n    Option \"LockedDrags\" \"1\"\n    # accurate tap-to-click!\n    Option \"FingerLow\" \"50\"\n    Option \"FingerHigh\" \"55\"\n\n    # prevents too many intentional clicks\n    Option \"PalmDetect\" \"0\"\n\n    # \"natural\" vertical and horizontal scrolling\n    Option \"VertTwoFingerScroll\" \"1\"\n    Option \"VertScrollDelta\" \"-75\"\n    Option \"HorizTwoFingerScroll\" \"1\"\n    Option \"HorizScrollDelta\" \"-75\"\n\n    Option \"MinSpeed\" \"1\"\n    Option \"MaxSpeed\" \"1\"\n\n    Option \"AccelerationProfile\" \"2\"\n    Option \"ConstantDeceleration\" \"4\"\nEndSection",
+      "text": "# softlink this file into:\n# /usr/share/X11/xorg.conf.d\n\n# and prevent the settings app from overwriting our settings:\n# gsettings set org.gnome.settings-daemon.plugins.mouse active false\n\n\nSection \"InputClass\"\n    Identifier \"nathan touchpad catchall\"\n    MatchIsTouchpad \"on\"\n    MatchDevicePath \"/dev/input/event*\"\n    Driver \"synaptics\"\n\n    # three fingers for the middle button\n    Option \"TapButton3\" \"2\"\n    # drag lock\n    Option \"LockedDrags\" \"1\"\n    # accurate tap-to-click!\n    Option \"FingerLow\" \"50\"\n    Option \"FingerHigh\" \"55\"\n\n    # prevents too many intentional clicks\n    Option \"PalmDetect\" \"0\"\n\n    # \"natural\" vertical and horizontal scrolling\n    Option \"VertTwoFingerScroll\" \"1\"\n    Option \"VertScrollDelta\" \"-75\"\n    Option \"HorizTwoFingerScroll\" \"1\"\n    Option \"HorizScrollDelta\" \"-75\"\n\n    Option \"MinSpeed\" \"1\"\n    Option \"MaxSpeed\" \"1\"\n\n    Option \"AccelerationProfile\" \"2\"\n    Option \"ConstantDeceleration\" \"4\"\nEndSection",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Many many thanks to  Nathan Hamblen  for assembling this configuration and offering it out to the masses on his blog.",
+      "text": "Many many thanks to  Nathan Hamblen  for assembling this configuration and offering it out to the masses on his blog."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

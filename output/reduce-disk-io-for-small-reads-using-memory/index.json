@@ -1,0 +1,304 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 4543746253249633754,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2008/08/07/reduce-disk-io-for-small-reads-using-memory/",
+      "text": "/2008/08/07/reduce-disk-io-for-small-reads-using-memory/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "iowait",
+      "text": "iowait",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "kernel",
+      "text": "kernel",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "memory",
+      "text": "memory",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Many applications that are used on a standard server perform quite a few of small writes to the disk (like MySQL or Apache). These writes can pile up and limit the performance of your applications. If you have kernel 2.6.9 or later, you can adjust how these small writes are handled to allow for better performance.",
+      "text": "Many applications that are used on a standard server perform quite a few of small writes to the disk (like MySQL or Apache). These writes can pile up and limit the performance of your applications. If you have kernel 2.6.9 or later, you can adjust how these small writes are handled to allow for better performance."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "There's two main kernel variables to know:",
+      "text": "There's two main kernel variables to know:"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "vm.dirty_ratio  - The highest % of your memory that can be used to hold dirty data. If you set this to a low value, the kernel will flush small writes to the disk more often. Higher values allow the small writes to stack up in memory. They'll go to the disk in bigger chunks.",
+      "text": "vm.dirty_ratio  - The highest % of your memory that can be used to hold dirty data. If you set this to a low value, the kernel will flush small writes to the disk more often. Higher values allow the small writes to stack up in memory. They'll go to the disk in bigger chunks."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "vm.dirty background ratio  - The lowest % of your memory where pdflush is told to stop when it is writing dirty data. You'll want to keep this set as low as possible.",
+      "text": "vm.dirty background ratio  - The lowest % of your memory where pdflush is told to stop when it is writing dirty data. You'll want to keep this set as low as possible."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "These might confuse you. In short, when your memory begins filling with little pieces of data that needs to be written to the disk, it will keep filling until it reaches the dirty ratio. At that point, pdflush will start up, and it will write data until it reduces the dirty data to the value set by dirty background_ratio.",
+      "text": "These might confuse you. In short, when your memory begins filling with little pieces of data that needs to be written to the disk, it will keep filling until it reaches the dirty ratio. At that point, pdflush will start up, and it will write data until it reduces the dirty data to the value set by dirty background_ratio."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Stock 2.6.9 kernels have a dirty background ratio of 10% and a dirty ratio of 40%. Some distributions tweak these defaults to something different, so you may want to review the settings on your system. On a system with heavy disk I/O, you can increase the dirty ratio and reduce the dirty background ratio. A little experimentation may be necessary to find the perfect setting for your server.",
+      "text": "Stock 2.6.9 kernels have a dirty background ratio of 10% and a dirty ratio of 40%. Some distributions tweak these defaults to something different, so you may want to review the settings on your system. On a system with heavy disk I/O, you can increase the dirty ratio and reduce the dirty background ratio. A little experimentation may be necessary to find the perfect setting for your server."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If you want to play with the variables, just use your standard echo:",
+      "text": "If you want to play with the variables, just use your standard echo:"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "echo 5 > /proc/sys/vm/dirty_background_ratio\necho 60 > /proc/sys/vm/dirty_ratio",
+      "text": "echo 5 > /proc/sys/vm/dirty_background_ratio\necho 60 > /proc/sys/vm/dirty_ratio",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Once you've found the right setting, you can set it permanently by adding lines to your /etc/sysctl.conf:",
+      "text": "Once you've found the right setting, you can set it permanently by adding lines to your /etc/sysctl.conf:"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "vm.dirty_background_ratio = 5\nvm.dirty_ratio = 60",
+      "text": "vm.dirty_background_ratio = 5\nvm.dirty_ratio = 60",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If you have a reliable server with a good RAID card and power supply, you could set the dirty ratio to 100 and the dirty background_ratio to 1. This was recommended by a buddy of mine who runs quite a few servers running virtual machines.",
+      "text": "If you have a reliable server with a good RAID card and power supply, you could set the dirty ratio to 100 and the dirty background_ratio to 1. This was recommended by a buddy of mine who runs quite a few servers running virtual machines."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

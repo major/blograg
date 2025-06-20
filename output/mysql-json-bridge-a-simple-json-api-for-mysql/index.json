@@ -1,0 +1,428 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 10391850405374984194,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2012/03/28/mysql-json-bridge-a-simple-json-api-for-mysql/",
+      "text": "/2012/03/28/mysql-json-bridge-a-simple-json-api-for-mysql/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "development",
+      "text": "development",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "github",
+      "text": "github",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "json",
+      "text": "json",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "mysql",
+      "text": "mysql",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "python",
+      "text": "python",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "rackspace",
+      "text": "rackspace",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "web",
+      "text": "web",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "My quest to get better at  Python  led me to create a new project on GitHub. It's called  mysql-json-bridge  and it's ready for you to use.",
+      "text": "My quest to get better at  Python  led me to create a new project on GitHub. It's called  mysql-json-bridge  and it's ready for you to use."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Why do we need a JSON API for MySQL?",
+      "text": "Why do we need a JSON API for MySQL?"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The real need sprang from a situation I was facing daily at  Rackspace . We have a lot of production and pre-production environments which are in flux but we need a way to query data from various MySQL servers for multiple purposes. Some folks need data in ruby or python scripts while others need to drag in data with .NET and Java. Wrestling with the various adapters and all of the user privileges on disparate database servers behind different firewalls on different networks was less than enjoyable.",
+      "text": "The real need sprang from a situation I was facing daily at  Rackspace . We have a lot of production and pre-production environments which are in flux but we need a way to query data from various MySQL servers for multiple purposes. Some folks need data in ruby or python scripts while others need to drag in data with .NET and Java. Wrestling with the various adapters and all of the user privileges on disparate database servers behind different firewalls on different networks was less than enjoyable."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "That's where this bridge comes in.",
+      "text": "That's where this bridge comes in."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The bridge essentially gives anyone the ability to talk to multiple database servers across different environments by talking to a single endpoint with easily configurable security and encryption. As long as the remote user can make an HTTP POST and parse some JSON, they can query data from multiple MySQL endpoints.",
+      "text": "The bridge essentially gives anyone the ability to talk to multiple database servers across different environments by talking to a single endpoint with easily configurable security and encryption. As long as the remote user can make an HTTP POST and parse some JSON, they can query data from multiple MySQL endpoints."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "How does it work?",
+      "text": "How does it work?"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "It all starts with a simple HTTP POST. I've become a big fan of the Python  requests  module. If you're using it, this is all you need to submit a query:",
+      "text": "It all starts with a simple HTTP POST. I've become a big fan of the Python  requests  module. If you're using it, this is all you need to submit a query:"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "import requests\npayload = {'sql': 'SELECT * FROM some_tables WHERE some_column=some_value'}\nurl = \"http://localhost:5000/my_environment/my_database\"\nr = requests.post(url, data=payload)\nprint r.text",
+      "text": "import requests\npayload = {'sql': 'SELECT * FROM some_tables WHERE some_column=some_value'}\nurl = \"http://localhost:5000/my_environment/my_database\"\nr = requests.post(url, data=payload)\nprint r.text",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The bridge takes your query and feeds it into the corresponding MySQL server. When the results come back, they're converted to JSON and returned via the same HTTP connection.",
+      "text": "The bridge takes your query and feeds it into the corresponding MySQL server. When the results come back, they're converted to JSON and returned via the same HTTP connection."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "What technology does it use?",
+      "text": "What technology does it use?"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Flask  does the heavy lifting for the HTTP requests and  Facebook's Tornado database class  wraps the  MySQLdb  module in something a little more user friendly. Other than those modules,  PyYAML  and  requests  are the only other modules not provided by the standard Python libraries.",
+      "text": "Flask  does the heavy lifting for the HTTP requests and  Facebook's Tornado database class  wraps the  MySQLdb  module in something a little more user friendly. Other than those modules,  PyYAML  and  requests  are the only other modules not provided by the standard Python libraries."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Is it fast?",
+      "text": "Is it fast?"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Yes. I haven't done any detailed benchmarks on it yet, but the overhead is quite low even with a lot of concurrency. The biggest slowdowns come from network latency between you and the bridge or between the bridge and the database server. Keep in mind that gigantic result sets will take a longer time to transfer across the network and get transformed into JSON.",
+      "text": "Yes. I haven't done any detailed benchmarks on it yet, but the overhead is quite low even with a lot of concurrency. The biggest slowdowns come from network latency between you and the bridge or between the bridge and the database server. Keep in mind that gigantic result sets will take a longer time to transfer across the network and get transformed into JSON."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I found a bug. I have an idea for an improvement. You're terrible at Python.",
+      "text": "I found a bug. I have an idea for an improvement. You're terrible at Python."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "All feedback (and every pull request) is welcome. I'm still getting the hang of Python (hey, I've only been writing in it seriously for a few weeks!) and I'm always eager to learn a new or better way to accomplish something. Feel free to create an issue in GitHub or submit a pull request with a patch.",
+      "text": "All feedback (and every pull request) is welcome. I'm still getting the hang of Python (hey, I've only been writing in it seriously for a few weeks!) and I'm always eager to learn a new or better way to accomplish something. Feel free to create an issue in GitHub or submit a pull request with a patch."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

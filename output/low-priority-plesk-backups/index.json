@@ -1,0 +1,163 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 7423868720866007442,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2007/09/05/low-priority-plesk-backups/",
+      "text": "/2007/09/05/low-priority-plesk-backups/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "command line",
+      "text": "command line",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "plesk",
+      "text": "plesk",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I hear a lot of complaints about Plesk's backup routines and how they can bring a server to its knees. You can reduce the load (except for mysqldumps) by renicing pleskbackup. If you want something really handy, use this Perl scriptlet that I wrote:",
+      "text": "I hear a lot of complaints about Plesk's backup routines and how they can bring a server to its knees. You can reduce the load (except for mysqldumps) by renicing pleskbackup. If you want something really handy, use this Perl scriptlet that I wrote:"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "#!/usr/bin/perl\n@domains = `ls /var/www/vhosts/ | egrep -v '^default\\$|^chroot\\$'`;\n$today = `date +%m%d%y`;\nforeach $domain (@domains) {\n\tchomp($domain);\n\t$cmd = \"nice -n 19 /usr/local/psa/bin/pleskbackup -vv domains $domain --skip-logs - | ssh someuser\\@somehost -i /home/username/.ssh/id_rsa \\\"dd of=/home/username/pleskbackups/$domain-$today.dump\\\"\";\n\t`$cmd`;\n}",
+      "text": "#!/usr/bin/perl\n@domains = `ls /var/www/vhosts/ | egrep -v '^default\\$|^chroot\\$'`;\n$today = `date +%m%d%y`;\nforeach $domain (@domains) {\n\tchomp($domain);\n\t$cmd = \"nice -n 19 /usr/local/psa/bin/pleskbackup -vv domains $domain --skip-logs - | ssh someuser\\@somehost -i /home/username/.ssh/id_rsa \\\"dd of=/home/username/pleskbackups/$domain-$today.dump\\\"\";\n\t`$cmd`;\n}",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "It will transmit your backups to another server via SSH, and it will reduce the priority to the lowest available. This combination will reduce CPU usage and disk I/O throughout the backup.",
+      "text": "It will transmit your backups to another server via SSH, and it will reduce the priority to the lowest available. This combination will reduce CPU usage and disk I/O throughout the backup."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

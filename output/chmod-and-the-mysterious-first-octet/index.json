@@ -1,0 +1,771 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 12731234839510104486,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2007/02/13/chmod-and-the-mysterious-first-octet/",
+      "text": "/2007/02/13/chmod-and-the-mysterious-first-octet/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "command line",
+      "text": "command line",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "security",
+      "text": "security",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If you've ever worked on a linux system, chances are that you've used chmod many times. However, the quickest way to stump many linux users is to ask how many octets a full permissions set has. Many people think of this and say three:",
+      "text": "If you've ever worked on a linux system, chances are that you've used chmod many times. However, the quickest way to stump many linux users is to ask how many octets a full permissions set has. Many people think of this and say three:"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "chmod 777 file",
+      "text": "chmod 777 file",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "But what you're actually saying:",
+      "text": "But what you're actually saying:"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "chmod 0777 file",
+      "text": "chmod 0777 file",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The first octet works the same way as the other three as it has 3 possible values that add to make the octet (for the letter-lovers, i've included those too):",
+      "text": "The first octet works the same way as the other three as it has 3 possible values that add to make the octet (for the letter-lovers, i've included those too):"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "4 - setuid (letter-style: s)<br /> 2 - setgid (letter-style: s)<br /> 1 - sticky bit (letter-style: t)",
+      "text": "4 - setuid (letter-style: s)<br /> 2 - setgid (letter-style: s)<br /> 1 - sticky bit (letter-style: t)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Remember - your first octet will  always be reset to 0  when using chown or chgrp on files.",
+      "text": "Remember - your first octet will  always be reset to 0  when using chown or chgrp on files."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Setuid",
+      "text": "Setuid"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If you setuid on a binary, you're telling the operating system that you want this binary to always be executed as the user owner of the binary. So, let's say the permissions on a binary are set like so:",
+      "text": "If you setuid on a binary, you're telling the operating system that you want this binary to always be executed as the user owner of the binary. So, let's say the permissions on a binary are set like so:"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "`# chmod 4750 some_binary",
+      "text": "`# chmod 4750 some_binary"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "ls -al some_binary<br />",
+      "text": "ls -al some_binary<br />"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "-rwsr-x--- 1 root users 0 Feb 13 21:43 some_binary`",
+      "text": "-rwsr-x--- 1 root users 0 Feb 13 21:43 some_binary`"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "You'll notice the small 's' in the user permissions blocks - this means that if a user on the system executes this binary, it will run as root with full root permissions. Obviously, anyone in the users group can run this binary since the execute bit is set for the group, but when the binary runs, it will run with root permissions.  Be smart with setuid!  Anything higher than 4750 can be very dangerous as it allows the world to run the binary as the root user. Also, if you allow full access plus setgid, you will be opening yourself up for something mighty nasty:",
+      "text": "You'll notice the small 's' in the user permissions blocks - this means that if a user on the system executes this binary, it will run as root with full root permissions. Obviously, anyone in the users group can run this binary since the execute bit is set for the group, but when the binary runs, it will run with root permissions.  Be smart with setuid!  Anything higher than 4750 can be very dangerous as it allows the world to run the binary as the root user. Also, if you allow full access plus setgid, you will be opening yourself up for something mighty nasty:"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "`# chmod 4777 some_binary",
+      "text": "`# chmod 4777 some_binary"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "ls -al some_binary<br />",
+      "text": "ls -al some_binary<br />"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "-rwsrwxrwx 1 root users 0 Feb 13 21:43 some_binary`",
+      "text": "-rwsrwxrwx 1 root users 0 Feb 13 21:43 some_binary`"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Not only can every user on the system execute this binary, but they can  edit it  before it runs at  root ! It goes without saying, but this could be used to beat up your system pretty badly. If you neglect to allow enough user permissions for execution, linux laughs at you by throwing the uppercase 'S' into your terminal:",
+      "text": "Not only can every user on the system execute this binary, but they can  edit it  before it runs at  root ! It goes without saying, but this could be used to beat up your system pretty badly. If you neglect to allow enough user permissions for execution, linux laughs at you by throwing the uppercase 'S' into your terminal:"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "`# chmod 4400 some_binary",
+      "text": "`# chmod 4400 some_binary"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "ls -al some_binary<br />",
+      "text": "ls -al some_binary<br />"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "-r-S------ 1 root users 0 Feb 13 21:43 some_binary`",
+      "text": "-r-S------ 1 root users 0 Feb 13 21:43 some_binary`"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Since no one can execute this script anyways (except root), you get the big capital 'S' for 'Silly'. (It probably doesn't stand for silly, but whatever.)",
+      "text": "Since no one can execute this script anyways (except root), you get the big capital 'S' for 'Silly'. (It probably doesn't stand for silly, but whatever.)"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Setgid",
+      "text": "Setgid"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Setgid is pretty much the exact same as setuid, but the binary runs with the privileges of the owner group rather than the user's primary group privileges. This isn't quite so useful in my opinion, but in case you need it, here's how the permissions come out:",
+      "text": "Setgid is pretty much the exact same as setuid, but the binary runs with the privileges of the owner group rather than the user's primary group privileges. This isn't quite so useful in my opinion, but in case you need it, here's how the permissions come out:"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "`# chmod 2750 some_binary",
+      "text": "`# chmod 2750 some_binary"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "ls -al some_binary<br />",
+      "text": "ls -al some_binary<br />"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "-rwxr-s--- 1 root users 0 Feb 13 21:43 some_binary`",
+      "text": "-rwxr-s--- 1 root users 0 Feb 13 21:43 some_binary`"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "And if you enjoy being made fun of:",
+      "text": "And if you enjoy being made fun of:"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "`# chmod 2400 some_binary",
+      "text": "`# chmod 2400 some_binary"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "ls -al some_binary<br />",
+      "text": "ls -al some_binary<br />"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "-r----S--- 1 root users 0 Feb 13 21:43 some_binary`",
+      "text": "-r----S--- 1 root users 0 Feb 13 21:43 some_binary`"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Sticky Bit",
+      "text": "Sticky Bit"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This is such a giggly term for a linux file permission, but it's rather important, and it best applies to your tmp directory (or any other world writable location). Since world writable locations allow users to go hog-wild with creating, editing, appending, and deleting files, this can get annoying if certain users share a common directory.",
+      "text": "This is such a giggly term for a linux file permission, but it's rather important, and it best applies to your tmp directory (or any other world writable location). Since world writable locations allow users to go hog-wild with creating, editing, appending, and deleting files, this can get annoying if certain users share a common directory."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Let's say users work in an office and they work on files in a world writeable directory. One user gets mad because another user got a raise, so they trash all of the files that belong to that recently promoted user. Obviously, this could lead to a touchy situation. If you apply the sticky bit on the directory, the users can do anything they want to files they create, but they can't write to or delete files which they didn't create. Pretty slick, er, sticky, right? Here's how to set the sticky bit:",
+      "text": "Let's say users work in an office and they work on files in a world writeable directory. One user gets mad because another user got a raise, so they trash all of the files that belong to that recently promoted user. Obviously, this could lead to a touchy situation. If you apply the sticky bit on the directory, the users can do anything they want to files they create, but they can't write to or delete files which they didn't create. Pretty slick, er, sticky, right? Here's how to set the sticky bit:"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "`#chmod 1777 /tmp",
+      "text": "`#chmod 1777 /tmp"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "ls -ld /tmp<br />",
+      "text": "ls -ld /tmp<br />"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "drwxrwxrwt 3 root root 4096 Feb 13 21:57 /tmp`",
+      "text": "drwxrwxrwt 3 root root 4096 Feb 13 21:57 /tmp`"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "And again, linux will laugh at you for setting sticky bits on non-world writable directories, but this time it does so with a capital 'T':",
+      "text": "And again, linux will laugh at you for setting sticky bits on non-world writable directories, but this time it does so with a capital 'T':"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "`#chmod 1744 /tmp",
+      "text": "`#chmod 1744 /tmp"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "ls -ld /tmp<br />",
+      "text": "ls -ld /tmp<br />"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "drw-r--r-T 3 root root 4096 Feb 13 21:57 /tmp`",
+      "text": "drw-r--r-T 3 root root 4096 Feb 13 21:57 /tmp`"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Setuid + Setgid on Directories",
+      "text": "Setuid + Setgid on Directories"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Setting the setgid bit on a directory means any files created in that directory will be owned by the group who owns the directory. No matter what your primary group is, any files you make will be owned by the group who owns the directory.",
+      "text": "Setting the setgid bit on a directory means any files created in that directory will be owned by the group who owns the directory. No matter what your primary group is, any files you make will be owned by the group who owns the directory."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Setting the setuid bit on a directory has no effect in almost all Linux variants. However, in FreeBSD, it acts the same as the setgid (except it changes the ownership of new files as the user who owns the folder).",
+      "text": "Setting the setuid bit on a directory has no effect in almost all Linux variants. However, in FreeBSD, it acts the same as the setgid (except it changes the ownership of new files as the user who owns the folder)."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

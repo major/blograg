@@ -1,0 +1,235 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 10341597627547157244,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/groups/1"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2008/11/04/what-is-steal-time-in-my-sysstat-output/",
+      "text": "/2008/11/04/what-is-steal-time-in-my-sysstat-output/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "sar",
+      "text": "sar",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "xen",
+      "text": "xen",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "After running sar on my new slice from  SliceHost *, I noticed a new column called  steal . It's generally very low on my virtual machine, and I've never seen it creep over 1-2%.",
+      "text": "After running sar on my new slice from  SliceHost *, I noticed a new column called  steal . It's generally very low on my virtual machine, and I've never seen it creep over 1-2%."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "IBM's  definition  of steal time is actually pretty good:",
+      "text": "IBM's  definition  of steal time is actually pretty good:"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Steal time is the percentage of time a virtual CPU waits for a real CPU while the hypervisor is servicing another virtual processor.",
+      "text": "Steal time is the percentage of time a virtual CPU waits for a real CPU while the hypervisor is servicing another virtual processor."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "So, relatively speaking, what does this mean?",
+      "text": "So, relatively speaking, what does this mean?"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "A high steal percentage may mean that you may be outgrowing your virtual machine with your hosting company. Other virtual machines may have a larger slice of the CPU's time and you may need to ask for an upgrade in order to compete. Also, a high steal percentage may mean that your hosting company is overselling virtual machines on your particular server. If you upgrade your virtual machine and your steal percentage doesn't drop, you may want to seek another provider.",
+      "text": "A high steal percentage may mean that you may be outgrowing your virtual machine with your hosting company. Other virtual machines may have a larger slice of the CPU's time and you may need to ask for an upgrade in order to compete. Also, a high steal percentage may mean that your hosting company is overselling virtual machines on your particular server. If you upgrade your virtual machine and your steal percentage doesn't drop, you may want to seek another provider."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "A low steal percentage can mean that your applications are working well with your current virtual machine. Since your VM is not wrestling with other VM's constantly for CPU time, your VM will be more responsive. This may also suggest that your hosting provider is underselling their servers, which is definitely a good thing.",
+      "text": "A low steal percentage can mean that your applications are working well with your current virtual machine. Since your VM is not wrestling with other VM's constantly for CPU time, your VM will be more responsive. This may also suggest that your hosting provider is underselling their servers, which is definitely a good thing."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children=\"I've been a customer of \">, <Link children=[<RawText children='SliceHost'>]>, <RawText children=' for a while (prior to '>, <Link children=[<RawText children=\"Rackspace's acquisition\">]>, <RawText children=('), and I recommend them to anyone who needs a solid VM solution. If you want '\n \"to help out with my hosting costs, you're welcome to use my \")>, <Link children=[<RawText children='SliceHost referral link'>]>, <RawText children='.'>]",
+      "text": "[<RawText children=\"I've been a customer of \">, <Link children=[<RawText children='SliceHost'>]>, <RawText children=' for a while (prior to '>, <Link children=[<RawText children=\"Rackspace's acquisition\">]>, <RawText children=('), and I recommend them to anyone who needs a solid VM solution. If you want '\n \"to help out with my hosting costs, you're welcome to use my \")>, <Link children=[<RawText children='SliceHost referral link'>]>, <RawText children='.'>]",
+      "enumerated": false,
+      "marker": "-"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

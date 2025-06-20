@@ -1,0 +1,197 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 12357452371872548492,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2008/03/11/hunting-down-elusive-sources-of-iowait/",
+      "text": "/2008/03/11/hunting-down-elusive-sources-of-iowait/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "iowait",
+      "text": "iowait",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "performance",
+      "text": "performance",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "A question I'm asked daily is &#8220;How can I find out what is generating iowait on my server?&#8221; Sure, you can dig through pages of lsof output, restart services, or run strace, but it can be a frustrating process. I saw a process on  this blog post , and I changed the regexes to fit Red Hat and CentOS systems a bit better:",
+      "text": "A question I'm asked daily is &#8220;How can I find out what is generating iowait on my server?&#8221; Sure, you can dig through pages of lsof output, restart services, or run strace, but it can be a frustrating process. I saw a process on  this blog post , and I changed the regexes to fit Red Hat and CentOS systems a bit better:"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# /etc/init.d/syslog stop\n# echo 1 > /proc/sys/vm/block_dump\n# dmesg | egrep \"READ|WRITE|dirtied\" | egrep -o '([a-zA-Z]*)' | sort | uniq -c | sort -rn | head\n   1526 mysqld\n    819 httpd\n    429 kjournald\n     35 qmail\n     27 in\n      7 imapd\n      6 irqbalance\n      5 pop\n      4 pdflush\n      3 spamc",
+      "text": "# /etc/init.d/syslog stop\n# echo 1 > /proc/sys/vm/block_dump\n# dmesg | egrep \"READ|WRITE|dirtied\" | egrep -o '([a-zA-Z]*)' | sort | uniq -c | sort -rn | head\n   1526 mysqld\n    819 httpd\n    429 kjournald\n     35 qmail\n     27 in\n      7 imapd\n      6 irqbalance\n      5 pop\n      4 pdflush\n      3 spamc",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "In my specific situation, it looks like MySQL is the biggest abuser of my disk, followed by Apache and the filesystem journaling. As expected, qmail is a large contender, too.",
+      "text": "In my specific situation, it looks like MySQL is the biggest abuser of my disk, followed by Apache and the filesystem journaling. As expected, qmail is a large contender, too."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Don't forget to set things back to their normal state when you're done!",
+      "text": "Don't forget to set things back to their normal state when you're done!"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# echo 0 > /proc/sys/vm/block_dump\n# /etc/init.d/syslog start",
+      "text": "# echo 0 > /proc/sys/vm/block_dump\n# /etc/init.d/syslog start",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

@@ -1,0 +1,227 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 17668480113557097156,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2007/11/14/plesk-authorization-failed-http-request-error-7/",
+      "text": "/2007/11/14/plesk-authorization-failed-http-request-error-7/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "emergency",
+      "text": "emergency",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "plesk",
+      "text": "plesk",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I found myself wrestling with a server where the Plesk interface suddenly became unavailable without any user intervention. An attempt to start the service was less than fruitful:",
+      "text": "I found myself wrestling with a server where the Plesk interface suddenly became unavailable without any user intervention. An attempt to start the service was less than fruitful:"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "[root@server ~]# service psa start\nKey file: /opt/drweb/drweb32.key - Key file not found!\nA path to a valid license key file does not specified.\nPlesk authorization failed: HTTP request error [7]\nError: Plesk Software not running.\n                                                           [FAILED]",
+      "text": "[root@server ~]# service psa start\nKey file: /opt/drweb/drweb32.key - Key file not found!\nA path to a valid license key file does not specified.\nPlesk authorization failed: HTTP request error [7]\nError: Plesk Software not running.\n                                                           [FAILED]",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "(Although I included the text from the drweb failure, I later found that it was not related to the issue. However, since it might appear in your logs prior to the HTTP request error, I included it anyways.)",
+      "text": "(Although I included the text from the drweb failure, I later found that it was not related to the issue. However, since it might appear in your logs prior to the HTTP request error, I included it anyways.)"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This was a perfectly working server that had no other issues besides this peculiar Plesk issue. Another technician had upgraded the license a few weeks prior, and it was verified at the the time to be working properly. After a bit of Google searching, I found that the solution was to completely stop Plesk and its related services and then start it all up again.",
+      "text": "This was a perfectly working server that had no other issues besides this peculiar Plesk issue. Another technician had upgraded the license a few weeks prior, and it was verified at the the time to be working properly. After a bit of Google searching, I found that the solution was to completely stop Plesk and its related services and then start it all up again."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "[root@server ~]# service psa stopall\n/usr/local/psa/admin/bin/httpsdctl stop: httpd stopped\nStopping Plesk:                                            [  OK  ]\nStopping named:                                            [  OK  ]\nservice psa startStopping MySQL:                           [  OK  ]\nStopping : Stopping Courier-IMAP server:\n   Stopping imap                                           [  OK  ]\n   Stopping imap-ssl                                       [  OK  ]\n   Stopping pop3                                           [  OK  ]\n   Stopping pop3-ssl                                       [  OK  ]\n\nStopping postgresql service:                               [  OK  ]\nShutting down psa-spamassassin service:                    [  OK  ]\nStopping httpd:                                            [  OK  ]\n\n[root@server ~]# service psa start\nStarting named:                                            [  OK  ]\nStarting MySQL:                                            [  OK  ]\nStarting qmail:                                            [  OK  ]\nStarting Courier-IMAP server:\n   Starting imapd                                          [  OK  ]\n   Starting imap-ssl                                       [  OK  ]\n   Starting pop3                                           [  OK  ]\n   Starting pop3-ssl                                       [  OK  ]\n\nStarting postgresql service:                               [  OK  ]\nStarting psa-spamassassin service:                         [  OK  ]\nProcessing config directory: /usr/local/psa/admin/conf/httpsd.*.include\n/usr/local/psa/admin/bin/httpsdctl start: httpd started\nStarting Plesk:                                            [  OK  ]\nStarting up drwebd:                                        [  OK  ]",
+      "text": "[root@server ~]# service psa stopall\n/usr/local/psa/admin/bin/httpsdctl stop: httpd stopped\nStopping Plesk:                                            [  OK  ]\nStopping named:                                            [  OK  ]\nservice psa startStopping MySQL:                           [  OK  ]\nStopping : Stopping Courier-IMAP server:\n   Stopping imap                                           [  OK  ]\n   Stopping imap-ssl                                       [  OK  ]\n   Stopping pop3                                           [  OK  ]\n   Stopping pop3-ssl                                       [  OK  ]\n\nStopping postgresql service:                               [  OK  ]\nShutting down psa-spamassassin service:                    [  OK  ]\nStopping httpd:                                            [  OK  ]\n\n[root@server ~]# service psa start\nStarting named:                                            [  OK  ]\nStarting MySQL:                                            [  OK  ]\nStarting qmail:                                            [  OK  ]\nStarting Courier-IMAP server:\n   Starting imapd                                          [  OK  ]\n   Starting imap-ssl                                       [  OK  ]\n   Starting pop3                                           [  OK  ]\n   Starting pop3-ssl                                       [  OK  ]\n\nStarting postgresql service:                               [  OK  ]\nStarting psa-spamassassin service:                         [  OK  ]\nProcessing config directory: /usr/local/psa/admin/conf/httpsd.*.include\n/usr/local/psa/admin/bin/httpsdctl start: httpd started\nStarting Plesk:                                            [  OK  ]\nStarting up drwebd:                                        [  OK  ]",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I couldn't nail down anything within the Plesk log files that would explain the cause of the problem, but this solution corrected the issue instantly.",
+      "text": "I couldn't nail down anything within the Plesk log files that would explain the cause of the problem, but this solution corrected the issue instantly."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This issue occurred with Plesk 8.1.1 on Red Hat Enterprise Linux 4 Update 5",
+      "text": "This issue occurred with Plesk 8.1.1 on Red Hat Enterprise Linux 4 Update 5"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

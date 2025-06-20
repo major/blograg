@@ -1,0 +1,512 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/html",
+    "binary_hash": 14306504343193943280,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2009/01/29/linux-emergency-reboot-or-shutdown-with-magic-commands/",
+      "text": "/2009/01/29/linux-emergency-reboot-or-shutdown-with-magic-commands/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "command line",
+      "text": "command line",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "emergency",
+      "text": "emergency",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "kernel",
+      "text": "kernel",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "sysctl",
+      "text": "sysctl",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Most linux distributions use some type of mechanism to gracefully stop daemons and unmount storage volumes during a reboot or shutdown. It's most commonly done via scripts that will wait for each daemon to shut down gracefully before proceeding to the next daemon.",
+      "text": "Most linux distributions use some type of mechanism to gracefully stop daemons and unmount storage volumes during a reboot or shutdown. It's most commonly done via scripts that will wait for each daemon to shut down gracefully before proceeding to the next daemon."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "As we know, sometimes servers misbehave due to things put them through, and you can quickly end up in a situation where things are going badly. I'm talking about the type of situation where you're connected via SSH to a server that controls phone lines for five million people and it sits in a tiny building 400 miles away from the nearest human being. We're talking bad. If you issue a plain",
+      "text": "As we know, sometimes servers misbehave due to things put them through, and you can quickly end up in a situation where things are going badly. I'm talking about the type of situation where you're connected via SSH to a server that controls phone lines for five million people and it sits in a tiny building 400 miles away from the nearest human being. We're talking bad. If you issue a plain"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "reboot",
+      "text": "reboot",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "command, it might not even make it that far. Once SSH stops running, you're going to be out of luck.",
+      "text": "command, it might not even make it that far. Once SSH stops running, you're going to be out of luck."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "If you find yourself in this situation (and I hope you won't!), you have some options to get your way with a misbehaving server remotely. You can force an immediate reboot with the following:",
+      "text": "If you find yourself in this situation (and I hope you won't!), you have some options to get your way with a misbehaving server remotely. You can force an immediate reboot with the following:"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "echo 1 > /proc/sys/kernel/sysrq\u00a0\necho b > /proc/sysrq-trigger",
+      "text": "echo 1 > /proc/sys/kernel/sysrq\u00a0\necho b > /proc/sysrq-trigger",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "WHOA THERE!  This is pretty much the same as pressing the reset button on the server (if equipped). No daemons will be shut down gracefully, no filesystem sync will occur, and you may get the wrath of a fsck (or worse, a non-booting server) upon reboot. To do things a little more carefully, read on.",
+      "text": "WHOA THERE!  This is pretty much the same as pressing the reset button on the server (if equipped). No daemons will be shut down gracefully, no filesystem sync will occur, and you may get the wrath of a fsck (or worse, a non-booting server) upon reboot. To do things a little more carefully, read on."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "These are called  magic commands , and they're pretty much synonymous with holding down Alt-SysRq and another key on older keyboards. Dropping",
+      "text": "These are called  magic commands , and they're pretty much synonymous with holding down Alt-SysRq and another key on older keyboards. Dropping"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "1",
+      "text": "1",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "into",
+      "text": "into"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/proc/sys/kernel/sysrq",
+      "text": "/proc/sys/kernel/sysrq",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "tells the kernel that you want to enable SysRq access (it's usually disabled). The second command is equivalent to pressing Alt-SysRq-b on a QWERTY keyboard.",
+      "text": "tells the kernel that you want to enable SysRq access (it's usually disabled). The second command is equivalent to pressing Alt-SysRq-b on a QWERTY keyboard."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "There's a better way of rebooting a misbehaving server that  Wikipedia shows  with the mnemonic &#8220;Reboot Even If System Utterly Broken&#8221;:",
+      "text": "There's a better way of rebooting a misbehaving server that  Wikipedia shows  with the mnemonic &#8220;Reboot Even If System Utterly Broken&#8221;:"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "unRaw      (take control of keyboard back from X),\n tErminate (send SIGTERM to all processes),\n kIll      (send SIGKILL to all processes),\n  Sync     (flush data to disk),\n  Unmount  (remount all filesystems read-only),\nreBoot.",
+      "text": "unRaw      (take control of keyboard back from X),\n tErminate (send SIGTERM to all processes),\n kIll      (send SIGKILL to all processes),\n  Sync     (flush data to disk),\n  Unmount  (remount all filesystems read-only),\nreBoot.",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "I can't vouch for this actually working, but I'm interested to try it.  UPDATE:  I've been told that doing this series of commands with ReiserFS is a very bad idea.",
+      "text": "I can't vouch for this actually working, but I'm interested to try it.  UPDATE:  I've been told that doing this series of commands with ReiserFS is a very bad idea."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "If you want to shut the machine down entirely (please think about it before using this on a remote system):",
+      "text": "If you want to shut the machine down entirely (please think about it before using this on a remote system):"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "echo 1 > /proc/sys/kernel/sysrq\u00a0\necho o > /proc/sysrq-trigger",
+      "text": "echo 1 > /proc/sys/kernel/sysrq\u00a0\necho o > /proc/sysrq-trigger",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "If you want to keep SysRq enabled all the time, you can do that with an entry in your server's",
+      "text": "If you want to keep SysRq enabled all the time, you can do that with an entry in your server's"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "sysctl.conf",
+      "text": "sysctl.conf",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ":",
+      "text": ":"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "kernel.sysrq = 1",
+      "text": "kernel.sysrq = 1",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

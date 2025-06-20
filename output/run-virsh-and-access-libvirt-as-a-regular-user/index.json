@@ -1,0 +1,314 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/html",
+    "binary_hash": 11434528598499059679,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2015/04/11/run-virsh-and-access-libvirt-as-a-regular-user/",
+      "text": "/2015/04/11/run-virsh-and-access-libvirt-as-a-regular-user/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "libvirt",
+      "text": "libvirt",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "security",
+      "text": "security",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Libvirt  is a handy way to manage containers and virtual machines on various systems. On most distributions, you can only access the libvirt daemon via the root user by default. I'd rather use a regular non-root user to access libvirt and limit that access via groups.",
+      "text": "Libvirt  is a handy way to manage containers and virtual machines on various systems. On most distributions, you can only access the libvirt daemon via the root user by default. I'd rather use a regular non-root user to access libvirt and limit that access via groups."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Modern Linux distributions use  Polkit  to limit access to the libvirt daemon. You can add an extra rule to the existing set of Polkit rules to allow regular users to access libvirtd. Here's an example rule (in Javascript) from the  ArchWiki :",
+      "text": "Modern Linux distributions use  Polkit  to limit access to the libvirt daemon. You can add an extra rule to the existing set of Polkit rules to allow regular users to access libvirtd. Here's an example rule (in Javascript) from the  ArchWiki :"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/* Allow users in kvm group to manage the libvirt\ndaemon without authentication */\npolkit.addRule(function(action, subject) {\n    if (action.id == \"org.libvirt.unix.manage\" &&\n        subject.isInGroup(\"wheel\")) {\n            return polkit.Result.YES;\n    }\n});",
+      "text": "/* Allow users in kvm group to manage the libvirt\ndaemon without authentication */\npolkit.addRule(function(action, subject) {\n    if (action.id == \"org.libvirt.unix.manage\" &&\n        subject.isInGroup(\"wheel\")) {\n            return polkit.Result.YES;\n    }\n});",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "As shown on the ArchWiki, I saved this file as",
+      "text": "As shown on the ArchWiki, I saved this file as"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/etc/polkit-1/rules.d/49-org.libvirt.unix.manager.rules",
+      "text": "/etc/polkit-1/rules.d/49-org.libvirt.unix.manager.rules",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". I'm using the  wheel  group to govern access to the libvirt daemon but you could use any group you choose. Just update the",
+      "text": ". I'm using the  wheel  group to govern access to the libvirt daemon but you could use any group you choose. Just update the"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "subject.isInGroup",
+      "text": "subject.isInGroup",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "line in the rules file. You shouldn't have to restart any daemons after adding the new rule file.",
+      "text": "line in the rules file. You shouldn't have to restart any daemons after adding the new rule file."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "I'm now able to run virsh as my regular user:",
+      "text": "I'm now able to run virsh as my regular user:"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "[major@host ~]$ id\nuid=1000(major) gid=1000(major) groups=1000(major),10(wheel) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023\n[major@host ~]$ virsh list --all\n Id    Name                           State\n----------------------------------------------------",
+      "text": "[major@host ~]$ id\nuid=1000(major) gid=1000(major) groups=1000(major),10(wheel) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023\n[major@host ~]$ virsh list --all\n Id    Name                           State\n----------------------------------------------------",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

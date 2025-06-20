@@ -1,0 +1,675 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 11680940478067607276,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "author: Major Hayden date: '2025-02-16' A recent switch back to i3 (from sway) left me wondering how to examine just the Xorg logs sent to journald. tags: ",
+      "text": "author: Major Hayden date: '2025-02-16' A recent switch back to i3 (from sway) left me wondering how to examine just the Xorg logs sent to journald. tags: "
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "i3",
+      "text": "i3",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I love being an early adopter and trudging off into the unknown. After all, that's one of the best ways to learn new things and you end up improving the experience for everyone who comes behind you. However, things can get a little frustrating from time to time especially when your daily work dictates that your desktop works really well. \ud83d\ude09",
+      "text": "I love being an early adopter and trudging off into the unknown. After all, that's one of the best ways to learn new things and you end up improving the experience for everyone who comes behind you. However, things can get a little frustrating from time to time especially when your daily work dictates that your desktop works really well. \ud83d\ude09"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Sway has been my desktop of choice for a few years and although it seems to work well, I ran into lots of issues with Wayland. It was easy to plot a course around most of these problems, but not all of them.",
+      "text": "Sway has been my desktop of choice for a few years and although it seems to work well, I ran into lots of issues with Wayland. It was easy to plot a course around most of these problems, but not all of them."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I've recently run back to safety with my old, trusty, i3 window manager in Xorg. Then I realized a few of my Xorg configuration weren't taking effect and I couldn't figure out how to isolate the Xorg logs in the system journal to narrow down the problem.",
+      "text": "I've recently run back to safety with my old, trusty, i3 window manager in Xorg. Then I realized a few of my Xorg configuration weren't taking effect and I couldn't figure out how to isolate the Xorg logs in the system journal to narrow down the problem."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Skip to the end if you're short on time or peruse the next section if you haven't been deep in the innards of your system journal in a while. \ud83d\udd0d",
+      "text": "Skip to the end if you're short on time or peruse the next section if you haven't been deep in the innards of your system journal in a while. \ud83d\udd0d"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Journal metadata",
+      "text": "Journal metadata",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Every journal entry in journald has metadata attached to it which you can use to filter the logs. Most people know about filtering based on systemd services, like this:",
+      "text": "Every journal entry in journald has metadata attached to it which you can use to filter the logs. Most people know about filtering based on systemd services, like this:"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "> journalctl --boot --unit chronyd.service | head\nsystemd[1]: Starting chronyd.service - NTP client/server...\nchronyd[2662]: chronyd version 4.6.1 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)\nchronyd[2662]: Using leap second list /usr/share/zoneinfo/leap-seconds.list\nchronyd[2662]: Frequency -3.595 +/- 6.086 ppm read from /var/lib/chrony/drift\nchronyd[2662]: Loaded seccomp filter (level 2)\nsystemd[1]: Started chronyd.service - NTP client/server.\nchronyd[2662]: Added source 192.168.10.1\nchronyd[2662]: Selected source 208.67.72.50 (2.fedora.pool.ntp.org)\nchronyd[2662]: System clock TAI offset set to 37 seconds\nchronyd[2662]: Selected source 173.73.96.68 (2.fedora.pool.ntp.org)",
+      "text": "> journalctl --boot --unit chronyd.service | head\nsystemd[1]: Starting chronyd.service - NTP client/server...\nchronyd[2662]: chronyd version 4.6.1 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)\nchronyd[2662]: Using leap second list /usr/share/zoneinfo/leap-seconds.list\nchronyd[2662]: Frequency -3.595 +/- 6.086 ppm read from /var/lib/chrony/drift\nchronyd[2662]: Loaded seccomp filter (level 2)\nsystemd[1]: Started chronyd.service - NTP client/server.\nchronyd[2662]: Added source 192.168.10.1\nchronyd[2662]: Selected source 208.67.72.50 (2.fedora.pool.ntp.org)\nchronyd[2662]: System clock TAI offset set to 37 seconds\nchronyd[2662]: Selected source 173.73.96.68 (2.fedora.pool.ntp.org)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This command shows all of the messages from the ",
+      "text": "This command shows all of the messages from the "
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "chronyd",
+      "text": "chronyd",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " service since the last boot. However, we can get much more specific with our filtering using other criteria.",
+      "text": " service since the last boot. However, we can get much more specific with our filtering using other criteria."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Examining metadata",
+      "text": "Examining metadata",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "You can examine the metadata behind each log line with the json output in journalctl:",
+      "text": "You can examine the metadata behind each log line with the json output in journalctl:"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "> journalctl --boot --unit chronyd.service -o json -n 1 | jq\n{\n  \"_CMDLINE\": \"/usr/sbin/chronyd -F 2\",\n  \"_SYSTEMD_CGROUP\": \"/system.slice/chronyd.service\",\n  \"_MACHINE_ID\": \"xxxxx\",\n  \"_UID\": \"990\",\n  \"SYSLOG_TIMESTAMP\": \"Feb 16 13:55:59 \",\n  \"__SEQNUM_ID\": \"c94633ee6da2480ca4602ca6ab47f82a\",\n  \"_PID\": \"2662\",\n  \"PRIORITY\": \"6\",\n  \"_HOSTNAME\": \"zorro\",\n  \"_SYSTEMD_SLICE\": \"system.slice\",\n  \"SYSLOG_FACILITY\": \"3\",\n  \"_GID\": \"989\",\n  \"_SYSTEMD_INVOCATION_ID\": \"156fce8836374564b01aeb6628160ccb\",\n  \"__CURSOR\": \"s=c94633ee6da2480ca4602ca6ab47f82a;i=19fb3a;b=ed9e1fccb1744136a3d726bbf2425388;m=33abfdf67;t=62e47cbf2b72f;x=f9a8d4e3bc4fef30\",\n  \"__MONOTONIC_TIMESTAMP\": \"13870554983\",\n  \"_SOURCE_REALTIME_TIMESTAMP\": \"1739735759501027\",\n  \"_TRANSPORT\": \"syslog\",\n  \"_EXE\": \"/usr/sbin/chronyd\",\n  \"_SYSTEMD_UNIT\": \"chronyd.service\",\n  \"SYSLOG_IDENTIFIER\": \"chronyd\",\n  \"_BOOT_ID\": \"ed9e1fccb1744136a3d726bbf2425388\",\n  \"__REALTIME_TIMESTAMP\": \"1739735759501103\",\n  \"__SEQNUM\": \"1702714\",\n  \"_RUNTIME_SCOPE\": \"system\",\n  \"SYSLOG_PID\": \"2662\",\n  \"_CAP_EFFECTIVE\": \"2000400\",\n  \"MESSAGE\": \"Selected source 173.73.96.68 (2.fedora.pool.ntp.org)\",\n  \"_COMM\": \"chronyd\",\n  \"_SELINUX_CONTEXT\": \"system_u:system_r:chronyd_t:s0\"\n}",
+      "text": "> journalctl --boot --unit chronyd.service -o json -n 1 | jq\n{\n  \"_CMDLINE\": \"/usr/sbin/chronyd -F 2\",\n  \"_SYSTEMD_CGROUP\": \"/system.slice/chronyd.service\",\n  \"_MACHINE_ID\": \"xxxxx\",\n  \"_UID\": \"990\",\n  \"SYSLOG_TIMESTAMP\": \"Feb 16 13:55:59 \",\n  \"__SEQNUM_ID\": \"c94633ee6da2480ca4602ca6ab47f82a\",\n  \"_PID\": \"2662\",\n  \"PRIORITY\": \"6\",\n  \"_HOSTNAME\": \"zorro\",\n  \"_SYSTEMD_SLICE\": \"system.slice\",\n  \"SYSLOG_FACILITY\": \"3\",\n  \"_GID\": \"989\",\n  \"_SYSTEMD_INVOCATION_ID\": \"156fce8836374564b01aeb6628160ccb\",\n  \"__CURSOR\": \"s=c94633ee6da2480ca4602ca6ab47f82a;i=19fb3a;b=ed9e1fccb1744136a3d726bbf2425388;m=33abfdf67;t=62e47cbf2b72f;x=f9a8d4e3bc4fef30\",\n  \"__MONOTONIC_TIMESTAMP\": \"13870554983\",\n  \"_SOURCE_REALTIME_TIMESTAMP\": \"1739735759501027\",\n  \"_TRANSPORT\": \"syslog\",\n  \"_EXE\": \"/usr/sbin/chronyd\",\n  \"_SYSTEMD_UNIT\": \"chronyd.service\",\n  \"SYSLOG_IDENTIFIER\": \"chronyd\",\n  \"_BOOT_ID\": \"ed9e1fccb1744136a3d726bbf2425388\",\n  \"__REALTIME_TIMESTAMP\": \"1739735759501103\",\n  \"__SEQNUM\": \"1702714\",\n  \"_RUNTIME_SCOPE\": \"system\",\n  \"SYSLOG_PID\": \"2662\",\n  \"_CAP_EFFECTIVE\": \"2000400\",\n  \"MESSAGE\": \"Selected source 173.73.96.68 (2.fedora.pool.ntp.org)\",\n  \"_COMM\": \"chronyd\",\n  \"_SELINUX_CONTEXT\": \"system_u:system_r:chronyd_t:s0\"\n}",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The most helpful one for us is ",
+      "text": "The most helpful one for us is "
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "_COMM_",
+      "text": "_COMM_",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": ". We can use it to limit our search solely to Xorg logs.",
+      "text": ". We can use it to limit our search solely to Xorg logs."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Every Xorg startup has a line with the Xorg version that looks like this:",
+      "text": "Every Xorg startup has a line with the Xorg version that looks like this:"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "X.Org X Server 1.21.1.15",
+      "text": "X.Org X Server 1.21.1.15",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": ". Let's search for that:",
+      "text": ". Let's search for that:"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "> journalctl --boot -o json | grep -i \"x.org x server\" | jq\n{\n  \"_HOSTNAME\": \"zorro\",\n  \"_BOOT_ID\": \"ed9e1fccb1744136a3d726bbf2425388\",\n  \"_SYSTEMD_INVOCATION_ID\": \"5cf933063b1246909d4ea15e7154bff4\",\n  \"_MACHINE_ID\": \"xxxxx\",\n  \"__CURSOR\": \"s=c94633ee6da2480ca4602ca6ab47f82a;i=19de06;b=ed9e1fccb1744136a3d726bbf2425388;m=4597347;t=62e2f4fcc855d;x=b4f482006e1523ff\",\n  \"__MONOTONIC_TIMESTAMP\": \"72971079\",\n  \"_SYSTEMD_SESSION\": \"2\",\n  \"_SYSTEMD_SLICE\": \"user-1000.slice\",\n  \"_SELINUX_CONTEXT\": \"system_u:system_r:xdm_t:s0-s0:c0.c1023\",\n  \"__SEQNUM_ID\": \"c94633ee6da2480ca4602ca6ab47f82a\",\n  \"_AUDIT_LOGINUID\": \"1000\",\n  \"__REALTIME_TIMESTAMP\": \"1739630597408093\",\n  \"_CMDLINE\": \"/usr/libexec/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -nolisten tcp -background none -noreset -keeptty -novtswitch -verbose 3\",\n  \"_AUDIT_SESSION\": \"2\",\n  \"_SYSTEMD_USER_SLICE\": \"-.slice\",\n  \"__SEQNUM\": \"1695238\",\n  \"_GID\": \"1000\",\n  \"_RUNTIME_SCOPE\": \"system\",\n  \"SYSLOG_IDENTIFIER\": \"/usr/libexec/gdm-x-session\",\n  \"MESSAGE\": \"X.Org X Server 1.21.1.15\",\n  \"_STREAM_ID\": \"7f35e3ce14d44dc8b589be76d4d355d9\",\n  \"_TRANSPORT\": \"stdout\",\n  \"_CAP_EFFECTIVE\": \"0\",\n  \"_SYSTEMD_UNIT\": \"session-2.scope\",\n  \"_UID\": \"1000\",\n  \"_EXE\": \"/usr/libexec/Xorg\",\n  \"PRIORITY\": \"4\",\n  \"_COMM\": \"Xorg\",\n  \"_SYSTEMD_CGROUP\": \"/user.slice/user-1000.slice/session-2.scope\",\n  \"_SYSTEMD_OWNER_UID\": \"1000\",\n  \"_PID\": \"3929\"\n}",
+      "text": "> journalctl --boot -o json | grep -i \"x.org x server\" | jq\n{\n  \"_HOSTNAME\": \"zorro\",\n  \"_BOOT_ID\": \"ed9e1fccb1744136a3d726bbf2425388\",\n  \"_SYSTEMD_INVOCATION_ID\": \"5cf933063b1246909d4ea15e7154bff4\",\n  \"_MACHINE_ID\": \"xxxxx\",\n  \"__CURSOR\": \"s=c94633ee6da2480ca4602ca6ab47f82a;i=19de06;b=ed9e1fccb1744136a3d726bbf2425388;m=4597347;t=62e2f4fcc855d;x=b4f482006e1523ff\",\n  \"__MONOTONIC_TIMESTAMP\": \"72971079\",\n  \"_SYSTEMD_SESSION\": \"2\",\n  \"_SYSTEMD_SLICE\": \"user-1000.slice\",\n  \"_SELINUX_CONTEXT\": \"system_u:system_r:xdm_t:s0-s0:c0.c1023\",\n  \"__SEQNUM_ID\": \"c94633ee6da2480ca4602ca6ab47f82a\",\n  \"_AUDIT_LOGINUID\": \"1000\",\n  \"__REALTIME_TIMESTAMP\": \"1739630597408093\",\n  \"_CMDLINE\": \"/usr/libexec/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -nolisten tcp -background none -noreset -keeptty -novtswitch -verbose 3\",\n  \"_AUDIT_SESSION\": \"2\",\n  \"_SYSTEMD_USER_SLICE\": \"-.slice\",\n  \"__SEQNUM\": \"1695238\",\n  \"_GID\": \"1000\",\n  \"_RUNTIME_SCOPE\": \"system\",\n  \"SYSLOG_IDENTIFIER\": \"/usr/libexec/gdm-x-session\",\n  \"MESSAGE\": \"X.Org X Server 1.21.1.15\",\n  \"_STREAM_ID\": \"7f35e3ce14d44dc8b589be76d4d355d9\",\n  \"_TRANSPORT\": \"stdout\",\n  \"_CAP_EFFECTIVE\": \"0\",\n  \"_SYSTEMD_UNIT\": \"session-2.scope\",\n  \"_UID\": \"1000\",\n  \"_EXE\": \"/usr/libexec/Xorg\",\n  \"PRIORITY\": \"4\",\n  \"_COMM\": \"Xorg\",\n  \"_SYSTEMD_CGROUP\": \"/user.slice/user-1000.slice/session-2.scope\",\n  \"_SYSTEMD_OWNER_UID\": \"1000\",\n  \"_PID\": \"3929\"\n}",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Note that the value for ",
+      "text": "Note that the value for "
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "_COMM",
+      "text": "_COMM",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " is ",
+      "text": " is "
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "Xorg",
+      "text": "Xorg",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": ". We can use that to search our logs with ease using the ",
+      "text": ". We can use that to search our logs with ease using the "
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "cat",
+      "text": "cat",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " output from journalctl, which makes the output as terse as possible. It removes all the headers and make it look like you're reading a plain old text log file:",
+      "text": " output from journalctl, which makes the output as terse as possible. It removes all the headers and make it look like you're reading a plain old text log file:"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "> journalctl --output cat --boot _COMM=Xorg | head\n(--) Log file renamed from \"/home/major/.local/share/xorg/Xorg.pid-3929.log\" to \"/home/major/.local/share/xorg/Xorg.0.log\"\nX.Org X Server 1.21.1.15\nX Protocol Version 11, Revision 0\nCurrent Operating System: Linux zorro 6.12.13-200.fc41.x86_64 #1 SMP PREEMPT_DYNAMIC Sat Feb  8 20:05:26 UTC 2025 x86_64\nKernel command line: BOOT_IMAGE=(hd0,gpt2)/vmlinuz-6.12.13-200.fc41.x86_64 root=UUID=bae22798-ce48-43e9-ac24-7bf7f7158e90 ro rootflags=subvol=root rd.luks.uuid=luks-defea11e-374c-48ab-83df-4f06c4c02186 rhgb quiet\nBuild ID: xorg-x11-server 21.1.15-1.fc41\nCurrent version of pixman: 0.44.2\n\tBefore reporting problems, check http://wiki.x.org\n\tto make sure that you have the latest version.\nMarkers: (--) probed, (**) from config file, (==) default setting,",
+      "text": "> journalctl --output cat --boot _COMM=Xorg | head\n(--) Log file renamed from \"/home/major/.local/share/xorg/Xorg.pid-3929.log\" to \"/home/major/.local/share/xorg/Xorg.0.log\"\nX.Org X Server 1.21.1.15\nX Protocol Version 11, Revision 0\nCurrent Operating System: Linux zorro 6.12.13-200.fc41.x86_64 #1 SMP PREEMPT_DYNAMIC Sat Feb  8 20:05:26 UTC 2025 x86_64\nKernel command line: BOOT_IMAGE=(hd0,gpt2)/vmlinuz-6.12.13-200.fc41.x86_64 root=UUID=bae22798-ce48-43e9-ac24-7bf7f7158e90 ro rootflags=subvol=root rd.luks.uuid=luks-defea11e-374c-48ab-83df-4f06c4c02186 rhgb quiet\nBuild ID: xorg-x11-server 21.1.15-1.fc41\nCurrent version of pixman: 0.44.2\n\tBefore reporting problems, check http://wiki.x.org\n\tto make sure that you have the latest version.\nMarkers: (--) probed, (**) from config file, (==) default setting,",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "In my particular case, I was missing the amdgpu driver for Xorg. I installed the ",
+      "text": "In my particular case, I was missing the amdgpu driver for Xorg. I installed the "
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "xorg-x11-drv-amdgpu",
+      "text": "xorg-x11-drv-amdgpu",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " package, rebooted, and now my logs showed the driver being loaded on startup:",
+      "text": " package, rebooted, and now my logs showed the driver being loaded on startup:"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "> journalctl --output cat --boot _COMM=Xorg | grep -i amdgpu | head\n(II) Applying OutputClass \"AMDgpu\" to /dev/dri/card1\n\tloading driver: amdgpu\n(==) Matched amdgpu as autoconfigured driver 0\n(II) LoadModule: \"amdgpu\"\n(II) Loading /usr/lib64/xorg/modules/drivers/amdgpu_drv.so\n(II) Module amdgpu: vendor=\"X.Org Foundation\"\n(II) AMDGPU: Driver for AMD Radeon:\n\tAll GPUs supported by the amdgpu kernel driver\n(II) AMDGPU(0): Creating default Display subsection in Screen section\n(==) AMDGPU(0): Depth 24, (--) framebuffer bpp 32",
+      "text": "> journalctl --output cat --boot _COMM=Xorg | grep -i amdgpu | head\n(II) Applying OutputClass \"AMDgpu\" to /dev/dri/card1\n\tloading driver: amdgpu\n(==) Matched amdgpu as autoconfigured driver 0\n(II) LoadModule: \"amdgpu\"\n(II) Loading /usr/lib64/xorg/modules/drivers/amdgpu_drv.so\n(II) Module amdgpu: vendor=\"X.Org Foundation\"\n(II) AMDGPU: Driver for AMD Radeon:\n\tAll GPUs supported by the amdgpu kernel driver\n(II) AMDGPU(0): Creating default Display subsection in Screen section\n(==) AMDGPU(0): Depth 24, (--) framebuffer bpp 32",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Further reading",
+      "text": "Further reading",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "There are  tons  of ways to filter journald logs and one of the best resources for learning about all of them is the  journalctl man page . There's also a  helpful journalctl cheat sheet  on GitHub.",
+      "text": "There are  tons  of ways to filter journald logs and one of the best resources for learning about all of them is the  journalctl man page . There's also a  helpful journalctl cheat sheet  on GitHub."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

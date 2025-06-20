@@ -1,0 +1,480 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/html",
+    "binary_hash": 15372787621929258541,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2008/11/07/importing-excel-files-into-mysql-with-php/",
+      "text": "/2008/11/07/importing-excel-files-into-mysql-with-php/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "mysql",
+      "text": "mysql",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "php",
+      "text": "php",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "If you have Excel files that need to be imported into MySQL, you can import them easily with PHP. First, you will need to download some prerequisites:",
+      "text": "If you have Excel files that need to be imported into MySQL, you can import them easily with PHP. First, you will need to download some prerequisites:"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "PHPExcelReader -  http://sourceforge.net/projects/phpexcelreader/",
+      "text": "PHPExcelReader -  http://sourceforge.net/projects/phpexcelreader/"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Spreadsheet Excel Writer -  http://pear.php.net/package/Spreadsheet Excel Writer",
+      "text": "Spreadsheet Excel Writer -  http://pear.php.net/package/Spreadsheet Excel Writer"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Once you've downloaded both items, upload them to your server. Your directory listing on your server should have two directories:",
+      "text": "Once you've downloaded both items, upload them to your server. Your directory listing on your server should have two directories:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "Excel",
+      "text": "Excel",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "(from PHPExcelReader)  and",
+      "text": "(from PHPExcelReader)  and"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "Spreadsheet_Excel_Writer-x.x.x",
+      "text": "Spreadsheet_Excel_Writer-x.x.x",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "(from Spreadsheet Excel Writer) . To work around a bug in PHPExcelReader, copy",
+      "text": "(from Spreadsheet Excel Writer) . To work around a bug in PHPExcelReader, copy"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "oleread.inc",
+      "text": "oleread.inc",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "from the",
+      "text": "from the"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "Excel",
+      "text": "Excel",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "directory into a new path:",
+      "text": "directory into a new path:"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "Spreadsheet/Excel/Reader/OLERead.php",
+      "text": "Spreadsheet/Excel/Reader/OLERead.php",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "The PHPExcelReader code will expect",
+      "text": "The PHPExcelReader code will expect"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "OLERead.php",
+      "text": "OLERead.php",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "to be in that specific location. Once that is complete, you're ready to use the PHPExcelReader class. I made an example Excel spreadsheet like this:",
+      "text": "to be in that specific location. Once that is complete, you're ready to use the PHPExcelReader class. I made an example Excel spreadsheet like this:"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "Name                Extension   Email\n----------------------------------------------------\nJon Smith           2001        jsmith@domain.com\nClint Jones         2002        cjones@domain.com\nFrank Peterson      2003        fpeterson@domain.com",
+      "text": "Name                Extension   Email\n----------------------------------------------------\nJon Smith           2001        jsmith@domain.com\nClint Jones         2002        cjones@domain.com\nFrank Peterson      2003        fpeterson@domain.com",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "After that, I created a PHP script to pick up the data and insert it into the database, row by row:",
+      "text": "After that, I created a PHP script to pick up the data and insert it into the database, row by row:"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "require_once 'Excel/reader.php';\n$data = new Spreadsheet_Excel_Reader();\n$data->setOutputEncoding('CP1251');\n$data->read('exceltestsheet.xls');\n\n$conn = mysql_connect(\"hostname\",\"username\",\"password\");\nmysql_select_db(\"database\",$conn);\n\nfor ($x = 2; $x < = count($data->sheets[0][\"cells\"]); $x++) {\n    $name = $data->sheets[0][\"cells\"][$x][1];\n    $extension = $data->sheets[0][\"cells\"][$x][2];\n    $email = $data->sheets[0][\"cells\"][$x][3];\n    $sql = \"INSERT INTO mytable (name,extension,email)\n        VALUES ('$name',$extension,'$email')\";\n    echo $sql.\"\\n\";\n    mysql_query($sql);\n}",
+      "text": "require_once 'Excel/reader.php';\n$data = new Spreadsheet_Excel_Reader();\n$data->setOutputEncoding('CP1251');\n$data->read('exceltestsheet.xls');\n\n$conn = mysql_connect(\"hostname\",\"username\",\"password\");\nmysql_select_db(\"database\",$conn);\n\nfor ($x = 2; $x < = count($data->sheets[0][\"cells\"]); $x++) {\n    $name = $data->sheets[0][\"cells\"][$x][1];\n    $extension = $data->sheets[0][\"cells\"][$x][2];\n    $email = $data->sheets[0][\"cells\"][$x][3];\n    $sql = \"INSERT INTO mytable (name,extension,email)\n        VALUES ('$name',$extension,'$email')\";\n    echo $sql.\"\\n\";\n    mysql_query($sql);\n}",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "After the script ran, each row had been added to the database table successfully. If you have additional columns to insert, just repeat these lines, using an appropriate variable for each column:",
+      "text": "After the script ran, each row had been added to the database table successfully. If you have additional columns to insert, just repeat these lines, using an appropriate variable for each column:"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "sheets[0][\"cells\"][$row_number][$column_number];",
+      "text": "sheets[0][\"cells\"][$row_number][$column_number];",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "For more details, you can refer to a  post in Zend's Developer Zone .",
+      "text": "For more details, you can refer to a  post in Zend's Developer Zone ."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

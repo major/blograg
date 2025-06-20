@@ -1,0 +1,327 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 4841533887958327624,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2012/11/25/relocating-a-python-virtual-environment/",
+      "text": "/2012/11/25/relocating-a-python-virtual-environment/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "development",
+      "text": "development",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "openstack",
+      "text": "openstack",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "python",
+      "text": "python",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Python's  virtual environment capability  is extremely handy for situations where you don't want the required modules for a particular python project to get mixed up with your system-wide installed modules. If you work on large python projects (like  OpenStack ), you'll find that the applications may require certain versions of python modules to operate properly. If these versions differ from the system-wide python modules you already have installed, you might get unexpected results when you try to run the unit tests.",
+      "text": "Python's  virtual environment capability  is extremely handy for situations where you don't want the required modules for a particular python project to get mixed up with your system-wide installed modules. If you work on large python projects (like  OpenStack ), you'll find that the applications may require certain versions of python modules to operate properly. If these versions differ from the system-wide python modules you already have installed, you might get unexpected results when you try to run the unit tests."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If you build a virtual environment and inspect the files found within the  bin  directory of the virtual environment, you'll find that the first line in the executable scripts is set to use the python version specific to that virtual environment. Here's an example from a virtual environment containing the OpenStack glance project:",
+      "text": "If you build a virtual environment and inspect the files found within the  bin  directory of the virtual environment, you'll find that the first line in the executable scripts is set to use the python version specific to that virtual environment. Here's an example from a virtual environment containing the OpenStack glance project:"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "#!/home/major/glance/.venv/bin/python\n# EASY-INSTALL-SCRIPT: 'glance==2013.1','glance-api'\n__requires__ = 'glance==2013.1'\nimport pkg_resources\npkg_resources.run_script('glance==2013.1', 'glance-api')",
+      "text": "#!/home/major/glance/.venv/bin/python\n# EASY-INSTALL-SCRIPT: 'glance==2013.1','glance-api'\n__requires__ = 'glance==2013.1'\nimport pkg_resources\npkg_resources.run_script('glance==2013.1', 'glance-api')",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "However, what if I wanted to take this virtual environment and place it somewhere else on the server where multiple people could use it? The path in the first line of the scripts in  bin  will surely break.",
+      "text": "However, what if I wanted to take this virtual environment and place it somewhere else on the server where multiple people could use it? The path in the first line of the scripts in  bin  will surely break."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The first option is to make the virtual environment relocatable. This can produce unexpected results for some software projects, so be sure to test it out before trying to use it in a production environment.",
+      "text": "The first option is to make the virtual environment relocatable. This can produce unexpected results for some software projects, so be sure to test it out before trying to use it in a production environment."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ virtualenv --relocatable .venv",
+      "text": "$ virtualenv --relocatable .venv",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "A quick check of the same python file now shows this:",
+      "text": "A quick check of the same python file now shows this:"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "#!/usr/bin/env python2.6\n\nimport os; activate_this=os.path.join(os.path.dirname(os.path.realpath(__file__)), 'activate_this.py'); execfile(activate_this, dict(__file__=activate_this)); del os, activate_this\n\n# EASY-INSTALL-SCRIPT: 'glance==2013.1','glance-api'",
+      "text": "#!/usr/bin/env python2.6\n\nimport os; activate_this=os.path.join(os.path.dirname(os.path.realpath(__file__)), 'activate_this.py'); execfile(activate_this, dict(__file__=activate_this)); del os, activate_this\n\n# EASY-INSTALL-SCRIPT: 'glance==2013.1','glance-api'",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This allows for the path to the activate_this.py script to be determined at runtime and allows you to move your virtual environment wherever you like.",
+      "text": "This allows for the path to the activate_this.py script to be determined at runtime and allows you to move your virtual environment wherever you like."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "In situations where one script within  bin  would import another script within  bin , things can get a little dicey. These are edge cases, of course, but you can get a similar effect by adjusting the path in the first line of each file within  bin  to the new location of the virtual environment. If you move the virtual environment again, be sure to alter the paths again with ",
+      "text": "In situations where one script within  bin  would import another script within  bin , things can get a little dicey. These are edge cases, of course, but you can get a similar effect by adjusting the path in the first line of each file within  bin  to the new location of the virtual environment. If you move the virtual environment again, be sure to alter the paths again with "
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "sed",
+      "text": "sed",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

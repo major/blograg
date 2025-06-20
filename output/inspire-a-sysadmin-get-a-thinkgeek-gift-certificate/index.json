@@ -1,0 +1,265 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 17789688880653068193,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2011/08/17/inspire-a-sysadmin-get-a-thinkgeek-gift-certificate/",
+      "text": "/2011/08/17/inspire-a-sysadmin-get-a-thinkgeek-gift-certificate/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "UPDATE: THE STAKES ARE RAISED!  Check the end of this post for details.",
+      "text": "UPDATE: THE STAKES ARE RAISED!  Check the end of this post for details."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Today is my birthday and I'm doing things in reverse - you are getting gifts today. I'm giving away four $25 gift certificates to  ThinkGeek  today (yep, that's $100 out of my pocket) but you'll have to do something to earn them.",
+      "text": "Today is my birthday and I'm doing things in reverse - you are getting gifts today. I'm giving away four $25 gift certificates to  ThinkGeek  today (yep, that's $100 out of my pocket) but you'll have to do something to earn them."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I'm looking for words of wisdom and guidance from the readers of my blog for system administrators who are just getting started. I talk to brand new sysadmins and college graduates regularly and they're all hungry for what the seasoned folks in the industry know. They're not specifically on the hunt for hard facts and how-to's; they're looking for guidance on how to gain experience, reduce errors and learn efficiently.",
+      "text": "I'm looking for words of wisdom and guidance from the readers of my blog for system administrators who are just getting started. I talk to brand new sysadmins and college graduates regularly and they're all hungry for what the seasoned folks in the industry know. They're not specifically on the hunt for hard facts and how-to's; they're looking for guidance on how to gain experience, reduce errors and learn efficiently."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Let's get to the important stuff:  How does this contest work?",
+      "text": "Let's get to the important stuff:  How does this contest work?"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='Write a comment.'>]",
+      "text": "[<RawText children='Write a comment.'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='Give me a way to contact you.'>]",
+      "text": "[<RawText children='Give me a way to contact you.'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='Do it soon.'>]",
+      "text": "[<RawText children='Do it soon.'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I'll be the judge of the comments and I'm going to choose the winners based on the content of the comment. The more  inspirational  and  profound  your comment is, the better chance you have of winning. Any comment written in  LOLCats caption style  will lose points immediately. ;)",
+      "text": "I'll be the judge of the comments and I'm going to choose the winners based on the content of the comment. The more  inspirational  and  profound  your comment is, the better chance you have of winning. Any comment written in  LOLCats caption style  will lose points immediately. ;)"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "One last thing: This contest isn't affiliated with my employer or ThinkGeek. I'm doing this on my own. However, I'm a big fan of both my employer and ThinkGeek, but that's irrelevant right now.",
+      "text": "One last thing: This contest isn't affiliated with my employer or ThinkGeek. I'm doing this on my own. However, I'm a big fan of both my employer and ThinkGeek, but that's irrelevant right now."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "UPDATE:  The folks at ThinkGeek decided to not only pay for one of the gift certificates, but they're going to  double  it. There's now a $50 certificate for the best entry and three more $25 certificates for second, third and fourth best entries. Thanks again to ThinkGeek for offering this up!",
+      "text": "UPDATE:  The folks at ThinkGeek decided to not only pay for one of the gift certificates, but they're going to  double  it. There's now a $50 certificate for the best entry and three more $25 certificates for second, third and fourth best entries. Thanks again to ThinkGeek for offering this up!"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "UPDATE:   The winners have been announced!",
+      "text": "UPDATE:   The winners have been announced!"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

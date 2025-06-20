@@ -1,0 +1,131 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 4372940880471779861,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2007/01/31/treason-uncloaked/",
+      "text": "/2007/01/31/treason-uncloaked/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "security",
+      "text": "security",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "TCP: Treason uncloaked! Peer 203.12.220.221:59131/80 shrinks window\n76154906:76154907. Repaired.\nTCP: Treason uncloaked! Peer 203.12.220.227:39670/443 shrinks window\n280180313:280180314. Repaired.\nTCP: Treason uncloaked! Peer 203.12.220.227:39670/443 shrinks window\n280180313:280180314. Repaired.\nTCP: Treason uncloaked! Peer 203.12.220.227:39670/443 shrinks window\n280180313:280180314. Repaired.\nTCP: Treason uncloaked! Peer 203.12.220.237:53759/80 shrinks window\n283676616:283676617. Repaired.\nTCP: Treason uncloaked! Peer 203.12.220.237:36407/80 shrinks window\n352393585:352393586. Repaired.\nTCP: Treason uncloaked! Peer 203.12.220.237:38616/443 shrinks window\n529411143:529411144. Repaired.\nTCP: Treason uncloaked! Peer 58.139.248.9:7611/443 shrinks window\n2279076446:2279076447. Repaired.",
+      "text": "TCP: Treason uncloaked! Peer 203.12.220.221:59131/80 shrinks window\n76154906:76154907. Repaired.\nTCP: Treason uncloaked! Peer 203.12.220.227:39670/443 shrinks window\n280180313:280180314. Repaired.\nTCP: Treason uncloaked! Peer 203.12.220.227:39670/443 shrinks window\n280180313:280180314. Repaired.\nTCP: Treason uncloaked! Peer 203.12.220.227:39670/443 shrinks window\n280180313:280180314. Repaired.\nTCP: Treason uncloaked! Peer 203.12.220.237:53759/80 shrinks window\n283676616:283676617. Repaired.\nTCP: Treason uncloaked! Peer 203.12.220.237:36407/80 shrinks window\n352393585:352393586. Repaired.\nTCP: Treason uncloaked! Peer 203.12.220.237:38616/443 shrinks window\n529411143:529411144. Repaired.\nTCP: Treason uncloaked! Peer 58.139.248.9:7611/443 shrinks window\n2279076446:2279076447. Repaired.",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If this is caused by sending strange packets that consume kernel memory, perhaps adding some of these attacker IP addresses to an iptables rule to drop the packets would help. The attacker(s) will probably keep moving to another IP address, so you have get a script to read the logs (\"grep Treason\") and add new blocking rules to iptables (maybe your old system uses 'ipchains' instead).",
+      "text": "If this is caused by sending strange packets that consume kernel memory, perhaps adding some of these attacker IP addresses to an iptables rule to drop the packets would help. The attacker(s) will probably keep moving to another IP address, so you have get a script to read the logs (\"grep Treason\") and add new blocking rules to iptables (maybe your old system uses 'ipchains' instead)."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

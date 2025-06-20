@@ -1,0 +1,404 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 2832504495514982401,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2008/01/31/high-iowait-on-rhel-4-with-plesk-and-spamassassin/",
+      "text": "/2008/01/31/high-iowait-on-rhel-4-with-plesk-and-spamassassin/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "iowait",
+      "text": "iowait",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "mail",
+      "text": "mail",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "plesk",
+      "text": "plesk",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "spamassassin",
+      "text": "spamassassin",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "One of my biggest complaints on RHEL 4 is the large resource usage by the version of SpamAssassin that is installed. When it runs, it uses a ton of CPU time and causes a lot of disk I/O as well. When running top, you may see multiple spamd processes. For a high-volume e-mail server (like the one I administer), this is simply unacceptable.",
+      "text": "One of my biggest complaints on RHEL 4 is the large resource usage by the version of SpamAssassin that is installed. When it runs, it uses a ton of CPU time and causes a lot of disk I/O as well. When running top, you may see multiple spamd processes. For a high-volume e-mail server (like the one I administer), this is simply unacceptable."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I decided to do something about it, and here are the steps:",
+      "text": "I decided to do something about it, and here are the steps:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "First,  you will need two RPMs:",
+      "text": "First,  you will need two RPMs:"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Latest  SpamAssassin RPM from Dag",
+      "text": "Latest  SpamAssassin RPM from Dag"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The  psa-spamassassin RPM from SWSoft/Parallels .",
+      "text": "The  psa-spamassassin RPM from SWSoft/Parallels ."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Once you have them both on the server, install the new SpamAssassin package from Dag:",
+      "text": "Once you have them both on the server, install the new SpamAssassin package from Dag:"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# rpm -Uvh spamassassin-(version).el4.rf.(arch).rpm",
+      "text": "# rpm -Uvh spamassassin-(version).el4.rf.(arch).rpm",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "At this point, Plesk's spamassassin scripts will be non-functional, but the next step will fix it:",
+      "text": "At this point, Plesk's spamassassin scripts will be non-functional, but the next step will fix it:"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# rpm -Uvh --force psa-spamassassin-(version).(arch).rpm",
+      "text": "# rpm -Uvh --force psa-spamassassin-(version).(arch).rpm",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "NOTE: DO NOT REMOVE the psa-spamassassin RPM. This will begin stripping your system of all SpamAssassin configurations and it cannot be reversed!",
+      "text": "NOTE: DO NOT REMOVE the psa-spamassassin RPM. This will begin stripping your system of all SpamAssassin configurations and it cannot be reversed!"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Plesk's SpamAssassin scripts have been restored at this point in the process. Now, we need to do the part that really makes SpamAssassin work efficiently:",
+      "text": "Plesk's SpamAssassin scripts have been restored at this point in the process. Now, we need to do the part that really makes SpamAssassin work efficiently:"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# sa-update; sa-compile;",
+      "text": "# sa-update; sa-compile;",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This will update the SpamAssassin rules, and it will compile the rules with re2c (you may also need to  get this RPM from Dag ). This compilation means less disk access, and less CPU time being used to process e-mails.",
+      "text": "This will update the SpamAssassin rules, and it will compile the rules with re2c (you may also need to  get this RPM from Dag ). This compilation means less disk access, and less CPU time being used to process e-mails."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "To activate the compiled rules within SpamAssassin, uncomment the plugin line in /etc/mail/spamassassin/v320.pre:",
+      "text": "To activate the compiled rules within SpamAssassin, uncomment the plugin line in /etc/mail/spamassassin/v320.pre:"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# Rule2XSBody - speedup by compilation of ruleset to native code<br /> #<br /> loadplugin Mail::SpamAssassin::Plugin::Rule2XSBody",
+      "text": "# Rule2XSBody - speedup by compilation of ruleset to native code<br /> #<br /> loadplugin Mail::SpamAssassin::Plugin::Rule2XSBody",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Please bear in mind that this process is done  at your own risk . This may cause issues getting support from SWSoft or your hosting company. This has been tested on Red Hat Enterprise Linux 4 64-bit with Plesk 8.1.1, 8.2.0, and 8.2.1 with SpamAssassin 3.2.3 and 3.2.4.",
+      "text": "Please bear in mind that this process is done  at your own risk . This may cause issues getting support from SWSoft or your hosting company. This has been tested on Red Hat Enterprise Linux 4 64-bit with Plesk 8.1.1, 8.2.0, and 8.2.1 with SpamAssassin 3.2.3 and 3.2.4."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

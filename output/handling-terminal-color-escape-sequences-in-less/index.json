@@ -1,0 +1,403 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 9750858391088886002,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2013/05/21/handling-terminal-color-escape-sequences-in-less/",
+      "text": "/2013/05/21/handling-terminal-color-escape-sequences-in-less/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "centos",
+      "text": "centos",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "command line",
+      "text": "command line",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "advice",
+      "text": "advice",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "red hat",
+      "text": "red hat",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "sysadmin",
+      "text": "sysadmin",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This post is a quick one but I wanted to share it since I taught it to someone new today. When you have bash output with colors, ",
+      "text": "This post is a quick one but I wanted to share it since I taught it to someone new today. When you have bash output with colors, "
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "less",
+      "text": "less",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " doesn't handle the color codes properly by default:",
+      "text": " doesn't handle the color codes properly by default:"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ colordiff chunk/functions.php chunk-old/functions.php | less\nESC[0;32m22a23,27ESC[0;0m\nESC[0;34m>       * Load up our functions for grabbing content from postsESC[0;0m\nESC[0;34m>       */ESC[0;0m\nESC[0;34m>      require( get_template_directory() . '/content-grabbers.php' );ESC[0;0m\nESC[0;34m> ESC[0;0m",
+      "text": "$ colordiff chunk/functions.php chunk-old/functions.php | less\nESC[0;32m22a23,27ESC[0;0m\nESC[0;34m>       * Load up our functions for grabbing content from postsESC[0;0m\nESC[0;34m>       */ESC[0;0m\nESC[0;34m>      require( get_template_directory() . '/content-grabbers.php' );ESC[0;0m\nESC[0;34m> ESC[0;0m",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Toss in the ",
+      "text": "Toss in the "
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "-R",
+      "text": "-R",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " flag and you'll be able to see the colors properly (no colors to see here, but use your imagination):",
+      "text": " flag and you'll be able to see the colors properly (no colors to see here, but use your imagination):"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ colordiff chunk/functions.php chunk-old/functions.php | less -R\n22a23,27\n>        * Load up our functions for grabbing content from posts\n>        */\n>       require( get_template_directory() . '/content-grabbers.php' );\n>\n>       /**",
+      "text": "$ colordiff chunk/functions.php chunk-old/functions.php | less -R\n22a23,27\n>        * Load up our functions for grabbing content from posts\n>        */\n>       require( get_template_directory() . '/content-grabbers.php' );\n>\n>       /**",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The  man page  for ",
+      "text": "The  man page  for "
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "less",
+      "text": "less",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " explains the feature in greater detail:",
+      "text": " explains the feature in greater detail:"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "-R or --RAW-CONTROL-CHARS\n       Like -r, but only ANSI \"color\" escape sequences are output in \"raw\" form.  Unlike -r, the screen appear-\n       ance is maintained correctly in most cases.  ANSI \"color\" escape sequences are sequences of the form:\n            ESC [ ... m\n       where the \"...\" is zero or more color specification characters For  the  purpose  of  keeping  track  of\n       screen  appearance,  ANSI  color escape sequences are assumed to not move the cursor.  You can make less\n       think that characters other than \"m\" can end ANSI color escape  sequences  by  setting  the  environment\n       variable  LESSANSIENDCHARS to the list of characters which can end a color escape sequence.  And you can\n       make less think that characters other than the standard ones may appear between the ESC  and  the  m  by\n       setting the environment variable LESSANSIMIDCHARS to the list of characters which can appear.",
+      "text": "-R or --RAW-CONTROL-CHARS\n       Like -r, but only ANSI \"color\" escape sequences are output in \"raw\" form.  Unlike -r, the screen appear-\n       ance is maintained correctly in most cases.  ANSI \"color\" escape sequences are sequences of the form:\n            ESC [ ... m\n       where the \"...\" is zero or more color specification characters For  the  purpose  of  keeping  track  of\n       screen  appearance,  ANSI  color escape sequences are assumed to not move the cursor.  You can make less\n       think that characters other than \"m\" can end ANSI color escape  sequences  by  setting  the  environment\n       variable  LESSANSIENDCHARS to the list of characters which can end a color escape sequence.  And you can\n       make less think that characters other than the standard ones may appear between the ESC  and  the  m  by\n       setting the environment variable LESSANSIMIDCHARS to the list of characters which can appear.",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

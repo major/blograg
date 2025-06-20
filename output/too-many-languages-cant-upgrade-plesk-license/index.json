@@ -1,0 +1,131 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 10892513451339142214,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2007/04/19/too-many-languages-cant-upgrade-plesk-license/",
+      "text": "/2007/04/19/too-many-languages-cant-upgrade-plesk-license/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "plesk",
+      "text": "plesk",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If Plesk throws an error that it can't upgrade your license key because of languages, you need to remove the extra locales:",
+      "text": "If Plesk throws an error that it can't upgrade your license key because of languages, you need to remove the extra locales:"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# rpm -qa | grep psa-locale | grep -v base\npsa-locale-el-GR-8.1-build81061127.19\npsa-locale-fr-FR-8.1-build81061127.19\npsa-locale-lt-LT-8.1-build81061127.19\npsa-locale-pt-BR-8.1-build81061127.19\npsa-locale-sv-SE-8.1-build81061127.19\npsa-locale-ca-ES-8.1-build81061127.19\npsa-locale-de-DE-8.1-build81061127.19\npsa-locale-es-ES-8.1-build81061127.19\npsa-locale-fi-FI-8.1-build81061127.19\npsa-locale-hu-HU-8.1-build81061127.19\npsa-locale-ja-JP-8.1-build81061127.19\npsa-locale-nl-BE-8.1-build81061127.19\npsa-locale-pl-PL-8.1-build81061127.19\npsa-locale-pt-PT-8.1-build81061127.19\npsa-locale-ru-RU-8.1-build81061127.19\npsa-locale-tr-TR-8.1-build81061127.19\npsa-locale-zh-TW-8.1-build81061127.19\npsa-locale-cs-CZ-8.1-build81061127.19\npsa-locale-es-MX-8.1-build81061127.19\npsa-locale-it-IT-8.1-build81061127.19\npsa-locale-nl-NL-8.1-build81061127.19\npsa-locale-ro-RO-8.1-build81061127.19\npsa-locale-zh-CN-8.1-build81061127.19\n# rpm -ev `rpm -qa | grep psa-locale | grep -v base`",
+      "text": "# rpm -qa | grep psa-locale | grep -v base\npsa-locale-el-GR-8.1-build81061127.19\npsa-locale-fr-FR-8.1-build81061127.19\npsa-locale-lt-LT-8.1-build81061127.19\npsa-locale-pt-BR-8.1-build81061127.19\npsa-locale-sv-SE-8.1-build81061127.19\npsa-locale-ca-ES-8.1-build81061127.19\npsa-locale-de-DE-8.1-build81061127.19\npsa-locale-es-ES-8.1-build81061127.19\npsa-locale-fi-FI-8.1-build81061127.19\npsa-locale-hu-HU-8.1-build81061127.19\npsa-locale-ja-JP-8.1-build81061127.19\npsa-locale-nl-BE-8.1-build81061127.19\npsa-locale-pl-PL-8.1-build81061127.19\npsa-locale-pt-PT-8.1-build81061127.19\npsa-locale-ru-RU-8.1-build81061127.19\npsa-locale-tr-TR-8.1-build81061127.19\npsa-locale-zh-TW-8.1-build81061127.19\npsa-locale-cs-CZ-8.1-build81061127.19\npsa-locale-es-MX-8.1-build81061127.19\npsa-locale-it-IT-8.1-build81061127.19\npsa-locale-nl-NL-8.1-build81061127.19\npsa-locale-ro-RO-8.1-build81061127.19\npsa-locale-zh-CN-8.1-build81061127.19\n# rpm -ev `rpm -qa | grep psa-locale | grep -v base`",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

@@ -1,0 +1,739 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 1478685535690691833,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2007/05/27/install-snort-and-base-on-freebsd/",
+      "text": "/2007/05/27/install-snort-and-base-on-freebsd/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "command line",
+      "text": "command line",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "security",
+      "text": "security",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "web",
+      "text": "web",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Installing snort from ports on FreeBSD is pretty straightforward, but there are some 'gotchas' that you need to be aware of. Here's a step by step:",
+      "text": "Installing snort from ports on FreeBSD is pretty straightforward, but there are some 'gotchas' that you need to be aware of. Here's a step by step:"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Compile snort form the ports tree:",
+      "text": "Compile snort form the ports tree:"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# portinstall snort\n-- OR --\n# make -C /usr/ports/security/snort install all",
+      "text": "# portinstall snort\n-- OR --\n# make -C /usr/ports/security/snort install all",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "You will be asked about which support you want to add to snort, so be sure to choose MySQL (unless you're not going to use MySQL). When the build is complete, you'll need oinkmaster as well to update your snort rules:",
+      "text": "You will be asked about which support you want to add to snort, so be sure to choose MySQL (unless you're not going to use MySQL). When the build is complete, you'll need oinkmaster as well to update your snort rules:"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# portinstall oinkmaster\n-- OR --\n# make -C /usr/ports/security/oinkmaster install all",
+      "text": "# portinstall oinkmaster\n-- OR --\n# make -C /usr/ports/security/oinkmaster install all",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Oinkmaster needs a snort download code/hash to be able to get your rules for you. Go to  http://snort.org  and register for an account. You'll be given a hash (looks SHA-1-ish) at the bottom of your main account page. Copy /usr/local/etc/oinkmaster.conf.sample to /usr/local/etc/oinkmaster.conf:",
+      "text": "Oinkmaster needs a snort download code/hash to be able to get your rules for you. Go to  http://snort.org  and register for an account. You'll be given a hash (looks SHA-1-ish) at the bottom of your main account page. Copy /usr/local/etc/oinkmaster.conf.sample to /usr/local/etc/oinkmaster.conf:"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# cp /usr/local/etc/oinkmaster.conf.sample /usr/local/etc/oinkmaster.conf",
+      "text": "# cp /usr/local/etc/oinkmaster.conf.sample /usr/local/etc/oinkmaster.conf",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Replace   with the hash you received from snort.org in /usr/local/etc/oinkmaster.conf and uncomment the line:",
+      "text": "Replace   with the hash you received from snort.org in /usr/local/etc/oinkmaster.conf and uncomment the line:"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# Example for Snort-current (\"current\" means cvs snapshots).\nurl = http://www.snort.org/pub-bin/oinkmaster.cgi/<oinkcode>/snortrules-snapshot-CURRENT.tar.gz",
+      "text": "# Example for Snort-current (\"current\" means cvs snapshots).\nurl = http://www.snort.org/pub-bin/oinkmaster.cgi/<oinkcode>/snortrules-snapshot-CURRENT.tar.gz",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Now that oinkmaster is set up, you can update your snort rules using this command:",
+      "text": "Now that oinkmaster is set up, you can update your snort rules using this command:"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# oinkmaster -o /usr/local/etc/snort/rules/\nLoading /usr/local/etc/oinkmaster.conf\nDownloading file from http://www.snort.org/pub-bin/oinkmaster.cgi/*oinkcode*/snortrules-snapshot-CURRENT.tar.gz... done.\nArchive successfully downloaded, unpacking... done.\nSetting up rules structures... done.\nProcessing downloaded rules... disabled 0, enabled 0, modified 0, total=9942\nSetting up rules structures... done.\nComparing new files to the old ones... done.\nUpdating local rules files... done.",
+      "text": "# oinkmaster -o /usr/local/etc/snort/rules/\nLoading /usr/local/etc/oinkmaster.conf\nDownloading file from http://www.snort.org/pub-bin/oinkmaster.cgi/*oinkcode*/snortrules-snapshot-CURRENT.tar.gz... done.\nArchive successfully downloaded, unpacking... done.\nSetting up rules structures... done.\nProcessing downloaded rules... disabled 0, enabled 0, modified 0, total=9942\nSetting up rules structures... done.\nComparing new files to the old ones... done.\nUpdating local rules files... done.",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Create the snort database and user:",
+      "text": "Create the snort database and user:"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# mysql -u root -ppassword\nmysql> CREATE DATABASE `snort`;\nmysql> GRANT ALL PRIVILEGES ON snort.* TO 'snort'@'localhost' IDENTIFIED BY 'snortpassword';`",
+      "text": "# mysql -u root -ppassword\nmysql> CREATE DATABASE `snort`;\nmysql> GRANT ALL PRIVILEGES ON snort.* TO 'snort'@'localhost' IDENTIFIED BY 'snortpassword';`",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "There's a script that is pre-packaged with snort to set up the tables for you:",
+      "text": "There's a script that is pre-packaged with snort to set up the tables for you:"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# mysql -u snort -psnortpassword snort < /usr/local/share/examples/snort/create_mysql",
+      "text": "# mysql -u snort -psnortpassword snort < /usr/local/share/examples/snort/create_mysql",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Now it's time to make changes in the snort.conf:",
+      "text": "Now it's time to make changes in the snort.conf:"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# nano -w /usr/local/etc/snort/snort.conf",
+      "text": "# nano -w /usr/local/etc/snort/snort.conf",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Uncomment and configure these lines:",
+      "text": "Uncomment and configure these lines:"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# config detection: search-method lowmem\n# output alert_syslog: LOG_AUTH LOG_ALERT\n# output database: log, mysql, user=root password=test dbname=db host=localhost",
+      "text": "# config detection: search-method lowmem\n# output alert_syslog: LOG_AUTH LOG_ALERT\n# output database: log, mysql, user=root password=test dbname=db host=localhost",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Uncomment all of the ",
+      "text": "Uncomment all of the "
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "include $RULE_PATH/*.rules",
+      "text": "include $RULE_PATH/*.rules",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " lines except for this one:",
+      "text": " lines except for this one:"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# include $RULE_PATH/local.rules [comment this line out]",
+      "text": "# include $RULE_PATH/local.rules [comment this line out]",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Now, enable snort in the /etc/rc.conf and start it up:",
+      "text": "Now, enable snort in the /etc/rc.conf and start it up:"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# echo \"snort_enable=\\\"YES\\\"\" >> /etc/rc.conf\n# /usr/local/etc/rc.d/snort start\nStarting snort.",
+      "text": "# echo \"snort_enable=\\\"YES\\\"\" >> /etc/rc.conf\n# /usr/local/etc/rc.d/snort start\nStarting snort.",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If you run ",
+      "text": "If you run "
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "tail /var/log/messages",
+      "text": "tail /var/log/messages",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": ", you should get some output like this:",
+      "text": ", you should get some output like this:"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "snort[12558]: Initializing daemon mode\nkernel: fxp0: promiscuous mode enabled\nsnort[12559]: PID path stat checked out ok, PID path set to /var/run/\nsnort[12559]: Writing PID \"12559\" to file \"/var/run//snort_fxp0.pid\"\nsnort[12559]: Daemon initialized, signaled parent pid: 12558\nsnort[12558]: Daemon parent exiting\nsnort[12559]: Snort initialization completed successfully (pid=12559)",
+      "text": "snort[12558]: Initializing daemon mode\nkernel: fxp0: promiscuous mode enabled\nsnort[12559]: PID path stat checked out ok, PID path set to /var/run/\nsnort[12559]: Writing PID \"12559\" to file \"/var/run//snort_fxp0.pid\"\nsnort[12559]: Daemon initialized, signaled parent pid: 12558\nsnort[12558]: Daemon parent exiting\nsnort[12559]: Snort initialization completed successfully (pid=12559)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If you see an error like this, don't worry, nothing's wrong:",
+      "text": "If you see an error like this, don't worry, nothing's wrong:"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "snort[12559]: Not Using PCAP_FRAMES",
+      "text": "snort[12559]: Not Using PCAP_FRAMES",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "To test snort, run a ping against your server from an outside source, and you should see something in your syslog like this:",
+      "text": "To test snort, run a ping against your server from an outside source, and you should see something in your syslog like this:"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "snort[12559]: [1:368:6] ICMP PING BSDtype [Classification: Misc activity] [Priority: 3]: {ICMP} xxx.xxx.xxx.xxx -> xxx.xxx.xxx.xxx\nsnort[12559]: [1:366:7] ICMP PING *NIX [Classification: Misc activity] [Priority: 3]: {ICMP} xxx.xxx.xxx.xxx -> xxx.xxx.xxx.xxx\nsnort[12559]: [1:384:5] ICMP PING [Classification: Misc activity] [Priority: 3]: {ICMP} xxx.xxx.xxx.xxx -> xxx.xxx.xxx.xxx",
+      "text": "snort[12559]: [1:368:6] ICMP PING BSDtype [Classification: Misc activity] [Priority: 3]: {ICMP} xxx.xxx.xxx.xxx -> xxx.xxx.xxx.xxx\nsnort[12559]: [1:366:7] ICMP PING *NIX [Classification: Misc activity] [Priority: 3]: {ICMP} xxx.xxx.xxx.xxx -> xxx.xxx.xxx.xxx\nsnort[12559]: [1:384:5] ICMP PING [Classification: Misc activity] [Priority: 3]: {ICMP} xxx.xxx.xxx.xxx -> xxx.xxx.xxx.xxx",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Installing BASE is pretty simple. You'll need the adodb port plus the BASE tarball from SourceForge:",
+      "text": "Installing BASE is pretty simple. You'll need the adodb port plus the BASE tarball from SourceForge:"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# portinstall adodb\n-- OR --\n# make -C /usr/ports/databases/adodb install clean",
+      "text": "# portinstall adodb\n-- OR --\n# make -C /usr/ports/databases/adodb install clean",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "After you expand the tarball, go to your BASE install's URL in a browser. It will ask for the path to adodb, which is /usr/local/share/adodb. Provide the snort database information on the third screen and then just finish out the wizard. You will then be all set!",
+      "text": "After you expand the tarball, go to your BASE install's URL in a browser. It will ask for the path to adodb, which is /usr/local/share/adodb. Provide the snort database information on the third screen and then just finish out the wizard. You will then be all set!"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

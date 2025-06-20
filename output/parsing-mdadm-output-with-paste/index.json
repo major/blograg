@@ -1,0 +1,329 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/html",
+    "binary_hash": 11280169248878679275,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "aktt_notify_twitter:",
+      "text": "aktt_notify_twitter:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "false",
+      "text": "false",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2010/06/14/parsing-mdadm-output-with-paste/",
+      "text": "/2010/06/14/parsing-mdadm-output-with-paste/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "command line",
+      "text": "command line",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "mdadm",
+      "text": "mdadm",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "scripts",
+      "text": "scripts",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "My curiosity is always piqued when I find new ways to manipulate command line output in simple ways. While working on a solution to parse /proc/mdstat output, I stumbled upon the  paste  utility.",
+      "text": "My curiosity is always piqued when I find new ways to manipulate command line output in simple ways. While working on a solution to parse /proc/mdstat output, I stumbled upon the  paste  utility."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "The  man page  offers a very simple description of its features:",
+      "text": "The  man page  offers a very simple description of its features:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Write lines consisting of the sequentially corresponding lines from each FILE, separated by TABs, to standard output.",
+      "text": "Write lines consisting of the sequentially corresponding lines from each FILE, separated by TABs, to standard output."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Here's an example of how it works. Let's say you want to parse some software raid output that looks like this:",
+      "text": "Here's an example of how it works. Let's say you want to parse some software raid output that looks like this:"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# mdadm --brief --verbose --detail /dev/md0\nARRAY /dev/md0 level=raid1 num-devices=2 metadata=00.90 UUID=7bea4601:d5a02f5c:2da69848:3184a367\n   devices=/dev/sda1,/dev/sdb1",
+      "text": "# mdadm --brief --verbose --detail /dev/md0\nARRAY /dev/md0 level=raid1 num-devices=2 metadata=00.90 UUID=7bea4601:d5a02f5c:2da69848:3184a367\n   devices=/dev/sda1,/dev/sdb1",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "It would be handy if we had both on one line as that would make it easier to parse with a script. Of course, you can do this with utilities like awk and tr, but paste makes it so much easier:",
+      "text": "It would be handy if we had both on one line as that would make it easier to parse with a script. Of course, you can do this with utilities like awk and tr, but paste makes it so much easier:"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# mdadm --brief --verbose --detail /dev/md0 | paste - -\nARRAY /dev/md0 level=raid1 num-devices=2 metadata=00.90 UUID=7bea4601:d5a02f5c:2da69848:3184a367       devices=/dev/sda1,/dev/sdb1",
+      "text": "# mdadm --brief --verbose --detail /dev/md0 | paste - -\nARRAY /dev/md0 level=raid1 num-devices=2 metadata=00.90 UUID=7bea4601:d5a02f5c:2da69848:3184a367       devices=/dev/sda1,/dev/sdb1",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "By default, paste uses tabs to separate the lines, but you can use the",
+      "text": "By default, paste uses tabs to separate the lines, but you can use the"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "-d",
+      "text": "-d",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "argument to specify any delimiter you like:",
+      "text": "argument to specify any delimiter you like:"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# mdadm --brief --verbose --detail /dev/md0 | paste -d\"*\" - -\nARRAY /dev/md0 level=raid1 num-devices=2 metadata=00.90 UUID=7bea4601:d5a02f5c:2da69848:3184a367*   devices=/dev/sda1,/dev/sdb1",
+      "text": "# mdadm --brief --verbose --detail /dev/md0 | paste -d\"*\" - -\nARRAY /dev/md0 level=raid1 num-devices=2 metadata=00.90 UUID=7bea4601:d5a02f5c:2da69848:3184a367*   devices=/dev/sda1,/dev/sdb1",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

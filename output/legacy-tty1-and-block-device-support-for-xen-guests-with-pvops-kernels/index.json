@@ -1,0 +1,369 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 17353511634240084824,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aktt_notify_twitter:",
+      "text": "aktt_notify_twitter:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "false",
+      "text": "false",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2010/05/14/legacy-tty1-and-block-device-support-for-xen-guests-with-pvops-kernels/",
+      "text": "/2010/05/14/legacy-tty1-and-block-device-support-for-xen-guests-with-pvops-kernels/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "development",
+      "text": "development",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "kernel",
+      "text": "kernel",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "virtualization",
+      "text": "virtualization",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "xen",
+      "text": "xen",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The discussions about the  paravirt_ops , or \"pvops\", support in upstream kernels at  Xen Summit 2010  last month really piqued my interest.",
+      "text": "The discussions about the  paravirt_ops , or \"pvops\", support in upstream kernels at  Xen Summit 2010  last month really piqued my interest."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Quite a few distribution maintainers have gone to great lengths to keep Xen domU support in their kernels and it's been an uphill battle. Some kernels, such as Ubuntu's  linux-ec2  kernels, have patches from 2.6.18 dragged forward into 2.6.32 and even 2.6.33. It certainly can't be enjoyable to keep dragging those patches forward into new kernel trees.",
+      "text": "Quite a few distribution maintainers have gone to great lengths to keep Xen domU support in their kernels and it's been an uphill battle. Some kernels, such as Ubuntu's  linux-ec2  kernels, have patches from 2.6.18 dragged forward into 2.6.32 and even 2.6.33. It certainly can't be enjoyable to keep dragging those patches forward into new kernel trees."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The paravirt_ops support for Xen guests was added in 2.6.23 and continues to be included and improved in the latest kernel trees. However, there are two significant problems with these new kernels if you're trying to work with legacy environments:",
+      "text": "The paravirt_ops support for Xen guests was added in 2.6.23 and continues to be included and improved in the latest kernel trees. However, there are two significant problems with these new kernels if you're trying to work with legacy environments:"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "the console is on ",
+      "text": "the console is on ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "block devices are now ",
+      "text": "block devices are now ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If you only have a few guests, these changes are generally pretty easy. Switching the console just requires some changes to your inittab or upstart configurations. Changing the block device names requires changes to the guest's Xen configuration file and ",
+      "text": "If you only have a few guests, these changes are generally pretty easy. Switching the console just requires some changes to your inittab or upstart configurations. Changing the block device names requires changes to the guest's Xen configuration file and "
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/etc/fstab",
+      "text": "/etc/fstab",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " within the guest itself.",
+      "text": " within the guest itself."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Considering the  amount of environments  I work with daily at Rackspace, changing the guest configuration is definitely not an option. I needed a way to keep the console and block devices unchanged so that our customers could have a consistent experience on our infrastructure.",
+      "text": "Considering the  amount of environments  I work with daily at Rackspace, changing the guest configuration is definitely not an option. I needed a way to keep the console and block devices unchanged so that our customers could have a consistent experience on our infrastructure."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Luckily,  Soren Hansen  offered to pitch in and a solution became apparent. Through some  relatively small patches , the legacy console and block device support was available in the latest 2.6.32 version (2.6.32.12 as of this post's writing).",
+      "text": "Luckily,  Soren Hansen  offered to pitch in and a solution became apparent. Through some  relatively small patches , the legacy console and block device support was available in the latest 2.6.32 version (2.6.32.12 as of this post's writing)."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "So far, I've tested x86_64 and i386 versions of 2.6.32.12 with the console and block device patches. It's gone through its paces on Xen 3.0.3, 3.1.2, 3.3.0 and 3.4.2. All revisions of Fedora, CentOS, Ubuntu, Debian, Gentoo and Arch made within the last two years are working well with the new kernels.",
+      "text": "So far, I've tested x86_64 and i386 versions of 2.6.32.12 with the console and block device patches. It's gone through its paces on Xen 3.0.3, 3.1.2, 3.3.0 and 3.4.2. All revisions of Fedora, CentOS, Ubuntu, Debian, Gentoo and Arch made within the last two years are working well with the new kernels."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

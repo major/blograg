@@ -1,0 +1,463 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 1078115159398806366,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2007/02/13/understanding-lvm/",
+      "text": "/2007/02/13/understanding-lvm/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "command line",
+      "text": "command line",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "LVM is handy when you want additional flexibility to grow or shrink your storage space safely without impacting filesystems negatively. It's key to remember that LVM provides flexibility - not redundancy. The best way to understand LVM is to understand four terms: physical volumes, physical extents, volume groups and logical volumes.",
+      "text": "LVM is handy when you want additional flexibility to grow or shrink your storage space safely without impacting filesystems negatively. It's key to remember that LVM provides flexibility - not redundancy. The best way to understand LVM is to understand four terms: physical volumes, physical extents, volume groups and logical volumes."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Physical volumes  are probably the easiest to understand for most users. The stuff you deal with all day, /dev/hda2, /dev/sd3 - these are physical volumes. They're real hard drive partitions which are finitely defined. LVM comes along and chops those physical volumes up into little pieces called  physical extents . Extents are simply just pieces of a regular system partition, and the size of the extent is determined by the OS.",
+      "text": "Physical volumes  are probably the easiest to understand for most users. The stuff you deal with all day, /dev/hda2, /dev/sd3 - these are physical volumes. They're real hard drive partitions which are finitely defined. LVM comes along and chops those physical volumes up into little pieces called  physical extents . Extents are simply just pieces of a regular system partition, and the size of the extent is determined by the OS."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "So what happens with these extents? You can pool a group of extents together to form a  volume group . From there, you can carve out chunks of the extents from the volume group to make  logical volumes .",
+      "text": "So what happens with these extents? You can pool a group of extents together to form a  volume group . From there, you can carve out chunks of the extents from the volume group to make  logical volumes ."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Confused? You should be! Let's try an example:",
+      "text": "Confused? You should be! Let's try an example:"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "You have two system partitions: /dev/sda2 and /dev/sda3. Let's say that /dev/sda2 has 1,000 extents and /dev/sda3 has 2,000 extents. The first thing you'll want to do is initialize the physical volumes, which basically tells LVM you want to chop them up into pieces so you can use them later:",
+      "text": "You have two system partitions: /dev/sda2 and /dev/sda3. Let's say that /dev/sda2 has 1,000 extents and /dev/sda3 has 2,000 extents. The first thing you'll want to do is initialize the physical volumes, which basically tells LVM you want to chop them up into pieces so you can use them later:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# pvcreate /dev/sda2\n# pvcreate /dev/sda3`",
+      "text": "# pvcreate /dev/sda2\n# pvcreate /dev/sda3`",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Graphically, here's what's happened so far:",
+      "text": "Graphically, here's what's happened so far:"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "+-----[ Physical Volume ]------+\n| PE | PE | PE | PE | PE | PE  |\n+------------------------------+",
+      "text": "+-----[ Physical Volume ]------+\n| PE | PE | PE | PE | PE | PE  |\n+------------------------------+",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Now, LVM has split these physical volumes (partitions) into small pieces called extents. So, we should have 3,000 extents total once we create the physical volumes with LVM (1,000 for sda2 and 2,000 for sda3). Now, we need to take all of these extents and put them into a group, called the volume group:",
+      "text": "Now, LVM has split these physical volumes (partitions) into small pieces called extents. So, we should have 3,000 extents total once we create the physical volumes with LVM (1,000 for sda2 and 2,000 for sda3). Now, we need to take all of these extents and put them into a group, called the volume group:"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "vgcreate test /dev/sda2 /dev/sda3",
+      "text": "vgcreate test /dev/sda2 /dev/sda3",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Again, here's what we've done:",
+      "text": "Again, here's what we've done:"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "+------[ Volume Group ]-----------------+\n|  +--[PV]--------+  +--[PV]---------+  |\n|  | PE | PE | PE |  | PE | PE | PE  |  |\n|  +--------------+  +---------------+  |\n+---------------------------------------+",
+      "text": "+------[ Volume Group ]-----------------+\n|  +--[PV]--------+  +--[PV]---------+  |\n|  | PE | PE | PE |  | PE | PE | PE  |  |\n|  +--------------+  +---------------+  |\n+---------------------------------------+",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "So what's happened so far? The physical volumes (partitions) are unchanged, but LVM has split them into extents, and we've now told LVM that we want to include the extents from both physical volumes in a volume group called test. The volume group test is basically a big bucket holding all of our extents from both physical volumes. To move on, you need to find out how many extents we have in our volume group now:",
+      "text": "So what's happened so far? The physical volumes (partitions) are unchanged, but LVM has split them into extents, and we've now told LVM that we want to include the extents from both physical volumes in a volume group called test. The volume group test is basically a big bucket holding all of our extents from both physical volumes. To move on, you need to find out how many extents we have in our volume group now:"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "vgdisplay -v test",
+      "text": "vgdisplay -v test",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "We should see that  Total PE  in the output shows 3,000, with a  Free PE  of 3,000 since we haven't done anything with our extents yet. Now we can take all these extents in the volume group and lump them together into a 1,500 extent partition:",
+      "text": "We should see that  Total PE  in the output shows 3,000, with a  Free PE  of 3,000 since we haven't done anything with our extents yet. Now we can take all these extents in the volume group and lump them together into a 1,500 extent partition:"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "lvcreate -l 1500 -n FIRST test",
+      "text": "lvcreate -l 1500 -n FIRST test",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "What did we just do? We made a real linux volume called /dev/test/FIRST that has 1,500 extents. Toss a filesystem onto that new volume and you're good to go:",
+      "text": "What did we just do? We made a real linux volume called /dev/test/FIRST that has 1,500 extents. Toss a filesystem onto that new volume and you're good to go:"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "mke2fs -j /dev/test/FIRST",
+      "text": "mke2fs -j /dev/test/FIRST",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "So, this new logical volume contains 1,500 extents, which means we have 1,500 left over. Might as well make a second volume out of the remaining extents in our volume group:",
+      "text": "So, this new logical volume contains 1,500 extents, which means we have 1,500 left over. Might as well make a second volume out of the remaining extents in our volume group:"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "lvcreate -l 1500 -n SECOND test\nmke2fs -j /dev/test/SECOND",
+      "text": "lvcreate -l 1500 -n SECOND test\nmke2fs -j /dev/test/SECOND",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Now you have two equal sized logical volumes whereas you had one small one (sda2) and one large one (sda3) before. The two logical volumes use extents from both physical volumes that are both held within the same volume group. You end up with something like this:",
+      "text": "Now you have two equal sized logical volumes whereas you had one small one (sda2) and one large one (sda3) before. The two logical volumes use extents from both physical volumes that are both held within the same volume group. You end up with something like this:"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "+------[ Volume Group ]-----------------+\n|  +--[PV]--------+  +--[PV]---------+  |\n|  | PE | PE | PE |  | PE | PE | PE  |  |\n|  +--+---+---+---+  +-+----+----+---+  |\n|     |   |   | +-----/     |    |      |\n|     |   |   | |           |    |      |\n|   +-+---+---+-+      +----+----+--+   |\n|   |  Logical  |      |  Logical   |   |\n|   |  Volume   |      |   Volume   |   |\n|   |           |      |            |   |\n|   |  /FIRST   |      |   /SECOND  |   |\n|   +-----------+      +------------+   |\n+---------------------------------------+",
+      "text": "+------[ Volume Group ]-----------------+\n|  +--[PV]--------+  +--[PV]---------+  |\n|  | PE | PE | PE |  | PE | PE | PE  |  |\n|  +--+---+---+---+  +-+----+----+---+  |\n|     |   |   | +-----/     |    |      |\n|     |   |   | |           |    |      |\n|   +-+---+---+-+      +----+----+--+   |\n|   |  Logical  |      |  Logical   |   |\n|   |  Volume   |      |   Volume   |   |\n|   |           |      |            |   |\n|   |  /FIRST   |      |   /SECOND  |   |\n|   +-----------+      +------------+   |\n+---------------------------------------+",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

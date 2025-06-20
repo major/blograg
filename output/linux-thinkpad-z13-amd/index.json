@@ -1,0 +1,658 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 9205441323167996690,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "author: Major Hayden date: '2024-01-14' Now that AMD's Zen 4 CPUs landed in lots of laptops, I picked up a ThinkPad Z13 G2 with an AMD Ryzen CPU. Did I put Linux on it? Of course I did. \ud83d\udc27 tags: ",
+      "text": "author: Major Hayden date: '2024-01-14' Now that AMD's Zen 4 CPUs landed in lots of laptops, I picked up a ThinkPad Z13 G2 with an AMD Ryzen CPU. Did I put Linux on it? Of course I did. \ud83d\udc27 tags: "
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "amd",
+      "text": "amd",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "laptop",
+      "text": "laptop",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "sway",
+      "text": "sway",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "thinkpad",
+      "text": "thinkpad",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "AMD's new  Zen 4 processors  started rolling out in 2022 and I've been watching for the mobile CPUs to reach laptops. I like where AMD is going with these chips and how they provide lots of CPU power without eating up the battery.",
+      "text": "AMD's new  Zen 4 processors  started rolling out in 2022 and I've been watching for the mobile CPUs to reach laptops. I like where AMD is going with these chips and how they provide lots of CPU power without eating up the battery."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I recently ordered a  ThinkPad Z13 Gen 2  with an AMD Ryzen 7. As you might expect, I loaded it up with Fedora Linux and set out to ensure that everything works.",
+      "text": "I recently ordered a  ThinkPad Z13 Gen 2  with an AMD Ryzen 7. As you might expect, I loaded it up with Fedora Linux and set out to ensure that everything works."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This post includes all of the configurations and changes I added along the way.",
+      "text": "This post includes all of the configurations and changes I added along the way."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Power management",
+      "text": "Power management"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I removed the power profiles daemon that comes with Fedora by default. and replaced it with  tlp . This is a great package for ThinkPad laptops as it takes care of most of the power management configuration for you with sane defaults. It also offers an easy to read configuration file where you can make adjustments.",
+      "text": "I removed the power profiles daemon that comes with Fedora by default. and replaced it with  tlp . This is a great package for ThinkPad laptops as it takes care of most of the power management configuration for you with sane defaults. It also offers an easy to read configuration file where you can make adjustments."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The defaults seem to be working well so far, but my only complaint is that the power management for ",
+      "text": "The defaults seem to be working well so far, but my only complaint is that the power management for "
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "amdgpu",
+      "text": "amdgpu",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " seems to be  really aggressive . Graphics performance on battery power is  okay , but I'm told this improves in kernel 6.7. I'm on 6.6.11 in Fedora 39 right now.",
+      "text": " seems to be  really aggressive . Graphics performance on battery power is  okay , but I'm told this improves in kernel 6.7. I'm on 6.6.11 in Fedora 39 right now."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I'll wait to see if this new kernel makes any improvements.",
+      "text": "I'll wait to see if this new kernel makes any improvements."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Touchpad",
+      "text": "Touchpad"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The ELAN touchpad in the Z13 is a bit different. It's a  haptic  touchpad. It doesn't push down with a click like the other thinkpads. It provides haptic feedback, much like a mobile phone does when you tap on the screen. (I usually turn this off on my phone, but it feels good on the laptop.)",
+      "text": "The ELAN touchpad in the Z13 is a bit different. It's a  haptic  touchpad. It doesn't push down with a click like the other thinkpads. It provides haptic feedback, much like a mobile phone does when you tap on the screen. (I usually turn this off on my phone, but it feels good on the laptop.)"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The touchpad works right out of the box without any additional configuration. I made a basic Sway configuration stanza to get it configured with my preferences:",
+      "text": "The touchpad works right out of the box without any additional configuration. I made a basic Sway configuration stanza to get it configured with my preferences:"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# ThinkPad Z13 Gen 2 AMD Touchpad\ninput \"11311:40:SNSL0028:00_2C2F:0028_Touchpad\" {\n  drag disabled\n  tap enabled\n  dwt enabled\n  natural_scroll disabled\n}",
+      "text": "# ThinkPad Z13 Gen 2 AMD Touchpad\ninput \"11311:40:SNSL0028:00_2C2F:0028_Touchpad\" {\n  drag disabled\n  tap enabled\n  dwt enabled\n  natural_scroll disabled\n}",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The configuration above enables tap to click and dragging with taps. I like the old school scrolling style and I've disabled the natural scroll.",
+      "text": "The configuration above enables tap to click and dragging with taps. I like the old school scrolling style and I've disabled the natural scroll."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "You can always get a list of your input devices in Sway with ",
+      "text": "You can always get a list of your input devices in Sway with "
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "swaymsg",
+      "text": "swaymsg",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": ":",
+      "text": ":"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "swaymsg -t get_inputs",
+      "text": "swaymsg -t get_inputs",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Display",
+      "text": "Display"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The display worked right out of the box but the UI elements were scaled up far too large for me. I typically value screen real estate over all other aspects, but my usual default of scaling to 1.0 made the UI far too small.",
+      "text": "The display worked right out of the box but the UI elements were scaled up far too large for me. I typically value screen real estate over all other aspects, but my usual default of scaling to 1.0 made the UI far too small."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I set my output scaling to 1.2:",
+      "text": "I set my output scaling to 1.2:"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# Disable HiDPI\noutput * scale 1.2",
+      "text": "# Disable HiDPI\noutput * scale 1.2",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I also enabled the  RPM Fusion repos  to get the freeworld AMD Mesa drivers:",
+      "text": "I also enabled the  RPM Fusion repos  to get the freeworld AMD Mesa drivers:"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "sudo dnf install \\\n    https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm \\\n    https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm\nsudo dnf swap mesa-va-drivers mesa-va-drivers-freeworld\nsudo dnf swap mesa-vdpau-drivers mesa-vdpau-drivers-freeworld",
+      "text": "sudo dnf install \\\n    https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm \\\n    https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm\nsudo dnf swap mesa-va-drivers mesa-va-drivers-freeworld\nsudo dnf swap mesa-vdpau-drivers mesa-vdpau-drivers-freeworld",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Audio",
+      "text": "Audio"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Sound worked right out of the box, but I found that the loudness preset from  easyeffects  made the speakers sound a little bit better:",
+      "text": "Sound worked right out of the box, but I found that the loudness preset from  easyeffects  made the speakers sound a little bit better:"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "sudo dnf install easyeffects",
+      "text": "sudo dnf install easyeffects",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Everything else",
+      "text": "Everything else"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Everything else just worked!",
+      "text": "Everything else just worked!"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I'm really pleased with the performance and the battery life so far. My only complaint is that the OLED screen can be a battery hog at times.",
+      "text": "I'm really pleased with the performance and the battery life so far. My only complaint is that the OLED screen can be a battery hog at times."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "For more details, check out the  Arch Linux wiki page for the Z13 . They documented lots of the function keys if you want to create keyboard shortcuts and they link to some downloadable monitor profiles.",
+      "text": "For more details, check out the  Arch Linux wiki page for the Z13 . They documented lots of the function keys if you want to create keyboard shortcuts and they link to some downloadable monitor profiles."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

@@ -1,0 +1,483 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 8261656540984806587,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2015/05/08/tweetdecks-chrome-notifications-stopped-working/",
+      "text": "/2015/05/08/tweetdecks-chrome-notifications-stopped-working/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "chrome",
+      "text": "chrome",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "twitter",
+      "text": "twitter",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "With the last few weeks, I noticed that Tweetdeck's notifications weren't showing up in Chrome any longer. I double-checked all of the Tweetdeck settings and notifications were indeed enabled. However, I found that Tweetdeck wasn't allowed to send notifications when I checked in my Chrome settings.",
+      "text": "With the last few weeks, I noticed that Tweetdeck's notifications weren't showing up in Chrome any longer. I double-checked all of the Tweetdeck settings and notifications were indeed enabled. However, I found that Tweetdeck wasn't allowed to send notifications when I checked in my Chrome settings."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Check your settings",
+      "text": "Check your settings",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "To check these for yourself, hop into  Chrome's content settings . Scroll down to  Notifications  and click  Manage Exceptions . In my case,  https://tweetdeck.twitter.com  was missing from the list entirely.",
+      "text": "To check these for yourself, hop into  Chrome's content settings . Scroll down to  Notifications  and click  Manage Exceptions . In my case,  https://tweetdeck.twitter.com  was missing from the list entirely."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "From here, you have two options: enable notifications for all sites (not ideal) or add an exception.",
+      "text": "From here, you have two options: enable notifications for all sites (not ideal) or add an exception."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "The big hammer approach",
+      "text": "The big hammer approach",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "To enable notifications for all sites (good for testing, not ideal in the long term), click  Allow all sites to show notifications  in the  Notifications  session.",
+      "text": "To enable notifications for all sites (good for testing, not ideal in the long term), click  Allow all sites to show notifications  in the  Notifications  session."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "The right way",
+      "text": "The right way",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "To enable notifications just for Tweetdeck, you may be able to add a new exception right there in the Chrome settings interface. Many users are reporting that newer versions of Chrome don't allow for that. In that case, your fix involves editing your Chrome configuration on the command line.",
+      "text": "To enable notifications just for Tweetdeck, you may be able to add a new exception right there in the Chrome settings interface. Many users are reporting that newer versions of Chrome don't allow for that. In that case, your fix involves editing your Chrome configuration on the command line."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Chrome preferences are in different locations depending on your OS:",
+      "text": "Chrome preferences are in different locations depending on your OS:"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Windows: C:\\Users",
+      "text": "Windows: C:\\Users",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Mac: ~/Library/Application Support/Google/Chrome/",
+      "text": "Mac: ~/Library/Application Support/Google/Chrome/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Linux: ~/.config/google-chrome/",
+      "text": "Linux: ~/.config/google-chrome/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "BEFORE EDITING ANYTHING,  be sure you've quit Chrome and ensured that nothing Chrome-related is running in the background. Seriously. Don't skip this step.",
+      "text": "BEFORE EDITING ANYTHING,  be sure you've quit Chrome and ensured that nothing Chrome-related is running in the background. Seriously. Don't skip this step."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I'm on Linux, so I'll open up ",
+      "text": "I'm on Linux, so I'll open up "
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": ".config/google-chrome/Default/Preferences",
+      "text": ".config/google-chrome/Default/Preferences",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " in vim and make some edits. You're looking for some lines that look like this:",
+      "text": " in vim and make some edits. You're looking for some lines that look like this:"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "\"https://tweetdeck.twitter.com:443,https://tweetdeck.twitter.com:443\": {\n   \"last_used\": {\n      \"notifications\": 1431092689.014171\n   }\n},",
+      "text": "\"https://tweetdeck.twitter.com:443,https://tweetdeck.twitter.com:443\": {\n   \"last_used\": {\n      \"notifications\": 1431092689.014171\n   }\n},",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Replace those lines with this:",
+      "text": "Replace those lines with this:"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "\"https://tweetdeck.twitter.com,*\": {\n   \"last_used\": {\n      \"notifications\": 1414673538.301078\n   },\n   \"notifications\": 1\n},\n\"https://tweetdeck.twitter.com:443,https://tweetdeck.twitter.com:443\": {\n   \"last_used\": {\n      \"notifications\": 1431094902.014302\n   }\n},",
+      "text": "\"https://tweetdeck.twitter.com,*\": {\n   \"last_used\": {\n      \"notifications\": 1414673538.301078\n   },\n   \"notifications\": 1\n},\n\"https://tweetdeck.twitter.com:443,https://tweetdeck.twitter.com:443\": {\n   \"last_used\": {\n      \"notifications\": 1431094902.014302\n   }\n},",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Save the file and start up Chrome once more. Head on over to  Tweetdeck  and you should now see the familiar Chrome toast notifications for Twitter updates!",
+      "text": "Save the file and start up Chrome once more. Head on over to  Tweetdeck  and you should now see the familiar Chrome toast notifications for Twitter updates!"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

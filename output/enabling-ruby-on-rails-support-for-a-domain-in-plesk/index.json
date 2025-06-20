@@ -1,0 +1,244 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 992598143537068911,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2008/08/11/enabling-ruby-on-rails-support-for-a-domain-in-plesk/",
+      "text": "/2008/08/11/enabling-ruby-on-rails-support-for-a-domain-in-plesk/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "mod_rewrite",
+      "text": "mod_rewrite",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "plesk",
+      "text": "plesk",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ruby on rails",
+      "text": "ruby on rails",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If you have Plesk 8.1 or later, you have support available for Ruby on Rails. Unfortunately, clicking the FastCGI checkbox in Plesk won't get you all of the support you need (and expect). The folks over at Parallels created a  relatively simple process  to get Ruby on Rails working properly on your site:",
+      "text": "If you have Plesk 8.1 or later, you have support available for Ruby on Rails. Unfortunately, clicking the FastCGI checkbox in Plesk won't get you all of the support you need (and expect). The folks over at Parallels created a  relatively simple process  to get Ruby on Rails working properly on your site:"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Go to your domain that you want to adjust, and click  Setup . Make sure the  CGI  and  FastCGI  options are enabled. Pick a name for your application and make the directory for your application in the  httpdocs  directory. Upload your files to that directory.",
+      "text": "Go to your domain that you want to adjust, and click  Setup . Make sure the  CGI  and  FastCGI  options are enabled. Pick a name for your application and make the directory for your application in the  httpdocs  directory. Upload your files to that directory."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Once you've done that, create an  .htaccess  file in the  httpdocs  directory with the following text inside:",
+      "text": "Once you've done that, create an  .htaccess  file in the  httpdocs  directory with the following text inside:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "RewriteEngine On\nRewriteRule ^$ /public/index.html [L]\nRewriteCond % !^/railsapp/public\nRewriteRule ^(.*)$ /public/$1 [L]\nRewriteCond % !-f\nRewriteRule ^(.*)$ public/dispatch.fcgi/$1 [QSA,L]",
+      "text": "RewriteEngine On\nRewriteRule ^$ /public/index.html [L]\nRewriteCond % !^/railsapp/public\nRewriteRule ^(.*)$ /public/$1 [L]\nRewriteCond % !-f\nRewriteRule ^(.*)$ public/dispatch.fcgi/$1 [QSA,L]",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Remove the  .htaccess  file within the  public  directory of your application and add a file called  dispatch.fcgi  to that directory which contains:",
+      "text": "Remove the  .htaccess  file within the  public  directory of your application and add a file called  dispatch.fcgi  to that directory which contains:"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "#!/usr/bin/ruby",
+      "text": "#!/usr/bin/ruby",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "You should be able to access your application at http://domain.com/railsapp/.",
+      "text": "You should be able to access your application at http://domain.com/railsapp/."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

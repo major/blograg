@@ -1,0 +1,781 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 3848962455957294433,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2013/07/05/confine-untrusted-users-including-your-children-with-selinux/",
+      "text": "/2013/07/05/confine-untrusted-users-including-your-children-with-selinux/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "centos",
+      "text": "centos",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "command line",
+      "text": "command line",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "redhat",
+      "text": "redhat",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "security",
+      "text": "security",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "selinux",
+      "text": "selinux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "sysadmin",
+      "text": "sysadmin",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The  confined user support in SELinux  is handy for ensuring that users aren't able to do something that they shouldn't. It seems more effective and easier to use than most of the other methods I've seen before. Thanks to Dan for reminding me about this during his  SELinux in the Enterprise  talk from this year's Red Hat Summit.",
+      "text": "The  confined user support in SELinux  is handy for ensuring that users aren't able to do something that they shouldn't. It seems more effective and easier to use than most of the other methods I've seen before. Thanks to Dan for reminding me about this during his  SELinux in the Enterprise  talk from this year's Red Hat Summit."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "There are five main SELinux user types (and a  handy chart  in the Fedora documentation):",
+      "text": "There are five main SELinux user types (and a  handy chart  in the Fedora documentation):"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='guest_u:'>]",
+      "text": "[<RawText children='guest_u:'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='xguest_u:'>]",
+      "text": "[<RawText children='xguest_u:'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='user_u:'>]",
+      "text": "[<RawText children='user_u:'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='staff_u:'>]",
+      "text": "[<RawText children='staff_u:'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='unconfined_u:'>]",
+      "text": "[<RawText children='unconfined_u:'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "One interesting thing to note is that all users are allowed to execute binary applications within their home directories by default. This can be switch off via some booleans (which I'll demonstrate in a moment).",
+      "text": "One interesting thing to note is that all users are allowed to execute binary applications within their home directories by default. This can be switch off via some booleans (which I'll demonstrate in a moment)."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Let's kick off a demonstration to show the power of these restrictions. First off, let's get a list of the default configuration:",
+      "text": "Let's kick off a demonstration to show the power of these restrictions. First off, let's get a list of the default configuration:"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# semanage login -l\n\nLogin Name           SELinux User         MLS/MCS Range        Service\n\n__default__          unconfined_u         s0-s0:c0.c1023       *\nroot                 unconfined_u         s0-s0:c0.c1023       *\nsystem_u             system_u             s0-s0:c0.c1023       *",
+      "text": "# semanage login -l\n\nLogin Name           SELinux User         MLS/MCS Range        Service\n\n__default__          unconfined_u         s0-s0:c0.c1023       *\nroot                 unconfined_u         s0-s0:c0.c1023       *\nsystem_u             system_u             s0-s0:c0.c1023       *",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "By default, all new users come with no restrictions (as shown by unconfined_u). I'll create a new user called selinuxtest and set a password. If I ssh to the server as the selinuxtest user, I see that I'm unconfined:",
+      "text": "By default, all new users come with no restrictions (as shown by unconfined_u). I'll create a new user called selinuxtest and set a password. If I ssh to the server as the selinuxtest user, I see that I'm unconfined:"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ id -Z\nunconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023",
+      "text": "$ id -Z\nunconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "That's what we expected. Let's apply the strongest restrictions to this user and apply guest_u:",
+      "text": "That's what we expected. Let's apply the strongest restrictions to this user and apply guest_u:"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# semanage login -a -s guest_u selinuxtest",
+      "text": "# semanage login -a -s guest_u selinuxtest",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I'll start a new ssh session as selinuxtest and try out some commands that I'd normally expect to work on a Linux server:",
+      "text": "I'll start a new ssh session as selinuxtest and try out some commands that I'd normally expect to work on a Linux server:"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ ping google.com\nping: icmp open socket: Permission denied\n$ curl google.com\ncurl: (7) Failed to connect to 74.125.225.129: Permission denied\n$ sudo su -\nsudo: unable to change to sudoers gid: Operation not permitted\n$  ./hello\nHello world\n$ file hello\nhello: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.32, BuildID[sha1]=0x5ffb25a7171c3338d6c76147cccc666ddc752dde, not stripped",
+      "text": "$ ping google.com\nping: icmp open socket: Permission denied\n$ curl google.com\ncurl: (7) Failed to connect to 74.125.225.129: Permission denied\n$ sudo su -\nsudo: unable to change to sudoers gid: Operation not permitted\n$  ./hello\nHello world\n$ file hello\nhello: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.32, BuildID[sha1]=0x5ffb25a7171c3338d6c76147cccc666ddc752dde, not stripped",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The networking and sudo restrictions applied as we expected. However, I was able to compile a small \"Hello World\" binary in C and run it. That could become a problem for some servers. Let's adjust a boolean that will restrict this activity:",
+      "text": "The networking and sudo restrictions applied as we expected. However, I was able to compile a small \"Hello World\" binary in C and run it. That could become a problem for some servers. Let's adjust a boolean that will restrict this activity:"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# getsebool -a | grep exec_content\nauditadm_exec_content --> on\nguest_exec_content --> on\nsecadm_exec_content --> on\nstaff_exec_content --> on\nsysadm_exec_content --> on\nuser_exec_content --> on\nxguest_exec_content --> on\n# setsebool guest_exec_content off",
+      "text": "# getsebool -a | grep exec_content\nauditadm_exec_content --> on\nguest_exec_content --> on\nsecadm_exec_content --> on\nstaff_exec_content --> on\nsysadm_exec_content --> on\nuser_exec_content --> on\nxguest_exec_content --> on\n# setsebool guest_exec_content off",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Now I try running the binary again as my selinuxtest user:",
+      "text": "Now I try running the binary again as my selinuxtest user:"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ ./hello\n-bash: ./hello: Permission denied",
+      "text": "$ ./hello\n-bash: ./hello: Permission denied",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I can't execute binary content in my home directory or in /tmp any longer after adjusting the boolean. Let's switch selinuxtest to xguest_u:",
+      "text": "I can't execute binary content in my home directory or in /tmp any longer after adjusting the boolean. Let's switch selinuxtest to xguest_u:"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# semanage login -a -s xguest_u selinuxtest",
+      "text": "# semanage login -a -s xguest_u selinuxtest",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "And now I'll re-test as the selinuxtest user:",
+      "text": "And now I'll re-test as the selinuxtest user:"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ curl -si google.com | head -1\nHTTP/1.1 301 Moved Permanently\n$ ping google.com\nping: icmp open socket: Permission denied",
+      "text": "$ curl -si google.com | head -1\nHTTP/1.1 301 Moved Permanently\n$ ping google.com\nping: icmp open socket: Permission denied",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I have full web connectivity but I can't do anything else on the network. Now for a switch to user_u:",
+      "text": "I have full web connectivity but I can't do anything else on the network. Now for a switch to user_u:"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# semanage login -a -s user_u selinuxtest",
+      "text": "# semanage login -a -s user_u selinuxtest",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "And testing user_u with selinuxtest reveals:",
+      "text": "And testing user_u with selinuxtest reveals:"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ ping -c 1 google.com\nPING google.com (74.125.225.134) 56(84) bytes of data.\n64 bytes from ord08s09-in-f6.1e100.net (74.125.225.134): icmp_seq=1 ttl=57 time=29.3 ms\n\n--- google.com ping statistics ---\n1 packets transmitted, 1 received, 0% packet loss, time 0ms\nrtt min/avg/max/mdev = 29.332/29.332/29.332/0.000 ms\n$ curl -si google.com | head -n1\nHTTP/1.1 301 Moved Permanently\n$ sudo su -\nsudo: PERM_SUDOERS: setresuid(-1, 1, -1): Operation not permitted",
+      "text": "$ ping -c 1 google.com\nPING google.com (74.125.225.134) 56(84) bytes of data.\n64 bytes from ord08s09-in-f6.1e100.net (74.125.225.134): icmp_seq=1 ttl=57 time=29.3 ms\n\n--- google.com ping statistics ---\n1 packets transmitted, 1 received, 0% packet loss, time 0ms\nrtt min/avg/max/mdev = 29.332/29.332/29.332/0.000 ms\n$ curl -si google.com | head -n1\nHTTP/1.1 301 Moved Permanently\n$ sudo su -\nsudo: PERM_SUDOERS: setresuid(-1, 1, -1): Operation not permitted",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Networking is wide open but I still don't have sudo. Let's try staff_u:",
+      "text": "Networking is wide open but I still don't have sudo. Let's try staff_u:"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# semanage login -a -s staff_u selinuxtest",
+      "text": "# semanage login -a -s staff_u selinuxtest",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Testing staff_u with selinuxtest gives me the expected results:",
+      "text": "Testing staff_u with selinuxtest gives me the expected results:"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ sudo su -\n[sudo] password for selinuxtest:",
+      "text": "$ sudo su -\n[sudo] password for selinuxtest:",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I didn't add selinuxtest to sudoers, so this command would fail. However, I'm actually allowed to execute it now.",
+      "text": "I didn't add selinuxtest to sudoers, so this command would fail. However, I'm actually allowed to execute it now."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "These restrictions could be very helpful when dealing with users that you don't fully trust on your system. You could use these restrictions to add a kiosk user to a Linux machine and allow family members or coworkers to surf the web using your device. In addition, you could use the restrictions as an extra layer of protection on heavily shared servers to prevent users from consuming resources or generating malicious traffic.",
+      "text": "These restrictions could be very helpful when dealing with users that you don't fully trust on your system. You could use these restrictions to add a kiosk user to a Linux machine and allow family members or coworkers to surf the web using your device. In addition, you could use the restrictions as an extra layer of protection on heavily shared servers to prevent users from consuming resources or generating malicious traffic."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

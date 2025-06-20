@@ -1,0 +1,396 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 4617863892688575809,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2012/12/28/handy-settings-for-the-touchpadclickpad-in-the-lenovo-x1-carbon/",
+      "text": "/2012/12/28/handy-settings-for-the-touchpadclickpad-in-the-lenovo-x1-carbon/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "lenovo",
+      "text": "lenovo",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "synaptics",
+      "text": "synaptics",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "xorg",
+      "text": "xorg",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "UPDATE:  I've found a better configuration via another X1 Carbon user and there's a  new post with all the details .",
+      "text": "UPDATE:  I've found a better configuration via another X1 Carbon user and there's a  new post with all the details ."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The Lenovo X1 Carbon comes with a pretty useful clickpad just below the keyboard, but the default synaptics settings in X from a Fedora 17 installation aren't the best for this particular laptop. I found some tips about managing clickpads in a  Github Gist about the Samsung Series 9  and I adjusted the values for the X1. To get my configuration, just create ",
+      "text": "The Lenovo X1 Carbon comes with a pretty useful clickpad just below the keyboard, but the default synaptics settings in X from a Fedora 17 installation aren't the best for this particular laptop. I found some tips about managing clickpads in a  Github Gist about the Samsung Series 9  and I adjusted the values for the X1. To get my configuration, just create "
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/etc/X11/xorg.conf.d/10-synaptics.conf",
+      "text": "/etc/X11/xorg.conf.d/10-synaptics.conf",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " and toss this data in there:",
+      "text": " and toss this data in there:"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "Section \"InputClass\"\n  Identifier \"touchpad catchall\"\n  Driver \"synaptics\"\n  MatchIsTouchpad \"on\"\n  MatchDevicePath \"/dev/input/event*\"\n  Option \"TapButton1\" \"1\"\n  Option \"TapButton2\" \"3\"\n  Option \"TapButton3\" \"2\"\n  Option \"VertTwoFingerScroll\" \"on\"\n  Option \"HorizTwoFingerScroll\" \"on\"\n  Option \"HorizHysteresis\" \"50\"\n  Option \"VertHysteresis\" \"50\"\n  Option \"PalmDetect\"    \"1\"\n  Option \"PalmMinWidth\"  \"5\"\n  Option \"PalmMinZ\"      \"40\"\nEndSection",
+      "text": "Section \"InputClass\"\n  Identifier \"touchpad catchall\"\n  Driver \"synaptics\"\n  MatchIsTouchpad \"on\"\n  MatchDevicePath \"/dev/input/event*\"\n  Option \"TapButton1\" \"1\"\n  Option \"TapButton2\" \"3\"\n  Option \"TapButton3\" \"2\"\n  Option \"VertTwoFingerScroll\" \"on\"\n  Option \"HorizTwoFingerScroll\" \"on\"\n  Option \"HorizHysteresis\" \"50\"\n  Option \"VertHysteresis\" \"50\"\n  Option \"PalmDetect\"    \"1\"\n  Option \"PalmMinWidth\"  \"5\"\n  Option \"PalmMinZ\"      \"40\"\nEndSection",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "There are a few important settings here to note:",
+      "text": "There are a few important settings here to note:"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='TapButtonX'>]",
+      "text": "[<RawText children='TapButtonX'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='Vert/HorizHysteresis'>]",
+      "text": "[<RawText children='Vert/HorizHysteresis'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='Palm'>]",
+      "text": "[<RawText children='Palm'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "You will need to restart X (or reboot) to apply these settings from the configuration file. If you want to test the settings before restarting, you can apply individual adjustments with ",
+      "text": "You will need to restart X (or reboot) to apply these settings from the configuration file. If you want to test the settings before restarting, you can apply individual adjustments with "
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "synclient",
+      "text": "synclient",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " without any restarts:",
+      "text": " without any restarts:"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "synclient \"HorizHysteresis=50\"",
+      "text": "synclient \"HorizHysteresis=50\"",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

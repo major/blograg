@@ -1,0 +1,621 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 10840924212394199792,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/groups/2"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2016/06/28/talk-recap/",
+      "text": "/2016/06/28/talk-recap/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ansible",
+      "text": "ansible",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "advice",
+      "text": "advice",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "openstack",
+      "text": "openstack",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "python",
+      "text": "python",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "rackspace",
+      "text": "rackspace",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "red hat",
+      "text": "red hat",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The 2016 Red Hat Summit is underway in San Francisco this week and I delivered a talk with  Robyn Bergeron  earlier today. Our talk,  When flexibility met simplicity: The friendship of OpenStack and Ansible , explained how Ansible can reduce the complexity of OpenStack environments without sacrificing the flexibility that private clouds offer.",
+      "text": "The 2016 Red Hat Summit is underway in San Francisco this week and I delivered a talk with  Robyn Bergeron  earlier today. Our talk,  When flexibility met simplicity: The friendship of OpenStack and Ansible , explained how Ansible can reduce the complexity of OpenStack environments without sacrificing the flexibility that private clouds offer."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The talk started at the same time as lunch began and the Partner Pavilion first opened, so we had some stiff competition for attendees' attention. However, the live demo worked without issues and we had some good questions when the talk was finished.",
+      "text": "The talk started at the same time as lunch began and the Partner Pavilion first opened, so we had some stiff competition for attendees' attention. However, the live demo worked without issues and we had some good questions when the talk was finished."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This post will cover some of the main points from the talk and I'll share some links for the talk itself and some of the playbooks we ran during the live demo.",
+      "text": "This post will cover some of the main points from the talk and I'll share some links for the talk itself and some of the playbooks we ran during the live demo."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "IT is complex and difficult",
+      "text": "IT is complex and difficult",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Getting resources for projects at many companies is challenging. OpenStack makes this a little easier by delivering compute, network, and storage resources on demand. However, OpenStack's flexibility is a double-edged sword. It makes it very easy to obtain virtual machines, but it can be challenging to install and configure.",
+      "text": "Getting resources for projects at many companies is challenging. OpenStack makes this a little easier by delivering compute, network, and storage resources on demand. However, OpenStack's flexibility is a double-edged sword. It makes it very easy to obtain virtual machines, but it can be challenging to install and configure."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Ansible reduces some of that complexity without sacrificing flexibility. Ansible comes with plenty of pre-written modules that manage an OpenStack cloud at multiple levels for multiple types of users. Consumers, operators, and deployers can save time and reduce errors by using these modules and providing the parameters that fit their environment.",
+      "text": "Ansible reduces some of that complexity without sacrificing flexibility. Ansible comes with plenty of pre-written modules that manage an OpenStack cloud at multiple levels for multiple types of users. Consumers, operators, and deployers can save time and reduce errors by using these modules and providing the parameters that fit their environment."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Ansible and OpenStack",
+      "text": "Ansible and OpenStack",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Ansible and OpenStack are both open source projects that are heavily based on Python. Many of the same dependencies needed for Ansible are needed for OpenStack, so there is very little additional software required. Ansible tasks are written in YAML and the user only needs to pass some simple parameters to an existing module to get something done.",
+      "text": "Ansible and OpenStack are both open source projects that are heavily based on Python. Many of the same dependencies needed for Ansible are needed for OpenStack, so there is very little additional software required. Ansible tasks are written in YAML and the user only needs to pass some simple parameters to an existing module to get something done."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Operators are in a unique position since they can use Ansible to perform typical IT tasks, like creating projects and users. They can also assign fine-grained permissions to users with roles via reusable and extensible playbooks. Deployers can use projects like  OpenStack-Ansible  to deploy a production-ready OpenStack cloud.",
+      "text": "Operators are in a unique position since they can use Ansible to perform typical IT tasks, like creating projects and users. They can also assign fine-grained permissions to users with roles via reusable and extensible playbooks. Deployers can use projects like  OpenStack-Ansible  to deploy a production-ready OpenStack cloud."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Let's build something",
+      "text": "Let's build something",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "In the talk, we went through a scenario for a live demo. In the scenario, the marketing team needed a new website for a new campaign. The IT department needed to create a project and user for them, and then the marketing team needed to build a server. This required some additional tasks, such as adding ssh keys, creating a security group (with rules) and adding a new private network.",
+      "text": "In the talk, we went through a scenario for a live demo. In the scenario, the marketing team needed a new website for a new campaign. The IT department needed to create a project and user for them, and then the marketing team needed to build a server. This required some additional tasks, such as adding ssh keys, creating a security group (with rules) and adding a new private network."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The files from the live demo are up on GitHub:",
+      "text": "The files from the live demo are up on GitHub:"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='major/ansible-openstack-summit-demo'>]",
+      "text": "[<RawText children='major/ansible-openstack-summit-demo'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "In the ",
+      "text": "In the "
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "operator-prep.yml",
+      "text": "operator-prep.yml",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": ", we created a project and added a user to the project. That user was given the admin role so that the marketing team could have full access to their own project.",
+      "text": ", we created a project and added a user to the project. That user was given the admin role so that the marketing team could have full access to their own project."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "From there, we went through the tasks as if we were a member of the marketing team. The ",
+      "text": "From there, we went through the tasks as if we were a member of the marketing team. The "
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "marketing.yml",
+      "text": "marketing.yml",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " playbook went through all of the tasks to prepare for building an instance, actually building the instance, and then adding that instance to the dynamic inventory in Ansible. That playbook also verified the instance was up and performed additional configuration of the virtual machine itself - all in the same playbook.",
+      "text": " playbook went through all of the tasks to prepare for building an instance, actually building the instance, and then adding that instance to the dynamic inventory in Ansible. That playbook also verified the instance was up and performed additional configuration of the virtual machine itself - all in the same playbook."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "What's next?",
+      "text": "What's next?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Robyn shared lots of ways to  get involved in the Ansible community .  AnsibleFest 2016  is rapidly approaching and the  OpenStack Summit in Barcelona  is happening this October.",
+      "text": "Robyn shared lots of ways to  get involved in the Ansible community .  AnsibleFest 2016  is rapidly approaching and the  OpenStack Summit in Barcelona  is happening this October."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Downloads",
+      "text": "Downloads",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The presentation is available in a few formats:",
+      "text": "The presentation is available in a few formats:"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='PDF'>]",
+      "text": "[<RawText children='PDF'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='Slideshare'>]",
+      "text": "[<RawText children='Slideshare'>]",
+      "enumerated": false,
+      "marker": "-"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

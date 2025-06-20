@@ -1,0 +1,439 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 1311314952813512369,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2012/11/04/log-android-events-remotely-to-a-syslog-server/",
+      "text": "/2012/11/04/log-android-events-remotely-to-a-syslog-server/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "android",
+      "text": "android",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "bluetooth",
+      "text": "bluetooth",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "centos",
+      "text": "centos",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "red hat",
+      "text": "red hat",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "syslog",
+      "text": "syslog",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I'm still quite pleased with my Samsung Galaxy SIII but there are some finicky Bluetooth issues with my car that I simply can't figure out.  After discovering logcat , I wondered if there was a way to get logs sent from an Android device to a remote syslog server. It's certainly possible and it actually works quite well.",
+      "text": "I'm still quite pleased with my Samsung Galaxy SIII but there are some finicky Bluetooth issues with my car that I simply can't figure out.  After discovering logcat , I wondered if there was a way to get logs sent from an Android device to a remote syslog server. It's certainly possible and it actually works quite well."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "My phone is currently rooted with CyanogenMod 10 installed. Some of these steps  will require rooting your device.  Be sure to fully understand the implications of gaining root access on your particular device  before  trying it.",
+      "text": "My phone is currently rooted with CyanogenMod 10 installed. Some of these steps  will require rooting your device.  Be sure to fully understand the implications of gaining root access on your particular device  before  trying it."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Get started by installing  Titanium Backup  and  Logcat to UDP . Once they're installed, you'll need to enable USB debugging by accessing  Settings > Developer Options :",
+      "text": "Get started by installing  Titanium Backup  and  Logcat to UDP . Once they're installed, you'll need to enable USB debugging by accessing  Settings > Developer Options :"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "4",
+      "text": "4"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Now, run Titanium Backup and click the  Backup/Restore  tab at the top. Find the &#8220;Logcat to UDP 0.5&#8221; application and hold your finger on it for a few seconds. Press  Convert to system app  and wait for that to complete:",
+      "text": "Now, run Titanium Backup and click the  Backup/Restore  tab at the top. Find the &#8220;Logcat to UDP 0.5&#8221; application and hold your finger on it for a few seconds. Press  Convert to system app  and wait for that to complete:"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "5",
+      "text": "5"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Now, run the  Logcat to UDP  application and configure it. Put in a server IP address for the remote syslog server and choose a remote port where your syslog server is listening. Be sure to check the  Filter log messages  box and put in a reasonable set of things to watch. My standard filter is:",
+      "text": "Now, run the  Logcat to UDP  application and configure it. Put in a server IP address for the remote syslog server and choose a remote port where your syslog server is listening. Be sure to check the  Filter log messages  box and put in a reasonable set of things to watch. My standard filter is:"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "Sensors:S dalvikvm:S MP-Decision:S overlay:S RichInputConnection:S *:V",
+      "text": "Sensors:S dalvikvm:S MP-Decision:S overlay:S RichInputConnection:S *:V",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "That filter says that I don't want to see data from the Sensors process (and some other chatty daemons) but I want verbose logs from everything else. The full details on logcat filters can be found in  Google's Android Developer Documentation .",
+      "text": "That filter says that I don't want to see data from the Sensors process (and some other chatty daemons) but I want verbose logs from everything else. The full details on logcat filters can be found in  Google's Android Developer Documentation ."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "When all that is done, you can begin receiving syslog data pretty quickly on a CentOS or Fedora server. For CentOS, you only need to make a small adjustment to /etc/rsyslog.conf to begin receiving logs:",
+      "text": "When all that is done, you can begin receiving syslog data pretty quickly on a CentOS or Fedora server. For CentOS, you only need to make a small adjustment to /etc/rsyslog.conf to begin receiving logs:"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# Provides UDP syslog reception\n$ModLoad imudp\n$UDPServerRun 514",
+      "text": "# Provides UDP syslog reception\n$ModLoad imudp\n$UDPServerRun 514",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The standard port is 514, but be sure to change it to match your configuration in the Logcat to UDP application on your phone. Restart rsyslog and you should be able to see logs flowing in from your Android device:",
+      "text": "The standard port is 514, but be sure to change it to match your configuration in the Logcat to UDP application on your phone. Restart rsyslog and you should be able to see logs flowing in from your Android device:"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# /etc/init.d/rsyslog restart\nShutting down system logger:                               [  OK  ]\nStarting system logger:                                    [  OK  ]\n# tail /var/log/messages\nNov  4 20:44:04 home.local Iridium: E/ThermalDaemon(  264): ACTION: CPU - Setting CPU[0] to 1512000\nNov  4 20:44:04 home.local Iridium: E/ThermalDaemon(  264): ACTION: CPU - Setting CPU[1] to 1512000\nNov  4 20:44:04 home.local Iridium: E/ThermalDaemon(  264): Fusion mitigation failed - QMI registration incomplete\nNov  4 20:44:07 home.local Iridium: I/ActivityManager(  624): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.cyanogenmod.trebuchet/.Launcher u=0} from pid 624\nNov  4 20:44:07 home.local Iridium: I/ActivityManager(  624): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.cyanogenmod.trebuchet/.Launcher u=0} from pid 624\nNov  4 20:44:07 home.local Iridium: I/ActivityManager(  624): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.cyanogenmod.trebuchet/.Launcher u=0} from pid 624\nNov  4 20:44:08 home.local Iridium: I/ActivityManager(  624): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.cyanogenmod.trebuchet/.Launcher u=0} from pid 624\nNov  4 20:44:09 home.local Iridium: E/ThermalDaemon(  264): Sensor 'tsens_tz_sensor0' - alarm raised 1 at 57.0 degC\nNov  4 20:44:09 home.local Iridium: E/ThermalDaemon(  264): ACTION: CPU - Setting CPU[0] to 1134000\nNov  4 20:44:09 home.local Iridium: E/ThermalDaemon(  264): ACTION: CPU - Setting CPU[1] to 1134000",
+      "text": "# /etc/init.d/rsyslog restart\nShutting down system logger:                               [  OK  ]\nStarting system logger:                                    [  OK  ]\n# tail /var/log/messages\nNov  4 20:44:04 home.local Iridium: E/ThermalDaemon(  264): ACTION: CPU - Setting CPU[0] to 1512000\nNov  4 20:44:04 home.local Iridium: E/ThermalDaemon(  264): ACTION: CPU - Setting CPU[1] to 1512000\nNov  4 20:44:04 home.local Iridium: E/ThermalDaemon(  264): Fusion mitigation failed - QMI registration incomplete\nNov  4 20:44:07 home.local Iridium: I/ActivityManager(  624): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.cyanogenmod.trebuchet/.Launcher u=0} from pid 624\nNov  4 20:44:07 home.local Iridium: I/ActivityManager(  624): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.cyanogenmod.trebuchet/.Launcher u=0} from pid 624\nNov  4 20:44:07 home.local Iridium: I/ActivityManager(  624): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.cyanogenmod.trebuchet/.Launcher u=0} from pid 624\nNov  4 20:44:08 home.local Iridium: I/ActivityManager(  624): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.cyanogenmod.trebuchet/.Launcher u=0} from pid 624\nNov  4 20:44:09 home.local Iridium: E/ThermalDaemon(  264): Sensor 'tsens_tz_sensor0' - alarm raised 1 at 57.0 degC\nNov  4 20:44:09 home.local Iridium: E/ThermalDaemon(  264): ACTION: CPU - Setting CPU[0] to 1134000\nNov  4 20:44:09 home.local Iridium: E/ThermalDaemon(  264): ACTION: CPU - Setting CPU[1] to 1134000",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If you're not seeing logs on your remote server, be sure to check the remote server's firewall since the default rules on a CentOS or Fedora server will block syslog traffic. If you want to generate logs quickly for testing in CyanogenMod, just repeatedly press the home button. A log line from the trebuchet launcher should appear each time.",
+      "text": "If you're not seeing logs on your remote server, be sure to check the remote server's firewall since the default rules on a CentOS or Fedora server will block syslog traffic. If you want to generate logs quickly for testing in CyanogenMod, just repeatedly press the home button. A log line from the trebuchet launcher should appear each time."
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

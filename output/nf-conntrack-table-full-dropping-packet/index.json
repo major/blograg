@@ -1,0 +1,212 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 10013340087382885269,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2014/01/07/nf-conntrack-table-full-dropping-packet/",
+      "text": "/2014/01/07/nf-conntrack-table-full-dropping-packet/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I was doing some testing with apachebench and received some peculiar results:",
+      "text": "I was doing some testing with apachebench and received some peculiar results:"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "[608487.317284] nf_conntrack: table full, dropping packet\n[608487.708916] nf_conntrack: table full, dropping packet\n[608488.010236] nf_conntrack: table full, dropping packet",
+      "text": "[608487.317284] nf_conntrack: table full, dropping packet\n[608487.708916] nf_conntrack: table full, dropping packet\n[608488.010236] nf_conntrack: table full, dropping packet",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I've  seen this problem before  and I tried to fix it by adjusting /proc/sys/net/ipv4/ip conntrack max as I did back in 2008. However, Fedora 20 doesn't have the same structure in /proc under kernel 3.12.",
+      "text": "I've  seen this problem before  and I tried to fix it by adjusting /proc/sys/net/ipv4/ip conntrack max as I did back in 2008. However, Fedora 20 doesn't have the same structure in /proc under kernel 3.12."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The fix is to adjust /proc/sys/net/netfilter/nf conntrack max instead:",
+      "text": "The fix is to adjust /proc/sys/net/netfilter/nf conntrack max instead:"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "echo 256000 > /proc/sys/net/netfilter/nf_conntrack_max",
+      "text": "echo 256000 > /proc/sys/net/netfilter/nf_conntrack_max",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "After a quick test, apachebench was back to normal. You can make the change permanent and test it with:",
+      "text": "After a quick test, apachebench was back to normal. You can make the change permanent and test it with:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "echo \"net.netfilter.nf_conntrack_max = 256000\" >> /etc/sysctl.conf\nsysctl -p",
+      "text": "echo \"net.netfilter.nf_conntrack_max = 256000\" >> /etc/sysctl.conf\nsysctl -p",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "There are some handy connection tracking tools available in the conntrack-tools package. Take a look at the man page for conntrack and you'll find ways to review and flush the connection tracking table.",
+      "text": "There are some handy connection tracking tools available in the conntrack-tools package. Take a look at the man page for conntrack and you'll find ways to review and flush the connection tracking table."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

@@ -1,0 +1,214 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 18405565742273802677,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2013/12/10/learn-octal-file-permissions-easily-with-stat/",
+      "text": "/2013/12/10/learn-octal-file-permissions-easily-with-stat/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "command line",
+      "text": "command line",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "sysadmin",
+      "text": "sysadmin",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "My SANS classmates were learning how to set and recognize file permissions on a Linux server and we realized it would be helpful to display the octal value of the permissions next to the normal  rwx  display. Fortunately, a quick search revealed that ",
+      "text": "My SANS classmates were learning how to set and recognize file permissions on a Linux server and we realized it would be helpful to display the octal value of the permissions next to the normal  rwx  display. Fortunately, a quick search revealed that "
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "stat",
+      "text": "stat",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " could deliver this information:",
+      "text": " could deliver this information:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# stat -c \"%a %A %n\" /usr/sbin/* | head\n755 -rwxr-xr-x /usr/sbin/accessdb\n755 -rwxr-xr-x /usr/sbin/acpid\n755 -rwxr-xr-x /usr/sbin/addgnupghome\n755 -rwxr-xr-x /usr/sbin/addpart\n777 lrwxrwxrwx /usr/sbin/adduser\n755 -rwxr-xr-x /usr/sbin/agetty\n755 -rwxr-xr-x /usr/sbin/alternatives\n755 -rwxr-xr-x /usr/sbin/anacron\n755 -rwxr-xr-x /usr/sbin/apachectl\n755 -rwxr-xr-x /usr/sbin/applygnupgdefaults",
+      "text": "# stat -c \"%a %A %n\" /usr/sbin/* | head\n755 -rwxr-xr-x /usr/sbin/accessdb\n755 -rwxr-xr-x /usr/sbin/acpid\n755 -rwxr-xr-x /usr/sbin/addgnupghome\n755 -rwxr-xr-x /usr/sbin/addpart\n777 lrwxrwxrwx /usr/sbin/adduser\n755 -rwxr-xr-x /usr/sbin/agetty\n755 -rwxr-xr-x /usr/sbin/alternatives\n755 -rwxr-xr-x /usr/sbin/anacron\n755 -rwxr-xr-x /usr/sbin/apachectl\n755 -rwxr-xr-x /usr/sbin/applygnupgdefaults",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The first octal digit (for setuid, setgid, and sticky) is left off for any files without those bits set.",
+      "text": "The first octal digit (for setuid, setgid, and sticky) is left off for any files without those bits set."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

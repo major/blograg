@@ -1,0 +1,208 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 5515403277286956664,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2007/10/10/bind-rrset-exists-value-dependent-prerequisite-not-satisfied-nxrrset/",
+      "text": "/2007/10/10/bind-rrset-exists-value-dependent-prerequisite-not-satisfied-nxrrset/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "bind",
+      "text": "bind",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "security",
+      "text": "security",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I was recently working on a server where a user on the server was concerned with these log messages:",
+      "text": "I was recently working on a server where a user on the server was concerned with these log messages:"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "Oct 7 20:59:33 web named[13698]: client 111.222.333.444#50389: updating zone 'domain.com/IN': update failed: 'RRset exists (value dependent)' prerequisite not satisfied (NXRRSET)\nOct 7 20:59:34 web named[13698]: client 111.222.333.444#50392: update 'domain.com/IN' denied\nOct 7 21:59:35 web named[13698]: client 111.222.333.444#50422: updating zone 'domain.com/IN': update failed: 'RRset exists (value dependent)' prerequisite not satisfied (NXRRSET)\nOct 7 21:59:35 web named[13698]: client 111.222.333.444#50425: update 'domain.com/IN' denied\nOct 7 22:59:20 web named[13698]: client 111.222.333.444#50458: updating zone 'domain.com/IN': update failed: 'RRset exists (value dependent)' prerequisite not satisfied (NXRRSET)",
+      "text": "Oct 7 20:59:33 web named[13698]: client 111.222.333.444#50389: updating zone 'domain.com/IN': update failed: 'RRset exists (value dependent)' prerequisite not satisfied (NXRRSET)\nOct 7 20:59:34 web named[13698]: client 111.222.333.444#50392: update 'domain.com/IN' denied\nOct 7 21:59:35 web named[13698]: client 111.222.333.444#50422: updating zone 'domain.com/IN': update failed: 'RRset exists (value dependent)' prerequisite not satisfied (NXRRSET)\nOct 7 21:59:35 web named[13698]: client 111.222.333.444#50425: update 'domain.com/IN' denied\nOct 7 22:59:20 web named[13698]: client 111.222.333.444#50458: updating zone 'domain.com/IN': update failed: 'RRset exists (value dependent)' prerequisite not satisfied (NXRRSET)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The messages here are actually showing that named is doing its job well. Some user was attempting to dynamically update a DNS zone repeatedly, but named was rejecting the updates since they were not coming from a valid sources.",
+      "text": "The messages here are actually showing that named is doing its job well. Some user was attempting to dynamically update a DNS zone repeatedly, but named was rejecting the updates since they were not coming from a valid sources."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Further reading:",
+      "text": "Further reading:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Zytrax.com: DNS BIND Zone Transfers and Updates",
+      "text": "Zytrax.com: DNS BIND Zone Transfers and Updates"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Internet Systems Consortium: Dynamic Updates",
+      "text": "Internet Systems Consortium: Dynamic Updates"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

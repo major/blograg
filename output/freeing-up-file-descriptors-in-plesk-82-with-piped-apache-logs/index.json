@@ -1,0 +1,178 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 9967806702883635264,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2007/08/02/freeing-up-file-descriptors-in-plesk-82-with-piped-apache-logs/",
+      "text": "/2007/08/02/freeing-up-file-descriptors-in-plesk-82-with-piped-apache-logs/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "plesk",
+      "text": "plesk",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "web",
+      "text": "web",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If you've used Plesk with a large amount of domains, you know what a pain running out of file descriptors can be. Web pages begin acting oddly, Horde throws wild errors, and even squirrelmail rolls over onto itself. Luckily, Plesk introduced piped Apache logs (along with lots of bugs!) in Plesk 8.2, and you can enable piped logs with the following commands:",
+      "text": "If you've used Plesk with a large amount of domains, you know what a pain running out of file descriptors can be. Web pages begin acting oddly, Horde throws wild errors, and even squirrelmail rolls over onto itself. Luckily, Plesk introduced piped Apache logs (along with lots of bugs!) in Plesk 8.2, and you can enable piped logs with the following commands:"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# mysql -uadmin -p`cat /etc/psa/.psa.shadow` psa -e \"replace into misc (param,val) values ('apache_pipelog', 'true');\"\n# /usr/local/psa/admin/sbin/websrvmng -v -a",
+      "text": "# mysql -uadmin -p`cat /etc/psa/.psa.shadow` psa -e \"replace into misc (param,val) values ('apache_pipelog', 'true');\"\n# /usr/local/psa/admin/sbin/websrvmng -v -a",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Technically, these changes will allow Plesk to host about 900 sites, but this is still a little extreme in my opinion, even on the best hardware money can buy. If you find yourself passing the 900 mark, then you should probably follow this  SWSoft KB  article, adjust your FD_SETSIZE and recompile.",
+      "text": "Technically, these changes will allow Plesk to host about 900 sites, but this is still a little extreme in my opinion, even on the best hardware money can buy. If you find yourself passing the 900 mark, then you should probably follow this  SWSoft KB  article, adjust your FD_SETSIZE and recompile."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "More information about configuring piped logs can be found on  SWSoft's site .  Thanks, Jon!",
+      "text": "More information about configuring piped logs can be found on  SWSoft's site .  Thanks, Jon!"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

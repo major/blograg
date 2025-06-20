@@ -1,0 +1,921 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/html",
+    "binary_hash": 8227914775203406693,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/groups/1"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "furniture",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/2"
+        }
+      ],
+      "content_layer": "body",
+      "name": "header-1",
+      "label": "section"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/47"
+        }
+      ],
+      "content_layer": "body",
+      "name": "header-2",
+      "label": "section"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/texts/8"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "text",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2014/09/11/howto-time-warner-cable-ipv6/",
+      "text": "/2014/09/11/howto-time-warner-cable-ipv6/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ipv6",
+      "text": "ipv6",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "mikrotik",
+      "text": "mikrotik",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "network",
+      "text": "network",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "networking",
+      "text": "networking",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "text",
+      "prov": [],
+      "orig": "Time Warner has  gradually rolled  out  IPv6 connectivity  to their Road Runner customers over the past couple of years and it started appearing on my home network earlier this year. \u00a0I had some issues getting the leases to renew properly after they expired (TWC's default lease length appears to be seven days) and there were some routing problems that cropped up occasionally. \u00a0However, over the past month, things seem to have settled down on TWC's San Antonio network.",
+      "text": "Time Warner has  gradually rolled  out  IPv6 connectivity  to their Road Runner customers over the past couple of years and it started appearing on my home network earlier this year. \u00a0I had some issues getting the leases to renew properly after they expired (TWC's default lease length appears to be seven days) and there were some routing problems that cropped up occasionally. \u00a0However, over the past month, things seem to have settled down on TWC's San Antonio network."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Do you have IPv6 yet?",
+      "text": "Do you have IPv6 yet?",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/texts/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Before you make any adjustments to your network, I'd recommend connecting your computer directly to the cable modem briefly to see if you can get an IPv6 address via  stateless autoconfiguration  (SLAAC). \u00a0You'll only get one IPv6 address via SLAAC, but we can get a bigger network block later on (keep reading). \u00a0Check your computer's network status to see if you received an IPv6 address. \u00a0If you have one, try accessing  ipv6.google.com . \u00a0You can always check  ipv6.icanhazip.com  or  ipv6.icanhaztraceroute.com  as well.",
+      "text": "Before you make any adjustments to your network, I'd recommend connecting your computer directly to the cable modem briefly to see if you can get an IPv6 address via  stateless autoconfiguration  (SLAAC). \u00a0You'll only get one IPv6 address via SLAAC, but we can get a bigger network block later on (keep reading). \u00a0Check your computer's network status to see if you received an IPv6 address. \u00a0If you have one, try accessing  ipv6.google.com . \u00a0You can always check  ipv6.icanhazip.com  or  ipv6.icanhaztraceroute.com  as well."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/texts/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "There's a chance your computer didn't get an IPv6 address while directly connected to the cable modem. \u00a0Here are some possible solutions:",
+      "text": "There's a chance your computer didn't get an IPv6 address while directly connected to the cable modem. \u00a0Here are some possible solutions:"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Power off the cable modem for 30 seconds, then plug it back in and see if your computer gets an address",
+      "text": "Power off the cable modem for 30 seconds, then plug it back in and see if your computer gets an address",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Ensure you have one of TWC's",
+      "text": "Ensure you have one of TWC's",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Verify that your computer has IPv6 enabled.",
+      "text": "Verify that your computer has IPv6 enabled.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "But I want more addresses",
+      "text": "But I want more addresses",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/texts/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "If you were able to get an IPv6 address, it's now time to allocate a network block for yourself and begin using it! \u00a0We will request an allocation via  DHCPv6 . \u00a0Every router is a little different, but the overall concept is the same. \u00a0Your router will request an allocation on the network and receive that allocation from Time Warner's network. \u00a0From there, your router will assign that block to an interface (most likely your LAN, more on that in a moment) and begin handing our IPv6 addresses to devices in your home.",
+      "text": "If you were able to get an IPv6 address, it's now time to allocate a network block for yourself and begin using it! \u00a0We will request an allocation via  DHCPv6 . \u00a0Every router is a little different, but the overall concept is the same. \u00a0Your router will request an allocation on the network and receive that allocation from Time Warner's network. \u00a0From there, your router will assign that block to an interface (most likely your LAN, more on that in a moment) and begin handing our IPv6 addresses to devices in your home."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/texts/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "By default, TWC hands out  /64 allocations \u00a0regardless of what you request via DHCPv6. \u00a0 I had some success in late 2013 when I requested a /56 but it appears that allocations of that size aren't available any longer. \u00a0Sure, a /64 allocation is gigantic (bigger than the entire IPv4 address space), but getting a /56 would allow you to assign multiple /64 allocations to different interfaces.   See the last section of this post on how to get a /56 allocation.  \u00a0Splitting /64's into smaller subnets is a bad idea.",
+      "text": "By default, TWC hands out  /64 allocations \u00a0regardless of what you request via DHCPv6. \u00a0 I had some success in late 2013 when I requested a /56 but it appears that allocations of that size aren't available any longer. \u00a0Sure, a /64 allocation is gigantic (bigger than the entire IPv4 address space), but getting a /56 would allow you to assign multiple /64 allocations to different interfaces.   See the last section of this post on how to get a /56 allocation.  \u00a0Splitting /64's into smaller subnets is a bad idea."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Let's talk security",
+      "text": "Let's talk security",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/texts/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "IPv6 eliminates the need for\u00a0 network address translation  (NAT). \u00a0This means that by the time you finish this howto, each device in your network with have a publicly accessible internet address. \u00a0Also, bear in mind that with almost all network devices, firewall rules and ACL's that are configured with IPv4 will have no effect on IPv6. \u00a0This means that you'll end up with devices on your network with all of their ports exposed to the internet.",
+      "text": "IPv6 eliminates the need for\u00a0 network address translation  (NAT). \u00a0This means that by the time you finish this howto, each device in your network with have a publicly accessible internet address. \u00a0Also, bear in mind that with almost all network devices, firewall rules and ACL's that are configured with IPv4 will have no effect on IPv6. \u00a0This means that you'll end up with devices on your network with all of their ports exposed to the internet."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/texts/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "In Linux, be sure to use  ip6tables  (via  firewalld , if applicable). \u00a0For other network devices, review their firewall configuration settings to see how you can filter IPv6 traffic. \u00a0 This is a critical step. \u00a0Please don't skip it.",
+      "text": "In Linux, be sure to use  ip6tables  (via  firewalld , if applicable). \u00a0For other network devices, review their firewall configuration settings to see how you can filter IPv6 traffic. \u00a0 This is a critical step. \u00a0Please don't skip it."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/texts/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "On my Mikrotik device, I have a separate IPv6 firewall interface that I can configure. \u00a0Here is my default ruleset:",
+      "text": "On my Mikrotik device, I have a separate IPv6 firewall interface that I can configure. \u00a0Here is my default ruleset:"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/texts/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/ipv6 firewall filter\n/ipv6 firewall filter\nadd chain=input connection-state=related\nadd chain=input connection-state=established\nadd chain=forward connection-state=established\nadd chain=input in-interface=lanbridge\nadd chain=forward connection-state=related\nadd chain=input dst-port=546 protocol=udp\nadd chain=input protocol=icmpv6\nadd chain=forward protocol=icmpv6\nadd chain=forward out-interface=ether1-gateway\nadd action=drop chain=input\nadd action=drop chain=forward",
+      "text": "/ipv6 firewall filter\n/ipv6 firewall filter\nadd chain=input connection-state=related\nadd chain=input connection-state=established\nadd chain=forward connection-state=established\nadd chain=input in-interface=lanbridge\nadd chain=forward connection-state=related\nadd chain=input dst-port=546 protocol=udp\nadd chain=input protocol=icmpv6\nadd chain=forward protocol=icmpv6\nadd chain=forward out-interface=ether1-gateway\nadd action=drop chain=input\nadd action=drop chain=forward",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/texts/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "The first five rules ensure that only related or established connections can make it to my internal LAN. I allow UDP 546 for DHCPv6 connectivity and I'm allowing all ICMPv6 traffic to the router and internal devices. Finally, I allow all of my devices inside the network to talk to the internet and block the remainder of the unmatched traffic.",
+      "text": "The first five rules ensure that only related or established connections can make it to my internal LAN. I allow UDP 546 for DHCPv6 connectivity and I'm allowing all ICMPv6 traffic to the router and internal devices. Finally, I allow all of my devices inside the network to talk to the internet and block the remainder of the unmatched traffic."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Configuring the router",
+      "text": "Configuring the router",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/texts/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "It's no secret that I'm a big fan of  Mikrotik  devices and I'll guide you through the setup of IPv6 on the Mikrotik in this post. \u00a0 Before starting this step, ensure that your firewall is configured (see previous section).",
+      "text": "It's no secret that I'm a big fan of  Mikrotik  devices and I'll guide you through the setup of IPv6 on the Mikrotik in this post. \u00a0 Before starting this step, ensure that your firewall is configured (see previous section)."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/texts/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "On the Mikrotik, just add a simple DHCPv6 configuration. I'll call mine 'twc':",
+      "text": "On the Mikrotik, just add a simple DHCPv6 configuration. I'll call mine 'twc':"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/texts/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/ipv6 dhcp-client\nadd add-default-route=yes interface=ether1-gateway pool-name=twc",
+      "text": "/ipv6 dhcp-client\nadd add-default-route=yes interface=ether1-gateway pool-name=twc",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/texts/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "After that, you should see an allocation pop up within a few seconds (run",
+      "text": "After that, you should see an allocation pop up within a few seconds (run"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/texts/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "ipv6 dhcp-client print",
+      "text": "ipv6 dhcp-client print",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/texts/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "):",
+      "text": "):"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/texts/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "#    INTERFACE     STATUS        PREFIX                                      EXPIRES-AFTER\n0    ether1-gat... bound         2605:xxxx:xxxx:xxxx::/64                    6d9h15m45s",
+      "text": "#    INTERFACE     STATUS        PREFIX                                      EXPIRES-AFTER\n0    ether1-gat... bound         2605:xxxx:xxxx:xxxx::/64                    6d9h15m45s",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/texts/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Check that a new address pool was allocated by running",
+      "text": "Check that a new address pool was allocated by running"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/texts/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "ipv6 pool print",
+      "text": "ipv6 pool print",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/texts/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ":",
+      "text": ":"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/texts/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "#   NAME      PREFIX                                      PREFIX-LENGTH EXPIRES-AFTER\n0 D twc       2605:xxxx:xxxx:xxxx::/64                               64 6d9h13m33s",
+      "text": "#   NAME      PREFIX                                      PREFIX-LENGTH EXPIRES-AFTER\n0 D twc       2605:xxxx:xxxx:xxxx::/64                               64 6d9h13m33s",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/texts/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "You can now assign that address pool to an interface. Be sure to assign the block to your LAN interface. In my case, that's called  lanbridge :",
+      "text": "You can now assign that address pool to an interface. Be sure to assign the block to your LAN interface. In my case, that's called  lanbridge :"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/texts/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/ipv6 address\nadd address=2605:xxxx:xxxx:xxxx:: from-pool=twc interface=lanbridge",
+      "text": "/ipv6 address\nadd address=2605:xxxx:xxxx:xxxx:: from-pool=twc interface=lanbridge",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/texts/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "By default, the Mikrotik device will now begin announcing that network allocation on your internal network. Some of your devices may already be picking up IPv6 addresses via SLAAC! Try accessing the Google or icanhazip IPv6 addresses from earlier in the post.",
+      "text": "By default, the Mikrotik device will now begin announcing that network allocation on your internal network. Some of your devices may already be picking up IPv6 addresses via SLAAC! Try accessing the Google or icanhazip IPv6 addresses from earlier in the post."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/texts/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Checking a Linux machine for IPv6 connectivity is easy. Here's an example from a Fedora 20 server I have at home:",
+      "text": "Checking a Linux machine for IPv6 connectivity is easy. Here's an example from a Fedora 20 server I have at home:"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/texts/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ ip -6 addr\n2: em1:  mtu 1500 qlen 1000\n    inet6 2605:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx/64 scope global mngtmpaddr dynamic\n       valid_lft 2591998sec preferred_lft 604798sec\n    inet6 2605:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx/64 scope global deprecated mngtmpaddr dynamic\n       valid_lft 1871064sec preferred_lft 0sec",
+      "text": "$ ip -6 addr\n2: em1:  mtu 1500 qlen 1000\n    inet6 2605:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx/64 scope global mngtmpaddr dynamic\n       valid_lft 2591998sec preferred_lft 604798sec\n    inet6 2605:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx/64 scope global deprecated mngtmpaddr dynamic\n       valid_lft 1871064sec preferred_lft 0sec",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/texts/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "If you only see an address that starts with  fe80 , that's your  link local  address. It's not an address that can be accessed from the internet.",
+      "text": "If you only see an address that starts with  fe80 , that's your  link local  address. It's not an address that can be accessed from the internet."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Troubleshooting",
+      "text": "Troubleshooting",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/texts/41"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "If you run into some problems or your router can't pull an allocation via DHCPv6, try the troubleshooting steps from the first section of this post.",
+      "text": "If you run into some problems or your router can't pull an allocation via DHCPv6, try the troubleshooting steps from the first section of this post."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/texts/41"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Getting assistance from Time Warner is a real challenge. Everyone I've contacted via phone or Twitter has not been able to help and many of them don't even know what IPv6 is. I was even told \"we have plenty of regular IPv4 addresses left, don't worry\" when I asked for help. Even my unusual methods haven't worked:",
+      "text": "Getting assistance from Time Warner is a real challenge. Everyone I've contacted via phone or Twitter has not been able to help and many of them don't even know what IPv6 is. I was even told \"we have plenty of regular IPv4 addresses left, don't worry\" when I asked for help. Even my unusual methods haven't worked:"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/texts/41"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "@TWC_Help I'll buy one of your engineers a six pack of beer if they can enable IPv6 for my internet connection. ;)",
+      "text": "@TWC_Help I'll buy one of your engineers a six pack of beer if they can enable IPv6 for my internet connection. ;)"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/texts/41"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u2014 Major Hayden (@majorhayden) August 9, 2014",
+      "text": "\u2014 Major Hayden (@majorhayden) August 9, 2014"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/texts/41"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "My old  SBG6580  that was issued by Time Warner wouldn't ever do IPv6 reliably. I ended up buying a  SB6121  and I was able to get IPv6 connectivity fairly easily. The SB6121 only does 172mb/sec down - I'll be upgrading it if TWC MAXX shows up in San Antonio.",
+      "text": "My old  SBG6580  that was issued by Time Warner wouldn't ever do IPv6 reliably. I ended up buying a  SB6121  and I was able to get IPv6 connectivity fairly easily. The SB6121 only does 172mb/sec down - I'll be upgrading it if TWC MAXX shows up in San Antonio."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Get a /56",
+      "text": "Get a /56",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/texts/47"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "You can get a /56 block of IP addresses from Time Warner by adding",
+      "text": "You can get a /56 block of IP addresses from Time Warner by adding"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/texts/47"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "prefix-hint=::/56",
+      "text": "prefix-hint=::/56",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/texts/47"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "onto your IPv6 dhcp client configuration. You'll need to carve out some /64 subnets on your own for your internal network and that's outside the scope of this post. The prefix hint configuration isn't available in the graphical interface or on the web (at the time of this post's writing).",
+      "text": "onto your IPv6 dhcp client configuration. You'll need to carve out some /64 subnets on your own for your internal network and that's outside the scope of this post. The prefix hint configuration isn't available in the graphical interface or on the web (at the time of this post's writing)."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

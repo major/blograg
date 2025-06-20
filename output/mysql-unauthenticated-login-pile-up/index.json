@@ -1,0 +1,259 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 16795841886103989071,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2007/08/16/mysql-unauthenticated-login-pile-up/",
+      "text": "/2007/08/16/mysql-unauthenticated-login-pile-up/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "database",
+      "text": "database",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Sometimes MySQL's process list will fill with unauthenticated login entries that look like this:",
+      "text": "Sometimes MySQL's process list will fill with unauthenticated login entries that look like this:"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "|  971 | unauthenticated user | xxx.xxx.xxx.xxx:35406 | NULL        | Connect | NULL | login | NULL             |",
+      "text": "|  971 | unauthenticated user | xxx.xxx.xxx.xxx:35406 | NULL        | Connect | NULL | login | NULL             |",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Generally, this means one of two things are happening. First, this could be a brute force attack against your server from an external attacker. Be sure to firewall off access to port 3306 from the outside world or run MySQL with ",
+      "text": "Generally, this means one of two things are happening. First, this could be a brute force attack against your server from an external attacker. Be sure to firewall off access to port 3306 from the outside world or run MySQL with "
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "skip-networking",
+      "text": "skip-networking",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " in the /etc/my.cnf file, and that should curtail those login attempts quickly.",
+      "text": " in the /etc/my.cnf file, and that should curtail those login attempts quickly."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "However, MySQL could be attempting to resolve the reverse DNS for each connection, and this definitely isn't necessary if your grant statements refer to remote machines' IP addresses rather than hostnames (as they should). In this case, add ",
+      "text": "However, MySQL could be attempting to resolve the reverse DNS for each connection, and this definitely isn't necessary if your grant statements refer to remote machines' IP addresses rather than hostnames (as they should). In this case, add "
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "skip-name-resolve",
+      "text": "skip-name-resolve",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " to your /etc/my.cnf and restart MySQL. These connection attempts should authenticate much faster, and they shouldn't pile up in the queue any longer.",
+      "text": " to your /etc/my.cnf and restart MySQL. These connection attempts should authenticate much faster, and they shouldn't pile up in the queue any longer."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Note:  Connections via sockets aren't affected by DNS resolution since sockets don't involve any networking access at all. If your web applications use 'localhost' for their connection string, then MySQL won't bring DNS resolution into play whatsoever.",
+      "text": "Note:  Connections via sockets aren't affected by DNS resolution since sockets don't involve any networking access at all. If your web applications use 'localhost' for their connection string, then MySQL won't bring DNS resolution into play whatsoever."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Recommended reading:  6.5.9. How MySQL Uses DNS",
+      "text": "Recommended reading:  6.5.9. How MySQL Uses DNS"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

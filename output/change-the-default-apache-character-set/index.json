@@ -1,0 +1,212 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 4949711049157619959,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2007/11/15/change-the-default-apache-character-set/",
+      "text": "/2007/11/15/change-the-default-apache-character-set/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "apache",
+      "text": "apache",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "web",
+      "text": "web",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "By default, Red Hat Enterprise Linux 4 sets the default character set in Apache to UTF-8. Your specific web application may need for the character set to be set to a different value, and the change can be made fairly easily. Here's an example where the character set is changed to ISO-8859-1:",
+      "text": "By default, Red Hat Enterprise Linux 4 sets the default character set in Apache to UTF-8. Your specific web application may need for the character set to be set to a different value, and the change can be made fairly easily. Here's an example where the character set is changed to ISO-8859-1:"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "First, adjust the AddDefaultCharset directive in /etc/httpd/conf/httpd.conf:",
+      "text": "First, adjust the AddDefaultCharset directive in /etc/httpd/conf/httpd.conf:"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "#AddDefaultCharset UTF-8<br />\nAddDefaultCharset ISO-8859-1",
+      "text": "#AddDefaultCharset UTF-8<br />\nAddDefaultCharset ISO-8859-1",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Then, reload Apache and check your headers:",
+      "text": "Then, reload Apache and check your headers:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# /etc/init.d/httpd reload<br />\n# curl -I localhost<br />\nHTTP/1.1 403 Forbidden<br />\nDate: Thu, 08 Nov 2007 22:18:14 GMT<br />\nServer: Apache/2.0.52 (Red Hat)<br />\nAccept-Ranges: bytes<br />\nContent-Length: 3985<br />\nConnection: close<br />\nContent-Type: text/html; charset=ISO-8859-1",
+      "text": "# /etc/init.d/httpd reload<br />\n# curl -I localhost<br />\nHTTP/1.1 403 Forbidden<br />\nDate: Thu, 08 Nov 2007 22:18:14 GMT<br />\nServer: Apache/2.0.52 (Red Hat)<br />\nAccept-Ranges: bytes<br />\nContent-Length: 3985<br />\nConnection: close<br />\nContent-Type: text/html; charset=ISO-8859-1",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This was tested on Red Hat Enterprise Linux 4 Update 5",
+      "text": "This was tested on Red Hat Enterprise Linux 4 Update 5"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

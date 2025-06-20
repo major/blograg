@@ -1,0 +1,450 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 16247084559099225526,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "author: Major Hayden date: '2024-04-16' I gave two talks at this year's event and ran into lots of old friends and colleagues. \ud83d\udc27 tags: ",
+      "text": "author: Major Hayden date: '2024-04-16' I gave two talks at this year's event and ran into lots of old friends and colleagues. \ud83d\udc27 tags: "
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "centos",
+      "text": "centos",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "presentation",
+      "text": "presentation",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The 2024  Texas Linux Festival  just ended last weekend and it was a fun event as always. It's one my favorite events to attend because it's really casual. You have plenty of opportunities to see old friends, meet new people, and learn a few things along the way.",
+      "text": "The 2024  Texas Linux Festival  just ended last weekend and it was a fun event as always. It's one my favorite events to attend because it's really casual. You have plenty of opportunities to see old friends, meet new people, and learn a few things along the way."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I was fortunate enough to have two talks accepted for this year's event. One was focused on containers while the other was a (very belated) addition to my  impostor syndrome talk  from 2015.",
+      "text": "I was fortunate enough to have two talks accepted for this year's event. One was focused on containers while the other was a (very belated) addition to my  impostor syndrome talk  from 2015."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This was also my first time building slides with  reveal-md , a \"batteries included\" package for making  reveal.js  slides. Nothing broke too badly and that was a relief.",
+      "text": "This was also my first time building slides with  reveal-md , a \"batteries included\" package for making  reveal.js  slides. Nothing broke too badly and that was a relief."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Containers talk",
+      "text": "Containers talk",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I've wanted to share more of what I've done with CoreOS in low-budget container deployments and this seemed like a good time to share it with the world out loud. My talk,  Automated container updates with GitHub and CoreOS , walked the audience through how to deploy containers on CoreOS, keep them updated, and update the container image source.",
+      "text": "I've wanted to share more of what I've done with CoreOS in low-budget container deployments and this seemed like a good time to share it with the world out loud. My talk,  Automated container updates with GitHub and CoreOS , walked the audience through how to deploy containers on CoreOS, keep them updated, and update the container image source."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "My goal was to keep it as low on budget as possible. Much of it was centered around a stack of  caddy , librespeed, and docker-compose. All of it was kept up to date with  watchtower .",
+      "text": "My goal was to keep it as low on budget as possible. Much of it was centered around a stack of  caddy , librespeed, and docker-compose. All of it was kept up to date with  watchtower ."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "My custom Caddy container needed support for  Porkbun's  DNS API and I used GitHub Actions to build that container and serve it to the internet using GitHub's package hosting. This also gave me the opportunity to share how awesome Porkbun is for registering domains, including their  customized pig artwork  for every TLD imaginable.  \ud83d\udc37",
+      "text": "My custom Caddy container needed support for  Porkbun's  DNS API and I used GitHub Actions to build that container and serve it to the internet using GitHub's package hosting. This also gave me the opportunity to share how awesome Porkbun is for registering domains, including their  customized pig artwork  for every TLD imaginable.  \ud83d\udc37"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "We had a great discussion afterwards about how CoreOS  does indeed live on  as  Fedora CoreOS .",
+      "text": "We had a great discussion afterwards about how CoreOS  does indeed live on  as  Fedora CoreOS ."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Tech career talk",
+      "text": "Tech career talk",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This talk made me nervous because it had a lot of slides to cover, but I also wanted to leave plenty of time for questions. Five tips for a thriving technology career  built upon my old impostor syndrome talk by sharing some of the things I've learned over the year that helped me succeed in my career.",
+      "text": "This talk made me nervous because it had a lot of slides to cover, but I also wanted to leave plenty of time for questions. Five tips for a thriving technology career  built upon my old impostor syndrome talk by sharing some of the things I've learned over the year that helped me succeed in my career."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I managed to end early with time for questions, and boy did the audience have questions! \ud83d\udce3 Some audience members helped me answer some questions, too!",
+      "text": "I managed to end early with time for questions, and boy did the audience have questions! \ud83d\udce3 Some audience members helped me answer some questions, too!"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "We talked a lot about office politics, tribal knowledge, and toxic workplaces. The audience generally agreed that most businesses tried to rub copious amounts of Confluence on their tribal knowledge problem, but it never improved. \ud83d\ude1c",
+      "text": "We talked a lot about office politics, tribal knowledge, and toxic workplaces. The audience generally agreed that most businesses tried to rub copious amounts of Confluence on their tribal knowledge problem, but it never improved. \ud83d\ude1c"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The room was full with people standing in the back and I'm tremendously humbled by everyone who came. I received plenty of feedback afterwards and that's the best gift I could ever get. \ud83c\udf81",
+      "text": "The room was full with people standing in the back and I'm tremendously humbled by everyone who came. I received plenty of feedback afterwards and that's the best gift I could ever get. \ud83c\udf81"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Other talks",
+      "text": "Other talks",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Anita Zhang  had an excellent keynote talk on the second day about her unusual path into the world of technology. Her slides were pictures of her dog that lined up with various parts of her story. That was a great idea.",
+      "text": "Anita Zhang  had an excellent keynote talk on the second day about her unusual path into the world of technology. Her slides were pictures of her dog that lined up with various parts of her story. That was a great idea."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Kyle Davis  offered talks on  valkey  and  bottlerocket . There was plenty about the redis and valkey story that I didn't know and the context was useful. It looks like you can simply drop valkey into most redis environments without much disruption.",
+      "text": "Kyle Davis  offered talks on  valkey  and  bottlerocket . There was plenty about the redis and valkey story that I didn't know and the context was useful. It looks like you can simply drop valkey into most redis environments without much disruption."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Thomas Cameron  talked about running OKD on Fedora CoreOS in his home lab. There were quite a few steps, but he did a great job of connecting the dots between what needed to be done and why.",
+      "text": "Thomas Cameron  talked about running OKD on Fedora CoreOS in his home lab. There were quite a few steps, but he did a great job of connecting the dots between what needed to be done and why."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Around the exhibit hall",
+      "text": "Around the exhibit hall",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I helped staff the Fedora/CoreOS booth and we had plenty of questions. Most questions were around the M1 Macbook running  Asahi Linux  that was on the table. \ud83d\ude09",
+      "text": "I helped staff the Fedora/CoreOS booth and we had plenty of questions. Most questions were around the M1 Macbook running  Asahi Linux  that was on the table. \ud83d\ude09"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "There were still quite a few misconceptions around the CentOS Stream changes, as well as how AlmaLinux and Rocky Linux fit into the picture. Our booth was right next to the AlmaLinux booth and I had the opportunity to meet  Jonathan Wright . That was awesome!",
+      "text": "There were still quite a few misconceptions around the CentOS Stream changes, as well as how AlmaLinux and Rocky Linux fit into the picture. Our booth was right next to the AlmaLinux booth and I had the opportunity to meet  Jonathan Wright . That was awesome!"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I can't wait for next year's event.",
+      "text": "I can't wait for next year's event."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

@@ -1,0 +1,244 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 17466957740895364744,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2007/02/11/measuring-raw-shell-bandwidth/",
+      "text": "/2007/02/11/measuring-raw-shell-bandwidth/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "command line",
+      "text": "command line",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Okay, so we know it's easy to measure web, ftp and mail traffic, right? You can just parse the logs, sum it all up, and move on with your day. However, what do you do about users with SFTP or RSYNC privileges? This can create a problem when the bandwidth on your server keeps cranking up, but your web/ftp/mail traffic stats don't show an increase.",
+      "text": "Okay, so we know it's easy to measure web, ftp and mail traffic, right? You can just parse the logs, sum it all up, and move on with your day. However, what do you do about users with SFTP or RSYNC privileges? This can create a problem when the bandwidth on your server keeps cranking up, but your web/ftp/mail traffic stats don't show an increase."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Need a solution? Enjoy:",
+      "text": "Need a solution? Enjoy:"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "First, create an OUTPUT rule for your user, which in this case will be root. Why no INPUT rule? Many hosts don't charge for incoming bandwidth, so why bother?",
+      "text": "First, create an OUTPUT rule for your user, which in this case will be root. Why no INPUT rule? Many hosts don't charge for incoming bandwidth, so why bother?"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# iptables -A INPUT -j ACCEPT -m owner --uid-owner=root",
+      "text": "# iptables -A INPUT -j ACCEPT -m owner --uid-owner=root",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Now check this out:",
+      "text": "Now check this out:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# /sbin/iptables -v -xL -Z\nChain OUTPUT (policy ACCEPT 1287 packets, 221983 bytes)\npkts      bytes target     prot opt in     out     source        destination\n437    59684 ACCEPT     all  --  any    any     anywhere      anywhere  OWNER UID match root`",
+      "text": "# /sbin/iptables -v -xL -Z\nChain OUTPUT (policy ACCEPT 1287 packets, 221983 bytes)\npkts      bytes target     prot opt in     out     source        destination\n437    59684 ACCEPT     all  --  any    any     anywhere      anywhere  OWNER UID match root`",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The number in the 'bytes' column is the count of bytes that this user sent out of your server since the last time you ran that iptables command. If you don't want to zero out the bytes each time you run the command, just drop the Z flag from the iptables command.",
+      "text": "The number in the 'bytes' column is the count of bytes that this user sent out of your server since the last time you ran that iptables command. If you don't want to zero out the bytes each time you run the command, just drop the Z flag from the iptables command."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "You can go wild with awk if you desire:",
+      "text": "You can go wild with awk if you desire:"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# /sbin/iptables -v -xL | grep root | awk '{ print $2 }'\n59684",
+      "text": "# /sbin/iptables -v -xL | grep root | awk '{ print $2 }'\n59684",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

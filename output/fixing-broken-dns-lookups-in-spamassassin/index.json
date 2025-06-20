@@ -1,0 +1,383 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 14797315736402813105,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2014/06/20/fixing-broken-dns-lookups-in-spamassassin/",
+      "text": "/2014/06/20/fixing-broken-dns-lookups-in-spamassassin/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "dns",
+      "text": "dns",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "mail",
+      "text": "mail",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "perl",
+      "text": "perl",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "postfix",
+      "text": "postfix",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "selinux",
+      "text": "selinux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "spamassassin",
+      "text": "spamassassin",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I talked about the  joys of running my own mail server  last week only to find that my mail server was broken yesterday. Spamassassin stopped doing DNS lookups for  RBL  and  SPF  checks.",
+      "text": "I talked about the  joys of running my own mail server  last week only to find that my mail server was broken yesterday. Spamassassin stopped doing DNS lookups for  RBL  and  SPF  checks."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I had one of these moments:",
+      "text": "I had one of these moments:"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "My logs looked like this:",
+      "text": "My logs looked like this:"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "plugin: eval failed: available_nameservers: No DNS servers available!\nplugin: eval failed: available_nameservers: No DNS servers available!\nrules: failed to run NO_DNS_FOR_FROM RBL test, skipping:\n (available_nameservers: [...] No DNS servers available!)\n (available_nameservers: [...] No DNS servers available!",
+      "text": "plugin: eval failed: available_nameservers: No DNS servers available!\nplugin: eval failed: available_nameservers: No DNS servers available!\nrules: failed to run NO_DNS_FOR_FROM RBL test, skipping:\n (available_nameservers: [...] No DNS servers available!)\n (available_nameservers: [...] No DNS servers available!",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "My /etc/resolv.conf was correct and had two valid DNS servers listed. Also, the permissions set on /etc/resolv.conf were reasonable (0644) and the SELinux context applied to the file was appropriate (net conf t). Everything else on the system was able to resolve DNS records properly. Even an strace on the spamd process showed it reading /etc/resolv.conf successfully!",
+      "text": "My /etc/resolv.conf was correct and had two valid DNS servers listed. Also, the permissions set on /etc/resolv.conf were reasonable (0644) and the SELinux context applied to the file was appropriate (net conf t). Everything else on the system was able to resolve DNS records properly. Even an strace on the spamd process showed it reading /etc/resolv.conf successfully!"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "It was Google time. I put some snippets of my error output into the search bar and found a  spamassassin bug report . Mark Martinec found the root cause of the bug:",
+      "text": "It was Google time. I put some snippets of my error output into the search bar and found a  spamassassin bug report . Mark Martinec found the root cause of the bug:"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Net::DNS version 0.76 changed the field name holding a set of nameservers in a Net::DNS::Resolver object: it used to be 'nameservers', but is now split into two fields: 'nameserver4' and 'nameserver6'.",
+      "text": "Net::DNS version 0.76 changed the field name holding a set of nameservers in a Net::DNS::Resolver object: it used to be 'nameservers', but is now split into two fields: 'nameserver4' and 'nameserver6'."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Mail/SpamAssassin/DnsResolver.pm relied on the internal field name of a Net::DNS::Resolver object to obtain a default list of recursive name servers, so the change in Net::DNS broke that.",
+      "text": "Mail/SpamAssassin/DnsResolver.pm relied on the internal field name of a Net::DNS::Resolver object to obtain a default list of recursive name servers, so the change in Net::DNS broke that."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The  patch from the bug report  worked just fine on my Fedora 20 mail server. Be sure to restart spamd after making the change.",
+      "text": "The  patch from the bug report  worked just fine on my Fedora 20 mail server. Be sure to restart spamd after making the change."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "There's a  Fedora bug report  as well.",
+      "text": "There's a  Fedora bug report  as well."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If anyone is interested, I plan to write up my email configuration on Fedora soon for other folks to use. I might even make some ansible playbooks for it. ;)",
+      "text": "If anyone is interested, I plan to write up my email configuration on Fedora soon for other folks to use. I might even make some ansible playbooks for it. ;)"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Fedora update: Fedora's spamassassin package has been updated to 3.4.0-7 and it fixes two bugs. You'll find it in the stable repositories in a few days.",
+      "text": "Fedora update: Fedora's spamassassin package has been updated to 3.4.0-7 and it fixes two bugs. You'll find it in the stable repositories in a few days."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

@@ -1,0 +1,344 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/html",
+    "binary_hash": 5305937639684141934,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2009/01/26/linux-adjust-storage-kernel-module-load-order/",
+      "text": "/2009/01/26/linux-adjust-storage-kernel-module-load-order/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "drivers",
+      "text": "drivers",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "kernel",
+      "text": "kernel",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ubuntu",
+      "text": "ubuntu",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "I set up a system at home that has two SATA controllers: one is on the motherboard (nvidia chipset), while the other is on a Silicon Image SATA card that has three eSATA ports. Here is the relevant",
+      "text": "I set up a system at home that has two SATA controllers: one is on the motherboard (nvidia chipset), while the other is on a Silicon Image SATA card that has three eSATA ports. Here is the relevant"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "lspci",
+      "text": "lspci",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "output:",
+      "text": "output:"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "root@storageserver:~# lspci | grep ATA\n00:08.0 IDE interface: nVidia Corporation MCP61 SATA Controller (rev a2)\n00:08.1 IDE interface: nVidia Corporation MCP61 SATA Controller (rev a2)\n03:00.0 Mass storage controller: Silicon Image, Inc. SiI 3132 Serial ATA Raid II Controller (rev 01)",
+      "text": "root@storageserver:~# lspci | grep ATA\n00:08.0 IDE interface: nVidia Corporation MCP61 SATA Controller (rev a2)\n00:08.1 IDE interface: nVidia Corporation MCP61 SATA Controller (rev a2)\n03:00.0 Mass storage controller: Silicon Image, Inc. SiI 3132 Serial ATA Raid II Controller (rev 01)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "There are two primary drives connected to the onboard controller and four connected to the controller card. One of the primary drives on the onboard controller contains the operating system (Ubuntu, in this case), while the other drive is blank.",
+      "text": "There are two primary drives connected to the onboard controller and four connected to the controller card. One of the primary drives on the onboard controller contains the operating system (Ubuntu, in this case), while the other drive is blank."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "When the system booted, the sata sil24 driver for the add-on card always loaded before the sata nv drivers for the onboard storage controller:",
+      "text": "When the system booted, the sata sil24 driver for the add-on card always loaded before the sata nv drivers for the onboard storage controller:"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "kernel: [    4.125598] sata_sil24 0000:03:00.0: version 1.1\nkernel: [    4.126102] sata_sil24 0000:03:00.0: PCI INT A -> Link[APC6] -> GSI 16 (level, low) -> IRQ 16\nkernel: [    4.126161] sata_sil24 0000:03:00.0: setting latency timer to 64\nkernel: [    4.129472] scsi0 : sata_sil24\nkernel: [    4.129635] scsi1 : sata_sil24\nkernel: [    8.293762] sata_nv 0000:00:08.0: version 3.5\nkernel: [    8.293779] sata_nv 0000:00:08.0: PCI INT A -> Link[APSI] -> GSI 20 (level, low) -> IRQ 20\nkernel: [    8.293829] sata_nv 0000:00:08.0: setting latency timer to 64\nkernel: [    8.296764] scsi2 : sata_nv\nkernel: [    8.296905] scsi3 : sata_nv\nkernel: [    9.285034] sata_nv 0000:00:08.1: PCI INT B -> Link[APSJ] -> GSI 21 (level, low) -> IRQ 21\nkernel: [    9.285074] sata_nv 0000:00:08.1: setting latency timer to 64\nkernel: [    9.285161] scsi4 : sata_nv\nkernel: [    9.286015] scsi5 : sata_nv",
+      "text": "kernel: [    4.125598] sata_sil24 0000:03:00.0: version 1.1\nkernel: [    4.126102] sata_sil24 0000:03:00.0: PCI INT A -> Link[APC6] -> GSI 16 (level, low) -> IRQ 16\nkernel: [    4.126161] sata_sil24 0000:03:00.0: setting latency timer to 64\nkernel: [    4.129472] scsi0 : sata_sil24\nkernel: [    4.129635] scsi1 : sata_sil24\nkernel: [    8.293762] sata_nv 0000:00:08.0: version 3.5\nkernel: [    8.293779] sata_nv 0000:00:08.0: PCI INT A -> Link[APSI] -> GSI 20 (level, low) -> IRQ 20\nkernel: [    8.293829] sata_nv 0000:00:08.0: setting latency timer to 64\nkernel: [    8.296764] scsi2 : sata_nv\nkernel: [    8.296905] scsi3 : sata_nv\nkernel: [    9.285034] sata_nv 0000:00:08.1: PCI INT B -> Link[APSJ] -> GSI 21 (level, low) -> IRQ 21\nkernel: [    9.285074] sata_nv 0000:00:08.1: setting latency timer to 64\nkernel: [    9.285161] scsi4 : sata_nv\nkernel: [    9.286015] scsi5 : sata_nv",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "After specifying an explicit order in /etc/modules and /etc/modprobe.conf, I wasn't able to see any changes. The sata sil24 driver still loaded before the onboard sata nv driver. Luckily, a  very wise person  on  Twitter   gave me a strategy  that  worked just fine .",
+      "text": "After specifying an explicit order in /etc/modules and /etc/modprobe.conf, I wasn't able to see any changes. The sata sil24 driver still loaded before the onboard sata nv driver. Luckily, a  very wise person  on  Twitter   gave me a strategy  that  worked just fine ."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "I added sata sil24 to the bottom of my /etc/modprobe.d/blacklist file first. Then, in /etc/modules, I listed sata nv first, followed by sata_sil24. When the system booted, I got the result that I wanted:",
+      "text": "I added sata sil24 to the bottom of my /etc/modprobe.d/blacklist file first. Then, in /etc/modules, I listed sata nv first, followed by sata_sil24. When the system booted, I got the result that I wanted:"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "kernel: [    3.982909] sata_nv 0000:00:08.0: version 3.5\nkernel: [    3.982931] sata_nv 0000:00:08.0: PCI INT A -> Link[APSI] -> GSI 20 (level, low) -> IRQ 20\nkernel: [    3.982993] sata_nv 0000:00:08.0: setting latency timer to 64\nkernel: [    3.984497] scsi0 : sata_nv\nkernel: [    3.986013] scsi1 : sata_nv\nkernel: [    4.971755] sata_nv 0000:00:08.1: PCI INT B -> Link[APSJ] -> GSI 21 (level, low) -> IRQ 21\nkernel: [    4.971799] sata_nv 0000:00:08.1: setting latency timer to 64\nkernel: [    4.973153] scsi2 : sata_nv\nkernel: [    4.974031] scsi3 : sata_nv\nkernel: [   15.988862] sata_sil24 0000:03:00.0: version 1.1\nkernel: [   15.989454] sata_sil24 0000:03:00.0: PCI INT A -> Link[APC6] -> GSI 16 (level, low) -> IRQ 16\nkernel: [   15.989511] sata_sil24 0000:03:00.0: setting latency timer to 64\nkernel: [   15.990201] scsi6 : sata_sil24\nkernel: [   15.991523] scsi7 : sata_sil24",
+      "text": "kernel: [    3.982909] sata_nv 0000:00:08.0: version 3.5\nkernel: [    3.982931] sata_nv 0000:00:08.0: PCI INT A -> Link[APSI] -> GSI 20 (level, low) -> IRQ 20\nkernel: [    3.982993] sata_nv 0000:00:08.0: setting latency timer to 64\nkernel: [    3.984497] scsi0 : sata_nv\nkernel: [    3.986013] scsi1 : sata_nv\nkernel: [    4.971755] sata_nv 0000:00:08.1: PCI INT B -> Link[APSJ] -> GSI 21 (level, low) -> IRQ 21\nkernel: [    4.971799] sata_nv 0000:00:08.1: setting latency timer to 64\nkernel: [    4.973153] scsi2 : sata_nv\nkernel: [    4.974031] scsi3 : sata_nv\nkernel: [   15.988862] sata_sil24 0000:03:00.0: version 1.1\nkernel: [   15.989454] sata_sil24 0000:03:00.0: PCI INT A -> Link[APC6] -> GSI 16 (level, low) -> IRQ 16\nkernel: [   15.989511] sata_sil24 0000:03:00.0: setting latency timer to 64\nkernel: [   15.990201] scsi6 : sata_sil24\nkernel: [   15.991523] scsi7 : sata_sil24",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "The sata nv driver is loading first, and Ubuntu boots off of it without an issue. The sata sil24 driver loads next so that the drives connected to the card show up lower in the boot order.",
+      "text": "The sata nv driver is loading first, and Ubuntu boots off of it without an issue. The sata sil24 driver loads next so that the drives connected to the card show up lower in the boot order."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Many thanks to  @Twirrim  on Twitter for the suggestion!",
+      "text": "Many thanks to  @Twirrim  on Twitter for the suggestion!"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

@@ -1,0 +1,256 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 13237494778655578099,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "ordered_list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2007/01/11/rebuilding-the-qmail-queue/",
+      "text": "/2007/01/11/rebuilding-the-qmail-queue/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "mail",
+      "text": "mail",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "There are three main things to remember when it comes to the qmail queue:",
+      "text": "There are three main things to remember when it comes to the qmail queue:"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Don't mess with the qmail queue while qmail is running.",
+      "text": "Don't mess with the qmail queue while qmail is running.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Don't mess with the qmail queue while qmail is stopped.",
+      "text": "Don't mess with the qmail queue while qmail is stopped.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Don't mess with the qmail queue ",
+      "text": "Don't mess with the qmail queue ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The qmail application keeps a database (sort of) of the pieces of mail it expects to be in the queue (and on the filesystem). Many python scripts (like mailRemove.py) claim they will speed up your qmail queue by removing failure notices and tidying up the queue files. Most of the time, these scripts work just fine, but sometimes they remove something they shouldn't and then qmail can't find the file.",
+      "text": "The qmail application keeps a database (sort of) of the pieces of mail it expects to be in the queue (and on the filesystem). Many python scripts (like mailRemove.py) claim they will speed up your qmail queue by removing failure notices and tidying up the queue files. Most of the time, these scripts work just fine, but sometimes they remove something they shouldn't and then qmail can't find the file."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "What does qmail do when it can't find the file that corresponds to an item in the queue? It stops delivering mail, eats the CPU, and cranks the load average up. Impressive, isn't it?",
+      "text": "What does qmail do when it can't find the file that corresponds to an item in the queue? It stops delivering mail, eats the CPU, and cranks the load average up. Impressive, isn't it?"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Should you find yourself with an impressively hosed qmail queue, do the following (and say goodbye to every e-mail in your queue):",
+      "text": "Should you find yourself with an impressively hosed qmail queue, do the following (and say goodbye to every e-mail in your queue):"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/etc/init.d/qmail stop\ncd /var/qmail/queue\nrm -rf info intd local mess remote todo\nmkdir mess\nfor i in `seq 0 22`; do\nmkdir mess/$i\ndone\ncp -r mess info\ncp -r mess intd\ncp -r mess local\ncp -r mess remote\ncp -r mess todo\nchmod -R 750 mess todo\nchown -R qmailq:qmail mess todo\nchmod -R 700 info intd local remote\nchown -R qmailq:qmail intd\nchown -R qmails:qmail info local remote\n/etc/init.d/qmail start",
+      "text": "/etc/init.d/qmail stop\ncd /var/qmail/queue\nrm -rf info intd local mess remote todo\nmkdir mess\nfor i in `seq 0 22`; do\nmkdir mess/$i\ndone\ncp -r mess info\ncp -r mess intd\ncp -r mess local\ncp -r mess remote\ncp -r mess todo\nchmod -R 750 mess todo\nchown -R qmailq:qmail mess todo\nchmod -R 700 info intd local remote\nchown -R qmailq:qmail intd\nchown -R qmails:qmail info local remote\n/etc/init.d/qmail start",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Just in case you missed it,  this will delete  all mail messages  that exist in your queue. But, then again, you're not going to get those messages anyways (thanks qmail!), so repairing the queue is your only option.",
+      "text": "Just in case you missed it,  this will delete  all mail messages  that exist in your queue. But, then again, you're not going to get those messages anyways (thanks qmail!), so repairing the queue is your only option."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

@@ -1,0 +1,563 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 1837133744027733138,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "author: Major Hayden date: '2024-05-08' The amazon-ec2-utils package in Fedora makes it a bit easier to find devices in an AWS EC2 instance. \ufe0f\ud83c\udf24\ufe0f tags: ",
+      "text": "author: Major Hayden date: '2024-05-08' The amazon-ec2-utils package in Fedora makes it a bit easier to find devices in an AWS EC2 instance. \ufe0f\ud83c\udf24\ufe0f tags: "
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "aws",
+      "text": "aws",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "cloud",
+      "text": "cloud",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "We've all been in that situation where we see a device in Linux and wonder which physical device it corresponds to. I remember when I built my first NAS and received an alert that a drive had failed. It took me a while to figure out which physical drive actually needed to be replaced.",
+      "text": "We've all been in that situation where we see a device in Linux and wonder which physical device it corresponds to. I remember when I built my first NAS and received an alert that a drive had failed. It took me a while to figure out which physical drive actually needed to be replaced."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This happens with network devices, too, and I  wrote a post  about systemd's predictable network device names back in 2015.",
+      "text": "This happens with network devices, too, and I  wrote a post  about systemd's predictable network device names back in 2015."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Cloud instances often make it even more confusing because storage devices are fully virtualized and show up differently depending on the cloud provider. I recently packaged  amazon-ec2-utils  in Fedora to make this a little easier on AWS.",
+      "text": "Cloud instances often make it even more confusing because storage devices are fully virtualized and show up differently depending on the cloud provider. I recently packaged  amazon-ec2-utils  in Fedora to make this a little easier on AWS."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "The problem",
+      "text": "The problem",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I just built a test instance of Fedora 40 in AWS and the AWS API shows the block device mappings like this:",
+      "text": "I just built a test instance of Fedora 40 in AWS and the AWS API shows the block device mappings like this:"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ aws ec2 describe-instances \\\n    --instance-ids i-0687448a184ab0a9e | \\\n    jq '.Reservations[0].Instances[0].BlockDeviceMappings'\n[\n  {\n    \"DeviceName\": \"/dev/sda1\",\n    \"Ebs\": {\n      \"AttachTime\": \"2024-05-08T15:24:03+00:00\",\n      \"DeleteOnTermination\": true,\n      \"Status\": \"attached\",\n      \"VolumeId\": \"vol-0832569729b6c5ea6\"\n    }\n  }\n]",
+      "text": "$ aws ec2 describe-instances \\\n    --instance-ids i-0687448a184ab0a9e | \\\n    jq '.Reservations[0].Instances[0].BlockDeviceMappings'\n[\n  {\n    \"DeviceName\": \"/dev/sda1\",\n    \"Ebs\": {\n      \"AttachTime\": \"2024-05-08T15:24:03+00:00\",\n      \"DeleteOnTermination\": true,\n      \"Status\": \"attached\",\n      \"VolumeId\": \"vol-0832569729b6c5ea6\"\n    }\n  }\n]",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "However, if I check these devices inside the instance itself, I get something totally different:",
+      "text": "However, if I check these devices inside the instance itself, I get something totally different:"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "[fedora@f40 ~]$ sudo fdisk -l\nDisk /dev/nvme0n1: 10 GiB, 10737418240 bytes, 20971520 sectors\nDisk model: Amazon Elastic Block Store              \nUnits: sectors of 1 * 512 = 512 bytes\nSector size (logical/physical): 512 bytes / 512 bytes\nI/O size (minimum/optimal): 4096 bytes / 4096 bytes\nDisklabel type: gpt\nDisk identifier: 9FB58ED7-7581-4469-BEB7-64F069151EAF\n\nDevice           Start      End  Sectors  Size Type\n/dev/nvme0n1p1    2048   206847   204800  100M EFI System\n/dev/nvme0n1p2  206848  2254847  2048000 1000M Linux extended boot\n/dev/nvme0n1p3 2254848 20971484 18716637  8.9G Linux root (ARM-64)\n\n\nDisk /dev/zram0: 1.78 GiB, 1909456896 bytes, 466176 sectors\nUnits: sectors of 1 * 4096 = 4096 bytes\nSector size (logical/physical): 4096 bytes / 4096 bytes\nI/O size (minimum/optimal): 4096 bytes / 4096 bytes\n\n[fedora@f40 ~]$ ls -al /dev/sd*\nls: cannot access '/dev/sd*': No such file or directory",
+      "text": "[fedora@f40 ~]$ sudo fdisk -l\nDisk /dev/nvme0n1: 10 GiB, 10737418240 bytes, 20971520 sectors\nDisk model: Amazon Elastic Block Store              \nUnits: sectors of 1 * 512 = 512 bytes\nSector size (logical/physical): 512 bytes / 512 bytes\nI/O size (minimum/optimal): 4096 bytes / 4096 bytes\nDisklabel type: gpt\nDisk identifier: 9FB58ED7-7581-4469-BEB7-64F069151EAF\n\nDevice           Start      End  Sectors  Size Type\n/dev/nvme0n1p1    2048   206847   204800  100M EFI System\n/dev/nvme0n1p2  206848  2254847  2048000 1000M Linux extended boot\n/dev/nvme0n1p3 2254848 20971484 18716637  8.9G Linux root (ARM-64)\n\n\nDisk /dev/zram0: 1.78 GiB, 1909456896 bytes, 466176 sectors\nUnits: sectors of 1 * 4096 = 4096 bytes\nSector size (logical/physical): 4096 bytes / 4096 bytes\nI/O size (minimum/optimal): 4096 bytes / 4096 bytes\n\n[fedora@f40 ~]$ ls -al /dev/sd*\nls: cannot access '/dev/sd*': No such file or directory",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "One disk isn't so bad, but what if we add more storage? The API tells me one thing:",
+      "text": "One disk isn't so bad, but what if we add more storage? The API tells me one thing:"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "> aws ec2 describe-instances --instance-ids i-0687448a184ab0a9e | jq '.Reservations[0].Instances[0].BlockDeviceMappings'\n[\n  {\n    \"DeviceName\": \"/dev/sda1\",\n    \"Ebs\": {\n      \"AttachTime\": \"2024-05-08T15:24:03+00:00\",\n      \"DeleteOnTermination\": true,\n      \"Status\": \"attached\",\n      \"VolumeId\": \"vol-0832569729b6c5ea6\"\n    }\n  },\n  {\n    \"DeviceName\": \"/dev/sde\",\n    \"Ebs\": {\n      \"AttachTime\": \"2024-05-08T15:38:29.754000+00:00\",\n      \"DeleteOnTermination\": false,\n      \"Status\": \"attached\",\n      \"VolumeId\": \"vol-0a7ba05c5270d7aa3\",\n      \"VolumeOwnerId\": \"xxx\"\n    }\n  }\n]",
+      "text": "> aws ec2 describe-instances --instance-ids i-0687448a184ab0a9e | jq '.Reservations[0].Instances[0].BlockDeviceMappings'\n[\n  {\n    \"DeviceName\": \"/dev/sda1\",\n    \"Ebs\": {\n      \"AttachTime\": \"2024-05-08T15:24:03+00:00\",\n      \"DeleteOnTermination\": true,\n      \"Status\": \"attached\",\n      \"VolumeId\": \"vol-0832569729b6c5ea6\"\n    }\n  },\n  {\n    \"DeviceName\": \"/dev/sde\",\n    \"Ebs\": {\n      \"AttachTime\": \"2024-05-08T15:38:29.754000+00:00\",\n      \"DeleteOnTermination\": false,\n      \"Status\": \"attached\",\n      \"VolumeId\": \"vol-0a7ba05c5270d7aa3\",\n      \"VolumeOwnerId\": \"xxx\"\n    }\n  }\n]",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "But then the instance tells me something else entirely:",
+      "text": "But then the instance tells me something else entirely:"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "[fedora@f40 ~]$ sudo fdisk -l\nDisk /dev/nvme0n1: 10 GiB, 10737418240 bytes, 20971520 sectors\nDisk model: Amazon Elastic Block Store              \nUnits: sectors of 1 * 512 = 512 bytes\nSector size (logical/physical): 512 bytes / 512 bytes\nI/O size (minimum/optimal): 4096 bytes / 4096 bytes\nDisklabel type: gpt\nDisk identifier: 9FB58ED7-7581-4469-BEB7-64F069151EAF\n\nDevice           Start      End  Sectors  Size Type\n/dev/nvme0n1p1    2048   206847   204800  100M EFI System\n/dev/nvme0n1p2  206848  2254847  2048000 1000M Linux extended boot\n/dev/nvme0n1p3 2254848 20971484 18716637  8.9G Linux root (ARM-64)\n\n\nDisk /dev/zram0: 1.78 GiB, 1909456896 bytes, 466176 sectors\nUnits: sectors of 1 * 4096 = 4096 bytes\nSector size (logical/physical): 4096 bytes / 4096 bytes\nI/O size (minimum/optimal): 4096 bytes / 4096 bytes\n\n\nDisk /dev/nvme1n1: 10 GiB, 10737418240 bytes, 20971520 sectors\nDisk model: Amazon Elastic Block Store              \nUnits: sectors of 1 * 512 = 512 bytes\nSector size (logical/physical): 512 bytes / 512 bytes\nI/O size (minimum/optimal): 4096 bytes / 4096 bytes",
+      "text": "[fedora@f40 ~]$ sudo fdisk -l\nDisk /dev/nvme0n1: 10 GiB, 10737418240 bytes, 20971520 sectors\nDisk model: Amazon Elastic Block Store              \nUnits: sectors of 1 * 512 = 512 bytes\nSector size (logical/physical): 512 bytes / 512 bytes\nI/O size (minimum/optimal): 4096 bytes / 4096 bytes\nDisklabel type: gpt\nDisk identifier: 9FB58ED7-7581-4469-BEB7-64F069151EAF\n\nDevice           Start      End  Sectors  Size Type\n/dev/nvme0n1p1    2048   206847   204800  100M EFI System\n/dev/nvme0n1p2  206848  2254847  2048000 1000M Linux extended boot\n/dev/nvme0n1p3 2254848 20971484 18716637  8.9G Linux root (ARM-64)\n\n\nDisk /dev/zram0: 1.78 GiB, 1909456896 bytes, 466176 sectors\nUnits: sectors of 1 * 4096 = 4096 bytes\nSector size (logical/physical): 4096 bytes / 4096 bytes\nI/O size (minimum/optimal): 4096 bytes / 4096 bytes\n\n\nDisk /dev/nvme1n1: 10 GiB, 10737418240 bytes, 20971520 sectors\nDisk model: Amazon Elastic Block Store              \nUnits: sectors of 1 * 512 = 512 bytes\nSector size (logical/physical): 512 bytes / 512 bytes\nI/O size (minimum/optimal): 4096 bytes / 4096 bytes",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "udev rules to the rescue",
+      "text": "udev rules to the rescue",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The amazon-ec2-utils package provides some helpful udev rules and scripts to make it easier to identify these devices. This package is on the way to Fedora as I write this post, but it hasn't reached the stable repos yet. Once it does, you should be able to install it:",
+      "text": "The amazon-ec2-utils package provides some helpful udev rules and scripts to make it easier to identify these devices. This package is on the way to Fedora as I write this post, but it hasn't reached the stable repos yet. Once it does, you should be able to install it:"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ sudo dnf install amazon-ec2-utils",
+      "text": "$ sudo dnf install amazon-ec2-utils",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "In the meantime, you can download the latest build and install it on your instance:",
+      "text": "In the meantime, you can download the latest build and install it on your instance:"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ sudo dnf install /usr/bin/koji\n$ koji download-build amazon-ec2-utils-2.2.0-2.fc40 \nDownloading [1/2]: amazon-ec2-utils-2.2.0-2.fc40.src.rpm\n[====================================] 100% 24.01 KiB / 24.01 KiB\nDownloading [2/2]: amazon-ec2-utils-2.2.0-2.fc40.noarch.rpm\n[====================================] 100% 20.53 KiB / 20.53 KiB\n$ sudo dnf install amazon-ec2-utils-2.2.0-2.fc40.noarch.rpm",
+      "text": "$ sudo dnf install /usr/bin/koji\n$ koji download-build amazon-ec2-utils-2.2.0-2.fc40 \nDownloading [1/2]: amazon-ec2-utils-2.2.0-2.fc40.src.rpm\n[====================================] 100% 24.01 KiB / 24.01 KiB\nDownloading [2/2]: amazon-ec2-utils-2.2.0-2.fc40.noarch.rpm\n[====================================] 100% 20.53 KiB / 20.53 KiB\n$ sudo dnf install amazon-ec2-utils-2.2.0-2.fc40.noarch.rpm",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The cleanest method to get these new udev rules working is to reboot, but if you're in a hurry, there's an option to reload these rules without a reboot:",
+      "text": "The cleanest method to get these new udev rules working is to reboot, but if you're in a hurry, there's an option to reload these rules without a reboot:"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ sudo udevadm control --reload-rules\n$ sudo udevadm trigger",
+      "text": "$ sudo udevadm control --reload-rules\n$ sudo udevadm trigger",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "What do we have in ",
+      "text": "What do we have in "
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/dev/",
+      "text": "/dev/",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " now?",
+      "text": " now?"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "[fedora@f40 ~]$ ls -al /dev/sd*\nlrwxrwxrwx. 1 root root 7 May  8 15:44 /dev/sda1 -> nvme0n1\nlrwxrwxrwx. 1 root root 9 May  8 15:44 /dev/sda11 -> nvme0n1p1\nlrwxrwxrwx. 1 root root 9 May  8 15:44 /dev/sda12 -> nvme0n1p2\nlrwxrwxrwx. 1 root root 9 May  8 15:44 /dev/sda13 -> nvme0n1p3\nlrwxrwxrwx. 1 root root 7 May  8 15:44 /dev/sde -> nvme1n1",
+      "text": "[fedora@f40 ~]$ ls -al /dev/sd*\nlrwxrwxrwx. 1 root root 7 May  8 15:44 /dev/sda1 -> nvme0n1\nlrwxrwxrwx. 1 root root 9 May  8 15:44 /dev/sda11 -> nvme0n1p1\nlrwxrwxrwx. 1 root root 9 May  8 15:44 /dev/sda12 -> nvme0n1p2\nlrwxrwxrwx. 1 root root 9 May  8 15:44 /dev/sda13 -> nvme0n1p3\nlrwxrwxrwx. 1 root root 7 May  8 15:44 /dev/sde -> nvme1n1",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "We can put a filesystem down on the new device using the same name as the API presents:",
+      "text": "We can put a filesystem down on the new device using the same name as the API presents:"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ sudo dnf install /usr/sbin/mkfs.btrfs\n$ sudo mkfs.btrfs /dev/sde\nbtrfs-progs v6.8.1\nSee https://btrfs.readthedocs.io for more information.\n\nPerforming full device TRIM /dev/sde (10.00GiB) ...\nNOTE: several default settings have changed in version 5.15, please make sure\n      this does not affect your deployments:\n      - DUP for metadata (-m dup)\n      - enabled no-holes (-O no-holes)\n      - enabled free-space-tree (-R free-space-tree)\n\nLabel:              (null)\nUUID:               c2fb9e33-3bf6-4b5b-aa80-44e315f499de\nNode size:          16384\nSector size:        4096\t(CPU page size: 4096)\nFilesystem size:    10.00GiB\nBlock group profiles:\n  Data:             single            8.00MiB\n  Metadata:         DUP             256.00MiB\n  System:           DUP               8.00MiB\nSSD detected:       yes\nZoned device:       no\nFeatures:           extref, skinny-metadata, no-holes, free-space-tree\nChecksum:           crc32c\nNumber of devices:  1\nDevices:\n   ID        SIZE  PATH    \n    1    10.00GiB  /dev/sde",
+      "text": "$ sudo dnf install /usr/sbin/mkfs.btrfs\n$ sudo mkfs.btrfs /dev/sde\nbtrfs-progs v6.8.1\nSee https://btrfs.readthedocs.io for more information.\n\nPerforming full device TRIM /dev/sde (10.00GiB) ...\nNOTE: several default settings have changed in version 5.15, please make sure\n      this does not affect your deployments:\n      - DUP for metadata (-m dup)\n      - enabled no-holes (-O no-holes)\n      - enabled free-space-tree (-R free-space-tree)\n\nLabel:              (null)\nUUID:               c2fb9e33-3bf6-4b5b-aa80-44e315f499de\nNode size:          16384\nSector size:        4096\t(CPU page size: 4096)\nFilesystem size:    10.00GiB\nBlock group profiles:\n  Data:             single            8.00MiB\n  Metadata:         DUP             256.00MiB\n  System:           DUP               8.00MiB\nSSD detected:       yes\nZoned device:       no\nFeatures:           extref, skinny-metadata, no-holes, free-space-tree\nChecksum:           crc32c\nNumber of devices:  1\nDevices:\n   ID        SIZE  PATH    \n    1    10.00GiB  /dev/sde",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Being able to know these device names during the instance launch or during storage operations makes it much easier to write automation for these devices. There's no guess work required to translate the device that an instance shows you to what you see via the API.",
+      "text": "Being able to know these device names during the instance launch or during storage operations makes it much easier to write automation for these devices. There's no guess work required to translate the device that an instance shows you to what you see via the API."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

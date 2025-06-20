@@ -1,0 +1,231 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 4709351627931614416,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2007/10/16/installing-package-groups-with-up2date/",
+      "text": "/2007/10/16/installing-package-groups-with-up2date/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "command line",
+      "text": "command line",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "red hat",
+      "text": "red hat",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "A few days ago, I began to install a group of packages with up2date, and the person next to me was surprised that up2date even had this functionality. I use it regularly, but I realized that many users might not be familiar with it.",
+      "text": "A few days ago, I began to install a group of packages with up2date, and the person next to me was surprised that up2date even had this functionality. I use it regularly, but I realized that many users might not be familiar with it."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "You can install package groups using an at-sign (@) in front of the group name:",
+      "text": "You can install package groups using an at-sign (@) in front of the group name:"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# up2date -i \"@X Window System\"",
+      "text": "# up2date -i \"@X Window System\"",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This will tell up2date to install all of the packages that are marked within the \"X Window System\" package group. That would include X drivers, the X libraries/binaries, and twm (among many other packages). If you're not sure which groups are available, just pass the ",
+      "text": "This will tell up2date to install all of the packages that are marked within the \"X Window System\" package group. That would include X drivers, the X libraries/binaries, and twm (among many other packages). If you're not sure which groups are available, just pass the "
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "--show-groups",
+      "text": "--show-groups",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " flag and review the list:",
+      "text": " flag and review the list:"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# up2date --show-groups\nAdministration Tools\nArabic Support\nAssamese Support\nAuthoring and Publishing\nBase\nBengali Support\nBrazilian Portuguese Support\nBritish Support\nBulgarian Support\nCatalan Support\nChinese Support\nCompatibility Arch Development Support\nCompatibility Arch Support\nCore\nCyrillic Support\nCzech Support\nDNS Name Server\nDanish Support\nDevelopment Libraries\nDevelopment Tools\nDialup Networking Support\nDutch Support\nEditors\nEmacs\nEngineering and Scientific\nEstonian Support\nFTP Server\nFinnish Support\nFrench Support\nGNOME\nGNOME Desktop Environment\nGNOME Software Development\nGames and Entertainment\nGerman Support\nGraphical Internet\nGraphics\nGreek Support\nGujarati Support\nHebrew Support\nHindi Support\nHungarian Support\nISO8859-2 Support\nISO8859-9 Support\nIcelandic Support\nItalian Support\nJapanese Support\nKDE\nKDE (K Desktop Environment)\nKDE Software Development\nKorean Support\nLegacy Network Server\nLegacy Software Development\nMail Server\nMiscellaneous Included Packages\nMySQL Database\nNetwork Servers\nNews Server\nNorwegian Support\nOffice/Productivity\nPolish Support\nPortuguese Support\nPostgreSQL Database\nPrinting Support\nPunjabi Support\nRomanian Support\nRuby\nRussian Support\nSerbian Support\nServer\nServer Configuration Tools\nSlovak Support\nSlovenian Support\nSound and Video\nSpanish Support\nSwedish Support\nSystem Tools\nTamil Support\nText-based Internet\nTurkish Support\nUkrainian Support\nWeb Server\nWelsh Support\nWindows File Server\nWorkstation Common\nX Software Development\nX Window System\nXEmacs",
+      "text": "# up2date --show-groups\nAdministration Tools\nArabic Support\nAssamese Support\nAuthoring and Publishing\nBase\nBengali Support\nBrazilian Portuguese Support\nBritish Support\nBulgarian Support\nCatalan Support\nChinese Support\nCompatibility Arch Development Support\nCompatibility Arch Support\nCore\nCyrillic Support\nCzech Support\nDNS Name Server\nDanish Support\nDevelopment Libraries\nDevelopment Tools\nDialup Networking Support\nDutch Support\nEditors\nEmacs\nEngineering and Scientific\nEstonian Support\nFTP Server\nFinnish Support\nFrench Support\nGNOME\nGNOME Desktop Environment\nGNOME Software Development\nGames and Entertainment\nGerman Support\nGraphical Internet\nGraphics\nGreek Support\nGujarati Support\nHebrew Support\nHindi Support\nHungarian Support\nISO8859-2 Support\nISO8859-9 Support\nIcelandic Support\nItalian Support\nJapanese Support\nKDE\nKDE (K Desktop Environment)\nKDE Software Development\nKorean Support\nLegacy Network Server\nLegacy Software Development\nMail Server\nMiscellaneous Included Packages\nMySQL Database\nNetwork Servers\nNews Server\nNorwegian Support\nOffice/Productivity\nPolish Support\nPortuguese Support\nPostgreSQL Database\nPrinting Support\nPunjabi Support\nRomanian Support\nRuby\nRussian Support\nSerbian Support\nServer\nServer Configuration Tools\nSlovak Support\nSlovenian Support\nSound and Video\nSpanish Support\nSwedish Support\nSystem Tools\nTamil Support\nText-based Internet\nTurkish Support\nUkrainian Support\nWeb Server\nWelsh Support\nWindows File Server\nWorkstation Common\nX Software Development\nX Window System\nXEmacs",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

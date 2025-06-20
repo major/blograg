@@ -1,0 +1,295 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 1977649330368900855,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aktt_notify_twitter:",
+      "text": "aktt_notify_twitter:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "false",
+      "text": "false",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2010/05/19/idiots-guide-to-oauth-logins-for-twitter/",
+      "text": "/2010/05/19/idiots-guide-to-oauth-logins-for-twitter/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "command line",
+      "text": "command line",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "oauth",
+      "text": "oauth",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ruby",
+      "text": "ruby",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "script",
+      "text": "script",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "twitter",
+      "text": "twitter",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "It certainly shouldn't be difficult, but I always have a tough time with  OAuth . Twitter is  dropping support for basic authentication  on  June 30th, 2010 . I have some automated Twitter bots that need an upgrade, so I've been working on a quick solution to generate tokens for my scripts.",
+      "text": "It certainly shouldn't be difficult, but I always have a tough time with  OAuth . Twitter is  dropping support for basic authentication  on  June 30th, 2010 . I have some automated Twitter bots that need an upgrade, so I've been working on a quick solution to generate tokens for my scripts."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I formulated a pretty simple script using  John Nunemaker's twitter gem  that will get it done manually for any scripts you have that read from or update Twitter:",
+      "text": "I formulated a pretty simple script using  John Nunemaker's twitter gem  that will get it done manually for any scripts you have that read from or update Twitter:"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "#!/usr/bin/ruby\nrequire 'rubygems'\nrequire 'twitter'\n\n# These credentials are specific to your *application* and not your *user*\n# Get these credentials from Twitter directly: http://twitter.com/apps\napplication_token = '[this should be the shorter one]'\napplication_secret = '[this should be the longer one]'\n\noauth = Twitter::OAuth.new(application_token,application_secret)\n\nrequest_token = oauth.request_token.token\nrequest_secret = oauth.request_token.secret\nputs \"Request token => #{request_token}\"\nputs \"Request secret => #{request_secret}\"\nputs \"Authentication URL => #{oauth.request_token.authorize_url}\"\n\nprint \"Provide the PIN that Twitter gave you here: \"\npin = gets.chomp\n\noauth.authorize_from_request(request_token,request_secret,pin)\naccess_token = oauth.access_token.token\naccess_secret = oauth.access_token.secret\nputs \"Access token => #{oauth.access_token.token}\"\nputs \"Access secret => #{oauth.access_token.secret}\"\n\noauth.authorize_from_access(access_token, access_secret)\ntwitter = Twitter::Base.new(oauth)\nputs twitter.friends_timeline(:count => 1)",
+      "text": "#!/usr/bin/ruby\nrequire 'rubygems'\nrequire 'twitter'\n\n# These credentials are specific to your *application* and not your *user*\n# Get these credentials from Twitter directly: http://twitter.com/apps\napplication_token = '[this should be the shorter one]'\napplication_secret = '[this should be the longer one]'\n\noauth = Twitter::OAuth.new(application_token,application_secret)\n\nrequest_token = oauth.request_token.token\nrequest_secret = oauth.request_token.secret\nputs \"Request token => #{request_token}\"\nputs \"Request secret => #{request_secret}\"\nputs \"Authentication URL => #{oauth.request_token.authorize_url}\"\n\nprint \"Provide the PIN that Twitter gave you here: \"\npin = gets.chomp\n\noauth.authorize_from_request(request_token,request_secret,pin)\naccess_token = oauth.access_token.token\naccess_secret = oauth.access_token.secret\nputs \"Access token => #{oauth.access_token.token}\"\nputs \"Access secret => #{oauth.access_token.secret}\"\n\noauth.authorize_from_access(access_token, access_secret)\ntwitter = Twitter::Base.new(oauth)\nputs twitter.friends_timeline(:count => 1)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "When you run the script, it will give you a request token, request secret and a URL to visit. When you access the URL, you'll be given a PIN. Type the PIN into the prompt and you'll get your access token and secret. This is what you can use to continue authenticating with Twitter, so be sure to save the access token and secret.",
+      "text": "When you run the script, it will give you a request token, request secret and a URL to visit. When you access the URL, you'll be given a PIN. Type the PIN into the prompt and you'll get your access token and secret. This is what you can use to continue authenticating with Twitter, so be sure to save the access token and secret."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "From then on, you should be able to login with a script like this:",
+      "text": "From then on, you should be able to login with a script like this:"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "#!/usr/bin/ruby\nrequire 'rubygems'\nrequire 'twitter'\n\napplication_token = '[this should be the shorter one]'\napplication_secret = '[this should be the longer one]'\n\noauth = Twitter::OAuth.new(application_token,application_secret)\n\noauth.authorize_from_access(access_token, access_secret)\ntwitter = Twitter::Base.new(oauth)\nputs twitter.friends_timeline(:count => 1)",
+      "text": "#!/usr/bin/ruby\nrequire 'rubygems'\nrequire 'twitter'\n\napplication_token = '[this should be the shorter one]'\napplication_secret = '[this should be the longer one]'\n\noauth = Twitter::OAuth.new(application_token,application_secret)\n\noauth.authorize_from_access(access_token, access_secret)\ntwitter = Twitter::Base.new(oauth)\nputs twitter.friends_timeline(:count => 1)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I hope this helps!",
+      "text": "I hope this helps!"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

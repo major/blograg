@@ -1,0 +1,672 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 4829471617927655322,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2021/07/18/tray-icons-in-i3/",
+      "text": "/2021/07/18/tray-icons-in-i3/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "i3",
+      "text": "i3",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "One of the first things I look for on a fresh installation of a laptop is how to enable tap-to-click automatically. Most window managers and desktop environments make this easy with a control panel that has toggles or drop-down menus.",
+      "text": "One of the first things I look for on a fresh installation of a laptop is how to enable tap-to-click automatically. Most window managers and desktop environments make this easy with a control panel that has toggles or drop-down menus."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "However, this requires a little more effort in i3. Fortunately, there are two routes to get it enabled: in xorg's configuration or via your i3 configuration.",
+      "text": "However, this requires a little more effort in i3. Fortunately, there are two routes to get it enabled: in xorg's configuration or via your i3 configuration."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Via the i3 configuration",
+      "text": "Via the i3 configuration",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The advantage of this method is that it's easy to configure and test out quickly. On the other hand, this configuration change will only affect i3 on your system. (Other window managers won't be affected.)",
+      "text": "The advantage of this method is that it's easy to configure and test out quickly. On the other hand, this configuration change will only affect i3 on your system. (Other window managers won't be affected.)"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Start with the ",
+      "text": "Start with the "
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "xinput",
+      "text": "xinput",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " command to determine which devices are on your system. If you're on Fedora, just run ",
+      "text": " command to determine which devices are on your system. If you're on Fedora, just run "
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "dnf install xinput",
+      "text": "dnf install xinput",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " to install it.",
+      "text": " to install it."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Here's the output on my Lenovo ThinkPad T490:",
+      "text": "Here's the output on my Lenovo ThinkPad T490:"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "\u279c xinput\n\u23a1 Virtual core pointer                    \tid=2\t[master pointer  (3)]\n\u239c   \u21b3 Virtual core XTEST pointer              \tid=4\t[slave  pointer  (2)]\n\u239c   \u21b3 SynPS/2 Synaptics TouchPad              \tid=12\t[slave  pointer  (2)]\n\u239c   \u21b3 TPPS/2 Elan TrackPoint                  \tid=13\t[slave  pointer  (2)]\n\u23a3 Virtual core keyboard                   \tid=3\t[master keyboard (2)]\n    \u21b3 Virtual core XTEST keyboard             \tid=5\t[slave  keyboard (3)]\n    \u21b3 Power Button                            \tid=6\t[slave  keyboard (3)]\n    \u21b3 Video Bus                               \tid=7\t[slave  keyboard (3)]\n    \u21b3 Sleep Button                            \tid=8\t[slave  keyboard (3)]\n    \u21b3 Integrated Camera: Integrated C         \tid=9\t[slave  keyboard (3)]\n    \u21b3 Integrated Camera: Integrated I         \tid=10\t[slave  keyboard (3)]\n    \u21b3 AT Translated Set 2 keyboard            \tid=11\t[slave  keyboard (3)]\n    \u21b3 ThinkPad Extra Buttons                  \tid=14\t[slave  keyboard (3)]",
+      "text": "\u279c xinput\n\u23a1 Virtual core pointer                    \tid=2\t[master pointer  (3)]\n\u239c   \u21b3 Virtual core XTEST pointer              \tid=4\t[slave  pointer  (2)]\n\u239c   \u21b3 SynPS/2 Synaptics TouchPad              \tid=12\t[slave  pointer  (2)]\n\u239c   \u21b3 TPPS/2 Elan TrackPoint                  \tid=13\t[slave  pointer  (2)]\n\u23a3 Virtual core keyboard                   \tid=3\t[master keyboard (2)]\n    \u21b3 Virtual core XTEST keyboard             \tid=5\t[slave  keyboard (3)]\n    \u21b3 Power Button                            \tid=6\t[slave  keyboard (3)]\n    \u21b3 Video Bus                               \tid=7\t[slave  keyboard (3)]\n    \u21b3 Sleep Button                            \tid=8\t[slave  keyboard (3)]\n    \u21b3 Integrated Camera: Integrated C         \tid=9\t[slave  keyboard (3)]\n    \u21b3 Integrated Camera: Integrated I         \tid=10\t[slave  keyboard (3)]\n    \u21b3 AT Translated Set 2 keyboard            \tid=11\t[slave  keyboard (3)]\n    \u21b3 ThinkPad Extra Buttons                  \tid=14\t[slave  keyboard (3)]",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "My touchpad is the second entry in the first group:  SynPS/2 Synaptics TouchPad . Now we can list all the properties of this device using the id number (12 in my case) or the full name:",
+      "text": "My touchpad is the second entry in the first group:  SynPS/2 Synaptics TouchPad . Now we can list all the properties of this device using the id number (12 in my case) or the full name:"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "\u279c xinput list-props \"SynPS/2 Synaptics TouchPad\"\nDevice 'SynPS/2 Synaptics TouchPad':\n\tDevice Enabled (187):\t1\n\tCoordinate Transformation Matrix (189):\t1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000\n\tlibinput Tapping Enabled (322):\t0\n\tlibinput Tapping Enabled Default (323):\t0\n\tlibinput Tapping Drag Enabled (324):\t1\n\tlibinput Tapping Drag Enabled Default (325):\t1\n\tlibinput Tapping Drag Lock Enabled (326):\t0\n\tlibinput Tapping Drag Lock Enabled Default (327):\t0\n\tlibinput Tapping Button Mapping Enabled (328):\t1, 0\n\tlibinput Tapping Button Mapping Default (329):\t1, 0\n\tlibinput Natural Scrolling Enabled (330):\t0\n\tlibinput Natural Scrolling Enabled Default (331):\t0\n\tlibinput Disable While Typing Enabled (332):\t1\n\tlibinput Disable While Typing Enabled Default (333):\t1\n\tlibinput Scroll Methods Available (334):\t1, 1, 0\n\tlibinput Scroll Method Enabled (335):\t1, 0, 0\n\tlibinput Scroll Method Enabled Default (336):\t1, 0, 0\n\tlibinput Click Methods Available (337):\t1, 1\n\tlibinput Click Method Enabled (338):\t1, 0\n\tlibinput Click Method Enabled Default (339):\t1, 0\n\tlibinput Middle Emulation Enabled (340):\t0\n\tlibinput Middle Emulation Enabled Default (341):\t0\n\tlibinput Accel Speed (342):\t0.000000\n\tlibinput Accel Speed Default (343):\t0.000000\n\tlibinput Accel Profiles Available (344):\t1, 1\n\tlibinput Accel Profile Enabled (345):\t1, 0\n\tlibinput Accel Profile Enabled Default (346):\t1, 0\n\tlibinput Left Handed Enabled (347):\t0\n\tlibinput Left Handed Enabled Default (348):\t0\n\tlibinput Send Events Modes Available (307):\t1, 1\n\tlibinput Send Events Mode Enabled (308):\t0, 0\n\tlibinput Send Events Mode Enabled Default (309):\t0, 0\n\tDevice Node (310):\t\"/dev/input/event4\"\n\tDevice Product ID (311):\t2, 7\n\tlibinput Drag Lock Buttons (349):\t<no items>\n\tlibinput Horizontal Scroll Enabled (350):\t1",
+      "text": "\u279c xinput list-props \"SynPS/2 Synaptics TouchPad\"\nDevice 'SynPS/2 Synaptics TouchPad':\n\tDevice Enabled (187):\t1\n\tCoordinate Transformation Matrix (189):\t1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000\n\tlibinput Tapping Enabled (322):\t0\n\tlibinput Tapping Enabled Default (323):\t0\n\tlibinput Tapping Drag Enabled (324):\t1\n\tlibinput Tapping Drag Enabled Default (325):\t1\n\tlibinput Tapping Drag Lock Enabled (326):\t0\n\tlibinput Tapping Drag Lock Enabled Default (327):\t0\n\tlibinput Tapping Button Mapping Enabled (328):\t1, 0\n\tlibinput Tapping Button Mapping Default (329):\t1, 0\n\tlibinput Natural Scrolling Enabled (330):\t0\n\tlibinput Natural Scrolling Enabled Default (331):\t0\n\tlibinput Disable While Typing Enabled (332):\t1\n\tlibinput Disable While Typing Enabled Default (333):\t1\n\tlibinput Scroll Methods Available (334):\t1, 1, 0\n\tlibinput Scroll Method Enabled (335):\t1, 0, 0\n\tlibinput Scroll Method Enabled Default (336):\t1, 0, 0\n\tlibinput Click Methods Available (337):\t1, 1\n\tlibinput Click Method Enabled (338):\t1, 0\n\tlibinput Click Method Enabled Default (339):\t1, 0\n\tlibinput Middle Emulation Enabled (340):\t0\n\tlibinput Middle Emulation Enabled Default (341):\t0\n\tlibinput Accel Speed (342):\t0.000000\n\tlibinput Accel Speed Default (343):\t0.000000\n\tlibinput Accel Profiles Available (344):\t1, 1\n\tlibinput Accel Profile Enabled (345):\t1, 0\n\tlibinput Accel Profile Enabled Default (346):\t1, 0\n\tlibinput Left Handed Enabled (347):\t0\n\tlibinput Left Handed Enabled Default (348):\t0\n\tlibinput Send Events Modes Available (307):\t1, 1\n\tlibinput Send Events Mode Enabled (308):\t0, 0\n\tlibinput Send Events Mode Enabled Default (309):\t0, 0\n\tDevice Node (310):\t\"/dev/input/event4\"\n\tDevice Product ID (311):\t2, 7\n\tlibinput Drag Lock Buttons (349):\t<no items>\n\tlibinput Horizontal Scroll Enabled (350):\t1",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The important line in the output is this one:",
+      "text": "The important line in the output is this one:"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "libinput Tapping Enabled (322):\t0",
+      "text": "libinput Tapping Enabled (322):\t0",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Let's turn on tap-to-click for the touchpad:",
+      "text": "Let's turn on tap-to-click for the touchpad:"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "xinput set-prop \"SynPS/2 Synaptics TouchPad\" \"libinput Tapping Enabled\" 1",
+      "text": "xinput set-prop \"SynPS/2 Synaptics TouchPad\" \"libinput Tapping Enabled\" 1",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Your tap-to-click should now work! If it doesn't, go back to the list of input devices and double check that there isn't another touchpad. Some laptops show multiple touchpads even though there's only one in the system. This is due to extra buttons being labeled as a touchpad on some laptops.",
+      "text": "Your tap-to-click should now work! If it doesn't, go back to the list of input devices and double check that there isn't another touchpad. Some laptops show multiple touchpads even though there's only one in the system. This is due to extra buttons being labeled as a touchpad on some laptops."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Let's make it permanent in the i3 configuration. Open up ",
+      "text": "Let's make it permanent in the i3 configuration. Open up "
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "~/.config/i3/config",
+      "text": "~/.config/i3/config",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "and add a line:",
+      "text": "and add a line:"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "exec xinput set-prop \"SynPS/2 Synaptics TouchPad\" \"libinput Tapping Enabled\" 1",
+      "text": "exec xinput set-prop \"SynPS/2 Synaptics TouchPad\" \"libinput Tapping Enabled\" 1",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "You're all set!",
+      "text": "You're all set!"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Via the xorg configuration method",
+      "text": "Via the xorg configuration method",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This method affects all window managers on your machine, so keep that in mind. Make a new file at ",
+      "text": "This method affects all window managers on your machine, so keep that in mind. Make a new file at "
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/etc/X11/xorg.conf.d/touchpad-tap.conf",
+      "text": "/etc/X11/xorg.conf.d/touchpad-tap.conf",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " and add the following:",
+      "text": " and add the following:"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "Section \"InputClass\"\n        Identifier \"libinput touchpad catchall\"\n        MatchIsTouchpad \"on\"\n        MatchDevicePath \"/dev/input/event*\"\n        Driver \"libinput\"\n        Option \"Tapping\" \"on\"\nEndSection",
+      "text": "Section \"InputClass\"\n        Identifier \"libinput touchpad catchall\"\n        MatchIsTouchpad \"on\"\n        MatchDevicePath \"/dev/input/event*\"\n        Driver \"libinput\"\n        Option \"Tapping\" \"on\"\nEndSection",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "We're telling xorg to apply this configuration to any libinput touchpad on the system (but you could use the specific name of the device here if you want), and we're enabling the tapping option.",
+      "text": "We're telling xorg to apply this configuration to any libinput touchpad on the system (but you could use the specific name of the device here if you want), and we're enabling the tapping option."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "You can make this change effective immediately with:",
+      "text": "You can make this change effective immediately with:"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "xinput set-prop \"SynPS/2 Synaptics TouchPad\" \"libinput Tapping Enabled\" 1",
+      "text": "xinput set-prop \"SynPS/2 Synaptics TouchPad\" \"libinput Tapping Enabled\" 1",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The xorg configuration change takes effect when you log out of your X session or you reboot your computer.",
+      "text": "The xorg configuration change takes effect when you log out of your X session or you reboot your computer."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Photo credit:  pine watt on Unsplash",
+      "text": "Photo credit:  pine watt on Unsplash"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

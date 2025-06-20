@@ -1,0 +1,318 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 3139004716984048660,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2014/03/06/virt-manager-nonetype-object-has-no-attribute-cpus/",
+      "text": "/2014/03/06/virt-manager-nonetype-object-has-no-attribute-cpus/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "python",
+      "text": "python",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "rpm",
+      "text": "rpm",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "virt-manager",
+      "text": "virt-manager",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "virtualization",
+      "text": "virtualization",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "xen",
+      "text": "xen",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "After upgrading my Fedora 20 Xen hypervisor to virt-manager 1.0.0, I noticed that I couldn't open the console or VM details for any of my guests. Running ",
+      "text": "After upgrading my Fedora 20 Xen hypervisor to virt-manager 1.0.0, I noticed that I couldn't open the console or VM details for any of my guests. Running "
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "virt-manager --debug",
+      "text": "virt-manager --debug",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " gave me the following traceback:",
+      "text": " gave me the following traceback:"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "Traceback (most recent call last):\n  File \"/usr/share/virt-manager/virtManager/engine.py\", line 803, in _show_vm_helper\n    details = self._get_details_dialog(uri, uuid)\n  File \"/usr/share/virt-manager/virtManager/engine.py\", line 760, in _get_details_dialog\n    obj = vmmDetails(con.get_vm(uuid))\n  File \"/usr/share/virt-manager/virtManager/details.py\", line 530, in __init__\n    self.init_details()\n  File \"/usr/share/virt-manager/virtManager/details.py\", line 990, in init_details\n    for name in [c.model for c in cpu_values.cpus]:\nAttributeError: 'NoneType' object has no attribute 'cpus'\n[Tue, 04 Mar 2014 22:13:31 virt-manager 21019] DEBUG (error:84) error dialog message:\nsummary=Error launching details: 'NoneType' object has no attribute 'cpus'\ndetails=Error launching details: 'NoneType' object has no attribute 'cpus'",
+      "text": "Traceback (most recent call last):\n  File \"/usr/share/virt-manager/virtManager/engine.py\", line 803, in _show_vm_helper\n    details = self._get_details_dialog(uri, uuid)\n  File \"/usr/share/virt-manager/virtManager/engine.py\", line 760, in _get_details_dialog\n    obj = vmmDetails(con.get_vm(uuid))\n  File \"/usr/share/virt-manager/virtManager/details.py\", line 530, in __init__\n    self.init_details()\n  File \"/usr/share/virt-manager/virtManager/details.py\", line 990, in init_details\n    for name in [c.model for c in cpu_values.cpus]:\nAttributeError: 'NoneType' object has no attribute 'cpus'\n[Tue, 04 Mar 2014 22:13:31 virt-manager 21019] DEBUG (error:84) error dialog message:\nsummary=Error launching details: 'NoneType' object has no attribute 'cpus'\ndetails=Error launching details: 'NoneType' object has no attribute 'cpus'",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I  opened a bug report  and the fix was  committed upstream  today. If you want to make these updates to your Fedora 20 server before the update package is available, just snag the  three RPM's from koji  and install them:",
+      "text": "I  opened a bug report  and the fix was  committed upstream  today. If you want to make these updates to your Fedora 20 server before the update package is available, just snag the  three RPM's from koji  and install them:"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "mkdir /tmp/virt-manager\ncd /tmp/virt-manager\nwget http://kojipkgs.fedoraproject.org/packages/virt-manager/1.0.0/4.fc20/noarch/virt-install-1.0.0-4.fc20.noarch.rpm\nwget http://kojipkgs.fedoraproject.org/packages/virt-manager/1.0.0/4.fc20/noarch/virt-manager-1.0.0-4.fc20.noarch.rpm\nwget http://kojipkgs.fedoraproject.org/packages/virt-manager/1.0.0/4.fc20/noarch/virt-manager-common-1.0.0-4.fc20.noarch.rpm\nyum localinstall *.rpm",
+      "text": "mkdir /tmp/virt-manager\ncd /tmp/virt-manager\nwget http://kojipkgs.fedoraproject.org/packages/virt-manager/1.0.0/4.fc20/noarch/virt-install-1.0.0-4.fc20.noarch.rpm\nwget http://kojipkgs.fedoraproject.org/packages/virt-manager/1.0.0/4.fc20/noarch/virt-manager-1.0.0-4.fc20.noarch.rpm\nwget http://kojipkgs.fedoraproject.org/packages/virt-manager/1.0.0/4.fc20/noarch/virt-manager-common-1.0.0-4.fc20.noarch.rpm\nyum localinstall *.rpm",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "UPDATE:  Thanks to Cole's comment below, you can actually pull in the RPM's using koji directly:",
+      "text": "UPDATE:  Thanks to Cole's comment below, you can actually pull in the RPM's using koji directly:"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "koji download-build virt-manager-1.0.0-4.fc20",
+      "text": "koji download-build virt-manager-1.0.0-4.fc20",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

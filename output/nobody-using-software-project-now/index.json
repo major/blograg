@@ -1,0 +1,562 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 16447017113003162012,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2016/01/15/nobody-using-software-project-now/",
+      "text": "/2016/01/15/nobody-using-software-project-now/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "development",
+      "text": "development",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "advice",
+      "text": "advice",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "python",
+      "text": "python",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Working with open source software is an amazing experience. The collaborative process around creation, refinement, and even maintenance, drives more developers to work on open source software more often. However, every developer finds themselves writing code that very few people  actually use .",
+      "text": "Working with open source software is an amazing experience. The collaborative process around creation, refinement, and even maintenance, drives more developers to work on open source software more often. However, every developer finds themselves writing code that very few people  actually use ."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "For some developers, this can be really bothersome. You offer your code up to the world only to find that the world is much less interested than you expected. We see projects that fit the  \"build it, and they will come\"  methodology all the time, but it can hurt when our projects don't have the same impact.",
+      "text": "For some developers, this can be really bothersome. You offer your code up to the world only to find that the world is much less interested than you expected. We see projects that fit the  \"build it, and they will come\"  methodology all the time, but it can hurt when our projects don't have the same impact."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Start by asking yourself a question:",
+      "text": "Start by asking yourself a question:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Does it matter?",
+      "text": "Does it matter?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Many of us write software that has a very limited audience. Perhaps we wrote something that worked around a temporary problem or solved an issue that very few poeple would see. Sometimes we write software to work with a project that doesn't have a large user base.",
+      "text": "Many of us write software that has a very limited audience. Perhaps we wrote something that worked around a temporary problem or solved an issue that very few poeple would see. Sometimes we write software to work with a project that doesn't have a large user base."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "In these situations, it often doesn't matter if other contributors don't show up to collaborate.",
+      "text": "In these situations, it often doesn't matter if other contributors don't show up to collaborate."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "However, if you're eager to build a community around an open source project, here are some tips that have worked well for me.",
+      "text": "However, if you're eager to build a community around an open source project, here are some tips that have worked well for me."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Make it approachable",
+      "text": "Make it approachable",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Sites like  StackOverflow  became immensely popular over time because they provide simple, approachable solutions that normally come with a small amount of explanation. Not all of the code snippets are examples of high quality software development, but that's not the point here. People can search, review something, and get on their way.",
+      "text": "Sites like  StackOverflow  became immensely popular over time because they provide simple, approachable solutions that normally come with a small amount of explanation. Not all of the code snippets are examples of high quality software development, but that's not the point here. People can search, review something, and get on their way."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Making software more approachable is completely based on your audience. Complicated software, like the  cryptography  Python library, has an approach towards experienced software developers who want a robust method for handling cryptographic operations. Compare that to the  requests  Python library. The developers on that project have an audience of Python developers of all skill levels and they lead off with a simple example and very approachable documentation.",
+      "text": "Making software more approachable is completely based on your audience. Complicated software, like the  cryptography  Python library, has an approach towards experienced software developers who want a robust method for handling cryptographic operations. Compare that to the  requests  Python library. The developers on that project have an audience of Python developers of all skill levels and they lead off with a simple example and very approachable documentation."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Both of those approaches are very different but extremely effective to their respective audiences.",
+      "text": "Both of those approaches are very different but extremely effective to their respective audiences."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Once you know your audience, make these changes to make your software more approachable to them:",
+      "text": "Once you know your audience, make these changes to make your software more approachable to them:"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children=\"Describe your project's sweet spot.\">]",
+      "text": "[<RawText children=\"Describe your project's sweet spot.\">]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='What does your project not do well?'>]",
+      "text": "[<RawText children='What does your project not do well?'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='How do developers get started?'>]",
+      "text": "[<RawText children='How do developers get started?'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='How do you want to receive improvements?'>]",
+      "text": "[<RawText children='How do you want to receive improvements?'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If you haven't figured it out already,  documentation is required . Projects without documentation are quickly skipped over by most developers for a good reason: if you haven't taken the time to help people understand how to use your project, why should they take the time to understand it themselves. Projects without documentation are often assumed to be less mature and not production-ready.",
+      "text": "If you haven't figured it out already,  documentation is required . Projects without documentation are quickly skipped over by most developers for a good reason: if you haven't taken the time to help people understand how to use your project, why should they take the time to understand it themselves. Projects without documentation are often assumed to be less mature and not production-ready."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Once you make it this far, it's time to  charge your extrovert battery  and promote it.",
+      "text": "Once you make it this far, it's time to  charge your extrovert battery  and promote it."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Promoting the project",
+      "text": "Promoting the project",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Some of the best-written software projects with the best documentation often find themselves limited by the fact that nobody knows they exist. This can become a challenging problem to solve because it involves actively reaching out to the audience you've identified in the previous steps.",
+      "text": "Some of the best-written software projects with the best documentation often find themselves limited by the fact that nobody knows they exist. This can become a challenging problem to solve because it involves actively reaching out to the audience you've identified in the previous steps."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The first step is to do some writing about your software project and what problems it tries to solve. The type of writing and the medium for sharing it is completely up to you.",
+      "text": "The first step is to do some writing about your software project and what problems it tries to solve. The type of writing and the medium for sharing it is completely up to you."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Some people prefer  writing blog posts  on their own blog. You may be able to get additional readers by publishing it on external sites, such as  Medium , or as a guest author on another site. For example,  opensource.com  invites guest authors to write about various software projects or solutions provided by open source software. If your project is closely affiliated with another large software project, you may be able to publish a post as a guest author on their project site.",
+      "text": "Some people prefer  writing blog posts  on their own blog. You may be able to get additional readers by publishing it on external sites, such as  Medium , or as a guest author on another site. For example,  opensource.com  invites guest authors to write about various software projects or solutions provided by open source software. If your project is closely affiliated with another large software project, you may be able to publish a post as a guest author on their project site."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Social media can be helpful if it's used wisely with the right audience. Your followers must be able to get some value from whatever you link them to in your social media posts. Steer clear of clickbait-type posts and be genuine. If you want to build a community, your integrity is your most important asset.",
+      "text": "Social media can be helpful if it's used wisely with the right audience. Your followers must be able to get some value from whatever you link them to in your social media posts. Steer clear of clickbait-type posts and be genuine. If you want to build a community, your integrity is your most important asset."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Technical talks",
+      "text": "Technical talks",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The most effective method for sharing a project is to do it in person. Yes, this means giving a technical talk to an audience. That means standing in front of people. It's the kind of thing that make an introvert pause. However, if you care about your project, you can  tame that technical talk  and make a great connection with your audience.",
+      "text": "The most effective method for sharing a project is to do it in person. Yes, this means giving a technical talk to an audience. That means standing in front of people. It's the kind of thing that make an introvert pause. However, if you care about your project, you can  tame that technical talk  and make a great connection with your audience."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The return on investment in technical talks often takes the form of a  decrescendo . Feedback flows in quickly as soon as the talk is over and gradually decreases over time. The rate of decrease largely depends on the impact you make on your audience. A high-impact, emotionally appealing presentation will yield a long tail of feedback that decreases very slowly. Your project might appear in presentations made by other people and you'll often get additional feedback and involvement from those talks as well.",
+      "text": "The return on investment in technical talks often takes the form of a  decrescendo . Feedback flows in quickly as soon as the talk is over and gradually decreases over time. The rate of decrease largely depends on the impact you make on your audience. A high-impact, emotionally appealing presentation will yield a long tail of feedback that decreases very slowly. Your project might appear in presentations made by other people and you'll often get additional feedback and involvement from those talks as well."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Photo Credit:  Wanaku  via  Compfight   cc",
+      "text": "Photo Credit:  Wanaku  via  Compfight   cc"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

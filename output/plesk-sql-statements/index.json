@@ -1,0 +1,282 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 7910202425514839279,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2007/04/27/plesk-sql-statements/",
+      "text": "/2007/04/27/plesk-sql-statements/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "plesk",
+      "text": "plesk",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "When you need to find information about anything in Plesk, here's some SQL statements that you can use:",
+      "text": "When you need to find information about anything in Plesk, here's some SQL statements that you can use:"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Start out with:",
+      "text": "Start out with:"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# mysql -u admin -p`cat /etc/psa/.psa.shadow`\nmysql> use psa;",
+      "text": "# mysql -u admin -p`cat /etc/psa/.psa.shadow`\nmysql> use psa;",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Find all e-mail passwords:",
+      "text": "Find all e-mail passwords:"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "select concat_ws('@',mail.mail_name,domains.name),accounts.password from domains,mail,accounts where domains.id=mail.dom_id and accounts.id=mail.account_id order by domains.name ASC,mail.mail_name ASC;",
+      "text": "select concat_ws('@',mail.mail_name,domains.name),accounts.password from domains,mail,accounts where domains.id=mail.dom_id and accounts.id=mail.account_id order by domains.name ASC,mail.mail_name ASC;",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Find e-mail passwords made out of only letters:",
+      "text": "Find e-mail passwords made out of only letters:"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "select concat_ws('@',mail.mail_name,domains.name),accounts.password from domains,mail,accounts where domains.id=mail.dom_id and accounts.id=mail.account_id and accounts.password rlike binary '^[a-z]+$';",
+      "text": "select concat_ws('@',mail.mail_name,domains.name),accounts.password from domains,mail,accounts where domains.id=mail.dom_id and accounts.id=mail.account_id and accounts.password rlike binary '^[a-z]+$';",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Find e-mail passwords made out of only numbers:",
+      "text": "Find e-mail passwords made out of only numbers:"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "select concat_ws('@',mail.mail_name,domains.name),accounts.password from domains,mail,accounts where domains.id=mail.dom_id and accounts.id=mail.account_id and accounts.password rlike '^[0-9]+$';",
+      "text": "select concat_ws('@',mail.mail_name,domains.name),accounts.password from domains,mail,accounts where domains.id=mail.dom_id and accounts.id=mail.account_id and accounts.password rlike '^[0-9]+$';",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Find which domains aren't bouncing/rejecting e-mails to unknown recipients:",
+      "text": "Find which domains aren't bouncing/rejecting e-mails to unknown recipients:"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "select d.name as domain, p.value as catchall_address from Parameters p, DomainServices ds, domains d where d.id = ds.dom_id and ds.parameters_id = p.id and p.parameter = 'catch_addr' order by d.name",
+      "text": "select d.name as domain, p.value as catchall_address from Parameters p, DomainServices ds, domains d where d.id = ds.dom_id and ds.parameters_id = p.id and p.parameter = 'catch_addr' order by d.name",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

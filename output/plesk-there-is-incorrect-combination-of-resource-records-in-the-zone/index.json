@@ -1,0 +1,289 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 11400728068661202090,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2007/10/02/plesk-there-is-incorrect-combination-of-resource-records-in-the-zone/",
+      "text": "/2007/10/02/plesk-there-is-incorrect-combination-of-resource-records-in-the-zone/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "plesk",
+      "text": "plesk",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Yet another weird Plesk error with terrible grammar popped up on a server that I worked with this week:",
+      "text": "Yet another weird Plesk error with terrible grammar popped up on a server that I worked with this week:"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "Error: There is incorrect combination of resource records in the zone",
+      "text": "Error: There is incorrect combination of resource records in the zone",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "As you can see, this error is not terribly informative. Here's a little background on what I was doing before this alert appeared:",
+      "text": "As you can see, this error is not terribly informative. Here's a little background on what I was doing before this alert appeared:"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "On Plesk 8.1.1, I needed to create an alias for a certain domain. Each time I'd try to create the alias, I'd receive the above error. I could even try junk domains like 'test.com' and it would still fail with the error. I went to a different domain on the server, tried to add an alias there, and it failed as well. So, I went back to analyze the error further.",
+      "text": "On Plesk 8.1.1, I needed to create an alias for a certain domain. Each time I'd try to create the alias, I'd receive the above error. I could even try junk domains like 'test.com' and it would still fail with the error. I went to a different domain on the server, tried to add an alias there, and it failed as well. So, I went back to analyze the error further."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The only thing that tipped me off was the  zone  word, and I immediately began thinking of DNS. I checked the DNS configuration for a few of the domains, and they appeared to be pretty standard. There weren't any wild DNS records, and there were no problems with the named configuration nor the zone files themselves. I crawled through the dns_recs table in the psa database, and everything appears to be normal.",
+      "text": "The only thing that tipped me off was the  zone  word, and I immediately began thinking of DNS. I checked the DNS configuration for a few of the domains, and they appeared to be pretty standard. There weren't any wild DNS records, and there were no problems with the named configuration nor the zone files themselves. I crawled through the dns_recs table in the psa database, and everything appears to be normal."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I admitted defeat and escalated the issue to SWSoft to get their help. The answer came back, and I was dumbfounded.",
+      "text": "I admitted defeat and escalated the issue to SWSoft to get their help. The answer came back, and I was dumbfounded."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Apparently this record was present in the DNS configuration for all of the sites on the server:",
+      "text": "Apparently this record was present in the DNS configuration for all of the sites on the server:"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "mail.domain.com. CNAME domain.com.",
+      "text": "mail.domain.com. CNAME domain.com.",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This DNS record prevented Plesk from making an alias.  Just  this DNS record. In short, Plesk was unable to make the alias because of this lonely CNAME. The SWSoft developers claimed that it is an 'old-style' notation and that it 'should not be used'. However, during upgrades from 7.x to 8.x, they never thought it'd be a good idea to check for this record and fix it accordingly.",
+      "text": "This DNS record prevented Plesk from making an alias.  Just  this DNS record. In short, Plesk was unable to make the alias because of this lonely CNAME. The SWSoft developers claimed that it is an 'old-style' notation and that it 'should not be used'. However, during upgrades from 7.x to 8.x, they never thought it'd be a good idea to check for this record and fix it accordingly."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Basically, the SWSoft developers recommended changing the DNS record manually for each domain to something like this:",
+      "text": "Basically, the SWSoft developers recommended changing the DNS record manually for each domain to something like this:"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "mail.domain.com. A 111.222.333.444",
+      "text": "mail.domain.com. A 111.222.333.444",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I did that, and it worked flawlessly. Even though this fixes the issue, I still think that they should have considered this issue during the upgrade routines.",
+      "text": "I did that, and it worked flawlessly. Even though this fixes the issue, I still think that they should have considered this issue during the upgrade routines."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

@@ -1,0 +1,382 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 15694936897376533463,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2014/05/20/switching-to-systemd-on-debian-jessie/",
+      "text": "/2014/05/20/switching-to-systemd-on-debian-jessie/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "command line",
+      "text": "command line",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "debian",
+      "text": "debian",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "sysadmin",
+      "text": "sysadmin",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "systemd",
+      "text": "systemd",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "It seems like everyone is embracing systemd these days. It's been in Fedora since 2011 and it's already in the RHEL 7 release candidate. Arch Linux and Gentoo have it as well. Debian got on board with the jessie release (which is currently in testing).",
+      "text": "It seems like everyone is embracing systemd these days. It's been in Fedora since 2011 and it's already in the RHEL 7 release candidate. Arch Linux and Gentoo have it as well. Debian got on board with the jessie release (which is currently in testing)."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Switching from old SysVinit to systemd in Debian jessie is quite simple. For the extremely cautious system administrators, you can  follow Debian's guide and test systemd  before you make the full cutover.",
+      "text": "Switching from old SysVinit to systemd in Debian jessie is quite simple. For the extremely cautious system administrators, you can  follow Debian's guide and test systemd  before you make the full cutover."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "However, I've had great results with making the jump in one pass:",
+      "text": "However, I've had great results with making the jump in one pass:"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "apt-get update\napt-get install systemd systemd-sysv\nreboot",
+      "text": "apt-get update\napt-get install systemd systemd-sysv\nreboot",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "After you reboot, you might notice ",
+      "text": "After you reboot, you might notice "
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/sbin/init",
+      "text": "/sbin/init",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " still hanging out in your process list:",
+      "text": " still hanging out in your process list:"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# ps aufx | grep init\nroot         1  0.0  0.1  45808  3820 ?        Ss   08:16   0:00 /sbin/init",
+      "text": "# ps aufx | grep init\nroot         1  0.0  0.1  45808  3820 ?        Ss   08:16   0:00 /sbin/init",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "That's actually a symlink to systemd:",
+      "text": "That's actually a symlink to systemd:"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# ls -al /sbin/init\nlrwxrwxrwx 1 root root 20 Mar 19 13:15 /sbin/init -> /lib/systemd/systemd",
+      "text": "# ls -al /sbin/init\nlrwxrwxrwx 1 root root 20 Mar 19 13:15 /sbin/init -> /lib/systemd/systemd",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "You also have journald for quick access to logs:",
+      "text": "You also have journald for quick access to logs:"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# journalctl -u cron\n-- Logs begin at Tue 2014-05-20 08:16:21 CDT, end at Tue 2014-05-20 08:31:20 CDT. --\nMay 20 08:16:24 jessie-auditd-2 /usr/sbin/cron[837]: (CRON) INFO (pidfile fd = 3)\nMay 20 08:16:24 jessie-auditd-2 cron[774]: Starting periodic command scheduler: cron.\nMay 20 08:16:24 jessie-auditd-2 systemd[1]: Started LSB: Regular background program processing daemon.\nMay 20 08:16:24 jessie-auditd-2 /usr/sbin/cron[842]: (CRON) STARTUP (fork ok)\nMay 20 08:16:24 jessie-auditd-2 /usr/sbin/cron[842]: (CRON) INFO (Running @reboot jobs)\nMay 20 08:17:01 jessie-auditd-2 CRON[990]: pam_unix(cron:session): session opened for user root by (uid=0)\nMay 20 08:17:01 jessie-auditd-2 /USR/SBIN/CRON[991]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)",
+      "text": "# journalctl -u cron\n-- Logs begin at Tue 2014-05-20 08:16:21 CDT, end at Tue 2014-05-20 08:31:20 CDT. --\nMay 20 08:16:24 jessie-auditd-2 /usr/sbin/cron[837]: (CRON) INFO (pidfile fd = 3)\nMay 20 08:16:24 jessie-auditd-2 cron[774]: Starting periodic command scheduler: cron.\nMay 20 08:16:24 jessie-auditd-2 systemd[1]: Started LSB: Regular background program processing daemon.\nMay 20 08:16:24 jessie-auditd-2 /usr/sbin/cron[842]: (CRON) STARTUP (fork ok)\nMay 20 08:16:24 jessie-auditd-2 /usr/sbin/cron[842]: (CRON) INFO (Running @reboot jobs)\nMay 20 08:17:01 jessie-auditd-2 CRON[990]: pam_unix(cron:session): session opened for user root by (uid=0)\nMay 20 08:17:01 jessie-auditd-2 /USR/SBIN/CRON[991]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

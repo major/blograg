@@ -1,0 +1,611 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 1836843938927114900,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2017/01/15/systemd-networkd-on-ubuntu-16-04-lts-xenial/",
+      "text": "/2017/01/15/systemd-networkd-on-ubuntu-16-04-lts-xenial/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "networking",
+      "text": "networking",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "openstack",
+      "text": "openstack",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "systemd",
+      "text": "systemd",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "systemd-networkd",
+      "text": "systemd-networkd",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ubuntu",
+      "text": "ubuntu",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "My OpenStack cloud depends on Ubuntu, and the latest release of OpenStack-Ansible (what I use to deploy OpenStack) requires Ubuntu 16.04 at a minimum. I tried upgrading the servers in place from Ubuntu 14.04 to 16.04, but that didn't work so well. Those servers wouldn't boot and the only recourse was a re-install.",
+      "text": "My OpenStack cloud depends on Ubuntu, and the latest release of OpenStack-Ansible (what I use to deploy OpenStack) requires Ubuntu 16.04 at a minimum. I tried upgrading the servers in place from Ubuntu 14.04 to 16.04, but that didn't work so well. Those servers wouldn't boot and the only recourse was a re-install."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Once I finished re-installing them (and wrestling with several installer bugs in Ubuntu 16.04), it was time to set up networking. The traditional network configurations in ",
+      "text": "Once I finished re-installing them (and wrestling with several installer bugs in Ubuntu 16.04), it was time to set up networking. The traditional network configurations in "
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/etc/network/interfaces",
+      "text": "/etc/network/interfaces",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " are fine, but they weren't working the same way they were in 14.04. The VLAN configuration syntax appears to be different now.",
+      "text": " are fine, but they weren't working the same way they were in 14.04. The VLAN configuration syntax appears to be different now."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "But wait - 16.04 has systemd 229! I can use systemd-networkd to configure the network in a way that is a lot more familiar to me. I've made posts about systemd-networkd before and the simplicity in the configurations.",
+      "text": "But wait - 16.04 has systemd 229! I can use systemd-networkd to configure the network in a way that is a lot more familiar to me. I've made posts about systemd-networkd before and the simplicity in the configurations."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I started with some simple configurations:",
+      "text": "I started with some simple configurations:"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "root@hydrogen:~# cd /etc/systemd/network\nroot@hydrogen:/etc/systemd/network# cat enp3s0.network\n[Match]\nName=enp3s0\n\n[Network]\nVLAN=vlan10\nroot@hydrogen:/etc/systemd/network# cat vlan10.netdev\n[NetDev]\nName=vlan10\nKind=vlan\n\n[VLAN]\nId=10\nroot@hydrogen:/etc/systemd/network# cat vlan10.network\n[Match]\nName=vlan10\n\n[Network]\nBridge=br-mgmt\nroot@hydrogen:/etc/systemd/network# cat br-mgmt.netdev\n[NetDev]\nName=br-mgmt\nKind=bridge\nroot@hydrogen:/etc/systemd/network# cat br-mgmt.network\n[Match]\nName=br-mgmt\n\n[Network]\nAddress=172.29.236.21/22",
+      "text": "root@hydrogen:~# cd /etc/systemd/network\nroot@hydrogen:/etc/systemd/network# cat enp3s0.network\n[Match]\nName=enp3s0\n\n[Network]\nVLAN=vlan10\nroot@hydrogen:/etc/systemd/network# cat vlan10.netdev\n[NetDev]\nName=vlan10\nKind=vlan\n\n[VLAN]\nId=10\nroot@hydrogen:/etc/systemd/network# cat vlan10.network\n[Match]\nName=vlan10\n\n[Network]\nBridge=br-mgmt\nroot@hydrogen:/etc/systemd/network# cat br-mgmt.netdev\n[NetDev]\nName=br-mgmt\nKind=bridge\nroot@hydrogen:/etc/systemd/network# cat br-mgmt.network\n[Match]\nName=br-mgmt\n\n[Network]\nAddress=172.29.236.21/22",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Here's a summary of the configurations:",
+      "text": "Here's a summary of the configurations:"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Physical network interface is ",
+      "text": "Physical network interface is ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "VLAN 10 is trunked down from a switch to that interface",
+      "text": "VLAN 10 is trunked down from a switch to that interface",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Bridge ",
+      "text": "Bridge ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Once that was done, I restarted systemd-networkd to put the change into effect:",
+      "text": "Once that was done, I restarted systemd-networkd to put the change into effect:"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# systemctl restart systemd-networkd",
+      "text": "# systemctl restart systemd-networkd",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Great! Let's check our work:",
+      "text": "Great! Let's check our work:"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "root@hydrogen:~# brctl show\nbridge name bridge id       STP enabled interfaces\nbr-mgmt     8000.0a30a9a949d9   no\nroot@hydrogen:~# networkctl\nIDX LINK             TYPE               OPERATIONAL SETUP\n  1 lo               loopback           carrier     unmanaged\n  2 enp2s0           ether              routable    configured\n  3 enp3s0           ether              degraded    configured\n  4 enp4s0           ether              off         unmanaged\n  5 enp5s0           ether              off         unmanaged\n  6 br-mgmt          ether              no-carrier  configuring\n  7 vlan10           ether              degraded    unmanaged\n\n7 links listed.",
+      "text": "root@hydrogen:~# brctl show\nbridge name bridge id       STP enabled interfaces\nbr-mgmt     8000.0a30a9a949d9   no\nroot@hydrogen:~# networkctl\nIDX LINK             TYPE               OPERATIONAL SETUP\n  1 lo               loopback           carrier     unmanaged\n  2 enp2s0           ether              routable    configured\n  3 enp3s0           ether              degraded    configured\n  4 enp4s0           ether              off         unmanaged\n  5 enp5s0           ether              off         unmanaged\n  6 br-mgmt          ether              no-carrier  configuring\n  7 vlan10           ether              degraded    unmanaged\n\n7 links listed.",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "So the bridge has no interfaces and it's in a ",
+      "text": "So the bridge has no interfaces and it's in a "
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "no-carrier",
+      "text": "no-carrier",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " status. Why? Let's check the journal:",
+      "text": " status. Why? Let's check the journal:"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# journalctl --boot -u systemd-networkd\nJan 15 09:16:46 hydrogen systemd[1]: Started Network Service.\nJan 15 09:16:46 hydrogen systemd-networkd[1903]: br-mgmt: netdev exists, using existing without changing its parameters\nJan 15 09:16:46 hydrogen systemd-networkd[1903]: br-mgmt: Could not append VLANs: Operation not permitted\nJan 15 09:16:46 hydrogen systemd-networkd[1903]: br-mgmt: Failed to assign VLANs to bridge port: Operation not permitted\nJan 15 09:16:46 hydrogen systemd-networkd[1903]: br-mgmt: Could not set bridge vlan: Operation not permitted\nJan 15 09:16:59 hydrogen systemd-networkd[1903]: enp3s0: Configured\nJan 15 09:16:59 hydrogen systemd-networkd[1903]: enp2s0: Configured",
+      "text": "# journalctl --boot -u systemd-networkd\nJan 15 09:16:46 hydrogen systemd[1]: Started Network Service.\nJan 15 09:16:46 hydrogen systemd-networkd[1903]: br-mgmt: netdev exists, using existing without changing its parameters\nJan 15 09:16:46 hydrogen systemd-networkd[1903]: br-mgmt: Could not append VLANs: Operation not permitted\nJan 15 09:16:46 hydrogen systemd-networkd[1903]: br-mgmt: Failed to assign VLANs to bridge port: Operation not permitted\nJan 15 09:16:46 hydrogen systemd-networkd[1903]: br-mgmt: Could not set bridge vlan: Operation not permitted\nJan 15 09:16:59 hydrogen systemd-networkd[1903]: enp3s0: Configured\nJan 15 09:16:59 hydrogen systemd-networkd[1903]: enp2s0: Configured",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The ",
+      "text": "The "
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "Could not append VLANs: Operation not permitted",
+      "text": "Could not append VLANs: Operation not permitted",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " error is puzzling. After some searching on Google, I found a  thread from Lennart :",
+      "text": " error is puzzling. After some searching on Google, I found a  thread from Lennart :"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "After an upgrade, systemd-networkd is broken, exactly the way descibed\n> in this issue #3876[0]\n\nPlease upgrade to 231, where this should be fixed.\n\nLennart",
+      "text": "After an upgrade, systemd-networkd is broken, exactly the way descibed\n> in this issue #3876[0]\n\nPlease upgrade to 231, where this should be fixed.\n\nLennart",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "But Ubuntu 16.04 has systemd 229:",
+      "text": "But Ubuntu 16.04 has systemd 229:"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# dpkg -l | grep systemd\nii  libpam-systemd:amd64                229-4ubuntu13                      amd64        system and service manager - PAM module\nii  libsystemd0:amd64                   229-4ubuntu13                      amd64        systemd utility library\nii  python3-systemd                     231-2build1                        amd64        Python 3 bindings for systemd\nii  systemd                             229-4ubuntu13                      amd64        system and service manager\nii  systemd-sysv                        229-4ubuntu13                      amd64        system and service manager - SysV links",
+      "text": "# dpkg -l | grep systemd\nii  libpam-systemd:amd64                229-4ubuntu13                      amd64        system and service manager - PAM module\nii  libsystemd0:amd64                   229-4ubuntu13                      amd64        systemd utility library\nii  python3-systemd                     231-2build1                        amd64        Python 3 bindings for systemd\nii  systemd                             229-4ubuntu13                      amd64        system and service manager\nii  systemd-sysv                        229-4ubuntu13                      amd64        system and service manager - SysV links",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I haven't found a solution for this quite yet. Keep an eye on this post and I'll update it once I know more!",
+      "text": "I haven't found a solution for this quite yet. Keep an eye on this post and I'll update it once I know more!"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

@@ -1,0 +1,195 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 18076615285006706855,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2008/09/19/compress-your-web-content-for-better-performance/",
+      "text": "/2008/09/19/compress-your-web-content-for-better-performance/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "apache",
+      "text": "apache",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "development",
+      "text": "development",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "web",
+      "text": "web",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Most web developers expend a lot of energy optimizing queries, reducing the overhead of functions, and streamlining their application's overall flow. However, many forget that one of the simplest adjustments is the compression of data as it leaves the web server.",
+      "text": "Most web developers expend a lot of energy optimizing queries, reducing the overhead of functions, and streamlining their application's overall flow. However, many forget that one of the simplest adjustments is the compression of data as it leaves the web server."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Luckily,  mod_deflate  makes this easy, and the Apache documentation has a  handy initial configuration  available:",
+      "text": "Luckily,  mod_deflate  makes this easy, and the Apache documentation has a  handy initial configuration  available:"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "<Location />\n  SetOutputFilter DEFLATE\n  BrowserMatch ^Mozilla/4 gzip-only-text/html\n  BrowserMatch ^Mozilla/4\\.0[678] no-gzip\n  BrowserMatch \\bMSI[E] !no-gzip !gzip-only-text/html\n  SetEnvIfNoCase Request_URI \\.(?:gif|jpe?g|png)$ no-gzip dont-vary\n  Header append Vary User-Agent env=!dont-vary\n</Location>",
+      "text": "<Location />\n  SetOutputFilter DEFLATE\n  BrowserMatch ^Mozilla/4 gzip-only-text/html\n  BrowserMatch ^Mozilla/4\\.0[678] no-gzip\n  BrowserMatch \\bMSI[E] !no-gzip !gzip-only-text/html\n  SetEnvIfNoCase Request_URI \\.(?:gif|jpe?g|png)$ no-gzip dont-vary\n  Header append Vary User-Agent env=!dont-vary\n</Location>",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This configuration will compress everything except for images. Of course, you can't test this with curl, but you can test it with Firefox and  LiveHTTPHeaders . If you don't have Firefox handy, you can try a very handy  web application  that will give you the statistics about the compression of your site's data.",
+      "text": "This configuration will compress everything except for images. Of course, you can't test this with curl, but you can test it with Firefox and  LiveHTTPHeaders . If you don't have Firefox handy, you can try a very handy  web application  that will give you the statistics about the compression of your site's data."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

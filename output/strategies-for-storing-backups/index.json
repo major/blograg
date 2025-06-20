@@ -1,0 +1,326 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 5431567790308932134,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2011/01/09/strategies-for-storing-backups/",
+      "text": "/2011/01/09/strategies-for-storing-backups/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "emergency",
+      "text": "emergency",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "advice",
+      "text": "advice",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "sysadmin",
+      "text": "sysadmin",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Although it's not a glamorous subject for system administrators, backups are necessary for any production environment. Those who run their systems without backups generally learn from their errors in a very painful way. However, the way you store your backups may sometimes prove to be just as vital as the methods you use to backup your data.",
+      "text": "Although it's not a glamorous subject for system administrators, backups are necessary for any production environment. Those who run their systems without backups generally learn from their errors in a very painful way. However, the way you store your backups may sometimes prove to be just as vital as the methods you use to backup your data."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "For my environments, I follow a strategy like this: I have some backups immediately accessible, others that are accessible very quickly (but not instantly), and others that are offsite and may take a bit more time to access.",
+      "text": "For my environments, I follow a strategy like this: I have some backups immediately accessible, others that are accessible very quickly (but not instantly), and others that are offsite and may take a bit more time to access."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Immediately accessible backups",
+      "text": "Immediately accessible backups"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "One of the easiest way to have an immediately accessible backup is to have multiple machines online running the same versions of code or databases in a high availability group. If you have a node which fails, the remaining nodes should be able to handle the requests immediately. You may not consider this to be a backup under the traditional definition of what a backup should be, but it's functionally similar.",
+      "text": "One of the easiest way to have an immediately accessible backup is to have multiple machines online running the same versions of code or databases in a high availability group. If you have a node which fails, the remaining nodes should be able to handle the requests immediately. You may not consider this to be a backup under the traditional definition of what a backup should be, but it's functionally similar."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Backups that are accessible quickly",
+      "text": "Backups that are accessible quickly"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This second level of backups should be stored very close to your environment or within the environment itself. If you have multiple database and web server nodes, you could consider storing your web backups on the database servers and vice versa. For those who run very sensitive applications, this may violate the provisions of different certifications and regulations. A server dedicated to holding backups may be a viable alternative for additional security.",
+      "text": "This second level of backups should be stored very close to your environment or within the environment itself. If you have multiple database and web server nodes, you could consider storing your web backups on the database servers and vice versa. For those who run very sensitive applications, this may violate the provisions of different certifications and regulations. A server dedicated to holding backups may be a viable alternative for additional security."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Offsite backup storage",
+      "text": "Offsite backup storage"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "These are the backups that need to be geographically distant from your main environment. Also, you should always consider storing these backups on more than one medium with more than one company.",
+      "text": "These are the backups that need to be geographically distant from your main environment. Also, you should always consider storing these backups on more than one medium with more than one company."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "For example, if your hosting providers offers a storage service, it's fine to store one set of your backups there, but consider storing them with a competitor as well. If you store your backups with your hosting provider in multiple places, you could be caught be a provider issue and lose access to your backups entirely. Hosting with multiple providers will allow you to access at least one copy of your backups even if there are billing or technical issues with a particular provider.",
+      "text": "For example, if your hosting providers offers a storage service, it's fine to store one set of your backups there, but consider storing them with a competitor as well. If you store your backups with your hosting provider in multiple places, you could be caught be a provider issue and lose access to your backups entirely. Hosting with multiple providers will allow you to access at least one copy of your backups even if there are billing or technical issues with a particular provider."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Another thing to keep in mind with offsite backup storage is how long it will take to transfer the backups to your hosting environment in case of an emergency. If your hosting environment is in Texas, but your backups are stored in Australia, you're going to have a longer wait when you transfer your data back.",
+      "text": "Another thing to keep in mind with offsite backup storage is how long it will take to transfer the backups to your hosting environment in case of an emergency. If your hosting environment is in Texas, but your backups are stored in Australia, you're going to have a longer wait when you transfer your data back."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "A specific example",
+      "text": "A specific example"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "My environments are all in Dallas, Texas and I have a highly available environment with multiple instances. My second layer of backups are stored within the environment as well as in Rackspace's Cloud Files in Dallas. My third layer of backups are stored with Amazon S3 via Jungle Disk and at my home on a RAID array.",
+      "text": "My environments are all in Dallas, Texas and I have a highly available environment with multiple instances. My second layer of backups are stored within the environment as well as in Rackspace's Cloud Files in Dallas. My third layer of backups are stored with Amazon S3 via Jungle Disk and at my home on a RAID array."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "While I hope you never need to access your backups under duress, these tips should help to reduce your stress if you need to restore data in a hurry.",
+      "text": "While I hope you never need to access your backups under duress, these tips should help to reduce your stress if you need to restore data in a hurry."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

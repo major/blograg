@@ -1,0 +1,245 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 8672866718735156763,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/groups/1"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2007/03/29/451-could-not-complete-sender-verify-callout/",
+      "text": "/2007/03/29/451-could-not-complete-sender-verify-callout/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "mail",
+      "text": "mail",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This is one of Exim's more cryptic errors:",
+      "text": "This is one of Exim's more cryptic errors:"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "Mar 29 11:22:52 114075-web1 postfix/smtp[20589]: 9E0142FC589: to=<orders@somehost.com>, relay=somehost.com[11.11.11.11], delay=147966, status=deferred (host somehost.com[11.11.11.11] said: 451 Could not complete sender verify callout (in reply to RCPT TO command))",
+      "text": "Mar 29 11:22:52 114075-web1 postfix/smtp[20589]: 9E0142FC589: to=<orders@somehost.com>, relay=somehost.com[11.11.11.11], delay=147966, status=deferred (host somehost.com[11.11.11.11] said: 451 Could not complete sender verify callout (in reply to RCPT TO command))",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "When you send e-mail to an Exim server with a sender verify callout enabled, the Exim server will connect back into your server and verify that your server accepts mail for the sender's e-mail address. For example, if you send e-mail from orders@somehost.com, the Exim server will connect back into your server and do this:",
+      "text": "When you send e-mail to an Exim server with a sender verify callout enabled, the Exim server will connect back into your server and verify that your server accepts mail for the sender's e-mail address. For example, if you send e-mail from orders@somehost.com, the Exim server will connect back into your server and do this:"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "HELO someotherhost.com\n250 somehost.com\nMAIL FROM: test@someotherhost.com\n250 2.1.0 Ok\nRCPT TO: orders@somehost.com\n250 2.1.5 Ok",
+      "text": "HELO someotherhost.com\n250 somehost.com\nMAIL FROM: test@someotherhost.com\n250 2.1.0 Ok\nRCPT TO: orders@somehost.com\n250 2.1.5 Ok",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Exim will make sure that it gets a 250 success code before it will allow the e-mail to come into its server. Some situations that cause problems with this process are:",
+      "text": "Exim will make sure that it gets a 250 success code before it will allow the e-mail to come into its server. Some situations that cause problems with this process are:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Port 25 is blocked inbound on the sender's server",
+      "text": "Port 25 is blocked inbound on the sender's server",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Something else is filtering port 25 inbound on the sender's server",
+      "text": "Something else is filtering port 25 inbound on the sender's server",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "The sender's server uses blacklists which delay the responses to Exim's commands",
+      "text": "The sender's server uses blacklists which delay the responses to Exim's commands",
+      "enumerated": false,
+      "marker": "-"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

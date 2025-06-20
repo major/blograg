@@ -1,0 +1,191 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 16418863113478273637,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2017/03/10/reflecting-on-10-years-of-mostly-technical-blogging/",
+      "text": "/2017/03/10/reflecting-on-10-years-of-mostly-technical-blogging/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "blog",
+      "text": "blog",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "rackspace",
+      "text": "rackspace",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "wordpress",
+      "text": "wordpress",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "It all started shortly after I joined Rackspace in December of 2006. I needed a place to dump the huge amounts of information I was learning as an entry-level Linux support technician and I wanted to store everything in a place where it could be easily shared. The blog was born!",
+      "text": "It all started shortly after I joined Rackspace in December of 2006. I needed a place to dump the huge amounts of information I was learning as an entry-level Linux support technician and I wanted to store everything in a place where it could be easily shared. The blog was born!"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The blog now has over 700 posts on topics ranging from Linux system administration to job interview preparation. I'll get an email or a tweet once every few weeks from someone saying: \"I ran into a problem, Googled for it, and found your blog!\" Comments like that keep me going and allow me to push through the deepest writer's block moments.",
+      "text": "The blog now has over 700 posts on topics ranging from Linux system administration to job interview preparation. I'll get an email or a tweet once every few weeks from someone saying: \"I ran into a problem, Googled for it, and found your blog!\" Comments like that keep me going and allow me to push through the deepest writer's block moments."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The post titled \" Why technical people should blog (but don't) \" is one of my favorites and I get a lot of feedback about it. Many people still feel like there's no audience out there for the things they write. Just remember that someone, somewhere, can learn something from you and from your experiences. Write from the heart about what interests you and the readers will gradually appear. It's a  Field of Dreams  moment.",
+      "text": "The post titled \" Why technical people should blog (but don't) \" is one of my favorites and I get a lot of feedback about it. Many people still feel like there's no audience out there for the things they write. Just remember that someone, somewhere, can learn something from you and from your experiences. Write from the heart about what interests you and the readers will gradually appear. It's a  Field of Dreams  moment."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Thanks to everyone who has given me support over the years to keep the writing going!",
+      "text": "Thanks to everyone who has given me support over the years to keep the writing going!"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

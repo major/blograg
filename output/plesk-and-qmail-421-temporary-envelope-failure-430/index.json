@@ -1,0 +1,278 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 10827260055038170271,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2007/12/04/plesk-and-qmail-421-temporary-envelope-failure-430/",
+      "text": "/2007/12/04/plesk-and-qmail-421-temporary-envelope-failure-430/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "mail",
+      "text": "mail",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "plesk",
+      "text": "plesk",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "qmail",
+      "text": "qmail",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I stumbled upon a server running Plesk 8.2.1 where a certain user could not receive e-mail. I sent an e-mail to the user from my mail client, and I never saw it enter the user's mailbox. It didn't even appear in the logs.",
+      "text": "I stumbled upon a server running Plesk 8.2.1 where a certain user could not receive e-mail. I sent an e-mail to the user from my mail client, and I never saw it enter the user's mailbox. It didn't even appear in the logs."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "After checking the usual suspects, like MX records, mail account configuration, and firewalls, I was unable to find out why it was occurring. Even after a run of ",
+      "text": "After checking the usual suspects, like MX records, mail account configuration, and firewalls, I was unable to find out why it was occurring. Even after a run of "
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "mchk",
+      "text": "mchk",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": ", the emails would not be delivered.",
+      "text": ", the emails would not be delivered."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I began testing with a telnet connection to the SMTP port:",
+      "text": "I began testing with a telnet connection to the SMTP port:"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ telnet 11.22.33.44 25\nTrying 11.22.33.44...\nConnected to 11.22.33.44.\nEscape character is '^]'.\n220 www.yourserver.com ESMTP\nHELO domain.com\n250 www.yourserver.com\nMAIL FROM: test@test.com\n250 ok\nRCPT TO: someuser@somedomain.com\n421 temporary envelope failure (#4.3.0)\nQUIT\n221 www.yourserver.com\nConnection closed by foreign host.",
+      "text": "$ telnet 11.22.33.44 25\nTrying 11.22.33.44...\nConnected to 11.22.33.44.\nEscape character is '^]'.\n220 www.yourserver.com ESMTP\nHELO domain.com\n250 www.yourserver.com\nMAIL FROM: test@test.com\n250 ok\nRCPT TO: someuser@somedomain.com\n421 temporary envelope failure (#4.3.0)\nQUIT\n221 www.yourserver.com\nConnection closed by foreign host.",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Temporary envelope failure? I was still confused. After reviewing the logs, I found the following line whenever I tried to telnet to port 25 and send an e-mail:",
+      "text": "Temporary envelope failure? I was still confused. After reviewing the logs, I found the following line whenever I tried to telnet to port 25 and send an e-mail:"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "Dec  2 00:15:49 www relaylock: /var/qmail/bin/relaylock: mail from 44.33.22.11:17249 (yourdesktop.com)",
+      "text": "Dec  2 00:15:49 www relaylock: /var/qmail/bin/relaylock: mail from 44.33.22.11:17249 (yourdesktop.com)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "It turns out that the customer was using greylisting in qmail with qmail-envelope-scanner. After a quick check of /tmp/greylist_dbg.txt, I found the entries from me (as well as a lot of other senders), and that ended up being the root of the problem.",
+      "text": "It turns out that the customer was using greylisting in qmail with qmail-envelope-scanner. After a quick check of /tmp/greylist_dbg.txt, I found the entries from me (as well as a lot of other senders), and that ended up being the root of the problem."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

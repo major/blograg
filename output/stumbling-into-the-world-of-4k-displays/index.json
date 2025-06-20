@@ -1,0 +1,373 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/html",
+    "binary_hash": 6281105616479814112,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2015/06/30/stumbling-into-the-world-of-4k-displays/",
+      "text": "/2015/06/30/stumbling-into-the-world-of-4k-displays/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "kernel",
+      "text": "kernel",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "1",
+      "text": "1"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Woot  suckered me into buying a 4K display  at a fairly decent price and now I have a  Samsung U28D590D  sitting on my desk at home. I ordered a mini-DisplayPort to DisplayPort from Amazon and it arrived just before the monitor hit my doorstep. It's time to enter the world of 4K displays.",
+      "text": "Woot  suckered me into buying a 4K display  at a fairly decent price and now I have a  Samsung U28D590D  sitting on my desk at home. I ordered a mini-DisplayPort to DisplayPort from Amazon and it arrived just before the monitor hit my doorstep. It's time to enter the world of 4K displays."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "The unboxing of the monitor was fairly uneventful and it powered up after small amount of assembly. I plugged my mini-DP to DP cable into the monitor and then into my X1 Carbon 3rd gen. After a bunch of flickering, the display sprang to life but the image looked fuzzy. After some hunting, I found that the resolution wasn't at the monitor's maximum:",
+      "text": "The unboxing of the monitor was fairly uneventful and it powered up after small amount of assembly. I plugged my mini-DP to DP cable into the monitor and then into my X1 Carbon 3rd gen. After a bunch of flickering, the display sprang to life but the image looked fuzzy. After some hunting, I found that the resolution wasn't at the monitor's maximum:"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ xrandr -q\nDP1 connected 2560x1440+2560+0 (normal left inverted right x axis y axis) 607mm x 345mm\n   2560x1440     59.95*+\n   1920x1080     60.00    59.94\n   1680x1050     59.95\n   1600x900      59.98",
+      "text": "$ xrandr -q\nDP1 connected 2560x1440+2560+0 (normal left inverted right x axis y axis) 607mm x 345mm\n   2560x1440     59.95*+\n   1920x1080     60.00    59.94\n   1680x1050     59.95\n   1600x900      59.98",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "I bought this thing because it does 3840&#215;2160. How confusing. After searching through the monitor settings, I found an option for \"DisplayPort version\". It was set to version 1.1 but version 1.2 was available. I selected version 1.2 (which appears to come with something called HBR2) and then the display flickered for 5-10 seconds. There was no image on the display.",
+      "text": "I bought this thing because it does 3840&#215;2160. How confusing. After searching through the monitor settings, I found an option for \"DisplayPort version\". It was set to version 1.1 but version 1.2 was available. I selected version 1.2 (which appears to come with something called HBR2) and then the display flickered for 5-10 seconds. There was no image on the display."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "I adjusted GNOME's Display settings back down to 2560&#215;1440. The display sprang back to life, but it was fuzzy again. I pushed the settings back up to 3840&#215;2160. The flickering came back and the monitor went to sleep.",
+      "text": "I adjusted GNOME's Display settings back down to 2560&#215;1440. The display sprang back to life, but it was fuzzy again. I pushed the settings back up to 3840&#215;2160. The flickering came back and the monitor went to sleep."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "My laptop has an HDMI port and I gave that a try. I had a 3840&#215;2160 display up immediately! Hooray! But wait - that resolution runs at 30Hz over  HDMI 1.4 . HDMI 2.0 promises faster refresh rates but neither my laptop or the display support it. After trying to use the display at max resolution with a 30Hz refresh rate, I realized that it wasn't going to work.",
+      "text": "My laptop has an HDMI port and I gave that a try. I had a 3840&#215;2160 display up immediately! Hooray! But wait - that resolution runs at 30Hz over  HDMI 1.4 . HDMI 2.0 promises faster refresh rates but neither my laptop or the display support it. After trying to use the display at max resolution with a 30Hz refresh rate, I realized that it wasn't going to work."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "The adventure went on and I joined #intel-gfx on Freenode. This is apparently a common problem with many onboard graphics chips as many of them cannot support a 4K display at 60Hz. It turns out that the i5-5300U (that's a Broadwell)  can do it .",
+      "text": "The adventure went on and I joined #intel-gfx on Freenode. This is apparently a common problem with many onboard graphics chips as many of them cannot support a 4K display at 60Hz. It turns out that the i5-5300U (that's a Broadwell)  can do it ."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "One of the knowledgeable folks in the channel  suggested a new modeline . That had no effect. The monitor flickered and went back to sleep as it did before.",
+      "text": "One of the knowledgeable folks in the channel  suggested a new modeline . That had no effect. The monitor flickered and went back to sleep as it did before."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "I picked up some education on the  difference between SST and MST displays . MST displays essentially have two chips handling half of the display within the monitor. Both of those do the work to drive the entire display. SST monitors (the newer variety, like the one I bought) take a single stream and one single chip in the monitor figures out how to display the content.",
+      "text": "I picked up some education on the  difference between SST and MST displays . MST displays essentially have two chips handling half of the display within the monitor. Both of those do the work to drive the entire display. SST monitors (the newer variety, like the one I bought) take a single stream and one single chip in the monitor figures out how to display the content."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "At this point, I'm stuck with a non-working display at 4K resolution over DisplayPort. I can get lower resolutions working via DisplayPort, but that's not ideal. 4K works over HDMI, but only at 30Hz. Again, not ideal. I'll do my best to update this post as I come up with some other ideas.",
+      "text": "At this point, I'm stuck with a non-working display at 4K resolution over DisplayPort. I can get lower resolutions working via DisplayPort, but that's not ideal. 4K works over HDMI, but only at 30Hz. Again, not ideal. I'll do my best to update this post as I come up with some other ideas."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "UPDATE 2015-07-01:  Thanks to Sandro Mathys for spotting a potential fix:",
+      "text": "UPDATE 2015-07-01:  Thanks to Sandro Mathys for spotting a potential fix:"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "@majorhayden Uh, did you update your BIOS? \"Supported the 60Hz refresh rate of 4K (3840 x 2160) resolution monitor.\" http://t.co/NbnktzZMgj",
+      "text": "@majorhayden Uh, did you update your BIOS? \"Supported the 60Hz refresh rate of 4K (3840 x 2160) resolution monitor.\" http://t.co/NbnktzZMgj"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u2014 Sandro Mathys (@red_trela) July 1, 2015",
+      "text": "\u2014 Sandro Mathys (@red_trela) July 1, 2015"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "I  found BIOS 1.08 waiting for me  on Lenovo's site. One of the last items fixed in the release notes was:",
+      "text": "I  found BIOS 1.08 waiting for me  on Lenovo's site. One of the last items fixed in the release notes was:"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "(New) Supported the 60Hz refresh rate of 4K (3840 x 2160) resolution monitor.",
+      "text": "(New) Supported the 60Hz refresh rate of 4K (3840 x 2160) resolution monitor."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "After a quick flash of a USB stick and a reboot to update the BIOS, the monitor sprang to life after logging into GNOME. It looks amazing! The graphics performance is still not amazing (but hey, this is Broadwell graphics we're talking about) but it does 3840&#215;2160 at 60Hz without a hiccup. I tried unplugging and replugging the DisplayPort cable several times and it never flickered.",
+      "text": "After a quick flash of a USB stick and a reboot to update the BIOS, the monitor sprang to life after logging into GNOME. It looks amazing! The graphics performance is still not amazing (but hey, this is Broadwell graphics we're talking about) but it does 3840&#215;2160 at 60Hz without a hiccup. I tried unplugging and replugging the DisplayPort cable several times and it never flickered."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

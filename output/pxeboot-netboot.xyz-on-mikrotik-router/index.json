@@ -1,0 +1,983 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 2759209232660576997,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2022/09/02/pxe-boot-netboot.xyz-on-a-mikrotik-router/",
+      "text": "/2022/09/02/pxe-boot-netboot.xyz-on-a-mikrotik-router/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "mikrotik",
+      "text": "mikrotik",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "networking",
+      "text": "networking",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "pxe",
+      "text": "pxe",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The first RFCs for  PXE , or preboot execution environment, showed up in June 1981 and it's still a popular tool today. It enables computers to boot up and download some software that runs early in the boot process.",
+      "text": "The first RFCs for  PXE , or preboot execution environment, showed up in June 1981 and it's still a popular tool today. It enables computers to boot up and download some software that runs early in the boot process."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Although PXE has been with us for ages, it's still extremely relevant today:",
+      "text": "Although PXE has been with us for ages, it's still extremely relevant today:"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='Provisioning:'>]",
+      "text": "[<RawText children='Provisioning:'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='Rescue:'>]",
+      "text": "[<RawText children='Rescue:'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='Validation:'>]",
+      "text": "[<RawText children='Validation:'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='Ephemeral OS:'>]",
+      "text": "[<RawText children='Ephemeral OS:'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "A good friend of mine started a project to take PXE booting to the next level.",
+      "text": "A good friend of mine started a project to take PXE booting to the next level."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Enter netboot.xyz",
+      "text": "Enter netboot.xyz"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Most of the PXE deployments I've used in the past were restricted to a company's internal network for specfic uses. These deployments often served as a provisioning method.",
+      "text": "Most of the PXE deployments I've used in the past were restricted to a company's internal network for specfic uses. These deployments often served as a provisioning method."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Although the actual mechanisms for booting machines via PXE are not difficult, writing the backend scripts and creating keyboard-friendly menus is challenging. One of my favorite people on the planet,  Ant Messerli , started the  netboot.xyz  project several years ago.",
+      "text": "Although the actual mechanisms for booting machines via PXE are not difficult, writing the backend scripts and creating keyboard-friendly menus is challenging. One of my favorite people on the planet,  Ant Messerli , started the  netboot.xyz  project several years ago."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "What does netboot.xyz do for you? For one, you don't need to write your own menu scripts. All you do is PXE boot and use the menus already available on the site. You can even add your own in  netboot.xyz's GitHub repository",
+      "text": "What does netboot.xyz do for you? For one, you don't need to write your own menu scripts. All you do is PXE boot and use the menus already available on the site. You can even add your own in  netboot.xyz's GitHub repository"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The site relies on  ipxe , an open source boot firmware. There's no need to compile your own ipxe binary. netboot.xyz offers  pre-built ipxe binaries  that already connect you to netboot.xyz on the first boot!",
+      "text": "The site relies on  ipxe , an open source boot firmware. There's no need to compile your own ipxe binary. netboot.xyz offers  pre-built ipxe binaries  that already connect you to netboot.xyz on the first boot!"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Here's what you'll see from netboot.xyz on your first boot:",
+      "text": "Here's what you'll see from netboot.xyz on your first boot:"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Animation of selecting menu items from netboot.xyz",
+      "text": "Animation of selecting menu items from netboot.xyz"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "PXE ingredients",
+      "text": "PXE ingredients"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Now that netboot.xyz did the hard part, what's left? A PXE environment requires a few items:",
+      "text": "Now that netboot.xyz did the hard part, what's left? A PXE environment requires a few items:"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "DHCP server",
+      "text": "DHCP server",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "TFTP server",
+      "text": "TFTP server",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The DHCP server normally tells the machine about its IP address, gateway, DNS servers and more. However, we need it to provide two extra pieces of information:",
+      "text": "The DHCP server normally tells the machine about its IP address, gateway, DNS servers and more. However, we need it to provide two extra pieces of information:"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "The server running a TFTP daemon",
+      "text": "The server running a TFTP daemon",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "The filename to request",
+      "text": "The filename to request",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The boot process for a machine on your network will go something like this:",
+      "text": "The boot process for a machine on your network will go something like this:"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Machine makes a DHCP request",
+      "text": "Machine makes a DHCP request",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Your DHCP server replies with the usual IP information plus a server IP and filename for the PXE software",
+      "text": "Your DHCP server replies with the usual IP information plus a server IP and filename for the PXE software",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Machine sets its IP, gateway, netmask, and DNS",
+      "text": "Machine sets its IP, gateway, netmask, and DNS",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Machine downloads the PXE software from the server provided by the DHCP server",
+      "text": "Machine downloads the PXE software from the server provided by the DHCP server",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "PXE software runs on the machine",
+      "text": "PXE software runs on the machine",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Mikrotik PXE configuration",
+      "text": "Mikrotik PXE configuration"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Let's update the DHCP server configuration first. Log into your Mikrotik router via ssh and add configuration to your DHCP server's network configuration",
+      "text": "Let's update the DHCP server configuration first. Log into your Mikrotik router via ssh and add configuration to your DHCP server's network configuration"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "[major@hexs] > /ip/dhcp-server/\n[major@hexs] /ip/dhcp-server> \n[major@hexs] /ip/dhcp-server/network> print\nColumns: ADDRESS, GATEWAY, DNS-SERVER\n# ADDRESS          GATEWAY       DNS-SERVER  \n0 192.168.10.0/24  192.168.10.1  192.168.10.1\n[major@hexs] /ip/dhcp-server/network> set next-server=192.168.10.1 boot-file-name=pxeboot numbers=0",
+      "text": "[major@hexs] > /ip/dhcp-server/\n[major@hexs] /ip/dhcp-server> \n[major@hexs] /ip/dhcp-server/network> print\nColumns: ADDRESS, GATEWAY, DNS-SERVER\n# ADDRESS          GATEWAY       DNS-SERVER  \n0 192.168.10.0/24  192.168.10.1  192.168.10.1\n[major@hexs] /ip/dhcp-server/network> set next-server=192.168.10.1 boot-file-name=pxeboot numbers=0",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Great. Now our DHCP server will tell new machines where to find their PXE image. Now we need to get our PXE boot image. Most of my machines support UEFI, so I use the  UEFI DHCP image . Upload the image to the mikrotik however you prefer. I normally use FTP or the web interface.",
+      "text": "Great. Now our DHCP server will tell new machines where to find their PXE image. Now we need to get our PXE boot image. Most of my machines support UEFI, so I use the  UEFI DHCP image . Upload the image to the mikrotik however you prefer. I normally use FTP or the web interface."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "My PXE image is stored on the Mikrotik as ",
+      "text": "My PXE image is stored on the Mikrotik as "
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/netboot.xyz/netboot.xyz.efi",
+      "text": "/netboot.xyz/netboot.xyz.efi",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": ". Now we can set configure the Mikrotik's built-in FTP server:",
+      "text": ". Now we can set configure the Mikrotik's built-in FTP server:"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "[major@hexs] > /ip tftp\nadd ip-addresses=192.168.10.0/24 real-filename=\\\n    /netboot.xyz/netboot.xyz.efi req-filename=.*\n[major@hexs] > /ip tftp settings\nset max-block-size=8192",
+      "text": "[major@hexs] > /ip tftp\nadd ip-addresses=192.168.10.0/24 real-filename=\\\n    /netboot.xyz/netboot.xyz.efi req-filename=.*\n[major@hexs] > /ip tftp settings\nset max-block-size=8192",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "These settings enable TFTP access for anything on my LAN. Also, my PXE image from netboot.xyz is returned no matter what is in the request.",
+      "text": "These settings enable TFTP access for anything on my LAN. Also, my PXE image from netboot.xyz is returned no matter what is in the request."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Now it's time for a quick test! On Fedora, you can install a ",
+      "text": "Now it's time for a quick test! On Fedora, you can install a "
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "tftp",
+      "text": "tftp",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " client by running ",
+      "text": " client by running "
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "dnf install tftp",
+      "text": "dnf install tftp",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "\u276f tftp 192.168.10.1 -v -m binary -c get pxeboot\nmode set to octet\nConnected to 192.168.10.1 (192.168.10.1), port 69\ngetting from 192.168.10.1:pxeboot to pxeboot [octet]\nReceived 1074688 bytes in 0.6 seconds [14810621 bit/s]",
+      "text": "\u276f tftp 192.168.10.1 -v -m binary -c get pxeboot\nmode set to octet\nConnected to 192.168.10.1 (192.168.10.1), port 69\ngetting from 192.168.10.1:pxeboot to pxeboot [octet]\nReceived 1074688 bytes in 0.6 seconds [14810621 bit/s]",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Awesome! Let's make sure we downloaded everything correctly:",
+      "text": "Awesome! Let's make sure we downloaded everything correctly:"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# Check the software downloaded from TFTP\n\u276f sha256sum pxeboot                    \nef4b7d62d360bd8b58a3e83dfa87f8c645d459340554ce4ad66c0ef341fc3653  pxeboot\n\n# Check our original file\n\u276f sha256sum ~/Downloads/netboot.xyz.efi\nef4b7d62d360bd8b58a3e83dfa87f8c645d459340554ce4ad66c0ef341fc3653  /home/major/Downloads/netboot.xyz.efi",
+      "text": "# Check the software downloaded from TFTP\n\u276f sha256sum pxeboot                    \nef4b7d62d360bd8b58a3e83dfa87f8c645d459340554ce4ad66c0ef341fc3653  pxeboot\n\n# Check our original file\n\u276f sha256sum ~/Downloads/netboot.xyz.efi\nef4b7d62d360bd8b58a3e83dfa87f8c645d459340554ce4ad66c0ef341fc3653  /home/major/Downloads/netboot.xyz.efi",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Now your systems on your local network can PXE boot using netboot.xyz! During the boot routine, you may need to press a key (usually F12, F11, F2, or maybe DEL) to bring up a boot selection menu. Pick the PXE or network boot option (choose IPv4 if asked) and boot!",
+      "text": "Now your systems on your local network can PXE boot using netboot.xyz! During the boot routine, you may need to press a key (usually F12, F11, F2, or maybe DEL) to bring up a boot selection menu. Pick the PXE or network boot option (choose IPv4 if asked) and boot!"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "During the boot, your machine will boot the locally downloaded PXE image and it will automatically call out to netboot.xyz for menu selections. Scroll through the menus, choose your image, and enjoy! \ud83e\udd13",
+      "text": "During the boot, your machine will boot the locally downloaded PXE image and it will automatically call out to netboot.xyz for menu selections. Scroll through the menus, choose your image, and enjoy! \ud83e\udd13"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

@@ -1,0 +1,789 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/html",
+    "binary_hash": 6521915186320915995,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/groups/1"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "furniture",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/43"
+        }
+      ],
+      "content_layer": "body",
+      "name": "header-1",
+      "label": "section"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "text",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2015/09/28/first-thoughts-linux-on-the-supermicro-5028d-t4nt/",
+      "text": "/2015/09/28/first-thoughts-linux-on-the-supermicro-5028d-t4nt/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "networking",
+      "text": "networking",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "supermicro",
+      "text": "supermicro",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "systemd",
+      "text": "systemd",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "text",
+      "prov": [],
+      "orig": "I've recently moved over to Rackspace's OpenStack Private Cloud team and the role is full of some great challenges. One of those challenges was figuring out a home lab for testing.",
+      "text": "I've recently moved over to Rackspace's OpenStack Private Cloud team and the role is full of some great challenges. One of those challenges was figuring out a home lab for testing."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "The search",
+      "text": "The search",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/texts/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "My first idea was to pick up some lower-power machines that would give me some infrastructure at a low price with a low power bill as well. I found some Dell Optiplex 3020's on Newegg with Haswell i3's that came in at a good price point. In addition, they delivered the virtualization extensions that I needed without a high TDP.",
+      "text": "My first idea was to pick up some lower-power machines that would give me some infrastructure at a low price with a low power bill as well. I found some Dell Optiplex 3020's on Newegg with Haswell i3's that came in at a good price point. In addition, they delivered the virtualization extensions that I needed without a high TDP."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/texts/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Once I started talking about my search on Twitter, someone piped in with a suggestion:",
+      "text": "Once I started talking about my search on Twitter, someone piped in with a suggestion:"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/texts/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "@majorhayden what are you planning? If you have to replace any server, take a look into this http://t.co/W6dcDqow5l I'd love to own one !!",
+      "text": "@majorhayden what are you planning? If you have to replace any server, take a look into this http://t.co/W6dcDqow5l I'd love to own one !!"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/texts/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u2014 Sergio Galvan (@sgmac) September 19, 2015",
+      "text": "\u2014 Sergio Galvan (@sgmac) September 19, 2015"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/texts/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "1",
+      "text": "1"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/texts/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Supermicro, eh? I've had great success with two Supermicro boxes from Silicon Mechanics (and I can't say enough good things about both companies) in my colocation environment. I decided to take a closer look at the  Supermicro 5028D-TN4T .",
+      "text": "Supermicro, eh? I've had great success with two Supermicro boxes from Silicon Mechanics (and I can't say enough good things about both companies) in my colocation environment. I decided to take a closer look at the  Supermicro 5028D-TN4T ."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/texts/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "There's a great review on  AnandTech  about the Supermicro 5028D-TN4T. It gets plenty of praise for packing a lot of advanced features into a small, energy-efficient server. AnandTech found that the  idle power draw was around 30 watts  and as low as 27 watts in some cases. I haven't tested it with my  Kill A Watt  yet, but I intend to do so later this week.",
+      "text": "There's a great review on  AnandTech  about the Supermicro 5028D-TN4T. It gets plenty of praise for packing a lot of advanced features into a small, energy-efficient server. AnandTech found that the  idle power draw was around 30 watts  and as low as 27 watts in some cases. I haven't tested it with my  Kill A Watt  yet, but I intend to do so later this week."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Initial thoughts",
+      "text": "Initial thoughts",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/texts/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "This chassis is  small . I snapped a quick photo for some folks who were asking about it on Twitter:",
+      "text": "This chassis is  small . I snapped a quick photo for some folks who were asking about it on Twitter:"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/texts/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "@claco @sgmac Relatively small. That's an X1 Carbon in the background as a side reference. pic.twitter.com/EJ8ef6wl1d",
+      "text": "@claco @sgmac Relatively small. That's an X1 Carbon in the background as a side reference. pic.twitter.com/EJ8ef6wl1d"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/texts/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u2014 Major Hayden (@majorhayden) September 25, 2015",
+      "text": "\u2014 Major Hayden (@majorhayden) September 25, 2015"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/texts/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "I'll have better pictures soon in a more detailed review. If you're itching for more photos now, head on over to the AnandTech article I mentioned earlier.",
+      "text": "I'll have better pictures soon in a more detailed review. If you're itching for more photos now, head on over to the AnandTech article I mentioned earlier."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/texts/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Installing the RAM was a piece of cake, but I did need to hold a fan shroud out of the way as I installed some of them. There are three spots for installing SSD drives: one for an M.2 SATA drive and two 2.5&#8243; drive spots. Routing the cables to the SSD drives is quite easy, but you will have to clip a zip tie or two ( carefully ).",
+      "text": "Installing the RAM was a piece of cake, but I did need to hold a fan shroud out of the way as I installed some of them. There are three spots for installing SSD drives: one for an M.2 SATA drive and two 2.5&#8243; drive spots. Routing the cables to the SSD drives is quite easy, but you will have to clip a zip tie or two ( carefully )."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/texts/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "The IPMI is fantastic, as expected. If you've ever used other Supermicro servers with built-in IPMI, then you'll recognize the interface. You have full control over power, fans, and serial output. In addition, the standard iKVM interface is there so you can view the graphical console remotely, attach disks over the network, and power cycle the server. The IPMI was configured to use DHCP out of the box.",
+      "text": "The IPMI is fantastic, as expected. If you've ever used other Supermicro servers with built-in IPMI, then you'll recognize the interface. You have full control over power, fans, and serial output. In addition, the standard iKVM interface is there so you can view the graphical console remotely, attach disks over the network, and power cycle the server. The IPMI was configured to use DHCP out of the box."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/texts/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "The fan noise is a bit higher than I'd like during boot, but it's nothing like your average 1U/2U server. It's louder than my Optiplex 3020 (which is whisper silent) but much quieter than the ASA 5520. The system is very quiet once it finishes booting and it settles down.",
+      "text": "The fan noise is a bit higher than I'd like during boot, but it's nothing like your average 1U/2U server. It's louder than my Optiplex 3020 (which is whisper silent) but much quieter than the ASA 5520. The system is very quiet once it finishes booting and it settles down."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Linux fun",
+      "text": "Linux fun",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/texts/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "As expected, everything worked fine in Linux - except the 10Gb interfaces. It has a X557 controller for the dual 10Gb interfaces:",
+      "text": "As expected, everything worked fine in Linux - except the 10Gb interfaces. It has a X557 controller for the dual 10Gb interfaces:"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/texts/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# lspci | grep Eth\n03:00.0 Ethernet controller: Intel Corporation Ethernet Connection X552/X557-AT 10GBASE-T\n03:00.1 Ethernet controller: Intel Corporation Ethernet Connection X552/X557-AT 10GBASE-T\n05:00.0 Ethernet controller: Intel Corporation I350 Gigabit Network Connection (rev 01)\n05:00.1 Ethernet controller: Intel Corporation I350 Gigabit Network Connection (rev 01)",
+      "text": "# lspci | grep Eth\n03:00.0 Ethernet controller: Intel Corporation Ethernet Connection X552/X557-AT 10GBASE-T\n03:00.1 Ethernet controller: Intel Corporation Ethernet Connection X552/X557-AT 10GBASE-T\n05:00.0 Ethernet controller: Intel Corporation I350 Gigabit Network Connection (rev 01)\n05:00.1 Ethernet controller: Intel Corporation I350 Gigabit Network Connection (rev 01)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/texts/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "The downside here is that the X557 PHY ID wasn't  added until Linux 4.2 . However, I upgraded the server from Fedora 22 to 23 (and picked up Linux 4.2.1 along the way), and everything worked.",
+      "text": "The downside here is that the X557 PHY ID wasn't  added until Linux 4.2 . However, I upgraded the server from Fedora 22 to 23 (and picked up Linux 4.2.1 along the way), and everything worked."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/texts/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "The onboard 1Gb interfaces showed up as",
+      "text": "The onboard 1Gb interfaces showed up as"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/texts/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "eno1",
+      "text": "eno1",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/texts/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "and",
+      "text": "and"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/texts/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "eno2",
+      "text": "eno2",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/texts/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", as expected, but the 10Gb cards showed up as",
+      "text": ", as expected, but the 10Gb cards showed up as"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/texts/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "eth0",
+      "text": "eth0",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/texts/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "and",
+      "text": "and"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/texts/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "eth1",
+      "text": "eth1",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/texts/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". If you've read my post on  systemd's predictable interface named , you'll notice this is a little unpredictable. The 10Gb interfaces seem to come up as",
+      "text": ". If you've read my post on  systemd's predictable interface named , you'll notice this is a little unpredictable. The 10Gb interfaces seem to come up as"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/texts/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "eno1",
+      "text": "eno1",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/texts/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "and",
+      "text": "and"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/texts/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "eno2",
+      "text": "eno2",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/texts/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "in udev, but that won't work since the onboard I350 ethernet ports already use those names:",
+      "text": "in udev, but that won't work since the onboard I350 ethernet ports already use those names:"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/texts/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "P: /devices/pci0000:00/0000:00:02.2/0000:03:00.0/net/eth0\nE: DEVPATH=/devices/pci0000:00/0000:00:02.2/0000:03:00.0/net/eth0\nE: ID_BUS=pci\nE: ID_MODEL_FROM_DATABASE=Ethernet Connection X552/X557-AT 10GBASE-T\nE: ID_MODEL_ID=0x15ad\nE: ID_NET_DRIVER=ixgbe\nE: ID_NET_LINK_FILE=/usr/lib/systemd/network/99-default.link\nE: ID_NET_NAME=eno1\nE: ID_NET_NAME_MAC=enx0cc47a7591c8\nE: ID_NET_NAME_ONBOARD=eno1\nE: ID_NET_NAME_PATH=enp3s0f0\nE: ID_OUI_FROM_DATABASE=Super Micro Computer, Inc.\nE: ID_PATH=pci-0000:03:00.0\nE: ID_PATH_TAG=pci-0000_03_00_0\nE: ID_PCI_CLASS_FROM_DATABASE=Network controller\nE: ID_PCI_SUBCLASS_FROM_DATABASE=Ethernet controller\nE: ID_VENDOR_FROM_DATABASE=Intel Corporation\nE: ID_VENDOR_ID=0x8086\nE: IFINDEX=4\nE: INTERFACE=eth0\nE: SUBSYSTEM=net\nE: SYSTEMD_ALIAS=/sys/subsystem/net/devices/eno1\nE: TAGS=:systemd:\nE: USEC_INITIALIZED=7449982",
+      "text": "P: /devices/pci0000:00/0000:00:02.2/0000:03:00.0/net/eth0\nE: DEVPATH=/devices/pci0000:00/0000:00:02.2/0000:03:00.0/net/eth0\nE: ID_BUS=pci\nE: ID_MODEL_FROM_DATABASE=Ethernet Connection X552/X557-AT 10GBASE-T\nE: ID_MODEL_ID=0x15ad\nE: ID_NET_DRIVER=ixgbe\nE: ID_NET_LINK_FILE=/usr/lib/systemd/network/99-default.link\nE: ID_NET_NAME=eno1\nE: ID_NET_NAME_MAC=enx0cc47a7591c8\nE: ID_NET_NAME_ONBOARD=eno1\nE: ID_NET_NAME_PATH=enp3s0f0\nE: ID_OUI_FROM_DATABASE=Super Micro Computer, Inc.\nE: ID_PATH=pci-0000:03:00.0\nE: ID_PATH_TAG=pci-0000_03_00_0\nE: ID_PCI_CLASS_FROM_DATABASE=Network controller\nE: ID_PCI_SUBCLASS_FROM_DATABASE=Ethernet controller\nE: ID_VENDOR_FROM_DATABASE=Intel Corporation\nE: ID_VENDOR_ID=0x8086\nE: IFINDEX=4\nE: INTERFACE=eth0\nE: SUBSYSTEM=net\nE: SYSTEMD_ALIAS=/sys/subsystem/net/devices/eno1\nE: TAGS=:systemd:\nE: USEC_INITIALIZED=7449982",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/texts/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "I  opened up a Github issue for systemd  and it's getting some attention. We'll hopefully see it fixed soon.",
+      "text": "I  opened up a Github issue for systemd  and it's getting some attention. We'll hopefully see it fixed soon."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/44"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "More to come",
+      "text": "More to come",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/texts/43"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Keep an eye out for a more detailed review once I start throwing some OpenStack workloads on the Supermicro server. I'll also take some more detailed photos and share the additional parts I added to my server.",
+      "text": "Keep an eye out for a more detailed review once I start throwing some OpenStack workloads on the Supermicro server. I'll also take some more detailed photos and share the additional parts I added to my server."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

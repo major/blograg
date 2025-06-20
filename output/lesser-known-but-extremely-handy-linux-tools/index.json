@@ -1,0 +1,329 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 14088789374399638215,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2012/05/11/lesser-known-but-extremely-handy-linux-tools/",
+      "text": "/2012/05/11/lesser-known-but-extremely-handy-linux-tools/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "command line",
+      "text": "command line",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "network",
+      "text": "network",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "performance",
+      "text": "performance",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "security",
+      "text": "security",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "sysadmin",
+      "text": "sysadmin",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Krist\u00f3f Kov\u00e1cs  has a fantastic post  about some lesser-known Linux tools that can really come in handy in different situations.",
+      "text": "Krist\u00f3f Kov\u00e1cs  has a fantastic post  about some lesser-known Linux tools that can really come in handy in different situations."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If you haven't tried ",
+      "text": "If you haven't tried "
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "dstat",
+      "text": "dstat",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " (I hadn't until I saw Krist\u00f3f's post), this is a great one to try. You can keep a running tally on various server metrics including load average, network transfer, and disk operations.",
+      "text": " (I hadn't until I saw Krist\u00f3f's post), this is a great one to try. You can keep a running tally on various server metrics including load average, network transfer, and disk operations."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Here is some sample output:",
+      "text": "Here is some sample output:"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "----total-cpu-usage---- ---paging-- ---load-avg--- ------memory-usage----- -net/total- ---procs--- --io/total- ---system-- ----tcp-sockets----\nusr sys idl wai hiq siq|  in   out | 1m   5m  15m | used  buff  cach  free| recv  send|run blk new| read  writ| int   csw |lis act syn tim clo\n  0   0 100   0   0   0|   0     0 |0.07 0.25 0.25| 866M  249M  537M  387M|1314B  180B|  0   0   0|   0     0 |  70    80 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.07 0.25 0.25| 866M  249M  537M  387M|1779B 1004B|  0   0   0|   0     0 |  84    78 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.07 0.25 0.25| 866M  249M  537M  387M| 904B  362B|1.0   0 1.0|   0     0 |  75    86 | 13   9   0   0   5\n  0   0 100   0   0   0|   0     0 |0.07 0.25 0.25| 866M  249M  537M  386M|2203B 1559B|  0   0   0|   0     0 | 180   127 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.07 0.25 0.25| 866M  249M  537M  386M| 260B  130B|  0   0   0|   0     0 |  53    66 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.07 0.25 0.25| 866M  249M  537M  387M|  52B  114B|  0   0   0|   0     0 |  54    77 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.07 0.25 0.25| 866M  249M  537M  387M|2271B  872B|  0   0   0|   0     0 |  94    79 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.07 0.25 0.25| 866M  249M  537M  387M|  52B  130B|  0   0   0|   0     0 |  54    74 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.07 0.25 0.25| 866M  249M  537M  387M|1126B 1254B|  0   0   0|   0  24.0 |  80    87 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.07 0.25 0.25| 866M  249M  537M  387M|1030B  130B|  0   0   0|   0     0 |  88    82 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.06 0.24 0.25| 866M  249M  537M  387M| 578B  114B|  0   0   0|   0     0 |  53    64 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.06 0.24 0.25| 866M  249M  537M  387M|1597B  890B|  0   0   0|   0     0 |  85    79 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.06 0.24 0.25| 866M  249M  537M  387M| 552B  114B|  0   0   0|   0     0 |  63    77 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.06 0.24 0.25| 866M  249M  537M  387M|1624B 1254B|  0   0   0|   0     0 |  81    75 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.06 0.24 0.25| 866M  249M  537M  387M| 478B  114B|  0   0   0|   0     0 |  67    73 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.06 0.24 0.25| 866M  249M  537M  387M| 418B  114B|  0   0   0|   0     0 |  59    74 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.06 0.24 0.25| 866M  249M  537M  387M|1265B  874B|  0   0   0|   0     0 |  82    73 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.06 0.24 0.25| 866M  249M  537M  387M| 758B  114B|  0   0   0|   0     0 |  60    80 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.06 0.24 0.25| 866M  249M  537M  387M|1236B 1255B|  0   0   0|   0  4.00 |  93    79 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.06 0.24 0.25| 866M  249M  537M  387M|  52B  130B|  0   0   0|   0     0 |  71    70 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.05 0.23 0.25| 866M  249M  537M  387M| 214B  114B|  0   0   0|   0     0 |  55    73 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.05 0.23 0.25| 866M  249M  537M  387M|1201B  890B|  0   0   0|   0     0 |  80    80 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.05 0.23 0.25| 866M  249M  537M  387M| 108B  114B|  0   0   0|   0     0 |  53    66 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.05 0.23 0.25| 866M  249M  537M  387M|1344B 1254B|  0   0   0|   0  10.0 | 119    85 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.05 0.23 0.25| 866M  249M  537M  387M| 172B  130B|  0   0   0|   0  8.00 |  80    82 | 13   7   0   0   5",
+      "text": "----total-cpu-usage---- ---paging-- ---load-avg--- ------memory-usage----- -net/total- ---procs--- --io/total- ---system-- ----tcp-sockets----\nusr sys idl wai hiq siq|  in   out | 1m   5m  15m | used  buff  cach  free| recv  send|run blk new| read  writ| int   csw |lis act syn tim clo\n  0   0 100   0   0   0|   0     0 |0.07 0.25 0.25| 866M  249M  537M  387M|1314B  180B|  0   0   0|   0     0 |  70    80 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.07 0.25 0.25| 866M  249M  537M  387M|1779B 1004B|  0   0   0|   0     0 |  84    78 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.07 0.25 0.25| 866M  249M  537M  387M| 904B  362B|1.0   0 1.0|   0     0 |  75    86 | 13   9   0   0   5\n  0   0 100   0   0   0|   0     0 |0.07 0.25 0.25| 866M  249M  537M  386M|2203B 1559B|  0   0   0|   0     0 | 180   127 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.07 0.25 0.25| 866M  249M  537M  386M| 260B  130B|  0   0   0|   0     0 |  53    66 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.07 0.25 0.25| 866M  249M  537M  387M|  52B  114B|  0   0   0|   0     0 |  54    77 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.07 0.25 0.25| 866M  249M  537M  387M|2271B  872B|  0   0   0|   0     0 |  94    79 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.07 0.25 0.25| 866M  249M  537M  387M|  52B  130B|  0   0   0|   0     0 |  54    74 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.07 0.25 0.25| 866M  249M  537M  387M|1126B 1254B|  0   0   0|   0  24.0 |  80    87 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.07 0.25 0.25| 866M  249M  537M  387M|1030B  130B|  0   0   0|   0     0 |  88    82 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.06 0.24 0.25| 866M  249M  537M  387M| 578B  114B|  0   0   0|   0     0 |  53    64 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.06 0.24 0.25| 866M  249M  537M  387M|1597B  890B|  0   0   0|   0     0 |  85    79 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.06 0.24 0.25| 866M  249M  537M  387M| 552B  114B|  0   0   0|   0     0 |  63    77 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.06 0.24 0.25| 866M  249M  537M  387M|1624B 1254B|  0   0   0|   0     0 |  81    75 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.06 0.24 0.25| 866M  249M  537M  387M| 478B  114B|  0   0   0|   0     0 |  67    73 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.06 0.24 0.25| 866M  249M  537M  387M| 418B  114B|  0   0   0|   0     0 |  59    74 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.06 0.24 0.25| 866M  249M  537M  387M|1265B  874B|  0   0   0|   0     0 |  82    73 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.06 0.24 0.25| 866M  249M  537M  387M| 758B  114B|  0   0   0|   0     0 |  60    80 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.06 0.24 0.25| 866M  249M  537M  387M|1236B 1255B|  0   0   0|   0  4.00 |  93    79 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.06 0.24 0.25| 866M  249M  537M  387M|  52B  130B|  0   0   0|   0     0 |  71    70 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.05 0.23 0.25| 866M  249M  537M  387M| 214B  114B|  0   0   0|   0     0 |  55    73 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.05 0.23 0.25| 866M  249M  537M  387M|1201B  890B|  0   0   0|   0     0 |  80    80 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.05 0.23 0.25| 866M  249M  537M  387M| 108B  114B|  0   0   0|   0     0 |  53    66 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.05 0.23 0.25| 866M  249M  537M  387M|1344B 1254B|  0   0   0|   0  10.0 | 119    85 | 13   7   0   0   5\n  0   0 100   0   0   0|   0     0 |0.05 0.23 0.25| 866M  249M  537M  387M| 172B  130B|  0   0   0|   0  8.00 |  80    82 | 13   7   0   0   5",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Learn more about ",
+      "text": "Learn more about "
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "dstat",
+      "text": "dstat",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " on  Dag Wie\u00ebrs' site .",
+      "text": " on  Dag Wie\u00ebrs' site ."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

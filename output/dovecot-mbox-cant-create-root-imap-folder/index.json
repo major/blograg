@@ -1,0 +1,212 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 13281934147267832947,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2007/10/09/dovecot-mbox-cant-create-root-imap-folder/",
+      "text": "/2007/10/09/dovecot-mbox-cant-create-root-imap-folder/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "dovecot",
+      "text": "dovecot",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "mail",
+      "text": "mail",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "In some situations with dovecot running on your server, you may receive a message from your e-mail client stating that the \"connection was interrupted with your mail server\" or the \"login process failed\". This may happen even if you've created the e-mail account, created the mail spool, and set a password for the user.",
+      "text": "In some situations with dovecot running on your server, you may receive a message from your e-mail client stating that the \"connection was interrupted with your mail server\" or the \"login process failed\". This may happen even if you've created the e-mail account, created the mail spool, and set a password for the user."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If you check your /var/log/maillog, you will generally find errors like these:",
+      "text": "If you check your /var/log/maillog, you will generally find errors like these:"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "Oct 7 09:37:45 mailserver pop3-login: Login: newuser [111.222.333.444]<br />\nOct 7 09:37:45 mailserver pop3(newuser): mbox: Can't create root IMAP folder /home/newuser/mail: Permission denied<br />\nOct 7 09:37:45 mailserver pop3(newuser): Failed to create storage with data: mbox:/var/spool/mail/newuser",
+      "text": "Oct 7 09:37:45 mailserver pop3-login: Login: newuser [111.222.333.444]<br />\nOct 7 09:37:45 mailserver pop3(newuser): mbox: Can't create root IMAP folder /home/newuser/mail: Permission denied<br />\nOct 7 09:37:45 mailserver pop3(newuser): Failed to create storage with data: mbox:/var/spool/mail/newuser",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Dovecot is telling you that it wants to store some mail-related data in the user's home directory, but it can't get access to the user's home directory. If the home directory doesn't exist, create it and set the permissions properly:",
+      "text": "Dovecot is telling you that it wants to store some mail-related data in the user's home directory, but it can't get access to the user's home directory. If the home directory doesn't exist, create it and set the permissions properly:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# mkdir /home/newuser<br />\n# chown newuser:newuser /home/newuser<br />\n# chmod 755 /home/newuser",
+      "text": "# mkdir /home/newuser<br />\n# chown newuser:newuser /home/newuser<br />\n# chmod 755 /home/newuser",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If the directory is already there, double check the ownership and permissions on the directory. If filesystem acl's or filesystem quotas might be in play, be sure to check those as well.",
+      "text": "If the directory is already there, double check the ownership and permissions on the directory. If filesystem acl's or filesystem quotas might be in play, be sure to check those as well."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

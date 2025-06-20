@@ -1,0 +1,334 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 561087105941465216,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2014/06/26/install-debian-packages-without-starting-daemons/",
+      "text": "/2014/06/26/install-debian-packages-without-starting-daemons/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "centos",
+      "text": "centos",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "debian",
+      "text": "debian",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "red hat",
+      "text": "red hat",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "yum",
+      "text": "yum",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "My work at Rackspace has involved working with a bunch of Debian chroots lately. One problem I had was that daemons tried to start in the chroot as soon as I installed them. That created errors and made my ansible output look terrible.",
+      "text": "My work at Rackspace has involved working with a bunch of Debian chroots lately. One problem I had was that daemons tried to start in the chroot as soon as I installed them. That created errors and made my ansible output look terrible."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If you'd like to prevent daemons from starting after installing a package, just toss a few lines into  /usr/sbin/policy-rc.d :",
+      "text": "If you'd like to prevent daemons from starting after installing a package, just toss a few lines into  /usr/sbin/policy-rc.d :"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "cat > /usr/sbin/policy-rc.d << EOF\n#!/bin/sh\necho \"All runlevel operations denied by policy\" >&2\nexit 101\nEOF",
+      "text": "cat > /usr/sbin/policy-rc.d << EOF\n#!/bin/sh\necho \"All runlevel operations denied by policy\" >&2\nexit 101\nEOF",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Now, install any packages that you need and the daemons will remain stopped until you start them (or reboot the server). Be sure to remove the policy file you added once you're done installing your packages.",
+      "text": "Now, install any packages that you need and the daemons will remain stopped until you start them (or reboot the server). Be sure to remove the policy file you added once you're done installing your packages."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This seems like a good opportunity to get on a soapbox about automatically starting daemons. ;)",
+      "text": "This seems like a good opportunity to get on a soapbox about automatically starting daemons. ;)"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I still have a very difficult time understanding why Debian-based distributions start daemons as soon as the package is installed. Having an option to enable this might be useful for some situations, but this  shouldn't be the default .",
+      "text": "I still have a very difficult time understanding why Debian-based distributions start daemons as soon as the package is installed. Having an option to enable this might be useful for some situations, but this  shouldn't be the default ."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "You end up with situations like the one in this  puppet bug report . The daemon shouldn't start until you're ready to configure it and use it. However, the logic is that the daemon is so horribly un-configured that it shouldn't hurt anything if starts immediately. So why start the daemon at all?",
+      "text": "You end up with situations like the one in this  puppet bug report . The daemon shouldn't start until you're ready to configure it and use it. However, the logic is that the daemon is so horribly un-configured that it shouldn't hurt anything if starts immediately. So why start the daemon at all?"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "When I run the command  apt-get install  or  yum install , I expect that packages will be installed to disk and nothing more. Even the  definition of the English word \"install\"  talks about &#8220;preparing&#8221; something for use, not actually using it:",
+      "text": "When I run the command  apt-get install  or  yum install , I expect that packages will be installed to disk and nothing more. Even the  definition of the English word \"install\"  talks about &#8220;preparing&#8221; something for use, not actually using it:"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "To connect, set up or prepare something for use",
+      "text": "To connect, set up or prepare something for use"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If I install an electrical switch at home, I don't install it in the ON position with my circuit breaker in the ON position.  I install it with everything off, verify my work, ensure that it fits in place, and then I apply power. The installation and actual  use  of the new switch are two completely separate activities with additional work required in between.",
+      "text": "If I install an electrical switch at home, I don't install it in the ON position with my circuit breaker in the ON position.  I install it with everything off, verify my work, ensure that it fits in place, and then I apply power. The installation and actual  use  of the new switch are two completely separate activities with additional work required in between."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I strongly urge the Debian community to consider switching to a mechanism where daemons don't start until the users configure them properly and are ready to use them. This makes configuration management much easier, improves security, and provides consistency with almost every other Linux distribution.",
+      "text": "I strongly urge the Debian community to consider switching to a mechanism where daemons don't start until the users configure them properly and are ready to use them. This makes configuration management much easier, improves security, and provides consistency with almost every other Linux distribution."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

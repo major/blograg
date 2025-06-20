@@ -1,0 +1,488 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 5534904672667505857,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/groups/1"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2012/01/11/native-ipv6-connectivity-in-mikrotiks-routeros/",
+      "text": "/2012/01/11/native-ipv6-connectivity-in-mikrotiks-routeros/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "command line",
+      "text": "command line",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ipv6",
+      "text": "ipv6",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "mikrotik",
+      "text": "mikrotik",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "network",
+      "text": "network",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "It's no secret that I'm a big fan of the  Routerboard  devices and the  RouterOS software from Mikrotik  that runs on them. The hardware is solid, the software is stable and feature-rich, and I found a  great vendor  that ships quickly.",
+      "text": "It's no secret that I'm a big fan of the  Routerboard  devices and the  RouterOS software from Mikrotik  that runs on them. The hardware is solid, the software is stable and feature-rich, and I found a  great vendor  that ships quickly."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I recently added a  RB493G  ( ~ $230 USD ) to sit in front of a pair of colocated servers. The majority of the setup routine was the same as with my previous devices except for the IPv6 configuration.",
+      "text": "I recently added a  RB493G  ( ~ $230 USD ) to sit in front of a pair of colocated servers. The majority of the setup routine was the same as with my previous devices except for the IPv6 configuration."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "In the past, I've set up IPv6 tunnels with  Hurricane Electric  and it's been mostly a cut-and-paste operation from the sample configuration in their IPv6 tunnel portal. Setting up native IPv6 involved a little more legwork.",
+      "text": "In the past, I've set up IPv6 tunnels with  Hurricane Electric  and it's been mostly a cut-and-paste operation from the sample configuration in their IPv6 tunnel portal. Setting up native IPv6 involved a little more legwork."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If your provider will give you two /64's or an entire /48, getting IPv6 connectivity for your WAN/LAN interfaces is simple. However, if you can only get one /64, you'll have to see if your provider can route it to you via your Mikrotik's  link local  interface (I wouldn't recommend this for many reasons).",
+      "text": "If your provider will give you two /64's or an entire /48, getting IPv6 connectivity for your WAN/LAN interfaces is simple. However, if you can only get one /64, you'll have to see if your provider can route it to you via your Mikrotik's  link local  interface (I wouldn't recommend this for many reasons)."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I split my Mikrotik into two interfaces: wan and lanbridge. The lanbridge bridge joins all of the LAN ethernet ports (ether2-9 on the RB493G) and the wan interface connects to the upstream switch.",
+      "text": "I split my Mikrotik into two interfaces: wan and lanbridge. The lanbridge bridge joins all of the LAN ethernet ports (ether2-9 on the RB493G) and the wan interface connects to the upstream switch."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "My configuration:",
+      "text": "My configuration:"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/ipv6 address\nadd address=2001:DB8:0:1::2/64 advertise=yes disabled=no eui-64=no interface=wan\nadd address=2001:DB8:0:2::1/64 advertise=yes disabled=no eui-64=no interface=lanbridge\n/ipv6 route\nadd disabled=no distance=1 dst-address=::/0 gateway=2001:DB8:0:1::1 scope=30 \\\n  target-scope=10\n/ipv6 nd\nadd advertise-dns=no advertise-mac-address=yes disabled=no hop-limit=64 \\\n  interface=all managed-address-configuration=no mtu=unspecified \\\n  other-configuration=no ra-delay=3s ra-interval=3m20s-10m ra-lifetime=30m \\\n  reachable-time=unspecified retransmit-interval=unspecified\n/ipv6 nd prefix default\nset autonomous=yes preferred-lifetime=1w valid-lifetime=4w2d",
+      "text": "/ipv6 address\nadd address=2001:DB8:0:1::2/64 advertise=yes disabled=no eui-64=no interface=wan\nadd address=2001:DB8:0:2::1/64 advertise=yes disabled=no eui-64=no interface=lanbridge\n/ipv6 route\nadd disabled=no distance=1 dst-address=::/0 gateway=2001:DB8:0:1::1 scope=30 \\\n  target-scope=10\n/ipv6 nd\nadd advertise-dns=no advertise-mac-address=yes disabled=no hop-limit=64 \\\n  interface=all managed-address-configuration=no mtu=unspecified \\\n  other-configuration=no ra-delay=3s ra-interval=3m20s-10m ra-lifetime=30m \\\n  reachable-time=unspecified retransmit-interval=unspecified\n/ipv6 nd prefix default\nset autonomous=yes preferred-lifetime=1w valid-lifetime=4w2d",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Explanation:",
+      "text": "Explanation:"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/ipv6 address\nadd address=2001:DB8:0:1::2/64 advertise=yes disabled=no eui-64=no interface=wan\nadd address=2001:DB8:0:2::1/64 advertise=yes disabled=no eui-64=no interface=lanbridge",
+      "text": "/ipv6 address\nadd address=2001:DB8:0:1::2/64 advertise=yes disabled=no eui-64=no interface=wan\nadd address=2001:DB8:0:2::1/64 advertise=yes disabled=no eui-64=no interface=lanbridge",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "These two lines configure the IPv6 addresses for the firewall's interfaces. My provider's router holds the 2001:DB8:0:1::1/64 address and routes the remainder of that /64 to me via 2001:DB8:0:1::2/64. The second /64 is on the lanbridge interface and my LAN devices take their IP addresses from that block. My provider routes that second /64 to me via the 2001:DB8:0:1::2/64 IP on my wan interface.",
+      "text": "These two lines configure the IPv6 addresses for the firewall's interfaces. My provider's router holds the 2001:DB8:0:1::1/64 address and routes the remainder of that /64 to me via 2001:DB8:0:1::2/64. The second /64 is on the lanbridge interface and my LAN devices take their IP addresses from that block. My provider routes that second /64 to me via the 2001:DB8:0:1::2/64 IP on my wan interface."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/ipv6 route\nadd disabled=no distance=1 dst-address=::/0 gateway=2001:DB8:0:1::1 scope=30 \\\n  target-scope=10",
+      "text": "/ipv6 route\nadd disabled=no distance=1 dst-address=::/0 gateway=2001:DB8:0:1::1 scope=30 \\\n  target-scope=10",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I've set a  gateway  for IPv6 traffic so that the Mikrotik knows where to send internet-bound IPv6 traffic (in this case, to my ISP's core router).",
+      "text": "I've set a  gateway  for IPv6 traffic so that the Mikrotik knows where to send internet-bound IPv6 traffic (in this case, to my ISP's core router)."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/ipv6 nd\nadd advertise-dns=no advertise-mac-address=yes disabled=no hop-limit=64 \\\n  interface=lanbridge managed-address-configuration=no mtu=unspecified \\\n  other-configuration=no ra-delay=3s ra-interval=3m20s-10m ra-lifetime=30m \\\n  reachable-time=unspecified retransmit-interval=unspecified\n/ipv6 nd prefix default\nset autonomous=yes preferred-lifetime=1w valid-lifetime=4w2d",
+      "text": "/ipv6 nd\nadd advertise-dns=no advertise-mac-address=yes disabled=no hop-limit=64 \\\n  interface=lanbridge managed-address-configuration=no mtu=unspecified \\\n  other-configuration=no ra-delay=3s ra-interval=3m20s-10m ra-lifetime=30m \\\n  reachable-time=unspecified retransmit-interval=unspecified\n/ipv6 nd prefix default\nset autonomous=yes preferred-lifetime=1w valid-lifetime=4w2d",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "These last two lines configure the  neighbor discovery  on my lanbridge interface. This allows my LAN devices to do  stateless autoconfiguration  (which gives them an IPv6 address as well as the gateway).",
+      "text": "These last two lines configure the  neighbor discovery  on my lanbridge interface. This allows my LAN devices to do  stateless autoconfiguration  (which gives them an IPv6 address as well as the gateway)."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Want to read up on IPv6?",
+      "text": "Want to read up on IPv6?"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='Linux IPv6 HOWTO'>]",
+      "text": "[<RawText children='Linux IPv6 HOWTO'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='IPv6 on Wikipedia'>]",
+      "text": "[<RawText children='IPv6 on Wikipedia'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='IPv6 Cheat Sheet'>]",
+      "text": "[<RawText children='IPv6 Cheat Sheet'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='IPv6 Subnetting Card'>]",
+      "text": "[<RawText children='IPv6 Subnetting Card'>]",
+      "enumerated": false,
+      "marker": "-"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

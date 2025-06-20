@@ -1,0 +1,411 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 13191644238807511436,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2012/07/15/mounting-an-lvm-snapshot-containing-partitions/",
+      "text": "/2012/07/15/mounting-an-lvm-snapshot-containing-partitions/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "emergency",
+      "text": "emergency",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "lvm",
+      "text": "lvm",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "sysadmin",
+      "text": "sysadmin",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "xen",
+      "text": "xen",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "LVM snapshots can be really handy when you're trying to take a backup of a running virtual machine. However, mounting the snapshot can be tricky if the logical volume is partitioned.",
+      "text": "LVM snapshots can be really handy when you're trying to take a backup of a running virtual machine. However, mounting the snapshot can be tricky if the logical volume is partitioned."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I have a virtual machine running  zoneminder  on one of my servers at home and I needed to take a backup of the instance with  rdiff-backup . I made a snapshot of the logical volume and attempted to mount it:",
+      "text": "I have a virtual machine running  zoneminder  on one of my servers at home and I needed to take a backup of the instance with  rdiff-backup . I made a snapshot of the logical volume and attempted to mount it:"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "[root@i7tiny ~]# lvcreate -s -n snap -L 5G /dev/vg_i7tiny/vm_zoneminder\n  Logical volume \"snap\" created\n[root@i7tiny ~]# mount /dev/vg_i7tiny/snap /mnt/snap/\nmount: wrong fs type, bad option, bad superblock on /dev/mapper/vg_i7tiny-snap,\n       missing codepage or helper program, or other error\n       In some cases useful info is found in syslog - try\n       dmesg | tail or so",
+      "text": "[root@i7tiny ~]# lvcreate -s -n snap -L 5G /dev/vg_i7tiny/vm_zoneminder\n  Logical volume \"snap\" created\n[root@i7tiny ~]# mount /dev/vg_i7tiny/snap /mnt/snap/\nmount: wrong fs type, bad option, bad superblock on /dev/mapper/vg_i7tiny-snap,\n       missing codepage or helper program, or other error\n       In some cases useful info is found in syslog - try\n       dmesg | tail or so",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Oops. The logical volume has partitions. We will need to mount the volume with an offset so that we can get the right partition. Figuring out the offset can be done fairly easily with fdisk:",
+      "text": "Oops. The logical volume has partitions. We will need to mount the volume with an offset so that we can get the right partition. Figuring out the offset can be done fairly easily with fdisk:"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "[root@i7tiny ~]# fdisk -l /dev/vg_i7tiny/vm_zoneminder\n\nDisk /dev/vg_i7tiny/vm_zoneminder: 53.7 GB, 53687091200 bytes\n255 heads, 63 sectors/track, 6527 cylinders, total 104857600 sectors\nUnits = sectors of 1 * 512 = 512 bytes\nSector size (logical/physical): 512 bytes / 512 bytes\nI/O size (minimum/optimal): 512 bytes / 512 bytes\nDisk identifier: 0x0007a1d5\n\n                       Device Boot      Start         End      Blocks   Id  System\n/dev/vg_i7tiny/vm_zoneminder1   *        2048     1026047      512000   83  Linux\n/dev/vg_i7tiny/vm_zoneminder2         1026048   102825983    50899968   83  Linux\n/dev/vg_i7tiny/vm_zoneminder3       102825984   104857599     1015808   82  Linux swap / Solaris",
+      "text": "[root@i7tiny ~]# fdisk -l /dev/vg_i7tiny/vm_zoneminder\n\nDisk /dev/vg_i7tiny/vm_zoneminder: 53.7 GB, 53687091200 bytes\n255 heads, 63 sectors/track, 6527 cylinders, total 104857600 sectors\nUnits = sectors of 1 * 512 = 512 bytes\nSector size (logical/physical): 512 bytes / 512 bytes\nI/O size (minimum/optimal): 512 bytes / 512 bytes\nDisk identifier: 0x0007a1d5\n\n                       Device Boot      Start         End      Blocks   Id  System\n/dev/vg_i7tiny/vm_zoneminder1   *        2048     1026047      512000   83  Linux\n/dev/vg_i7tiny/vm_zoneminder2         1026048   102825983    50899968   83  Linux\n/dev/vg_i7tiny/vm_zoneminder3       102825984   104857599     1015808   82  Linux swap / Solaris",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "It looks like we have a small boot partition, a big root partition and a swap volume. We want to mount the second volume to copy files from the root filesystem. There are two critical pieces of information here that we need:",
+      "text": "It looks like we have a small boot partition, a big root partition and a swap volume. We want to mount the second volume to copy files from the root filesystem. There are two critical pieces of information here that we need:"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "the ",
+      "text": "the ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "the ",
+      "text": "the ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Let's calculate how many bytes we need to skip when we mount the partition and then mount it:",
+      "text": "Let's calculate how many bytes we need to skip when we mount the partition and then mount it:"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "[root@i7tiny ~]# echo \"512 * 1026048\" | bc\n525336576\n[root@i7tiny ~]# mount -o offset=525336576 /dev/mapper/vg_i7tiny-snap /mnt/snap/\n[root@i7tiny ~]# ls /mnt/snap/\nbin  boot  dev  etc  home  lib  lib64  lost+found  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var",
+      "text": "[root@i7tiny ~]# echo \"512 * 1026048\" | bc\n525336576\n[root@i7tiny ~]# mount -o offset=525336576 /dev/mapper/vg_i7tiny-snap /mnt/snap/\n[root@i7tiny ~]# ls /mnt/snap/\nbin  boot  dev  etc  home  lib  lib64  lost+found  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The root filesystem from the virtual machine is now mounted and we can copy some files from it. Don't forget to clean up when you're finished:",
+      "text": "The root filesystem from the virtual machine is now mounted and we can copy some files from it. Don't forget to clean up when you're finished:"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "[root@i7tiny ~]# umount /mnt/snap/\n[root@i7tiny ~]# lvremove -f /dev/vg_i7tiny/snap\n  Logical volume \"snap\" successfully removed",
+      "text": "[root@i7tiny ~]# umount /mnt/snap/\n[root@i7tiny ~]# lvremove -f /dev/vg_i7tiny/snap\n  Logical volume \"snap\" successfully removed",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If you need to do this with file-backed virtual machine storage or with a flat file you made with dd/dd_rescue,  read my post from 2010  about tackling that similar problem.",
+      "text": "If you need to do this with file-backed virtual machine storage or with a flat file you made with dd/dd_rescue,  read my post from 2010  about tackling that similar problem."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

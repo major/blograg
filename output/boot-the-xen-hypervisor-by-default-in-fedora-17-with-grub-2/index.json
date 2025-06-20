@@ -1,0 +1,329 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 743897174696284666,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2012/07/16/boot-the-xen-hypervisor-by-default-in-fedora-17-with-grub-2/",
+      "text": "/2012/07/16/boot-the-xen-hypervisor-by-default-in-fedora-17-with-grub-2/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "grub2",
+      "text": "grub2",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "sysadmin",
+      "text": "sysadmin",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "xen",
+      "text": "xen",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Although GRUB 2 does give us some nice benefits, changing its configuration can be a bit of a challenge if you're used to working with the original GRUB for many, many years. I've recently installed some Fedora 17 systems with Xen and I've had to go back to the documentation to change the default GRUB 2 boot option. Hopefully this post will save you some time.",
+      "text": "Although GRUB 2 does give us some nice benefits, changing its configuration can be a bit of a challenge if you're used to working with the original GRUB for many, many years. I've recently installed some Fedora 17 systems with Xen and I've had to go back to the documentation to change the default GRUB 2 boot option. Hopefully this post will save you some time."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "A good place to start reading is on Fedora's own page about  GRUB 2  and the helpful commands provided to manage its configuration.",
+      "text": "A good place to start reading is on Fedora's own page about  GRUB 2  and the helpful commands provided to manage its configuration."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I'll assume you've installed the  xen  packages already and those packages have configured a (non-default) menu entry in your GRUB 2 configuration. Start by getting a list of your grub menu entry options (without the submenu options):",
+      "text": "I'll assume you've installed the  xen  packages already and those packages have configured a (non-default) menu entry in your GRUB 2 configuration. Start by getting a list of your grub menu entry options (without the submenu options):"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "[root@remotebox ~]# grep ^menuentry /boot/grub2/grub.cfg | cut -d \"'\" -f2\nFedora\nFedora, with Xen hypervisor",
+      "text": "[root@remotebox ~]# grep ^menuentry /boot/grub2/grub.cfg | cut -d \"'\" -f2\nFedora\nFedora, with Xen hypervisor",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "We obviously wan't the second one to be our default option. Let's adjust the GRUB 2 settings and then check our work:",
+      "text": "We obviously wan't the second one to be our default option. Let's adjust the GRUB 2 settings and then check our work:"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "[root@remotebox ~]# grub2-set-default 'Fedora, with Xen hypervisor'\n[root@remotebox ~]# grub2-editenv list\nsaved_entry=Fedora, with Xen hypervisor",
+      "text": "[root@remotebox ~]# grub2-set-default 'Fedora, with Xen hypervisor'\n[root@remotebox ~]# grub2-editenv list\nsaved_entry=Fedora, with Xen hypervisor",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The configuration file hasn't been written yet! I prefer to disable the graphical framebuffer and I like to see all of the kernel boot messages each time I reboot. Some of those messages can be handy if you have failing hardware or a bad configuration somewhere in your boot process. Open up  /etc/sysconfig/grub  in your favorite text editor and remove  rhgb quiet  from the line that starts with  GRUB CMDLINE LINUX .",
+      "text": "The configuration file hasn't been written yet! I prefer to disable the graphical framebuffer and I like to see all of the kernel boot messages each time I reboot. Some of those messages can be handy if you have failing hardware or a bad configuration somewhere in your boot process. Open up  /etc/sysconfig/grub  in your favorite text editor and remove  rhgb quiet  from the line that starts with  GRUB CMDLINE LINUX ."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Write your new GRUB 2 configuration file:",
+      "text": "Write your new GRUB 2 configuration file:"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "[root@remotebox ~]# grub2-mkconfig -o /boot/grub2/grub.cfg",
+      "text": "[root@remotebox ~]# grub2-mkconfig -o /boot/grub2/grub.cfg",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Reboot your server. Once it's back, check to see if you loaded the right boot option. Even without any Xen daemons running, you should be able to check for the presence of the hypervisor:",
+      "text": "Reboot your server. Once it's back, check to see if you loaded the right boot option. Even without any Xen daemons running, you should be able to check for the presence of the hypervisor:"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "[root@i7tiny ~]# dmesg | grep -i \"xen version\"\n[    0.000000] Xen version: 4.1.2 (preserve-AD)",
+      "text": "[root@i7tiny ~]# dmesg | grep -i \"xen version\"\n[    0.000000] Xen version: 4.1.2 (preserve-AD)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

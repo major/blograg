@@ -1,0 +1,542 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 11727844716989754279,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2007/02/11/bulk-ip-update-in-plesk/",
+      "text": "/2007/02/11/bulk-ip-update-in-plesk/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "plesk",
+      "text": "plesk",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "There's lots of situations where you'd want to use a bulk IP change in Plesk:",
+      "text": "There's lots of situations where you'd want to use a bulk IP change in Plesk:"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Server is moving and needs to change IP's",
+      "text": "Server is moving and needs to change IP's",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "An IP is the destination for some type of DDOS attack",
+      "text": "An IP is the destination for some type of DDOS attack",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "An IP needs to be removed from the server",
+      "text": "An IP needs to be removed from the server",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "So how do you shift tons of domains from one IP to another without spending hours in Plesk clicking and clicking? Do the following instead:",
+      "text": "So how do you shift tons of domains from one IP to another without spending hours in Plesk clicking and clicking? Do the following instead:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Get into MySQL and find out which IP you're moving from and to:",
+      "text": "Get into MySQL and find out which IP you're moving from and to:"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "mysql -u admin -p`cat /etc/psa/.psa.shadow`\nmysql> select * from IP_Addresses;",
+      "text": "mysql -u admin -p`cat /etc/psa/.psa.shadow`\nmysql> select * from IP_Addresses;",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "You should see a printout of all of the available IP's on the server. Make a note of the \"id\" of the IP you're moving from and to. In this example, here's what we're doing:",
+      "text": "You should see a printout of all of the available IP's on the server. Make a note of the \"id\" of the IP you're moving from and to. In this example, here's what we're doing:"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Moving FROM \"192.168.1.192\" (id = 2)",
+      "text": "Moving FROM \"192.168.1.192\" (id = 2)",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Moving TO \"192.168.1.209\" (id =3)",
+      "text": "Moving TO \"192.168.1.209\" (id =3)",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Now we can start shifting the physically hosted domains over in the database:",
+      "text": "Now we can start shifting the physically hosted domains over in the database:"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "mysql> update hosting set ip_address_id=3 where ip_address_id=2;",
+      "text": "mysql> update hosting set ip_address_id=3 where ip_address_id=2;",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "We also need to change the domains that are set up for standard or frame forwarding:",
+      "text": "We also need to change the domains that are set up for standard or frame forwarding:"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "mysql> update forwarding set ip_address_id=3 where ip_address_id=2;",
+      "text": "mysql> update forwarding set ip_address_id=3 where ip_address_id=2;",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Now we're stuck with the arduous task of updating DNS records. Plesk is kind enough to store this data in four different ways:",
+      "text": "Now we're stuck with the arduous task of updating DNS records. Plesk is kind enough to store this data in four different ways:"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "mysql> update dns_recs set displayHost='192.168.1.209' where displayHost='192.168.1.192';\nmysql> update dns_recs set host='192.168.1.209' where host='192.168.1.192';\nmysql> update dns_recs set displayVal='192.168.1.209' where displayVal='192.168.1.192';\nmysql> update dns_recs set val='192.168.1.209' where val='192.168.1.192';",
+      "text": "mysql> update dns_recs set displayHost='192.168.1.209' where displayHost='192.168.1.192';\nmysql> update dns_recs set host='192.168.1.209' where host='192.168.1.192';\nmysql> update dns_recs set displayVal='192.168.1.209' where displayVal='192.168.1.192';\nmysql> update dns_recs set val='192.168.1.209' where val='192.168.1.192';",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Everything domain related is now moved, but the clients that the domains belong to might not have this new IP address in their IP pool. First, we need to find out our component ID's from the repository table (which generally should be the same as the IP_Addresses.id column, but not always)",
+      "text": "Everything domain related is now moved, but the clients that the domains belong to might not have this new IP address in their IP pool. First, we need to find out our component ID's from the repository table (which generally should be the same as the IP_Addresses.id column, but not always)"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "mysql> SELECT clients.login, IP_Addresses.ip_address,Repository.* FROM clients LEFT JOIN Repository ON clients.pool_id = Repository.rep_id LEFT JOIN IP_Addresses ON Repository.component_id = IP_Addresses.id;",
+      "text": "mysql> SELECT clients.login, IP_Addresses.ip_address,Repository.* FROM clients LEFT JOIN Repository ON clients.pool_id = Repository.rep_id LEFT JOIN IP_Addresses ON Repository.component_id = IP_Addresses.id;",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "For this example, we'll pretend that the output consists of 2's for these clients. We can flip the IP's in the clients' IP pools by running the following:",
+      "text": "For this example, we'll pretend that the output consists of 2's for these clients. We can flip the IP's in the clients' IP pools by running the following:"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "mysql> update Repository set component_id=3 where component_id=2;",
+      "text": "mysql> update Repository set component_id=3 where component_id=2;",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Now that everything is changed in Plesk's database, it's time to change up the Apache and BIND configuration files. Luckily, this can be done pretty easily with Plesk's command line tools:",
+      "text": "Now that everything is changed in Plesk's database, it's time to change up the Apache and BIND configuration files. Luckily, this can be done pretty easily with Plesk's command line tools:"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# /usr/local/psa/admin/bin/websrvmng -av\n# mysql -Ns -uadmin -p`cat /etc/psa/.psa.shadow` -D psa -e 'select name from domains' | awk '{print \"/usr/local/psa/admin/sbin/dnsmng update \" $1 }' | sh",
+      "text": "# /usr/local/psa/admin/bin/websrvmng -av\n# mysql -Ns -uadmin -p`cat /etc/psa/.psa.shadow` -D psa -e 'select name from domains' | awk '{print \"/usr/local/psa/admin/sbin/dnsmng update \" $1 }' | sh",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "All that is left is to force Apache and BIND to pick up the new configuration:",
+      "text": "All that is left is to force Apache and BIND to pick up the new configuration:"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# /etc/init.d/httpd reload\n# /etc/init.d/named reload",
+      "text": "# /etc/init.d/httpd reload\n# /etc/init.d/named reload",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Just wait for the DNS records to propagate and you should be all set! The instructions are cumbersome, I know, but it's easier than clicking for-ev-er.",
+      "text": "Just wait for the DNS records to propagate and you should be all set! The instructions are cumbersome, I know, but it's easier than clicking for-ev-er."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

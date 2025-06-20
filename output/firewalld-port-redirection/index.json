@@ -1,0 +1,774 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 5680629819693008846,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "author: Major Hayden date: '2024-06-28' Redirecting local ports with iptables directly isn't too difficult, but can we use firewalld to get the same result? \ud83e\uddf1 tags: ",
+      "text": "author: Major Hayden date: '2024-06-28' Redirecting local ports with iptables directly isn't too difficult, but can we use firewalld to get the same result? \ud83e\uddf1 tags: "
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "firewalld",
+      "text": "firewalld",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "networking",
+      "text": "networking",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "security",
+      "text": "security",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Linux networking and firewalls give us plenty of options for redirecting traffic from one port to another. We can allow people outside our home to reach a web server we run in our internal network. That's called destination NAT, ot  DNAT .",
+      "text": "Linux networking and firewalls give us plenty of options for redirecting traffic from one port to another. We can allow people outside our home to reach a web server we run in our internal network. That's called destination NAT, ot  DNAT ."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "You can also redirect traffic to different ports on the same host. For example, if you have a daemon listening on port 3000, but you want people to reach that service on port 80, you can redirect traffic from 80 to 3000 on the same host (without network address translation).",
+      "text": "You can also redirect traffic to different ports on the same host. For example, if you have a daemon listening on port 3000, but you want people to reach that service on port 80, you can redirect traffic from 80 to 3000 on the same host (without network address translation)."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "But how do we do this with  firewalld ? \ud83e\udd14",
+      "text": "But how do we do this with  firewalld ? \ud83e\udd14"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Old-school iptables methods",
+      "text": "Old-school iptables methods",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Let's say you have a service running on port 3000 and you want to expose it to other computers on your same network as port 80. With iptables, you would typically start by enabling IP forwarding:",
+      "text": "Let's say you have a service running on port 3000 and you want to expose it to other computers on your same network as port 80. With iptables, you would typically start by enabling IP forwarding:"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "sudo sysctl -w net.ipv4.ip_forward=1",
+      "text": "sudo sysctl -w net.ipv4.ip_forward=1",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Add two iptables rules to handle packets coming in from the outside as well as any locally generated packets:",
+      "text": "Add two iptables rules to handle packets coming in from the outside as well as any locally generated packets:"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# Handle locally-generated packets on the same machine.\nsudo iptables -t nat -A PREROUTING -s 127.0.0.1 -p tcp --dport 80 -j REDIRECT --to 3000`\n\n# Handle packets coming from outside the current machine.\nsudo iptables -t nat -A OUTPUT -s 127.0.0.1 -p tcp --dport 80 -j REDIRECT --to 3000`",
+      "text": "# Handle locally-generated packets on the same machine.\nsudo iptables -t nat -A PREROUTING -s 127.0.0.1 -p tcp --dport 80 -j REDIRECT --to 3000`\n\n# Handle packets coming from outside the current machine.\nsudo iptables -t nat -A OUTPUT -s 127.0.0.1 -p tcp --dport 80 -j REDIRECT --to 3000`",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "There's a weird situation that happens on certain machines with certain network configurations where packets are not properly routed when they are destined for the local network adapter. To fix that, set one more sysctl configuration:",
+      "text": "There's a weird situation that happens on certain machines with certain network configurations where packets are not properly routed when they are destined for the local network adapter. To fix that, set one more sysctl configuration:"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "sudo sysctl -w net.ipv4.conf.all.route_localnet=1",
+      "text": "sudo sysctl -w net.ipv4.conf.all.route_localnet=1",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Remember to make these sysctl configurations permanent:",
+      "text": "Remember to make these sysctl configurations permanent:"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "sudo mkdir /etc/sysctl.conf.d/\necho \"net.ipv4.ip_forward=1\" | sudo tee >> /etc/sysctl.conf.d/redirect.conf\necho \"net.ipv4.conf.all.route_localnet\" | sudo tee >> /etc/sysctl.conf.d/redirect.conf",
+      "text": "sudo mkdir /etc/sysctl.conf.d/\necho \"net.ipv4.ip_forward=1\" | sudo tee >> /etc/sysctl.conf.d/redirect.conf\necho \"net.ipv4.conf.all.route_localnet\" | sudo tee >> /etc/sysctl.conf.d/redirect.conf",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Why consider firewalld?",
+      "text": "Why consider firewalld?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I like firewalld because I can manage lots of settings for different firewall zones and allow access from one zone to another. It also allows me to put certain interfaces in trusted zones so they automatically get more access.",
+      "text": "I like firewalld because I can manage lots of settings for different firewall zones and allow access from one zone to another. It also allows me to put certain interfaces in trusted zones so they automatically get more access."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Another nice aspect about firewalld is that it supports iptables and nftables backends. You don't have to think about the differences between the backends. All of that is taken care of for you.",
+      "text": "Another nice aspect about firewalld is that it supports iptables and nftables backends. You don't have to think about the differences between the backends. All of that is taken care of for you."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Port redirections in firewalld",
+      "text": "Port redirections in firewalld",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Let's start by checking our default firewalld zone:",
+      "text": "Let's start by checking our default firewalld zone:"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ sudo firewall-cmd --list-all\nFedoraServer (default, active)\n  target: default\n  ingress-priority: 0\n  egress-priority: 0\n  icmp-block-inversion: no\n  interfaces: bond0 eno1 eno2\n  sources: \n  services: dhcpv6-client http https\n  ports: 51820/udp\n  protocols: \n  forward: yes\n  masquerade: yes\n  forward-ports:\n  source-ports: \n  icmp-blocks: \n  rich rules:",
+      "text": "$ sudo firewall-cmd --list-all\nFedoraServer (default, active)\n  target: default\n  ingress-priority: 0\n  egress-priority: 0\n  icmp-block-inversion: no\n  interfaces: bond0 eno1 eno2\n  sources: \n  services: dhcpv6-client http https\n  ports: 51820/udp\n  protocols: \n  forward: yes\n  masquerade: yes\n  forward-ports:\n  source-ports: \n  icmp-blocks: \n  rich rules:",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This output shows that my external network interfaces are attached to the zone and forwarding is already on in my case. If you see ",
+      "text": "This output shows that my external network interfaces are attached to the zone and forwarding is already on in my case. If you see "
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "forward: no",
+      "text": "forward: no",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " here, just run this command:",
+      "text": " here, just run this command:"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ sudo firewall-cmd --add-forward\nsuccess",
+      "text": "$ sudo firewall-cmd --add-forward\nsuccess",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Now firewalld will manage your ",
+      "text": "Now firewalld will manage your "
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "forwarding",
+      "text": "forwarding",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " sysctl variables for you on these interfaces. That's handy. \ud83d\ude09",
+      "text": " sysctl variables for you on these interfaces. That's handy. \ud83d\ude09"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Next, let's get the redirect working. We want to take external packets on port 80 and send them to 3000: on the local machine.",
+      "text": "Next, let's get the redirect working. We want to take external packets on port 80 and send them to 3000: on the local machine."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ sudo firewall-cmd \\\n    --add-forward-port=port=80:proto=tcp:toport=3000:toaddr=127.0.0.1\nsuccess",
+      "text": "$ sudo firewall-cmd \\\n    --add-forward-port=port=80:proto=tcp:toport=3000:toaddr=127.0.0.1\nsuccess",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "In this command, we told firewalld to take 80/tcp from the outside and send it to port 3000 on the local host (127.0.0.1). Let's double check our current configuration:",
+      "text": "In this command, we told firewalld to take 80/tcp from the outside and send it to port 3000 on the local host (127.0.0.1). Let's double check our current configuration:"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ sudo firewall-cmd --list-all\nFedoraServer (default, active)\n  target: default\n  ingress-priority: 0\n  egress-priority: 0\n  icmp-block-inversion: no\n  interfaces: bond0 eno1 eno2\n  sources: \n  services: dhcpv6-client http https\n  ports: 51820/udp\n  protocols: \n  forward: yes\n  masquerade: yes\n  forward-ports: \n\tport=80:proto=tcp:toport=3000:toaddr=127.0.0.1\n  source-ports: \n  icmp-blocks: \n  rich rules:",
+      "text": "$ sudo firewall-cmd --list-all\nFedoraServer (default, active)\n  target: default\n  ingress-priority: 0\n  egress-priority: 0\n  icmp-block-inversion: no\n  interfaces: bond0 eno1 eno2\n  sources: \n  services: dhcpv6-client http https\n  ports: 51820/udp\n  protocols: \n  forward: yes\n  masquerade: yes\n  forward-ports: \n\tport=80:proto=tcp:toport=3000:toaddr=127.0.0.1\n  source-ports: \n  icmp-blocks: \n  rich rules:",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Test a connection to port 80 with ",
+      "text": "Test a connection to port 80 with "
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "curl",
+      "text": "curl",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " and it should redirect to the service on port 3000.",
+      "text": " and it should redirect to the service on port 3000."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "\ud83d\udea8  If everything works, remember to save the firewalld configuration:",
+      "text": "\ud83d\udea8  If everything works, remember to save the firewalld configuration:"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ sudo firewall-cmd --runtime-to-permanent\nsuccess",
+      "text": "$ sudo firewall-cmd --runtime-to-permanent\nsuccess",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Extra credit",
+      "text": "Extra credit",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "We can inspect the nftables rules to see the firewall rules that firewalld set for us. The  Arch Linux nftables wiki page  is superb for looking up those commands.",
+      "text": "We can inspect the nftables rules to see the firewall rules that firewalld set for us. The  Arch Linux nftables wiki page  is superb for looking up those commands."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If we dump the current ruleset, we see the rule we created in firewalld:",
+      "text": "If we dump the current ruleset, we see the rule we created in firewalld:"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ sudo nft list ruleset\n---SNIP---\nchain nat_PRE_FedoraServer_allow {\n        meta nfproto ipv4 tcp dport 80 dnat ip to 127.0.0.1:3000\n}\n---SNIP---",
+      "text": "$ sudo nft list ruleset\n---SNIP---\nchain nat_PRE_FedoraServer_allow {\n        meta nfproto ipv4 tcp dport 80 dnat ip to 127.0.0.1:3000\n}\n---SNIP---",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

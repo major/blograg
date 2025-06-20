@@ -1,0 +1,1181 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 16116816022455905820,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2021/08/06/build-fedora-aws-images-in-github-actions-with-image-builder/",
+      "text": "/2021/08/06/build-fedora-aws-images-in-github-actions-with-image-builder/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "aws",
+      "text": "aws",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "cloud",
+      "text": "cloud",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "github",
+      "text": "github",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "imagebuilder",
+      "text": "imagebuilder",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "GitHub Actions  provides infrastructure for all kinds of amazing automation. Anyone can test software, build packages, deploy applications, or even publish a blog (like this one!) with a few snippets of YAML. I often use it to bundle my software in a container after testing it. \ud83e\udd16",
+      "text": "GitHub Actions  provides infrastructure for all kinds of amazing automation. Anyone can test software, build packages, deploy applications, or even publish a blog (like this one!) with a few snippets of YAML. I often use it to bundle my software in a container after testing it. \ud83e\udd16"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "One day, as I was working through another  Packer  configuration, I wondered if there was a way to build cloud images directly in GitHub Actions without building an instance in the cloud, making tons of changes, and snapshotting that image. Building a cloud image without booting it first seems like a cleaner way to work and it seems like it could be an easier workflow.",
+      "text": "One day, as I was working through another  Packer  configuration, I wondered if there was a way to build cloud images directly in GitHub Actions without building an instance in the cloud, making tons of changes, and snapshotting that image. Building a cloud image without booting it first seems like a cleaner way to work and it seems like it could be an easier workflow."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I worked on the  Image Builder  team at Red Hat last year and really enjoyed the way we could build an image anywhere and then ship that image anywhere. That gave me an idea: What if I could use Image Builder in GitHub Actions to ship images to AWS with all the customizations I want, perhaps even on a schedule? \ud83e\udd14",
+      "text": "I worked on the  Image Builder  team at Red Hat last year and really enjoyed the way we could build an image anywhere and then ship that image anywhere. That gave me an idea: What if I could use Image Builder in GitHub Actions to ship images to AWS with all the customizations I want, perhaps even on a schedule? \ud83e\udd14"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "What is Image Builder?",
+      "text": "What is Image Builder?",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The idea behind Image Builder is that anyone should be able to create images for various clouds and virtualization platforms with some simple software. Nobody should worry about how a particular cloud sets up cloud-init or what kernel configuration might be required to run in a particular cloud. Someone should do that for you and you should focus on what you need in your images to be successful at your task.",
+      "text": "The idea behind Image Builder is that anyone should be able to create images for various clouds and virtualization platforms with some simple software. Nobody should worry about how a particular cloud sets up cloud-init or what kernel configuration might be required to run in a particular cloud. Someone should do that for you and you should focus on what you need in your images to be successful at your task."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Image Builder has two parts:",
+      "text": "Image Builder has two parts:"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='osbuild:'>]",
+      "text": "[<RawText children='osbuild:'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='osbuild-composer:'>]",
+      "text": "[<RawText children='osbuild-composer:'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "You can get Image Builder on all current versions of Fedora, CentOS Stream, and Red Hat Enterprise Linux 8.3 or later. Install it via ",
+      "text": "You can get Image Builder on all current versions of Fedora, CentOS Stream, and Red Hat Enterprise Linux 8.3 or later. Install it via "
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "dnf",
+      "text": "dnf",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": ":",
+      "text": ":"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ sudo dnf install osbuild-composer\n$ sudo systemctl enable --now osbuild-composer.socket",
+      "text": "$ sudo dnf install osbuild-composer\n$ sudo systemctl enable --now osbuild-composer.socket",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If you love to DIY (do it yourself), read my  Build AWS images with Image Builder  blog post from last summer. From here on out, I'll only talk about consuming Image Builder via GitHub Actions.",
+      "text": "If you love to DIY (do it yourself), read my  Build AWS images with Image Builder  blog post from last summer. From here on out, I'll only talk about consuming Image Builder via GitHub Actions."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Challenges",
+      "text": "Challenges",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Building images in GitHub Actions comes with some challenges. For example, the only Linux choice is Ubuntu but Image Builder is not supported on Ubuntu currently. Luckily, we have containers!",
+      "text": "Building images in GitHub Actions comes with some challenges. For example, the only Linux choice is Ubuntu but Image Builder is not supported on Ubuntu currently. Luckily, we have containers!"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I started with a  repository to build containers with Image Builder included . The repository  builds containers  for Fedora 34, Fedora rawhide (the next Fedora release), and CentOS Stream 8. You can download these containers locally and run them, too:",
+      "text": "I started with a  repository to build containers with Image Builder included . The repository  builds containers  for Fedora 34, Fedora rawhide (the next Fedora release), and CentOS Stream 8. You can download these containers locally and run them, too:"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# With podman\n$ podman pull ghcr.io/major/imagebuilder:centos-stream8\n$ podman pull ghcr.io/major/imagebuilder:fedora-34\n$ podman pull ghcr.io/major/imagebuilder:fedora-rawhide\n# With docker\n$ docker pull ghcr.io/major/imagebuilder:centos-stream8\n$ docker pull ghcr.io/major/imagebuilder:fedora-34\n$ docker pull ghcr.io/major/imagebuilder:fedora-rawhide",
+      "text": "# With podman\n$ podman pull ghcr.io/major/imagebuilder:centos-stream8\n$ podman pull ghcr.io/major/imagebuilder:fedora-34\n$ podman pull ghcr.io/major/imagebuilder:fedora-rawhide\n# With docker\n$ docker pull ghcr.io/major/imagebuilder:centos-stream8\n$ docker pull ghcr.io/major/imagebuilder:fedora-34\n$ docker pull ghcr.io/major/imagebuilder:fedora-rawhide",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Image Builder relies on  systemd socket activation  and that means systemd must be running inside the container. For nearly all systems, that requires adding the ",
+      "text": "Image Builder relies on  systemd socket activation  and that means systemd must be running inside the container. For nearly all systems, that requires adding the "
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "--privileged",
+      "text": "--privileged",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " argument when you run the container and running the container as root. It's not ideal, but it works fine in GitHub Actions since the instance is thrown away immediately after the image build is done.",
+      "text": " argument when you run the container and running the container as root. It's not ideal, but it works fine in GitHub Actions since the instance is thrown away immediately after the image build is done."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "To run these containers on your local system, you may need something like this:",
+      "text": "To run these containers on your local system, you may need something like this:"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ sudo podman run --rm --detach --privileged --name imagebuilder \\\n    ghcr.io/major/imagebuilder:fedora-34",
+      "text": "$ sudo podman run --rm --detach --privileged --name imagebuilder \\\n    ghcr.io/major/imagebuilder:fedora-34",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Initially, I thought the single CPU on the Actions runner would make the build process too slow, but I was pleasantly surprised to see that most builds finished in 4-7 minutes. The network throughput from the runner to AWS was also quite fast. \ud83d\udc4f\ud83c\udffb",
+      "text": "Initially, I thought the single CPU on the Actions runner would make the build process too slow, but I was pleasantly surprised to see that most builds finished in 4-7 minutes. The network throughput from the runner to AWS was also quite fast. \ud83d\udc4f\ud83c\udffb"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Building images",
+      "text": "Building images",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I often need a Fedora container or VM for doing packaging work and testing other contributors' packages, so I set out to make a proof of concept for Fedora. My proof of concept is over in GitHub at  major/imagebuilder-fedora . You can fork my PoC and customize everything as you wish!",
+      "text": "I often need a Fedora container or VM for doing packaging work and testing other contributors' packages, so I set out to make a proof of concept for Fedora. My proof of concept is over in GitHub at  major/imagebuilder-fedora . You can fork my PoC and customize everything as you wish!"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The workflow follows a set of steps that I'll explain below.",
+      "text": "The workflow follows a set of steps that I'll explain below."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "First, we need AWS credentials so we can drop off the image at AWS. There is a basic template in TOML format  that contains placeholders for account credentials and other data:",
+      "text": "First, we need AWS credentials so we can drop off the image at AWS. There is a basic template in TOML format  that contains placeholders for account credentials and other data:"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "provider = \"aws\"\n\n[settings]\naccessKeyID = \"$AWS_ACCESS_KEY_ID\"\nsecretAccessKey = \"$AWS_SECRET_ACCESS_KEY\"\nbucket = \"$AWS_S3_BUCKET\"\nregion = \"$AWS_DEFAULT_REGION\"\nkey = \"$IMAGE_KEY\"",
+      "text": "provider = \"aws\"\n\n[settings]\naccessKeyID = \"$AWS_ACCESS_KEY_ID\"\nsecretAccessKey = \"$AWS_SECRET_ACCESS_KEY\"\nbucket = \"$AWS_S3_BUCKET\"\nregion = \"$AWS_DEFAULT_REGION\"\nkey = \"$IMAGE_KEY\"",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The  actions workflow  fills in that TOML file with information from GitHub Actions secrets and environment variables:",
+      "text": "The  actions workflow  fills in that TOML file with information from GitHub Actions secrets and environment variables:"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "- name: Fill in the AWS template\n  run: |\n    cat shared/aws-template.toml | envsubst > shared/aws-config.toml\n  env:\n    AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}\n    AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}\n    AWS_S3_BUCKET: major-aws-image-import\n    AWS_DEFAULT_REGION: us-east-1\n    IMAGE_KEY: \"${{ matrix.blueprint }}-${{ github.run_id }}\"",
+      "text": "- name: Fill in the AWS template\n  run: |\n    cat shared/aws-template.toml | envsubst > shared/aws-config.toml\n  env:\n    AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}\n    AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}\n    AWS_S3_BUCKET: major-aws-image-import\n    AWS_DEFAULT_REGION: us-east-1\n    IMAGE_KEY: \"${{ matrix.blueprint }}-${{ github.run_id }}\"",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "From there, the workflow runs the  build-image.sh  script and here's where the fun starts. The container starts up and we wait for the osbuild-composer API to respond:",
+      "text": "From there, the workflow runs the  build-image.sh  script and here's where the fun starts. The container starts up and we wait for the osbuild-composer API to respond:"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# Start the container.\necho \"\ud83d\ude80 Launching the container\"\nsudo podman run --rm --detach --privileged \\\n    -v $(pwd)/shared:/repo \\\n    --name $CONTAINER_NAME \\\n    $CONTAINER\n\n# Wait for composer to be fully running.\necho \"\u23f1 Waiting for composer to start\"\nfor i in `seq 1 10`; do\n    sleep 1\n    composer-cli status show && break\ndone",
+      "text": "# Start the container.\necho \"\ud83d\ude80 Launching the container\"\nsudo podman run --rm --detach --privileged \\\n    -v $(pwd)/shared:/repo \\\n    --name $CONTAINER_NAME \\\n    $CONTAINER\n\n# Wait for composer to be fully running.\necho \"\u23f1 Waiting for composer to start\"\nfor i in `seq 1 10`; do\n    sleep 1\n    composer-cli status show && break\ndone",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Once the API is up, we  push  the blueprint into osbuild-composer and tell it to solve the dependencies. The ",
+      "text": "Once the API is up, we  push  the blueprint into osbuild-composer and tell it to solve the dependencies. The "
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "depsolve",
+      "text": "depsolve",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " step is optional, but it can find problems with your package set fairly quickly so you can make adjustments.",
+      "text": " step is optional, but it can find problems with your package set fairly quickly so you can make adjustments."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "echo \"\ud83d\udce5 Pushing the blueprint\"\ncomposer-cli blueprints push /repo/${BLUEPRINT_NAME}.toml\n\necho \"\ud83d\udd0e Solving dependencies in the blueprint\"\ncomposer-cli blueprints depsolve ${BLUEPRINT_NAME} > /dev/null",
+      "text": "echo \"\ud83d\udce5 Pushing the blueprint\"\ncomposer-cli blueprints push /repo/${BLUEPRINT_NAME}.toml\n\necho \"\ud83d\udd0e Solving dependencies in the blueprint\"\ncomposer-cli blueprints depsolve ${BLUEPRINT_NAME} > /dev/null",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The blueprints are in the ",
+      "text": "The blueprints are in the "
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "shared",
+      "text": "shared",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " directory in the repository. For example, there's a  fedora-imagebuilder  blueprint that builds an image with Image Builder inside it so you can build an image with Image Builder with Image Builder. (This reminds me of a meme. \ud83e\udd2d)",
+      "text": " directory in the repository. For example, there's a  fedora-imagebuilder  blueprint that builds an image with Image Builder inside it so you can build an image with Image Builder with Image Builder. (This reminds me of a meme. \ud83e\udd2d)"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "name = \"fedora-imagebuilder\"\ndescription = \"Image Builder - rawhide\"\nversion = \"0.0.2\"\nmodules = []\ngroups = []\n\n[[packages]]\nname = \"cockpit-composer\"\nversion = \"*\"\n\n[[packages]]\nname = \"osbuild\"\nversion = \"*\"\n\n[[packages]]\nname = \"osbuild-composer\"\nversion = \"*\"\n\n[customizations.services]\nenabled = [\"cockpit.socket\", \"osbuild-composer.socket\"]",
+      "text": "name = \"fedora-imagebuilder\"\ndescription = \"Image Builder - rawhide\"\nversion = \"0.0.2\"\nmodules = []\ngroups = []\n\n[[packages]]\nname = \"cockpit-composer\"\nversion = \"*\"\n\n[[packages]]\nname = \"osbuild\"\nversion = \"*\"\n\n[[packages]]\nname = \"osbuild-composer\"\nversion = \"*\"\n\n[customizations.services]\nenabled = [\"cockpit.socket\", \"osbuild-composer.socket\"]",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Now we're ready to build the image (or in Image Builder terms,  start the compose ). After starting it, we extract the ID of the compose so we can monitor it while it runs.",
+      "text": "Now we're ready to build the image (or in Image Builder terms,  start the compose ). After starting it, we extract the ID of the compose so we can monitor it while it runs."
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "if [[ $SHIP_TO_AWS == \"yes\" ]]; then\n    echo \"\ud83d\udee0 Build the image and ship to AWS\"\n    composer-cli --json \\\n        compose start $BLUEPRINT_NAME ami $IMAGE_KEY /repo/aws-config.toml \\\n        | tee compose_start.json > /dev/null\nelse\n    echo \"\ud83d\udee0 Build the image\"\n    composer-cli --json compose start ${BLUEPRINT_NAME} ami | tee compose_start.json\nfi\n\nCOMPOSE_ID=$(jq -r '.body.build_id' compose_start.json)",
+      "text": "if [[ $SHIP_TO_AWS == \"yes\" ]]; then\n    echo \"\ud83d\udee0 Build the image and ship to AWS\"\n    composer-cli --json \\\n        compose start $BLUEPRINT_NAME ami $IMAGE_KEY /repo/aws-config.toml \\\n        | tee compose_start.json > /dev/null\nelse\n    echo \"\ud83d\udee0 Build the image\"\n    composer-cli --json compose start ${BLUEPRINT_NAME} ami | tee compose_start.json\nfi\n\nCOMPOSE_ID=$(jq -r '.body.build_id' compose_start.json)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I get a little nervous when I can't see any status updates, so I follow the systemd journal while the build runs. The script checks on the build frequently to see if it has finished. This process takes about 4-7 minutes in GitHub Actions for most of the images I've built.",
+      "text": "I get a little nervous when I can't see any status updates, so I follow the systemd journal while the build runs. The script checks on the build frequently to see if it has finished. This process takes about 4-7 minutes in GitHub Actions for most of the images I've built."
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# Watch the logs while the build runs.\npodman-exec journalctl -af &\n\nCOUNTER=0\nwhile true; do\n    composer-cli --json compose info \"${COMPOSE_ID}\" | tee compose_info.json > /dev/null\n    COMPOSE_STATUS=$(jq -r '.body.queue_status' compose_info.json)\n\n    # Print a status line once per minute.\n    if [ $((COUNTER%60)) -eq 0 ]; then\n        echo \"\ud83d\udca4 Waiting for the compose to finish at $(date +%H:%M:%S)\"\n    fi\n\n    # Is the compose finished?\n    if [[ $COMPOSE_STATUS != RUNNING ]] && [[ $COMPOSE_STATUS != WAITING ]]; then\n        echo \"\ud83c\udf89 Compose finished.\"\n        break\n    fi\n    sleep 1\n\n    let COUNTER=COUNTER+1\ndone",
+      "text": "# Watch the logs while the build runs.\npodman-exec journalctl -af &\n\nCOUNTER=0\nwhile true; do\n    composer-cli --json compose info \"${COMPOSE_ID}\" | tee compose_info.json > /dev/null\n    COMPOSE_STATUS=$(jq -r '.body.queue_status' compose_info.json)\n\n    # Print a status line once per minute.\n    if [ $((COUNTER%60)) -eq 0 ]; then\n        echo \"\ud83d\udca4 Waiting for the compose to finish at $(date +%H:%M:%S)\"\n    fi\n\n    # Is the compose finished?\n    if [[ $COMPOSE_STATUS != RUNNING ]] && [[ $COMPOSE_STATUS != WAITING ]]; then\n        echo \"\ud83c\udf89 Compose finished.\"\n        break\n    fi\n    sleep 1\n\n    let COUNTER=COUNTER+1\ndone",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Once the images finish building and they deploy to AWS (usally less than 15 minutes altogether), you should be able to see them inside your AWS account:",
+      "text": "Once the images finish building and they deploy to AWS (usally less than 15 minutes altogether), you should be able to see them inside your AWS account:"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [],
+      "orig": "AWS console showing AMIs registered by Image Builder in GitHub Actions",
+      "text": "AWS console showing AMIs registered by Image Builder in GitHub Actions"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aws-ami.png",
+      "text": "aws-ami.png"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [],
+      "orig": "AWS console showing snapshots imported by Image Builder in GitHub Actions",
+      "text": "AWS console showing snapshots imported by Image Builder in GitHub Actions"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aws-snapshot.png",
+      "text": "aws-snapshot.png"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Extra credit",
+      "text": "Extra credit",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Your automation doesn't have to end here! \ud83e\udd16",
+      "text": "Your automation doesn't have to end here! \ud83e\udd16"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "You can also add extra repositories to your compose with ",
+      "text": "You can also add extra repositories to your compose with "
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "composer-cli sources add...",
+      "text": "composer-cli sources add...",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " if you have custom repositories with your software or if you need packages from  RPMFusion .",
+      "text": " if you have custom repositories with your software or if you need packages from  RPMFusion ."
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "GitHub Actions could boot an instance from your image, run some basic tests, and apply tags to the AMI to make provisioning easier. I always like having an AMI with a ",
+      "text": "GitHub Actions could boot an instance from your image, run some basic tests, and apply tags to the AMI to make provisioning easier. I always like having an AMI with a "
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "latest",
+      "text": "latest",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " tag so I can deploy from the most recently built image whenever I need to test something.",
+      "text": " tag so I can deploy from the most recently built image whenever I need to test something."
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Photo credit:  Cameron Venti on Unsplash",
+      "text": "Photo credit:  Cameron Venti on Unsplash"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [],
+      "captions": [
+        {
+          "$ref": "#/texts/53"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [],
+      "captions": [
+        {
+          "$ref": "#/texts/55"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

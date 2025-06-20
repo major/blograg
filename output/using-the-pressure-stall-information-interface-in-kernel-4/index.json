@@ -1,0 +1,547 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 265075059093931643,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2019/01/27/using-the-pressure-stall-information-interface-in-kernel-4.20/",
+      "text": "/2019/01/27/using-the-pressure-stall-information-interface-in-kernel-4.20/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "performance",
+      "text": "performance",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Fedora 29 now has kernel 4.20 available and it has  lots of new features . One of the more interesting and easy to use features is the  pressure stall information  interface.",
+      "text": "Fedora 29 now has kernel 4.20 available and it has  lots of new features . One of the more interesting and easy to use features is the  pressure stall information  interface."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Load average",
+      "text": "Load average",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "We're all familiar with the  load average  measurement on Linux machines, even if the numbers do seem a bit cryptic:",
+      "text": "We're all familiar with the  load average  measurement on Linux machines, even if the numbers do seem a bit cryptic:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ w\n 10:55:46 up 11 min,  1 user,  load average: 0.42, 0.39, 0.26",
+      "text": "$ w\n 10:55:46 up 11 min,  1 user,  load average: 0.42, 0.39, 0.26",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The numbers denote how many processes were active over the last one, five and 15 minutes. In my case, I have a system with four cores. My numbers above show that less than one process was active in the last set of intervals. That means that my system isn't doing very much and processes are not waiting in the queue.",
+      "text": "The numbers denote how many processes were active over the last one, five and 15 minutes. In my case, I have a system with four cores. My numbers above show that less than one process was active in the last set of intervals. That means that my system isn't doing very much and processes are not waiting in the queue."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "However, if I begin compiling a kernel with eight threads (double my core count), the numbers change dramatically:",
+      "text": "However, if I begin compiling a kernel with eight threads (double my core count), the numbers change dramatically:"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ w\n 11:00:28 up 16 min,  1 user,  load average: 4.15, 1.89, 0.86",
+      "text": "$ w\n 11:00:28 up 16 min,  1 user,  load average: 4.15, 1.89, 0.86",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The one minute load average is now over four, which means some processes are waiting to be served on the system. This makes sense because I am using eight threads to compile a kernel on a system with four cores.",
+      "text": "The one minute load average is now over four, which means some processes are waiting to be served on the system. This makes sense because I am using eight threads to compile a kernel on a system with four cores."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "More detail",
+      "text": "More detail",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "We assume that the CPU is the limiting factor in the system since we know that compiling a kernel takes lots of CPU time. We can verify (and quantify) that with the pressure stall information available in 4.20.",
+      "text": "We assume that the CPU is the limiting factor in the system since we know that compiling a kernel takes lots of CPU time. We can verify (and quantify) that with the pressure stall information available in 4.20."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "We start by taking a look in ",
+      "text": "We start by taking a look in "
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/proc/pressure",
+      "text": "/proc/pressure",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": ":",
+      "text": ":"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ head /proc/pressure/*\n==> /proc/pressure/cpu <==\nsome avg10=71.37 avg60=57.25 avg300=23.83 total=100354487\n\n==> /proc/pressure/io <==\nsome avg10=0.17 avg60=0.13 avg300=0.24 total=8101378\nfull avg10=0.00 avg60=0.01 avg300=0.16 total=5866706\n\n==> /proc/pressure/memory <==\nsome avg10=0.00 avg60=0.00 avg300=0.00 total=0\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0",
+      "text": "$ head /proc/pressure/*\n==> /proc/pressure/cpu <==\nsome avg10=71.37 avg60=57.25 avg300=23.83 total=100354487\n\n==> /proc/pressure/io <==\nsome avg10=0.17 avg60=0.13 avg300=0.24 total=8101378\nfull avg10=0.00 avg60=0.01 avg300=0.16 total=5866706\n\n==> /proc/pressure/memory <==\nsome avg10=0.00 avg60=0.00 avg300=0.00 total=0\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "But what do these numbers mean? The shortest explanation is in the patch itself:",
+      "text": "But what do these numbers mean? The shortest explanation is in the patch itself:"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "PSI aggregates and reports the overall wallclock time in which the tasks in a system (or cgroup) wait for contended hardware resources.",
+      "text": "PSI aggregates and reports the overall wallclock time in which the tasks in a system (or cgroup) wait for contended hardware resources."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The numbers here are percentages, not time itself:",
+      "text": "The numbers here are percentages, not time itself:"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The averages give the percentage of walltime in which one or more tasks are delayed on the runqueue while another task has the CPU. They're recent averages over 10s, 1m, 5m windows, so you can tell short term trends from long term ones, similarly to the load average.",
+      "text": "The averages give the percentage of walltime in which one or more tasks are delayed on the runqueue while another task has the CPU. They're recent averages over 10s, 1m, 5m windows, so you can tell short term trends from long term ones, similarly to the load average."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "We can try to apply some I/O pressure by making a big tarball of a kernel source tree:",
+      "text": "We can try to apply some I/O pressure by making a big tarball of a kernel source tree:"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ head /proc/pressure/*\n==> /proc/pressure/cpu <==\nsome avg10=1.33 avg60=10.07 avg300=26.83 total=262389574\n\n==> /proc/pressure/io <==\nsome avg10=40.53 avg60=13.27 avg300=3.46 total=20451978\nfull avg10=37.44 avg60=12.40 avg300=3.21 total=16659637\n\n==> /proc/pressure/memory <==\nsome avg10=0.00 avg60=0.00 avg300=0.00 total=0\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0",
+      "text": "$ head /proc/pressure/*\n==> /proc/pressure/cpu <==\nsome avg10=1.33 avg60=10.07 avg300=26.83 total=262389574\n\n==> /proc/pressure/io <==\nsome avg10=40.53 avg60=13.27 avg300=3.46 total=20451978\nfull avg10=37.44 avg60=12.40 avg300=3.21 total=16659637\n\n==> /proc/pressure/memory <==\nsome avg10=0.00 avg60=0.00 avg300=0.00 total=0\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The CPU is still under some stress here, but the I/O is now the limiting factor.",
+      "text": "The CPU is still under some stress here, but the I/O is now the limiting factor."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The output also shows a ",
+      "text": "The output also shows a "
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "total=",
+      "text": "total=",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " number, and that is explained in the patch as well:",
+      "text": " number, and that is explained in the patch as well:"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The total= value gives the absolute stall time in microseconds. This allows detecting latency spikes that might be too short to sway the running averages. It also allows custom time averaging in case the 10s/1m/5m windows aren't adequate for the usecase (or are too coarse with future hardware).",
+      "text": "The total= value gives the absolute stall time in microseconds. This allows detecting latency spikes that might be too short to sway the running averages. It also allows custom time averaging in case the 10s/1m/5m windows aren't adequate for the usecase (or are too coarse with future hardware)."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The total number can be helpful for machines that run for a long time, especially when you graph them and you monitor them for trends.",
+      "text": "The total number can be helpful for machines that run for a long time, especially when you graph them and you monitor them for trends."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

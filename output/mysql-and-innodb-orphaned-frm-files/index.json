@@ -1,0 +1,191 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 7714554639878711352,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2007/09/01/mysql-and-innodb-orphaned-frm-files/",
+      "text": "/2007/09/01/mysql-and-innodb-orphaned-frm-files/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "database",
+      "text": "database",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If an .frm file that corresponds to an InnoDB table gets deleted without using DROP TABLE, MySQL won't let you create a new table with the same name. You'll find this in the error log:",
+      "text": "If an .frm file that corresponds to an InnoDB table gets deleted without using DROP TABLE, MySQL won't let you create a new table with the same name. You'll find this in the error log:"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "InnoDB: Error: table test/parent already exists in InnoDB internal\nInnoDB: data dictionary. Have you deleted the .frm file\nInnoDB: and not used DROP TABLE? Have you used DROP DATABASE\nInnoDB: for InnoDB tables in MySQL version <= 3.23.43?\nInnoDB: See the Restrictions section of the InnoDB manual.\nInnoDB: You can drop the orphaned table inside InnoDB by\nInnoDB: creating an InnoDB table with the same name in another\nInnoDB: database and moving the .frm file to the current database.\nInnoDB: Then MySQL thinks the table exists, and DROP TABLE will\nInnoDB: succeed.",
+      "text": "InnoDB: Error: table test/parent already exists in InnoDB internal\nInnoDB: data dictionary. Have you deleted the .frm file\nInnoDB: and not used DROP TABLE? Have you used DROP DATABASE\nInnoDB: for InnoDB tables in MySQL version <= 3.23.43?\nInnoDB: See the Restrictions section of the InnoDB manual.\nInnoDB: You can drop the orphaned table inside InnoDB by\nInnoDB: creating an InnoDB table with the same name in another\nInnoDB: database and moving the .frm file to the current database.\nInnoDB: Then MySQL thinks the table exists, and DROP TABLE will\nInnoDB: succeed.",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Luckily, the error tells you exactly how to fix the problem! Simply make a new database and create a table that matches your old .frm file. Stop MySQL, move the .frm file from the new database's directory back to the old database's directory. Start MySQL, and then run DROP TABLE like normal.",
+      "text": "Luckily, the error tells you exactly how to fix the problem! Simply make a new database and create a table that matches your old .frm file. Stop MySQL, move the .frm file from the new database's directory back to the old database's directory. Start MySQL, and then run DROP TABLE like normal."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This will remove the table from the ibdata tablespace file and allow you to create a new table with the same name.",
+      "text": "This will remove the table from the ibdata tablespace file and allow you to create a new table with the same name."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Further reading:",
+      "text": "Further reading:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "13.2.17.1. Troubleshooting InnoDB Data Dictionary Operations",
+      "text": "13.2.17.1. Troubleshooting InnoDB Data Dictionary Operations"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

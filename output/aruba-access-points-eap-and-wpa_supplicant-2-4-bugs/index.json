@@ -1,0 +1,223 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 10939259717319425603,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2015/07/17/aruba-access-points-eap-and-wpa_supplicant-2-4-bugs/",
+      "text": "/2015/07/17/aruba-access-points-eap-and-wpa_supplicant-2-4-bugs/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "networking",
+      "text": "networking",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I stumbled upon a strange bug at work one day and found I couldn't connect to our wireless access points any longer. After some investigation in the systemd journal, I found that my card associated with the access point but never went any further past that. It looked as if the authentication wasn't ever taking place.",
+      "text": "I stumbled upon a strange bug at work one day and found I couldn't connect to our wireless access points any longer. After some investigation in the systemd journal, I found that my card associated with the access point but never went any further past that. It looked as if the authentication wasn't ever taking place."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "A quick dig through my recent dnf update history didn't reveal much but then I found a tip from a coworker on an internal wiki that wpa_supplicant 2.4 has problems with certain Aruba wireless access points.",
+      "text": "A quick dig through my recent dnf update history didn't reveal much but then I found a tip from a coworker on an internal wiki that wpa_supplicant 2.4 has problems with certain Aruba wireless access points."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "There's an  open ticket on the Red Hat Bugzilla  about the issues in wpa_supplicant 2.4. The  changelog  for 2.4 is lengthy and it has plenty of mentions of  EAP ; Aruba's preferred protocol on certain networks. One of those changes could be related. A formal support case[^4] is open with Aruba as well.",
+      "text": "There's an  open ticket on the Red Hat Bugzilla  about the issues in wpa_supplicant 2.4. The  changelog  for 2.4 is lengthy and it has plenty of mentions of  EAP ; Aruba's preferred protocol on certain networks. One of those changes could be related. A formal support case[^4] is open with Aruba as well."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If this bug affects you, you can return to wpa supplicant-2.3-3.fc22.x86 64 easily by running:",
+      "text": "If this bug affects you, you can return to wpa supplicant-2.3-3.fc22.x86 64 easily by running:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "dnf downgrade wpa_supplicant",
+      "text": "dnf downgrade wpa_supplicant",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This isn't a good long-term solution, but it fixes the bug and gets you back online.",
+      "text": "This isn't a good long-term solution, but it fixes the bug and gets you back online."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "[^4]: The support case is no longer accessible as of May 2021.",
+      "text": "[^4]: The support case is no longer accessible as of May 2021."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

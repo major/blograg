@@ -1,0 +1,859 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/html",
+    "binary_hash": 5554666049134427739,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/groups/1"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        }
+      ],
+      "content_layer": "furniture",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/46"
+        }
+      ],
+      "content_layer": "body",
+      "name": "header-1",
+      "label": "section"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/texts/35"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        }
+      ],
+      "content_layer": "body",
+      "name": "ordered list",
+      "label": "ordered_list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/texts/40"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "text",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2015/11/10/talking-to-college-students-about-information-security/",
+      "text": "/2015/11/10/talking-to-college-students-about-information-security/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "advice",
+      "text": "advice",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "information security",
+      "text": "information security",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "presentation",
+      "text": "presentation",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "security",
+      "text": "security",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "text",
+      "prov": [],
+      "orig": "1",
+      "text": "1"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "text",
+      "prov": [],
+      "orig": "I was recently asked to talk to  Computer Information Systems  students at the  University of the Incarnate Word  here in San Antonio about information security in the business world. The students are learning plenty of the technical parts of information security and the complexity that comes from dealing with complicated computer networks. As we all know, it's the non-technical things that are often the most important in those tough situations.",
+      "text": "I was recently asked to talk to  Computer Information Systems  students at the  University of the Incarnate Word  here in San Antonio about information security in the business world. The students are learning plenty of the technical parts of information security and the complexity that comes from dealing with complicated computer networks. As we all know, it's the non-technical things that are often the most important in those tough situations."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "text",
+      "prov": [],
+      "orig": "My talk, \"Five lessons I learned about information security\", lasted for about 30 minutes and then I took plenty of technical and non-technical questions from the students. I've embedded the slides below and I'll go through the lessons within the post here.",
+      "text": "My talk, \"Five lessons I learned about information security\", lasted for about 30 minutes and then I took plenty of technical and non-technical questions from the students. I've embedded the slides below and I'll go through the lessons within the post here."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Lesson 1: Information security requires lots of communication and relationships",
+      "text": "Lesson 1: Information security requires lots of communication and relationships",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Most of what information security professionals do involves talking about security. There are exceptions to this, however. For example, if your role is highly technical in nature and you're expected to monitor a network or disassemble malware, then you might be spending the majority of your time in front of a screen doing highly technical work.",
+      "text": "Most of what information security professionals do involves talking about security. There are exceptions to this, however. For example, if your role is highly technical in nature and you're expected to monitor a network or disassemble malware, then you might be spending the majority of your time in front of a screen doing highly technical work."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "For the rest of us, we spend a fair amount of time talking about what needs to be secured, why it needs to be secured, and the best way to do it. Information security professionals shouldn't be alone in this work, though. They must find ways to get the business bought in and involved.",
+      "text": "For the rest of us, we spend a fair amount of time talking about what needs to be secured, why it needs to be secured, and the best way to do it. Information security professionals shouldn't be alone in this work, though. They must find ways to get the business bought in and involved."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "I talked about three general buckets of mindsets that the students might find in an average organization:",
+      "text": "I talked about three general buckets of mindsets that the students might find in an average organization:"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\"Security is mission critical for us and it's how we maintain our customers' trust.\"",
+      "text": "\"Security is mission critical for us and it's how we maintain our customers' trust.\""
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "These are your  allies  in the business and they must be \"read into\" what's happening in the business. Share intelligence with them regularly and highlight their accomplishments to your leadership  as well as theirs .",
+      "text": "These are your  allies  in the business and they must be \"read into\" what's happening in the business. Share intelligence with them regularly and highlight their accomplishments to your leadership  as well as theirs ."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\"Security is really important, but we have lots of features to release. We will get to it.\"",
+      "text": "\"Security is really important, but we have lots of features to release. We will get to it.\""
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "These people often see security as a bolt-on, value added product feature. Share methods of building in security from the start and  make it easier  for them to build secure products. Also, this is a great opportunity to create  technical standards  as opposed to policies (more on that later).",
+      "text": "These people often see security as a bolt-on, value added product feature. Share methods of building in security from the start and  make it easier  for them to build secure products. Also, this is a great opportunity to create  technical standards  as opposed to policies (more on that later)."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\"I opened this weird file from someone I didn't know and now my computer is acting funny.\"",
+      "text": "\"I opened this weird file from someone I didn't know and now my computer is acting funny.\""
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "There's no way to sugar-coat this one: this group is your  biggest risk . Take steps to prevent them from making mistakes in the first place and regularly send them high-level security communications. Your goal here is to send them information that is easy to read and keeps security  front of mind  for them without inundating them with details.",
+      "text": "There's no way to sugar-coat this one: this group is your  biggest risk . Take steps to prevent them from making mistakes in the first place and regularly send them high-level security communications. Your goal here is to send them information that is easy to read and keeps security  front of mind  for them without inundating them with details."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Lesson 2: Spend the majority of your time and money on detection and response capabilities",
+      "text": "Lesson 2: Spend the majority of your time and money on detection and response capabilities",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "This is something that my coworker Aaron and I talk about in our presentation called  \"The New Normal\" . Make it easier to detect an intruder and respond to the intrusion. Don't allow them to quietly sneak through your network undetected. Force them to be a bull in a china shop. If they cross a network segment, make sure there's an alert for that. Ensure that they have to make a bunch of noise if they wander around in your network.",
+      "text": "This is something that my coworker Aaron and I talk about in our presentation called  \"The New Normal\" . Make it easier to detect an intruder and respond to the intrusion. Don't allow them to quietly sneak through your network undetected. Force them to be a bull in a china shop. If they cross a network segment, make sure there's an alert for that. Ensure that they have to make a bunch of noise if they wander around in your network."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "When something is detected, you need to do two things well: respond to the incident and communicate with the rest of the organization about it.",
+      "text": "When something is detected, you need to do two things well: respond to the incident and communicate with the rest of the organization about it."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "The response portion requires you to have plenty of information available when it's time to assess a situation. Ensure that logs and alerts are funneled into centralized systems that can aggregate and report on the events in real time (or close to real time). Take that information and understand where the intruders are, what data is at risk, and how severe the situation really is.",
+      "text": "The response portion requires you to have plenty of information available when it's time to assess a situation. Ensure that logs and alerts are funneled into centralized systems that can aggregate and report on the events in real time (or close to real time). Take that information and understand where the intruders are, what data is at risk, and how severe the situation really is."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "From there, find a way to alert the rest of the organization. The United States Department of Defense uses  DEFCON  for this. They can communicate the severity of a situation very quickly to thousands of people by using a simple number designation. That number tells everyone what to do, no matter where they are. Everyone has an idea of the gravity of the situation without needing to know a ton of details.",
+      "text": "From there, find a way to alert the rest of the organization. The United States Department of Defense uses  DEFCON  for this. They can communicate the severity of a situation very quickly to thousands of people by using a simple number designation. That number tells everyone what to do, no matter where they are. Everyone has an idea of the gravity of the situation without needing to know a ton of details."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "This is also a good opportunity to share limited intelligence with your allies in the business. They may be able to go into battle with you and get additional information that will help the incident response process.",
+      "text": "This is also a good opportunity to share limited intelligence with your allies in the business. They may be able to go into battle with you and get additional information that will help the incident response process."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Lesson 3: People, process, and technology must be in sync",
+      "text": "Lesson 3: People, process, and technology must be in sync",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/texts/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Everything revolves around this principle. If your processes and technology are great, but your people never follow the process and work around the technology, you have a problem. Great technology and smart people without process is also a dangerous mix. Just like a three-legged stool, all three legs must be strong to keep it stable. The same goes for any business.",
+      "text": "Everything revolves around this principle. If your processes and technology are great, but your people never follow the process and work around the technology, you have a problem. Great technology and smart people without process is also a dangerous mix. Just like a three-legged stool, all three legs must be strong to keep it stable. The same goes for any business."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/texts/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "When an incident happens, don't talk about people, what could have been done, or vendors. Why? Because no matter how delicate you are, you will eventually \"call the baby ugly\". Calling the baby ugly means that you insult someone's work or character without intending to, and then that person withdraws from the process or approaches the situation defensively. That won't lead to a good outcome and will usually create plenty of animosity.",
+      "text": "When an incident happens, don't talk about people, what could have been done, or vendors. Why? Because no matter how delicate you are, you will eventually \"call the baby ugly\". Calling the baby ugly means that you insult someone's work or character without intending to, and then that person withdraws from the process or approaches the situation defensively. That won't lead to a good outcome and will usually create plenty of animosity."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/texts/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Assume the worst will happen again and make your processes and technologies better over time. This is an iterative process, so keep in mind that a thousand baby steps will always deliver more value than one giant step.",
+      "text": "Assume the worst will happen again and make your processes and technologies better over time. This is an iterative process, so keep in mind that a thousand baby steps will always deliver more value than one giant step."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Lesson 4: Set standards, not policies",
+      "text": "Lesson 4: Set standards, not policies",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/texts/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Policies are inevitable. We get them from our compliance programs, our governments, and other companies. They're required, but they're horribly annoying. Have you ever read through  ISO 27002  or  NIST 800-53 ? If you have, you know what I mean. Don't get me started on  PCI-DSS 3.1 , either.",
+      "text": "Policies are inevitable. We get them from our compliance programs, our governments, and other companies. They're required, but they're horribly annoying. Have you ever read through  ISO 27002  or  NIST 800-53 ? If you have, you know what I mean. Don't get me started on  PCI-DSS 3.1 , either."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/texts/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "What's my point? Policies are dry. They're long. They're often chock-full of requirements that are really difficult to translate into technical changes. There's no better way to clear out a room of technical people than to say \"Let's talk about PCI-DSS.\" (Seriously, try this at least once. It's amazing.)",
+      "text": "What's my point? Policies are dry. They're long. They're often chock-full of requirements that are really difficult to translate into technical changes. There's no better way to clear out a room of technical people than to say \"Let's talk about PCI-DSS.\" (Seriously, try this at least once. It's amazing.)"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/texts/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "You need to use the right kind of psychology to get the results you want. Threatening someone with policy is like getting someone to go in for a root canal. They know they need it, but they know how much it will hurt.",
+      "text": "You need to use the right kind of psychology to get the results you want. Threatening someone with policy is like getting someone to go in for a root canal. They know they need it, but they know how much it will hurt."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/texts/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Instead, create technical standards that are actionable and valuable. If you know you need to meet PCI-DSS and ISO 27002 for your business, create a technical standard that allows someone in the business to design systems that meet both compliance programs. Make it actionable and then show them the results of their labor when they're done.",
+      "text": "Instead, create technical standards that are actionable and valuable. If you know you need to meet PCI-DSS and ISO 27002 for your business, create a technical standard that allows someone in the business to design systems that meet both compliance programs. Make it actionable and then show them the results of their labor when they're done."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/texts/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Also, give them a method for checking their systems against the standard in an automated way. Nobody wants  The Spanish Inquisition  showing up at the end of a project to say \"Hey, you missed something!\". They'll be able to check their progress along the way.",
+      "text": "Also, give them a method for checking their systems against the standard in an automated way. Nobody wants  The Spanish Inquisition  showing up at the end of a project to say \"Hey, you missed something!\". They'll be able to check their progress along the way."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/groups/2"
+        },
+        {
+          "$ref": "#/texts/39"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Lesson 5: Don't take security incidents personally",
+      "text": "Lesson 5: Don't take security incidents personally",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/texts/35"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "This one is still a challenge for me. Security incidents will happen. They certainly won't be fun. However, when the smoke clears, look at the positive aspects of the incident. These situations highlight two critical things:",
+      "text": "This one is still a challenge for me. Security incidents will happen. They certainly won't be fun. However, when the smoke clears, look at the positive aspects of the incident. These situations highlight two critical things:"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Room for improvement (and perhaps additional spending)",
+      "text": "Room for improvement (and perhaps additional spending)",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "What attackers really want from your business",
+      "text": "What attackers really want from your business",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/texts/35"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Take the time to understand what type of attacker you just dealt with and what their target really was. If a casual script kiddie found a weakness, you obviously need to invest in more security basics, like network segmentation and hardening standards. If a nation state or some other type of determined attacker found a weakness, you need to understand what they were trying to get. This can be challenging and sometimes third parties can help give an unbiased view.",
+      "text": "Take the time to understand what type of attacker you just dealt with and what their target really was. If a casual script kiddie found a weakness, you obviously need to invest in more security basics, like network segmentation and hardening standards. If a nation state or some other type of determined attacker found a weakness, you need to understand what they were trying to get. This can be challenging and sometimes third parties can help give an unbiased view."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/groups/3"
+        },
+        {
+          "$ref": "#/texts/45"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Required reading",
+      "text": "Required reading",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/texts/40"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "There are three really helpful books I mentioned in the presentation:",
+      "text": "There are three really helpful books I mentioned in the presentation:"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='Switch: How to Change Things When Change is Hard'>]",
+      "text": "[<RawText children='Switch: How to Change Things When Change is Hard'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='Winning With People'>]",
+      "text": "[<RawText children='Winning With People'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='The Phoenix Project'>]",
+      "text": "[<RawText children='The Phoenix Project'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/texts/40"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "These three books help you figure out how to make change, build relationships, and work around challenges in IT.",
+      "text": "These three books help you figure out how to make change, build relationships, and work around challenges in IT."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Final thoughts",
+      "text": "Final thoughts",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/texts/46"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "If you haven't been to your local university to meet the next generation of professionals, please take the time to do so. There's nothing more exciting than talking with people who have plenty of knowledge and are ready to embrace something new. In addition, they yearn to talk to people who have more experience in the real world.",
+      "text": "If you haven't been to your local university to meet the next generation of professionals, please take the time to do so. There's nothing more exciting than talking with people who have plenty of knowledge and are ready to embrace something new. In addition, they yearn to talk to people who have more experience in the real world."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/texts/46"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Thanks to John Champion from UIW for asking me to do a talk! It was a fun experience and I can't wait to do the next one.",
+      "text": "Thanks to John Champion from UIW for asking me to do a talk! It was a fun experience and I can't wait to do the next one."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

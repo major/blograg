@@ -1,0 +1,400 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 8348583794218466654,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/19"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2010/08/25/a-nerds-perspective-on-cloud-hosting/",
+      "text": "/2010/08/25/a-nerds-perspective-on-cloud-hosting/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "advice",
+      "text": "advice",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "cloud",
+      "text": "cloud",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "hosting",
+      "text": "hosting",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "opinion",
+      "text": "opinion",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "sysadmin",
+      "text": "sysadmin",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Let's go ahead and get this out of the way:  The following post contains only my personal opinions. These are not the opinions of my employer and should not be considered as such.",
+      "text": "Let's go ahead and get this out of the way:  The following post contains only my personal opinions. These are not the opinions of my employer and should not be considered as such."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The term \"cloud hosting\" has become more popular over the past few years and it seems like everyone is talking about it. I'm often asked by customers and coworkers about what cloud hosting really is. Where does traditional dedicated hosting end and cloud begin? Do they overlap? Who needs cloud and who doesn't?",
+      "text": "The term \"cloud hosting\" has become more popular over the past few years and it seems like everyone is talking about it. I'm often asked by customers and coworkers about what cloud hosting really is. Where does traditional dedicated hosting end and cloud begin? Do they overlap? Who needs cloud and who doesn't?"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "You can't talk about cloud hosting without defining it first. When I think of \"cloud\", these are the things that come to mind:",
+      "text": "You can't talk about cloud hosting without defining it first. When I think of \"cloud\", these are the things that come to mind:"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "quickly add/remove resources with little or no lead time",
+      "text": "quickly add/remove resources with little or no lead time",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "hosting platforms that allow for quick provisioning of highly available systems",
+      "text": "hosting platforms that allow for quick provisioning of highly available systems",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "self-service adjustment of tangible and intangible resources that normally require human intervention",
+      "text": "self-service adjustment of tangible and intangible resources that normally require human intervention",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "That list may seem a bit vague at first, but try to let it sink in just a bit. Hosting applications in a \"cloud\" shouldn't mean that you must have a virtual instance running on Xen, KVM or VMWare, and it shouldn't mean that you must have an account with Rackspace Cloud, Amazon EC2, or Microsoft Azure. It means that your hosting operations are highly automated and you can rapidly allocate and deallocate resources for the requirements of your current projects.",
+      "text": "That list may seem a bit vague at first, but try to let it sink in just a bit. Hosting applications in a \"cloud\" shouldn't mean that you must have a virtual instance running on Xen, KVM or VMWare, and it shouldn't mean that you must have an account with Rackspace Cloud, Amazon EC2, or Microsoft Azure. It means that your hosting operations are highly automated and you can rapidly allocate and deallocate resources for the requirements of your current projects."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Consider this: a customer of a traditional dedicated hosting provider decides to take their applications and host them on one VPS at a leading commercial provider. That provider allows the customer to spin up new VM's in a matter of minutes and re-image the VM's whenever they like. Is that cloud hosting?  I'd say yes - even if it's one single virtual instance.  That customer has moved from a hosting system with manual interventions and extended lead times to a system where they have instant control over their resources.",
+      "text": "Consider this: a customer of a traditional dedicated hosting provider decides to take their applications and host them on one VPS at a leading commercial provider. That provider allows the customer to spin up new VM's in a matter of minutes and re-image the VM's whenever they like. Is that cloud hosting?  I'd say yes - even if it's one single virtual instance.  That customer has moved from a hosting system with manual interventions and extended lead times to a system where they have instant control over their resources."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "It's not possible to talk about what cloud is without talking about what it isn't.",
+      "text": "It's not possible to talk about what cloud is without talking about what it isn't."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='Cloud is not infinitely scalable.'>]",
+      "text": "[<RawText children='Cloud is not infinitely scalable.'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children=\"Cloud isn't right for everybody.\">]",
+      "text": "[<RawText children=\"Cloud isn't right for everybody.\">]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children=\"Cloud doesn't mean VPS. VPS doesn't mean cloud.\">]",
+      "text": "[<RawText children=\"Cloud doesn't mean VPS. VPS doesn't mean cloud.\">]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "It's important to remember that cloud hosting is a marketing term. As for the technology of cloud, it's what you make of it. You should be looking to reduce costs, solidify availability and increase performance every day. If the ideals of cloud hosting help you do that, it might be the right option for you.",
+      "text": "It's important to remember that cloud hosting is a marketing term. As for the technology of cloud, it's what you make of it. You should be looking to reduce costs, solidify availability and increase performance every day. If the ideals of cloud hosting help you do that, it might be the right option for you."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

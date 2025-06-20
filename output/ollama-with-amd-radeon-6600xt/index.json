@@ -1,0 +1,768 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 4283485833985811770,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "author: Major Hayden date: '2024-08-08' The local LLM easy button, ollama, won't work with the AMD Radeon 6600 XT out of the box. The fix is a quick one! tags: ",
+      "text": "author: Major Hayden date: '2024-08-08' The local LLM easy button, ollama, won't work with the AMD Radeon 6600 XT out of the box. The fix is a quick one! tags: "
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "amd",
+      "text": "amd",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ollama",
+      "text": "ollama",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "linux",
+      "text": "linux",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I'm splitting time between two roles at work now and one of the roles has a heavy focus on  LLMs . Much like many of you, I've given ChatGPT a try with questions from time to time. I've also used GitHub Copilot within Visual Studio Code.",
+      "text": "I'm splitting time between two roles at work now and one of the roles has a heavy focus on  LLMs . Much like many of you, I've given ChatGPT a try with questions from time to time. I've also used GitHub Copilot within Visual Studio Code."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "They're all great, but I was really hoping to run something locally on my machine at home.",
+      "text": "They're all great, but I was really hoping to run something locally on my machine at home."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Then I stumbled upon a great post on All Things Open titled \" Build a local AI co-pilot using IBM Granite Code, Ollama, and Continue \" that started me down a path with  ollama . The ollama project gets you started with a local LLM and makes it easy to serve it for other applications to use.",
+      "text": "Then I stumbled upon a great post on All Things Open titled \" Build a local AI co-pilot using IBM Granite Code, Ollama, and Continue \" that started me down a path with  ollama . The ollama project gets you started with a local LLM and makes it easy to serve it for other applications to use."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "It's so slow \ud83d\udc0c",
+      "text": "It's so slow \ud83d\udc0c",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "When I first began connecting vscode to ollama, I noticed that the responses were incredibly slow. A quick check with  btop  showed that my CPU was maxed out at 100% utilization and my GPU was entirely idle. That's not good.",
+      "text": "When I first began connecting vscode to ollama, I noticed that the responses were incredibly slow. A quick check with  btop  showed that my CPU was maxed out at 100% utilization and my GPU was entirely idle. That's not good."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "My first thought was to check the system journal with ",
+      "text": "My first thought was to check the system journal with "
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "sudo journalctl --boot -u ollama",
+      "text": "sudo journalctl --boot -u ollama",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": ". That gets me all the messages from ollama since I last booted the machine.",
+      "text": ". That gets me all the messages from ollama since I last booted the machine."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "source=images.go:781 msg=\"total blobs: 0\"\nsource=images.go:788 msg=\"total unused blobs removed: 0\"\nsource=routes.go:1155 msg=\"Listening on 127.0.0.1:11434 (version 0.3.4)\"\nsource=payload.go:30 msg=\"extracting embedded files\" dir=/tmp/ollama1586759388/runners\nsource=payload.go:44 msg=\"Dynamic LLM libraries [cpu_avx cpu_avx2 cuda_v11 rocm_v60102 cpu]\"\nsource=gpu.go:204 msg=\"looking for compatible GPUs\"\nsource=amd_linux.go:59 msg=\"ollama recommends running the https://www.amd.com/en/support/linux-drivers\" error=\"amdgpu version file missing: /sys/module/amdgpu/version stat /sys/module/amdgpu/version: no such file or directory\"\nsource=amd_linux.go:340 msg=\"amdgpu is not supported\" gpu=0 gpu_type=gfx1032 library=/usr/lib64 supported_types=\"[gfx1030 gfx1100 gfx1101 gfx1102]\"\nsource=amd_linux.go:342 msg=\"See https://github.com/ollama/ollama/blob/main/docs/gpu.md#overrides for HSA_OVERRIDE_GFX_VERSION usage\"\nsource=amd_linux.go:360 msg=\"no compatible amdgpu devices detected\"",
+      "text": "source=images.go:781 msg=\"total blobs: 0\"\nsource=images.go:788 msg=\"total unused blobs removed: 0\"\nsource=routes.go:1155 msg=\"Listening on 127.0.0.1:11434 (version 0.3.4)\"\nsource=payload.go:30 msg=\"extracting embedded files\" dir=/tmp/ollama1586759388/runners\nsource=payload.go:44 msg=\"Dynamic LLM libraries [cpu_avx cpu_avx2 cuda_v11 rocm_v60102 cpu]\"\nsource=gpu.go:204 msg=\"looking for compatible GPUs\"\nsource=amd_linux.go:59 msg=\"ollama recommends running the https://www.amd.com/en/support/linux-drivers\" error=\"amdgpu version file missing: /sys/module/amdgpu/version stat /sys/module/amdgpu/version: no such file or directory\"\nsource=amd_linux.go:340 msg=\"amdgpu is not supported\" gpu=0 gpu_type=gfx1032 library=/usr/lib64 supported_types=\"[gfx1030 gfx1100 gfx1101 gfx1102]\"\nsource=amd_linux.go:342 msg=\"See https://github.com/ollama/ollama/blob/main/docs/gpu.md#overrides for HSA_OVERRIDE_GFX_VERSION usage\"\nsource=amd_linux.go:360 msg=\"no compatible amdgpu devices detected\"",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "A couple of things in the output stood out to me:",
+      "text": "A couple of things in the output stood out to me:"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "stat /sys/module/amdgpu/version: no such file or directory",
+      "text": "stat /sys/module/amdgpu/version: no such file or directory",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "msg=\"amdgpu is not supported\" gpu=0 gpu_type=gfx1032 library=/usr/lib64 supported_types=\"[gfx1030 gfx1100 gfx1101 gfx1102]\"",
+      "text": "msg=\"amdgpu is not supported\" gpu=0 gpu_type=gfx1032 library=/usr/lib64 supported_types=\"[gfx1030 gfx1100 gfx1101 gfx1102]\"",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\"See https://github.com/ollama/ollama/blob/main/docs/gpu.md#overrides for HSA_OVERRIDE_GFX_VERSION usage\"",
+      "text": "\"See https://github.com/ollama/ollama/blob/main/docs/gpu.md#overrides for HSA_OVERRIDE_GFX_VERSION usage\"",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Sure enough, the version was missing:",
+      "text": "Sure enough, the version was missing:"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "> stat /sys/module/amdgpu/version\nstat: cannot statx '/sys/module/amdgpu/version': No such file or directory",
+      "text": "> stat /sys/module/amdgpu/version\nstat: cannot statx '/sys/module/amdgpu/version': No such file or directory",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "And my AMD GPU is indeed an AMD Navi 23 chipset (gfx1032):",
+      "text": "And my AMD GPU is indeed an AMD Navi 23 chipset (gfx1032):"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "> lspci | grep -i VGA\n0f:00.0 VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Navi 23 [Radeon RX 6600/6600 XT/6600M] (rev c7)",
+      "text": "> lspci | grep -i VGA\n0f:00.0 VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Navi 23 [Radeon RX 6600/6600 XT/6600M] (rev c7)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I went over to the  linked overrides documentation  to figure out what ",
+      "text": "I went over to the  linked overrides documentation  to figure out what "
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "HSA_OVERRIDE_GFX_VERSION",
+      "text": "HSA_OVERRIDE_GFX_VERSION",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " is all about:",
+      "text": " is all about:"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Ollama leverages the AMD ROCm library, which does not support all AMD GPUs. In some cases you can force the system to try to use a similar LLVM target that is close. For example The Radeon RX 5400 is gfx1034 (also known as 10.3.4) however, ROCm does not currently support this target. The closest support is gfx1030. You can use the environment variable HSA_OVERRIDE_GFX_VERSION with x.y.z syntax. So for example, to force the system to run on the RX 5400, you would set HSA_OVERRIDE_GFX_VERSION=\"10.3.0\" as an environment variable for the server. If you have an unsupported AMD GPU you can experiment using the list of supported types below.",
+      "text": "Ollama leverages the AMD ROCm library, which does not support all AMD GPUs. In some cases you can force the system to try to use a similar LLVM target that is close. For example The Radeon RX 5400 is gfx1034 (also known as 10.3.4) however, ROCm does not currently support this target. The closest support is gfx1030. You can use the environment variable HSA_OVERRIDE_GFX_VERSION with x.y.z syntax. So for example, to force the system to run on the RX 5400, you would set HSA_OVERRIDE_GFX_VERSION=\"10.3.0\" as an environment variable for the server. If you have an unsupported AMD GPU you can experiment using the list of supported types below."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "The fix",
+      "text": "The fix",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The docs recommended setting ",
+      "text": "The docs recommended setting "
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "HSA_OVERRIDE_GFX_VERSION=\"10.3.0\"",
+      "text": "HSA_OVERRIDE_GFX_VERSION=\"10.3.0\"",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " to see if my card will work. Let's edit the systemd unit file for ollama to drop in some additional configuration:",
+      "text": " to see if my card will work. Let's edit the systemd unit file for ollama to drop in some additional configuration:"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "> sudo systemctl edit ollama.service",
+      "text": "> sudo systemctl edit ollama.service",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "An editor appeared with text in it:",
+      "text": "An editor appeared with text in it:"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "### Editing /etc/systemd/system/ollama.service.d/override.conf\n### Anything between here and the comment below will become the contents of the drop-in file\n\n### Edits below this comment will be discarded",
+      "text": "### Editing /etc/systemd/system/ollama.service.d/override.conf\n### Anything between here and the comment below will become the contents of the drop-in file\n\n### Edits below this comment will be discarded",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "So I added the suggested override along with the path to my AMD ROCm directory:",
+      "text": "So I added the suggested override along with the path to my AMD ROCm directory:"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "### Editing /etc/systemd/system/ollama.service.d/override.conf\n### Anything between here and the comment below will become the contents of the drop-in file\n\n[Service]\nEnvironment=\"HSA_OVERRIDE_GFX_VERSION=10.3.0\"\nEnvironment=\"ROCM_PATH=/opt/rocm\"\n\n### Edits below this comment will be discarded",
+      "text": "### Editing /etc/systemd/system/ollama.service.d/override.conf\n### Anything between here and the comment below will become the contents of the drop-in file\n\n[Service]\nEnvironment=\"HSA_OVERRIDE_GFX_VERSION=10.3.0\"\nEnvironment=\"ROCM_PATH=/opt/rocm\"\n\n### Edits below this comment will be discarded",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Then I can tell systemd to reload the unit and restart ollama:",
+      "text": "Then I can tell systemd to reload the unit and restart ollama:"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "> sudo systemctl daemon-reload\n> sudo systemctl stop ollama\n> sudo systemctl start ollama",
+      "text": "> sudo systemctl daemon-reload\n> sudo systemctl stop ollama\n> sudo systemctl start ollama",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Back to the system journal for another look:",
+      "text": "Back to the system journal for another look:"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "source=amd_linux.go:348 msg=\"skipping rocm gfx compatibility check\" HSA_OVERRIDE_GFX_VERSION=10.3.0\nsource=types.go:105 msg=\"inference compute\" id=0 library=rocm compute=gfx1032 driver=0.0 name=1002:73ff total=\"8.0 GiB\" available=\"5.9 GiB\"",
+      "text": "source=amd_linux.go:348 msg=\"skipping rocm gfx compatibility check\" HSA_OVERRIDE_GFX_VERSION=10.3.0\nsource=types.go:105 msg=\"inference compute\" id=0 library=rocm compute=gfx1032 driver=0.0 name=1002:73ff total=\"8.0 GiB\" available=\"5.9 GiB\"",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Success! \ud83c\udf89",
+      "text": "Success! \ud83c\udf89"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Giving it another try",
+      "text": "Giving it another try",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I went back to vscode and tried some code completions, but they were only slightly faster than using the CPU. Each time I'd wait for completion, I'd watch btop and the GPU would spike, then the CPU, then the GPU spikes again, and so on.",
+      "text": "I went back to vscode and tried some code completions, but they were only slightly faster than using the CPU. Each time I'd wait for completion, I'd watch btop and the GPU would spike, then the CPU, then the GPU spikes again, and so on."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "After talking with a coworker, it looks like my Radeon 6600 XT is great for games, but it lacks the RAM needed to load the model into the GPU. \ud83d\ude2d From what I've read, 24GB is the suggested minimum and that's the largest amount of RAM you'll find in most GeForce/Radeon consumer graphics cards.",
+      "text": "After talking with a coworker, it looks like my Radeon 6600 XT is great for games, but it lacks the RAM needed to load the model into the GPU. \ud83d\ude2d From what I've read, 24GB is the suggested minimum and that's the largest amount of RAM you'll find in most GeForce/Radeon consumer graphics cards."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

@@ -1,0 +1,405 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 12026556165550959883,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2010/12/02/keep-web-servers-in-sync-with-drbd-and-ocfs2/",
+      "text": "/2010/12/02/keep-web-servers-in-sync-with-drbd-and-ocfs2/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "command line",
+      "text": "command line",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "filesystem",
+      "text": "filesystem",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "kernel",
+      "text": "kernel",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "network",
+      "text": "network",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "sysadmin",
+      "text": "sysadmin",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The guide to redundant cloud hosting that I wrote recently will need some adjustments as I've fallen hard for the performance and reliability of DRBD and OCFS2. As a few of my sites were gaining in popularity, I noticed that GlusterFS simply couldn't keep up. High I/O latency and broken replication threw a wrench into my love affair with GlusterFS and I knew there had to be a better option.",
+      "text": "The guide to redundant cloud hosting that I wrote recently will need some adjustments as I've fallen hard for the performance and reliability of DRBD and OCFS2. As a few of my sites were gaining in popularity, I noticed that GlusterFS simply couldn't keep up. High I/O latency and broken replication threw a wrench into my love affair with GlusterFS and I knew there had to be a better option."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I've shared my configuration with my coworkers and I've received many good questions about it. Let's get to the Q&A:",
+      "text": "I've shared my configuration with my coworkers and I've received many good questions about it. Let's get to the Q&A:"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "How does the performance compare to GlusterFS?",
+      "text": "How does the performance compare to GlusterFS?"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "On Gluster's best days, the data throughput speeds were quite good, but the latency to retrieve the data was often much too high. Page loads on this site were taking upwards of 3-4 seconds with GlusterFS latency accounting for well over 75% of the delays. For small files, GlusterFS's performance was about 20-25x slower than accessing the disk natively. The performance hit for DRBD and OCFS2 is usually between 1.5-3x for small files and difficult to notice for large file transfers.",
+      "text": "On Gluster's best days, the data throughput speeds were quite good, but the latency to retrieve the data was often much too high. Page loads on this site were taking upwards of 3-4 seconds with GlusterFS latency accounting for well over 75% of the delays. For small files, GlusterFS's performance was about 20-25x slower than accessing the disk natively. The performance hit for DRBD and OCFS2 is usually between 1.5-3x for small files and difficult to notice for large file transfers."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Couldn't you keep the data separate and then sync it with rsync?",
+      "text": "Couldn't you keep the data separate and then sync it with rsync?"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Everyone knows that rsync can be a resource consuming monster and it seems wasteful to call rsync via a cron job to keep my data in sync. There are some periods of the day where the actual data on the web root rarely changes. There are other times where it changes rapidly and I'd end up with nodes out of sync for a few minutes.",
+      "text": "Everyone knows that rsync can be a resource consuming monster and it seems wasteful to call rsync via a cron job to keep my data in sync. There are some periods of the day where the actual data on the web root rarely changes. There are other times where it changes rapidly and I'd end up with nodes out of sync for a few minutes."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "To get the just-in-time synchronization that I want, I'd have to run rsync at least once a minute. If the data isn't changing over a long period, rsync would end up crushing the disk and consuming CPU for no reason. DRBD only syncs data when data changes. Also, all reads with DRBD are done locally. This makes is a highly efficient and effective choice for instant synchronization.",
+      "text": "To get the just-in-time synchronization that I want, I'd have to run rsync at least once a minute. If the data isn't changing over a long period, rsync would end up crushing the disk and consuming CPU for no reason. DRBD only syncs data when data changes. Also, all reads with DRBD are done locally. This makes is a highly efficient and effective choice for instant synchronization."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Why OCFS2? Isn't that overkill?",
+      "text": "Why OCFS2? Isn't that overkill?"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "When you use DRBD in dual-primary mode, it's functionally equivalent to having a raw storage device (like a SAN) mounted in two places. If you threw an ext4 filesystem onto a LUN on your SAN and then mounted it on two different servers, you'd be in bad shape very quickly. Non-clustered filesystems like ext3 or ext4 can't handle being mounted in more than one environment.",
+      "text": "When you use DRBD in dual-primary mode, it's functionally equivalent to having a raw storage device (like a SAN) mounted in two places. If you threw an ext4 filesystem onto a LUN on your SAN and then mounted it on two different servers, you'd be in bad shape very quickly. Non-clustered filesystems like ext3 or ext4 can't handle being mounted in more than one environment."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "OCFS2 is built primarily to be mounted in more than one place and it comes with its own distributed locking manager (DLM). The configuration files for OCFS2 are extremely simple and you mount it like any other filesystem. It's been part of the mainline Linux kernel since 2.6.19.",
+      "text": "OCFS2 is built primarily to be mounted in more than one place and it comes with its own distributed locking manager (DLM). The configuration files for OCFS2 are extremely simple and you mount it like any other filesystem. It's been part of the mainline Linux kernel since 2.6.19."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "What happens when you lose one of the nodes?",
+      "text": "What happens when you lose one of the nodes?"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The configuration shown above can operate with just one node in an emergency. When the failed node comes back online, DRBD will resync the block device and you can mount the OCFS2 filesystem as you normally would.",
+      "text": "The configuration shown above can operate with just one node in an emergency. When the failed node comes back online, DRBD will resync the block device and you can mount the OCFS2 filesystem as you normally would."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "You're using an Oracle product? Really?",
+      "text": "You're using an Oracle product? Really?"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "You've got me there. I'm not a fan of how they treat the open source community with regards to some of their projects, but the OCFS2 filesystem is robust, free, and it meets my needs.",
+      "text": "You've got me there. I'm not a fan of how they treat the open source community with regards to some of their projects, but the OCFS2 filesystem is robust, free, and it meets my needs."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Where's the how-to?",
+      "text": "Where's the how-to?"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "It's coming soon! Stay tuned.",
+      "text": "It's coming soon! Stay tuned."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

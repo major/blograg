@@ -1,0 +1,265 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 17328336581363639169,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2008/06/11/mysql-cant-drop-one-or-more-of-the-requested-users/",
+      "text": "/2008/06/11/mysql-cant-drop-one-or-more-of-the-requested-users/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "mysql",
+      "text": "mysql",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "security",
+      "text": "security",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "MySQL has quite a few cryptic error messages, and this one is one of the best:",
+      "text": "MySQL has quite a few cryptic error messages, and this one is one of the best:"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "mysql> DROP USER 'forums'@'db1.myserver.com';\nERROR 1268 (HY000): Can't drop one or more of the requested users",
+      "text": "mysql> DROP USER 'forums'@'db1.myserver.com';\nERROR 1268 (HY000): Can't drop one or more of the requested users",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Naturally, I was quite interested to know why MySQL wasn't going to allow me to remove this user. There was nothing special about the user, but then again, this wasn't a server that I personally managed, so I wasn't sure what kind of configuration was in place.",
+      "text": "Naturally, I was quite interested to know why MySQL wasn't going to allow me to remove this user. There was nothing special about the user, but then again, this wasn't a server that I personally managed, so I wasn't sure what kind of configuration was in place."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "It's always a good idea to get your bearings, so I checked the current grants:",
+      "text": "It's always a good idea to get your bearings, so I checked the current grants:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "mysql> SHOW GRANTS FOR 'forums'@'db1.myserver.com';\n+----------------------------------------------------------------------+\n| Grants for forums@db1.myserver.com                                   |\n+----------------------------------------------------------------------+\n| GRANT USAGE ON *.* TO 'forums'@'db1.myserver.com' WITH GRANT OPTION  |\n+----------------------------------------------------------------------+\n1 row in set (0.00 sec)",
+      "text": "mysql> SHOW GRANTS FOR 'forums'@'db1.myserver.com';\n+----------------------------------------------------------------------+\n| Grants for forums@db1.myserver.com                                   |\n+----------------------------------------------------------------------+\n| GRANT USAGE ON *.* TO 'forums'@'db1.myserver.com' WITH GRANT OPTION  |\n+----------------------------------------------------------------------+\n1 row in set (0.00 sec)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The GRANT OPTION was causing my grief. It was the only privilege that the user had on the server. I revoked the privilege and attempted to drop the user yet again:",
+      "text": "The GRANT OPTION was causing my grief. It was the only privilege that the user had on the server. I revoked the privilege and attempted to drop the user yet again:"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "mysql> REVOKE GRANT OPTION ON *.* FROM 'forums'@'db1.myserver.com';\nQuery OK, 0 rows affected (0.00 sec)\nmysql> DROP USER 'forums'@'db1.myserver.com';\nQuery OK, 0 rows affected (0.00 sec)",
+      "text": "mysql> REVOKE GRANT OPTION ON *.* FROM 'forums'@'db1.myserver.com';\nQuery OK, 0 rows affected (0.00 sec)\nmysql> DROP USER 'forums'@'db1.myserver.com';\nQuery OK, 0 rows affected (0.00 sec)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "It's key to remember that revoking the GRANT OPTION is a completely separate process. Revoking ALL PRIVILEGES doesn't include GRANT OPTION, so be sure to specify it separately:",
+      "text": "It's key to remember that revoking the GRANT OPTION is a completely separate process. Revoking ALL PRIVILEGES doesn't include GRANT OPTION, so be sure to specify it separately:"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "mysql> REVOKE ALL PRIVILEGES, GRANT OPTION ON *.* FROM 'user'@'host';",
+      "text": "mysql> REVOKE ALL PRIVILEGES, GRANT OPTION ON *.* FROM 'user'@'host';",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

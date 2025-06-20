@@ -1,0 +1,321 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/markdown",
+    "binary_hash": 6182092818669978716,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2015/06/18/improving-lxc-template-security/",
+      "text": "/2015/06/18/improving-lxc-template-security/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "centos",
+      "text": "centos",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "containers",
+      "text": "containers",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "development",
+      "text": "development",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "fedora",
+      "text": "fedora",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "lxc",
+      "text": "lxc",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "red hat",
+      "text": "red hat",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "security",
+      "text": "security",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "ubuntu",
+      "text": "ubuntu",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I've been getting involved with the  Fedora Security Team  lately and we're working as a group to crush security bugs that affect Fedora, CentOS (via EPEL) and Red Hat Enterprise Linux (via EPEL). During some of this work, I stumbled upon a  group of Red Hat Bugzilla tickets  talking about LXC template security.",
+      "text": "I've been getting involved with the  Fedora Security Team  lately and we're working as a group to crush security bugs that affect Fedora, CentOS (via EPEL) and Red Hat Enterprise Linux (via EPEL). During some of this work, I stumbled upon a  group of Red Hat Bugzilla tickets  talking about LXC template security."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The gist of the problem is that there's a wide variance in how users and user credentials are handled by the different LXC templates. An  inventory of the current situation  revealed some horrifying problems with many OS templates.",
+      "text": "The gist of the problem is that there's a wide variance in how users and user credentials are handled by the different LXC templates. An  inventory of the current situation  revealed some horrifying problems with many OS templates."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Many of the templates set an  awful  default root password, like rooter, toor, or root. Some of the others create a regular user with sudo privileges and give it a default, predictable password unless the user specifies otherwise.",
+      "text": "Many of the templates set an  awful  default root password, like rooter, toor, or root. Some of the others create a regular user with sudo privileges and give it a default, predictable password unless the user specifies otherwise."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "There are some bright spots, though. Fedora and CentOS templates will accept a root password from the user during the build and set a randomized password for the root user if a password isn't specified. Ubuntu Cloud takes another approach by locking out the root user and requiring cloud-init configuration data to configure the root account.",
+      "text": "There are some bright spots, though. Fedora and CentOS templates will accept a root password from the user during the build and set a randomized password for the root user if a password isn't specified. Ubuntu Cloud takes another approach by locking out the root user and requiring cloud-init configuration data to configure the root account."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I kicked off a  mailing list thread  and wrote a  terrible pull request  to get things underway. St\u00e9phane Graber requested that all templates use a shared script to handle users and credentials via standardized environment variables and command line arguments. In addition, all passwords for users (regular or root) should be empty with password-less logins disabled. Those are some reasonable requests and I'm working on a shell script that's easy to import into LXC templates.",
+      "text": "I kicked off a  mailing list thread  and wrote a  terrible pull request  to get things underway. St\u00e9phane Graber requested that all templates use a shared script to handle users and credentials via standardized environment variables and command line arguments. In addition, all passwords for users (regular or root) should be empty with password-less logins disabled. Those are some reasonable requests and I'm working on a shell script that's easy to import into LXC templates."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "There's also a push to remove sshd from all LXC templates by default, but I'm hoping to keep that one tabled until the credentials issue is solved.",
+      "text": "There's also a push to remove sshd from all LXC templates by default, but I'm hoping to keep that one tabled until the credentials issue is solved."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If you'd like to help out with the effort, let me know! I'll probably get some code up onto Github soon and as for comments.",
+      "text": "If you'd like to help out with the effort, let me know! I'll probably get some code up onto Github soon and as for comments."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

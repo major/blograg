@@ -1,0 +1,257 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/html",
+    "binary_hash": 14864079696942421966,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "aktt_notify_twitter:",
+      "text": "aktt_notify_twitter:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "false",
+      "text": "false",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2009/01/01/cpan-automatically-install-dependencies-without-confirmation/",
+      "text": "/2009/01/01/cpan-automatically-install-dependencies-without-confirmation/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "perl",
+      "text": "perl",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "I enjoy using  CPAN  because it installs Perl modules with a simple interface, fetches dependencies, and warns you when things are about to end badly. However, one of my biggest complaints is when it constantly confirms installing dependencies. While this is an annoyance if you have to install a module with many dependencies (or if you're working with CPAN on a new server), you can tell CPAN to automatically confirm the installation of dependencies.",
+      "text": "I enjoy using  CPAN  because it installs Perl modules with a simple interface, fetches dependencies, and warns you when things are about to end badly. However, one of my biggest complaints is when it constantly confirms installing dependencies. While this is an annoyance if you have to install a module with many dependencies (or if you're working with CPAN on a new server), you can tell CPAN to automatically confirm the installation of dependencies."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "To do this, simply bring up a CPAN shell:",
+      "text": "To do this, simply bring up a CPAN shell:"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "perl -MCPAN -e shell",
+      "text": "perl -MCPAN -e shell",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Run these two commands in the CPAN shell:",
+      "text": "Run these two commands in the CPAN shell:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "o conf prerequisites_policy follow\no conf commit",
+      "text": "o conf prerequisites_policy follow\no conf commit",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Now, exit the CPAN shell, start the CPAN shell, and try to install a module that you need. All dependencies will be automatically confirmed, downloaded and installed.",
+      "text": "Now, exit the CPAN shell, start the CPAN shell, and try to install a module that you need. All dependencies will be automatically confirmed, downloaded and installed."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "The first line sets your dependency policy to  follow  rather than  ask  (the default). The second line tells CPAN to write the changes to your user's CPAN configuration file to make them permanent.",
+      "text": "The first line sets your dependency policy to  follow  rather than  ask  (the default). The second line tells CPAN to write the changes to your user's CPAN configuration file to make them permanent."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "A big thanks goes out to  Lee Hambley  for the  fix .",
+      "text": "A big thanks goes out to  Lee Hambley  for the  fix ."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "WARNING:   There are some occasions where you would not want to install dependencies from CPAN. Examples of these situations are when your operating system's package manager (yum, up2date, apt-get, aptitude, etc) has installed Perl modules in an alternative location or when you have manually installed modules in a non-standard way. I'm a Red Hat guy, and these problems rarely arise on Red Hat/Fedora systems, but your mileage may vary.",
+      "text": "WARNING:   There are some occasions where you would not want to install dependencies from CPAN. Examples of these situations are when your operating system's package manager (yum, up2date, apt-get, aptitude, etc) has installed Perl modules in an alternative location or when you have manually installed modules in a non-standard way. I'm a Red Hat guy, and these problems rarely arise on Red Hat/Fedora systems, but your mileage may vary."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

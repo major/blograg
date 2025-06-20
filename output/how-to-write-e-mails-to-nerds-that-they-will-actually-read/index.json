@@ -1,0 +1,680 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.4.0",
+  "name": "index",
+  "origin": {
+    "mimetype": "text/html",
+    "binary_hash": 11344994226382907513,
+    "filename": "index.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/groups/1"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "furniture",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/2"
+        }
+      ],
+      "content_layer": "body",
+      "name": "header-1",
+      "label": "section"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/33"
+        }
+      ],
+      "content_layer": "body",
+      "name": "header-2",
+      "label": "section"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/texts/20"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "text",
+      "prov": [],
+      "orig": "aliases:",
+      "text": "aliases:"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "/2011/08/26/how-to-write-e-mails-to-nerds-that-they-will-actually-read/",
+      "text": "/2011/08/26/how-to-write-e-mails-to-nerds-that-they-will-actually-read/",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "advice",
+      "text": "advice",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [],
+      "orig": "sysadmin",
+      "text": "sysadmin",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "text",
+      "prov": [],
+      "orig": "Standard e-mail etiquette is pretty obvious to most of us and if you're good at it, you'll get your point across more often without stepping on toes or causing unneeded confusion. Simple things like identifying yourself well, avoiding sarcasm and adding context to statements are all extremely beneficial. However, writing e-mails to highly technical developers, system administrators, and engineers is a little trickier. These types of e-mail recipients don't really enjoy handling e-mail (inbound or outbound) and most find that e-mail is just a speed bump which interrupts their productivity.",
+      "text": "Standard e-mail etiquette is pretty obvious to most of us and if you're good at it, you'll get your point across more often without stepping on toes or causing unneeded confusion. Simple things like identifying yourself well, avoiding sarcasm and adding context to statements are all extremely beneficial. However, writing e-mails to highly technical developers, system administrators, and engineers is a little trickier. These types of e-mail recipients don't really enjoy handling e-mail (inbound or outbound) and most find that e-mail is just a speed bump which interrupts their productivity."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "text",
+      "prov": [],
+      "orig": "If you're not technical, you might be asking yourself:  \"I need to e-mail technical people and they need to take what I say seriously? How do I do it?\"  It's not impossible, but the rest of this blog post should help.",
+      "text": "If you're not technical, you might be asking yourself:  \"I need to e-mail technical people and they need to take what I say seriously? How do I do it?\"  It's not impossible, but the rest of this blog post should help."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Brevity is key",
+      "text": "Brevity is key",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/texts/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "There are some people who thrive on receiving e-mail, sending e-mail, and talking about e-mail that they've sent or received. Most nerds don't feel this way.",
+      "text": "There are some people who thrive on receiving e-mail, sending e-mail, and talking about e-mail that they've sent or received. Most nerds don't feel this way."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/texts/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "You need to get your point across concisely and succinctly so that your e-mail is seen as less of a distraction. Avoid adding a lot of context where it isn't needed and try to summarize business needs and processes unless details are absolutely critical. If you need to send your e-mail to multiple recipients and some of those recipients need additional details, provide an abstract at the beginning of the e-mail.",
+      "text": "You need to get your point across concisely and succinctly so that your e-mail is seen as less of a distraction. Avoid adding a lot of context where it isn't needed and try to summarize business needs and processes unless details are absolutely critical. If you need to send your e-mail to multiple recipients and some of those recipients need additional details, provide an abstract at the beginning of the e-mail."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Learn the ways of TL;DR",
+      "text": "Learn the ways of TL;DR",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "I've heard quite a few conversations like these around the office:",
+      "text": "I've heard quite a few conversations like these around the office:"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Nerd 1: \"Did you get that e-mail from [name here]?\"",
+      "text": "Nerd 1: \"Did you get that e-mail from [name here]?\""
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Nerd 2: \"The six page one with four PDF files attached?\"",
+      "text": "Nerd 2: \"The six page one with four PDF files attached?\""
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Nerd 1: \"Yeah. That one.\"",
+      "text": "Nerd 1: \"Yeah. That one.\""
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Nerd 2: \"TL;DR dude, seriously. Did you read it?\"",
+      "text": "Nerd 2: \"TL;DR dude, seriously. Did you read it?\""
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Nerd 1: \"Nah. I might read it later.\"",
+      "text": "Nerd 1: \"Nah. I might read it later.\""
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "If someone's ever mentioned \"TL;DR\" (too long; didn't read) when your e-mail was mentioned, don't fret. It's a quick fix. Just add a quick summary to the top of your e-mail prefaced with \"TL;DR\". Provide a really brief summary (bulleted lists are a plus) of your e-mail in the section and then start your e-mail right afterwards. Here's an example:",
+      "text": "If someone's ever mentioned \"TL;DR\" (too long; didn't read) when your e-mail was mentioned, don't fret. It's a quick fix. Just add a quick summary to the top of your e-mail prefaced with \"TL;DR\". Provide a really brief summary (bulleted lists are a plus) of your e-mail in the section and then start your e-mail right afterwards. Here's an example:"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "TL;DR\n  * next software release deploys Monday\n  * two bugs remaining to fix\n  * we will get started at 8AM Saturday, yeaaaaah",
+      "text": "TL;DR\n  * next software release deploys Monday\n  * two bugs remaining to fix\n  * we will get started at 8AM Saturday, yeaaaaah",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Missed the joke?  Head over to Wikipedia .",
+      "text": "Missed the joke?  Head over to Wikipedia ."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "If one of the summary points interests a recipient, they'll scan your e-mail for the pertinent sections. Some recipients may only need to see what's in the summary and they won't bother reading the remainder. Either way, the effectiveness of your e-mail increases by leaps and bounds.",
+      "text": "If one of the summary points interests a recipient, they'll scan your e-mail for the pertinent sections. Some recipients may only need to see what's in the summary and they won't bother reading the remainder. Either way, the effectiveness of your e-mail increases by leaps and bounds."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/pictures/0"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Plain text",
+      "text": "Plain text",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/texts/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Users of mutt prefer plain text e-mails",
+      "text": "Users of mutt prefer plain text e-mails"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/texts/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "If you only take away one thing from this entire post, let it be this section. Writing e-mails in plain text is \\*highly recommended\\* if you want a technical person to take your e-mail seriously. Many system administrators I know use",
+      "text": "If you only take away one thing from this entire post, let it be this section. Writing e-mails in plain text is \\*highly recommended\\* if you want a technical person to take your e-mail seriously. Many system administrators I know use"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/texts/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "mutt , a text-based console-only e-mail reader. Click the thumbnail at the right and imagine what your e-mails would look like if they're full of images, stylesheets and background images. Better yet, imagine if your entire e-mail was in an image and the e-mail itself had no text.",
+      "text": "mutt , a text-based console-only e-mail reader. Click the thumbnail at the right and imagine what your e-mails would look like if they're full of images, stylesheets and background images. Better yet, imagine if your entire e-mail was in an image and the e-mail itself had no text."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/texts/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Here are a few more tips under this category:",
+      "text": "Here are a few more tips under this category:"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Don't use Outlook stationery.",
+      "text": "Don't use Outlook stationery.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Never send e-mails with an image as the e-mail itself.",
+      "text": "Never send e-mails with an image as the e-mail itself.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='No Comic Sans at any time. Period.'>]",
+      "text": "[<RawText children='No Comic Sans at any time. Period.'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Avoid graphical e-mail signatures (more on that in a moment).",
+      "text": "Avoid graphical e-mail signatures (more on that in a moment).",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "E-mail signatures",
+      "text": "E-mail signatures",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/texts/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Brevity can definitely be applied to e-mail signatures, too. How many times have you seen e-mails that end like this:",
+      "text": "Brevity can definitely be applied to e-mail signatures, too. How many times have you seen e-mails that end like this:"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/texts/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "Frank Frankelton MCSE, RHCSA, RHCE, CCNA, RHCA, LPIC-3, Ph.D., M.D., Esq., CMDBA\nSystems Adminstrator Extraordinaire, Database Administrator, All-around great guy\nOffice: 210-555-1212\nMobile: 210-555-1213\nOther Mobile: 210-555-1214\nFax: 210-555-1215\nVOIP: 210-555-1216\nAIM: frankeltonia\nTwitter: @frankyfrank\nJabber: frankfurter@frankeltonisinthehouse.com\nBig Company, Inc",
+      "text": "Frank Frankelton MCSE, RHCSA, RHCE, CCNA, RHCA, LPIC-3, Ph.D., M.D., Esq., CMDBA\nSystems Adminstrator Extraordinaire, Database Administrator, All-around great guy\nOffice: 210-555-1212\nMobile: 210-555-1213\nOther Mobile: 210-555-1214\nFax: 210-555-1215\nVOIP: 210-555-1216\nAIM: frankeltonia\nTwitter: @frankyfrank\nJabber: frankfurter@frankeltonisinthehouse.com\nBig Company, Inc",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/texts/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "You might think that nobody would ever send out e-mails with a signature like the one above, but I've seen some that are actually worse. Keep the signature short and only put in the information that people really need to know. Generally, your name and title or department is sufficient for e-mail signatures (unless your local/federal laws require otherwise). Always preface it with a double dash \"-\" on a line by itself to signify that the remainder of the e-mail is the signature.",
+      "text": "You might think that nobody would ever send out e-mails with a signature like the one above, but I've seen some that are actually worse. Keep the signature short and only put in the information that people really need to know. Generally, your name and title or department is sufficient for e-mail signatures (unless your local/federal laws require otherwise). Always preface it with a double dash \"-\" on a line by itself to signify that the remainder of the e-mail is the signature."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Summary",
+      "text": "Summary",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/texts/33"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Keep it simple, keep it brief, and keep it relevant. While the suggestions above might not apply to every business or every person, following the suggestions will increase the effectiveness of your e-mails and ensure that your voice is heard on the other end.",
+      "text": "Keep it simple, keep it brief, and keep it relevant. While the suggestions above might not apply to every business or every person, following the suggestions will increase the effectiveness of your e-mails and ensure that your voice is heard on the other end."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/texts/33"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "I'm really interested to hear your comments. Are there some suggestions you have that I missed in the post? Did I make some suggestions which didn't make sense or don't apply to you? Let me know!",
+      "text": "I'm really interested to hear your comments. Are there some suggestions you have that I missed in the post? Did I make some suggestions which didn't make sense or don't apply to you? Let me know!"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/texts/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}
