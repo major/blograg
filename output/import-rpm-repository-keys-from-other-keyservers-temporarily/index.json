@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 6041913612101959949,
-    "filename": "index.md"
+    "binary_hash": 1570574049872242986,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,22 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
       },
       {
         "$ref": "#/texts/7"
@@ -70,163 +85,16 @@
       },
       {
         "$ref": "#/texts/22"
-      },
-      {
-        "$ref": "#/texts/23"
-      },
-      {
-        "$ref": "#/texts/24"
-      },
-      {
-        "$ref": "#/texts/25"
-      },
-      {
-        "$ref": "#/texts/26"
-      },
-      {
-        "$ref": "#/texts/27"
-      },
-      {
-        "$ref": "#/texts/28"
-      },
-      {
-        "$ref": "#/texts/29"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2017/09/20/import-rpm-repository-keys-from-other-keyservers-temporarily/",
-      "text": "/2017/09/20/import-rpm-repository-keys-from-other-keyservers-temporarily/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "ansible",
-      "text": "ansible",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "centos",
-      "text": "centos",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "openstack",
-      "text": "openstack",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "rpm",
-      "text": "rpm",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -238,7 +106,7 @@
       "text": "I've been working through some patches to  OpenStack-Ansible  lately to optimize how we configure yum repositories in our deployments. During that work, I ran into some issues where pgp.mit.edu was returning 500 errors for some requests to retrieve GPG keys."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -250,7 +118,7 @@
       "text": "Ansible was returning this error:"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -266,7 +134,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -278,7 +146,7 @@
       "text": "How does the "
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -294,7 +162,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -306,7 +174,7 @@
       "text": " command know which keyserver to use? Let's use the "
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -322,7 +190,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -334,7 +202,7 @@
       "text": " argument to show how it is configured:"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -350,7 +218,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -362,7 +230,7 @@
       "text": "How do we change this value temporarily to test a GPG key retrieval from a different server? There's an argument for that as well: "
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -378,7 +246,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -390,7 +258,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -406,7 +274,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -418,7 +286,7 @@
       "text": "We can assemble that on the command line to set a different keyserver temporarily:"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -434,7 +302,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -446,7 +314,7 @@
       "text": "Let's verify that our new key is in place:"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -462,7 +330,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -474,7 +342,7 @@
       "text": "Success!"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -486,7 +354,7 @@
       "text": "If you want to override the value permanently, create a "
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -502,7 +370,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -514,7 +382,7 @@
       "text": " file and add the following line to it:"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -530,7 +398,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },

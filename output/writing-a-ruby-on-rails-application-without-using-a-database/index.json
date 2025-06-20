@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/html",
-    "binary_hash": 15587633793206613417,
-    "filename": "index.md"
+    "binary_hash": 12159418092662794895,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,16 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
       },
       {
         "$ref": "#/texts/5"
@@ -52,123 +61,16 @@
       },
       {
         "$ref": "#/texts/14"
-      },
-      {
-        "$ref": "#/texts/15"
-      },
-      {
-        "$ref": "#/texts/16"
-      },
-      {
-        "$ref": "#/texts/17"
-      },
-      {
-        "$ref": "#/texts/18"
-      },
-      {
-        "$ref": "#/texts/19"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "aktt_notify_twitter:",
-      "text": "aktt_notify_twitter:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "false",
-      "text": "false",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2009/01/09/writing-a-ruby-on-rails-application-without-using-a-database/",
-      "text": "/2009/01/09/writing-a-ruby-on-rails-application-without-using-a-database/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "database",
-      "text": "database",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "ruby on rails",
-      "text": "ruby on rails",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -180,7 +82,7 @@
       "text": "Some of you may be wondering &#8220;why would you want to use Rails without a database?&#8221; There are several situations why a database would not be needed, and I've run into quite a few of them. One of the specific cases was when I wanted to write a web interface for an application that only had a REST interface available to the public."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -192,7 +94,7 @@
       "text": "If you find yourself needing to write a Rails application without a database, just do the following:"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -204,7 +106,7 @@
       "text": "For Rails 1.0 and up:"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -220,7 +122,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -232,7 +134,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -248,7 +150,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -264,7 +166,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -280,7 +182,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -292,7 +194,7 @@
       "text": "For Rails 2.1 and up:  Comment out both of the lines that begin with"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -308,7 +210,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -320,7 +222,7 @@
       "text": "in"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -336,7 +238,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -348,7 +250,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -364,7 +266,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },

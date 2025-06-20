@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 16527429362403367794,
-    "filename": "index.md"
+    "binary_hash": 16662835978371651787,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,13 +21,25 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
       },
       {
         "$ref": "#/texts/6"
-      },
-      {
-        "$ref": "#/pictures/0"
       },
       {
         "$ref": "#/texts/7"
@@ -61,143 +73,16 @@
       },
       {
         "$ref": "#/texts/17"
-      },
-      {
-        "$ref": "#/texts/18"
-      },
-      {
-        "$ref": "#/texts/19"
-      },
-      {
-        "$ref": "#/texts/20"
-      },
-      {
-        "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
-      },
-      {
-        "$ref": "#/texts/23"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2015/07/06/allow-new-windows-to-steal-focus-in-gnome-3/",
-      "text": "/2015/07/06/allow-new-windows-to-steal-focus-in-gnome-3/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "centos",
-      "text": "centos",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "gnome",
-      "text": "gnome",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "red hat",
-      "text": "red hat",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -209,7 +94,7 @@
       "text": "GNOME 3 generally works well for me but it has some quirks. One of those quirks is that new windows don't actually pop up on the screen with focus as they do in Windows and OS X. When opening a new window, you get a &#8220;[Windowname] is ready&#8221; notification:"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -221,7 +106,7 @@
       "text": "1"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -233,7 +118,7 @@
       "text": "My preference is for new windows to pop in front and steal focus. I can see why that's not the default since it might cause you to type something in another window where you weren't expecting to. Fortunately, you can enable what GNOME calls  strict  window focus with a quick trip to "
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -249,7 +134,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -261,7 +146,7 @@
       "text": "."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -273,7 +158,7 @@
       "text": "Installing "
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -289,7 +174,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -301,7 +186,7 @@
       "text": " is easy:"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -317,7 +202,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -329,7 +214,7 @@
       "text": "Open "
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -345,7 +230,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -357,7 +242,7 @@
       "text": " and navigate to  org -> gnome -> desktop -> wm -> preferences ."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -369,7 +254,7 @@
       "text": "Once you're there, look for  focus-new-windows . The default setting is  smart  which will keep new windows in the background and alert you via a notification. If you click on  smart , a drop down will appear and you can select  strict . That will enable functionality similar to OS X and Windows where new windows will pop up in the front and steal your focus."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -381,7 +266,7 @@
       "text": "The new setting takes effect immediately and there's no need to logout or close and reopen windows."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -393,7 +278,7 @@
       "text": "UPDATE:  If you'd like to avoid installing "
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -409,7 +294,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -421,7 +306,7 @@
       "text": ", use Alexander's suggestion below and simply run:"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },

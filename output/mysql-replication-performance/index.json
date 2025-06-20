@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 16812666307831118888,
-    "filename": "index.md"
+    "binary_hash": 13886213699444596802,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,25 +21,19 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
       },
       {
         "$ref": "#/texts/4"
       },
       {
-        "$ref": "#/texts/5"
-      },
-      {
-        "$ref": "#/texts/6"
-      },
-      {
-        "$ref": "#/texts/7"
-      },
-      {
-        "$ref": "#/texts/8"
-      },
-      {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       }
     ],
     "content_layer": "body",
@@ -54,33 +48,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/5"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/6"
         },
         {
-          "$ref": "#/texts/3"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/9"
-        },
-        {
-          "$ref": "#/texts/10"
-        },
-        {
-          "$ref": "#/texts/11"
+          "$ref": "#/texts/7"
         }
       ],
       "content_layer": "body",
@@ -98,65 +72,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2008/01/02/mysql-replication-performance/",
-      "text": "/2008/01/02/mysql-replication-performance/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "database",
-      "text": "database",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "mysql",
-      "text": "mysql",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "MySQL replication can increase performance by allowing developers to spread queries over two servers. Queries that write data must be sent to the master at all times, but queries that read data can be sent to either server. This means that by adding a slave server to a database environment allows you to effectively double your read query performance.",
       "text": "MySQL replication can increase performance by allowing developers to spread queries over two servers. Queries that write data must be sent to the master at all times, but queries that read data can be sent to either server. This means that by adding a slave server to a database environment allows you to effectively double your read query performance."
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -168,7 +88,7 @@
       "text": "However, there are some large caveats to consider here.  The actual web site code itself will need to be written in such a way that read and write queries can be diverted to different destinations. Depending on the size of the application and how it has been developed, the work requires to provide this functionality may be prohibitive for replication."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -180,7 +100,7 @@
       "text": "Some load balancers can balance MySQL query traffic, and this can help if the code cannot balance the load internally. Open source applications like MySQL Proxy and pound can be used as well."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -192,7 +112,7 @@
       "text": "Also, if the queries are not optimized, and the correct storage engines are not used, replication will not work well. If queries take an extended time to execute, the performance gains will be almost non existent. Also, if the wrong storage engines are used, and much of the rows or tables are locked, performance gains will be greatly limited. Some situations may actually cause replication to halt due to locking. When this occurs, the data on the slave becomes stale and SELECTs run against the master and slave will return different results."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -204,9 +124,9 @@
       "text": "In short:"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -218,9 +138,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -232,9 +152,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",

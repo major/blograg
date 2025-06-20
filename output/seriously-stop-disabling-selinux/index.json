@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 3435569963004915492,
-    "filename": "index.md"
+    "binary_hash": 8392285501049009896,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,19 +21,13 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
         "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/9"
-      },
-      {
-        "$ref": "#/texts/10"
-      },
-      {
-        "$ref": "#/groups/1"
-      },
-      {
-        "$ref": "#/texts/13"
+        "$ref": "#/texts/4"
       }
     ],
     "content_layer": "body",
@@ -48,45 +42,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
           "$ref": "#/texts/2"
         },
         {
           "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        },
-        {
-          "$ref": "#/texts/8"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/11"
-        },
-        {
-          "$ref": "#/texts/12"
         }
       ],
       "content_layer": "body",
@@ -104,22 +63,20 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "After many discussions with fellow Linux users, I've come to realize that most seem to disable SELinux rather than understand why it's denying access. In an effort to turn the tide, I've created a new site as a public service to SELinux cowards everywhere:  stopdisablingselinux.com .",
+      "text": "After many discussions with fellow Linux users, I've come to realize that most seem to disable SELinux rather than understand why it's denying access. In an effort to turn the tide, I've created a new site as a public service to SELinux cowards everywhere:  stopdisablingselinux.com ."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "/2013/04/15/seriously-stop-disabling-selinux/",
-      "text": "/2013/04/15/seriously-stop-disabling-selinux/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "Here are some relatively useful SELinux posts from the blog:",
+      "text": "Here are some relatively useful SELinux posts from the blog:"
     },
     {
       "self_ref": "#/texts/2",
@@ -130,8 +87,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "centos",
-      "text": "centos",
+      "orig": "[<RawText children='Getting started with SELinux'>]",
+      "text": "[<RawText children='Getting started with SELinux'>]",
       "enumerated": false,
       "marker": "-"
     },
@@ -144,135 +101,13 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "command line",
-      "text": "command line",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "redhat",
-      "text": "redhat",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "selinux",
-      "text": "selinux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "After many discussions with fellow Linux users, I've come to realize that most seem to disable SELinux rather than understand why it's denying access. In an effort to turn the tide, I've created a new site as a public service to SELinux cowards everywhere:  stopdisablingselinux.com .",
-      "text": "After many discussions with fellow Linux users, I've come to realize that most seem to disable SELinux rather than understand why it's denying access. In an effort to turn the tide, I've created a new site as a public service to SELinux cowards everywhere:  stopdisablingselinux.com ."
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Here are some relatively useful SELinux posts from the blog:",
-      "text": "Here are some relatively useful SELinux posts from the blog:"
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "[<RawText children='Getting started with SELinux'>]",
-      "text": "[<RawText children='Getting started with SELinux'>]",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "[<RawText children='Receive email reports for SELinux AVC denials'>]",
       "text": "[<RawText children='Receive email reports for SELinux AVC denials'>]",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },

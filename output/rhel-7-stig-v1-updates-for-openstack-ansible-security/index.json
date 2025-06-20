@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 748804553496271280,
-    "filename": "index.md"
+    "binary_hash": 7633482700675309902,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,28 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
       },
       {
         "$ref": "#/texts/9"
@@ -33,34 +54,7 @@
         "$ref": "#/texts/11"
       },
       {
-        "$ref": "#/texts/12"
-      },
-      {
-        "$ref": "#/texts/13"
-      },
-      {
-        "$ref": "#/texts/14"
-      },
-      {
-        "$ref": "#/texts/15"
-      },
-      {
-        "$ref": "#/texts/16"
-      },
-      {
-        "$ref": "#/texts/17"
-      },
-      {
-        "$ref": "#/texts/18"
-      },
-      {
-        "$ref": "#/texts/19"
-      },
-      {
-        "$ref": "#/texts/20"
-      },
-      {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       }
     ],
     "content_layer": "body",
@@ -75,48 +69,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/12"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/13"
         },
         {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        },
-        {
-          "$ref": "#/texts/8"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/21"
-        },
-        {
-          "$ref": "#/texts/22"
-        },
-        {
-          "$ref": "#/texts/23"
+          "$ref": "#/texts/14"
         }
       ],
       "content_layer": "body",
@@ -134,135 +93,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2017/04/05/rhel-7-stig-v1-updates-for-openstack-ansible-security/",
-      "text": "/2017/04/05/rhel-7-stig-v1-updates-for-openstack-ansible-security/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "ansible",
-      "text": "ansible",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "centos",
-      "text": "centos",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "openstack",
-      "text": "openstack",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "python",
-      "text": "python",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "red hat",
-      "text": "red hat",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "DISA's final release of the Red Hat Enterprise Linux (RHEL) 7 Security Technical Implementation Guide (STIG)  came out a few weeks ago  and it has plenty of improvements and changes. The openstack-ansible-security role has already been updated with these changes.",
       "text": "DISA's final release of the Red Hat Enterprise Linux (RHEL) 7 Security Technical Implementation Guide (STIG)  came out a few weeks ago  and it has plenty of improvements and changes. The openstack-ansible-security role has already been updated with these changes."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -274,7 +109,7 @@
       "text": "Quite a few duplicated STIG controls were removed and a few new ones were added. Some of the controls in the pre-release were difficult to implement, especially those that changed parameters for PKI-based authentication."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -286,7 +121,7 @@
       "text": "The biggest challenge overall was the renumbering. The pre-release STIG used an unusual numbering convention: RHEL-07-123456. The final version used the more standardized \"V\" numbers, such as V-72225. This change required a  substantial patch  to bring the Ansible role inline with the new STIG release."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -298,7 +133,7 @@
       "text": "All of the  role's documentation  is now updated to reflect the new numbering scheme and STIG changes. The key thing to remember is that you'll need to use "
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -314,7 +149,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -326,7 +161,7 @@
       "text": " with the new STIG numbers if you need to skip certain tasks."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -338,7 +173,7 @@
       "text": "Note:  These changes won't be backported to the "
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -354,7 +189,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -366,7 +201,7 @@
       "text": " branch, so you need to use the "
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -382,7 +217,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -394,7 +229,7 @@
       "text": " branch to get these changes."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -406,9 +241,9 @@
       "text": "Have feedback? Found a bug? Let us know!"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/12",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -420,9 +255,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -434,9 +269,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/14",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",

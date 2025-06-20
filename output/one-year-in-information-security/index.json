@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 6766923407012642799,
-    "filename": "index.md"
+    "binary_hash": 9809223986175110100,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,16 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
       },
       {
         "$ref": "#/texts/5"
@@ -79,123 +88,16 @@
       },
       {
         "$ref": "#/texts/23"
-      },
-      {
-        "$ref": "#/texts/24"
-      },
-      {
-        "$ref": "#/texts/25"
-      },
-      {
-        "$ref": "#/texts/26"
-      },
-      {
-        "$ref": "#/texts/27"
-      },
-      {
-        "$ref": "#/texts/28"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2013/11/13/one-year-in-information-security/",
-      "text": "/2013/11/13/one-year-in-information-security/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "information security",
-      "text": "information security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -207,7 +109,7 @@
       "text": "Going to the dark side.\u00a0 Those were my first thoughts about taking an information security role one year ago.\u00a0 One year later, the situation seems much brighter than I expected."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -219,7 +121,7 @@
       "text": "This role has taught me more about how our business operates, how we set priorities, and how to respond to a setback.\u00a0 I've been fortunate enough to meet some extremely intelligent people along the way.\u00a0 Some of them frighten me with their descriptions of past experiences or their adversaries.\u00a0 Other people spin a different tale about mature, consistent information security programs that deliver value to the business."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -231,7 +133,7 @@
       "text": "I was asked by a coworker last week to talk about three things I've learned over the past year as I transitioned from the world of managing Linux servers, wrangling software deployments, and writing python to a heavy focus on information security at a macro level.\u00a0 This post is a response to that request."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -243,7 +145,7 @@
       "text": "Without further ado, here are the three biggest lessons I've learned over the past year:"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -255,7 +157,7 @@
       "text": "Double down on what motivates people"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -267,7 +169,7 @@
       "text": "It's easy to focus on the critics when you work in a corporate security department.\u00a0 They wrestle with you on anything that causes any changes in their day-to-day work.\u00a0 My immediate reaction was an angry one: \"Why don't they  get it ?\"\u00a0 In most cases, they did get it; but the demands placed on them to complete a task or launch a product was the top priority.\u00a0 It didn't take long before I was frustrated."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -279,7 +181,7 @@
       "text": "Luckily, I found a copy of  Switch  on a bookshelf and took it home to read it.\u00a0 One of the big takeaways from the book is to look for your partners in the business when you're focused on the critics.\u00a0 Find the people who are motivated to take security seriously and take them out to lunch.\u00a0 Learn about their background and their previous experiences.\u00a0 Discover why security is a priority for them and why it motivates them to change.\u00a0 Once you find out what motivates them, double down on that motivation when you spot a critic.\u00a0 It won't work every time (you certainly can't please everyone), but it has paid dividends for me."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -291,7 +193,7 @@
       "text": "Keep in mind that what motivates one person might not motivate the next person.\u00a0 You may find someone who embraces security because they've worked through a serious breach in the past.\u00a0 Retelling that story to another person might not have the same impact, but it may lead to a higher-level discussion around the value of the change you're trying to drive."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -303,7 +205,7 @@
       "text": "If you work in an environment with highly technical people, always remember to talk about the \"why\" behind the change.\u00a0 In most of my communication, I generally start with the \"why\" or \"what's broken\" first.\u00a0 Get them to agree that something is broken and you can lead them to your desired solution.\u00a0 That initial agreement builds trust and it allows you to revert back to a common ground in case the conversation goes astray. A former manager taught me this method and it works extremely well."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -315,7 +217,7 @@
       "text": "I prefer to talk about things you should do rather than the things you shouldn't, but there are two critical things I have to mention.\u00a0 Don't spread fear, uncertainty and doubt (FUD).\u00a0 Also, certifications don't make you an expert.\u00a0 When people feel that you're constantly throwing out doomsday scenarios or you're grandstanding with alphabet soup after your name, they'll become desensitized to your message.\u00a0 The difficulty involved with changing their minds is then ratcheted up another level."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -327,7 +229,7 @@
       "text": "Evade analysis paralysis by painting with broad strokes"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -339,7 +241,7 @@
       "text": "It's easy to sweat the small stuff in information security.\u00a0 If you don't believe me, just look at your average vulnerability scan report.\u00a0 Once you filter out all of the false positives and irrelevant vulnerabilities, you're left with a final few items that are worth an additional review.\u00a0 Scan reports of multiple systems (or subnets) can get out of hand quickly.\u00a0 Sure, those vulnerabilities should be fixed, but think about how you can take a bigger picture approach to the problem."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -351,7 +253,7 @@
       "text": "Another favorite book of mine is  The Phoenix Project .\u00a0 It's an adaptation of  The Goal  that is specific to IT workers.\u00a0 The main character is suddenly promoted after his superiors are relieved and he is overwhelmed with tons of IT problems big and small.\u00a0 After a good dose of firefighting and tactical work, he discovers that the problems plaguing his department are very broad.\u00a0 Change management, documentation, and resource contention were completely out of control.\u00a0 He comes to terms with the problems and realizes that he won't succeed unless he steps back and looks at the big picture.\u00a0 There's also an amazing CISO character in the book and he goes through the same transformation."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -363,7 +265,7 @@
       "text": "Instead of focusing on the small battles, focus on the war.\u00a0 Look for ways to drive consistency first.\u00a0 If nobody has set the bar for security within your organization, set it.\u00a0 Start out with something simple and partner with your supporters in the business to gain buy-in.\u00a0 Setting a standard does something interesting to humans: we don't want anything we maintain to be called \"substandard.\""
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -375,7 +277,7 @@
       "text": "Find ways to weave your standards in with the business in helpful ways.\u00a0 Write scripts.\u00a0 Do demos.\u00a0 Figure out which configuration management software they use and try to build your standards into the existing frameworks.\u00a0 Talk to them on their turf and in their terms.\u00a0 When they hear you speaking their language and integrating with their tools, they will be much more eager to collaborate with you.\u00a0 That's a great time to deliver your message and weave security into the fabric of their project."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -387,7 +289,7 @@
       "text": "Building consistency will take time depending on the maturity of the organization.\u00a0 As it builds, raise the bar with the help of your supporters.\u00a0 Do it gradually and closely monitor the effects.\u00a0 Businesses constantly do this with software development cycles and uptime improvements.\u00a0 Implementing security is no different."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -399,7 +301,7 @@
       "text": "Drive self-reliance by making them part of the process"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -411,7 +313,7 @@
       "text": "One of my peers said it best: \"Everyone is part of the security team.\u00a0 We all play a part.\"\u00a0 Getting people to feel that they're responsible for security isn't easy, but you can make an impact by explaining the \"why\" behind your changes, partnering with standards, and keeping an open door policy."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -423,7 +325,7 @@
       "text": "Security teams need to maintain a feedback loop with the business.\u00a0 I feel like I say this constantly: \"We won't have a security team if we never launch a product.\"\u00a0 There's always going to be a situation where something launches with vulnerabilities (whether known or unknown) and the business accepts the risk.\u00a0 Don't dwell on that; you're sweating the small stuff.\u00a0 Instead, think about helping the business avoid that risk in the future.\u00a0 Should we develop a standard?\u00a0 Is our testing process rigorous enough?\u00a0 Do we need more detailed training for developers or engineers?"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -435,7 +337,7 @@
       "text": "That feedback loop must include open and frank discussions about failures without a rush to blame.\u00a0 My favorite example of this thought process is a post from  John Allspaw  titled  Learning from Failure at Etsy .\u00a0 A business can drive accountability without needing to place blame.\u00a0 If you've ever gone through a  fishbone diagram  or you've answered the  Five Why's , you know what I'm talking about.\u00a0 Trace it back to the original failure and you'll most often find a process or a technology problem and not a people problem."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -447,7 +349,7 @@
       "text": "If an IT team can't be honest with a security team because they fear punishment or shaming, then they won't share the real problems.\u00a0 This could be disastrous for a security team since they're operating with only a portion of the real story.\u00a0 The opposite is also true: security teams must feel comfortable sharing their failures.\u00a0 Healthy feedback loops like these build trust and engagement.\u00a0 That leads to more process improvements and fewer failures.\u00a0 If there's anything I've learned about security teams, it's that we don't want to fail."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -459,7 +361,7 @@
       "text": "Conclusion"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -471,7 +373,7 @@
       "text": "This post might read a bit more pedantic than I intended, but I hope you find it useful.\u00a0 Much of it applies to more than just information security.\u00a0 Think about where you work in your company and which groups you find yourself at odds with daily.\u00a0 Learn what motivates your supporters, paint with broad strokes, and make everyone part of the process."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },

@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 5472865154234365148,
-    "filename": "index.md"
+    "binary_hash": 6337587178351630938,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,22 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
       },
       {
         "$ref": "#/texts/7"
@@ -165,6 +180,9 @@
         "$ref": "#/texts/53"
       },
       {
+        "$ref": "#/pictures/0"
+      },
+      {
         "$ref": "#/texts/54"
       },
       {
@@ -186,9 +204,6 @@
         "$ref": "#/texts/60"
       },
       {
-        "$ref": "#/pictures/0"
-      },
-      {
         "$ref": "#/texts/61"
       },
       {
@@ -202,163 +217,16 @@
       },
       {
         "$ref": "#/texts/65"
-      },
-      {
-        "$ref": "#/texts/66"
-      },
-      {
-        "$ref": "#/texts/67"
-      },
-      {
-        "$ref": "#/texts/68"
-      },
-      {
-        "$ref": "#/texts/69"
-      },
-      {
-        "$ref": "#/texts/70"
-      },
-      {
-        "$ref": "#/texts/71"
-      },
-      {
-        "$ref": "#/texts/72"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2021/08/20/deploy-fedora-coreos-in-hetzner-cloud/",
-      "text": "/2021/08/20/deploy-fedora-coreos-in-hetzner-cloud/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "cloud",
-      "text": "cloud",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "coreos",
-      "text": "coreos",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "hetzner",
-      "text": "hetzner",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -370,7 +238,7 @@
       "text": "Hetzner  has always been a reliable and cost-effective hosting company for me for several years. I've run  icanhazip.com  on their dedicated servers and I run several small applications in  their cloud ."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -382,7 +250,7 @@
       "text": "When I run containers, I love using  Fedora CoreOS  for its easy updates and very small server footprint. Almost everything you need for hosting containers is provided right out of the box, but you can add extra packages via rpm-ostree  layers and reboot to use them."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -394,7 +262,7 @@
       "text": "This post shows you how to deploy Fedora CoreOS in Hetzner's cloud as an inexpensive and efficient method for hosting your container workloads."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -407,7 +275,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -419,7 +287,7 @@
       "text": "First off, Hetzner does not offer Fedora CoreOS as one of its cloud base images. That normally wouldn't be a problem, but they don't allow you to upload snapshots or base images, either. Don't worry! We can think creatively and deploy the image via the cloud rescue environment."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -431,7 +299,7 @@
       "text": "Another challenge is that  ignition , the CoreOS first boot configuration tool, does not support Hetzner's metadata service at this time. I'm working on a  pull request  to add this support. We can get creative here and embed our ignition configuration inside the instance itself. That's a bit annoying since all of your instances will get the same configuration, but that works out fine for my needs since I mainly care about ssh keys being present."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -444,7 +312,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -456,7 +324,7 @@
       "text": "The ignition configuration allows us to specify ssh keys (and many other possible configurations) for the first boot. First, we start with a really basic butane configuration :"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -472,7 +340,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -484,7 +352,7 @@
       "text": "You can use any username here that you prefer and add your public ssh key. Compile the configuration into an ignition file with butane:"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -500,7 +368,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -512,7 +380,7 @@
       "text": "Keep this "
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -528,7 +396,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -540,7 +408,7 @@
       "text": " file handy because we need it before we snapshot our Fedora CoreOS image later."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -553,7 +421,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -565,7 +433,7 @@
       "text": "Although Hetzner doesn't allow for uploading your own snapshot, you can replace the entire root disk of an instance from the rescue system. From there, we can snapshot the root disk storage and use that as our new base image."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -577,7 +445,7 @@
       "text": "Download and install the  hcloud  tool first. Follow the installation instructions to generate an API key and store it on your system."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -589,7 +457,7 @@
       "text": "Start by building a basic Fedora 34 instance where we can deploy the Fedora CoreOS image:"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -605,7 +473,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -617,7 +485,7 @@
       "text": "Activate the rescue system for the instance you just created and reboot into the rescue environment:"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -633,7 +501,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -645,7 +513,7 @@
       "text": "Use ssh to log into the rescue environment (user: "
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -661,7 +529,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -673,7 +541,7 @@
       "text": ", password provided in the "
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -689,7 +557,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -701,7 +569,7 @@
       "text": " step). The rescue environment is in a ramdisk and we don't have enough space to build the  coreos-installer  or download a raw disk, but we can get creative and stream the filesystem directly from a Fedora CoreOS image download."
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -713,7 +581,7 @@
       "text": "I prefer to live dangerously and I run the testing release, but there are  three releases available for download . Download, decompress, and write the image to the root disk all at once:"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -729,7 +597,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -741,7 +609,7 @@
       "text": "This process should take one or two minutes to complete."
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -754,7 +622,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -764,6 +632,102 @@
       "prov": [],
       "orig": "We could hop out of rescue now and reboot right into Fedora CoreOS, but we need to provide SSH keys for our instance. The ",
       "text": "We could hop out of rescue now and reboot right into Fedora CoreOS, but we need to provide SSH keys for our instance. The "
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "config.ign",
+      "text": "config.ign",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " file we generated in the first section of this post will be deployed as ",
+      "text": " file we generated in the first section of this post will be deployed as "
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/ignition/config.ign",
+      "text": "/ignition/config.ign",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " in the image.",
+      "text": " in the image."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Let's find the boot partition:",
+      "text": "Let's find the boot partition:"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "# fdisk -l /dev/sda\nDisk /dev/sda: 38.2 GiB, 40961572864 bytes, 80003072 sectors\nDisk model: QEMU HARDDISK\nUnits: sectors of 1 * 512 = 512 bytes\nSector size (logical/physical): 512 bytes / 512 bytes\nI/O size (minimum/optimal): 512 bytes / 512 bytes\nDisklabel type: gpt\nDisk identifier: 00000000-0000-4000-A000-000000000001\n\nDevice       Start     End Sectors  Size Type\n/dev/sda1     2048    4095    2048    1M BIOS boot\n/dev/sda2     4096  264191  260096  127M EFI System\n/dev/sda3   264192 1050623  786432  384M Linux filesystem   \u00ab boot\n/dev/sda4  1050624 5003230 3952607  1.9G Linux filesystem   \u00ab root",
+      "text": "# fdisk -l /dev/sda\nDisk /dev/sda: 38.2 GiB, 40961572864 bytes, 80003072 sectors\nDisk model: QEMU HARDDISK\nUnits: sectors of 1 * 512 = 512 bytes\nSector size (logical/physical): 512 bytes / 512 bytes\nI/O size (minimum/optimal): 512 bytes / 512 bytes\nDisklabel type: gpt\nDisk identifier: 00000000-0000-4000-A000-000000000001\n\nDevice       Start     End Sectors  Size Type\n/dev/sda1     2048    4095    2048    1M BIOS boot\n/dev/sda2     4096  264191  260096  127M EFI System\n/dev/sda3   264192 1050623  786432  384M Linux filesystem   \u00ab boot\n/dev/sda4  1050624 5003230 3952607  1.9G Linux filesystem   \u00ab root",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Mount the boot partition and deploy the ",
+      "text": "Mount the boot partition and deploy the "
     },
     {
       "self_ref": "#/texts/38",
@@ -790,107 +754,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": " file we generated in the first section of this post will be deployed as ",
-      "text": " file we generated in the first section of this post will be deployed as "
-    },
-    {
-      "self_ref": "#/texts/40",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "/ignition/config.ign",
-      "text": "/ignition/config.ign",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/41",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": " in the image.",
-      "text": " in the image."
-    },
-    {
-      "self_ref": "#/texts/42",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Let's find the boot partition:",
-      "text": "Let's find the boot partition:"
-    },
-    {
-      "self_ref": "#/texts/43",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "# fdisk -l /dev/sda\nDisk /dev/sda: 38.2 GiB, 40961572864 bytes, 80003072 sectors\nDisk model: QEMU HARDDISK\nUnits: sectors of 1 * 512 = 512 bytes\nSector size (logical/physical): 512 bytes / 512 bytes\nI/O size (minimum/optimal): 512 bytes / 512 bytes\nDisklabel type: gpt\nDisk identifier: 00000000-0000-4000-A000-000000000001\n\nDevice       Start     End Sectors  Size Type\n/dev/sda1     2048    4095    2048    1M BIOS boot\n/dev/sda2     4096  264191  260096  127M EFI System\n/dev/sda3   264192 1050623  786432  384M Linux filesystem   \u00ab boot\n/dev/sda4  1050624 5003230 3952607  1.9G Linux filesystem   \u00ab root",
-      "text": "# fdisk -l /dev/sda\nDisk /dev/sda: 38.2 GiB, 40961572864 bytes, 80003072 sectors\nDisk model: QEMU HARDDISK\nUnits: sectors of 1 * 512 = 512 bytes\nSector size (logical/physical): 512 bytes / 512 bytes\nI/O size (minimum/optimal): 512 bytes / 512 bytes\nDisklabel type: gpt\nDisk identifier: 00000000-0000-4000-A000-000000000001\n\nDevice       Start     End Sectors  Size Type\n/dev/sda1     2048    4095    2048    1M BIOS boot\n/dev/sda2     4096  264191  260096  127M EFI System\n/dev/sda3   264192 1050623  786432  384M Linux filesystem   \u00ab boot\n/dev/sda4  1050624 5003230 3952607  1.9G Linux filesystem   \u00ab root",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/44",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Mount the boot partition and deploy the ",
-      "text": "Mount the boot partition and deploy the "
-    },
-    {
-      "self_ref": "#/texts/45",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "config.ign",
-      "text": "config.ign",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/46",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": ":",
       "text": ":"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -906,7 +774,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -918,7 +786,7 @@
       "text": "Let's power off the instance to avoid booting it. We want all subsequent boots to be as clean as possible."
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -934,7 +802,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -947,7 +815,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -959,7 +827,7 @@
       "text": "Create a snapshot from our powered off server:"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -975,7 +843,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -987,7 +855,7 @@
       "text": "This usually takes 1-2 minutes. Let's get our image ID:"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1003,7 +871,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1016,7 +884,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1028,7 +896,7 @@
       "text": "Now that we have a snapshot with our ignition configuration embedded in it, let's make a new instance!"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1044,7 +912,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1056,7 +924,7 @@
       "text": "Hetzner normally boots cloud images  really quickly , but it takes a bit longer when booting from snapshots. I assume that they have the common base images cached on most hypervisors so they can provision them really quickly. The delay isn't too bad here: the instances usually take about 90 seconds to boot."
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1068,7 +936,7 @@
       "text": "Once it boots, you should see notes from ignition on bootup about your configuration:"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1080,7 +948,7 @@
       "text": "Fedora CoreOS console"
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1092,7 +960,7 @@
       "text": "2021-09-01-fedora-coreos-console.png"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1104,7 +972,7 @@
       "text": "Use ssh to login as the "
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1120,7 +988,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1132,7 +1000,7 @@
       "text": " user:"
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1148,7 +1016,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1161,7 +1029,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1173,7 +1041,7 @@
       "text": "Now that you have a snapshot made, you can delete your original instance (I called it "
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1189,7 +1057,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/62",
       "parent": {
         "$ref": "#/body"
       },
@@ -1201,7 +1069,7 @@
       "text": " above) and just build off that snapshot whenever you need to. That should save you a few Euros per month. \ud83d\udcb8"
     },
     {
-      "self_ref": "#/texts/70",
+      "self_ref": "#/texts/63",
       "parent": {
         "$ref": "#/body"
       },
@@ -1213,7 +1081,7 @@
       "text": "Once ignition has support for Hetzner's metadata service, the extra step of embedding your configuration won't be needed."
     },
     {
-      "self_ref": "#/texts/71",
+      "self_ref": "#/texts/64",
       "parent": {
         "$ref": "#/body"
       },
@@ -1225,7 +1093,7 @@
       "text": "Also, if anyone from Hetzner is reading this post, I'd love to get Fedora CoreOS as one of the options for base images in your cloud! \ud83e\udd17"
     },
     {
-      "self_ref": "#/texts/72",
+      "self_ref": "#/texts/65",
       "parent": {
         "$ref": "#/body"
       },
@@ -1249,7 +1117,7 @@
       "prov": [],
       "captions": [
         {
-          "$ref": "#/texts/60"
+          "$ref": "#/texts/53"
         }
       ],
       "references": [],

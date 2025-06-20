@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 17210311870117486301,
-    "filename": "index.md"
+    "binary_hash": 10002874825950718415,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,16 +21,22 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
         "$ref": "#/groups/0"
-      },
-      {
-        "$ref": "#/texts/7"
-      },
-      {
-        "$ref": "#/texts/8"
-      },
-      {
-        "$ref": "#/texts/9"
       },
       {
         "$ref": "#/texts/10"
@@ -42,7 +48,19 @@
         "$ref": "#/texts/12"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
       },
       {
         "$ref": "#/texts/17"
@@ -52,9 +70,6 @@
       },
       {
         "$ref": "#/texts/19"
-      },
-      {
-        "$ref": "#/pictures/0"
       },
       {
         "$ref": "#/texts/20"
@@ -75,6 +90,9 @@
         "$ref": "#/texts/25"
       },
       {
+        "$ref": "#/pictures/1"
+      },
+      {
         "$ref": "#/texts/26"
       },
       {
@@ -84,31 +102,28 @@
         "$ref": "#/texts/28"
       },
       {
-        "$ref": "#/texts/29"
-      },
-      {
-        "$ref": "#/texts/30"
-      },
-      {
-        "$ref": "#/texts/31"
-      },
-      {
-        "$ref": "#/texts/32"
-      },
-      {
-        "$ref": "#/pictures/1"
-      },
-      {
-        "$ref": "#/texts/33"
-      },
-      {
-        "$ref": "#/texts/34"
+        "$ref": "#/groups/1"
       },
       {
         "$ref": "#/texts/35"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
       },
       {
         "$ref": "#/texts/42"
@@ -118,27 +133,6 @@
       },
       {
         "$ref": "#/texts/44"
-      },
-      {
-        "$ref": "#/texts/45"
-      },
-      {
-        "$ref": "#/texts/46"
-      },
-      {
-        "$ref": "#/texts/47"
-      },
-      {
-        "$ref": "#/texts/48"
-      },
-      {
-        "$ref": "#/texts/49"
-      },
-      {
-        "$ref": "#/texts/50"
-      },
-      {
-        "$ref": "#/texts/51"
       }
     ],
     "content_layer": "body",
@@ -153,27 +147,21 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
           "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "list"
+      "label": "ordered_list"
     },
     {
       "self_ref": "#/groups/1",
@@ -182,45 +170,22 @@
       },
       "children": [
         {
-          "$ref": "#/texts/13"
+          "$ref": "#/texts/29"
         },
         {
-          "$ref": "#/texts/14"
+          "$ref": "#/texts/30"
         },
         {
-          "$ref": "#/texts/15"
+          "$ref": "#/texts/31"
         },
         {
-          "$ref": "#/texts/16"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "ordered_list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/36"
+          "$ref": "#/texts/32"
         },
         {
-          "$ref": "#/texts/37"
+          "$ref": "#/texts/33"
         },
         {
-          "$ref": "#/texts/38"
-        },
-        {
-          "$ref": "#/texts/39"
-        },
-        {
-          "$ref": "#/texts/40"
-        },
-        {
-          "$ref": "#/texts/41"
+          "$ref": "#/texts/34"
         }
       ],
       "content_layer": "body",
@@ -238,107 +203,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "author: Major Hayden date: '2024-02-29' summary: >- Caddy offers a great web and proxy server experience with minimal configuration and automated TLS certificates. Learn how to connect Caddy to Porkbun to get TLS certificates by managing your DNS records for you automatically. \ud83d\udc37 tags: ",
-      "text": "author: Major Hayden date: '2024-02-29' summary: >- Caddy offers a great web and proxy server experience with minimal configuration and automated TLS certificates. Learn how to connect Caddy to Porkbun to get TLS certificates by managing your DNS records for you automatically. \ud83d\udc37 tags: "
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "caddy",
-      "text": "caddy",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "containers",
-      "text": "containers",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "coreos",
-      "text": "coreos",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "dns",
-      "text": "dns",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "ssl",
-      "text": "ssl",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "tls",
-      "text": "tls",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "I recently told a coworker about  Caddy , a small web and proxy server with a very simple configuration. It also has a handy feature where it manages your TLS certificate for you automatically.",
       "text": "I recently told a coworker about  Caddy , a small web and proxy server with a very simple configuration. It also has a handy feature where it manages your TLS certificate for you automatically."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -350,7 +219,7 @@
       "text": "However, one problem I had at home with my  CoreOS  deployment is that I don't have inbound network access to handle the certificate verification process. Most automated certificate vendors need to reach your web server to verify that you have control over your domain."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -362,7 +231,7 @@
       "text": "This post talks about how to work around this problem with domains registered at  Porkbun ."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -375,7 +244,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -387,7 +256,7 @@
       "text": "Certificate providers usually default to verifying domains by making a request to your server and retrieving a validation code. If your systems are all behind a firewall without inbound access from the internet, you can use DNS validation instead."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -399,9 +268,9 @@
       "text": "The process looks something like this:"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -413,9 +282,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -427,9 +296,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -441,9 +310,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -455,7 +324,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -467,7 +336,7 @@
       "text": "You can do this manually with something like  acme.sh  today, but it's  painful :"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -483,7 +352,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -495,7 +364,7 @@
       "text": "We don't want to live this way."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -507,7 +376,7 @@
       "text": "do-not-want.gif"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -519,7 +388,7 @@
       "text": "Let's talk about how Caddy can help."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -532,7 +401,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -544,7 +413,7 @@
       "text": "Caddy is a minimal webserver and  Porkbun support  doesn't get included by default. However, we can quickly add it via a simple container build:"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -560,7 +429,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -572,7 +441,7 @@
       "text": "This is a two stage container build where we compile the Porkbun support and then use that new "
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -588,7 +457,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -600,7 +469,7 @@
       "text": " binary in the final container."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -612,7 +481,7 @@
       "text": "We're not done yet!"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -625,7 +494,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -637,7 +506,7 @@
       "text": "I created a  GitHub repository  that builds the Caddy container for me and keeps it updated. There's a  workflow to publish a container  to GitHub's container repository and I can pull containers from there on my various CoreOS machines."
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -649,7 +518,7 @@
       "text": "In addition, I use  Renovate  to watch for Caddy updates. New updates come through a  regular pull request  and I can apply them whenever I want."
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -661,7 +530,7 @@
       "text": "Example pull request from Renovate"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -673,7 +542,7 @@
       "text": "Renovate pull request"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -686,7 +555,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -698,9 +567,9 @@
       "text": "We start here by getting an API key to manage the domain at Porkbun."
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/29",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -712,9 +581,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/30",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -726,9 +595,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/31",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -740,9 +609,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/32",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -754,9 +623,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/33",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -768,9 +637,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/34",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -782,7 +651,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -794,7 +663,7 @@
       "text": "Open up your Caddy configuration file (the  Caddyfile ) and add some configuration:"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -810,7 +679,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -822,7 +691,7 @@
       "text": "Save the Caddyfile and restart your Caddy server or container. Caddy will immediately begin requesting your TLS certificates and managing your DNS records for those certificates. This normally finishes in less than 30 seconds or so during the first run."
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -834,7 +703,7 @@
       "text": "If you don't see the HTTPS endpoint working within a minute or two, be sure to check the Caddy logs. You might have a typo in a Porkbun API key or the domain you're trying to modify doesn't have the  API Access  switch enabled."
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -846,7 +715,7 @@
       "text": "{{< alert \"circle-info\" >}} Remember that Porkbun requires you to enable API access for each domain. API access is disabled at Porkbun by default. {{</ alert >}}"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -858,7 +727,7 @@
       "text": "That's it!  \ud83c\udf89"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -871,7 +740,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -883,7 +752,7 @@
       "text": "Caddy will keep watch over the certificates and begin the renewal process as the expiration approaches. It has a very careful retry mechanism that ensures your certificates are updated without tripping any rate limits at the certificate provider."
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -896,7 +765,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -934,7 +803,7 @@
       "prov": [],
       "captions": [
         {
-          "$ref": "#/texts/32"
+          "$ref": "#/texts/25"
         }
       ],
       "references": [],

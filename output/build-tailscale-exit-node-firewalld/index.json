@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 291354584663911829,
-    "filename": "index.md"
+    "binary_hash": 6554837704195357167,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,31 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
       },
       {
         "$ref": "#/texts/10"
@@ -30,13 +54,7 @@
         "$ref": "#/texts/11"
       },
       {
-        "$ref": "#/texts/12"
-      },
-      {
-        "$ref": "#/texts/13"
-      },
-      {
-        "$ref": "#/texts/14"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/15"
@@ -60,7 +78,13 @@
         "$ref": "#/texts/21"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
       },
       {
         "$ref": "#/texts/25"
@@ -111,16 +135,7 @@
         "$ref": "#/texts/40"
       },
       {
-        "$ref": "#/texts/41"
-      },
-      {
-        "$ref": "#/texts/42"
-      },
-      {
-        "$ref": "#/texts/43"
-      },
-      {
-        "$ref": "#/texts/44"
+        "$ref": "#/groups/1"
       },
       {
         "$ref": "#/texts/45"
@@ -133,27 +148,6 @@
       },
       {
         "$ref": "#/texts/48"
-      },
-      {
-        "$ref": "#/texts/49"
-      },
-      {
-        "$ref": "#/texts/50"
-      },
-      {
-        "$ref": "#/groups/2"
-      },
-      {
-        "$ref": "#/texts/55"
-      },
-      {
-        "$ref": "#/texts/56"
-      },
-      {
-        "$ref": "#/texts/57"
-      },
-      {
-        "$ref": "#/texts/58"
       }
     ],
     "content_layer": "body",
@@ -168,31 +162,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/12"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/13"
         },
         {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        },
-        {
-          "$ref": "#/texts/8"
-        },
-        {
-          "$ref": "#/texts/9"
+          "$ref": "#/texts/14"
         }
       ],
       "content_layer": "body",
@@ -206,36 +182,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/22"
+          "$ref": "#/texts/41"
         },
         {
-          "$ref": "#/texts/23"
+          "$ref": "#/texts/42"
         },
         {
-          "$ref": "#/texts/24"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/51"
+          "$ref": "#/texts/43"
         },
         {
-          "$ref": "#/texts/52"
-        },
-        {
-          "$ref": "#/texts/53"
-        },
-        {
-          "$ref": "#/texts/54"
+          "$ref": "#/texts/44"
         }
       ],
       "content_layer": "body",
@@ -253,149 +209,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2022/10/27/build-tailscale-exit-node-firewalld/",
-      "text": "/2022/10/27/build-tailscale-exit-node-firewalld/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2022/10/27/build-a-tailscale-exit-node-with-firewalld/",
-      "text": "/2022/10/27/build-a-tailscale-exit-node-with-firewalld/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "centos",
-      "text": "centos",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "cloud",
-      "text": "cloud",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "firewalld",
-      "text": "firewalld",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "networking",
-      "text": "networking",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "rhel",
-      "text": "rhel",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "tailscale",
-      "text": "tailscale",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Once upon a time, I spent hours and hours fumbling through openvpn configurations, certificates, and firewalls to get VPNs working between servers. One small configuration error led to lots of debugging. Adding new servers meant wallowing through this process all over again.",
       "text": "Once upon a time, I spent hours and hours fumbling through openvpn configurations, certificates, and firewalls to get VPNs working between servers. One small configuration error led to lots of debugging. Adding new servers meant wallowing through this process all over again."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -407,7 +225,7 @@
       "text": "A friend told me about  Tailscale  and it makes private networking incredibly simple."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -419,7 +237,7 @@
       "text": "Tailscale makes it easy to add nodes to a private network called a  tailnet  where they can communicate. In short, it's a dead simple mesh network (with advanced capabilities if you're interested)."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -431,7 +249,7 @@
       "text": "This post covers how to create an exit node for your Tailscale network using firewalld Fedora, CentOS Stream, and Red Hat Enterprise Linux (RHEL)."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -443,7 +261,7 @@
       "text": "What's an exit node?"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -455,7 +273,7 @@
       "text": "Every node on a Tailscale network, or  tailnet , can communicate with each other[^acl]. However, it can use be useful to use one of those nodes on the network as an exit node."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -467,7 +285,7 @@
       "text": "Exit nodes allow traffic to leave the tailnet and go out to other networks or the public internet. This allows you to join an untrusted network, such as a coffee shop's wifi network, and send your traffic out through one of your tailnet nodes. It works more like a traditional VPN."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -479,7 +297,7 @@
       "text": "Tailscale does this by changing the routes on your device to use the exit node on your tailnet for all traffic. Creating an exit node involves some configuration on the node itself and within Tailscale's administrative interface."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -491,7 +309,7 @@
       "text": "[^acl]: Tailscale offers complex access control lists (ACLs) that allow you to limit connectivity based on tons of factors."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -503,7 +321,7 @@
       "text": "Deploy Tailscale"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -515,7 +333,7 @@
       "text": "In this example, I'll use Fedora 36, but these instructions work for CentOS Stream and RHEL, too."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -527,9 +345,9 @@
       "text": "Start by installing Tailscale on your system:"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/12",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -541,9 +359,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -555,9 +373,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/14",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -569,7 +387,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -581,7 +399,7 @@
       "text": "Let's get this going on Fedora:"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -597,7 +415,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -609,7 +427,7 @@
       "text": "Click the link to authorize the node to join your tailnet and it should appear in your list of nodes!"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -621,7 +439,7 @@
       "text": "Trusting the tailnet"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -633,7 +451,7 @@
       "text": "In my case, I treat my tailnet interfaces as trusted interfaces on each node. (This might not fit your use case, so please read the docs on  Network access controls (ACLs)  if you need extra security layers.)"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -645,7 +463,7 @@
       "text": "Start by adding the new "
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -661,7 +479,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -673,7 +491,7 @@
       "text": " interface as a trusted interface:"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -689,7 +507,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -701,7 +519,7 @@
       "text": "This permits all traffic in and out of the tailscale interface."
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -713,7 +531,7 @@
       "text": "Creating an exit node"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -725,7 +543,7 @@
       "text": "Let's reconfigure tailscale to allow this node to serve as an exit node:"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -741,7 +559,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -753,7 +571,7 @@
       "text": "Uh oh. Tailscale is telling us that it's happy to reconfigure itself, but we're going to run into IP forwarding issues. Let's see what our primary firewall zone has:"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -769,7 +587,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -781,7 +599,7 @@
       "text": "We can enable masquerading in firewalld and it will take care of everything for us, including NAT rules and "
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -797,7 +615,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -809,7 +627,7 @@
       "text": " settings for IP forwarding."
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -825,7 +643,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -837,7 +655,7 @@
       "text": "Let's try the Tailscale reconfiguration once more:"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -853,7 +671,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -865,7 +683,7 @@
       "text": "We fixed the IPv4 forwarding, but IPv6 is still not configured properly. This was done automatically in the past, but firewalld  does not automatically enable IPv6 forwarding  in recent versions. Rich rules  come to the rescue:"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -881,7 +699,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -893,7 +711,7 @@
       "text": "One more try:"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -909,7 +727,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -921,9 +739,9 @@
       "text": "Success! But wait, we still can't send traffic through the exit node until we authorize it in the Tailscale admin interface:"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/41",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -935,9 +753,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/42",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -949,9 +767,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/43",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -963,9 +781,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/44",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -977,7 +795,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -989,7 +807,7 @@
       "text": "Now you can test your exit node from your mobile device by choosing an exit node via the settings menu. Another Linux machine can use it as an exit node as well just by running another "
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1005,7 +823,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1017,7 +835,7 @@
       "text": " command:"
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },

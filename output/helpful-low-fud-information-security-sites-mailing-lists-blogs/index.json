@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 15594881981024969381,
-    "filename": "index.md"
+    "binary_hash": 10127449370348431445,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,13 +21,13 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
         "$ref": "#/groups/0"
-      },
-      {
-        "$ref": "#/texts/6"
-      },
-      {
-        "$ref": "#/texts/7"
       },
       {
         "$ref": "#/texts/8"
@@ -36,28 +36,22 @@
         "$ref": "#/groups/1"
       },
       {
-        "$ref": "#/texts/14"
+        "$ref": "#/texts/15"
       },
       {
         "$ref": "#/groups/2"
       },
       {
-        "$ref": "#/texts/21"
+        "$ref": "#/texts/18"
       },
       {
         "$ref": "#/groups/3"
       },
       {
-        "$ref": "#/texts/24"
+        "$ref": "#/texts/21"
       },
       {
-        "$ref": "#/groups/4"
-      },
-      {
-        "$ref": "#/texts/27"
-      },
-      {
-        "$ref": "#/texts/28"
+        "$ref": "#/texts/22"
       }
     ],
     "content_layer": "body",
@@ -72,12 +66,6 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
           "$ref": "#/texts/3"
         },
         {
@@ -85,6 +73,12 @@
         },
         {
           "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
         }
       ],
       "content_layer": "body",
@@ -111,6 +105,9 @@
         },
         {
           "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
         }
       ],
       "content_layer": "body",
@@ -124,22 +121,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/15"
-        },
-        {
           "$ref": "#/texts/16"
         },
         {
           "$ref": "#/texts/17"
-        },
-        {
-          "$ref": "#/texts/18"
-        },
-        {
-          "$ref": "#/texts/19"
-        },
-        {
-          "$ref": "#/texts/20"
         }
       ],
       "content_layer": "body",
@@ -153,27 +138,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/22"
+          "$ref": "#/texts/19"
         },
         {
-          "$ref": "#/texts/23"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/4",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/25"
-        },
-        {
-          "$ref": "#/texts/26"
+          "$ref": "#/texts/20"
         }
       ],
       "content_layer": "body",
@@ -191,93 +159,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2015/01/08/helpful-low-fud-information-security-sites-mailing-lists-blogs/",
-      "text": "/2015/01/08/helpful-low-fud-information-security-sites-mailing-lists-blogs/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "blog",
-      "text": "blog",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "sysadmin",
-      "text": "sysadmin",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "![1]",
       "text": "![1]"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -289,7 +175,7 @@
       "text": "Keeping current with the latest trends and technologies in the realm of information security is critical and there are many options to choose from. However, as with any content on the internet, it takes some effort to find sites with a good signal-to-noise ratio. Information security is a heavily  FUD -laden industry and I've taken some time to compile a list of helpful sites."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -302,9 +188,9 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -316,9 +202,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -330,9 +216,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -344,9 +230,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -358,9 +244,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -372,7 +258,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -385,9 +271,9 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -399,9 +285,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -413,9 +299,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -427,9 +313,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/12",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -441,9 +327,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -455,9 +341,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/14",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -469,7 +355,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -482,9 +368,9 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/16",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -496,9 +382,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/17",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -510,7 +396,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -523,9 +409,9 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/19",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -537,9 +423,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/20",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -551,7 +437,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -563,7 +449,7 @@
       "text": "Many thanks to my  coworkers  for helping to compile the list. If you have any others that you really enjoy, let me know! I'll be glad to add them to the post."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },

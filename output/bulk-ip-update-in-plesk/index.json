@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 11727844716989754279,
-    "filename": "index.md"
+    "binary_hash": 14317441630061628791,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -24,25 +24,28 @@
         "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/3"
+        "$ref": "#/texts/4"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
       },
       {
         "$ref": "#/texts/7"
       },
       {
-        "$ref": "#/texts/8"
-      },
-      {
-        "$ref": "#/texts/9"
+        "$ref": "#/groups/1"
       },
       {
         "$ref": "#/texts/10"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
       },
       {
         "$ref": "#/texts/13"
@@ -79,15 +82,6 @@
       },
       {
         "$ref": "#/texts/24"
-      },
-      {
-        "$ref": "#/texts/25"
-      },
-      {
-        "$ref": "#/texts/26"
-      },
-      {
-        "$ref": "#/texts/27"
       }
     ],
     "content_layer": "body",
@@ -106,6 +100,9 @@
         },
         {
           "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
         }
       ],
       "content_layer": "body",
@@ -119,30 +116,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/4"
+          "$ref": "#/texts/8"
         },
         {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/11"
-        },
-        {
-          "$ref": "#/texts/12"
+          "$ref": "#/texts/9"
         }
       ],
       "content_layer": "body",
@@ -160,8 +137,8 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "There's lots of situations where you'd want to use a bulk IP change in Plesk:",
+      "text": "There's lots of situations where you'd want to use a bulk IP change in Plesk:"
     },
     {
       "self_ref": "#/texts/1",
@@ -172,8 +149,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "/2007/02/11/bulk-ip-update-in-plesk/",
-      "text": "/2007/02/11/bulk-ip-update-in-plesk/",
+      "orig": "Server is moving and needs to change IP's",
+      "text": "Server is moving and needs to change IP's",
       "enumerated": false,
       "marker": "-"
     },
@@ -186,55 +163,15 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "plesk",
-      "text": "plesk",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "There's lots of situations where you'd want to use a bulk IP change in Plesk:",
-      "text": "There's lots of situations where you'd want to use a bulk IP change in Plesk:"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Server is moving and needs to change IP's",
-      "text": "Server is moving and needs to change IP's",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "An IP is the destination for some type of DDOS attack",
       "text": "An IP is the destination for some type of DDOS attack",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -246,7 +183,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -258,7 +195,7 @@
       "text": "So how do you shift tons of domains from one IP to another without spending hours in Plesk clicking and clicking? Do the following instead:"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -270,7 +207,7 @@
       "text": "Get into MySQL and find out which IP you're moving from and to:"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -286,7 +223,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -298,9 +235,9 @@
       "text": "You should see a printout of all of the available IP's on the server. Make a note of the \"id\" of the IP you're moving from and to. In this example, here's what we're doing:"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -312,9 +249,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -326,7 +263,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -338,7 +275,7 @@
       "text": "Now we can start shifting the physically hosted domains over in the database:"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -354,7 +291,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -366,7 +303,7 @@
       "text": "We also need to change the domains that are set up for standard or frame forwarding:"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -382,7 +319,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -394,7 +331,7 @@
       "text": "Now we're stuck with the arduous task of updating DNS records. Plesk is kind enough to store this data in four different ways:"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -410,7 +347,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -422,7 +359,7 @@
       "text": "Everything domain related is now moved, but the clients that the domains belong to might not have this new IP address in their IP pool. First, we need to find out our component ID's from the repository table (which generally should be the same as the IP_Addresses.id column, but not always)"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -438,7 +375,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -450,7 +387,7 @@
       "text": "For this example, we'll pretend that the output consists of 2's for these clients. We can flip the IP's in the clients' IP pools by running the following:"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -466,7 +403,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -478,7 +415,7 @@
       "text": "Now that everything is changed in Plesk's database, it's time to change up the Apache and BIND configuration files. Luckily, this can be done pretty easily with Plesk's command line tools:"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -494,7 +431,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -506,7 +443,7 @@
       "text": "All that is left is to force Apache and BIND to pick up the new configuration:"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -522,7 +459,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },

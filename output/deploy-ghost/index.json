@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 3111325551288599343,
-    "filename": "index.md"
+    "binary_hash": 18309100698272755767,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,6 +21,9 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
         "$ref": "#/groups/0"
       },
       {
@@ -30,7 +33,16 @@
         "$ref": "#/texts/7"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
       },
       {
         "$ref": "#/texts/12"
@@ -105,10 +117,7 @@
         "$ref": "#/texts/35"
       },
       {
-        "$ref": "#/texts/36"
-      },
-      {
-        "$ref": "#/texts/37"
+        "$ref": "#/groups/1"
       },
       {
         "$ref": "#/texts/38"
@@ -123,7 +132,10 @@
         "$ref": "#/texts/41"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
       },
       {
         "$ref": "#/texts/44"
@@ -159,10 +171,7 @@
         "$ref": "#/texts/54"
       },
       {
-        "$ref": "#/texts/55"
-      },
-      {
-        "$ref": "#/texts/56"
+        "$ref": "#/groups/2"
       },
       {
         "$ref": "#/texts/57"
@@ -177,7 +186,10 @@
         "$ref": "#/texts/60"
       },
       {
-        "$ref": "#/groups/3"
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
       },
       {
         "$ref": "#/texts/63"
@@ -282,28 +294,10 @@
         "$ref": "#/texts/96"
       },
       {
-        "$ref": "#/texts/97"
-      },
-      {
-        "$ref": "#/texts/98"
-      },
-      {
-        "$ref": "#/texts/99"
-      },
-      {
-        "$ref": "#/texts/100"
+        "$ref": "#/groups/3"
       },
       {
         "$ref": "#/texts/101"
-      },
-      {
-        "$ref": "#/texts/102"
-      },
-      {
-        "$ref": "#/groups/4"
-      },
-      {
-        "$ref": "#/texts/107"
       }
     ],
     "content_layer": "body",
@@ -317,9 +311,6 @@
         "$ref": "#/body"
       },
       "children": [
-        {
-          "$ref": "#/texts/1"
-        },
         {
           "$ref": "#/texts/2"
         },
@@ -344,16 +335,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/8"
+          "$ref": "#/texts/36"
         },
         {
-          "$ref": "#/texts/9"
-        },
-        {
-          "$ref": "#/texts/10"
-        },
-        {
-          "$ref": "#/texts/11"
+          "$ref": "#/texts/37"
         }
       ],
       "content_layer": "body",
@@ -367,10 +352,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/42"
+          "$ref": "#/texts/55"
         },
         {
-          "$ref": "#/texts/43"
+          "$ref": "#/texts/56"
         }
       ],
       "content_layer": "body",
@@ -384,33 +369,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/61"
+          "$ref": "#/texts/97"
         },
         {
-          "$ref": "#/texts/62"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/4",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/103"
+          "$ref": "#/texts/98"
         },
         {
-          "$ref": "#/texts/104"
+          "$ref": "#/texts/99"
         },
         {
-          "$ref": "#/texts/105"
-        },
-        {
-          "$ref": "#/texts/106"
+          "$ref": "#/texts/100"
         }
       ],
       "content_layer": "body",
@@ -428,22 +396,20 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "author: Major Hayden date: '2023-06-27' Ghost delivers a great self-hosted blogging platform that deploys well in containers. Let's deploy it on CoreOS along with Caddy. \ufe0f\ud83d\udcdd tags:",
-      "text": "author: Major Hayden date: '2023-06-27' Ghost delivers a great self-hosted blogging platform that deploys well in containers. Let's deploy it on CoreOS along with Caddy. \ufe0f\ud83d\udcdd tags:"
+      "orig": "There's no shortage of options for starting a self-hosted blog. Wordpress might be chosen most often, but I stumbled upon  Ghost  recently and their  performance numbers  really got my attention.",
+      "text": "There's no shortage of options for starting a self-hosted blog. Wordpress might be chosen most often, but I stumbled upon  Ghost  recently and their  performance numbers  really got my attention."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "caddy",
-      "text": "caddy",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "I prefer deploying most things in containers these days with  Fedora CoreOS . Luckily, the Ghost stack doesn't demand a lot of infrastructure:",
+      "text": "I prefer deploying most things in containers these days with  Fedora CoreOS . Luckily, the Ghost stack doesn't demand a lot of infrastructure:"
     },
     {
       "self_ref": "#/texts/2",
@@ -454,8 +420,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "containers",
-      "text": "containers",
+      "orig": "Ghost itself",
+      "text": "Ghost itself",
       "enumerated": false,
       "marker": "-"
     },
@@ -468,8 +434,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "coreos",
-      "text": "coreos",
+      "orig": "MySQL 8+ ",
+      "text": "MySQL 8+ ",
       "enumerated": false,
       "marker": "-"
     },
@@ -482,8 +448,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
+      "orig": "A web server out front",
+      "text": "A web server out front",
       "enumerated": false,
       "marker": "-"
     },
@@ -496,8 +462,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "ghost",
-      "text": "ghost",
+      "orig": "TLS certificate",
+      "text": "TLS certificate",
       "enumerated": false,
       "marker": "-"
     },
@@ -510,91 +476,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "There's no shortage of options for starting a self-hosted blog. Wordpress might be chosen most often, but I stumbled upon  Ghost  recently and their  performance numbers  really got my attention.",
-      "text": "There's no shortage of options for starting a self-hosted blog. Wordpress might be chosen most often, but I stumbled upon  Ghost  recently and their  performance numbers  really got my attention."
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "I prefer deploying most things in containers these days with  Fedora CoreOS . Luckily, the Ghost stack doesn't demand a lot of infrastructure:",
-      "text": "I prefer deploying most things in containers these days with  Fedora CoreOS . Luckily, the Ghost stack doesn't demand a lot of infrastructure:"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Ghost itself",
-      "text": "Ghost itself",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "MySQL 8+ ",
-      "text": "MySQL 8+ ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "A web server out front",
-      "text": "A web server out front",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "TLS certificate",
-      "text": "TLS certificate",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "{{< alert >}} Although I chose MariaDB for the database here,  Ghost recommends MySQL  and will throw a warning in the admin panel if you're using something else. I haven't had any issues so far, but  you've been warned . \ud83d\udca3 {{< /alert >}}",
       "text": "{{< alert >}} Although I chose MariaDB for the database here,  Ghost recommends MySQL  and will throw a warning in the admin panel if you're using something else. I haven't had any issues so far, but  you've been warned . \ud83d\udca3 {{< /alert >}}"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -606,7 +492,7 @@
       "text": "I picked Caddy for the webserver since it's so small and the configuration is tremendously simple."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -618,7 +504,7 @@
       "text": "Launch CoreOS"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -630,7 +516,7 @@
       "text": "Fedora CoreOS offers lots of  cloud options  for launching it immediately. Many public clouds already have CoreOS images available, but I love Hetzner's US locations and I already had a CoreOS image loaded up in my account."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -642,7 +528,7 @@
       "text": "\ud83c\udde9\ud83c\uddea Want CoreOS at Hetzner? There's a  blog post  for that!"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -654,7 +540,7 @@
       "text": "Once your CoreOS instance is running, connect to the instance over ssh and ensure the "
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -670,7 +556,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -682,7 +568,7 @@
       "text": " starts on each boot:"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -698,7 +584,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -710,7 +596,7 @@
       "text": "This ensures that containers come up on each reboot. CoreOS has a podman socket that listens for docker-compatible connections, but that doesn't help with reboots."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -722,7 +608,7 @@
       "text": "Perhaps I'm old fashioned, but I still enjoy using  docker-compose  for container management. I like how I can declare what I want and let "
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -738,7 +624,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -750,7 +636,7 @@
       "text": " sort out the rest."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -762,7 +648,7 @@
       "text": "Let's install "
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -778,7 +664,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -790,7 +676,7 @@
       "text": " on the CoreOS instance now:"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -806,7 +692,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -818,7 +704,7 @@
       "text": "Verify that "
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -834,7 +720,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -846,7 +732,7 @@
       "text": " is ready to go:"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -862,7 +748,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -874,7 +760,7 @@
       "text": "Preparing Caddy"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -886,7 +772,7 @@
       "text": "Caddy uses a configuration file called a  Caddyfile  and we need that in place before we deploy the other containers. Within my home directory, I created a directory called  caddy :"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -902,7 +788,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -914,7 +800,7 @@
       "text": "Then I added the  Caddyfile  inside the directory:"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -930,7 +816,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -942,7 +828,7 @@
       "text": "This configuration sets up LetsEncrypt certificates automatically from the staging server for now. Once we know our configuration is working well, we can comment out the "
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -958,7 +844,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -970,7 +856,7 @@
       "text": " line above and get production TLS certificates."
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -982,9 +868,9 @@
       "text": "At this point, you need a DNS record pointed to your server so you can get a certificate. You have some options:"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/36",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -996,9 +882,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/37",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -1010,7 +896,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -1022,7 +908,7 @@
       "text": "Now we're ready for the rest of the deployment."
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -1034,7 +920,7 @@
       "text": "Deploying containers"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -1046,7 +932,7 @@
       "text": "Here's the "
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -1062,7 +948,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -1074,7 +960,7 @@
       "text": " file I'm using:"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -1090,7 +976,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -1102,7 +988,7 @@
       "text": "I love  watchtower  but that step is completely optional. It does require some elevated privileges to talk to the podman socket, so  keep that in mind if you choose to use it."
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -1114,7 +1000,7 @@
       "text": "Our "
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1130,7 +1016,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1142,7 +1028,7 @@
       "text": " container starts first, followed by "
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1158,7 +1044,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1170,7 +1056,7 @@
       "text": ", and then "
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1186,7 +1072,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1198,7 +1084,7 @@
       "text": ". That follows the "
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1214,7 +1100,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1226,7 +1112,7 @@
       "text": " configuration keys shown above."
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1238,9 +1124,9 @@
       "text": "There are two steps to take now:"
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/55",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1252,9 +1138,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/56",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1266,7 +1152,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1278,7 +1164,7 @@
       "text": "Once all of that is done, let's let "
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1294,7 +1180,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1306,7 +1192,7 @@
       "text": " do the heavy lifting:"
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1322,7 +1208,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1334,7 +1220,7 @@
       "text": "Let's verify that our containers are running:"
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/62",
       "parent": {
         "$ref": "#/body"
       },
@@ -1350,7 +1236,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/63",
       "parent": {
         "$ref": "#/body"
       },
@@ -1362,7 +1248,7 @@
       "text": "Awesome! \ud83d\udc4f"
     },
     {
-      "self_ref": "#/texts/70",
+      "self_ref": "#/texts/64",
       "parent": {
         "$ref": "#/body"
       },
@@ -1374,7 +1260,7 @@
       "text": "Ghost initial setup"
     },
     {
-      "self_ref": "#/texts/71",
+      "self_ref": "#/texts/65",
       "parent": {
         "$ref": "#/body"
       },
@@ -1386,7 +1272,7 @@
       "text": "With all of your containers running, browse to "
     },
     {
-      "self_ref": "#/texts/72",
+      "self_ref": "#/texts/66",
       "parent": {
         "$ref": "#/body"
       },
@@ -1402,7 +1288,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/73",
+      "self_ref": "#/texts/67",
       "parent": {
         "$ref": "#/body"
       },
@@ -1414,7 +1300,7 @@
       "text": "Just add "
     },
     {
-      "self_ref": "#/texts/74",
+      "self_ref": "#/texts/68",
       "parent": {
         "$ref": "#/body"
       },
@@ -1430,7 +1316,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/69",
       "parent": {
         "$ref": "#/body"
       },
@@ -1442,7 +1328,7 @@
       "text": " to the end of your domain name to reach the admin panel. Create your admin account there with a good password."
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/70",
       "parent": {
         "$ref": "#/body"
       },
@@ -1454,7 +1340,7 @@
       "text": "If everything looks good, run back to your  Caddyfile  and comment out the "
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/71",
       "parent": {
         "$ref": "#/body"
       },
@@ -1470,7 +1356,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },
@@ -1482,7 +1368,7 @@
       "text": " line:"
     },
     {
-      "self_ref": "#/texts/79",
+      "self_ref": "#/texts/73",
       "parent": {
         "$ref": "#/body"
       },
@@ -1498,7 +1384,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/80",
+      "self_ref": "#/texts/74",
       "parent": {
         "$ref": "#/body"
       },
@@ -1510,7 +1396,7 @@
       "text": "Restart the caddy container to get a production LetsEncrypt certificate on the site:"
     },
     {
-      "self_ref": "#/texts/81",
+      "self_ref": "#/texts/75",
       "parent": {
         "$ref": "#/body"
       },
@@ -1526,7 +1412,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/82",
+      "self_ref": "#/texts/76",
       "parent": {
         "$ref": "#/body"
       },
@@ -1538,7 +1424,7 @@
       "text": "Customizing Ghost"
     },
     {
-      "self_ref": "#/texts/83",
+      "self_ref": "#/texts/77",
       "parent": {
         "$ref": "#/body"
       },
@@ -1550,7 +1436,7 @@
       "text": "Ghost  looks for lots of environment variables  to determine its configuration and you can set these in your "
     },
     {
-      "self_ref": "#/texts/84",
+      "self_ref": "#/texts/78",
       "parent": {
         "$ref": "#/body"
       },
@@ -1566,7 +1452,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/85",
+      "self_ref": "#/texts/79",
       "parent": {
         "$ref": "#/body"
       },
@@ -1578,7 +1464,7 @@
       "text": " file. Although some configuration items are easy, like "
     },
     {
-      "self_ref": "#/texts/86",
+      "self_ref": "#/texts/80",
       "parent": {
         "$ref": "#/body"
       },
@@ -1594,7 +1480,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/87",
+      "self_ref": "#/texts/81",
       "parent": {
         "$ref": "#/body"
       },
@@ -1606,7 +1492,7 @@
       "text": ", some are nested and get more complicated. For these, you can use double underscores "
     },
     {
-      "self_ref": "#/texts/88",
+      "self_ref": "#/texts/82",
       "parent": {
         "$ref": "#/body"
       },
@@ -1622,7 +1508,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/89",
+      "self_ref": "#/texts/83",
       "parent": {
         "$ref": "#/body"
       },
@@ -1634,7 +1520,7 @@
       "text": " to handle the nesting."
     },
     {
-      "self_ref": "#/texts/90",
+      "self_ref": "#/texts/84",
       "parent": {
         "$ref": "#/body"
       },
@@ -1646,7 +1532,7 @@
       "text": "As an example, we already used "
     },
     {
-      "self_ref": "#/texts/91",
+      "self_ref": "#/texts/85",
       "parent": {
         "$ref": "#/body"
       },
@@ -1662,7 +1548,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/92",
+      "self_ref": "#/texts/86",
       "parent": {
         "$ref": "#/body"
       },
@@ -1674,7 +1560,7 @@
       "text": " in the "
     },
     {
-      "self_ref": "#/texts/93",
+      "self_ref": "#/texts/87",
       "parent": {
         "$ref": "#/body"
       },
@@ -1690,7 +1576,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/94",
+      "self_ref": "#/texts/88",
       "parent": {
         "$ref": "#/body"
       },
@@ -1702,7 +1588,7 @@
       "text": ", and that's the equivalent to this nested configuration:"
     },
     {
-      "self_ref": "#/texts/95",
+      "self_ref": "#/texts/89",
       "parent": {
         "$ref": "#/body"
       },
@@ -1718,7 +1604,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/96",
+      "self_ref": "#/texts/90",
       "parent": {
         "$ref": "#/body"
       },
@@ -1730,7 +1616,7 @@
       "text": "If you're deploying in containers, it's a good idea to configure Ghost via environment variables. This ensures that your "
     },
     {
-      "self_ref": "#/texts/97",
+      "self_ref": "#/texts/91",
       "parent": {
         "$ref": "#/body"
       },
@@ -1746,7 +1632,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/98",
+      "self_ref": "#/texts/92",
       "parent": {
         "$ref": "#/body"
       },
@@ -1758,7 +1644,7 @@
       "text": " is authoritative for the Ghost deployment. You  can  "
     },
     {
-      "self_ref": "#/texts/99",
+      "self_ref": "#/texts/93",
       "parent": {
         "$ref": "#/body"
       },
@@ -1774,7 +1660,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/100",
+      "self_ref": "#/texts/94",
       "parent": {
         "$ref": "#/body"
       },
@@ -1786,7 +1672,7 @@
       "text": " into the container, adjust the config file on disk, and restart Ghost, but then you have to remember where you configured each item. \ud83e\udd75"
     },
     {
-      "self_ref": "#/texts/101",
+      "self_ref": "#/texts/95",
       "parent": {
         "$ref": "#/body"
       },
@@ -1798,7 +1684,7 @@
       "text": "Switching to production domain"
     },
     {
-      "self_ref": "#/texts/102",
+      "self_ref": "#/texts/96",
       "parent": {
         "$ref": "#/body"
       },
@@ -1810,9 +1696,9 @@
       "text": "If you used a temporary domain to get everything configured and you're ready to use your production domain, follow these steps:"
     },
     {
-      "self_ref": "#/texts/103",
+      "self_ref": "#/texts/97",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -1824,9 +1710,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/104",
+      "self_ref": "#/texts/98",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -1838,9 +1724,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/105",
+      "self_ref": "#/texts/99",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -1852,9 +1738,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/106",
+      "self_ref": "#/texts/100",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -1866,7 +1752,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/107",
+      "self_ref": "#/texts/101",
       "parent": {
         "$ref": "#/body"
       },

@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/html",
-    "binary_hash": 2558641025879937335,
-    "filename": "index.md"
+    "binary_hash": 15019046514030582046,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,16 +21,10 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
         "$ref": "#/groups/0"
-      },
-      {
-        "$ref": "#/texts/7"
-      },
-      {
-        "$ref": "#/texts/8"
-      },
-      {
-        "$ref": "#/groups/1"
       }
     ],
     "content_layer": "body",
@@ -45,36 +39,7 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        }
-      ],
-      "content_layer": "furniture",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/groups/2"
+          "$ref": "#/groups/1"
         }
       ],
       "content_layer": "body",
@@ -82,25 +47,25 @@
       "label": "section"
     },
     {
-      "self_ref": "#/groups/2",
+      "self_ref": "#/groups/1",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [
         {
-          "$ref": "#/texts/9"
+          "$ref": "#/texts/2"
         },
         {
-          "$ref": "#/texts/12"
+          "$ref": "#/texts/5"
         },
         {
-          "$ref": "#/texts/14"
+          "$ref": "#/texts/7"
         },
         {
-          "$ref": "#/texts/17"
+          "$ref": "#/texts/10"
         },
         {
-          "$ref": "#/texts/32"
+          "$ref": "#/texts/25"
         }
       ],
       "content_layer": "body",
@@ -108,16 +73,16 @@
       "label": "section"
     },
     {
-      "self_ref": "#/groups/3",
+      "self_ref": "#/groups/2",
       "parent": {
-        "$ref": "#/texts/17"
+        "$ref": "#/texts/10"
       },
       "children": [
         {
-          "$ref": "#/texts/29"
+          "$ref": "#/texts/22"
         },
         {
-          "$ref": "#/texts/30"
+          "$ref": "#/texts/23"
         }
       ],
       "content_layer": "body",
@@ -135,107 +100,11 @@
       "content_layer": "furniture",
       "label": "text",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2015/03/30/review-lenovo-x1-carbon-3rd-generation-and-linux/",
-      "text": "/2015/03/30/review-lenovo-x1-carbon-3rd-generation-and-linux/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "list_item",
-      "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "list_item",
-      "prov": [],
-      "orig": "kernel",
-      "text": "kernel",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "list_item",
-      "prov": [],
-      "orig": "laptop",
-      "text": "laptop",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "list_item",
-      "prov": [],
-      "orig": "lenovo",
-      "text": "lenovo",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "text",
-      "prov": [],
       "orig": "1",
       "text": "1"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -247,16 +116,16 @@
       "text": "After a  boatload of challenges  with what I thought would be my favorite Linux laptop, the  Dell XPS 13 9343 , I decided to take the plunge on a new  Lenovo X1 Carbon (3rd gen) . My late-2013 MacBook Pro Retina (MacbookPro11,1) had plenty of quirks when running Linux and I was eager to find a better platform."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "$ref": "#/texts/10"
+          "$ref": "#/texts/3"
         },
         {
-          "$ref": "#/texts/11"
+          "$ref": "#/texts/4"
         }
       ],
       "content_layer": "body",
@@ -267,9 +136,9 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/texts/9"
+        "$ref": "#/texts/2"
       },
       "children": [],
       "content_layer": "body",
@@ -279,9 +148,9 @@
       "text": "I opted for the model with the i5-5300U, 8GB RAM, 256GB SSD, and the 2560&#215;1440 display. The high resolution display comes in two flavors: touch (glossy) and non-touch (matte). I went with the matte and I've been very pleased with it so far. It comes up a bit short on pixels when you compare it with the XPS 13's 3200&#215;1800 display but it's still very good. I run GNOME 3 with HIDPI disabled and having a few less pixels makes it much easier to read while still being  very detailed ."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/texts/9"
+        "$ref": "#/texts/2"
       },
       "children": [],
       "content_layer": "body",
@@ -291,13 +160,13 @@
       "text": "The display is plenty bright and also very readable when set to very low brightness. Reducing the brightness also extends the battery life by quite a bit (more on that later). Gaming performance isn't good but you wouldn't want this laptop as a gaming rig, anyway."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "$ref": "#/texts/13"
+          "$ref": "#/texts/6"
         }
       ],
       "content_layer": "body",
@@ -308,9 +177,9 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/texts/12"
+        "$ref": "#/texts/5"
       },
       "children": [],
       "content_layer": "body",
@@ -320,16 +189,16 @@
       "text": "You can get the PCI-e storage option with 512GB but the high price tag hurts. The 256GB m2 SATA drive in my X1 is plenty fast. The drive in my laptop is a Samsung and it's a big improvement over some of the Sandisk drives I've had in other Lenovo laptops."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "$ref": "#/texts/15"
+          "$ref": "#/texts/8"
         },
         {
-          "$ref": "#/texts/16"
+          "$ref": "#/texts/9"
         }
       ],
       "content_layer": "body",
@@ -340,9 +209,9 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/texts/14"
+        "$ref": "#/texts/7"
       },
       "children": [],
       "content_layer": "body",
@@ -352,9 +221,9 @@
       "text": "The wireless card is an  Intel 7265  and is supported out of the box with the  iwlwifi  module in the upstream kernel. It also provides Bluetooth and it works like a charm. I've paired up with many devices easily and transferred data as I'd expect."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/texts/14"
+        "$ref": "#/texts/7"
       },
       "children": [],
       "content_layer": "body",
@@ -364,11 +233,32 @@
       "text": "There's no full size ethernet port on this laptop (obviously). However, you can use the Lenovo proprietary ethernet dongle provided with the laptop and use the built-in  Intel I218-LM  ethernet card. It uses the e1000 driver and works out of the box."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
         {
           "$ref": "#/texts/18"
         },
@@ -382,31 +272,10 @@
           "$ref": "#/texts/21"
         },
         {
-          "$ref": "#/texts/22"
-        },
-        {
-          "$ref": "#/texts/23"
+          "$ref": "#/groups/2"
         },
         {
           "$ref": "#/texts/24"
-        },
-        {
-          "$ref": "#/texts/25"
-        },
-        {
-          "$ref": "#/texts/26"
-        },
-        {
-          "$ref": "#/texts/27"
-        },
-        {
-          "$ref": "#/texts/28"
-        },
-        {
-          "$ref": "#/groups/3"
-        },
-        {
-          "$ref": "#/texts/31"
         }
       ],
       "content_layer": "body",
@@ -417,9 +286,9 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/texts/17"
+        "$ref": "#/texts/10"
       },
       "children": [],
       "content_layer": "body",
@@ -429,9 +298,9 @@
       "text": "The island-style keyboard takes a little getting used to when you're coming from the chiclets on the MacBook Pro. It feels great and the key travel is quite nice when compared with other laptops. The Dell XPS 13's key travel is poor in comparison."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/12",
       "parent": {
-        "$ref": "#/texts/17"
+        "$ref": "#/texts/10"
       },
       "children": [],
       "content_layer": "body",
@@ -441,9 +310,9 @@
       "text": "The touchpad at the front of the laptop works quite well and the little trough right in front of the bottom of the pad is handy for click and drag gestures. The synaptics driver for X works right out of the box and libinput works, too."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/texts/17"
+        "$ref": "#/texts/10"
       },
       "children": [],
       "content_layer": "body",
@@ -453,9 +322,9 @@
       "text": "The trackpoint (also called &#8220;keyboard nipple&#8221;) is fine but I can't use it worth a darn. I'm downright horrible at it. That's not Lenovo's fault &#8212; my brain is probably dysfunctional. The trackpoint buttons (below the space bar) are hooked up to the touchpad and this has caused some problems. There's a fix to get the left and middle buttons working in Linux 4.0 and you'll  find that patch backported  in some other distributions, like Arch and Fedora. I don't use those buttons much but I could see how some people might want to do some two-handed click and drag gestures with them."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/14",
       "parent": {
-        "$ref": "#/texts/17"
+        "$ref": "#/texts/10"
       },
       "children": [],
       "content_layer": "body",
@@ -465,9 +334,9 @@
       "text": "All of the keys on the keyboard work as expected, but you'll need to load up the  thinkpad_acpi  module to get the brightness buttons working. In my case, I had to force the module to load since the module didn't recognize my embedded controller:"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/15",
       "parent": {
-        "$ref": "#/texts/17"
+        "$ref": "#/texts/10"
       },
       "children": [],
       "content_layer": "body",
@@ -481,9 +350,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/16",
       "parent": {
-        "$ref": "#/texts/17"
+        "$ref": "#/texts/10"
       },
       "children": [],
       "content_layer": "body",
@@ -493,9 +362,9 @@
       "text": "Another nice benefit of the module is that you can control some of the LED's on the laptop programmatically. For example, you could blink the power button to signify your own custom alerts. You could also disable it entirely."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/17",
       "parent": {
-        "$ref": "#/texts/17"
+        "$ref": "#/texts/10"
       },
       "children": [],
       "content_layer": "body",
@@ -505,9 +374,9 @@
       "text": "Battery life"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/18",
       "parent": {
-        "$ref": "#/texts/17"
+        "$ref": "#/texts/10"
       },
       "children": [],
       "content_layer": "body",
@@ -517,9 +386,9 @@
       "text": "Broadwell was supposed to bring some good power benefits and it's obvious that the X1 Carbon benefits from that CPU. I've been off battery for about two hours while writing this post, handling email and updating some packages. GNOME says there is 84% of my battery left and it's estimating about 7 hours and 45 minutes remaining. I've yet to see this laptop actually empty out entirely. I've gone for 10 hour stretches with it and it still has one or two hours left."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/19",
       "parent": {
-        "$ref": "#/texts/17"
+        "$ref": "#/texts/10"
       },
       "children": [],
       "content_layer": "body",
@@ -529,9 +398,9 @@
       "text": "I'm not using any  powertop  tweaks, but I did install  tlp  and I'm using it on startup. Some folks have tweaked a few additional things from powertop and they've messed with the i915 module's refresh rate. That might give you another 5-10% on the battery but I'm already very pleased with my current battery life."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/20",
       "parent": {
-        "$ref": "#/texts/17"
+        "$ref": "#/texts/10"
       },
       "children": [],
       "content_layer": "body",
@@ -541,9 +410,9 @@
       "text": "Linux compatibility"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/21",
       "parent": {
-        "$ref": "#/texts/17"
+        "$ref": "#/texts/10"
       },
       "children": [],
       "content_layer": "body",
@@ -553,9 +422,9 @@
       "text": "There are two main issues:"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/22",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -567,9 +436,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/23",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -581,9 +450,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/24",
       "parent": {
-        "$ref": "#/texts/17"
+        "$ref": "#/texts/10"
       },
       "children": [],
       "content_layer": "body",
@@ -593,13 +462,13 @@
       "text": "Considering that the fix for the first issue is widely available in most distributions and the second one is only a modprobe away, I'd say this laptop is pretty darned Linux compatible. I'm currently running Fedora 21 without any problems."
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/25",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "$ref": "#/texts/33"
+          "$ref": "#/texts/26"
         }
       ],
       "content_layer": "body",
@@ -610,9 +479,9 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/26",
       "parent": {
-        "$ref": "#/texts/32"
+        "$ref": "#/texts/25"
       },
       "children": [],
       "content_layer": "body",

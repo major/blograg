@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 6955068874833272453,
-    "filename": "index.md"
+    "binary_hash": 5334207150298106495,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,34 +21,28 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
         "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/6"
+        "$ref": "#/texts/9"
       },
       {
-        "$ref": "#/texts/7"
+        "$ref": "#/texts/10"
       },
       {
-        "$ref": "#/texts/8"
+        "$ref": "#/texts/11"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/12"
       },
       {
-        "$ref": "#/texts/15"
-      },
-      {
-        "$ref": "#/texts/16"
-      },
-      {
-        "$ref": "#/texts/17"
-      },
-      {
-        "$ref": "#/texts/18"
-      },
-      {
-        "$ref": "#/texts/19"
+        "$ref": "#/texts/13"
       }
     ],
     "content_layer": "body",
@@ -63,12 +57,6 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
           "$ref": "#/texts/3"
         },
         {
@@ -76,35 +64,15 @@
         },
         {
           "$ref": "#/texts/5"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/9"
         },
         {
-          "$ref": "#/texts/10"
+          "$ref": "#/texts/6"
         },
         {
-          "$ref": "#/texts/11"
+          "$ref": "#/texts/7"
         },
         {
-          "$ref": "#/texts/12"
-        },
-        {
-          "$ref": "#/texts/13"
-        },
-        {
-          "$ref": "#/texts/14"
+          "$ref": "#/texts/8"
         }
       ],
       "content_layer": "body",
@@ -122,93 +90,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2021/07/19/enable-dark-mode-in-firefox/",
-      "text": "/2021/07/19/enable-dark-mode-in-firefox/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "firefox",
-      "text": "firefox",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "i3",
-      "text": "i3",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Most modern web browsers, such as Firefox, take cues from the desktop environment or from themes applied to the browser to determine whether a user wants light or dark mode from websites. This is often done through the prefers-color-scheme  CSS media feature:",
       "text": "Most modern web browsers, such as Firefox, take cues from the desktop environment or from themes applied to the browser to determine whether a user wants light or dark mode from websites. This is often done through the prefers-color-scheme  CSS media feature:"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -224,7 +110,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -236,9 +122,9 @@
       "text": "There are those situations where you want web pages to prefer a dark mode, but you don't want to change your desktop settings or apply a darker theme to Firefox. You can follow these steps to prefer dark color schemes in Firefox:"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -250,9 +136,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -264,9 +150,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -278,9 +164,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -292,9 +178,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -306,9 +192,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -320,7 +206,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -332,7 +218,7 @@
       "text": "Now, close the "
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -348,7 +234,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -360,7 +246,7 @@
       "text": " page and load up a website that has dark color schemes available."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -372,7 +258,7 @@
       "text": "If you want to test the change quickly, just reload this page! My blog has light and dark color schemes set depending on what your browser prefers. \ud83c\udf89 \ud83d\ude0e"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },

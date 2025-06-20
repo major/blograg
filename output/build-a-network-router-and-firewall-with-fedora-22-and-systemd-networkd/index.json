@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 16914962054409887319,
-    "filename": "index.md"
+    "binary_hash": 2314123754795410368,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -19,6 +19,18 @@
     "children": [
       {
         "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
       },
       {
         "$ref": "#/groups/0"
@@ -39,7 +51,10 @@
         "$ref": "#/texts/11"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
       },
       {
         "$ref": "#/texts/14"
@@ -144,28 +159,28 @@
         "$ref": "#/texts/47"
       },
       {
-        "$ref": "#/texts/48"
-      },
-      {
-        "$ref": "#/texts/49"
-      },
-      {
-        "$ref": "#/texts/50"
-      },
-      {
-        "$ref": "#/texts/51"
-      },
-      {
-        "$ref": "#/texts/52"
-      },
-      {
-        "$ref": "#/texts/53"
+        "$ref": "#/groups/1"
       },
       {
         "$ref": "#/texts/54"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
       },
       {
         "$ref": "#/texts/61"
@@ -217,27 +232,6 @@
       },
       {
         "$ref": "#/texts/77"
-      },
-      {
-        "$ref": "#/texts/78"
-      },
-      {
-        "$ref": "#/texts/79"
-      },
-      {
-        "$ref": "#/texts/80"
-      },
-      {
-        "$ref": "#/texts/81"
-      },
-      {
-        "$ref": "#/texts/82"
-      },
-      {
-        "$ref": "#/texts/83"
-      },
-      {
-        "$ref": "#/texts/84"
       }
     ],
     "content_layer": "body",
@@ -251,18 +245,6 @@
         "$ref": "#/body"
       },
       "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
         {
           "$ref": "#/texts/5"
         },
@@ -281,39 +263,22 @@
       },
       "children": [
         {
-          "$ref": "#/texts/12"
+          "$ref": "#/texts/48"
         },
         {
-          "$ref": "#/texts/13"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/55"
+          "$ref": "#/texts/49"
         },
         {
-          "$ref": "#/texts/56"
+          "$ref": "#/texts/50"
         },
         {
-          "$ref": "#/texts/57"
+          "$ref": "#/texts/51"
         },
         {
-          "$ref": "#/texts/58"
+          "$ref": "#/texts/52"
         },
         {
-          "$ref": "#/texts/59"
-        },
-        {
-          "$ref": "#/texts/60"
+          "$ref": "#/texts/53"
         }
       ],
       "content_layer": "body",
@@ -331,107 +296,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2015/08/27/build-a-network-router-and-firewall-with-fedora-22-and-systemd-networkd/",
-      "text": "/2015/08/27/build-a-network-router-and-firewall-with-fedora-22-and-systemd-networkd/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "firewall",
-      "text": "firewall",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "networking",
-      "text": "networking",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "systemd",
-      "text": "systemd",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "This post  originally appeared  on the Fedora Magazine blog.",
       "text": "This post  originally appeared  on the Fedora Magazine blog."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -443,7 +312,7 @@
       "text": "One of my favorite features of Fedora 22 is  systemd-networkd  and all of the new features that came with it in recent systemd versions. The configuration files are easy to read, bridging is simple, and tunnels are resilient."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -455,7 +324,7 @@
       "text": "I've recently started using a small Linux server at home again as a network router and firewall. However, I used systemd-networkd this time and had some great results. Let's get started!"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -468,7 +337,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -480,9 +349,9 @@
       "text": "Our example router in this example has two network interfaces:"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -494,9 +363,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -508,7 +377,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -520,7 +389,7 @@
       "text": "We want machines on the private LAN to route their traffic through the router to the public internet via NAT. Also, we want clients on the LAN to get their IP addresses assigned automatically."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -533,7 +402,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -545,7 +414,7 @@
       "text": "All of the systemd-networkd configuration files live within "
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -561,7 +430,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -573,7 +442,7 @@
       "text": " and we need to create that directory:"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -589,7 +458,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -601,7 +470,7 @@
       "text": "We need to write a network configuration file for our public interface that systemd-networkd can read. Open up "
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -617,7 +486,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -629,7 +498,7 @@
       "text": " and write these lines:"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -645,7 +514,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -657,7 +526,7 @@
       "text": "If we break this configuration file down, we're telling systemd-networkd to apply this configuration to any devices that are called "
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -673,7 +542,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -685,7 +554,7 @@
       "text": ". Also, we're specifying a public IP address and CIDR mask (like /24 or /22) so that the interface can be configured. The gateway address will be added to the routing table. We've also provided DNS servers to use with systemd-resolved (more on that later)."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -697,7 +566,7 @@
       "text": "I added "
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -713,7 +582,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -725,7 +594,7 @@
       "text": " so that systemd-networkd will automatically enable forwarding for the interface via sysctl. (That always seems to be the step I forget when I build a Linux router.)"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -737,7 +606,7 @@
       "text": "Let's do the same for our LAN interface. Create this configuration file and store it as "
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -753,7 +622,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -765,7 +634,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -781,7 +650,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -793,7 +662,7 @@
       "text": "We don't need to specify a gateway address here because this interface will be the gateway for the LAN."
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -806,7 +675,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -818,7 +687,7 @@
       "text": "If we're planning to use systemd-networkd, we need to ensure that it runs instead of traditional network scripts or NetworkManager:"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -834,7 +703,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -846,7 +715,7 @@
       "text": "Also, let's be sure to use systemd-resolved to handle our "
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -862,7 +731,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -874,7 +743,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -890,7 +759,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -903,7 +772,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -915,7 +784,7 @@
       "text": "We're now set to reboot! It's possible to bring up systemd-networkd without rebooting but I'd rather verify with a reboot now than get goosed with a broken network after a reboot later."
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -927,7 +796,7 @@
       "text": "Once your router is back up, run "
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -943,7 +812,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -955,7 +824,7 @@
       "text": " and verify that you have  routable  in the output for both interfaces:"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -971,7 +840,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -984,7 +853,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -996,7 +865,7 @@
       "text": "Now that both network interfaces are online, we need something to tell our clients about the IP configuration they should be using. There are plenty of good options here, but I prefer  dnsmasq . It has served me well over the years and it provides some handy features along with DHCP, such as DNS caching, TFTP and IPv6 router announcements."
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -1008,7 +877,7 @@
       "text": "Let's install dnsmasq and enable it at boot:"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -1024,7 +893,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -1036,7 +905,7 @@
       "text": "Open "
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1052,7 +921,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1064,9 +933,9 @@
       "text": " in your favorite text editor and edit a few lines:"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/48",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -1078,9 +947,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/49",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -1092,9 +961,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/50",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -1106,9 +975,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/51",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -1120,9 +989,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/52",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -1134,9 +1003,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/53",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -1148,7 +1017,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1160,7 +1029,7 @@
       "text": "Save the file and start dnsmasq:"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1176,7 +1045,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1189,7 +1058,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1201,7 +1070,7 @@
       "text": "We're almost done! Now it's time to tell iptables to  masquerade  any packets from our LAN to the internet. But wait, it's 2015 and we have tools like "
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1217,7 +1086,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1229,7 +1098,7 @@
       "text": " to do that for us in Fedora."
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1241,7 +1110,7 @@
       "text": "Let's enable masquerading, allow DNS, and allow DHCP traffic. We can then make the state permanent:"
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1257,7 +1126,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/62",
       "parent": {
         "$ref": "#/body"
       },
@@ -1270,7 +1139,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/70",
+      "self_ref": "#/texts/63",
       "parent": {
         "$ref": "#/body"
       },
@@ -1282,7 +1151,7 @@
       "text": "Put a client machine on your LAN network and you should be able to ping some public sites from the client:"
     },
     {
-      "self_ref": "#/texts/71",
+      "self_ref": "#/texts/64",
       "parent": {
         "$ref": "#/body"
       },
@@ -1298,7 +1167,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/72",
+      "self_ref": "#/texts/65",
       "parent": {
         "$ref": "#/body"
       },
@@ -1311,7 +1180,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/73",
+      "self_ref": "#/texts/66",
       "parent": {
         "$ref": "#/body"
       },
@@ -1323,7 +1192,7 @@
       "text": "If you need to adjust your network configuration, just run "
     },
     {
-      "self_ref": "#/texts/74",
+      "self_ref": "#/texts/67",
       "parent": {
         "$ref": "#/body"
       },
@@ -1339,7 +1208,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/68",
       "parent": {
         "$ref": "#/body"
       },
@@ -1351,7 +1220,7 @@
       "text": " afterwards. I've found that it's quite intelligent about the network devices and it won't reconfigure anything that hasn't changed."
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/69",
       "parent": {
         "$ref": "#/body"
       },
@@ -1363,7 +1232,7 @@
       "text": "The "
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/70",
       "parent": {
         "$ref": "#/body"
       },
@@ -1379,7 +1248,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/71",
       "parent": {
         "$ref": "#/body"
       },
@@ -1391,7 +1260,7 @@
       "text": " command is very powerful. Check out the "
     },
     {
-      "self_ref": "#/texts/79",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },
@@ -1407,7 +1276,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/80",
+      "self_ref": "#/texts/73",
       "parent": {
         "$ref": "#/body"
       },
@@ -1419,7 +1288,7 @@
       "text": " and "
     },
     {
-      "self_ref": "#/texts/81",
+      "self_ref": "#/texts/74",
       "parent": {
         "$ref": "#/body"
       },
@@ -1435,7 +1304,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/82",
+      "self_ref": "#/texts/75",
       "parent": {
         "$ref": "#/body"
       },
@@ -1447,7 +1316,7 @@
       "text": " functions to get more information about your network devices and the networks they're connected to."
     },
     {
-      "self_ref": "#/texts/83",
+      "self_ref": "#/texts/76",
       "parent": {
         "$ref": "#/body"
       },
@@ -1459,7 +1328,7 @@
       "text": "When something goes wrong, look in your systemd journal:"
     },
     {
-      "self_ref": "#/texts/84",
+      "self_ref": "#/texts/77",
       "parent": {
         "$ref": "#/body"
       },

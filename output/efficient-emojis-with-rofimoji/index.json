@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 8798403011097907851,
-    "filename": "index.md"
+    "binary_hash": 3028550754338766574,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,22 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
       },
       {
         "$ref": "#/texts/7"
@@ -30,16 +45,7 @@
         "$ref": "#/texts/8"
       },
       {
-        "$ref": "#/texts/9"
-      },
-      {
-        "$ref": "#/texts/10"
-      },
-      {
-        "$ref": "#/texts/11"
-      },
-      {
-        "$ref": "#/texts/12"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/13"
@@ -51,7 +57,16 @@
         "$ref": "#/texts/15"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
       },
       {
         "$ref": "#/texts/20"
@@ -67,27 +82,6 @@
       },
       {
         "$ref": "#/texts/24"
-      },
-      {
-        "$ref": "#/texts/25"
-      },
-      {
-        "$ref": "#/texts/26"
-      },
-      {
-        "$ref": "#/texts/27"
-      },
-      {
-        "$ref": "#/texts/28"
-      },
-      {
-        "$ref": "#/texts/29"
-      },
-      {
-        "$ref": "#/texts/30"
-      },
-      {
-        "$ref": "#/texts/31"
       }
     ],
     "content_layer": "body",
@@ -102,45 +96,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/9"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/10"
         },
         {
-          "$ref": "#/texts/3"
+          "$ref": "#/texts/11"
         },
         {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/16"
-        },
-        {
-          "$ref": "#/texts/17"
-        },
-        {
-          "$ref": "#/texts/18"
-        },
-        {
-          "$ref": "#/texts/19"
+          "$ref": "#/texts/12"
         }
       ],
       "content_layer": "body",
@@ -158,107 +123,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2021/05/15/efficient-emojis-with-rofimoji/",
-      "text": "/2021/05/15/efficient-emojis-with-rofimoji/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "emojis",
-      "text": "emojis",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "python",
-      "text": "python",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "rpm",
-      "text": "rpm",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Emojis brighten up any message or document. They also serve as excellent methods for testing whether your application handles strings appropriately.  (This can be a lot of fun.)  \ud83e\udd2d",
       "text": "Emojis brighten up any message or document. They also serve as excellent methods for testing whether your application handles strings appropriately.  (This can be a lot of fun.)  \ud83e\udd2d"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -270,7 +139,7 @@
       "text": "I constantly obsess with efficiency and shortening the time and effort required to get my work done. I noticed that I could type short text emoticons like  :) and  ;)  so much faster than I could use emojis. This simply would not do. \ud83d\ude09"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -283,7 +152,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -295,7 +164,7 @@
       "text": "Emoji Copy  was my first try at getting the emojis I needed quickly. The site also offers a native emoji mode which allows you to see if your system is handling emojis correctly. The site loads quickly and the search finds emojis in a flash, but it was annoying to open a browser tab just to find an emoji. \ud83e\udd26\ud83c\udffb\u200d\u2642\ufe0f"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -307,7 +176,7 @@
       "text": "The GNOME Extension called  Emoji Selector  made the selection process faster, but I moved from GNOME to i3 and lost my GNOME extensions. \ud83e\udd37\ud83c\udffb\u200d\u2642\ufe0f"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -319,7 +188,7 @@
       "text": "Other methods, such as the  Emoji input method  and the  ibus-typing-booster , also worked, but I knew there had to be something more efficient than those. \ud83e\udd14"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -332,7 +201,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -344,7 +213,7 @@
       "text": "The  rofi  launcher quickly become part of my core workflow in i3 (replacing dmenu ) and I was pleasantly surprised to find  rofimoji  in GitHub. \ud83e\udd17"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -356,9 +225,9 @@
       "text": "The rofimoji launcher follows in rofi's footsteps and gives you quick access to emojis. Using rofimoji is easy:"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -370,9 +239,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -384,9 +253,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -398,9 +267,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/12",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -412,7 +281,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -424,7 +293,7 @@
       "text": "Depending on the application you're using, you might need to mess around with roflmoji's "
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -440,7 +309,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -452,7 +321,7 @@
       "text": " parameter. Some applications will take the emoji directly as if you typed it from a keyboard, but most of the ones I use seem to like a copy/paste method via the clipboard. \ud83d\udccb"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -464,7 +333,7 @@
       "text": "I use the "
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -480,7 +349,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -492,7 +361,7 @@
       "text": " parameter and it works well across browsers and terminals. Here's the line from the i3 configuration file:"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -508,7 +377,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -521,7 +390,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -533,7 +402,7 @@
       "text": "At the moment, rofimoji is not packaged for Fedora, CentOS, or Red Hat Enterprise Linux (RHEL). However, you can install it from my  COPR packages repository :"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -549,7 +418,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -561,7 +430,7 @@
       "text": "Enjoy! \ud83c\udf70"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },

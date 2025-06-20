@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 13110006465104250510,
-    "filename": "index.md"
+    "binary_hash": 16087349953608722986,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,16 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
       },
       {
         "$ref": "#/texts/5"
@@ -172,123 +181,16 @@
       },
       {
         "$ref": "#/texts/54"
-      },
-      {
-        "$ref": "#/texts/55"
-      },
-      {
-        "$ref": "#/texts/56"
-      },
-      {
-        "$ref": "#/texts/57"
-      },
-      {
-        "$ref": "#/texts/58"
-      },
-      {
-        "$ref": "#/texts/59"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2019/10/20/install-chromium-with-vaapi-on-fedora-30/",
-      "text": "/2019/10/20/install-chromium-with-vaapi-on-fedora-30/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "chromium",
-      "text": "chromium",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -300,7 +202,7 @@
       "text": "UPDATE:   The "
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -316,7 +218,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -328,7 +230,7 @@
       "text": " package is now "
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -344,7 +246,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -356,7 +258,7 @@
       "text": ". This post was updated on 2019-11-06 to include the change. See the end of the post for the update steps."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -368,7 +270,7 @@
       "text": "If you use a web browser to watch videos on a laptop, you've probably noticed that some videos play without much impact on the battery. Other videos cause the fans to spin wildly and your battery life plummets."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -380,7 +282,7 @@
       "text": "Intel designed a specification called  VA API , often called  VAAPI  (without the space), and it offers up device drivers to applications running on your system. It provides a pathway for those applications to access certain parts of the graphics processing hardware directly. This increases performance, lowers CPU usage, and increases battery life."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -392,7 +294,7 @@
       "text": "In this post, you will learn how to get VAAPI working on your Fedora 30 system and how to use it along with a Chromium build that has VAAPI patches already included. There are some DRM-related workarounds as well toward the end."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -404,7 +306,7 @@
       "text": "Note: Keep in mind that some videos are in formats that are difficult to accelerate with a GPU and some applications support acceleration with some formats but not others. You may find that your favorite site still uses the same amount of CPU as it did before you completed this guide.  \ud83d\ude22"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -417,7 +319,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -429,7 +331,7 @@
       "text": "You will need a few packages before you get started, and some of these depend on the type of GPU that is present in your system. In my case, I'm on a 4th generation Lenovo X1 Carbon, and it has an Skylake GPU:"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -445,7 +347,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -457,7 +359,7 @@
       "text": "Fedora 30 has quite a few VAAPI packages available:"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -473,7 +375,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -485,7 +387,7 @@
       "text": "My Intel GPU requires these packages:"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -501,7 +403,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -513,7 +415,7 @@
       "text": "At this point, you should be able to run "
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -529,7 +431,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -541,7 +443,7 @@
       "text": " to ensure that everything is working:"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -557,7 +459,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -569,7 +471,7 @@
       "text": "If you run into a problem like this one, try installing the"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -585,7 +487,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -597,7 +499,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -613,7 +515,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -626,7 +528,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -638,7 +540,7 @@
       "text": "Now that we have a pathway for applications to talk to our GPU, we can install Chromium with VAAPI support:"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -654,7 +556,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -666,7 +568,7 @@
       "text": "Run "
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -682,7 +584,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -694,7 +596,7 @@
       "text": " to ensure Chromium starts properly. Visit chrome://flags  in the Chromium browser and search for"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -710,7 +612,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -722,7 +624,7 @@
       "text": ". Choose  Enabled  in the dropdown and press  Relaunch Now  in the bottom right corner."
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -734,7 +636,7 @@
       "text": "After the relaunch, check some common video sites, like  YouTube  or DailyMotion . The CPU usage may be a bit lower on these, but you can lower it further by installing the  h264ify  extension. It forces some sites to provide h264 video rather than other CPU hungry formats."
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -747,7 +649,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -759,7 +661,7 @@
       "text": "The only remaining problem is DRM. Some sites, like Netflix or YouTube TV, require that the browser can handle DRM content. The "
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -775,7 +677,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -787,7 +689,7 @@
       "text": " DRM module is required for some of these sites, but it is automatically bundled with Chrome. The regular Chrome (not Chromium) package contains the module at:"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -803,7 +705,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -815,7 +717,7 @@
       "text": "."
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -827,7 +729,7 @@
       "text": "First, ensure Chromium is not running. Then copy that module over to Chromium's directory:"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -843,7 +745,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -855,7 +757,7 @@
       "text": "Start "
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -871,7 +773,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -883,7 +785,7 @@
       "text": " one more time and try out some DRM-protected sites like Netflix and they should be working properly."
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -895,7 +797,7 @@
       "text": "As I mentioned at the start of the guide, some applications support acceleration with certain video formats and not others, so your results may vary."
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -908,7 +810,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -920,7 +822,7 @@
       "text": "When this post was first written, the chromium package was called"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -936,7 +838,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -948,7 +850,7 @@
       "text": ". It now "
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -964,7 +866,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -976,7 +878,7 @@
       "text": ". The upgrade is seamless since the new package obsoletes the old one, but you need one extra step to bring over the DRM module to the new chromium library directory:"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -992,7 +894,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1004,7 +906,7 @@
       "text": "Restart "
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1020,7 +922,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },

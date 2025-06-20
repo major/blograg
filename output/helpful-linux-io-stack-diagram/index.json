@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 4487885327015927173,
-    "filename": "index.md"
+    "binary_hash": 14607110591319017188,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,147 +21,32 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
-      },
-      {
-        "$ref": "#/texts/6"
-      },
-      {
         "$ref": "#/pictures/0"
       },
       {
-        "$ref": "#/texts/7"
+        "$ref": "#/texts/1"
       },
       {
-        "$ref": "#/texts/8"
+        "$ref": "#/texts/2"
       },
       {
-        "$ref": "#/texts/9"
+        "$ref": "#/texts/3"
       },
       {
         "$ref": "#/pictures/1"
       },
       {
-        "$ref": "#/texts/10"
+        "$ref": "#/texts/4"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2014/04/30/helpful-linux-io-stack-diagram/",
-      "text": "/2014/04/30/helpful-linux-io-stack-diagram/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "command line",
-      "text": "command line",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "performance",
-      "text": "performance",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "sysadmin",
-      "text": "sysadmin",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -173,7 +58,7 @@
       "text": "During one of my regular trips to reddit, I stumbled upon an amazingly helpful Linux I/O stack diagram:"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -185,7 +70,7 @@
       "text": "1"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -197,7 +82,7 @@
       "text": "It's quite comprehensive and it can really help if you're digging through a bottleneck and you're not quite sure where to look. The original diagram is available in multiple formats  from Thomas Krenn's website ."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -209,7 +94,7 @@
       "text": "If you combine that with this slide from  Brendan Gregg's   Linux Performance Analysis and Tools  presentation from Scale 11x, you can attack performance problems with precision:"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },

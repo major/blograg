@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 3291264550867594815,
-    "filename": "index.md"
+    "binary_hash": 11610018570386616478,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,13 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
       },
       {
         "$ref": "#/texts/4"
@@ -51,19 +57,19 @@
         "$ref": "#/texts/12"
       },
       {
-        "$ref": "#/texts/13"
-      },
-      {
-        "$ref": "#/texts/14"
-      },
-      {
-        "$ref": "#/texts/15"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/16"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
       },
       {
         "$ref": "#/texts/20"
@@ -118,18 +124,6 @@
       },
       {
         "$ref": "#/texts/37"
-      },
-      {
-        "$ref": "#/texts/38"
-      },
-      {
-        "$ref": "#/texts/39"
-      },
-      {
-        "$ref": "#/texts/40"
-      },
-      {
-        "$ref": "#/texts/41"
       }
     ],
     "content_layer": "body",
@@ -144,33 +138,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/13"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/14"
         },
         {
-          "$ref": "#/texts/3"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/17"
-        },
-        {
-          "$ref": "#/texts/18"
-        },
-        {
-          "$ref": "#/texts/19"
+          "$ref": "#/texts/15"
         }
       ],
       "content_layer": "body",
@@ -188,50 +162,52 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "author: Major Hayden date: '2024-04-18' Fedora's cloud-init package now uses dhcpcd in place of dhclient, which went end of life in 2022. \ud83d\udc80 tags: ",
-      "text": "author: Major Hayden date: '2024-04-18' Fedora's cloud-init package now uses dhcpcd in place of dhclient, which went end of life in 2022. \ud83d\udc80 tags: "
+      "orig": "We're all familiar with the trusty old ",
+      "text": "We're all familiar with the trusty old "
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "code",
       "prov": [],
-      "orig": "cloud",
-      "text": "cloud",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "dhclient",
+      "text": "dhclient",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
+      "orig": " on our Linux systems, but  it went end-of-life in 2022 :",
+      "text": " on our Linux systems, but  it went end-of-life in 2022 :"
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "code",
       "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "NOTE: This software is now End-Of-Life. 4.4.3 is the final release\nplanned. We will continue to keep the public issue tracker and user\nmailing list open.\n\nYou should read this file carefully before trying to install or use\nthe ISC DHCP Distribution.",
+      "text": "NOTE: This software is now End-Of-Life. 4.4.3 is the final release\nplanned. We will continue to keep the public issue tracker and user\nmailing list open.\n\nYou should read this file carefully before trying to install or use\nthe ISC DHCP Distribution.",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
     },
     {
       "self_ref": "#/texts/4",
@@ -242,8 +218,8 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "We're all familiar with the trusty old ",
-      "text": "We're all familiar with the trusty old "
+      "orig": "Most Linux distributions use ",
+      "text": "Most Linux distributions use "
     },
     {
       "self_ref": "#/texts/5",
@@ -270,8 +246,8 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": " on our Linux systems, but  it went end-of-life in 2022 :",
-      "text": " on our Linux systems, but  it went end-of-life in 2022 :"
+      "orig": " along with cloud-init for the initial dhcp request during the first part of cloud-init's work. I set off to switch Fedora's cloud-init package to ",
+      "text": " along with cloud-init for the initial dhcp request during the first part of cloud-init's work. I set off to switch Fedora's cloud-init package to "
     },
     {
       "self_ref": "#/texts/7",
@@ -282,8 +258,8 @@
       "content_layer": "body",
       "label": "code",
       "prov": [],
-      "orig": "NOTE: This software is now End-Of-Life. 4.4.3 is the final release\nplanned. We will continue to keep the public issue tracker and user\nmailing list open.\n\nYou should read this file carefully before trying to install or use\nthe ISC DHCP Distribution.",
-      "text": "NOTE: This software is now End-Of-Life. 4.4.3 is the final release\nplanned. We will continue to keep the public issue tracker and user\nmailing list open.\n\nYou should read this file carefully before trying to install or use\nthe ISC DHCP Distribution.",
+      "orig": "dhcpcd",
+      "text": "dhcpcd",
       "captions": [],
       "references": [],
       "footnotes": [],
@@ -298,8 +274,8 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "Most Linux distributions use ",
-      "text": "Most Linux distributions use "
+      "orig": " instead.",
+      "text": " instead."
     },
     {
       "self_ref": "#/texts/9",
@@ -308,14 +284,11 @@
       },
       "children": [],
       "content_layer": "body",
-      "label": "code",
+      "label": "section_header",
       "prov": [],
-      "orig": "dhclient",
-      "text": "dhclient",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
+      "orig": "What's new with dhcpcd?",
+      "text": "What's new with dhcpcd?",
+      "level": 1
     },
     {
       "self_ref": "#/texts/10",
@@ -326,8 +299,8 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": " along with cloud-init for the initial dhcp request during the first part of cloud-init's work. I set off to switch Fedora's cloud-init package to ",
-      "text": " along with cloud-init for the initial dhcp request during the first part of cloud-init's work. I set off to switch Fedora's cloud-init package to "
+      "orig": "There are some nice things about ",
+      "text": "There are some nice things about "
     },
     {
       "self_ref": "#/texts/11",
@@ -354,66 +327,13 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": " instead.",
-      "text": " instead."
-    },
-    {
-      "self_ref": "#/texts/13",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "section_header",
-      "prov": [],
-      "orig": "What's new with dhcpcd?",
-      "text": "What's new with dhcpcd?",
-      "level": 1
-    },
-    {
-      "self_ref": "#/texts/14",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "There are some nice things about ",
-      "text": "There are some nice things about "
-    },
-    {
-      "self_ref": "#/texts/15",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "dhcpcd",
-      "text": "dhcpcd",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/16",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": " that you can find in the  GitHub repository :",
       "text": " that you can find in the  GitHub repository :"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -425,9 +345,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/14",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -439,9 +359,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/15",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -453,7 +373,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -465,7 +385,7 @@
       "text": "The project had its last release back in December 2023 and had commits as recently as this week."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -478,7 +398,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -490,7 +410,7 @@
       "text": "That's great! A switch from "
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -506,7 +426,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -518,7 +438,7 @@
       "text": " to "
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -534,7 +454,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -546,7 +466,7 @@
       "text": " for cloud-init won't affect you."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -558,7 +478,7 @@
       "text": "When cloud-init starts, it does an initial dhcp request to get just enough networking to reach the cloud's metadata service. This service provides all kinds of information for cloud-init, including network setup instructions and initial scripts to run."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -570,7 +490,7 @@
       "text": "NetworkManager doesn't start taking action until cloud-init has written the network configuration to the system."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -583,7 +503,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -595,7 +515,7 @@
       "text": "Same as with NetworkManager, this change applies to the  very  early boot and you won't notice a different when deploying new cloud systems."
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -608,7 +528,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -620,7 +540,7 @@
       "text": "If you're using a recent build of Fedora rawhide (the unstable release under development), you likely have it right now on your cloud instance. Just run "
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -636,7 +556,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -648,7 +568,7 @@
       "text": ", search for "
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -664,7 +584,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -676,7 +596,7 @@
       "text": ", and you should see these lines:"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -692,7 +612,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -704,7 +624,7 @@
       "text": "There's also an  update pending for Fedora 40 , but it's currently held up by the beta freeze. That should appear as an update as soon as Fedora 40 is released."
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -716,7 +636,7 @@
       "text": "Keep in mind that if you have a system deployed already, cloud-init won't need to run again. Updating to Fedora 40 will update your cloud-init and pull in "
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -732,7 +652,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },

@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 13312294687028938328,
-    "filename": "index.md"
+    "binary_hash": 12355533655969968830,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -24,13 +24,7 @@
         "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/4"
-      },
-      {
-        "$ref": "#/groups/1"
-      },
-      {
-        "$ref": "#/texts/9"
+        "$ref": "#/texts/5"
       }
     ],
     "content_layer": "body",
@@ -52,29 +46,9 @@
         },
         {
           "$ref": "#/texts/3"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/5"
         },
         {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        },
-        {
-          "$ref": "#/texts/8"
+          "$ref": "#/texts/4"
         }
       ],
       "content_layer": "body",
@@ -92,8 +66,8 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "I've been flooded with requests for MySQLTuner and I've answered them this weekend. Here's the changes that were made:",
+      "text": "I've been flooded with requests for MySQLTuner and I've answered them this weekend. Here's the changes that were made:"
     },
     {
       "self_ref": "#/texts/1",
@@ -104,8 +78,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "/2007/08/12/huge-mysqltuner-overhaul/",
-      "text": "/2007/08/12/huge-mysqltuner-overhaul/",
+      "orig": "Specific variable recommendations are made with suggested values as well",
+      "text": "Specific variable recommendations are made with suggested values as well",
       "enumerated": false,
       "marker": "-"
     },
@@ -118,8 +92,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "database",
-      "text": "database",
+      "orig": "Odd recommendations have been reduced",
+      "text": "Odd recommendations have been reduced",
       "enumerated": false,
       "marker": "-"
     },
@@ -132,69 +106,15 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "development",
-      "text": "development",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "I've been flooded with requests for MySQLTuner and I've answered them this weekend. Here's the changes that were made:",
-      "text": "I've been flooded with requests for MySQLTuner and I've answered them this weekend. Here's the changes that were made:"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Specific variable recommendations are made with suggested values as well",
-      "text": "Specific variable recommendations are made with suggested values as well",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Odd recommendations have been reduced",
-      "text": "Odd recommendations have been reduced",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "Some math errors were corrected",
       "text": "Some math errors were corrected",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -206,7 +126,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },

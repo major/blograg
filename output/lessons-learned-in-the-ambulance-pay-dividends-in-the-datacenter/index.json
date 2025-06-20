@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/html",
-    "binary_hash": 5606099965935693971,
-    "filename": "index.md"
+    "binary_hash": 12139364350413664242,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,25 +21,37 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
-      },
-      {
-        "$ref": "#/texts/6"
-      },
-      {
-        "$ref": "#/texts/7"
+        "$ref": "#/texts/1"
       },
       {
         "$ref": "#/pictures/0"
       },
       {
-        "$ref": "#/texts/8"
+        "$ref": "#/texts/2"
       },
       {
-        "$ref": "#/texts/9"
+        "$ref": "#/texts/3"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
       },
       {
         "$ref": "#/texts/16"
@@ -49,6 +61,9 @@
       },
       {
         "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/pictures/1"
       },
       {
         "$ref": "#/texts/19"
@@ -69,9 +84,6 @@
         "$ref": "#/texts/24"
       },
       {
-        "$ref": "#/pictures/1"
-      },
-      {
         "$ref": "#/texts/25"
       },
       {
@@ -90,28 +102,10 @@
         "$ref": "#/texts/30"
       },
       {
-        "$ref": "#/texts/31"
+        "$ref": "#/groups/1"
       },
       {
-        "$ref": "#/texts/32"
-      },
-      {
-        "$ref": "#/texts/33"
-      },
-      {
-        "$ref": "#/texts/34"
-      },
-      {
-        "$ref": "#/texts/35"
-      },
-      {
-        "$ref": "#/texts/36"
-      },
-      {
-        "$ref": "#/groups/2"
-      },
-      {
-        "$ref": "#/texts/45"
+        "$ref": "#/texts/39"
       }
     ],
     "content_layer": "body",
@@ -126,19 +120,22 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
           "$ref": "#/texts/4"
         },
         {
           "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
         }
       ],
       "content_layer": "body",
@@ -152,22 +149,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/10"
+          "$ref": "#/groups/2"
         },
         {
-          "$ref": "#/texts/11"
-        },
-        {
-          "$ref": "#/texts/12"
-        },
-        {
-          "$ref": "#/texts/13"
-        },
-        {
-          "$ref": "#/texts/14"
-        },
-        {
-          "$ref": "#/texts/15"
+          "$ref": "#/groups/3"
         }
       ],
       "content_layer": "body",
@@ -177,14 +162,11 @@
     {
       "self_ref": "#/groups/2",
       "parent": {
-        "$ref": "#/body"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "$ref": "#/groups/3"
-        },
-        {
-          "$ref": "#/groups/4"
+          "$ref": "#/texts/31"
         }
       ],
       "content_layer": "body",
@@ -194,43 +176,29 @@
     {
       "self_ref": "#/groups/3",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
         {
           "$ref": "#/texts/37"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/4",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [
+        },
         {
           "$ref": "#/texts/38"
-        },
-        {
-          "$ref": "#/texts/39"
-        },
-        {
-          "$ref": "#/texts/40"
-        },
-        {
-          "$ref": "#/texts/41"
-        },
-        {
-          "$ref": "#/texts/42"
-        },
-        {
-          "$ref": "#/texts/43"
-        },
-        {
-          "$ref": "#/texts/44"
         }
       ],
       "content_layer": "body",
@@ -248,50 +216,44 @@
       "content_layer": "body",
       "label": "text",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "While cleaning up a room at home in preparation for some new flooring, I found my original documents from when I first became certified as an Emergency Medical Technician (EMT) in Texas. That was way back in May of 2000 and I received it just before I graduated from high school later in the month. After renewing it twice, I decided to let my certification go this year. It expires today and although I'm sad to see it go, I know that sometimes you have to let one thing go so that you can excel in something else.",
+      "text": "While cleaning up a room at home in preparation for some new flooring, I found my original documents from when I first became certified as an Emergency Medical Technician (EMT) in Texas. That was way back in May of 2000 and I received it just before I graduated from high school later in the month. After renewing it twice, I decided to let my certification go this year. It expires today and although I'm sad to see it go, I know that sometimes you have to let one thing go so that you can excel in something else."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "text",
       "prov": [],
-      "orig": "/2012/05/31/lessons-learned-in-the-ambulance-pay-dividends-in-the-datacenter/",
-      "text": "/2012/05/31/lessons-learned-in-the-ambulance-pay-dividends-in-the-datacenter/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "I  mentioned this  yesterday on Twitter and  Jesse Newland from GitHub  came back with a good reply:",
+      "text": "I  mentioned this  yesterday on Twitter and  Jesse Newland from GitHub  came back with a good reply:"
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "text",
       "prov": [],
-      "orig": "emergency",
-      "text": "emergency",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "The tweet that inspired this post",
+      "text": "The tweet that inspired this post"
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "text",
       "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "It began to make more sense the more I thought about it (and once  Mark Imbriaco  and  Jerry Chen  asked for it as well). Working in Operations in a large server environment has a lot of similarities to working on an ambulance:",
+      "text": "It began to make more sense the more I thought about it (and once  Mark Imbriaco  and  Jerry Chen  asked for it as well). Working in Operations in a large server environment has a lot of similarities to working on an ambulance:"
     },
     {
       "self_ref": "#/texts/4",
@@ -302,8 +264,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "operations",
-      "text": "operations",
+      "orig": "both involve fixing things (whether it's technology or an illness/injury)",
+      "text": "both involve fixing things (whether it's technology or an illness/injury)",
       "enumerated": false,
       "marker": "-"
     },
@@ -316,91 +278,15 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "sysadmin",
-      "text": "sysadmin",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "While cleaning up a room at home in preparation for some new flooring, I found my original documents from when I first became certified as an Emergency Medical Technician (EMT) in Texas. That was way back in May of 2000 and I received it just before I graduated from high school later in the month. After renewing it twice, I decided to let my certification go this year. It expires today and although I'm sad to see it go, I know that sometimes you have to let one thing go so that you can excel in something else.",
-      "text": "While cleaning up a room at home in preparation for some new flooring, I found my original documents from when I first became certified as an Emergency Medical Technician (EMT) in Texas. That was way back in May of 2000 and I received it just before I graduated from high school later in the month. After renewing it twice, I decided to let my certification go this year. It expires today and although I'm sad to see it go, I know that sometimes you have to let one thing go so that you can excel in something else."
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "I  mentioned this  yesterday on Twitter and  Jesse Newland from GitHub  came back with a good reply:",
-      "text": "I  mentioned this  yesterday on Twitter and  Jesse Newland from GitHub  came back with a good reply:"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "The tweet that inspired this post",
-      "text": "The tweet that inspired this post"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "It began to make more sense the more I thought about it (and once  Mark Imbriaco  and  Jerry Chen  asked for it as well). Working in Operations in a large server environment has a lot of similarities to working on an ambulance:",
-      "text": "It began to make more sense the more I thought about it (and once  Mark Imbriaco  and  Jerry Chen  asked for it as well). Working in Operations in a large server environment has a lot of similarities to working on an ambulance:"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "both involve fixing things (whether it's technology or an illness/injury)",
-      "text": "both involve fixing things (whether it's technology or an illness/injury)",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "there are plenty of highly stressful situations in both occupations",
       "text": "there are plenty of highly stressful situations in both occupations",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -412,9 +298,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -426,9 +312,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -440,9 +326,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -454,7 +340,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -466,7 +352,7 @@
       "text": "Without further ado, here are some lessons I learned on the ambulance which have really helped me as a member of an operations team. I've broken them up into separate chunks (more on that lesson shortly) to make it a little easier to read:"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -478,7 +364,7 @@
       "text": "Whatever happens, keep your cool"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -490,7 +376,7 @@
       "text": "One of the worst situations you can have on an ambulance is when an EMT or paramedic feels overwhelmed to the point that they can't function. Imagine rolling up with your partner on a multi-car collision with several injured drivers and passengers. It's just the two of you at the scene and you need to start working. You're obviously outnumbered and you won't be able to treat everyone at once. Now, imagine that your partner hasn't seen this type of situation and is actively buckling under the pressure. The quality of care you're trained to deliver and the efficiency at which you can deliver it has now been slashed in half. Even worse, getting your partner back on track might take some work and this may slow you down even more."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -502,7 +388,7 @@
       "text": "The same can be said about working on large incidents affecting your customers. You're probably going to be outnumbered by the amount of servers having a problem and you won't get them back online any sooner if you're beginning to freak out. Just remember, as with servers and as with people (most of the time), they were running fine at one time and they'll be running fine again soon. Your job is to bridge the gap between those times and try to get to the end goal as soon as possible."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -514,7 +400,7 @@
       "text": "You might miss some things or not complete certain tasks as well as you'd like to. You might slip and make things worse than they were before. One step backward and two steps forward is painful, but it's still progress. Keep your mind clear and focused so that you can use your knowledge, skills, and experience to pave a path out."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -526,7 +412,7 @@
       "text": "Triage, triage, triage"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -538,7 +424,7 @@
       "text": "Going back to the multi-car collision scenario, you're well aware that you won't be able to take care of everyone at once. This is where skillful triaging is key. Find the people who are in the most dire situations and treat them first. Although it seems counterproductive, you may have to pass over the people who are hurt so badly that they have little chance of survival. Spending additional time with those people may cause patients with treatable conditions to deteriorate further unnecessarily. It may sound callous, but I'd rather have a few people with serious injuries get treated than lose all of them while I'm treating someone who is essentially near death."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -550,7 +436,7 @@
       "text": "Lots of this can be carried over into maintaining servers. When a big problem occurs, you can spend all of your time wrestling with servers that are beyond repair only to watch the remainder of your environment crash around you. Find ways to stop the bleeding first and then figure out some solid fixes."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -562,7 +448,7 @@
       "text": "For example, if your database cluster gets out of sync, think of the things you can do to reduce the amount of bad data coming in. Could you have your load balancer send traffic elsewhere? Could you disable your application until the database problem is solved? If you lose sight of what's causing you immediate pain, you may spend all day trying to fix the broken database cluster only to find that you have many multitudes more data to sort out due to your application running throughout the whole process."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -574,7 +460,7 @@
       "text": "Flickr via jar0d"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -586,7 +472,7 @@
       "text": "Learn from your mistakes and don't dwell on them"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -598,7 +484,7 @@
       "text": "Medical mistakes can range anywhere from unnoticeable to career-endingly serious. One missed tidbit of a patient's medical history, one small math error when administering drugs, or one slip of the hand can make a bad situation much worse. I've made mistakes on the ambulance and I've been very fortunate that almost all of them were very small and inconsequential. If I made one that went unnoticed, I made an effort to notify my supervisor and whoever would be taking over care of my patient. For the mistakes I didn't even notice on my own, my partners would often be quick to point out the error."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -610,7 +496,7 @@
       "text": "Getting called out on a mistake (even if you call yourself out on it) hurts. Funnel the frustration from it into a plan to fix it. Do some reading to understand the right solution. Learn mnemonics to remember in stressful situations. Make notes for yourself. Practice. Those small steps will reduce your mistakes through increasing your confidence."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -622,7 +508,7 @@
       "text": "Although most Ops engineers should survive big incidents with their lives intact, mistakes are still made and they can be costly. Mistakes can turn into a positive learning experience for everyone on the team. There's a  great post  on Etsy's \"Code as Craft\" blog about this topic."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -634,7 +520,7 @@
       "text": "John Allspaw wrote:"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -646,7 +532,7 @@
       "text": "A funny thing happens when engineers make mistakes and feel safe when giving details about it: they are not only willing to be held accountable, they are also enthusiastic in helping the rest of the company avoid the same error in the future. They are, after all, the most expert in their own error."
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -658,7 +544,7 @@
       "text": "The only true mistake is the one which is made but never learned from. Accept it, learn from it, teach others to avoid it and move forward."
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -670,7 +556,7 @@
       "text": "Get all the facts to avoid assumptions"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -682,7 +568,7 @@
       "text": "My mother (an Engish teacher) always told me to put the most important things at the beginning and and the end when I write. If there's anything more important than keeping your cool under duress, it's that you should have as many facts as you can before you get started."
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -694,7 +580,7 @@
       "text": "On the ambulance, you're always looking for the very small clues to ensure that your patient is getting the proper treatment. You may walk up to a patient with slurred speech who can't walk straight. You may think he's drunk until you see a small bottle of insulin and a blood glucose meter. Wait, did his blood sugar bottom out? Did he take his insulin at the wrong time? Did he take the wrong amount? Missing that small bit of information may lead you to put your \"drunk\" patient onto a stretcher without the proper treatment only to find that you're dealing with a diabetic coma as you get to the hospital. That incorrect assumption could have turned a serious situation into a possibly fatal one."
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -706,9 +592,9 @@
       "text": "Responding to incidents with servers is much the same. Skipping over a server with data corruption or not realizing that a change was made (and documented) earlier in the day could lead to serious damage. Forgetting to check log files, streams of exceptions, or reports from customers can lead to bad assumptions which could extend your downtime or cause the loss of data."
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/31",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -720,9 +606,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/32",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -734,9 +620,9 @@
       "marker": "1."
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/33",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -748,9 +634,9 @@
       "marker": "2."
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/34",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -762,9 +648,9 @@
       "marker": "3."
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/35",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -776,9 +662,9 @@
       "marker": "4."
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/36",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -790,9 +676,9 @@
       "marker": "5."
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/37",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -804,9 +690,9 @@
       "marker": "6."
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/38",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -818,7 +704,7 @@
       "marker": "7."
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },

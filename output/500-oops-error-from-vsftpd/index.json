@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 13670582111186612277,
-    "filename": "index.md"
+    "binary_hash": 1694316402832350729,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,13 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
       },
       {
         "$ref": "#/texts/4"
@@ -91,103 +97,16 @@
       },
       {
         "$ref": "#/texts/26"
-      },
-      {
-        "$ref": "#/texts/27"
-      },
-      {
-        "$ref": "#/texts/28"
-      },
-      {
-        "$ref": "#/texts/29"
-      },
-      {
-        "$ref": "#/texts/30"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2007/06/14/500-oops-error-from-vsftpd/",
-      "text": "/2007/06/14/500-oops-error-from-vsftpd/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "ftp",
-      "text": "ftp",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -199,7 +118,7 @@
       "text": "If you find yourself with the ever-so-peculiar  500 OOPS  error from vsftpd when you attempt to login over SSH, there could be a few different things at play. Generally, this is the type of error you will get:"
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -215,7 +134,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -227,7 +146,7 @@
       "text": "You can search for a solution in this order:"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -239,7 +158,7 @@
       "text": "Home Directory"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -251,7 +170,7 @@
       "text": "Does the user's home directory even exist? Check "
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -267,7 +186,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -279,7 +198,7 @@
       "text": " for the current home directory for the user and see what's set:"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -295,7 +214,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -307,7 +226,7 @@
       "text": "In this case, does "
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -323,7 +242,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -335,7 +254,7 @@
       "text": " exist? If it doesn't, fix that and then move onto the next solution if you're still having problems."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -347,7 +266,7 @@
       "text": "File/Directory Permissions"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -357,6 +276,62 @@
       "prov": [],
       "orig": "Be sure that the user that you are logging in as actually has permissions to be in the directory. This affects users that have home directories of ",
       "text": "Be sure that the user that you are logging in as actually has permissions to be in the directory. This affects users that have home directories of "
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/var/www/html",
+      "text": "/var/www/html",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " because the execute bit normally isn't set for the world on ",
+      "text": " because the execute bit normally isn't set for the world on "
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/var/www",
+      "text": "/var/www",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " or ",
+      "text": " or "
     },
     {
       "self_ref": "#/texts/17",
@@ -383,67 +358,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": " because the execute bit normally isn't set for the world on ",
-      "text": " because the execute bit normally isn't set for the world on "
-    },
-    {
-      "self_ref": "#/texts/19",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "/var/www",
-      "text": "/var/www",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/20",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": " or ",
-      "text": " or "
-    },
-    {
-      "self_ref": "#/texts/21",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "/var/www/html",
-      "text": "/var/www/html",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/22",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": ". Make sure that the appropriate permissions and ownerships are set, and this should help eliminate the issue.",
       "text": ". Make sure that the appropriate permissions and ownerships are set, and this should help eliminate the issue."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -455,7 +374,7 @@
       "text": "SELINUX"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -467,7 +386,7 @@
       "text": "If SELINUX is rearing its ugly head on the server, this can be a problem. Check your current SELINUX status and disable it if necessary:"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -483,7 +402,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -495,7 +414,7 @@
       "text": "Try to login over FTP again and you should have a success. If you want to turn off SELINUX entirely, adjust "
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -511,7 +430,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -523,7 +442,7 @@
       "text": " (RHEL4) or "
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -539,7 +458,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },

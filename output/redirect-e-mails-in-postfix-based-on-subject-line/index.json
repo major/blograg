@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 9422108190038304858,
-    "filename": "index.md"
+    "binary_hash": 17661554973161164387,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,10 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
       },
       {
         "$ref": "#/texts/3"
@@ -33,16 +36,7 @@
         "$ref": "#/texts/5"
       },
       {
-        "$ref": "#/texts/6"
-      },
-      {
-        "$ref": "#/texts/7"
-      },
-      {
-        "$ref": "#/texts/8"
-      },
-      {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       }
     ],
     "content_layer": "body",
@@ -57,24 +51,7 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/9"
+          "$ref": "#/texts/6"
         }
       ],
       "content_layer": "body",
@@ -92,51 +69,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2007/07/01/redirect-e-mails-in-postfix-based-on-subject-line/",
-      "text": "/2007/07/01/redirect-e-mails-in-postfix-based-on-subject-line/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "mail",
-      "text": "mail",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Depending on your situation, it may be handy to redirect e-mails that have a certain subject line before it even reaches a user's inbox. Let's say you're tired of getting e-mails that start with the word \"Cialis\". Just follow these steps to redirect those e-mails.",
       "text": "Depending on your situation, it may be handy to redirect e-mails that have a certain subject line before it even reaches a user's inbox. Let's say you're tired of getting e-mails that start with the word \"Cialis\". Just follow these steps to redirect those e-mails."
     },
     {
-      "self_ref": "#/texts/4",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -148,7 +85,7 @@
       "text": "First, enable header checks in /etc/postfix/main.cf:"
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -164,7 +101,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -176,7 +113,7 @@
       "text": "Then, create /etc/postfix/header_checks and add the following:"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -192,7 +129,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -204,9 +141,9 @@
       "text": "For a lot more information about header checks in postfix, review the documentation here:"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",

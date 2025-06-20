@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 4829471617927655322,
-    "filename": "index.md"
+    "binary_hash": 16772197505810628661,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,16 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
       },
       {
         "$ref": "#/texts/5"
@@ -106,123 +115,16 @@
       },
       {
         "$ref": "#/texts/32"
-      },
-      {
-        "$ref": "#/texts/33"
-      },
-      {
-        "$ref": "#/texts/34"
-      },
-      {
-        "$ref": "#/texts/35"
-      },
-      {
-        "$ref": "#/texts/36"
-      },
-      {
-        "$ref": "#/texts/37"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2021/07/18/tray-icons-in-i3/",
-      "text": "/2021/07/18/tray-icons-in-i3/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "i3",
-      "text": "i3",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -234,7 +136,7 @@
       "text": "One of the first things I look for on a fresh installation of a laptop is how to enable tap-to-click automatically. Most window managers and desktop environments make this easy with a control panel that has toggles or drop-down menus."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -246,7 +148,7 @@
       "text": "However, this requires a little more effort in i3. Fortunately, there are two routes to get it enabled: in xorg's configuration or via your i3 configuration."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -259,7 +161,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -271,7 +173,7 @@
       "text": "The advantage of this method is that it's easy to configure and test out quickly. On the other hand, this configuration change will only affect i3 on your system. (Other window managers won't be affected.)"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -283,7 +185,7 @@
       "text": "Start with the "
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -299,7 +201,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -311,7 +213,7 @@
       "text": " command to determine which devices are on your system. If you're on Fedora, just run "
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -327,7 +229,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -339,7 +241,7 @@
       "text": " to install it."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -351,7 +253,7 @@
       "text": "Here's the output on my Lenovo ThinkPad T490:"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -367,7 +269,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -379,7 +281,7 @@
       "text": "My touchpad is the second entry in the first group:  SynPS/2 Synaptics TouchPad . Now we can list all the properties of this device using the id number (12 in my case) or the full name:"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -395,7 +297,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -407,7 +309,7 @@
       "text": "The important line in the output is this one:"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -423,7 +325,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -435,7 +337,7 @@
       "text": "Let's turn on tap-to-click for the touchpad:"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -451,7 +353,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -463,7 +365,7 @@
       "text": "Your tap-to-click should now work! If it doesn't, go back to the list of input devices and double check that there isn't another touchpad. Some laptops show multiple touchpads even though there's only one in the system. This is due to extra buttons being labeled as a touchpad on some laptops."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -475,7 +377,7 @@
       "text": "Let's make it permanent in the i3 configuration. Open up "
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -491,7 +393,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -503,7 +405,7 @@
       "text": "and add a line:"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -519,7 +421,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -531,7 +433,7 @@
       "text": "You're all set!"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -544,7 +446,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -556,7 +458,7 @@
       "text": "This method affects all window managers on your machine, so keep that in mind. Make a new file at "
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -572,7 +474,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -584,7 +486,7 @@
       "text": " and add the following:"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -600,7 +502,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -612,7 +514,7 @@
       "text": "We're telling xorg to apply this configuration to any libinput touchpad on the system (but you could use the specific name of the device here if you want), and we're enabling the tapping option."
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -624,7 +526,7 @@
       "text": "You can make this change effective immediately with:"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -640,7 +542,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -652,7 +554,7 @@
       "text": "The xorg configuration change takes effect when you log out of your X session or you reboot your computer."
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },

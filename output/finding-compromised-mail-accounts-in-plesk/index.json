@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 2972259118188916944,
-    "filename": "index.md"
+    "binary_hash": 16573211171617204591,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,16 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
       },
       {
         "$ref": "#/texts/5"
@@ -43,123 +52,16 @@
       },
       {
         "$ref": "#/texts/11"
-      },
-      {
-        "$ref": "#/texts/12"
-      },
-      {
-        "$ref": "#/texts/13"
-      },
-      {
-        "$ref": "#/texts/14"
-      },
-      {
-        "$ref": "#/texts/15"
-      },
-      {
-        "$ref": "#/texts/16"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2007/02/10/finding-compromised-mail-accounts-in-plesk/",
-      "text": "/2007/02/10/finding-compromised-mail-accounts-in-plesk/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "mail",
-      "text": "mail",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "plesk",
-      "text": "plesk",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -171,7 +73,7 @@
       "text": "If odd bounced e-mails are coming back to the server or the server is listed in a blacklist, some accounts may be compromised on the server. Here's how to diagnose the issue:"
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -183,7 +85,7 @@
       "text": "Read the queue and look for messages with funky senders or lots of recipients."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -199,7 +101,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -211,7 +113,7 @@
       "text": "This is a phishing e-mail being sent out to imitate PayPal. Now you need to find which IP is sending this e-mail, so grab the message ID and pass it to qmHandle:"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -227,7 +129,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -239,7 +141,7 @@
       "text": "In this case, the offender is from 207.219.92.194. Now we can dig for the login in /var/log/messages:"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -255,7 +157,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -267,7 +169,7 @@
       "text": "Just for giggles, let's find out what their password is:"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -283,7 +185,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -295,7 +197,7 @@
       "text": "Well, 'password' isn't a great password. Log into Plesk and change this password ASAP. To verify your work, tail /var/log/messages and you should see this:"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -311,7 +213,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },

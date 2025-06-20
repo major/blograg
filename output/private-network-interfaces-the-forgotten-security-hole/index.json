@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 15469530318637400030,
-    "filename": "index.md"
+    "binary_hash": 8597194496762730567,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,310 +21,59 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
       },
       {
         "$ref": "#/texts/14"
       },
       {
         "$ref": "#/texts/15"
-      },
-      {
-        "$ref": "#/texts/16"
-      },
-      {
-        "$ref": "#/texts/17"
-      },
-      {
-        "$ref": "#/texts/18"
-      },
-      {
-        "$ref": "#/texts/19"
-      },
-      {
-        "$ref": "#/texts/20"
-      },
-      {
-        "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
-      },
-      {
-        "$ref": "#/texts/23"
-      },
-      {
-        "$ref": "#/texts/24"
-      },
-      {
-        "$ref": "#/texts/25"
-      },
-      {
-        "$ref": "#/texts/26"
-      },
-      {
-        "$ref": "#/texts/27"
-      },
-      {
-        "$ref": "#/texts/28"
-      },
-      {
-        "$ref": "#/texts/29"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        },
-        {
-          "$ref": "#/texts/8"
-        },
-        {
-          "$ref": "#/texts/9"
-        },
-        {
-          "$ref": "#/texts/10"
-        },
-        {
-          "$ref": "#/texts/11"
-        },
-        {
-          "$ref": "#/texts/12"
-        },
-        {
-          "$ref": "#/texts/13"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aktt_notify_twitter:",
-      "text": "aktt_notify_twitter:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "false",
-      "text": "false",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2010/03/01/private-network-interfaces-the-forgotten-security-hole/",
-      "text": "/2010/03/01/private-network-interfaces-the-forgotten-security-hole/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "apache",
-      "text": "apache",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "cloud",
-      "text": "cloud",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "command line",
-      "text": "command line",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "encryption",
-      "text": "encryption",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "iptables",
-      "text": "iptables",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "mysql",
-      "text": "mysql",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "network",
-      "text": "network",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "ssl",
-      "text": "ssl",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "sysadmin",
-      "text": "sysadmin",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/13",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "tcpwrappers",
-      "text": "tcpwrappers",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -336,7 +85,7 @@
       "text": "Regardless of the type of hosting you're using - dedicated or cloud - it's important to take network interface security seriously. Most often, threats from the internet are the only ones mentioned. However, if you share a private network with other customers, you have just as much risk on that interface."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -348,7 +97,7 @@
       "text": "Many cloud providers allow you access to a private network environment where you can exchange data with other instances or other services offered by the provider. The convenience of this access comes with a price: other instances can access your instance on the private network just as easily as they could on the public interface."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -360,7 +109,7 @@
       "text": "Here are some security tips for your private interfaces:"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -372,7 +121,7 @@
       "text": "Disable the private interface"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -384,7 +133,7 @@
       "text": "This one is pretty simple. If you have only one instance or server, and you don't need to communicate privately with any other instances, just disable the interface. Remember to configure your networking scripts to leave the interface disabled after reboots."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -396,7 +145,7 @@
       "text": "Use packet filtering"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -408,7 +157,7 @@
       "text": "The actual mechanism will vary based on your operating system, but filtering packets is the one of the simplest ways to secure your private interface. You can take some different approaches with them, but I find the easiest method is to allow access from your other instances and reject all other traffic."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -420,7 +169,7 @@
       "text": "For additional security, you can limit access based on ports as well as source IP addresses. This could prevent an attacker from having easy access to your other instances if they're able to break into one of them."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -432,7 +181,7 @@
       "text": "Configure your daemons to listen on the appropriate interfaces"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -444,7 +193,7 @@
       "text": "If there are services that don't need to be listening on the private network, don't allow them to listen on your private interface. For example, MySQL might need to listen on the private interface so the web server can talk to it, but apache won't need to listen on the private interface. This reduces the profile of your instance on the private network and makes it a less likely target for attack."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -456,7 +205,7 @@
       "text": "Use hosts.allow and hosts.deny"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -468,7 +217,7 @@
       "text": "Many new systems administrators forget about how handy tcpwrappers can be for limiting access. If your firewall is down in error, host.allow and hosts.deny could be an extra layer of protection. It's important to ensure that the daemons you are attempting to control are build with tcpwrappers support. Daemons like sshd support it, but apache and MySQL do not."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -480,7 +229,7 @@
       "text": "Encrypt all traffic on the private network"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -492,7 +241,7 @@
       "text": "Just because it's called a \"private\" network doesn't mean that your traffic can traverse the network privately. You should always err on the side of caution and encrypt all traffic traversing the private network. You can use ssh tunnels, stunnel, or the built-in SSL features found in most daemons."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -504,7 +253,7 @@
       "text": "This also brings up an important point:  you should know how your provider's private network works . Are there safeguards to prevent sniffing? Could someone else possibly ARP spoof your instance's private IP addresses? Is your private network's subnet shared among many customers?"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },

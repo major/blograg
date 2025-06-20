@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 2025718874626552164,
-    "filename": "index.md"
+    "binary_hash": 8237612332365741272,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,28 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
       },
       {
         "$ref": "#/texts/9"
@@ -43,203 +64,16 @@
       },
       {
         "$ref": "#/texts/15"
-      },
-      {
-        "$ref": "#/texts/16"
-      },
-      {
-        "$ref": "#/texts/17"
-      },
-      {
-        "$ref": "#/texts/18"
-      },
-      {
-        "$ref": "#/texts/19"
-      },
-      {
-        "$ref": "#/texts/20"
-      },
-      {
-        "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
-      },
-      {
-        "$ref": "#/texts/23"
-      },
-      {
-        "$ref": "#/texts/24"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        },
-        {
-          "$ref": "#/texts/8"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2014/12/17/try-lxc-ansible-playbook/",
-      "text": "/2014/12/17/try-lxc-ansible-playbook/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "ansible",
-      "text": "ansible",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "command line",
-      "text": "command line",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "containers",
-      "text": "containers",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "lxc",
-      "text": "lxc",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "virtualization",
-      "text": "virtualization",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -251,7 +85,7 @@
       "text": "The world of containers is constantly evolving lately. The latest turn of events involves the CoreOS developers when they announced  Rocket  as an alternative to  Docker . However,  LXC  still lingers as a very simple path to begin using containers."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -263,7 +97,7 @@
       "text": "When I talk to people about LXC, I often hear people talk about how difficult it is to get started with LXC. After all, Docker provides an easy-to-use image downloading function that allows you to spin up multiple different operating systems in Docker containers within a few minutes. It also comes with a daemon to help you manage your images and your containers."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -275,7 +109,7 @@
       "text": "Managing LXC containers using the basic LXC tools isn't terribly easy - I'll give you that. However, managing LXC through  libvirt  makes the process much easier. I  wrote a little about this  earlier in the year."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -287,7 +121,7 @@
       "text": "I decided to turn the LXC container deployment process into an  Ansible playbook  that you can use to automatically spawn an LXC container on any server or virtual machine. At the moment, only Fedora 20 and 21 are supported. I plan to add CentOS 7 and Debian support soon."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -299,7 +133,7 @@
       "text": "Clone the repository to get started:"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -315,7 +149,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -327,7 +161,7 @@
       "text": "If you're running the playbook on the actual server or virtual machine where you want to run LXC, there's no need to alter the "
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -343,7 +177,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -355,7 +189,7 @@
       "text": " file. You will need to adjust it if you're running your playbook from a remote machine."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -367,7 +201,7 @@
       "text": "As the playbook runs, it will install all of the necessary packages and begin assembling a Fedora 21 chroot. It will register the container with libvirt and do some basic configuration of the chroot so that it will work as a container. You'll end up with a running Fedora 21 LXC container that is using the built-in default NAT network created by libvirt. The playbook will print out the IP address of the container at the end. The default password for root is  fedora . I wouldn't recommend leaving that for a production use container. ;)"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -379,7 +213,7 @@
       "text": "All of the normal "
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -395,7 +229,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -407,7 +241,7 @@
       "text": " commands should work on the container. For example:"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -423,7 +257,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -435,7 +269,7 @@
       "text": "Feel free to install the virt-manager tool and manage everything via a GUI locally or via X forwarding:"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },

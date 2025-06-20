@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 15136391025570816308,
-    "filename": "index.md"
+    "binary_hash": 5284905992479586958,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,19 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/pictures/0"
       },
       {
         "$ref": "#/texts/5"
@@ -31,126 +43,16 @@
       },
       {
         "$ref": "#/texts/7"
-      },
-      {
-        "$ref": "#/texts/8"
-      },
-      {
-        "$ref": "#/texts/9"
-      },
-      {
-        "$ref": "#/pictures/0"
-      },
-      {
-        "$ref": "#/texts/10"
-      },
-      {
-        "$ref": "#/texts/11"
-      },
-      {
-        "$ref": "#/texts/12"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2017/08/02/thunderbird-changes-fonts-messages-not/",
-      "text": "/2017/08/02/thunderbird-changes-fonts-messages-not/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "mail",
-      "text": "mail",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "thunderbird",
-      "text": "thunderbird",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -162,7 +64,7 @@
       "text": "Thunderbird  is a great choice for a mail client on Linux systems if you prefer a GUI, but I had some problems with fonts in the most recent releases. The monospace font used for plain text messages was difficult to read."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -174,7 +76,7 @@
       "text": "I opened  Edit > Preferences > Display  and clicked  Advanced  to the right of  Fonts & Colors . The default font for monospace text was \"Monospace\", and that one isn't terribly attractive. I chose \"DejaVu Sans Mono\" instead, and closed the dialog boxes."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -186,7 +88,7 @@
       "text": "The fonts in monospace messages didn't change. I quit Thunderbird, opened it again, and still didn't see a change. The strange part is that a small portion of my monospaced messages were opening with the updated font while the majority were not."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -198,7 +100,7 @@
       "text": "I went back into Thunderbird's preferences and took another look:"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -210,7 +112,7 @@
       "text": "thunderbird fonts and colors panel"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -222,7 +124,7 @@
       "text": "Screenshot-from-2017-08-02-07-48-18.png"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -234,7 +136,7 @@
       "text": "Everything was set as I expected. I started with some Google searches and stumbled upon a Mozilla Bug:  Changing monospace font doesn't affect all messages . One of the participants in the bug mentioned that any emails received without ISO-8859-1 encoding would be unaffected since Thunderbird allows you set fonts for each encoding."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -258,7 +160,7 @@
       "prov": [],
       "captions": [
         {
-          "$ref": "#/texts/9"
+          "$ref": "#/texts/4"
         }
       ],
       "references": [],

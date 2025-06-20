@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 53092598521994892,
-    "filename": "index.md"
+    "binary_hash": 10268026949767297287,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,10 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
       },
       {
         "$ref": "#/texts/3"
@@ -31,83 +34,16 @@
       },
       {
         "$ref": "#/texts/5"
-      },
-      {
-        "$ref": "#/texts/6"
-      },
-      {
-        "$ref": "#/texts/7"
-      },
-      {
-        "$ref": "#/texts/8"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2007/09/12/slow-imap-and-pop3-performance-with-large-mailboxes-on-rhel-21/",
-      "text": "/2007/09/12/slow-imap-and-pop3-performance-with-large-mailboxes-on-rhel-21/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "mail",
-      "text": "mail",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -119,7 +55,7 @@
       "text": "By default, Red Hat Enterprise Linux 2.1 comes with UW-IMAP which runs from xinetd. This is fine for most users, but when mailbox sizes creep upwards of 500MB, you may notice odd performance degradations and undelivered mail."
     },
     {
-      "self_ref": "#/texts/4",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -131,7 +67,7 @@
       "text": "This is because UW-IMAP only supports  mbox  files in RHEL 2.1. This means your e-mail ends up in one big file which has each e-mail listed one after another. This is a simple way to handle mail, but it scales in a horrible fashion."
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -143,7 +79,7 @@
       "text": "Daniel Bernstein , the creator of  qmail , created  maildir , and (as much as I hate anything relating to qmail) it's the best method for storing mail that I've seen so far."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -155,7 +91,7 @@
       "text": "Mbox files are slower because the entire file must be scanned when the POP or IMAP daemon receive a request for an e-mail held within it. That means that the daemon must scan through all of the e-mails until the one that it wants is found. If sendmail wants to drop off e-mail for the user, it has to wait since the mail spool is locked. If it can't deliver the e-mail, it may bounce it after a period of time."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -167,7 +103,7 @@
       "text": "This is especially awful if a user receives a fair amount of e-mail and checks their e-mail from a mobile device. This means that their computer and the mobile device are making the mail daemons scan the mbox file repeatedly when they check in. It causes sendmail to back up, disk I/O skyrockets, and the server performance as a whole can suffer."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },

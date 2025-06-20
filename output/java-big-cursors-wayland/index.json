@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 9193842232612495377,
-    "filename": "index.md"
+    "binary_hash": 3761870022971334196,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,22 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
       },
       {
         "$ref": "#/texts/7"
@@ -142,163 +157,16 @@
       },
       {
         "$ref": "#/texts/46"
-      },
-      {
-        "$ref": "#/texts/47"
-      },
-      {
-        "$ref": "#/texts/48"
-      },
-      {
-        "$ref": "#/texts/49"
-      },
-      {
-        "$ref": "#/texts/50"
-      },
-      {
-        "$ref": "#/texts/51"
-      },
-      {
-        "$ref": "#/texts/52"
-      },
-      {
-        "$ref": "#/texts/53"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "author: Major Hayden date: '2024-04-26' Java applications under Wayland seemed to have all different sizes of cursors, but some were way, way, too big. \ud83d\udc18 tags: ",
-      "text": "author: Major Hayden date: '2024-04-26' Java applications under Wayland seemed to have all different sizes of cursors, but some were way, way, too big. \ud83d\udc18 tags: "
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "java",
-      "text": "java",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "sway",
-      "text": "sway",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "systemd",
-      "text": "systemd",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "wayland",
-      "text": "wayland",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -310,7 +178,7 @@
       "text": "Scroll through the list of  Wayland posts  posts on the blog and you'll see that I've solved plenty of weird problems with Wayland and the  Sway  compositor. Most are pretty easy to fix but some are a bit trickier."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -322,7 +190,7 @@
       "text": "Java applications are notoriously unpredictable and Wayland takes unpredictability to the next level. One particular application on my desktop always seems to start with massive cursors."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -334,7 +202,7 @@
       "text": "This post is about how I fixed and then discovered something interesting along the way."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -347,7 +215,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -359,7 +227,7 @@
       "text": "I recently moved some investment and trading accounts from TD Ameritrade to  Tastytrade . Both offer Java applications that make trading easier, but Tastytrade's application always started with massive cursors."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -371,7 +239,7 @@
       "text": "To make matters worse, sometimes the cursor looked lined up on the screen but then the click landed on the wrong buttons in the application! Errors are annoying. Errors that cost you money and time must be fixed. \ud83d\ude1c"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -383,7 +251,7 @@
       "text": "Some web searches eventually led me to Arch Linux's excellent  Wayland wiki page . None of the adjustments or environment variables there had any effect on my cursors."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -395,7 +263,7 @@
       "text": "I eventually landed on a page that suggested setting "
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -411,7 +279,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -423,7 +291,7 @@
       "text": ". I don't remember ever setting that, but it was being set by  something :"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -439,7 +307,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -451,7 +319,7 @@
       "text": "One of the suggestions was to decrease it, so I decided to give "
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -467,7 +335,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -479,7 +347,7 @@
       "text": " a try. That was too big, but "
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -495,7 +363,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -507,7 +375,7 @@
       "text": " was perfect and it matched all of my other applications:"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -523,7 +391,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -535,7 +403,7 @@
       "text": "That works fine when I start my application via the terminal, but how do I set it for the application when I start it from ulauncher in sway? \ud83e\udd14"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -548,7 +416,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -560,7 +428,7 @@
       "text": "The Tastytade RPM comes with a "
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -576,7 +444,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -588,7 +456,7 @@
       "text": " file for launching the application. I copied that over to my local applications directory:"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -604,7 +472,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -616,7 +484,7 @@
       "text": "Then I opened the copied "
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -632,7 +500,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -644,7 +512,7 @@
       "text": " file in a text editor:"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -660,7 +528,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -672,7 +540,7 @@
       "text": "I changed the "
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -688,7 +556,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -700,7 +568,7 @@
       "text": " line to be:"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -716,7 +584,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -728,7 +596,7 @@
       "text": "I launched the application again after making that change, but the cursors were still huge! There has to be another way. \ud83e\udd14"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -741,7 +609,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -753,7 +621,7 @@
       "text": "After more searching and digging, I discovered that systemd has a capability to  set environment variables for user sessions :"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -765,7 +633,7 @@
       "text": "Configuration files in the environment.d/ directories contain lists of environment variable assignments passed to services started by the systemd user instance. systemd-environment-d-generator(8) parses them and updates the environment exported by the systemd user instance. See below for an discussion of which processes inherit those variables."
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -777,7 +645,7 @@
       "text": "It is recommended to use numerical prefixes for file names to simplify ordering."
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -789,7 +657,7 @@
       "text": "For backwards compatibility, a symlink to /etc/environment is installed, so this file is also parsed."
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -801,7 +669,7 @@
       "text": "Let's give that a try:"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -817,7 +685,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -829,7 +697,7 @@
       "text": "In the file, I added one line with a comment (because you will soon forget why you added it \ud83d\ude04):"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -845,7 +713,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -857,7 +725,7 @@
       "text": "After a reboot, I launched my Java application and boom -- the cursors were perfect!  \ud83c\udf89"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -869,7 +737,7 @@
       "text": "I went back and cleaned up some other hacks I had applied and added them to that "
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -885,7 +753,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -897,7 +765,7 @@
       "text": " file:"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -913,7 +781,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },

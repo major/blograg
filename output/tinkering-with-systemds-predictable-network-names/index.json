@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 7168803872870382715,
-    "filename": "index.md"
+    "binary_hash": 5524237615591042919,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,31 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
       },
       {
         "$ref": "#/texts/10"
@@ -160,223 +184,16 @@
       },
       {
         "$ref": "#/texts/55"
-      },
-      {
-        "$ref": "#/texts/56"
-      },
-      {
-        "$ref": "#/texts/57"
-      },
-      {
-        "$ref": "#/texts/58"
-      },
-      {
-        "$ref": "#/texts/59"
-      },
-      {
-        "$ref": "#/texts/60"
-      },
-      {
-        "$ref": "#/texts/61"
-      },
-      {
-        "$ref": "#/texts/62"
-      },
-      {
-        "$ref": "#/texts/63"
-      },
-      {
-        "$ref": "#/texts/64"
-      },
-      {
-        "$ref": "#/texts/65"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        },
-        {
-          "$ref": "#/texts/8"
-        },
-        {
-          "$ref": "#/texts/9"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2016/01/20/tinkering-with-systemds-predictable-network-names/",
-      "text": "/2016/01/20/tinkering-with-systemds-predictable-network-names/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "command line",
-      "text": "command line",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "hardware",
-      "text": "hardware",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "networking",
-      "text": "networking",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "supermicro",
-      "text": "supermicro",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "systemd",
-      "text": "systemd",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "systemd-networkd",
-      "text": "systemd-networkd",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "udev",
-      "text": "udev",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -388,7 +205,7 @@
       "text": "I've talked about  predictable network names  (and  seemingly unpredictable ones ) on the blog before, but some readers asked me how they could alter the network naming to fit a particular situation. Oddly enough, my  Supermicro 5028D-T4NT  has a problem with predictable names and it's a great example to use here."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -401,7 +218,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -413,7 +230,7 @@
       "text": "There's plenty of detail in my post about  the Supermicro 5028D-T4NT , but the basic gist is that something within the firmware is causing the all of the network cards in the server to show up as onboard. The server has two 1Gb network interfaces which show up as "
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -429,7 +246,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -441,7 +258,7 @@
       "text": " and "
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -457,7 +274,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -469,7 +286,7 @@
       "text": ", which makes sense. It also has two 10Gb network interfaces that systemd tries to name "
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -485,7 +302,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -497,7 +314,7 @@
       "text": " and "
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -513,7 +330,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -525,7 +342,7 @@
       "text": " as well. That's obviously not going to work, so they get renamed to "
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -541,7 +358,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -553,7 +370,7 @@
       "text": " and "
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -569,7 +386,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -581,7 +398,7 @@
       "text": "."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -593,7 +410,7 @@
       "text": "You can see what udev thinks in this output:"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -609,7 +426,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -621,7 +438,7 @@
       "text": "The "
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -637,7 +454,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -649,7 +466,7 @@
       "text": " takes precedence, but the "
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -665,7 +482,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -677,7 +494,7 @@
       "text": " name is already in use at this point since udev has chosen names for the onboard 1Gb network interfaces already. Instead of falling back to "
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -693,7 +510,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -705,7 +522,7 @@
       "text": ", it falls back to plain old "
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -721,7 +538,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -733,7 +550,7 @@
       "text": ". This is confusing and less than ideal."
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -745,7 +562,7 @@
       "text": "After a discussion in a  Github issue , it seems that the firmware is to blame. Don't worry - we still have some tricks we can do with systemd-networkd."
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -758,7 +575,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -770,7 +587,7 @@
       "text": "Another handy systemd-networkd feature is a  link  file. These files allow you to apply some network configurations to various interfaces. You can manage multiple interfaces with a single file with wildcards in the "
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -786,7 +603,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -798,7 +615,7 @@
       "text": " section."
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -810,7 +627,7 @@
       "text": "In my case, I want to find any network interfaces that use the "
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -826,7 +643,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -838,7 +655,7 @@
       "text": " driver (my 10Gb network interfaces) and apply a configuration change only to those interfaces. My goal is to get the system to name the interfaces using "
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -854,7 +671,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -866,7 +683,7 @@
       "text": ", which would cause them to appear as "
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -882,7 +699,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -894,7 +711,7 @@
       "text": " and "
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -910,7 +727,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -922,7 +739,7 @@
       "text": "."
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -934,7 +751,7 @@
       "text": "Let's create a link file to handle our quirky hardware:"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -950,7 +767,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -962,7 +779,7 @@
       "text": "This file tells systemd to find any devices using the "
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -978,7 +795,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -990,7 +807,7 @@
       "text": " driver and force them to use their PCI device path for the naming. After a reboot, the interfaces look like this:"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -1006,7 +823,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1018,7 +835,7 @@
       "text": "Awesome! They're now named based on their PCI path and that should remain true even through future upgrades. There are plenty of other tricks that you can do with  link  files, including completely custom naming for any interface."
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1031,7 +848,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1043,7 +860,7 @@
       "text": "As Sylvain noted in the comments below, systemd-networkd provides a default "
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1059,7 +876,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1071,7 +888,7 @@
       "text": " file that specifies how links should be handled. If you make a link file that sorts after that file, such as "
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1087,7 +904,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1099,7 +916,7 @@
       "text": ", it won't take effect. Be sure that your link file comes first by starting it off with a number less than 99. This is why my "
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1115,7 +932,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1127,7 +944,7 @@
       "text": " file works in my example above."
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },

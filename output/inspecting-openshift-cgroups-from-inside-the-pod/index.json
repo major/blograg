@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 1925948885267625819,
-    "filename": "index.md"
+    "binary_hash": 5291688659920881996,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,19 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
       },
       {
         "$ref": "#/texts/6"
@@ -223,143 +235,16 @@
       },
       {
         "$ref": "#/texts/72"
-      },
-      {
-        "$ref": "#/texts/73"
-      },
-      {
-        "$ref": "#/texts/74"
-      },
-      {
-        "$ref": "#/texts/75"
-      },
-      {
-        "$ref": "#/texts/76"
-      },
-      {
-        "$ref": "#/texts/77"
-      },
-      {
-        "$ref": "#/texts/78"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2019/04/05/inspecting-openshift-cgroups-from-inside-the-pod/",
-      "text": "/2019/04/05/inspecting-openshift-cgroups-from-inside-the-pod/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "openshift",
-      "text": "openshift",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "ansible",
-      "text": "ansible",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -371,7 +256,7 @@
       "text": "My team at Red Hat builds a lot of kernels in OpenShift pods as part of our work with the  Continuous Kernel Integration (CKI)  project. We have lots of different pod sizes depending on the type of work we are doing and our GitLab runners spawn these pods based on the tags in our GitLab CI pipeline."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -384,7 +269,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -396,7 +281,7 @@
       "text": "When you compile a large software project, such as the Linux kernel, you can use multiple CPU cores to speed up the build. GNU's "
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -412,7 +297,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -424,7 +309,7 @@
       "text": " does this with the"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -440,7 +325,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -452,7 +337,7 @@
       "text": " argument. Running "
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -468,7 +353,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -480,7 +365,7 @@
       "text": " with "
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -496,7 +381,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -508,7 +393,7 @@
       "text": " means that you want to run 10 jobs while compiling. This would keep 10 CPU cores busy."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -520,7 +405,7 @@
       "text": "Setting the number too high causes more contention from the CPU and can reduce performance. Setting the number too low means that you are spending more time compiling than you would if you used all of your CPU cores."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -532,7 +417,7 @@
       "text": "Every once in a while, we adjusted our runners to use a different amount of CPUs or memory and then we had to adjust our pipeline to reflect the new CPU count. This was time consuming and error prone."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -544,7 +429,7 @@
       "text": "Many people just use "
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -560,7 +445,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -572,7 +457,7 @@
       "text": " to determine the CPU core count. It works well with make:"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -588,7 +473,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -601,7 +486,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -611,6 +496,90 @@
       "prov": [],
       "orig": "The handy ",
       "text": "The handy "
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "nproc",
+      "text": "nproc",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " doesn't work well for OpenShift. If you start a pod on OpenShift and limit it to a single CPU core, ",
+      "text": " doesn't work well for OpenShift. If you start a pod on OpenShift and limit it to a single CPU core, "
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "nproc",
+      "text": "nproc",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " tells you something very wrong:",
+      "text": " tells you something very wrong:"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "$ nproc\n32",
+      "text": "$ nproc\n32",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "We applied the single CPU limit with OpenShift, so what's the problem? The issue is how ",
+      "text": "We applied the single CPU limit with OpenShift, so what's the problem? The issue is how "
     },
     {
       "self_ref": "#/texts/25",
@@ -637,95 +606,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": " doesn't work well for OpenShift. If you start a pod on OpenShift and limit it to a single CPU core, ",
-      "text": " doesn't work well for OpenShift. If you start a pod on OpenShift and limit it to a single CPU core, "
-    },
-    {
-      "self_ref": "#/texts/27",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "nproc",
-      "text": "nproc",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/28",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": " tells you something very wrong:",
-      "text": " tells you something very wrong:"
-    },
-    {
-      "self_ref": "#/texts/29",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "$ nproc\n32",
-      "text": "$ nproc\n32",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/30",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "We applied the single CPU limit with OpenShift, so what's the problem? The issue is how ",
-      "text": "We applied the single CPU limit with OpenShift, so what's the problem? The issue is how "
-    },
-    {
-      "self_ref": "#/texts/31",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "nproc",
-      "text": "nproc",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/32",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": " looks for CPUs. Here's a snippet of ",
       "text": " looks for CPUs. Here's a snippet of "
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -741,7 +626,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -753,7 +638,7 @@
       "text": " output:"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -769,7 +654,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -781,7 +666,7 @@
       "text": "The  sched_getaffinity  syscall looks to see which CPUs are allowed to run the process and returns a count of those. OpenShift doesn't prevent us from seeing the CPUs of the underlying system (the VM or bare metal host underneath our containers), but it uses cgroups to limit how much CPU time we can use."
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -794,7 +679,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -806,7 +691,7 @@
       "text": "Getting cgroup data is easy! Just change into the "
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -822,7 +707,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -834,7 +719,7 @@
       "text": " directory and look around:"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -850,7 +735,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -862,7 +747,7 @@
       "text": "Ouch.  OpenShift makes this a little more challenging. We're not allowed to wander around in the land of cgroups without a map to exactly what we want."
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -874,7 +759,7 @@
       "text": "My Fedora workstation shows a bunch of CPU cgroup settings:"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -890,7 +775,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -902,7 +787,7 @@
       "text": "OpenShift uses the  Completely Fair Scheduler (CFS)  to limit CPU time. Here's a quick excerpt from the  kernel documentation :"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -914,7 +799,7 @@
       "text": "Quota and period are managed within the cpu subsystem via cgroupfs."
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -926,7 +811,7 @@
       "text": "cpu.cfs_quota_us: the total available run-time within a period (in microseconds) cpu.cfs_period_us: the length of a period (in microseconds) cpu.stat: exports throttling statistics [explained further below]"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -938,7 +823,7 @@
       "text": "The default values are: cpu.cfs_period_us=100ms cpu.cfs_quota=-1"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -950,7 +835,7 @@
       "text": "A value of -1 for cpu.cfs_quota_us indicates that the group does not have any bandwidth restriction in place, such a group is described as an unconstrained bandwidth group.  This represents the traditional work-conserving behavior for CFS."
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -962,7 +847,7 @@
       "text": "Writing any (valid) positive value(s) will enact the specified bandwidth limit. The minimum quota allowed for the quota or period is 1ms.  There is also an upper bound on the period length of 1s.  Additional restrictions exist when bandwidth limits are used in a hierarchical fashion, these are explained in more detail below."
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -974,7 +859,7 @@
       "text": "Writing any negative value to cpu.cfs_quota_us will remove the bandwidth limit and return the group to an unconstrained state once more."
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -986,7 +871,7 @@
       "text": "Any updates to a group's bandwidth specification will result in it becoming unthrottled if it is in a constrained state."
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -998,7 +883,7 @@
       "text": "Let's see if inspecting "
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1014,7 +899,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1026,7 +911,7 @@
       "text": " can help us:"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1042,7 +927,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1054,7 +939,7 @@
       "text": "Now we're getting somewhere. But what does  10000  mean here? OpenShift operates on the concept of  millicores  of CPU time, or 1/1000 of a CPU. 500 millicores is half a CPU and 1000 millicores is a whole CPU."
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1066,7 +951,7 @@
       "text": "The pod in this example is assigned 100 millicores. Now we know that we can take the output of "
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1082,7 +967,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1094,7 +979,7 @@
       "text": ", divide by 100, and get our millicores."
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1106,7 +991,7 @@
       "text": "We can make a script like this:"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1122,7 +1007,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1134,7 +1019,7 @@
       "text": "The script checks for the value of the quota and divides by 100,000 to get the number of cores. If the share is set to something less than 100,000, then a core count of 1 is assigned.  (Pro tip: "
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1150,7 +1035,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1162,7 +1047,7 @@
       "text": " does not like being told to compile with zero jobs.)"
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1175,7 +1060,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1187,7 +1072,7 @@
       "text": "There are other limits you can read and inspect in a pod, including the available RAM. As we found with "
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/62",
       "parent": {
         "$ref": "#/body"
       },
@@ -1203,7 +1088,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/63",
       "parent": {
         "$ref": "#/body"
       },
@@ -1215,7 +1100,7 @@
       "text": ", "
     },
     {
-      "self_ref": "#/texts/70",
+      "self_ref": "#/texts/64",
       "parent": {
         "$ref": "#/body"
       },
@@ -1231,7 +1116,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/71",
+      "self_ref": "#/texts/65",
       "parent": {
         "$ref": "#/body"
       },
@@ -1243,7 +1128,7 @@
       "text": " is not very helpful:"
     },
     {
-      "self_ref": "#/texts/72",
+      "self_ref": "#/texts/66",
       "parent": {
         "$ref": "#/body"
       },
@@ -1259,7 +1144,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/73",
+      "self_ref": "#/texts/67",
       "parent": {
         "$ref": "#/body"
       },
@@ -1271,7 +1156,7 @@
       "text": "But the cgroups tell the truth:"
     },
     {
-      "self_ref": "#/texts/74",
+      "self_ref": "#/texts/68",
       "parent": {
         "$ref": "#/body"
       },
@@ -1287,7 +1172,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/69",
       "parent": {
         "$ref": "#/body"
       },
@@ -1299,7 +1184,7 @@
       "text": "If you run Java applications in a container, like Jenkins (or Jenkins slaves), be sure to use the "
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/70",
       "parent": {
         "$ref": "#/body"
       },
@@ -1315,7 +1200,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/71",
       "parent": {
         "$ref": "#/body"
       },
@@ -1327,7 +1212,7 @@
       "text": " option. That will cause Java to look at the cgroups to determine its heap size."
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },

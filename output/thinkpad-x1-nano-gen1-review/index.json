@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 5239220577550890924,
-    "filename": "index.md"
+    "binary_hash": 2762971596842141315,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,22 +21,34 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
         "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/6"
+        "$ref": "#/texts/12"
       },
       {
-        "$ref": "#/texts/7"
+        "$ref": "#/texts/13"
       },
       {
-        "$ref": "#/texts/8"
+        "$ref": "#/texts/14"
       },
       {
-        "$ref": "#/texts/9"
+        "$ref": "#/texts/15"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
       },
       {
         "$ref": "#/texts/18"
@@ -91,24 +103,6 @@
       },
       {
         "$ref": "#/texts/35"
-      },
-      {
-        "$ref": "#/texts/36"
-      },
-      {
-        "$ref": "#/texts/37"
-      },
-      {
-        "$ref": "#/texts/38"
-      },
-      {
-        "$ref": "#/texts/39"
-      },
-      {
-        "$ref": "#/texts/40"
-      },
-      {
-        "$ref": "#/texts/41"
       }
     ],
     "content_layer": "body",
@@ -123,54 +117,28 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
           "$ref": "#/texts/4"
         },
         {
           "$ref": "#/texts/5"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
         {
           "$ref": "#/texts/10"
         },
         {
           "$ref": "#/texts/11"
-        },
-        {
-          "$ref": "#/texts/12"
-        },
-        {
-          "$ref": "#/texts/13"
-        },
-        {
-          "$ref": "#/texts/14"
-        },
-        {
-          "$ref": "#/texts/15"
-        },
-        {
-          "$ref": "#/texts/16"
-        },
-        {
-          "$ref": "#/texts/17"
         }
       ],
       "content_layer": "body",
@@ -188,93 +156,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2021/10/23/thinkpad-x1-nano-gen1-review/",
-      "text": "/2021/10/23/thinkpad-x1-nano-gen1-review/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "laptop",
-      "text": "laptop",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "lenovo",
-      "text": "lenovo",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "My ThinkPad T490 was showing its age and  wrestling with the internal NVIDIA GPU  was a constant pain. Other than some unexpected early battery wear, it has been a good laptop for me.",
       "text": "My ThinkPad T490 was showing its age and  wrestling with the internal NVIDIA GPU  was a constant pain. Other than some unexpected early battery wear, it has been a good laptop for me."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -286,7 +172,7 @@
       "text": "However, the annual Lenovo sale email came through my inbox recently and I decided to look for something new. I picked up an X1 Nano Gen 1 and the experience has been good so far."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -299,7 +185,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -311,9 +197,9 @@
       "text": "My criteria for a new laptop included:"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -325,9 +211,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -339,9 +225,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -353,9 +239,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -367,9 +253,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -381,9 +267,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -395,9 +281,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -409,9 +295,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -423,7 +309,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -435,7 +321,7 @@
       "text": "I hoped to find a laptop with an AMD chip that met my requirements because I really like the technologies that AMD packs into their designs. Every AMD laptop I could find had a FHD screen or worse on a 13-15\" screen. My T490 was the high resolution model and I did give the latest Dell XPS 13 a shot, but the screen resolution left me with really fuzzy text in terminals."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -447,7 +333,7 @@
       "text": "As an aside, I've now purchased two Dell XPS 13 laptops about three years apart and I've returned both. These devices look great on paper but I was really dissatisfied with them in person."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -460,7 +346,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -472,7 +358,7 @@
       "text": "The Nano met nearly all of my requirements except for the MicroSD reader. It only has three ports: two USB-C ports and a combination microphone/headphone port. Everything else was great!"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -484,7 +370,7 @@
       "text": "The screen is 2160x1350, which is slightly better than FHD and it's a great balance between higher resolution and reduced battery usage."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -496,7 +382,7 @@
       "text": "It came out to $1,581 with taxes included."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -509,7 +395,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -521,7 +407,7 @@
       "text": "Most of the thoughts I have are fairly subjective, but NotebookCheck has an extremely detailed review  that goes into more detail than I will ever need. If you're wondering about screen view angles, nits, and deep dives into battery usage, the folks at NotebookCheck are hard to beat."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -533,7 +419,7 @@
       "text": "I installed Fedora 35 Beta easily and all of the hardware was fully recognized without any extra work. That surprised me since this laptop has plenty of modern hardware inside and it seems like every ThinkPad has one or two quirks to fix after installation."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -545,7 +431,7 @@
       "text": "I'm a big fan of  tlp  for power management. One thing I noticed with the X1 Nano is that it performs with  very low  latency even when I crank down tlp to its most aggressive power saving settings. Screen refresh is immediate, terminals perform well, and Firefox seems to run at normal speed even with"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -561,7 +447,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -573,7 +459,7 @@
       "text": " showing all power saving settings set to the maximum. On my T490, I'd notice lag in my terminals while typing and Firefox had some weird artifacting that would appear briefly between page loads."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -585,7 +471,7 @@
       "text": "My battery life experience with the Nano is  stellar . I've been working on this post for about 30-45 minutes with plenty of browser tabs open and the battery life has gone from about 82% to 77% during that time. This makes a world of difference for me when I take my ham radio gear into the field and I need a laptop battery that lasts."
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -597,7 +483,7 @@
       "text": "One of my biggest fears for this laptop was the keyboard and touchpad. ThinkPad input devices are typically some of the best in the industry and I wondered how well that would work in a smaller form factor. They worked hard to shrink the buttons that would impact a user the least. The buttons along the edge shrunk the most, but the letter and number keys seem the same size. Key travel is a little reduced from the T490 but this is a  very thin  laptop."
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -609,7 +495,7 @@
       "text": "The touchpad feels great and the size works just fine for me. The mouse buttons just above the touchpad are definitely not as tall as the ones on the T490 and that takes some adjustment. As for the trackpoint (the red \"keyboard nipple\"), I've never been good with these and I'm just as bad with this one as all of the other ones. \ud83e\udd23"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -621,7 +507,7 @@
       "text": "Sound from the speakers is above average, but it's not going to win any awards. The microphone and webcam perform just as well as any other ThinkPad I've owned."
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -634,7 +520,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -646,7 +532,7 @@
       "text": "My X1 Nano Gen 1 came with a  i5-1140G7 , 16GB of RAM, and a 512GB NVMe disk (Western Digital SN530). Here's a look at what's on the PCI bus and USB hubs:"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -662,7 +548,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -678,7 +564,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -690,7 +576,7 @@
       "text": "The webcam, fingerprint reader, and the bluetooth/wifi card are on the USB bus and this is fairly common for modern ThinkPads."
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -703,7 +589,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -715,7 +601,7 @@
       "text": "This is an all-around great laptop and I'd highly recommend it for anyone who travels often. It's  incredibly  light and I barely notice when it's in a backpack. I wouldn't use this as a desktop replacement, but it can drive external monitors if needed and it performs really well on AC power. Text in terminals is easy to read and you won't spend much time wrestling with hardware support in Linux."
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },

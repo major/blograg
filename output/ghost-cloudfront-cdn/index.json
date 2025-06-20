@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 4728244969158783134,
-    "filename": "index.md"
+    "binary_hash": 3814461860514529075,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,16 +21,19 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
         "$ref": "#/groups/0"
-      },
-      {
-        "$ref": "#/texts/6"
-      },
-      {
-        "$ref": "#/texts/7"
-      },
-      {
-        "$ref": "#/texts/8"
       },
       {
         "$ref": "#/texts/9"
@@ -39,10 +42,16 @@
         "$ref": "#/texts/10"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/11"
       },
       {
-        "$ref": "#/texts/15"
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/groups/1"
       },
       {
         "$ref": "#/texts/16"
@@ -54,13 +63,7 @@
         "$ref": "#/texts/18"
       },
       {
-        "$ref": "#/texts/19"
-      },
-      {
         "$ref": "#/groups/2"
-      },
-      {
-        "$ref": "#/texts/22"
       },
       {
         "$ref": "#/texts/23"
@@ -69,16 +72,22 @@
         "$ref": "#/texts/24"
       },
       {
-        "$ref": "#/groups/3"
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
       },
       {
         "$ref": "#/texts/29"
       },
       {
-        "$ref": "#/texts/30"
-      },
-      {
-        "$ref": "#/texts/31"
+        "$ref": "#/groups/3"
       },
       {
         "$ref": "#/texts/32"
@@ -90,46 +99,49 @@
         "$ref": "#/texts/34"
       },
       {
-        "$ref": "#/texts/35"
-      },
-      {
         "$ref": "#/groups/4"
       },
       {
-        "$ref": "#/texts/38"
+        "$ref": "#/texts/47"
       },
       {
-        "$ref": "#/texts/39"
+        "$ref": "#/texts/48"
       },
       {
-        "$ref": "#/texts/40"
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
       },
       {
         "$ref": "#/groups/5"
       },
       {
-        "$ref": "#/texts/53"
-      },
-      {
-        "$ref": "#/texts/54"
-      },
-      {
-        "$ref": "#/texts/55"
-      },
-      {
-        "$ref": "#/texts/56"
-      },
-      {
-        "$ref": "#/texts/57"
+        "$ref": "#/texts/60"
       },
       {
         "$ref": "#/groups/6"
       },
       {
-        "$ref": "#/texts/66"
+        "$ref": "#/texts/69"
       },
       {
-        "$ref": "#/groups/7"
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/texts/74"
       },
       {
         "$ref": "#/texts/75"
@@ -243,10 +255,7 @@
         "$ref": "#/texts/111"
       },
       {
-        "$ref": "#/texts/112"
-      },
-      {
-        "$ref": "#/texts/113"
+        "$ref": "#/groups/7"
       },
       {
         "$ref": "#/texts/114"
@@ -255,13 +264,10 @@
         "$ref": "#/texts/115"
       },
       {
-        "$ref": "#/texts/116"
-      },
-      {
-        "$ref": "#/texts/117"
-      },
-      {
         "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/119"
       },
       {
         "$ref": "#/texts/120"
@@ -270,7 +276,13 @@
         "$ref": "#/texts/121"
       },
       {
-        "$ref": "#/groups/9"
+        "$ref": "#/texts/122"
+      },
+      {
+        "$ref": "#/texts/123"
+      },
+      {
+        "$ref": "#/texts/124"
       },
       {
         "$ref": "#/texts/125"
@@ -337,24 +349,6 @@
       },
       {
         "$ref": "#/texts/146"
-      },
-      {
-        "$ref": "#/texts/147"
-      },
-      {
-        "$ref": "#/texts/148"
-      },
-      {
-        "$ref": "#/texts/149"
-      },
-      {
-        "$ref": "#/texts/150"
-      },
-      {
-        "$ref": "#/texts/151"
-      },
-      {
-        "$ref": "#/texts/152"
       }
     ],
     "content_layer": "body",
@@ -369,24 +363,21 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
           "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "list"
+      "label": "ordered_list"
     },
     {
       "self_ref": "#/groups/1",
@@ -395,21 +386,15 @@
       },
       "children": [
         {
-          "$ref": "#/texts/11"
-        },
-        {
-          "$ref": "#/texts/12"
-        },
-        {
-          "$ref": "#/texts/13"
-        },
-        {
           "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "ordered_list"
+      "label": "list"
     },
     {
       "self_ref": "#/groups/2",
@@ -418,15 +403,21 @@
       },
       "children": [
         {
+          "$ref": "#/texts/19"
+        },
+        {
           "$ref": "#/texts/20"
         },
         {
           "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "list"
+      "label": "ordered_list"
     },
     {
       "self_ref": "#/groups/3",
@@ -435,21 +426,15 @@
       },
       "children": [
         {
-          "$ref": "#/texts/25"
+          "$ref": "#/texts/30"
         },
         {
-          "$ref": "#/texts/26"
-        },
-        {
-          "$ref": "#/texts/27"
-        },
-        {
-          "$ref": "#/texts/28"
+          "$ref": "#/texts/31"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "ordered_list"
+      "label": "list"
     },
     {
       "self_ref": "#/groups/4",
@@ -458,22 +443,23 @@
       },
       "children": [
         {
+          "$ref": "#/texts/35"
+        },
+        {
           "$ref": "#/texts/36"
         },
         {
           "$ref": "#/texts/37"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/5",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
         {
           "$ref": "#/texts/41"
         },
@@ -491,24 +477,41 @@
         },
         {
           "$ref": "#/texts/46"
-        },
-        {
-          "$ref": "#/texts/47"
-        },
-        {
-          "$ref": "#/texts/48"
-        },
-        {
-          "$ref": "#/texts/49"
-        },
-        {
-          "$ref": "#/texts/50"
-        },
-        {
-          "$ref": "#/texts/51"
-        },
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "ordered_list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
         {
           "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
         }
       ],
       "content_layer": "body",
@@ -521,15 +524,6 @@
         "$ref": "#/body"
       },
       "children": [
-        {
-          "$ref": "#/texts/58"
-        },
-        {
-          "$ref": "#/texts/59"
-        },
-        {
-          "$ref": "#/texts/60"
-        },
         {
           "$ref": "#/texts/61"
         },
@@ -544,6 +538,15 @@
         },
         {
           "$ref": "#/texts/65"
+        },
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
         }
       ],
       "content_layer": "body",
@@ -557,33 +560,15 @@
       },
       "children": [
         {
-          "$ref": "#/texts/67"
+          "$ref": "#/texts/112"
         },
         {
-          "$ref": "#/texts/68"
-        },
-        {
-          "$ref": "#/texts/69"
-        },
-        {
-          "$ref": "#/texts/70"
-        },
-        {
-          "$ref": "#/texts/71"
-        },
-        {
-          "$ref": "#/texts/72"
-        },
-        {
-          "$ref": "#/texts/73"
-        },
-        {
-          "$ref": "#/texts/74"
+          "$ref": "#/texts/113"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "ordered_list"
+      "label": "list"
     },
     {
       "self_ref": "#/groups/8",
@@ -592,30 +577,13 @@
       },
       "children": [
         {
+          "$ref": "#/texts/116"
+        },
+        {
+          "$ref": "#/texts/117"
+        },
+        {
           "$ref": "#/texts/118"
-        },
-        {
-          "$ref": "#/texts/119"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/9",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/122"
-        },
-        {
-          "$ref": "#/texts/123"
-        },
-        {
-          "$ref": "#/texts/124"
         }
       ],
       "content_layer": "body",
@@ -633,93 +601,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "author: Major Hayden date: '2023-07-03' Adding an AWS CloudFront CDN distribution to a Ghost blog improves response times on an already fast blogging platform and increases security along the way. \u26a1 tags:",
-      "text": "author: Major Hayden date: '2023-07-03' Adding an AWS CloudFront CDN distribution to a Ghost blog improves response times on an already fast blogging platform and increases security along the way. \u26a1 tags:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "aws",
-      "text": "aws",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "cdn",
-      "text": "cdn",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "cloudfront",
-      "text": "cloudfront",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "ghost",
-      "text": "ghost",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "ssl",
-      "text": "ssl",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "After I launched my new  stock market blog  on a self-hosted  Ghost , I wrote up the  deployment process  in containers last week. Then I had a shower thought:  How do I put a CDN in front of that?",
       "text": "After I launched my new  stock market blog  on a self-hosted  Ghost , I wrote up the  deployment process  in containers last week. Then I had a shower thought:  How do I put a CDN in front of that?"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -731,7 +617,7 @@
       "text": "This blog is back on an  S3 + CloudFront deployment  at AWS and I figured CloudFront could work well for a self-hosted Ghost blog, too."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -743,7 +629,7 @@
       "text": "There are  tons  of blog posts out there that have outdated processes or only show you how to do one piece of the CDN deployment for Ghost. I read most of them and cobbled together a working deployment. Read on to learn how to do this yourself!"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -755,7 +641,7 @@
       "text": "Why add a CDN?"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -767,9 +653,9 @@
       "text": "Content Delivery Networks (CDN) enhance websites by doing a combination of different things:"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -781,9 +667,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -795,9 +681,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -809,9 +695,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -823,7 +709,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -835,7 +721,7 @@
       "text": "CDNs have trade-offs, though. They're complicated."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -847,7 +733,7 @@
       "text": "They often require lots of DNS changes. TLS certificates remain a challenge. Caching solves lots of problems but can create headaches in a flash. A misconfiguration at the CDN level can take down your site or prevent it from operating properly for longer periods of time."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -859,7 +745,7 @@
       "text": "Careful planning helps a lot!  Measure twice, cut once."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -871,7 +757,7 @@
       "text": "AWS terminology"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -883,6 +769,84 @@
       "text": "The names of various AWS services often confuse me, but here's what we need for this project:"
     },
     {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='AWS Certificate Manager:'>]",
+      "text": "[<RawText children='AWS Certificate Manager:'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='AWS CloudFront:'>]",
+      "text": "[<RawText children='AWS CloudFront:'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "CloudFront has a concept of  distributions , which is a single configuration of the CDN for a particular site. We will get to that in the CloudFront section. \ud83d\ude09",
+      "text": "CloudFront has a concept of  distributions , which is a single configuration of the CDN for a particular site. We will get to that in the CloudFront section. \ud83d\ude09"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Certificates",
+      "text": "Certificates"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "First off, we need a certificate for TLS connections. Run over to the  AWS Certificate Manager (ACM) console  for your preferred region and follow these steps:",
+      "text": "First off, we need a certificate for TLS connections. Run over to the  AWS Certificate Manager (ACM) console  for your preferred region and follow these steps:"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Click the orange ",
+      "text": "Click the orange ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
       "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/groups/2"
@@ -891,8 +855,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "[<RawText children='AWS Certificate Manager:'>]",
-      "text": "[<RawText children='AWS Certificate Manager:'>]",
+      "orig": "Request a public certificate on the next page and click ",
+      "text": "Request a public certificate on the next page and click ",
       "enumerated": false,
       "marker": "-"
     },
@@ -905,93 +869,15 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "[<RawText children='AWS CloudFront:'>]",
-      "text": "[<RawText children='AWS CloudFront:'>]",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/22",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "CloudFront has a concept of  distributions , which is a single configuration of the CDN for a particular site. We will get to that in the CloudFront section. \ud83d\ude09",
-      "text": "CloudFront has a concept of  distributions , which is a single configuration of the CDN for a particular site. We will get to that in the CloudFront section. \ud83d\ude09"
-    },
-    {
-      "self_ref": "#/texts/23",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "title",
-      "prov": [],
-      "orig": "Certificates",
-      "text": "Certificates"
-    },
-    {
-      "self_ref": "#/texts/24",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "First off, we need a certificate for TLS connections. Run over to the  AWS Certificate Manager (ACM) console  for your preferred region and follow these steps:",
-      "text": "First off, we need a certificate for TLS connections. Run over to the  AWS Certificate Manager (ACM) console  for your preferred region and follow these steps:"
-    },
-    {
-      "self_ref": "#/texts/25",
-      "parent": {
-        "$ref": "#/groups/3"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Click the orange ",
-      "text": "Click the orange ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/26",
-      "parent": {
-        "$ref": "#/groups/3"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Request a public certificate on the next page and click ",
-      "text": "Request a public certificate on the next page and click ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/27",
-      "parent": {
-        "$ref": "#/groups/3"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "Type in the domain for your certificate that your users will type to access your site.",
       "text": "Type in the domain for your certificate that your users will type to access your site.",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/22",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1003,7 +889,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -1015,7 +901,7 @@
       "text": "You should be back to your certificate list. Refresh the page by clicking on the circle with the arrow at the top right. Click on the certificate for the domain name you just added."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -1027,7 +913,7 @@
       "text": "In the second detail block labeled  Details , look for the CNAME name and value at the far right. You need to set both of these wherever you host your DNS records. If you use AWS Route 53 for DNS, there's a button you can click there to do it immediately. If you use another DNS provider, create a CNAME record with the exact text shown there."
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -1039,7 +925,7 @@
       "text": "Once you create those DNS records, go back to the page with your certificate and wait for it to change from  Pending validation  to  Issued . This normally takes 2-3 minutes for most DNS providers I use."
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -1051,7 +937,7 @@
       "text": "{{< alert >}} Wait for this to turn green and say  Issued  before proceeding to the next step! {{< /alert >}}"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -1063,7 +949,7 @@
       "text": "Now that you have a certificate, it's time to configure our CDN distribution."
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -1075,7 +961,7 @@
       "text": "CloudFront"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -1087,9 +973,9 @@
       "text": "Now comes the fun, but complicated part. You have two DNS records to think about here:"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/30",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -1101,9 +987,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/31",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -1115,7 +1001,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -1127,7 +1013,7 @@
       "text": "The  origin  record will be hidden away behind the CDN when we're done."
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -1140,7 +1026,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -1152,9 +1038,9 @@
       "text": "Go to the  CloudFront console  in your preferred region and follow these steps:"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/35",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1166,9 +1052,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/36",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1180,9 +1066,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/37",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1194,9 +1080,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/38",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1208,9 +1094,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/39",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1222,9 +1108,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/40",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1236,9 +1122,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/41",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1250,9 +1136,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/42",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1264,9 +1150,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/43",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1278,9 +1164,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/44",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1292,9 +1178,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/45",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1306,9 +1192,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/46",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1320,7 +1206,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1332,7 +1218,7 @@
       "text": "This can take up to 10 minutes to deploy once you're finished. At this point, we have an aggressive caching policy that will cause problems when members attempt to sign in or manage their membership. It will also break the Ghost administrative area."
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1344,7 +1230,7 @@
       "text": "Let's fix that next."
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1357,7 +1243,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1369,7 +1255,7 @@
       "text": "Find the CloudFront distribution we just created and click the  Behaviors  tab. We are going to make three different sets of behavior configurations to handle the dynamic pages."
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1381,9 +1267,9 @@
       "text": "Click  Create Behavior  and do the following:"
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/52",
       "parent": {
-        "$ref": "#/groups/6"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
@@ -1395,9 +1281,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/53",
       "parent": {
-        "$ref": "#/groups/6"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
@@ -1409,9 +1295,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/54",
       "parent": {
-        "$ref": "#/groups/6"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
@@ -1423,6 +1309,88 @@
       "marker": "-"
     },
     {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='Viewer protocol policy:'>]",
+      "text": "[<RawText children='Viewer protocol policy:'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='Allowed HTTP methods:'>]",
+      "text": "[<RawText children='Allowed HTTP methods:'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='Cache policy:'>]",
+      "text": "[<RawText children='Cache policy:'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='Origin request policy:'>]",
+      "text": "[<RawText children='Origin request policy:'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Click ",
+      "text": "Click ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "That takes care of the administrative interface. Now let's fix the caching on the members page:",
+      "text": "That takes care of the administrative interface. Now let's fix the caching on the members page:"
+    },
+    {
       "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/groups/6"
@@ -1431,8 +1399,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "[<RawText children='Viewer protocol policy:'>]",
-      "text": "[<RawText children='Viewer protocol policy:'>]",
+      "orig": "Enter ",
+      "text": "Enter ",
       "enumerated": false,
       "marker": "-"
     },
@@ -1445,8 +1413,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "[<RawText children='Allowed HTTP methods:'>]",
-      "text": "[<RawText children='Allowed HTTP methods:'>]",
+      "orig": "Choose the origin from the drop down that you specified when creating the distribution.",
+      "text": "Choose the origin from the drop down that you specified when creating the distribution.",
       "enumerated": false,
       "marker": "-"
     },
@@ -1459,8 +1427,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "[<RawText children='Cache policy:'>]",
-      "text": "[<RawText children='Cache policy:'>]",
+      "orig": "[<RawText children='Compress objects automatically:'>]",
+      "text": "[<RawText children='Compress objects automatically:'>]",
       "enumerated": false,
       "marker": "-"
     },
@@ -1473,13 +1441,55 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
+      "orig": "[<RawText children='Viewer protocol policy:'>]",
+      "text": "[<RawText children='Viewer protocol policy:'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='Allowed HTTP methods:'>]",
+      "text": "[<RawText children='Allowed HTTP methods:'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='Cache policy:'>]",
+      "text": "[<RawText children='Cache policy:'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
       "orig": "[<RawText children='Origin request policy:'>]",
       "text": "[<RawText children='Origin request policy:'>]",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/68",
       "parent": {
         "$ref": "#/groups/6"
       },
@@ -1493,131 +1503,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/66",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "That takes care of the administrative interface. Now let's fix the caching on the members page:",
-      "text": "That takes care of the administrative interface. Now let's fix the caching on the members page:"
-    },
-    {
-      "self_ref": "#/texts/67",
-      "parent": {
-        "$ref": "#/groups/7"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Enter ",
-      "text": "Enter ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/68",
-      "parent": {
-        "$ref": "#/groups/7"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Choose the origin from the drop down that you specified when creating the distribution.",
-      "text": "Choose the origin from the drop down that you specified when creating the distribution.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
       "self_ref": "#/texts/69",
-      "parent": {
-        "$ref": "#/groups/7"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "[<RawText children='Compress objects automatically:'>]",
-      "text": "[<RawText children='Compress objects automatically:'>]",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/70",
-      "parent": {
-        "$ref": "#/groups/7"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "[<RawText children='Viewer protocol policy:'>]",
-      "text": "[<RawText children='Viewer protocol policy:'>]",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/71",
-      "parent": {
-        "$ref": "#/groups/7"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "[<RawText children='Allowed HTTP methods:'>]",
-      "text": "[<RawText children='Allowed HTTP methods:'>]",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/72",
-      "parent": {
-        "$ref": "#/groups/7"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "[<RawText children='Cache policy:'>]",
-      "text": "[<RawText children='Cache policy:'>]",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/73",
-      "parent": {
-        "$ref": "#/groups/7"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "[<RawText children='Origin request policy:'>]",
-      "text": "[<RawText children='Origin request policy:'>]",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/74",
-      "parent": {
-        "$ref": "#/groups/7"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Click ",
-      "text": "Click ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/75",
       "parent": {
         "$ref": "#/body"
       },
@@ -1629,7 +1515,7 @@
       "text": "With this configuration, we have caching for all content except for the administrative and member interfaces."
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/70",
       "parent": {
         "$ref": "#/body"
       },
@@ -1641,7 +1527,7 @@
       "text": "Testing"
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/71",
       "parent": {
         "$ref": "#/body"
       },
@@ -1653,7 +1539,7 @@
       "text": "There are a few different ways to test at this point, but I prefer to go with an old tried and true method: the "
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },
@@ -1669,7 +1555,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/79",
+      "self_ref": "#/texts/73",
       "parent": {
         "$ref": "#/body"
       },
@@ -1681,7 +1567,7 @@
       "text": " file. \ud83d\ude1c"
     },
     {
-      "self_ref": "#/texts/80",
+      "self_ref": "#/texts/74",
       "parent": {
         "$ref": "#/body"
       },
@@ -1693,7 +1579,7 @@
       "text": "CloudFront offers a domain name on "
     },
     {
-      "self_ref": "#/texts/81",
+      "self_ref": "#/texts/75",
       "parent": {
         "$ref": "#/body"
       },
@@ -1709,7 +1595,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/82",
+      "self_ref": "#/texts/76",
       "parent": {
         "$ref": "#/body"
       },
@@ -1721,7 +1607,7 @@
       "text": " that you can use, but it's not quite the same. Cookies for the admin/member interface don't always work since they cross domains and sometimes you're redirected back to the original domain name which bypasses the CDN altogether."
     },
     {
-      "self_ref": "#/texts/83",
+      "self_ref": "#/texts/77",
       "parent": {
         "$ref": "#/body"
       },
@@ -1733,7 +1619,7 @@
       "text": "Go back to the list of distributions in your  CloudFront console  in your preferred region. Click on the distribution you created earlier. At the top left, you'll see  Distribution domain name  with a domain underneath that contains "
     },
     {
-      "self_ref": "#/texts/84",
+      "self_ref": "#/texts/78",
       "parent": {
         "$ref": "#/body"
       },
@@ -1749,7 +1635,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/85",
+      "self_ref": "#/texts/79",
       "parent": {
         "$ref": "#/body"
       },
@@ -1761,7 +1647,7 @@
       "text": "."
     },
     {
-      "self_ref": "#/texts/86",
+      "self_ref": "#/texts/80",
       "parent": {
         "$ref": "#/body"
       },
@@ -1773,7 +1659,7 @@
       "text": "Take that domain name and get an IPv4 address:"
     },
     {
-      "self_ref": "#/texts/87",
+      "self_ref": "#/texts/81",
       "parent": {
         "$ref": "#/body"
       },
@@ -1789,7 +1675,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/88",
+      "self_ref": "#/texts/82",
       "parent": {
         "$ref": "#/body"
       },
@@ -1801,7 +1687,7 @@
       "text": "Open "
     },
     {
-      "self_ref": "#/texts/89",
+      "self_ref": "#/texts/83",
       "parent": {
         "$ref": "#/body"
       },
@@ -1817,7 +1703,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/90",
+      "self_ref": "#/texts/84",
       "parent": {
         "$ref": "#/body"
       },
@@ -1829,7 +1715,7 @@
       "text": " in your favorite editor (root access required) and use one of the IP addresses that correspond to your CDN endpoint. Add a line like this one (using your CDN domain and IPv4 address from the last step):"
     },
     {
-      "self_ref": "#/texts/91",
+      "self_ref": "#/texts/85",
       "parent": {
         "$ref": "#/body"
       },
@@ -1845,7 +1731,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/92",
+      "self_ref": "#/texts/86",
       "parent": {
         "$ref": "#/body"
       },
@@ -1857,7 +1743,7 @@
       "text": "Access your site in a browser and verify that everything works. Be sure that you can access the administrative console under "
     },
     {
-      "self_ref": "#/texts/93",
+      "self_ref": "#/texts/87",
       "parent": {
         "$ref": "#/body"
       },
@@ -1873,7 +1759,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/94",
+      "self_ref": "#/texts/88",
       "parent": {
         "$ref": "#/body"
       },
@@ -1885,7 +1771,7 @@
       "text": " and any member settings."
     },
     {
-      "self_ref": "#/texts/95",
+      "self_ref": "#/texts/89",
       "parent": {
         "$ref": "#/body"
       },
@@ -1897,7 +1783,7 @@
       "text": "\ufe0fRemove the line in "
     },
     {
-      "self_ref": "#/texts/96",
+      "self_ref": "#/texts/90",
       "parent": {
         "$ref": "#/body"
       },
@@ -1913,7 +1799,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/97",
+      "self_ref": "#/texts/91",
       "parent": {
         "$ref": "#/body"
       },
@@ -1925,7 +1811,7 @@
       "text": " now that we're finished with testing."
     },
     {
-      "self_ref": "#/texts/98",
+      "self_ref": "#/texts/92",
       "parent": {
         "$ref": "#/body"
       },
@@ -1937,7 +1823,7 @@
       "text": "Production"
     },
     {
-      "self_ref": "#/texts/99",
+      "self_ref": "#/texts/93",
       "parent": {
         "$ref": "#/body"
       },
@@ -1949,7 +1835,7 @@
       "text": "Our first step is to set up the origin."
     },
     {
-      "self_ref": "#/texts/100",
+      "self_ref": "#/texts/94",
       "parent": {
         "$ref": "#/body"
       },
@@ -1962,7 +1848,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/101",
+      "self_ref": "#/texts/95",
       "parent": {
         "$ref": "#/body"
       },
@@ -1974,7 +1860,7 @@
       "text": "Ensure your origin server has a proper DNS record so that CloudFront can access it on the backend. For example, "
     },
     {
-      "self_ref": "#/texts/102",
+      "self_ref": "#/texts/96",
       "parent": {
         "$ref": "#/body"
       },
@@ -1990,7 +1876,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/103",
+      "self_ref": "#/texts/97",
       "parent": {
         "$ref": "#/body"
       },
@@ -2002,7 +1888,7 @@
       "text": " must have a DNS record that points to your backend server running Ghost."
     },
     {
-      "self_ref": "#/texts/104",
+      "self_ref": "#/texts/98",
       "parent": {
         "$ref": "#/body"
       },
@@ -2014,7 +1900,7 @@
       "text": "{{< alert >}} Verify that the DNS record for your origin works before proceeding. \ud83d\udca3 {{< /alert >}}"
     },
     {
-      "self_ref": "#/texts/105",
+      "self_ref": "#/texts/99",
       "parent": {
         "$ref": "#/body"
       },
@@ -2026,7 +1912,7 @@
       "text": "If you followed my  guide for deploying Ghost , then you need to adjust your caddy configuration to answer requests to your origin URL. I updated my Caddyfile to contain both the origin and CDN hostnames:"
     },
     {
-      "self_ref": "#/texts/106",
+      "self_ref": "#/texts/100",
       "parent": {
         "$ref": "#/body"
       },
@@ -2042,7 +1928,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/107",
+      "self_ref": "#/texts/101",
       "parent": {
         "$ref": "#/body"
       },
@@ -2054,7 +1940,7 @@
       "text": "Restart caddy with "
     },
     {
-      "self_ref": "#/texts/108",
+      "self_ref": "#/texts/102",
       "parent": {
         "$ref": "#/body"
       },
@@ -2070,7 +1956,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/109",
+      "self_ref": "#/texts/103",
       "parent": {
         "$ref": "#/body"
       },
@@ -2082,7 +1968,7 @@
       "text": "."
     },
     {
-      "self_ref": "#/texts/110",
+      "self_ref": "#/texts/104",
       "parent": {
         "$ref": "#/body"
       },
@@ -2094,7 +1980,7 @@
       "text": "{{< alert >}} Verify that caddy responds to requests  to the origin hostname  before going any further. It must respond properly with a valid SSL/TLS certificate! \ud83d\udca3 {{< /alert >}}"
     },
     {
-      "self_ref": "#/texts/111",
+      "self_ref": "#/texts/105",
       "parent": {
         "$ref": "#/body"
       },
@@ -2107,7 +1993,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/112",
+      "self_ref": "#/texts/106",
       "parent": {
         "$ref": "#/body"
       },
@@ -2119,7 +2005,7 @@
       "text": "Now that our origin server is happy and responding, it's time to make the big switch. We're going to remove the record for the main CDN domain, such as "
     },
     {
-      "self_ref": "#/texts/113",
+      "self_ref": "#/texts/107",
       "parent": {
         "$ref": "#/body"
       },
@@ -2135,7 +2021,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/114",
+      "self_ref": "#/texts/108",
       "parent": {
         "$ref": "#/body"
       },
@@ -2147,7 +2033,7 @@
       "text": " and replace it with a CNAME or ALIAS record to the CDN name in CloudFront. This is the name that ends in "
     },
     {
-      "self_ref": "#/texts/115",
+      "self_ref": "#/texts/109",
       "parent": {
         "$ref": "#/body"
       },
@@ -2163,7 +2049,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/116",
+      "self_ref": "#/texts/110",
       "parent": {
         "$ref": "#/body"
       },
@@ -2175,7 +2061,7 @@
       "text": " that we used for testing earlier."
     },
     {
-      "self_ref": "#/texts/117",
+      "self_ref": "#/texts/111",
       "parent": {
         "$ref": "#/body"
       },
@@ -2187,9 +2073,9 @@
       "text": "The use of a CNAME or ALIAS record depends on your DNS host and the type of domain name you're using for the CDN."
     },
     {
-      "self_ref": "#/texts/118",
+      "self_ref": "#/texts/112",
       "parent": {
-        "$ref": "#/groups/8"
+        "$ref": "#/groups/7"
       },
       "children": [],
       "content_layer": "body",
@@ -2201,9 +2087,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/119",
+      "self_ref": "#/texts/113",
       "parent": {
-        "$ref": "#/groups/8"
+        "$ref": "#/groups/7"
       },
       "children": [],
       "content_layer": "body",
@@ -2215,7 +2101,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/120",
+      "self_ref": "#/texts/114",
       "parent": {
         "$ref": "#/body"
       },
@@ -2227,7 +2113,7 @@
       "text": "{{< alert >}} Read your DNS host's documentation if you are unsure about ALIAS vs CNAME records! \ud83d\udca3 {{< /alert >}}"
     },
     {
-      "self_ref": "#/texts/121",
+      "self_ref": "#/texts/115",
       "parent": {
         "$ref": "#/body"
       },
@@ -2239,9 +2125,9 @@
       "text": "Go your DNS registrar and follow these steps:"
     },
     {
-      "self_ref": "#/texts/122",
+      "self_ref": "#/texts/116",
       "parent": {
-        "$ref": "#/groups/9"
+        "$ref": "#/groups/8"
       },
       "children": [],
       "content_layer": "body",
@@ -2253,9 +2139,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/123",
+      "self_ref": "#/texts/117",
       "parent": {
-        "$ref": "#/groups/9"
+        "$ref": "#/groups/8"
       },
       "children": [],
       "content_layer": "body",
@@ -2267,9 +2153,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/124",
+      "self_ref": "#/texts/118",
       "parent": {
-        "$ref": "#/groups/9"
+        "$ref": "#/groups/8"
       },
       "children": [],
       "content_layer": "body",
@@ -2281,7 +2167,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/125",
+      "self_ref": "#/texts/119",
       "parent": {
         "$ref": "#/body"
       },
@@ -2293,7 +2179,7 @@
       "text": "Once that's done, I usually run "
     },
     {
-      "self_ref": "#/texts/126",
+      "self_ref": "#/texts/120",
       "parent": {
         "$ref": "#/body"
       },
@@ -2309,7 +2195,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/127",
+      "self_ref": "#/texts/121",
       "parent": {
         "$ref": "#/body"
       },
@@ -2321,7 +2207,7 @@
       "text": " in a terminal to watch for the changeover with "
     },
     {
-      "self_ref": "#/texts/128",
+      "self_ref": "#/texts/122",
       "parent": {
         "$ref": "#/body"
       },
@@ -2337,7 +2223,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/129",
+      "self_ref": "#/texts/123",
       "parent": {
         "$ref": "#/body"
       },
@@ -2349,7 +2235,7 @@
       "text": ". When CloudFront is handling your traffic you'll see headers like these:"
     },
     {
-      "self_ref": "#/texts/130",
+      "self_ref": "#/texts/124",
       "parent": {
         "$ref": "#/body"
       },
@@ -2365,7 +2251,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/131",
+      "self_ref": "#/texts/125",
       "parent": {
         "$ref": "#/body"
       },
@@ -2377,7 +2263,7 @@
       "text": "If it seems like it's taking a very long time to change over, use a tool like  DNS Checker  to see how various DNS servers see your recent DNS change."
     },
     {
-      "self_ref": "#/texts/132",
+      "self_ref": "#/texts/126",
       "parent": {
         "$ref": "#/body"
       },
@@ -2390,7 +2276,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/133",
+      "self_ref": "#/texts/127",
       "parent": {
         "$ref": "#/body"
       },
@@ -2402,7 +2288,7 @@
       "text": "If something went horribly wrong,  DON'T PANIC . \ud83d\ude31"
     },
     {
-      "self_ref": "#/texts/134",
+      "self_ref": "#/texts/128",
       "parent": {
         "$ref": "#/body"
       },
@@ -2414,7 +2300,7 @@
       "text": "{{< alert >}} DNS is like IT quicksand. Once you get stuck in a problem with DNS, any level of fighting just makes you more stuck. Take a deep breath first. \ud83e\udec1 {{< /alert >}}"
     },
     {
-      "self_ref": "#/texts/135",
+      "self_ref": "#/texts/129",
       "parent": {
         "$ref": "#/body"
       },
@@ -2426,7 +2312,7 @@
       "text": "Go back to your DNS provide and remove the ALIAS/CNAME record for your CDN domain name, such as "
     },
     {
-      "self_ref": "#/texts/136",
+      "self_ref": "#/texts/130",
       "parent": {
         "$ref": "#/body"
       },
@@ -2442,7 +2328,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/137",
+      "self_ref": "#/texts/131",
       "parent": {
         "$ref": "#/body"
       },
@@ -2454,7 +2340,7 @@
       "text": ". Add back in the original A/AAAA/ALIAS/CNAME records that were there previously. Be patient for traffic to shift back to your origin server."
     },
     {
-      "self_ref": "#/texts/138",
+      "self_ref": "#/texts/132",
       "parent": {
         "$ref": "#/body"
       },
@@ -2466,7 +2352,7 @@
       "text": "Review the changes you made and look for any errors."
     },
     {
-      "self_ref": "#/texts/139",
+      "self_ref": "#/texts/133",
       "parent": {
         "$ref": "#/body"
       },
@@ -2478,7 +2364,7 @@
       "text": "Configuring Ghost"
     },
     {
-      "self_ref": "#/texts/140",
+      "self_ref": "#/texts/134",
       "parent": {
         "$ref": "#/body"
       },
@@ -2490,7 +2376,7 @@
       "text": "Ghost is fairly easy to put behind a CDN, but it does have some additional caching configuration that you can change if needed. It provides hints to the CDN about what should and should not be cached and for how long. Refer to the  Ghost docs  for details."
     },
     {
-      "self_ref": "#/texts/141",
+      "self_ref": "#/texts/135",
       "parent": {
         "$ref": "#/body"
       },
@@ -2502,7 +2388,7 @@
       "text": "I decided to cache requests to the Content API and to the frontend for 60 seconds as a test. My "
     },
     {
-      "self_ref": "#/texts/142",
+      "self_ref": "#/texts/136",
       "parent": {
         "$ref": "#/body"
       },
@@ -2518,7 +2404,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/143",
+      "self_ref": "#/texts/137",
       "parent": {
         "$ref": "#/body"
       },
@@ -2530,7 +2416,7 @@
       "text": " now looks like this:"
     },
     {
-      "self_ref": "#/texts/144",
+      "self_ref": "#/texts/138",
       "parent": {
         "$ref": "#/body"
       },
@@ -2546,7 +2432,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/145",
+      "self_ref": "#/texts/139",
       "parent": {
         "$ref": "#/body"
       },
@@ -2558,7 +2444,7 @@
       "text": "Now if I access the main page of the site, I see cache hits in the headers:"
     },
     {
-      "self_ref": "#/texts/146",
+      "self_ref": "#/texts/140",
       "parent": {
         "$ref": "#/body"
       },
@@ -2574,7 +2460,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/147",
+      "self_ref": "#/texts/141",
       "parent": {
         "$ref": "#/body"
       },
@@ -2586,7 +2472,7 @@
       "text": "The "
     },
     {
-      "self_ref": "#/texts/148",
+      "self_ref": "#/texts/142",
       "parent": {
         "$ref": "#/body"
       },
@@ -2602,7 +2488,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/149",
+      "self_ref": "#/texts/143",
       "parent": {
         "$ref": "#/body"
       },
@@ -2614,7 +2500,7 @@
       "text": " header shows a hit and the "
     },
     {
-      "self_ref": "#/texts/150",
+      "self_ref": "#/texts/144",
       "parent": {
         "$ref": "#/body"
       },
@@ -2630,7 +2516,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/151",
+      "self_ref": "#/texts/145",
       "parent": {
         "$ref": "#/body"
       },
@@ -2642,7 +2528,7 @@
       "text": " header says it's been cached for 7 seconds."
     },
     {
-      "self_ref": "#/texts/152",
+      "self_ref": "#/texts/146",
       "parent": {
         "$ref": "#/body"
       },

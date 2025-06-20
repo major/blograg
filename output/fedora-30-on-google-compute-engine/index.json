@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 7031118471931592258,
-    "filename": "index.md"
+    "binary_hash": 13724706701523194219,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,19 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
       },
       {
         "$ref": "#/texts/6"
@@ -166,143 +178,16 @@
       },
       {
         "$ref": "#/texts/53"
-      },
-      {
-        "$ref": "#/texts/54"
-      },
-      {
-        "$ref": "#/texts/55"
-      },
-      {
-        "$ref": "#/texts/56"
-      },
-      {
-        "$ref": "#/texts/57"
-      },
-      {
-        "$ref": "#/texts/58"
-      },
-      {
-        "$ref": "#/texts/59"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2019/08/07/fedora-30-on-google-compute-engine/",
-      "text": "/2019/08/07/fedora-30-on-google-compute-engine/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "cloud",
-      "text": "cloud",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "google",
-      "text": "google",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -314,7 +199,7 @@
       "text": "Fedora 30 is my primary operating system for desktops and servers, so I usually try to take it everywhere I go. I was recently doing some benchmarking for kernel compiles on different cloud plaforms and I noticed that Fedora isn't included in Google Compute Engine's default list of operating system images."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -326,7 +211,7 @@
       "text": "(Note: Fedora does include links to quick start an Amazon EC2 instance with their  pre-built AMI's . They are superb!)"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -339,7 +224,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -351,7 +236,7 @@
       "text": "Fedora does offer cloud images in raw and qcow2 formats, so I decided to give that a try. Start by downloading the image, decompressing it, and then repackaging the image into a tarball."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -367,7 +252,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -379,7 +264,7 @@
       "text": "Once that's done, create a bucket on Google storage and upload the tarball."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -395,7 +280,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -407,7 +292,7 @@
       "text": "Uploading 300MB on my 10mbit/sec uplink was a slow process. When that's done, tell Google Compute Engine that we want a new image made from this raw disk we uploaded:"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -423,7 +308,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -435,7 +320,7 @@
       "text": "After a few minutes, a new custom image called "
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -451,7 +336,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -463,7 +348,7 @@
       "text": " will appear in the list of images in Google Compute Engine."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -479,7 +364,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -491,7 +376,7 @@
       "text": "I opened a browser, ventured to the  Google Compute Engine console , and built a new VM with my image."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -504,7 +389,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -516,7 +401,7 @@
       "text": "However, there are problems when the instance starts up. The serial console has plenty of errors:"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -532,7 +417,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -544,7 +429,7 @@
       "text": "Obviously something is wrong with DNS. It's apparent that "
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -560,7 +445,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -572,7 +457,7 @@
       "text": " is stuck in a bad loop:"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -588,7 +473,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -600,7 +485,7 @@
       "text": "Those are EC2-type metadata queries and they won't work here. The instance also has no idea how to set up networking:"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -616,7 +501,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -628,7 +513,7 @@
       "text": "This image is set up well for Amazon, but it needs some work to work at Google."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -641,7 +526,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -653,7 +538,7 @@
       "text": "Go back to the "
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -669,7 +554,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -681,7 +566,7 @@
       "text": " that we made in the first step of the blog post. We need to mount that disk, mount some additional filesystems, and chroot into the Fedora 30 installation on the raw disk."
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -693,7 +578,7 @@
       "text": "Start by making a loop device for the raw disk and enumerating its partitions:"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -709,7 +594,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -721,7 +606,7 @@
       "text": "Make a mountpoint and mount the first partition on that mountpoint:"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -737,7 +622,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -749,7 +634,7 @@
       "text": "We need some extra filesystems mounted before we can run certain commands in the chroot:"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -765,7 +650,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -777,7 +662,7 @@
       "text": "Now we can hop into the chroot:"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -793,7 +678,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -805,7 +690,7 @@
       "text": "From inside the chroot, remove "
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -821,7 +706,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -833,7 +718,7 @@
       "text": " and install"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -849,7 +734,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -861,7 +746,7 @@
       "text": " to help with Google cloud:"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -877,7 +762,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -889,7 +774,7 @@
       "text": "The "
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -905,7 +790,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -917,7 +802,7 @@
       "text": " package has lots of services that help with running on Google cloud. We need to enable each one to run at boot time:"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -933,7 +818,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -945,7 +830,7 @@
       "text": "To learn more about these daemons and what they do, head on over to the"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -961,7 +846,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -973,7 +858,7 @@
       "text": " for the package."
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -985,7 +870,7 @@
       "text": "Exit the chroot and get back to your main system. Now that we have this image just like we want it, it's time to unmount the image and send it to the cloud:"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1001,7 +886,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1013,7 +898,7 @@
       "text": "Start a new instance with this fixed image and watch it boot in the serial console:"
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1029,7 +914,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },

@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 10004332686517712813,
-    "filename": "index.md"
+    "binary_hash": 4425144028848697132,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,22 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
       },
       {
         "$ref": "#/texts/7"
@@ -147,6 +162,9 @@
         "$ref": "#/texts/47"
       },
       {
+        "$ref": "#/pictures/0"
+      },
+      {
         "$ref": "#/texts/48"
       },
       {
@@ -163,166 +181,16 @@
       },
       {
         "$ref": "#/texts/53"
-      },
-      {
-        "$ref": "#/texts/54"
-      },
-      {
-        "$ref": "#/pictures/0"
-      },
-      {
-        "$ref": "#/texts/55"
-      },
-      {
-        "$ref": "#/texts/56"
-      },
-      {
-        "$ref": "#/texts/57"
-      },
-      {
-        "$ref": "#/texts/58"
-      },
-      {
-        "$ref": "#/texts/59"
-      },
-      {
-        "$ref": "#/texts/60"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2021/10/17/run-xorg-applications-with-podman/",
-      "text": "/2021/10/17/run-xorg-applications-with-podman/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "containers",
-      "text": "containers",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "podman",
-      "text": "podman",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "xorg",
-      "text": "xorg",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -334,7 +202,7 @@
       "text": "Containers are a great way to deliver and run all kinds of applications. Although many people build containers for server applications, you can also use them for client applications on your local workstation. This helps when you want to test new applications without disrupting your existing system or when you use an immutable system such as  Fedora Silverblue ."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -346,7 +214,7 @@
       "text": "Podman takes this further by allowing you to run a client application without root access or daemons. This post covers how to build a container with an Xorg application and run it on a Fedora system."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -359,7 +227,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -371,7 +239,7 @@
       "text": "Let's start with a simple container that contains "
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -387,7 +255,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -399,7 +267,7 @@
       "text": ". This simple application simply puts a pair of eyes on your screen that follow your mouse movements around the desktop. It has very few dependencies and it's a great way to test several capabilities on the desktop."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -411,7 +279,7 @@
       "text": "Here's a very simple container build file:"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -427,7 +295,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -439,7 +307,7 @@
       "text": "Let's install podman and build the container:"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -455,7 +323,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -468,7 +336,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -480,7 +348,7 @@
       "text": "Now that we have our "
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -496,7 +364,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -508,7 +376,7 @@
       "text": " container, let's run it."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -524,7 +392,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -536,7 +404,7 @@
       "text": "We're missing the "
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -552,7 +420,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -564,7 +432,7 @@
       "text": " variable inside the container. Let's add it:"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -580,7 +448,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -592,7 +460,7 @@
       "text": "Well, we have the display variable inside now, but there's another problem. Inside the container, "
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -608,7 +476,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -620,7 +488,7 @@
       "text": " can't make a connection to our X daemon. This socket normally appears in "
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -636,7 +504,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -648,7 +516,7 @@
       "text": ", but the container doesn't have it. Let's try adding this inside the container:"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -664,7 +532,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -676,7 +544,7 @@
       "text": "Darn! This should be working. Let's check the system journal:"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -692,7 +560,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -704,7 +572,7 @@
       "text": "Uh oh. SELinux is upset that a container is trying to mess with the "
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -720,7 +588,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -732,7 +600,7 @@
       "text": " socket for our Xorg server that sits in "
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -748,7 +616,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -760,7 +628,7 @@
       "text": ". You may be tempted to run"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -776,7 +644,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -788,7 +656,7 @@
       "text": ", but wait. We can fix this with podman!"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -800,7 +668,7 @@
       "text": "Podman allows you to set security options for a particular container with"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -816,7 +684,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -828,7 +696,7 @@
       "text": ". We need to run this container with an SELinux context that allows it to talk to something in "
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -844,7 +712,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -856,7 +724,7 @@
       "text": ". Examining the  container-selinux project  shows that "
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -872,7 +740,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -884,7 +752,7 @@
       "text": " can work with "
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -900,7 +768,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -912,7 +780,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -928,7 +796,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -940,7 +808,7 @@
       "text": "Let's try adding this to our podman command now:"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -956,7 +824,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -968,7 +836,7 @@
       "text": "I now have a set of eyeballs on my desktop! \ud83d\udc40"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -980,7 +848,7 @@
       "text": "xeyes running on my desktop"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -992,7 +860,7 @@
       "text": "2021-10-17-xeyes.png"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1005,7 +873,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1017,7 +885,7 @@
       "text": "The "
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1033,7 +901,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1045,7 +913,7 @@
       "text": " application is extremely simple, but you can run much more complex applications using this same method. Keep in mind that certain applications might require extra packages inside the container, such as fonts or GTK themes. Jessie Frazelle has a  great repository  full of containers that she uses regularly and this might give you inspiration to create some of your own! \ud83e\udd13"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1069,7 +937,7 @@
       "prov": [],
       "captions": [
         {
-          "$ref": "#/texts/54"
+          "$ref": "#/texts/47"
         }
       ],
       "references": [],

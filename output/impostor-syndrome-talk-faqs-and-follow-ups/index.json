@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 11645131101527992601,
-    "filename": "index.md"
+    "binary_hash": 4526536631071265131,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,19 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
       },
       {
         "$ref": "#/texts/6"
@@ -82,143 +94,16 @@
       },
       {
         "$ref": "#/texts/25"
-      },
-      {
-        "$ref": "#/texts/26"
-      },
-      {
-        "$ref": "#/texts/27"
-      },
-      {
-        "$ref": "#/texts/28"
-      },
-      {
-        "$ref": "#/texts/29"
-      },
-      {
-        "$ref": "#/texts/30"
-      },
-      {
-        "$ref": "#/texts/31"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2015/09/02/impostor-syndrome-talk-faqs-and-follow-ups/",
-      "text": "/2015/09/02/impostor-syndrome-talk-faqs-and-follow-ups/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "impostor syndrome",
-      "text": "impostor syndrome",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "presentation",
-      "text": "presentation",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -230,7 +115,7 @@
       "text": "I've had a great time talking to people about my  \"Be an inspiration, not an impostor\"  talk that I delivered in August. I spoke to audiences at Fedora Flock 2015, Texas Linux Fest, and at Rackspace. The biggest lesson I learned is that delivering talks is exhausting!"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -243,7 +128,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -255,7 +140,7 @@
       "text": "Someone asked a good one at Fedora Flock:"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -267,7 +152,7 @@
       "text": "How do you deal with situations where you are an impostor for a reason you can't change? For example, if you're the only woman in a male group or you're the youngest person in a mostly older group?"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -279,7 +164,7 @@
       "text": "I touched on this a bit in the presentation, but it's a great question. This is one of those times where you have to persevere and overcome the things you can't change by improving in all of the areas where you can change."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -291,7 +176,7 @@
       "text": "For example, if you're the youngest in the group, find ways to relate to the older group. Find out what they value and what they don't. If they prefer communication in person over electronic methods, change your communication style and medium. However, you shouldn't have to change your complete identity just for the rest of the group. Just make an adjustment so that you get the right response."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -303,7 +188,7 @@
       "text": "Also, impostor syndrome isn't restricted to a particular gender or age group. I've seen it in both men and women in equal amounts, and I've even seen it in people with 40 years of deep experience. It affects us all from time to time, and we need structured frameworks (like OODA) to fight it."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -315,7 +200,7 @@
       "text": "How do I battle impostor syndrome without becoming cocky and overconfident?"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -327,7 +212,7 @@
       "text": "The opposite of impostor syndrome, often called the Dunning-Kruger Effect, is just as dangerous. Go back the observe and orient steps of the OODA loop (see the slides toward the end of the presentation) to be sure that you're getting good feedback from your peers and leaders. Back up your assertions with facts and solid reasoning to avoid cognitive bias. Bounce those ideas and assertions off the people you trust."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -339,7 +224,7 @@
       "text": "When I make an assertion or try to get someone else to change what they're doing, I'll often end with \"Am I off-base here?\" or \"Let me know if I'm on the right track\" to give others an opportunity to provide criticism. The added benefit is that these phrases could drag someone with impostor syndrome out of the shadows and into the discussion."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -351,7 +236,7 @@
       "text": "That leads into another good question I received:"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -363,7 +248,7 @@
       "text": "How can we reduce impostor syndrome in open source communities as a whole?"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -375,7 +260,7 @@
       "text": "The key here is to find ways to get people involved, and then get them more involved over time. If someone is interested in participating but they aren't sure how to start, come up with ways they can get involved in less-formal ways. This could be through bug triaging, fixing simple bugs, writing documentation, or simply joining some IRC meetings. I've seen several communities go through a process of tagging bugs with \"easy\" tags so that beginners can try to fix them."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -387,7 +272,7 @@
       "text": "Another more direct option is to call upon people to do certain things in the community and assign them a mentor to help them do it. If someone isn't talking during an IRC meeting or piping up on a mailing list, call them out - gently. It could be something as simple as: \"Hey, [name], we know you're knowledgeable in [topic]. Do you think this is a good idea?\" Do that a few times and you'll find their confidence to participate will rise quickly."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -400,7 +285,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -413,7 +298,7 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -425,7 +310,7 @@
       "text": "Someone stopped me outside the talk room at Texas Linux Fest and said a leader at his church summarized impostor syndrome as \"comparing your insides to someone else's outsides\". That led me to do some thinking."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -437,7 +322,7 @@
       "text": "Each and every one of us has strengths and weaknesses. I'd wager that we all have at least once vice (I have plenty), and there are things about ourselves that we don't like. Everyone has insecurities about something in their life, whether it's personal or professional. These are things we can't see from looking at someone on the outside. We're taking our laundry list of issues and comparing it to something we think is close to perfection."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -449,7 +334,7 @@
       "text": "Don't do that. It's on my last slide in the presentation."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -462,7 +347,7 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -474,7 +359,7 @@
       "text": "After doing the talk at Rackspace, I was pulled into quite a few hallway conversations and I received feedback about my presentation. In addition, many people talked about their desire to get up and do a talk, too. What I heard most often was: \"I want to do a talk, but I don't know what to talk about.\""
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -486,7 +371,7 @@
       "text": "It reminds me of a  post I wrote about writing technical blogs . There is at least one thing you know that someone else wants to know. You might be surprised that the most hit post on my blog is an old one about  deleting an iptables rule . Deleting an iptables rule is an extremely basic step in system administration but it's tough to remember how to do it if you don't use the iptables syntax regularly."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -498,7 +383,7 @@
       "text": "Rackspace holds Tech Talk Tuesdays during lunch at our headquarters in San Antonio each week. It's open to Rackers and escorted guests only for now, but our topic list is wide open. Rackers have talked about highly technical topics and they've also talked about how to brew beer. I've encouraged my coworkers to think about something within their domain of expertise and deliver a talk on that topic."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -511,7 +396,7 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -523,7 +408,7 @@
       "text": "You can be humble and talk about your strengths at the same time. They aren't mutually exclusive. It can be a challenge to bring these things up during social settings, especially job interviews. My strategy is to weave these aspects about myself into a story. Humans love stories."
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },

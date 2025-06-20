@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 12199081949209586678,
-    "filename": "index.md"
+    "binary_hash": 4828911797256076912,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,16 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
       },
       {
         "$ref": "#/texts/5"
@@ -57,22 +66,22 @@
         "$ref": "#/texts/15"
       },
       {
-        "$ref": "#/texts/16"
-      },
-      {
-        "$ref": "#/texts/17"
-      },
-      {
-        "$ref": "#/texts/18"
-      },
-      {
-        "$ref": "#/texts/19"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/20"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
       },
       {
         "$ref": "#/texts/25"
@@ -168,6 +177,9 @@
         "$ref": "#/texts/55"
       },
       {
+        "$ref": "#/pictures/0"
+      },
+      {
         "$ref": "#/texts/56"
       },
       {
@@ -178,24 +190,6 @@
       },
       {
         "$ref": "#/texts/59"
-      },
-      {
-        "$ref": "#/texts/60"
-      },
-      {
-        "$ref": "#/pictures/0"
-      },
-      {
-        "$ref": "#/texts/61"
-      },
-      {
-        "$ref": "#/texts/62"
-      },
-      {
-        "$ref": "#/texts/63"
-      },
-      {
-        "$ref": "#/texts/64"
       }
     ],
     "content_layer": "body",
@@ -210,39 +204,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/16"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/17"
         },
         {
-          "$ref": "#/texts/3"
+          "$ref": "#/texts/18"
         },
         {
-          "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/21"
-        },
-        {
-          "$ref": "#/texts/22"
-        },
-        {
-          "$ref": "#/texts/23"
-        },
-        {
-          "$ref": "#/texts/24"
+          "$ref": "#/texts/19"
         }
       ],
       "content_layer": "body",
@@ -260,79 +231,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "author: Major Hayden date: '2022-12-30' summary: 1Password's CLI tool connects via PolicyKit to the 1Password application for authentication, but this isn't the easiest in i3. \ud83d\udd11 tags:",
-      "text": "author: Major Hayden date: '2022-12-30' summary: 1Password's CLI tool connects via PolicyKit to the 1Password application for authentication, but this isn't the easiest in i3. \ud83d\udd11 tags:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "1password",
-      "text": "1password",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "i3",
-      "text": "i3",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "policykit",
-      "text": "policykit",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Bitwarden  became my go-to password manager a few years ago after I finally abandoned LastPass. Once I read the recent news about  stolen password vaults , I was even happier that I made the switch.",
       "text": "Bitwarden  became my go-to password manager a few years ago after I finally abandoned LastPass. Once I read the recent news about  stolen password vaults , I was even happier that I made the switch."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -344,7 +247,7 @@
       "text": "My original password manager from way back in my Apple days was  1Password . It had a great user interface on the Mac and on iPhones, but I found it frustrating to use when I switched to Linux laptops and Android phones."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -356,7 +259,7 @@
       "text": "Lots of people in my Mastodon timeline were singing the praises of 1Password's security and user interface after the recent LastPass news, so I decided to give it another look. It has a great CLI now and the GUI application runs well in Linux. The CLI also connects to the application via  PolicyKit  and it has some helpful plugins for various other CLI tools, like the AWS cli."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -368,7 +271,7 @@
       "text": "I decided to give 1Password another try, but then I ran into a problem with the CLI. \ud83e\udd14"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -380,7 +283,7 @@
       "text": "\ud83c\udfc3 In a hurry?  Go straight to the fix."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -392,7 +295,7 @@
       "text": "Authentication problems"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -404,7 +307,7 @@
       "text": "The 1Password application was up and running and I followed the  documented steps  for enabling Linux authentication for the CLI. However, I still couldn't authenticate:"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -420,7 +323,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -432,7 +335,7 @@
       "text": "The 1Password documentation says that the application will automatically write a polkit action file at "
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -448,7 +351,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -460,7 +363,7 @@
       "text": " to handle the authentication and that file was present:"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -476,7 +379,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -488,7 +391,7 @@
       "text": "In addition, the PolicyKit daemon is running:"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -504,7 +407,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -516,7 +419,7 @@
       "text": "Putting it together"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -528,9 +431,9 @@
       "text": "Then I stopped to think about what the system was telling me:"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/16",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -542,9 +445,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/17",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -556,9 +459,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/18",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -570,9 +473,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/19",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -584,7 +487,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -596,7 +499,7 @@
       "text": "But wait, the policykit daemon is only half of what I needed. There needs to be some type of window manager integration to pop up an authentication prompt and I wasn't seeing that prompt."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -608,7 +511,7 @@
       "text": "On i3, I use "
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -624,7 +527,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -636,7 +539,7 @@
       "text": " for policykit integration and it should have popped up some kind of prompt for me."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -652,7 +555,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -664,7 +567,7 @@
       "text": " is installed:"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -680,7 +583,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -692,7 +595,7 @@
       "text": "Then I noticed something strange. The actual "
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -708,7 +611,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -720,7 +623,7 @@
       "text": " daemon that handles the authentication prompts was not running even though it was configured to automatically start as soon as I logged in:"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -736,7 +639,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -748,7 +651,7 @@
       "text": "My default i3 configuration starts all of these automatically with "
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -764,7 +667,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -776,7 +679,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -792,7 +695,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -804,7 +707,7 @@
       "text": "Then I saw the issue at the very end of the "
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -820,7 +723,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -832,7 +735,7 @@
       "text": " desktop file:"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -848,7 +751,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -860,7 +763,7 @@
       "text": "The "
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -876,7 +779,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -888,7 +791,7 @@
       "text": " means that "
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -904,7 +807,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -916,7 +819,7 @@
       "text": " will skip it when the environment is set to "
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -932,7 +835,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -944,7 +847,7 @@
       "text": "!\ud83e\udd26\u200d\u2642\ufe0f"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -956,7 +859,7 @@
       "text": "The fix"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -968,7 +871,7 @@
       "text": "I copied the desktop file into my local autostart directory and removed the last line:"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -984,7 +887,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -996,7 +899,7 @@
       "text": "Then I ran "
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1012,7 +915,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1024,7 +927,7 @@
       "text": " manually to ensure it worked:"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1040,7 +943,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1052,7 +955,7 @@
       "text": "Success!"
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1068,7 +971,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1080,7 +983,7 @@
       "text": "I tried the 1Password command line application one more time..."
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1092,7 +995,7 @@
       "text": "1Password auth prompt via policykit"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1104,7 +1007,7 @@
       "text": "It worked! As long as the 1Password application is running and unlocked, I can use the "
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1120,7 +1023,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },

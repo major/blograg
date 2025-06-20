@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 3241964693586887622,
-    "filename": "index.md"
+    "binary_hash": 15202939786301144622,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -24,34 +24,28 @@
         "$ref": "#/groups/0"
       },
       {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
         "$ref": "#/texts/6"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
       },
       {
         "$ref": "#/texts/10"
       },
       {
         "$ref": "#/texts/11"
-      },
-      {
-        "$ref": "#/texts/12"
-      },
-      {
-        "$ref": "#/texts/13"
-      },
-      {
-        "$ref": "#/texts/14"
-      },
-      {
-        "$ref": "#/texts/15"
-      },
-      {
-        "$ref": "#/texts/16"
-      },
-      {
-        "$ref": "#/texts/17"
       }
     ],
     "content_layer": "body",
@@ -73,32 +67,6 @@
         },
         {
           "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/7"
-        },
-        {
-          "$ref": "#/texts/8"
-        },
-        {
-          "$ref": "#/texts/9"
         }
       ],
       "content_layer": "body",
@@ -116,8 +84,8 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "In my previous post about  installing Fedora via PXE , I forgot to mention a big time saver for the installation. A Fedora PXE installation requires a few different things:",
+      "text": "In my previous post about  installing Fedora via PXE , I forgot to mention a big time saver for the installation. A Fedora PXE installation requires a few different things:"
     },
     {
       "self_ref": "#/texts/1",
@@ -128,8 +96,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "/2013/11/03/speed-up-your-fedora-pxe-installations-by-hosting-the-stage2-installer-locally/",
-      "text": "/2013/11/03/speed-up-your-fedora-pxe-installations-by-hosting-the-stage2-installer-locally/",
+      "orig": "initial ramdisk (",
+      "text": "initial ramdisk (",
       "enumerated": false,
       "marker": "-"
     },
@@ -142,8 +110,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
+      "orig": "kernel (",
+      "text": "kernel (",
       "enumerated": false,
       "marker": "-"
     },
@@ -156,95 +124,13 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "network",
-      "text": "network",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "pxe",
-      "text": "pxe",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "sysadmin",
-      "text": "sysadmin",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "In my previous post about  installing Fedora via PXE , I forgot to mention a big time saver for the installation. A Fedora PXE installation requires a few different things:",
-      "text": "In my previous post about  installing Fedora via PXE , I forgot to mention a big time saver for the installation. A Fedora PXE installation requires a few different things:"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "initial ramdisk (",
-      "text": "initial ramdisk (",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "kernel (",
-      "text": "kernel (",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "installation repository",
       "text": "installation repository",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -256,7 +142,7 @@
       "text": "If you only specify an installation repository, then Anaconda tries to drag down a 214MB squashfs.img file in each installation. You can host this file locally by recreating a portion of a Fedora repo's structure and dropping two files into it."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -268,7 +154,7 @@
       "text": "Do the following in a directory that can be served up via HTTP:"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -284,7 +170,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -296,7 +182,7 @@
       "text": "Your files are now ready. Go back to your tftp server and adjust your "
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -312,7 +198,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -324,7 +210,7 @@
       "text": " file:"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -340,7 +226,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },

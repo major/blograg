@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 8706766123178251291,
-    "filename": "index.md"
+    "binary_hash": 15244671613519757657,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,10 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
       },
       {
         "$ref": "#/texts/3"
@@ -37,83 +40,16 @@
       },
       {
         "$ref": "#/texts/7"
-      },
-      {
-        "$ref": "#/texts/8"
-      },
-      {
-        "$ref": "#/texts/9"
-      },
-      {
-        "$ref": "#/texts/10"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2007/01/24/increase-mysql-connection-limit/",
-      "text": "/2007/01/24/increase-mysql-connection-limit/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "database",
-      "text": "database",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -125,7 +61,7 @@
       "text": "MySQL's default configuration sets the maximum simultaneous connections to 100. If you need to increase it, you can do it fairly easily:"
     },
     {
-      "self_ref": "#/texts/4",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -137,7 +73,7 @@
       "text": "For MySQL 3.x:"
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -153,7 +89,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -165,7 +101,7 @@
       "text": "For MySQL 4.x and 5.x:"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -181,7 +117,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -193,7 +129,7 @@
       "text": "Restart MySQL once you've made the changes and verify with:"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -209,7 +145,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },

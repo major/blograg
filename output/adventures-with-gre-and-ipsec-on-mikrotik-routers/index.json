@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 9493779646049453049,
-    "filename": "index.md"
+    "binary_hash": 14980217574295158204,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -18,16 +18,28 @@
     "self_ref": "#/body",
     "children": [
       {
-        "$ref": "#/texts/0"
-      },
-      {
-        "$ref": "#/groups/0"
-      },
-      {
         "$ref": "#/pictures/0"
       },
       {
-        "$ref": "#/texts/7"
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/8"
@@ -45,7 +57,10 @@
         "$ref": "#/texts/12"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
       },
       {
         "$ref": "#/texts/15"
@@ -120,13 +135,7 @@
         "$ref": "#/texts/38"
       },
       {
-        "$ref": "#/texts/39"
-      },
-      {
-        "$ref": "#/texts/40"
-      },
-      {
-        "$ref": "#/texts/41"
+        "$ref": "#/groups/1"
       },
       {
         "$ref": "#/texts/42"
@@ -141,7 +150,13 @@
         "$ref": "#/texts/45"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
       },
       {
         "$ref": "#/texts/49"
@@ -213,6 +228,9 @@
         "$ref": "#/texts/71"
       },
       {
+        "$ref": "#/pictures/1"
+      },
+      {
         "$ref": "#/texts/72"
       },
       {
@@ -223,30 +241,6 @@
       },
       {
         "$ref": "#/texts/75"
-      },
-      {
-        "$ref": "#/texts/76"
-      },
-      {
-        "$ref": "#/texts/77"
-      },
-      {
-        "$ref": "#/texts/78"
-      },
-      {
-        "$ref": "#/pictures/1"
-      },
-      {
-        "$ref": "#/texts/79"
-      },
-      {
-        "$ref": "#/texts/80"
-      },
-      {
-        "$ref": "#/texts/81"
-      },
-      {
-        "$ref": "#/texts/82"
       }
     ],
     "content_layer": "body",
@@ -261,22 +255,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
           "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
         }
       ],
       "content_layer": "body",
@@ -290,30 +272,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/13"
+          "$ref": "#/texts/39"
         },
         {
-          "$ref": "#/texts/14"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/46"
+          "$ref": "#/texts/40"
         },
         {
-          "$ref": "#/texts/47"
-        },
-        {
-          "$ref": "#/texts/48"
+          "$ref": "#/texts/41"
         }
       ],
       "content_layer": "body",
@@ -331,107 +296,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2015/05/27/adventures-with-gre-and-ipsec-on-mikrotik-routers/",
-      "text": "/2015/05/27/adventures-with-gre-and-ipsec-on-mikrotik-routers/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "ipsec",
-      "text": "ipsec",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "mikrotik",
-      "text": "mikrotik",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "networking",
-      "text": "networking",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "1",
       "text": "1"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -443,7 +312,7 @@
       "text": "I recently picked up a  RB850GX2  from my favorite Mikrotik retailer,  r0c-n0c . It's a dual-core PowerPC board with five ethernet ports and some decent performance for the price."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -455,7 +324,7 @@
       "text": "I still have the RB493G in a colocation and I usually connect my home and the colo via OpenVPN or IPSec. Networking is not one of my best skills and I'm always looking to learn more about it when I can. I decided to try out a GRE tunnel on top of IPSec this time around. Combining GRE and IPSec allows you to simplify connectivity between two network segments through an encrypted tunnel."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -468,7 +337,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -480,7 +349,7 @@
       "text": "The LAN in my colo and at home is fairly simple: a /24 of RFC1918 space behind a Mikrotik doing NAT. My goal was to get a tunnel up between both environments so that I could reach devices behind my colo firewall from home and vice versa. I do plenty of ssh back and forth along with backups from time to time."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -492,9 +361,9 @@
       "text": "In this example, here's the current network configuration:"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -506,9 +375,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -520,7 +389,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -532,7 +401,7 @@
       "text": "I want devices on 192.168.50.0/24 to talk to 192.168.150.0/24 and vice versa. Let's get the GRE tunnel up first."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -545,7 +414,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -557,7 +426,7 @@
       "text": "Plain GRE tunnels aren't encrypted, but I prefer to set them up first to test connectivity prior to adding IPSec into the mix. IPSec can be a challenge to configure the first time around."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -569,7 +438,7 @@
       "text": "I'll first create a GRE interface at home:"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -585,7 +454,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -597,7 +466,7 @@
       "text": "We'll do the same on the colo router:"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -613,7 +482,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -625,7 +494,7 @@
       "text": "You can check to see if the GRE tunnel is running from either router:"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -641,7 +510,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -653,7 +522,7 @@
       "text": "Look for the  R  in the flags column."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -665,7 +534,7 @@
       "text": "If you've made it this far, you now have a GRE tunnel configured but we can't pass any traffic across it yet. We need to add some IP's to both sides and configure some routes."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -678,7 +547,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -690,7 +559,7 @@
       "text": "You have some freedom here to choose the IP addresses for both ends of your tunnel but don't choose anything that interferes with your current LAN IP addresses. In my case, I'll choose 10.10.10.1/30 and 10.10.10.2/30 for both ends of the tunnel."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -702,7 +571,7 @@
       "text": "I'll give the 10.10.10.2 address to the home firewall:"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -718,7 +587,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -730,7 +599,7 @@
       "text": "And I'll give the 10.10.10.1 address to the colo firewall:"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -746,7 +615,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -758,7 +627,7 @@
       "text": "At this point, systems at home can ping 10.10.10.1 (the colo router's GRE tunnel endpoint) and systems at the colo can ping 10.10.10.2 (the home router's GRE tunnel endpoint). That's great because we will use these IP's to route our LAN traffic across the tunnel."
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -770,7 +639,7 @@
       "text": "We need to tell the home router how to get traffic from its LAN over to the colo LAN and vice versa. We can do that with the tunnel endpoints we just configured."
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -782,7 +651,7 @@
       "text": "Let's tell the home router to use the colo router's GRE tunnel endpoint to reach the colo LAN:"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -798,7 +667,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -810,7 +679,7 @@
       "text": "And tell the colo router to use the home router's GRE endpoint to reach the home LAN:"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -826,7 +695,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -838,7 +707,7 @@
       "text": "We don't have to tell the router about the tunnel's IP address since those routes are generated automatically when we added the IP addresses to each side of the GRE tunnel."
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -850,7 +719,7 @@
       "text": "If you've made it this far, systems in your home LAN should be able to ping the colo LAN and vice versa. If not, go back and double-check your IP addresses on both sides of the tunnel and your routes."
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -863,7 +732,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -875,7 +744,7 @@
       "text": "BEFORE YOU GO ANY FURTHER, ensure you have some sort of out-of-band access to both routers.  If you make a big mistake like I did (more on that later), you're going to be glad you set up another way to reach your devices!"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -887,7 +756,7 @@
       "text": "We have an GRE tunnel without encryption already and that's allowing us to pass traffic. That's fine, but it's not terribly secure to send our packets in that tunnel across a hostile internet. IPSec will allow us to tell both routers that we want packets between the public IP addresses of both routers to be encrypted. The GRE tunnel will take care of actually delivering the packets, however. IPSec isn't an interface and it can't be a conduit for networking all by itself."
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -899,7 +768,7 @@
       "text": "Have you configured another way to access both routers yet? Seriously, stop now and do that. I mean it."
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -911,7 +780,7 @@
       "text": "If you have native IPv6 access (not a IPv6 over IPv4 tunnel!) into each device, that can be a viable backup plan. Another option might be serial cables or a dedicated console connection. You'll thank me later."
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -923,9 +792,9 @@
       "text": "Configuring IPSec is done in three chunks:"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/39",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -937,9 +806,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/40",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -951,9 +820,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/41",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -965,7 +834,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -977,7 +846,7 @@
       "text": "We will start with the proposal. The defaults are good for both routers. Add this configuration  on both devices :"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -993,7 +862,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -1005,7 +874,7 @@
       "text": "Now our routers agree on what methods they'll use to encrypt traffic. Feel free to adjust these algorithms later if needed. Let's tell each router about its peer."
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -1017,7 +886,7 @@
       "text": "At home:"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1033,7 +902,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1045,7 +914,7 @@
       "text": "At the colo:"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1061,7 +930,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1073,7 +942,7 @@
       "text": "Both routers now know about each other and they both have the same shared secret (please use a better shared secret in production). All we have left is configuring a policy."
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1085,7 +954,7 @@
       "text": "At this point, ensure you're accessing both routers via an out-of-band method (native IPv6, console, serial, etc).  YOU ARE ABOUT TO LOSE CONNECTIVITY TO YOUR REMOTE DEVICE."
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1097,7 +966,7 @@
       "text": "At home, we set up a policy that says all traffic between the public addresses of both firewalls must be encrypted (GRE will carry the traffic for us).  Ensure that the CIDR portion of the IP address for dst-address/src-address is present!"
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1113,7 +982,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1125,7 +994,7 @@
       "text": "We will do something similar on the colo side.  Again, ensure that the CIDR portion of the IP address for dst-address/src-address is present!"
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1141,7 +1010,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1153,7 +1022,7 @@
       "text": "You should now be able to ping across your GRE tunnel but it's encrypted this time! If you find that one of your devices is inaccessible, don't panic. Disable the policy you just added ("
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1169,7 +1038,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1181,7 +1050,7 @@
       "text": ") and review your configuration."
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1193,7 +1062,7 @@
       "text": "In the policy step, we told both routers that if traffic moves between the  src-address  and  dst-address , we want it encrypted. Also, the  sa-src-address  and  sa-dst-address  gives the router a hint to figure out the identity of the peer and what their shared secret is."
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1206,7 +1075,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1218,7 +1087,7 @@
       "text": "You can check your work with something like this on the home router:"
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1234,7 +1103,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/62",
       "parent": {
         "$ref": "#/body"
       },
@@ -1246,7 +1115,7 @@
       "text": "If you have a line like that, your IPSec peers can communicate properly. To test the encryption, you have two options. One option is to put a device outside your firewall and dump traffic via a tap or hub."
     },
     {
-      "self_ref": "#/texts/70",
+      "self_ref": "#/texts/63",
       "parent": {
         "$ref": "#/body"
       },
@@ -1258,7 +1127,7 @@
       "text": "Another option (albeit less accurate) is to use the profile tool built into RouterOS. Run the following:"
     },
     {
-      "self_ref": "#/texts/71",
+      "self_ref": "#/texts/64",
       "parent": {
         "$ref": "#/body"
       },
@@ -1274,7 +1143,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/72",
+      "self_ref": "#/texts/65",
       "parent": {
         "$ref": "#/body"
       },
@@ -1286,7 +1155,7 @@
       "text": "You'll see some output showing where the majority of your CPU is consumed. Now, transfer some large files between systems behind both routers. You can use  iperf  for this as well if you really want to stress out the network link. When you do that, you should see  encrypting  in the profile output as a very large consumer of the CPU. If you only see something like  gre  or  ethernet  as your top CPU consumers, you may have missed something on your IPSec policy and your traffic is likely not being encrypted. This isn't true for all routers &#8212; it depends on your normal workloads."
     },
     {
-      "self_ref": "#/texts/73",
+      "self_ref": "#/texts/66",
       "parent": {
         "$ref": "#/body"
       },
@@ -1299,7 +1168,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/74",
+      "self_ref": "#/texts/67",
       "parent": {
         "$ref": "#/body"
       },
@@ -1311,7 +1180,7 @@
       "text": "When I was going through this process, I made it through the GRE portion without a hitch. Everything worked well. Once I added IPSec to the mix, I used the GRE tunnel endpoints (10.10.10.1 and 10.10.10.2) as my  src-address  and  dst-address  in my IPSec policy. Nothing was getting encrypted and I was getting really frustrated."
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/68",
       "parent": {
         "$ref": "#/body"
       },
@@ -1323,7 +1192,7 @@
       "text": "I kept reading tutorials on various sites and came to realize that I didn't need an encryption policy between the tunnel endpoints, I needed a policy between the actual public addresses of the routers. I wasn't aware that the GRE tunnel would happily keep working between the two public IP addresses even with the IPSec policy in place between the IP addresses."
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/69",
       "parent": {
         "$ref": "#/body"
       },
@@ -1335,7 +1204,7 @@
       "text": "First mistake: I didn't access my colo router via an out-of-band path. Second mistake: I applied my IPSec policy on the home router first and was shocked that I lost connectivity to the colo router. That was a quick fix &#8212; I just disabled the IPSec policy on the home router and I could access the colo router again."
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/70",
       "parent": {
         "$ref": "#/body"
       },
@@ -1347,7 +1216,7 @@
       "text": "Just after adjusting the IPSec policy on the colo router to use the public IP addresses, I noticed that connectivity dropped. At this point, I expected that &#8212; I set up a policy there but I hadn't done it on the home router yet. I enabled the policy on the home router and then started pinging. Nothing."
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/71",
       "parent": {
         "$ref": "#/body"
       },
@@ -1359,7 +1228,7 @@
       "text": "Then came the Pingdom and UptimeRobot alerts for my sites in the colo.  Oh crap."
     },
     {
-      "self_ref": "#/texts/79",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },
@@ -1371,7 +1240,7 @@
       "text": "5"
     },
     {
-      "self_ref": "#/texts/80",
+      "self_ref": "#/texts/73",
       "parent": {
         "$ref": "#/body"
       },
@@ -1383,7 +1252,7 @@
       "text": "Once I was able to reach the colo router via IPv6 through some other VM's, I realized what happened. I left the CIDR mask off the  src-address  and  dst-address  in the IPSec policy."
     },
     {
-      "self_ref": "#/texts/81",
+      "self_ref": "#/texts/74",
       "parent": {
         "$ref": "#/body"
       },
@@ -1395,7 +1264,7 @@
       "text": "Guess what RouterOS chose as a CIDR mask for me?  /0.  Ouch."
     },
     {
-      "self_ref": "#/texts/82",
+      "self_ref": "#/texts/75",
       "parent": {
         "$ref": "#/body"
       },

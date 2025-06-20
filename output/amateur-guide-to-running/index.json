@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 909112397601546596,
-    "filename": "index.md"
+    "binary_hash": 829181819453256708,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,16 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
       },
       {
         "$ref": "#/texts/5"
@@ -90,37 +99,37 @@
         "$ref": "#/texts/26"
       },
       {
-        "$ref": "#/texts/27"
+        "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/28"
+        "$ref": "#/texts/33"
       },
       {
-        "$ref": "#/texts/29"
+        "$ref": "#/texts/34"
       },
       {
-        "$ref": "#/texts/30"
+        "$ref": "#/texts/35"
       },
       {
-        "$ref": "#/texts/31"
+        "$ref": "#/texts/36"
       },
       {
         "$ref": "#/groups/1"
       },
       {
-        "$ref": "#/texts/38"
-      },
-      {
-        "$ref": "#/texts/39"
-      },
-      {
-        "$ref": "#/texts/40"
-      },
-      {
         "$ref": "#/texts/41"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
       },
       {
         "$ref": "#/texts/46"
@@ -147,25 +156,10 @@
         "$ref": "#/texts/53"
       },
       {
-        "$ref": "#/texts/54"
-      },
-      {
-        "$ref": "#/texts/55"
-      },
-      {
-        "$ref": "#/texts/56"
-      },
-      {
-        "$ref": "#/texts/57"
-      },
-      {
-        "$ref": "#/texts/58"
-      },
-      {
         "$ref": "#/pictures/0"
       },
       {
-        "$ref": "#/texts/59"
+        "$ref": "#/texts/54"
       }
     ],
     "content_layer": "body",
@@ -180,16 +174,22 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/27"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/28"
         },
         {
-          "$ref": "#/texts/3"
+          "$ref": "#/texts/29"
         },
         {
-          "$ref": "#/texts/4"
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
         }
       ],
       "content_layer": "body",
@@ -203,45 +203,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/32"
-        },
-        {
-          "$ref": "#/texts/33"
-        },
-        {
-          "$ref": "#/texts/34"
-        },
-        {
-          "$ref": "#/texts/35"
-        },
-        {
-          "$ref": "#/texts/36"
-        },
-        {
           "$ref": "#/texts/37"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/42"
         },
         {
-          "$ref": "#/texts/43"
+          "$ref": "#/texts/38"
         },
         {
-          "$ref": "#/texts/44"
+          "$ref": "#/texts/39"
         },
         {
-          "$ref": "#/texts/45"
+          "$ref": "#/texts/40"
         }
       ],
       "content_layer": "body",
@@ -259,79 +230,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2022/11/06/amateur-guide-to-running/",
-      "text": "/2022/11/06/amateur-guide-to-running/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "exercise",
-      "text": "exercise",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "running",
-      "text": "running",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "I love to run. It gives me an opportunity go outside and create challenges for myself. It also provides time to think.",
       "text": "I love to run. It gives me an opportunity go outside and create challenges for myself. It also provides time to think."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -343,7 +246,7 @@
       "text": "Getting started was one of the toughest parts. I went through all kinds of running programs and equipment but never felt like I was improving as much as I wanted."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -355,7 +258,7 @@
       "text": "This post covers all of the great advice I received along my running journey and some warnings about mistakes I made."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -367,7 +270,7 @@
       "text": "Know your limits"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -379,7 +282,7 @@
       "text": "First and foremost, know what your body can and  should  do. Talk to a medical professional you trust about any previous injuries or medical conditions that might impact you while you're running."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -391,7 +294,7 @@
       "text": "Bad news doesn't signal an end to your running ambitions. It just meant you might need to adapt your workout to fit within your body's needs."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -403,7 +306,7 @@
       "text": "Make a plan and follow the plan"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -415,7 +318,7 @@
       "text": "As I said earlier, I had tons of difficulty getting started with a running routine. I have asthma and it was once a big limiter on what I could do when I exercised."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -427,7 +330,7 @@
       "text": "Two big things changed the game for me."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -439,7 +342,7 @@
       "text": "First, a friend told me about the  Couch to 5K  (C25K) program. It's designed for running novices and eases you into running longer and longer distances. Everything is free to use and the instructions are translated into plenty of languages."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -451,7 +354,7 @@
       "text": "C25K offers a running schedule where you gradually increase the ratio of running intervals to walking intervals over time. You might start with a two minute walk followed by a one minute jog. Over time, that turns into a 90 second walk followed by a one minute jog. By the end, you're spending much less time walking and more time running."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -463,7 +366,7 @@
       "text": "Second, I changed my diet. I've written a lot about the  ketogenic diet , or keto, on this blog before. Long story short, you drastically reduce your carbohydrate intake to a very small amount (usually 20-30g or less) and increase your fat/protein intake. This has tons of effects inside the body that would take too long to list here, but the one that benefited me the most was a reduction in my overall inflammation markers in my body."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -475,7 +378,7 @@
       "text": "Higher levels of inflammation lead to all kinds of problems, including asthma. After changing my diet, I worked with my doctor to stop all of the medications I was taking and my asthma is barely noticeable today."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -487,7 +390,7 @@
       "text": "These two parts of the process, following a plan and changing my diet, greatly improved my confidence while running."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -499,7 +402,7 @@
       "text": "Shoes"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -511,7 +414,7 @@
       "text": "My tennis coach in high school had a wonderful phrase to remind us that our beloved rackets and shoes only did so much:"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -523,7 +426,7 @@
       "text": "It's not the tool, it's the fool."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -535,7 +438,7 @@
       "text": "His point was that you can't blame poor performance on your equipment. However, running shoes with poor cushioning and reduced support will certainly impede your progress."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -547,7 +450,7 @@
       "text": "Does that mean you must spend a fortune on running shoes? No."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -559,7 +462,7 @@
       "text": "It does mean that you need to fight the right equipment  for your body ."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -571,7 +474,7 @@
       "text": "Find a running shop near you and talk with someone there about your goals and challenges. In the San Antonio area, we have a store called  Fleet Feet  that's staffed by people who run all the time. They had a look at how I ran and they asked me where I felt the impact while running. I told them where I had pain and where the impact didn't feel quite right."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -583,7 +486,7 @@
       "text": "It turns out I suffer from  overpronation . My foot rolls inward as I run and it means the outer part of my foot hits the ground first. That caused a lot of pain."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -595,7 +498,7 @@
       "text": "They recommended shoes specifically meant to help with that condition. I picked up some  Mizuno Wave Inspire  shoes and they helped a ton! They usually go for $140-$170 and they lasted me 300-400 miles easily. My only complaints about them was that they are  quite heavy . They feel bulky on my feet."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -607,7 +510,7 @@
       "text": "A friend suggested the  Brooks Adrenaline GTS  and they're my current go-to running shoe. I'm on my second pair now and my first pair easily went past 450 miles before the tread was gone. They are also on the pricier end around $140, but they're incredibly durable, light, and supportive."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -619,7 +522,7 @@
       "text": "Technology"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -631,7 +534,7 @@
       "text": "The sky's the limit when it comes to running technology."
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -643,9 +546,9 @@
       "text": "I've had a  Garmin Fenix 5  since 2017 and it's one of the best-performing, most reliable pieces of technology I've ever bought. Why do I love it so much?"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/27",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -657,9 +560,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/28",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -671,9 +574,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/29",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -685,9 +588,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/30",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -699,9 +602,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/31",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -713,9 +616,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/32",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -727,7 +630,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -739,7 +642,7 @@
       "text": "Over time, there were more things I wanted to track, like ground contact time and balance between my left and right feet. I picked up a  Running Dynamics Pod  for that. It's a tiny device that attaches to your waistband and delivers tons of additional metrics automatically. It sends all of its data to your watch while you run."
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -751,7 +654,7 @@
       "text": "Music"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -763,7 +666,7 @@
       "text": "Music keeps me inspired while I run and I have a two part strategy for that."
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -775,9 +678,9 @@
       "text": "First come the earbuds. I've tried far too many earbuds and I've been disappointed with so many of them. I love the  Jaybird Vista 2  earbuds for a few reasons:"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/37",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -789,9 +692,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/38",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -803,9 +706,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/39",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -817,9 +720,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/40",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -831,7 +734,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -843,7 +746,7 @@
       "text": "Second, I needed a way to keep my phone attached to me where it wouldn't be flopping around all over the place. Putting a big phone in my shorts pocket ensured that it would bang against my leg for a few miles. The folks at Fleet Feet suggested the  FlipBelt ."
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -855,7 +758,7 @@
       "text": "It's a stretchy belt that has lots of slash pockets to hold keys, credit cards, and your phone. You fold it over once and it stays tightly attached to your waist or hips. Now I can run for many miles and I forget my phone is on my waist."
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -867,7 +770,7 @@
       "text": "Know your limits"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -879,7 +782,7 @@
       "text": "Wait, didn't I mention this before? I did, but it's worth mentioning once more."
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -891,7 +794,7 @@
       "text": "My usual distance for running is 5 km, or about 3.11 miles. A 5K is a very common race length in the USA and it usually takes me about a half hour to complete. However, when I first started, I was targeting a mile to a mile and a half."
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -903,7 +806,7 @@
       "text": "Work your way up to longer distances slowly."
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -915,7 +818,7 @@
       "text": "I traveled to Vancouver for the first time for a conference and I was mesmerized by the waterfront. After walking it for a while, I decided to run some of it. I went back to the hotel, changed, stretched, got dressed, and headed out."
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -927,7 +830,7 @@
       "text": "The view was incredible. I loved it. Once I reached about 2.5km, I thought \"Well, I could run back now and just complete a 5K. Perfect.\""
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -939,7 +842,7 @@
       "text": "However, the weather was so nice and the views so beautiful that I kept going. Once I reached 5km, I thought \"Okay, time to head back,\" but then I didn't."
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -951,7 +854,7 @@
       "text": "After running 10km down the waterfront, I was still feeling awesome but I knew it was time to turn back. I realized something was wrong a few minutes later. My right knee felt like I'd been shot."
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -963,7 +866,7 @@
       "text": "I slowly hobbled several kilometers to the hotel and put ice on my knee. The rest of the week was spent hobbling through the conference and suffering through the plane flights home in a cramped seat."
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -975,7 +878,7 @@
       "text": "What did I learn? Don't overdo it. Let your body tell you when to stop."
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -987,7 +890,7 @@
       "text": "Even if the view is amazing."
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },

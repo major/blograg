@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 11397578971566361344,
-    "filename": "index.md"
+    "binary_hash": 5516205495280694857,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,6 +21,9 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
         "$ref": "#/groups/0"
       },
       {
@@ -30,7 +33,13 @@
         "$ref": "#/texts/6"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
       },
       {
         "$ref": "#/texts/10"
@@ -84,31 +93,31 @@
         "$ref": "#/texts/26"
       },
       {
-        "$ref": "#/texts/27"
+        "$ref": "#/groups/1"
       },
       {
-        "$ref": "#/texts/28"
+        "$ref": "#/texts/41"
       },
       {
-        "$ref": "#/texts/29"
-      },
-      {
-        "$ref": "#/texts/30"
-      },
-      {
-        "$ref": "#/texts/31"
+        "$ref": "#/texts/42"
       },
       {
         "$ref": "#/groups/2"
       },
       {
-        "$ref": "#/texts/46"
+        "$ref": "#/texts/52"
       },
       {
-        "$ref": "#/texts/47"
+        "$ref": "#/texts/53"
       },
       {
-        "$ref": "#/groups/3"
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
       },
       {
         "$ref": "#/texts/57"
@@ -117,28 +126,28 @@
         "$ref": "#/texts/58"
       },
       {
-        "$ref": "#/texts/59"
+        "$ref": "#/groups/3"
       },
       {
-        "$ref": "#/texts/60"
-      },
-      {
-        "$ref": "#/texts/61"
-      },
-      {
-        "$ref": "#/texts/62"
-      },
-      {
-        "$ref": "#/texts/63"
+        "$ref": "#/texts/65"
       },
       {
         "$ref": "#/groups/4"
       },
       {
-        "$ref": "#/texts/70"
+        "$ref": "#/texts/71"
       },
       {
-        "$ref": "#/groups/5"
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/texts/74"
+      },
+      {
+        "$ref": "#/texts/75"
       },
       {
         "$ref": "#/texts/76"
@@ -147,28 +156,25 @@
         "$ref": "#/texts/77"
       },
       {
-        "$ref": "#/texts/78"
-      },
-      {
-        "$ref": "#/texts/79"
-      },
-      {
-        "$ref": "#/texts/80"
-      },
-      {
-        "$ref": "#/texts/81"
+        "$ref": "#/groups/5"
       },
       {
         "$ref": "#/texts/82"
       },
       {
+        "$ref": "#/texts/83"
+      },
+      {
+        "$ref": "#/texts/84"
+      },
+      {
+        "$ref": "#/texts/85"
+      },
+      {
+        "$ref": "#/texts/86"
+      },
+      {
         "$ref": "#/groups/6"
-      },
-      {
-        "$ref": "#/texts/87"
-      },
-      {
-        "$ref": "#/texts/88"
       },
       {
         "$ref": "#/texts/89"
@@ -180,28 +186,16 @@
         "$ref": "#/texts/91"
       },
       {
+        "$ref": "#/texts/92"
+      },
+      {
+        "$ref": "#/texts/93"
+      },
+      {
         "$ref": "#/groups/7"
       },
       {
-        "$ref": "#/texts/94"
-      },
-      {
-        "$ref": "#/texts/95"
-      },
-      {
-        "$ref": "#/texts/96"
-      },
-      {
-        "$ref": "#/texts/97"
-      },
-      {
         "$ref": "#/texts/98"
-      },
-      {
-        "$ref": "#/groups/8"
-      },
-      {
-        "$ref": "#/texts/103"
       }
     ],
     "content_layer": "body",
@@ -215,9 +209,6 @@
         "$ref": "#/body"
       },
       "children": [
-        {
-          "$ref": "#/texts/1"
-        },
         {
           "$ref": "#/texts/2"
         },
@@ -239,25 +230,20 @@
       },
       "children": [
         {
-          "$ref": "#/texts/7"
+          "$ref": "#/texts/27"
         },
         {
-          "$ref": "#/texts/8"
+          "$ref": "#/texts/28"
         },
         {
-          "$ref": "#/texts/9"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
         {
           "$ref": "#/texts/32"
         },
@@ -284,13 +270,18 @@
         },
         {
           "$ref": "#/texts/40"
-        },
-        {
-          "$ref": "#/texts/41"
-        },
-        {
-          "$ref": "#/texts/42"
-        },
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
         {
           "$ref": "#/texts/43"
         },
@@ -299,6 +290,24 @@
         },
         {
           "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
         }
       ],
       "content_layer": "body",
@@ -312,31 +321,22 @@
       },
       "children": [
         {
-          "$ref": "#/texts/48"
+          "$ref": "#/texts/59"
         },
         {
-          "$ref": "#/texts/49"
+          "$ref": "#/texts/60"
         },
         {
-          "$ref": "#/texts/50"
+          "$ref": "#/texts/61"
         },
         {
-          "$ref": "#/texts/51"
+          "$ref": "#/texts/62"
         },
         {
-          "$ref": "#/texts/52"
+          "$ref": "#/texts/63"
         },
         {
-          "$ref": "#/texts/53"
-        },
-        {
-          "$ref": "#/texts/54"
-        },
-        {
-          "$ref": "#/texts/55"
-        },
-        {
-          "$ref": "#/texts/56"
+          "$ref": "#/texts/64"
         }
       ],
       "content_layer": "body",
@@ -350,12 +350,6 @@
       },
       "children": [
         {
-          "$ref": "#/texts/64"
-        },
-        {
-          "$ref": "#/texts/65"
-        },
-        {
           "$ref": "#/texts/66"
         },
         {
@@ -366,6 +360,9 @@
         },
         {
           "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/70"
         }
       ],
       "content_layer": "body",
@@ -379,19 +376,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/71"
+          "$ref": "#/texts/78"
         },
         {
-          "$ref": "#/texts/72"
+          "$ref": "#/texts/79"
         },
         {
-          "$ref": "#/texts/73"
+          "$ref": "#/texts/80"
         },
         {
-          "$ref": "#/texts/74"
-        },
-        {
-          "$ref": "#/texts/75"
+          "$ref": "#/texts/81"
         }
       ],
       "content_layer": "body",
@@ -405,16 +399,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/83"
+          "$ref": "#/texts/87"
         },
         {
-          "$ref": "#/texts/84"
-        },
-        {
-          "$ref": "#/texts/85"
-        },
-        {
-          "$ref": "#/texts/86"
+          "$ref": "#/texts/88"
         }
       ],
       "content_layer": "body",
@@ -428,33 +416,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/92"
+          "$ref": "#/texts/94"
         },
         {
-          "$ref": "#/texts/93"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/8",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/99"
+          "$ref": "#/texts/95"
         },
         {
-          "$ref": "#/texts/100"
+          "$ref": "#/texts/96"
         },
         {
-          "$ref": "#/texts/101"
-        },
-        {
-          "$ref": "#/texts/102"
+          "$ref": "#/texts/97"
         }
       ],
       "content_layer": "body",
@@ -472,22 +443,20 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "I've talked about some of my experiences with altering my diet on Twitter and many people have asked about my experiences with keto so far. Note that I don't call it \"the keto diet\" because it's much more than a diet: it's a lifestyle  change. Sure, you alter what you eat, but you begin to think differently about how you fuel your body.",
+      "text": "I've talked about some of my experiences with altering my diet on Twitter and many people have asked about my experiences with keto so far. Note that I don't call it \"the keto diet\" because it's much more than a diet: it's a lifestyle  change. Sure, you alter what you eat, but you begin to think differently about how you fuel your body."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "/2020/06/11/my-experience-with-keto-so-far/",
-      "text": "/2020/06/11/my-experience-with-keto-so-far/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "Before we start, I'd like to note that:",
+      "text": "Before we start, I'd like to note that:"
     },
     {
       "self_ref": "#/texts/2",
@@ -498,8 +467,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "health",
-      "text": "health",
+      "orig": "[<RawText children='I am definitely not a medical professional or a dietician.'>]",
+      "text": "[<RawText children='I am definitely not a medical professional or a dietician.'>]",
       "enumerated": false,
       "marker": "-"
     },
@@ -512,8 +481,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "lifestyle",
-      "text": "lifestyle",
+      "orig": "[<RawText children='Everyone reacts differently to lifestyle changes.'>]",
+      "text": "[<RawText children='Everyone reacts differently to lifestyle changes.'>]",
       "enumerated": false,
       "marker": "-"
     },
@@ -526,79 +495,13 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "keto",
-      "text": "keto",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "I've talked about some of my experiences with altering my diet on Twitter and many people have asked about my experiences with keto so far. Note that I don't call it \"the keto diet\" because it's much more than a diet: it's a lifestyle  change. Sure, you alter what you eat, but you begin to think differently about how you fuel your body.",
-      "text": "I've talked about some of my experiences with altering my diet on Twitter and many people have asked about my experiences with keto so far. Note that I don't call it \"the keto diet\" because it's much more than a diet: it's a lifestyle  change. Sure, you alter what you eat, but you begin to think differently about how you fuel your body."
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Before we start, I'd like to note that:",
-      "text": "Before we start, I'd like to note that:"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "[<RawText children='I am definitely not a medical professional or a dietician.'>]",
-      "text": "[<RawText children='I am definitely not a medical professional or a dietician.'>]",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "[<RawText children='Everyone reacts differently to lifestyle changes.'>]",
-      "text": "[<RawText children='Everyone reacts differently to lifestyle changes.'>]",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "[<RawText children='I have nothing to sell you.'>]",
       "text": "[<RawText children='I have nothing to sell you.'>]",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -611,7 +514,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -623,7 +526,7 @@
       "text": "When you adopt a keto lifestyle, you change what fuel is used primarily in your body. It's a high fat, moderate protein, low carbohydrate approach."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -635,7 +538,7 @@
       "text": "Low carbohydrate diets are not new. They were studied heavily in the early 1900's as a  potential remedy for epilepsy . Doctors noticed that patients who fasted had fewer problems, but the patients couldn't maintain fasting for extended periods. Once they put the patients on a high fat diet and the body went into ketosis (where it burns fat for fuel), the patients had fewer problems."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -647,7 +550,7 @@
       "text": "These diets are still used today for children and adults with seizure disorders and other brain-related conditions. To learn more about these patients and how fat works in your body, read Dr. Mark Hyman's  Eat Fat Get Thin . He provides tons of easy to understand reasons why a high fat diet is better and he provides links to hundreds of studies and publications about it."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -660,7 +563,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -672,7 +575,7 @@
       "text": "Hold on for a moment."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -684,7 +587,7 @@
       "text": "As a friend explained to me, doing keto the right way is like getting the right octane gasoline from a reputable gas station. It burns clean and make your car run well. You can choose a different octane or choose a shady gas station and your car will still run, but it might make noise, run slower, or send you to the mechanic more often."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -696,7 +599,7 @@
       "text": "People often talk about \"dirty\" and \"clean\" keto. If you focus purely on your carbohydrate target and use any foods you want to fill up your calories from fat, you will end up in ketosis. However, some of these foods will slow your weight loss progress (if that's your goal) and they may rob some of the additional keto health benefits from you."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -709,7 +612,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -721,7 +624,7 @@
       "text": "There are two big benefits here: weight loss and health benefits."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -733,7 +636,7 @@
       "text": "First, let's talk about weight loss. You can check Reddit's r/keto  for some amazing weight loss stories. People have loss hundreds of pounds and kept it off!"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -745,7 +648,7 @@
       "text": "I started around 195 lbs (88.5 kg) and I am 6'1\" (1.85 m) tall. After starting keto, my weight  increased  (as did my blood pressure). I was frustrated as the food change was difficult and I felt like I was doing a lot of work for nothing. Online forums reassured me that this was part of the process and that I should keep pushing."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -757,7 +660,7 @@
       "text": "So I kept pushing and stayed with it. Around the 3-4 week mark, the weight slowly began to come down. Within two months, I was down to 180 (81.6 kg). Within three months, I was at 174 (78.9 kg) and realized I didn't want to be that thin! After increasing my fat intake a bit more, I'm able to hover around 180 lbs and that's very comfortable for me."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -769,7 +672,7 @@
       "text": "Even at 180 lbs, I looked different. Some of the troublesome fat that I dealt with (love handles!) shrank some. I moved from a 36 in most pants down to a 34 (and a 32 in some)."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -781,7 +684,7 @@
       "text": "The best part about all of this is that my body stays between 178-182 lbs reliably without needing to take any drastic action. It is easy to maintain."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -794,7 +697,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -806,7 +709,7 @@
       "text": "I've had mild high blood pressure for a few years and I was taking medication (lisinopril) to reduce it. The medicine worked fairly well and and kept me in a better range. However, I had spells where I would stand from sitting and I felt like I was going to pass out. I felt tired more often and felt lightheaded after working out."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -818,7 +721,7 @@
       "text": "I've also had asthma for years and I've taken various medications (montelukast, albeuterol, olopatadine, flonase) to deal with that and my seasonal allergies. My asthma has put me in the ER more than once."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -830,7 +733,7 @@
       "text": "After about four months of keto, my lightheaded spells got worse and my doctor told me to stop taking blood pressure medication. I watched my blood pressure closely and found that I no longer needed medication for it!  (That was one medication I was really glad to throw away.)"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -842,7 +745,7 @@
       "text": "I'm about 8 months in now and I was able to stop taking all allergy and asthma medications about a month ago. This really makes me think that something was in my diet that was causing me harm."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -855,7 +758,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -867,9 +770,9 @@
       "text": "Looking at keto as a \"What do I stop eating?\" question will make it much more difficult to maintain. Here are some of the things I eat regularly:"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/27",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -881,9 +784,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/28",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -895,9 +798,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/29",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -909,9 +812,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/30",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -923,9 +826,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/31",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -937,9 +840,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/32",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -951,9 +854,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/33",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -965,9 +868,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/34",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -979,9 +882,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/35",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -993,9 +896,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/36",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -1007,9 +910,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/37",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -1021,6 +924,72 @@
       "marker": "-"
     },
     {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Nuts (walnuts, pecans, almonds, limited peanuts)",
+      "text": "Nuts (walnuts, pecans, almonds, limited peanuts)",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Olive oil",
+      "text": "Olive oil",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Vegetables (lettuce, zucchini, eggplant, celery, many more)",
+      "text": "Vegetables (lettuce, zucchini, eggplant, celery, many more)",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This is just a small subset of what I like to eat. If you want a comprehensive keto grocery shopping list, the experts at  Diet Doctor  have you covered.",
+      "text": "This is just a small subset of what I like to eat. If you want a comprehensive keto grocery shopping list, the experts at  Diet Doctor  have you covered."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "But yes, there are some things that I avoid as much as possible:",
+      "text": "But yes, there are some things that I avoid as much as possible:"
+    },
+    {
       "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/groups/2"
@@ -1029,8 +998,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Nuts (walnuts, pecans, almonds, limited peanuts)",
-      "text": "Nuts (walnuts, pecans, almonds, limited peanuts)",
+      "orig": "Anything that says \"diet\" on the package",
+      "text": "Anything that says \"diet\" on the package",
       "enumerated": false,
       "marker": "-"
     },
@@ -1043,8 +1012,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Olive oil",
-      "text": "Olive oil",
+      "orig": "Beer \ud83d\ude2d",
+      "text": "Beer \ud83d\ude2d",
       "enumerated": false,
       "marker": "-"
     },
@@ -1057,81 +1026,15 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Vegetables (lettuce, zucchini, eggplant, celery, many more)",
-      "text": "Vegetables (lettuce, zucchini, eggplant, celery, many more)",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/46",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "This is just a small subset of what I like to eat. If you want a comprehensive keto grocery shopping list, the experts at  Diet Doctor  have you covered.",
-      "text": "This is just a small subset of what I like to eat. If you want a comprehensive keto grocery shopping list, the experts at  Diet Doctor  have you covered."
-    },
-    {
-      "self_ref": "#/texts/47",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "But yes, there are some things that I avoid as much as possible:",
-      "text": "But yes, there are some things that I avoid as much as possible:"
-    },
-    {
-      "self_ref": "#/texts/48",
-      "parent": {
-        "$ref": "#/groups/3"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Anything that says \"diet\" on the package",
-      "text": "Anything that says \"diet\" on the package",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/49",
-      "parent": {
-        "$ref": "#/groups/3"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Beer \ud83d\ude2d",
-      "text": "Beer \ud83d\ude2d",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/50",
-      "parent": {
-        "$ref": "#/groups/3"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "Chips and crackers",
       "text": "Chips and crackers",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/46",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1143,9 +1046,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/47",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1157,9 +1060,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/48",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1171,9 +1074,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/49",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1185,9 +1088,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/50",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1199,9 +1102,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/51",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1213,7 +1116,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1225,7 +1128,7 @@
       "text": "To succeed at keto, you need to keep your body in sustained ketosis. Anything that spikes your blood sugar (sometimes called  high glycemic load ) must go."
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1237,7 +1140,7 @@
       "text": "Don't fear: some alcohol is okay! Avoid beer, sugary mixed drinks, and white whines. Red wines from Europe and South America are great, and you can have low sugar liquor like gin, bourbon, whiskey, scotch, tequila, and vodka. Too much alcohol will stunt your progress towards weight loss and other health benefits."
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1249,7 +1152,7 @@
       "text": "\ud83d\udca3  PLEASE NOTE: Hangovers are significantly worse and longer lasting on keto.  Studies are underway to figure out why this is the case, but Dr. Hyman speculates in his book that it's related to how the liver operates in a lower-carb setting."
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1262,7 +1165,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1274,7 +1177,7 @@
       "text": "And you're right. Getting into ketosis is not fun at all."
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1286,7 +1189,7 @@
       "text": "Many people talk about the \"keto flu\", which is a period that lasts anywhere from a few days to a week where you feel pretty terrible. Your energy level will drop, exercising will be difficult, and you will be irritable. This is the period where your body has exhausted its supply of easily accessible glucose and it's changing gears to burn fat."
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1298,9 +1201,9 @@
       "text": "I've gone through it three times (more on that later), and it's not fun. Here's a list of what I went through:"
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/59",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -1312,9 +1215,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/60",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -1326,6 +1229,74 @@
       "marker": "-"
     },
     {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "irritability",
+      "text": "irritability",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "lack of focus",
+      "text": "lack of focus",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "muscle cramps",
+      "text": "muscle cramps",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "temporary weight gain",
+      "text": "temporary weight gain",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "To make this as easy as possible (and short in duration), do these things:",
+      "text": "To make this as easy as possible (and short in duration), do these things:"
+    },
+    {
       "self_ref": "#/texts/66",
       "parent": {
         "$ref": "#/groups/4"
@@ -1334,8 +1305,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "irritability",
-      "text": "irritability",
+      "orig": "eat consistently (do not fast)",
+      "text": "eat consistently (do not fast)",
       "enumerated": false,
       "marker": "-"
     },
@@ -1348,8 +1319,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "lack of focus",
-      "text": "lack of focus",
+      "orig": "exercise consistently, but make it lighter than usual",
+      "text": "exercise consistently, but make it lighter than usual",
       "enumerated": false,
       "marker": "-"
     },
@@ -1362,8 +1333,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "muscle cramps",
-      "text": "muscle cramps",
+      "orig": "get electrolytes daily (low carb, of course)",
+      "text": "get electrolytes daily (low carb, of course)",
       "enumerated": false,
       "marker": "-"
     },
@@ -1376,83 +1347,15 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "temporary weight gain",
-      "text": "temporary weight gain",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/70",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "To make this as easy as possible (and short in duration), do these things:",
-      "text": "To make this as easy as possible (and short in duration), do these things:"
-    },
-    {
-      "self_ref": "#/texts/71",
-      "parent": {
-        "$ref": "#/groups/5"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "eat consistently (do not fast)",
-      "text": "eat consistently (do not fast)",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/72",
-      "parent": {
-        "$ref": "#/groups/5"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "exercise consistently, but make it lighter than usual",
-      "text": "exercise consistently, but make it lighter than usual",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/73",
-      "parent": {
-        "$ref": "#/groups/5"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "get electrolytes daily (low carb, of course)",
-      "text": "get electrolytes daily (low carb, of course)",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/74",
-      "parent": {
-        "$ref": "#/groups/5"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "keep fat intake high (you need to encourage your body to burn it)",
       "text": "keep fat intake high (you need to encourage your body to burn it)",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/70",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1464,7 +1367,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/71",
       "parent": {
         "$ref": "#/body"
       },
@@ -1476,7 +1379,7 @@
       "text": "The fog will slowly begin to lift and you will feel great when you reach the other side."
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },
@@ -1489,7 +1392,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/73",
       "parent": {
         "$ref": "#/body"
       },
@@ -1501,7 +1404,7 @@
       "text": "This happens to all of us. I was two months in on keto when Thanksgiving arrived. That's a big holiday in the US where we generally eat a lot, and a lot of what we eat is carbs. Some potatoes, pumpkin pie, and beer tempted me and I woke up the next morning feeling awful. My stomach cramped and I felt nauseated."
     },
     {
-      "self_ref": "#/texts/79",
+      "self_ref": "#/texts/74",
       "parent": {
         "$ref": "#/body"
       },
@@ -1513,7 +1416,7 @@
       "text": "Many people suggested getting right back into keto with high fat foods and exercise. I persevered with that and felt better by the end of the day."
     },
     {
-      "self_ref": "#/texts/80",
+      "self_ref": "#/texts/75",
       "parent": {
         "$ref": "#/body"
       },
@@ -1525,7 +1428,7 @@
       "text": "If you do make a bad choice and spike your blood sugar, your body will crave more sugar and put you into a keto-busting spiral. Your digestive system biome that changed to work with a high-fat diet will get confused with a sudden influx of carbs and it will cramp. However, if you get back on track quickly, those problems will subside."
     },
     {
-      "self_ref": "#/texts/81",
+      "self_ref": "#/texts/76",
       "parent": {
         "$ref": "#/body"
       },
@@ -1538,7 +1441,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/82",
+      "self_ref": "#/texts/77",
       "parent": {
         "$ref": "#/body"
       },
@@ -1550,9 +1453,9 @@
       "text": "I've heard things like these a hundred times:"
     },
     {
-      "self_ref": "#/texts/83",
+      "self_ref": "#/texts/78",
       "parent": {
-        "$ref": "#/groups/6"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
@@ -1564,9 +1467,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/84",
+      "self_ref": "#/texts/79",
       "parent": {
-        "$ref": "#/groups/6"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
@@ -1578,9 +1481,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/85",
+      "self_ref": "#/texts/80",
       "parent": {
-        "$ref": "#/groups/6"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
@@ -1592,9 +1495,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/86",
+      "self_ref": "#/texts/81",
       "parent": {
-        "$ref": "#/groups/6"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
@@ -1606,7 +1509,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/87",
+      "self_ref": "#/texts/82",
       "parent": {
         "$ref": "#/body"
       },
@@ -1618,7 +1521,7 @@
       "text": "Remember that this is a choice  you make  for  your body.  Don't ever say \"I can't eat that\" because your brain will see your lifestyle change as limitation. I usually say \"Thank you, but I don't eat that\" or \"I love what you made, but that's not something I eat.\""
     },
     {
-      "self_ref": "#/texts/88",
+      "self_ref": "#/texts/83",
       "parent": {
         "$ref": "#/body"
       },
@@ -1631,7 +1534,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/89",
+      "self_ref": "#/texts/84",
       "parent": {
         "$ref": "#/body"
       },
@@ -1643,7 +1546,7 @@
       "text": "This is probably the toughest part. What do you do if you get asked to go to dinner or if you're on the road and you need to get food? You don't really notice how much of the American diet is made from carbohydrates until you start avoiding them.  They are everywhere."
     },
     {
-      "self_ref": "#/texts/90",
+      "self_ref": "#/texts/85",
       "parent": {
         "$ref": "#/body"
       },
@@ -1655,7 +1558,7 @@
       "text": "Vegetarians and vegans have a similar problem here. Try to look at the menu ahead of time and figure out the things that you can eat."
     },
     {
-      "self_ref": "#/texts/91",
+      "self_ref": "#/texts/86",
       "parent": {
         "$ref": "#/body"
       },
@@ -1667,9 +1570,9 @@
       "text": "There are two approaches here:"
     },
     {
-      "self_ref": "#/texts/92",
+      "self_ref": "#/texts/87",
       "parent": {
-        "$ref": "#/groups/7"
+        "$ref": "#/groups/6"
       },
       "children": [],
       "content_layer": "body",
@@ -1681,9 +1584,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/93",
+      "self_ref": "#/texts/88",
       "parent": {
-        "$ref": "#/groups/7"
+        "$ref": "#/groups/6"
       },
       "children": [],
       "content_layer": "body",
@@ -1695,7 +1598,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/94",
+      "self_ref": "#/texts/89",
       "parent": {
         "$ref": "#/body"
       },
@@ -1707,7 +1610,7 @@
       "text": "I've had lots of luck by asking for different vegetables to replace potatoes as a side dish. There are some of those times where I can't substitute and I end up leaving food behind. I feel bad about wasting food, but I'll choose that option if it's the only one I have."
     },
     {
-      "self_ref": "#/texts/95",
+      "self_ref": "#/texts/90",
       "parent": {
         "$ref": "#/body"
       },
@@ -1719,7 +1622,7 @@
       "text": "When everyone starts to order dessert, get yourself a low carb treat! Sometimes I'll ask for a cup of coffee or some scotch as a dessert. Everyone does dessert differently"
     },
     {
-      "self_ref": "#/texts/96",
+      "self_ref": "#/texts/91",
       "parent": {
         "$ref": "#/body"
       },
@@ -1732,7 +1635,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/97",
+      "self_ref": "#/texts/92",
       "parent": {
         "$ref": "#/body"
       },
@@ -1744,7 +1647,7 @@
       "text": "Great! There is only so much content I can put into this post. Send me a message  on Twitter  or email me at major at mhtx dot net."
     },
     {
-      "self_ref": "#/texts/98",
+      "self_ref": "#/texts/93",
       "parent": {
         "$ref": "#/body"
       },
@@ -1756,9 +1659,9 @@
       "text": "Here are some great resources that I use:"
     },
     {
-      "self_ref": "#/texts/99",
+      "self_ref": "#/texts/94",
       "parent": {
-        "$ref": "#/groups/8"
+        "$ref": "#/groups/7"
       },
       "children": [],
       "content_layer": "body",
@@ -1770,9 +1673,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/100",
+      "self_ref": "#/texts/95",
       "parent": {
-        "$ref": "#/groups/8"
+        "$ref": "#/groups/7"
       },
       "children": [],
       "content_layer": "body",
@@ -1784,9 +1687,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/101",
+      "self_ref": "#/texts/96",
       "parent": {
-        "$ref": "#/groups/8"
+        "$ref": "#/groups/7"
       },
       "children": [],
       "content_layer": "body",
@@ -1798,9 +1701,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/102",
+      "self_ref": "#/texts/97",
       "parent": {
-        "$ref": "#/groups/8"
+        "$ref": "#/groups/7"
       },
       "children": [],
       "content_layer": "body",
@@ -1812,7 +1715,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/103",
+      "self_ref": "#/texts/98",
       "parent": {
         "$ref": "#/body"
       },

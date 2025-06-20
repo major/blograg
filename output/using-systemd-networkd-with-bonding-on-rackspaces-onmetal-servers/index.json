@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 3610322345230203959,
-    "filename": "index.md"
+    "binary_hash": 25074502352151707,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -18,13 +18,49 @@
     "self_ref": "#/body",
     "children": [
       {
+        "$ref": "#/pictures/0"
+      },
+      {
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
       },
       {
-        "$ref": "#/pictures/0"
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
       },
       {
         "$ref": "#/texts/14"
@@ -36,10 +72,7 @@
         "$ref": "#/texts/16"
       },
       {
-        "$ref": "#/texts/17"
-      },
-      {
-        "$ref": "#/texts/18"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/19"
@@ -78,7 +111,10 @@
         "$ref": "#/texts/30"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
       },
       {
         "$ref": "#/texts/33"
@@ -246,10 +282,7 @@
         "$ref": "#/texts/87"
       },
       {
-        "$ref": "#/texts/88"
-      },
-      {
-        "$ref": "#/texts/89"
+        "$ref": "#/groups/1"
       },
       {
         "$ref": "#/texts/90"
@@ -288,46 +321,7 @@
         "$ref": "#/texts/101"
       },
       {
-        "$ref": "#/groups/2"
-      },
-      {
-        "$ref": "#/texts/104"
-      },
-      {
-        "$ref": "#/texts/105"
-      },
-      {
-        "$ref": "#/texts/106"
-      },
-      {
-        "$ref": "#/texts/107"
-      },
-      {
-        "$ref": "#/texts/108"
-      },
-      {
-        "$ref": "#/texts/109"
-      },
-      {
-        "$ref": "#/texts/110"
-      },
-      {
-        "$ref": "#/texts/111"
-      },
-      {
-        "$ref": "#/texts/112"
-      },
-      {
-        "$ref": "#/texts/113"
-      },
-      {
-        "$ref": "#/texts/114"
-      },
-      {
-        "$ref": "#/texts/115"
-      },
-      {
-        "$ref": "#/texts/116"
+        "$ref": "#/texts/102"
       }
     ],
     "content_layer": "body",
@@ -342,43 +336,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/17"
         },
         {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        },
-        {
-          "$ref": "#/texts/8"
-        },
-        {
-          "$ref": "#/texts/9"
-        },
-        {
-          "$ref": "#/texts/10"
-        },
-        {
-          "$ref": "#/texts/11"
-        },
-        {
-          "$ref": "#/texts/12"
-        },
-        {
-          "$ref": "#/texts/13"
+          "$ref": "#/texts/18"
         }
       ],
       "content_layer": "body",
@@ -392,27 +353,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/31"
+          "$ref": "#/texts/88"
         },
         {
-          "$ref": "#/texts/32"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/102"
-        },
-        {
-          "$ref": "#/texts/103"
+          "$ref": "#/texts/89"
         }
       ],
       "content_layer": "body",
@@ -430,205 +374,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2015/08/21/using-systemd-networkd-with-bonding-on-rackspaces-onmetal-servers/",
-      "text": "/2015/08/21/using-systemd-networkd-with-bonding-on-rackspaces-onmetal-servers/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "bonding",
-      "text": "bonding",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "command line",
-      "text": "command line",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "grub2",
-      "text": "grub2",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "json",
-      "text": "json",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "networking",
-      "text": "networking",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "onmetal",
-      "text": "onmetal",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "python",
-      "text": "python",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "rackspace",
-      "text": "rackspace",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "systemd",
-      "text": "systemd",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "systemd-networkd",
-      "text": "systemd-networkd",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/13",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "udev",
-      "text": "udev",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/14",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "1",
       "text": "1"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -640,7 +390,7 @@
       "text": "I've written about  systemd-networkd  in the past and how easy it can be to set up new network devices and tunnels. However, the documentation on systemd-networkd with bonding is a bit lacking (but I have a  pull request pending  for that)."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -652,7 +402,7 @@
       "text": "Rackspace's OnMetal Servers  are a good place to test since they have bonded networks configured by default. They're also quite fast and always fun for experiments."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -664,7 +414,7 @@
       "text": "To get started, head on over to the  Rackspace Cloud control panel  and build a  compute-1  OnMetal server and choose Fedora 22 as your operating system. Once it starts pinging and you're able to log in, start following the guide below."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -677,7 +427,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -689,7 +439,7 @@
       "text": "By default, most images come with  systemd's predictable network naming  disabled. You can see the kernel command line adjustments here:"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -705,7 +455,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -717,7 +467,7 @@
       "text": "This ensures that both network devices show up as  eth0  and  eth1 . Although it isn't my favorite way to configure a server, it does make it easier for most customers to get up an running quickly with some device names that they are familiar with from virtualized products."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -729,7 +479,7 @@
       "text": "We need to figure out what systemd plans to call these interfaces when we allow udev to name them predictably. The easiest method for figuring out what udev wants to call these devices is to dump the udev database and use "
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -745,7 +495,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -757,7 +507,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -773,7 +523,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -785,7 +535,7 @@
       "text": "Look for those lines that contain "
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -801,7 +551,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -813,7 +563,7 @@
       "text": ". Those tell us what udev prefers to call these network devices. The last name you see in the list is what the interface will be called. Here's what you need to look for in that output:"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -829,7 +579,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -841,9 +591,9 @@
       "text": "We can see that this device is in slot 0 of PCI bus 8. However, since udev is able to dig in a bit further, it decides to name the device  ens9f0 , which means:"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/17",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -855,9 +605,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/18",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -869,7 +619,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -881,7 +631,7 @@
       "text": "Udev rolls through a list of possible network names and uses the very last one as the name of the network device. Gentoo's documentation has a  nice explanation . In our case, "
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -897,7 +647,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -909,7 +659,7 @@
       "text": " took precedence over the others since this particular device sits in a hotplug PCI-Express slot."
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -921,7 +671,7 @@
       "text": "We can find the slot number here:"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -937,7 +687,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -949,7 +699,7 @@
       "text": "Although this is a bit confusing, it can be helpful in servers when parts are added, removed, or replaced. You'll always be assured that the same device in the same slot will never be renamed."
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -961,7 +711,7 @@
       "text": "Our first ethernet device is called  ens9f0 , but what is the second device called?"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -977,7 +727,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -989,7 +739,7 @@
       "text": "Now we know our ethernet devices are called  ens9f0  and  ens9f1 . It's time to configure systemd-networkd."
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -1002,7 +752,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -1014,7 +764,7 @@
       "text": "Ensure that you have a "
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -1030,7 +780,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -1042,7 +792,7 @@
       "text": " directory on your server and create the network device file:"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -1058,7 +808,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -1070,7 +820,7 @@
       "text": "We're telling systemd-networkd that we want a new bond interface called  bond1  configured using 802.3ad mode. (Want to geek out on 802.3ad? Check out  IEEE's PDF .) In addition, we specify a transmit hash policy, a monitoring frequency, and a requested rate for LACP updates."
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -1082,7 +832,7 @@
       "text": "Now that we have a device defined, we need to provide some network configuration:"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -1098,7 +848,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -1110,7 +860,7 @@
       "text": "This tells systemd-networkd that we have an interface called  bond1  and it has two VLANs configured on it (more on that later). Also, we specify the interfaces participating in the bond. This ensures that the bond comes up and down cleanly as interfaces change state."
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -1122,7 +872,7 @@
       "text": "As one last step, we need to configure the physical interfaces themselves:"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -1138,7 +888,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -1154,7 +904,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -1166,7 +916,7 @@
       "text": "These files help systemd-networkd understand which interfaces are participating in the bond. You can get fancy here with your "
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -1182,7 +932,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -1194,7 +944,7 @@
       "text": " sections and use only one interface file with "
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -1210,7 +960,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -1222,7 +972,7 @@
       "text": ", but I prefer to be more explicit. Check the documentation for systemd-networkd for that."
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -1235,7 +985,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1247,7 +997,7 @@
       "text": "The public network for your OnMetal server is delivered via a VLAN. Packets are tagged as VLAN 101 and you need to configure your network interface to handle that traffic. We already told systemd-networkd about our VLANs within the  bond1.network  file, but now we need to explain the configuration for the public network VLAN."
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1259,7 +1009,7 @@
       "text": "Start by creating a network device file:"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1275,7 +1025,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1287,7 +1037,7 @@
       "text": "You can get the correct MAC address from the information in your server's config drive:"
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1303,7 +1053,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1315,7 +1065,7 @@
       "text": "Look inside the "
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1331,7 +1081,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1343,7 +1093,7 @@
       "text": " section for "
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1359,7 +1109,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1371,7 +1121,7 @@
       "text": ". It will look something like this:"
     },
     {
-      "self_ref": "#/texts/70",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1387,7 +1137,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/71",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1399,7 +1149,7 @@
       "text": "Take what you see in  ethernet mac address  and use that MAC address on the "
     },
     {
-      "self_ref": "#/texts/72",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1415,7 +1165,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/73",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1427,7 +1177,7 @@
       "text": " line in your  public.netdev  file above.  If you skip this part, your packets won't make it onto the network.  For security reasons, the switch strictly checks to ensure that the right VLAN/IP/MAC combination is use when you communicate on the network."
     },
     {
-      "self_ref": "#/texts/74",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1439,7 +1189,7 @@
       "text": "Now that we have a network device, let's actually configure the network on it:"
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1455,7 +1205,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/62",
       "parent": {
         "$ref": "#/body"
       },
@@ -1467,7 +1217,7 @@
       "text": "To get your IP address and gateway, you can use "
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/63",
       "parent": {
         "$ref": "#/body"
       },
@@ -1483,7 +1233,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/64",
       "parent": {
         "$ref": "#/body"
       },
@@ -1495,7 +1245,7 @@
       "text": " and "
     },
     {
-      "self_ref": "#/texts/79",
+      "self_ref": "#/texts/65",
       "parent": {
         "$ref": "#/body"
       },
@@ -1511,7 +1261,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/80",
+      "self_ref": "#/texts/66",
       "parent": {
         "$ref": "#/body"
       },
@@ -1523,7 +1273,7 @@
       "text": ". Or, you can look in your config drive within the  networks  section for the same data. Ensure that your IP address and gateway are configured correctly. I've used Google's default DNS servers here but you can use your own if you prefer."
     },
     {
-      "self_ref": "#/texts/81",
+      "self_ref": "#/texts/67",
       "parent": {
         "$ref": "#/body"
       },
@@ -1536,7 +1286,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/82",
+      "self_ref": "#/texts/68",
       "parent": {
         "$ref": "#/body"
       },
@@ -1548,7 +1298,7 @@
       "text": "Rackspace's ServiceNet is the backend network that connects you to other servers as well as other Rackspace products, like Cloud Databases and Cloud Files. We will configure this network in the same fashion, starting with the network device file:"
     },
     {
-      "self_ref": "#/texts/83",
+      "self_ref": "#/texts/69",
       "parent": {
         "$ref": "#/body"
       },
@@ -1564,7 +1314,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/84",
+      "self_ref": "#/texts/70",
       "parent": {
         "$ref": "#/body"
       },
@@ -1576,7 +1326,7 @@
       "text": "As we did before, go look in your config drive for the right MAC address to use. You'll look in the  network_info  section again but this time you'll look for  vlan1"
     },
     {
-      "self_ref": "#/texts/85",
+      "self_ref": "#/texts/71",
       "parent": {
         "$ref": "#/body"
       },
@@ -1588,7 +1338,7 @@
       "text": "Now we're ready to create the network file:"
     },
     {
-      "self_ref": "#/texts/86",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },
@@ -1604,7 +1354,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/87",
+      "self_ref": "#/texts/73",
       "parent": {
         "$ref": "#/body"
       },
@@ -1616,7 +1366,7 @@
       "text": "Review your config drive json for the correct IP address and routes. Your routes will likely be the same as mine, but that can change over time."
     },
     {
-      "self_ref": "#/texts/88",
+      "self_ref": "#/texts/74",
       "parent": {
         "$ref": "#/body"
       },
@@ -1629,7 +1379,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/89",
+      "self_ref": "#/texts/75",
       "parent": {
         "$ref": "#/body"
       },
@@ -1641,7 +1391,7 @@
       "text": "All of our configuration files are in place, but now we need to enable systemd-networkd at boot time:"
     },
     {
-      "self_ref": "#/texts/90",
+      "self_ref": "#/texts/76",
       "parent": {
         "$ref": "#/body"
       },
@@ -1657,7 +1407,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/91",
+      "self_ref": "#/texts/77",
       "parent": {
         "$ref": "#/body"
       },
@@ -1669,7 +1419,7 @@
       "text": "We also need to let systemd-resolved handle our DNS resolution:"
     },
     {
-      "self_ref": "#/texts/92",
+      "self_ref": "#/texts/78",
       "parent": {
         "$ref": "#/body"
       },
@@ -1685,7 +1435,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/93",
+      "self_ref": "#/texts/79",
       "parent": {
         "$ref": "#/body"
       },
@@ -1697,7 +1447,7 @@
       "text": "Finally, there's one last gotcha that is only on OnMetal that needs to be removed. Comment out the second and third line in "
     },
     {
-      "self_ref": "#/texts/94",
+      "self_ref": "#/texts/80",
       "parent": {
         "$ref": "#/body"
       },
@@ -1713,7 +1463,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/95",
+      "self_ref": "#/texts/81",
       "parent": {
         "$ref": "#/body"
       },
@@ -1725,7 +1475,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/96",
+      "self_ref": "#/texts/82",
       "parent": {
         "$ref": "#/body"
       },
@@ -1741,7 +1491,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/97",
+      "self_ref": "#/texts/83",
       "parent": {
         "$ref": "#/body"
       },
@@ -1753,7 +1503,7 @@
       "text": "That's there as a workaround for some network issues that sometimes appear during first boot. We won't need it with systemd-networkd."
     },
     {
-      "self_ref": "#/texts/98",
+      "self_ref": "#/texts/84",
       "parent": {
         "$ref": "#/body"
       },
@@ -1766,7 +1516,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/99",
+      "self_ref": "#/texts/85",
       "parent": {
         "$ref": "#/body"
       },
@@ -1778,7 +1528,7 @@
       "text": "We're ready to test our new configuration! First, let's disable the forced old interface names on the kernel command line. Open "
     },
     {
-      "self_ref": "#/texts/100",
+      "self_ref": "#/texts/86",
       "parent": {
         "$ref": "#/body"
       },
@@ -1794,7 +1544,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/101",
+      "self_ref": "#/texts/87",
       "parent": {
         "$ref": "#/body"
       },
@@ -1806,9 +1556,9 @@
       "text": " and ensure that the following two items are not in the kernel command line:"
     },
     {
-      "self_ref": "#/texts/102",
+      "self_ref": "#/texts/88",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -1820,9 +1570,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/103",
+      "self_ref": "#/texts/89",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -1834,7 +1584,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/104",
+      "self_ref": "#/texts/90",
       "parent": {
         "$ref": "#/body"
       },
@@ -1846,7 +1596,7 @@
       "text": "Remove them from any kernel command lines you see and save the file. Reboot and cross your fingers."
     },
     {
-      "self_ref": "#/texts/105",
+      "self_ref": "#/texts/91",
       "parent": {
         "$ref": "#/body"
       },
@@ -1859,7 +1609,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/106",
+      "self_ref": "#/texts/92",
       "parent": {
         "$ref": "#/body"
       },
@@ -1871,7 +1621,7 @@
       "text": "If you get pings after a reboot, you did well! If you didn't. you can use OnMetal's rescue mode to hop into a temporary OS and mount your root volume. Be sure to look inside "
     },
     {
-      "self_ref": "#/texts/107",
+      "self_ref": "#/texts/93",
       "parent": {
         "$ref": "#/body"
       },
@@ -1887,7 +1637,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/108",
+      "self_ref": "#/texts/94",
       "parent": {
         "$ref": "#/body"
       },
@@ -1899,7 +1649,7 @@
       "text": " for signs of typos or other errors."
     },
     {
-      "self_ref": "#/texts/109",
+      "self_ref": "#/texts/95",
       "parent": {
         "$ref": "#/body"
       },
@@ -1911,7 +1661,7 @@
       "text": "We can use some simple tools to review our network status:"
     },
     {
-      "self_ref": "#/texts/110",
+      "self_ref": "#/texts/96",
       "parent": {
         "$ref": "#/body"
       },
@@ -1927,7 +1677,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/111",
+      "self_ref": "#/texts/97",
       "parent": {
         "$ref": "#/body"
       },
@@ -1939,7 +1689,7 @@
       "text": "Don't be afraid of the  degraded  status for  bond1 . That's there because systemd doesn't have networking configuration for the interface since we do that with our VLANs. Also, both physical network interfaces are listed as  carrier  because they don't have network configuration, either. They're just participating in the bond."
     },
     {
-      "self_ref": "#/texts/112",
+      "self_ref": "#/texts/98",
       "parent": {
         "$ref": "#/body"
       },
@@ -1951,7 +1701,7 @@
       "text": "Feel free to ignore  bond0 , too. The bonding module in the Linux kernel automatically creates the interface when it's loaded."
     },
     {
-      "self_ref": "#/texts/113",
+      "self_ref": "#/texts/99",
       "parent": {
         "$ref": "#/body"
       },
@@ -1964,7 +1714,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/114",
+      "self_ref": "#/texts/100",
       "parent": {
         "$ref": "#/body"
       },
@@ -1976,7 +1726,7 @@
       "text": "Sure, extlinux is fine for most use cases, but I prefer something a little more powerful. Luckily, switching to grub2 is quite painless:"
     },
     {
-      "self_ref": "#/texts/115",
+      "self_ref": "#/texts/101",
       "parent": {
         "$ref": "#/body"
       },
@@ -1992,7 +1742,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/116",
+      "self_ref": "#/texts/102",
       "parent": {
         "$ref": "#/body"
       },

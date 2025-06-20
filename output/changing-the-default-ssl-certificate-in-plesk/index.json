@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 1348336355456358645,
-    "filename": "index.md"
+    "binary_hash": 13268928042700009457,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,110 +21,29 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
       },
       {
         "$ref": "#/texts/4"
       },
       {
         "$ref": "#/texts/5"
-      },
-      {
-        "$ref": "#/texts/6"
-      },
-      {
-        "$ref": "#/texts/7"
-      },
-      {
-        "$ref": "#/texts/8"
-      },
-      {
-        "$ref": "#/texts/9"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2007/05/21/changing-the-default-ssl-certificate-in-plesk/",
-      "text": "/2007/05/21/changing-the-default-ssl-certificate-in-plesk/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "plesk",
-      "text": "plesk",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -136,7 +55,7 @@
       "text": "When Plesk is installed, the default certificate for the Plesk interface itself is a self-signed certificate that is generated during the installation. This can be easily changed within the Server options page."
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -148,7 +67,7 @@
       "text": "If your SSL certificate is installed at the domain level:"
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -160,7 +79,7 @@
       "text": "Click Domains > domain.com > Certificates > certificate name. Copy the CSR, key and CA certificates to a text application temporarily, and then click Server > Certificates. Once you're there, click Add Certificate and paste in the CSR, key and CA certificate. You will need to select a new name for the certificate that is different from the one you use at the domain level. Once you're done inserting that information, click OK and follow the instructions below."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -172,7 +91,7 @@
       "text": "If your SSL certificate is installed at the server level"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -184,7 +103,7 @@
       "text": "Click Server > Certificates. Click the checkbox next to the certificate which needs to be installed as the default, then click Setup just above the certificate listing. Plesk will install the certificate and reload itself (which generally takes 5-15 seconds). Depending on your browser, you may need to log out of Plesk and log back in to see the new certificate."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },

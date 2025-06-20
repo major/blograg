@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/html",
-    "binary_hash": 11349880740060534247,
-    "filename": "index.md"
+    "binary_hash": 12277270700113891400,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -24,10 +24,34 @@
         "$ref": "#/groups/0"
       },
       {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
         "$ref": "#/texts/10"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/11"
       },
       {
         "$ref": "#/texts/12"
@@ -72,16 +96,7 @@
         "$ref": "#/texts/25"
       },
       {
-        "$ref": "#/texts/26"
-      },
-      {
-        "$ref": "#/texts/27"
-      },
-      {
-        "$ref": "#/texts/28"
-      },
-      {
-        "$ref": "#/texts/29"
+        "$ref": "#/groups/2"
       },
       {
         "$ref": "#/texts/30"
@@ -102,7 +117,16 @@
         "$ref": "#/texts/35"
       },
       {
-        "$ref": "#/groups/3"
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
       },
       {
         "$ref": "#/texts/40"
@@ -148,36 +172,6 @@
       },
       {
         "$ref": "#/texts/54"
-      },
-      {
-        "$ref": "#/texts/55"
-      },
-      {
-        "$ref": "#/texts/56"
-      },
-      {
-        "$ref": "#/texts/57"
-      },
-      {
-        "$ref": "#/texts/58"
-      },
-      {
-        "$ref": "#/texts/59"
-      },
-      {
-        "$ref": "#/texts/60"
-      },
-      {
-        "$ref": "#/texts/61"
-      },
-      {
-        "$ref": "#/texts/62"
-      },
-      {
-        "$ref": "#/texts/63"
-      },
-      {
-        "$ref": "#/texts/64"
       }
     ],
     "content_layer": "body",
@@ -192,31 +186,7 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        },
-        {
-          "$ref": "#/texts/8"
-        },
-        {
-          "$ref": "#/texts/9"
+          "$ref": "#/groups/1"
         }
       ],
       "content_layer": "body",
@@ -226,11 +196,11 @@
     {
       "self_ref": "#/groups/1",
       "parent": {
-        "$ref": "#/body"
+        "$ref": "#/groups/0"
       },
       "children": [
         {
-          "$ref": "#/groups/2"
+          "$ref": "#/texts/1"
         }
       ],
       "content_layer": "body",
@@ -240,34 +210,20 @@
     {
       "self_ref": "#/groups/2",
       "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/11"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/3",
-      "parent": {
         "$ref": "#/body"
       },
       "children": [
         {
-          "$ref": "#/texts/36"
+          "$ref": "#/texts/26"
         },
         {
-          "$ref": "#/texts/37"
+          "$ref": "#/texts/27"
         },
         {
-          "$ref": "#/texts/38"
+          "$ref": "#/texts/28"
         },
         {
-          "$ref": "#/texts/39"
+          "$ref": "#/texts/29"
         }
       ],
       "content_layer": "body",
@@ -285,151 +241,13 @@
       "content_layer": "body",
       "label": "text",
       "prov": [],
-      "orig": "aktt_notify_twitter:",
-      "text": "aktt_notify_twitter:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "false",
-      "text": "false",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2010/05/27/glusterfs-on-the-cheap-with-rackspaces-cloud-servers-or-slicehost/",
-      "text": "/2010/05/27/glusterfs-on-the-cheap-with-rackspaces-cloud-servers-or-slicehost/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "command line",
-      "text": "command line",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "filesystem",
-      "text": "filesystem",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "glusterfs",
-      "text": "glusterfs",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "high availability",
-      "text": "high availability",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "rackspace",
-      "text": "rackspace",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "storage",
-      "text": "storage",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "sysadmin",
-      "text": "sysadmin",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
       "orig": "NOTE:  This post is out of date and is relevant only for GlusterFS 2.x.",
       "text": "NOTE:  This post is out of date and is relevant only for GlusterFS 2.x."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -441,7 +259,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -453,7 +271,7 @@
       "text": "DRBD , toss your favorite filesystem on it, and you're all set."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -465,7 +283,7 @@
       "text": "If you want to go active-active, or if you want multiple nodes active at the same time, you need to use a clustered filesystem like  GFS2 ,  OCFS2  or  Lustre . These are certainly good options to consider but they're not trivial to implement. They usually rely on additional systems and scripts to provide reliable  fencing  and  STONITH  capabilities."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -477,7 +295,7 @@
       "text": "What about the rest of us who want multiple active VM's with simple replicated storage that doesn't require any additional elaborate systems? This is where  GlusterFS  really shines. GlusterFS can ride on top of whichever filesystem you prefer, and that's a huge win for those who want a simple solution. However, that means that it has to use  fuse , and that will limit your performance."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -489,7 +307,7 @@
       "text": "Let's get this thing started!"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -501,7 +319,7 @@
       "text": "Consider a situation where you want to run a WordPress blog on two VM's with load balancers out front. You'll probably want to use GlusterFS's replicated volume mode (RAID 1-ish) so that the same files are on both nodes all of the time. To get started, build two small Slicehost slices or Rackspace Cloud Servers. I'll be using Fedora 13 in this example, but the instructions for other distributions should be very similar."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -513,7 +331,7 @@
       "text": "First things first &#8212; be sure to set a new root password and update all of the packages on the system. This should go without saying, but it's important to remember. We can clear out the default iptables ruleset since we will make a customized set later:"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -529,7 +347,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -541,7 +359,7 @@
       "text": "GlusterFS communicates over the network, so we will want to ensure that traffic only moves over the private network between the instances. We will need to add the private IP's and a special hostname for each instance to"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -557,7 +375,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -569,7 +387,7 @@
       "text": "on both instances. I'll call mine"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -585,7 +403,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -597,7 +415,7 @@
       "text": "and"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -613,7 +431,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -625,7 +443,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -641,7 +459,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -653,7 +471,7 @@
       "text": "You're now ready to install the required packages on both instances:"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -669,7 +487,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -681,7 +499,7 @@
       "text": "Make the directories for the GlusterFS volumes on each instance:"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -697,7 +515,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -709,7 +527,7 @@
       "text": "We're ready to make the configuration files for our storage volumes. Since we want the same files on each instance, we will use the"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -725,7 +543,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -737,7 +555,7 @@
       "text": "option.  This only needs to be run on the first node:"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -753,7 +571,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -765,9 +583,9 @@
       "text": "Once that's done, you'll have four new files:"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/26",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -779,9 +597,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/27",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -793,9 +611,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/28",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -807,9 +625,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/29",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -821,7 +639,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -833,7 +651,7 @@
       "text": "Copy the"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -849,7 +667,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -861,7 +679,7 @@
       "text": "file to"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -877,7 +695,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -889,7 +707,7 @@
       "text": "on your first instance. Then, copy"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -905,7 +723,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -917,7 +735,7 @@
       "text": "to"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -933,7 +751,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -945,7 +763,7 @@
       "text": "on your second instance. The"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -961,7 +779,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -973,7 +791,7 @@
       "text": "should be copied to"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -989,7 +807,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -1001,7 +819,7 @@
       "text": "on both instances."
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -1013,7 +831,7 @@
       "text": "At this point, you're ready to start the GlusterFS servers on each instance:"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -1029,7 +847,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -1041,7 +859,7 @@
       "text": "You can now mount the GlusterFS volume on both instances:"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1057,7 +875,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1069,7 +887,7 @@
       "text": "You should now be able to see the new GlusterFS volume in both instances:"
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1085,7 +903,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1097,7 +915,7 @@
       "text": "As a test, you can create a file on your first instance and verify that your second instance can read the data:"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1113,7 +931,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1125,7 +943,7 @@
       "text": "If you remove that file on your second instance, it should disappear from your first instance as well."
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1137,7 +955,7 @@
       "text": "Obviously, this is a very simple and basic implementation of GlusterFS. You can increase performance by making dedicated VM's just for serving data and you can adjust the default performance options when you mount a GlusterFS volume. Limiting access to the GlusterFS servers is also a good idea."
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1149,7 +967,7 @@
       "text": "If you want to read more, I'd recommend reading the  GlusterFS Technical FAQ  and the  GlusterFS User Guide ."
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },

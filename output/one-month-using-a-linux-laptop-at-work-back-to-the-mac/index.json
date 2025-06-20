@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 17750430739689149818,
-    "filename": "index.md"
+    "binary_hash": 13577033884573577124,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,25 +21,40 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
         "$ref": "#/groups/0"
-      },
-      {
-        "$ref": "#/texts/7"
-      },
-      {
-        "$ref": "#/texts/8"
-      },
-      {
-        "$ref": "#/texts/9"
-      },
-      {
-        "$ref": "#/texts/10"
       },
       {
         "$ref": "#/texts/11"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
       },
       {
         "$ref": "#/texts/18"
@@ -58,27 +73,6 @@
       },
       {
         "$ref": "#/texts/23"
-      },
-      {
-        "$ref": "#/texts/24"
-      },
-      {
-        "$ref": "#/texts/25"
-      },
-      {
-        "$ref": "#/texts/26"
-      },
-      {
-        "$ref": "#/texts/27"
-      },
-      {
-        "$ref": "#/texts/28"
-      },
-      {
-        "$ref": "#/texts/29"
-      },
-      {
-        "$ref": "#/texts/30"
       }
     ],
     "content_layer": "body",
@@ -93,51 +87,22 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
           "$ref": "#/texts/5"
         },
         {
           "$ref": "#/texts/6"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/12"
         },
         {
-          "$ref": "#/texts/13"
+          "$ref": "#/texts/7"
         },
         {
-          "$ref": "#/texts/14"
+          "$ref": "#/texts/8"
         },
         {
-          "$ref": "#/texts/15"
+          "$ref": "#/texts/9"
         },
         {
-          "$ref": "#/texts/16"
-        },
-        {
-          "$ref": "#/texts/17"
+          "$ref": "#/texts/10"
         }
       ],
       "content_layer": "body",
@@ -155,64 +120,56 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "This post has been a bit delayed, but I want to follow up on the  post I wrote last month  about moving from OS X to Linux at work. I started out with a Lenovo Thinkpad X1 Carbon along with Fedora 19 and KDE. Although most things went really well, there were a few deal-breakers that sent me back to the Mac.",
+      "text": "This post has been a bit delayed, but I want to follow up on the  post I wrote last month  about moving from OS X to Linux at work. I started out with a Lenovo Thinkpad X1 Carbon along with Fedora 19 and KDE. Although most things went really well, there were a few deal-breakers that sent me back to the Mac."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "/2013/09/22/one-month-using-a-linux-laptop-at-work-back-to-the-mac/",
-      "text": "/2013/09/22/one-month-using-a-linux-laptop-at-work-back-to-the-mac/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "Just to give you an idea of my daily workflow, much of my day revolved around my calendar and email. As much as I don't like to have my life revolve around a calendar, that's the way it can be at times. This means I need quick access to handle and generate invitations but I also need speedy access to entire email threads and email searches. On top of all that, I review and edit many documents. The majority of the documents I handle are fairly simple but there are some very complex ones as well. Outside of those tasks, I log into remote servers via ssh/RDP, manage social connections (IM, twitter, and IRC), and surf the web.",
+      "text": "Just to give you an idea of my daily workflow, much of my day revolved around my calendar and email. As much as I don't like to have my life revolve around a calendar, that's the way it can be at times. This means I need quick access to handle and generate invitations but I also need speedy access to entire email threads and email searches. On top of all that, I review and edit many documents. The majority of the documents I handle are fairly simple but there are some very complex ones as well. Outside of those tasks, I log into remote servers via ssh/RDP, manage social connections (IM, twitter, and IRC), and surf the web."
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "email",
-      "text": "email",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "Without further ado, here are the top three things that (regrettably) pushed me back to OS X at work:",
+      "text": "Without further ado, here are the top three things that (regrettably) pushed me back to OS X at work:"
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "Email management",
+      "text": "Email management"
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "Connecting to Exchange at work gives me quite a few options:",
+      "text": "Connecting to Exchange at work gives me quite a few options:"
     },
     {
       "self_ref": "#/texts/5",
@@ -223,8 +180,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "mac",
-      "text": "mac",
+      "orig": "Thunderbird + davmail",
+      "text": "Thunderbird + davmail",
       "enumerated": false,
       "marker": "-"
     },
@@ -237,103 +194,15 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "sysadmin",
-      "text": "sysadmin",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "This post has been a bit delayed, but I want to follow up on the  post I wrote last month  about moving from OS X to Linux at work. I started out with a Lenovo Thinkpad X1 Carbon along with Fedora 19 and KDE. Although most things went really well, there were a few deal-breakers that sent me back to the Mac.",
-      "text": "This post has been a bit delayed, but I want to follow up on the  post I wrote last month  about moving from OS X to Linux at work. I started out with a Lenovo Thinkpad X1 Carbon along with Fedora 19 and KDE. Although most things went really well, there were a few deal-breakers that sent me back to the Mac."
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Just to give you an idea of my daily workflow, much of my day revolved around my calendar and email. As much as I don't like to have my life revolve around a calendar, that's the way it can be at times. This means I need quick access to handle and generate invitations but I also need speedy access to entire email threads and email searches. On top of all that, I review and edit many documents. The majority of the documents I handle are fairly simple but there are some very complex ones as well. Outside of those tasks, I log into remote servers via ssh/RDP, manage social connections (IM, twitter, and IRC), and surf the web.",
-      "text": "Just to give you an idea of my daily workflow, much of my day revolved around my calendar and email. As much as I don't like to have my life revolve around a calendar, that's the way it can be at times. This means I need quick access to handle and generate invitations but I also need speedy access to entire email threads and email searches. On top of all that, I review and edit many documents. The majority of the documents I handle are fairly simple but there are some very complex ones as well. Outside of those tasks, I log into remote servers via ssh/RDP, manage social connections (IM, twitter, and IRC), and surf the web."
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Without further ado, here are the top three things that (regrettably) pushed me back to OS X at work:",
-      "text": "Without further ado, here are the top three things that (regrettably) pushed me back to OS X at work:"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Email management",
-      "text": "Email management"
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Connecting to Exchange at work gives me quite a few options:",
-      "text": "Connecting to Exchange at work gives me quite a few options:"
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Thunderbird + davmail",
-      "text": "Thunderbird + davmail",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/13",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "Thunderbird + IMAP/POP",
       "text": "Thunderbird + IMAP/POP",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -345,9 +214,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -359,9 +228,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -373,9 +242,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -387,7 +256,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -399,7 +268,7 @@
       "text": "The best method I found was Thunderbird plus  Exquilla . The performance was quite good and the GAL search worked decently. Thunderbird's keyboard shortcuts were intuitive and easy to begin using regularly with a few days' use. Even with the global indexer enabled, Thunderbird's overall performance was just fine on the X1."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -411,7 +280,7 @@
       "text": "My main gripes showed up when following large email threads on mailing lists or trying to find replies to a message I'd send previously. The  Thunderbird Conversations  extension helped to an extent, but it really mangled up the UI. Searching the global index was unpredictable. I knew an email was sitting in my inbox but the search function didn't return the message. Even in situations where I knew I'd received hundreds of emails from the same sender, the global indexer sometimes couldn't find any of them."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -423,7 +292,7 @@
       "text": "The Claws UI was too minimalistic and Evolution, although feature packed, really chewed up the CPU on the X1 and drained the battery."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -435,7 +304,7 @@
       "text": "Calendar management"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -447,7 +316,7 @@
       "text": "After trying Thunderbird with davmail, Thunderbird with  1st setup's extension , and Evolution with EWS, I was horribly frustrated. My calendar was a mess and some of the applications started marking meetings I'd previously accepted as tentative. It confused the meeting organizers and even confused some of the attendees of meetings that I'd scheduled."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -459,7 +328,7 @@
       "text": "Inviting other coworkers to meetings led to unpredictable results. Sometimes I could see their free/busy times but most times I couldn't. Getting contacts from the GAL into the invitations sometimes worked and sometimes didn't. In situations where an emergency get-together was required, this became extremely annoying."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -471,7 +340,7 @@
       "text": "My last resort was to keep OWA open in Chrome all day and use it for all of my calendaring. That worked quite well but it meant flipping between Thunderbird and OWA to handle invitations. I'd considered using OWA for email as well, but it lacked the functionality I needed for GPG signing among other things."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -483,7 +352,7 @@
       "text": "Microsoft Office compatibility"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -495,7 +364,7 @@
       "text": "LibreOffice's work on compatibility was impressive, but it still falls well short of the native Microsoft Office applications. Excel documents with pivot tables were often mangled and Word documents with any complex formatting adjustments were left unreadable. I'm not a fan of PowerPoint, but I handle those documents regularly and LibreOffice did an acceptable job."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -507,7 +376,7 @@
       "text": "If you don't have to worry with Office documents at your job, then you might think this is a silly requirement. However, I need quick access to review and edit these documents as I don't like these tasks to occupy my day. I like to get in, get out, and get back to what I'm good at doing."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -519,7 +388,7 @@
       "text": "Summary"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -531,7 +400,7 @@
       "text": "All in all, I could use Linux as my daily laptop OS if I wasn't so dependent on my calendar, email, and Office documents. It would definitely be a good choice for me if I was still doing heavy development and system administration. Linux has indeed come a long way (I've said it before) and the stability is impressive. Even during heavy usage periods, I never had a crash in X and hardly ever had a screen flicker. Adding monitors via DVI and USB (DisplayPort) was extremely easy in KDE and I was able to connect to projectors almost as easily as I can in OS X."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },

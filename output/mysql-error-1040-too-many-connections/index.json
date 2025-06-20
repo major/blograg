@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/html",
-    "binary_hash": 6497011516586317030,
-    "filename": "index.md"
+    "binary_hash": 13081730146209647553,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,10 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
       },
       {
         "$ref": "#/texts/3"
@@ -58,83 +61,16 @@
       },
       {
         "$ref": "#/texts/14"
-      },
-      {
-        "$ref": "#/texts/15"
-      },
-      {
-        "$ref": "#/texts/16"
-      },
-      {
-        "$ref": "#/texts/17"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2008/06/24/mysql-error-1040-too-many-connections/",
-      "text": "/2008/06/24/mysql-error-1040-too-many-connections/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "mysql",
-      "text": "mysql",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -146,7 +82,7 @@
       "text": "If you run a fairly busy and/or badly configured MySQL server, you may receive something like this when attempting to connect:"
     },
     {
-      "self_ref": "#/texts/4",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -162,7 +98,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -174,7 +110,7 @@
       "text": "MySQL is telling you that it is handling the maximum connections that you have configured it to handle. By default, MySQL will handle 100 connections simultaneously. This is very similar to the situation when Apache reaches the MaxClients setting. You won't even be able to connect to MySQL to find out what is causing the connections to be used up, so you will be forced to restart the MySQL daemon to troubleshoot the issue."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -186,7 +122,7 @@
       "text": "What causes MySQL to run out of connections? Here's a list of reasons that may cause MySQL to run out of available connections, listed in order of what you should check:"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -198,7 +134,7 @@
       "text": "Bad MySQL configuration"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -210,7 +146,7 @@
       "text": "Verify that you have set MySQL's buffers and caches to appropriate levels for the type of data you're storing and the types of queries that you are running. One quick way to check this information is via  MySQLTuner . The script will tell you how well your server is performing along with the corrections you should make. Running the script only takes a few moments and it doesn't require a DBA to decipher the results."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -222,7 +158,7 @@
       "text": "Data storage techniques"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -234,7 +170,7 @@
       "text": "Remember that MySQL works best when moving vertically, not horizontally. If you have a table with 20 columns, breaking it into two tables with 10 columns each will improve performance. Even if you need to join the two tables together to get your data, it will still perform at a higher level. Also, use the right data types for the right data. If you're storing an integer only, don't use a CHAR or VARCHAR data type. If your integer will be small, then use something like a TINYINT or SMALLINT rather than INT. This means MySQL will use less memory, pull less data from the disk, and have higher performing joins."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -246,7 +182,7 @@
       "text": "Slow queries"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -258,7 +194,7 @@
       "text": "These are generally pretty easy to fix. If you have queries that don't use indexes, or if queries run slowly with indexes in place, you need to rethink how you're pulling your data. Should your data be split into multiple tables? Are you pulling more data than you need? Keep these questions in mind, enable the slow query log, and re-work your queries to find where the bottlenecks occur."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -270,7 +206,7 @@
       "text": "Division of labor"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -282,7 +218,7 @@
       "text": "Most people who use MySQL have a dynamic site written in a scripting language, like PHP, Perl or Python. It's obvious that your server will need to do some work to parse the scripts, send data back to the client, and communicate with MySQL. If you find that your server is overworked, consider moving MySQL to its own dedicated hardware. Among many other things, this will reduce your disk I/O, allow you to better utilize memory, and it will help you when you need to scale even further. Be sure to keep your MySQL server close to your web servers, however, as increased latency will only make your performance problem first."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -294,7 +230,7 @@
       "text": "Right hardware"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -306,7 +242,7 @@
       "text": "Do you have the right hardware for the job? Depending on your budget, you may need to make the move for hardware that gives you better I/O throughput and more useable cores. MySQL is a multi-threaded application, so it can utilize multiple cores to serve data quickly. Also, writing logs, reading tables, and adjusting indexes are disk-intensive tasks that need fast drives to perform well. When you look for a dedicated server for MySQL, be sure to choose multiple-core machines with low latency RAM, fast drives (SCSI/SAS), and a reliable network interface."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },

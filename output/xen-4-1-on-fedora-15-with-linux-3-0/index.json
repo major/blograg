@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/html",
-    "binary_hash": 12527195765703866484,
-    "filename": "index.md"
+    "binary_hash": 15751519816325250988,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,34 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
       },
       {
         "$ref": "#/texts/11"
@@ -100,243 +127,16 @@
       },
       {
         "$ref": "#/texts/36"
-      },
-      {
-        "$ref": "#/texts/37"
-      },
-      {
-        "$ref": "#/texts/38"
-      },
-      {
-        "$ref": "#/texts/39"
-      },
-      {
-        "$ref": "#/texts/40"
-      },
-      {
-        "$ref": "#/texts/41"
-      },
-      {
-        "$ref": "#/texts/42"
-      },
-      {
-        "$ref": "#/texts/43"
-      },
-      {
-        "$ref": "#/texts/44"
-      },
-      {
-        "$ref": "#/texts/45"
-      },
-      {
-        "$ref": "#/texts/46"
-      },
-      {
-        "$ref": "#/texts/47"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        },
-        {
-          "$ref": "#/texts/8"
-        },
-        {
-          "$ref": "#/texts/9"
-        },
-        {
-          "$ref": "#/texts/10"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2011/08/05/xen-4-1-on-fedora-15-with-linux-3-0/",
-      "text": "/2011/08/05/xen-4-1-on-fedora-15-with-linux-3-0/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "cloud",
-      "text": "cloud",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "command line",
-      "text": "command line",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "kernel",
-      "text": "kernel",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "red hat",
-      "text": "red hat",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "sysadmin",
-      "text": "sysadmin",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "virtualization",
-      "text": "virtualization",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "xen",
-      "text": "xen",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -348,7 +148,7 @@
       "text": "If you haven't noticed already,  full Xen dom0 support  was added in the  Linux 3.0 kernel . This means there's no longer a need to drag patches forward from old kernels and work from special branches and git repositories when building a kernel for  dom0 ."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -360,7 +160,7 @@
       "text": "Something else you might not have noticed is that the Fedora kernel team has  quietly slipped Linux 3.0  into Fedora 15's update channels in disguise. Click that link, scroll down, and you'll see  &#8220;Rebase to 3.0. Version reports as 2.6.40 for compatibility with older userspace.&#8221;  Although I'm not a fan of calling something what it isn't (2.6.40 doesn't exist on kernel.org), I can understand some of the reasoning behind the choice."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -372,7 +172,7 @@
       "text": "This change makes the Xen installation on Fedora 15 pretty trivial. To get started, update your kernel to the latest if you're not already on Fedora's 2.6.40 kernels:"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -388,7 +188,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -400,7 +200,7 @@
       "text": "We need three more packages (quite a few dependencies will roll in with them):"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -416,7 +216,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -428,7 +228,7 @@
       "text": "The xen package reels in the hypervisor itself along with libraries and command line tools (like xl and xm). Libvirt gives us easy access to VM management with the"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -444,7 +244,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -456,7 +256,7 @@
       "text": "command and python-virtinst gives us the handy"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -472,7 +272,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -484,7 +284,7 @@
       "text": "command to make OS installations easy."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -496,7 +296,7 @@
       "text": "Once those packages are installed, we need to make some adjustments in your grub configuration. Open"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -512,7 +312,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -524,7 +324,7 @@
       "text": "in your text editor of choice and add something like this at the bottom:"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -540,7 +340,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -552,7 +352,7 @@
       "text": "Ensure that the"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -568,7 +368,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -580,7 +380,7 @@
       "text": "is applicable to your system (adjust it if it isn't). Also, check the kernel version to ensure it matches your installed kernel and adjust the"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -596,7 +396,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -608,7 +408,7 @@
       "text": "portion to match your root volume. Flip the"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -624,7 +424,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -636,7 +436,7 @@
       "text": "line to a value which will boot your new grub entry and ensure the timeout is set to a reasonable number if you need to temporarily switch back to your original grub entry at boot time. (Hey, we all make mistakes.)"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -648,7 +448,7 @@
       "text": "I take one extra precaution and change the"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -664,7 +464,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -676,7 +476,7 @@
       "text": "line to"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -692,7 +492,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -704,7 +504,7 @@
       "text": "in"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -720,7 +520,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -732,7 +532,7 @@
       "text": ". This ensures that future kernel updates don't trample the entry you've just made. Keep in mind that you'll need to manually update your grub configuration when you do kernel upgrades later."
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -744,7 +544,7 @@
       "text": "Cross your fingers and reboot. If your system doesn't reboot properly, reboot it again and choose your old kernel from the grub menu. Double-check your configuration for fat-fingering and give it another try. If your system boots and pings but you have no output via a monitor, don't fret. There's a  patch  for the problem which  should appear soon  in Linux 3.0. The impatient can snag a kernel source RPM, add the patch file, and  build a local kernel  (or you can  download my local build  from when I did it)."
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -756,7 +556,7 @@
       "text": "Log in and verify that you booted into the dom0:"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -772,7 +572,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -784,7 +584,7 @@
       "text": "Once you're done with that, make sure libvirtd is running:"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -800,7 +600,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -812,7 +612,7 @@
       "text": "Try installing a VM:"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -828,7 +628,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },

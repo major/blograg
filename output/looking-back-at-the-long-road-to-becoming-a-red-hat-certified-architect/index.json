@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 11211817948591224546,
-    "filename": "index.md"
+    "binary_hash": 13283412493347860030,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -19,6 +19,24 @@
     "children": [
       {
         "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
       },
       {
         "$ref": "#/groups/0"
@@ -36,31 +54,31 @@
         "$ref": "#/texts/14"
       },
       {
-        "$ref": "#/texts/15"
-      },
-      {
-        "$ref": "#/texts/16"
-      },
-      {
-        "$ref": "#/texts/17"
-      },
-      {
         "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
       },
       {
         "$ref": "#/texts/22"
       },
       {
-        "$ref": "#/texts/23"
-      },
-      {
-        "$ref": "#/texts/24"
-      },
-      {
-        "$ref": "#/texts/25"
-      },
-      {
         "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
       },
       {
         "$ref": "#/texts/30"
@@ -72,10 +90,13 @@
         "$ref": "#/texts/32"
       },
       {
-        "$ref": "#/texts/33"
+        "$ref": "#/groups/3"
       },
       {
-        "$ref": "#/groups/3"
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
       },
       {
         "$ref": "#/texts/38"
@@ -87,16 +108,16 @@
         "$ref": "#/texts/40"
       },
       {
-        "$ref": "#/texts/41"
-      },
-      {
-        "$ref": "#/texts/42"
-      },
-      {
-        "$ref": "#/texts/43"
-      },
-      {
         "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
       },
       {
         "$ref": "#/texts/47"
@@ -114,7 +135,13 @@
         "$ref": "#/texts/51"
       },
       {
-        "$ref": "#/groups/5"
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
       },
       {
         "$ref": "#/texts/55"
@@ -123,13 +150,7 @@
         "$ref": "#/texts/56"
       },
       {
-        "$ref": "#/texts/57"
-      },
-      {
-        "$ref": "#/texts/58"
-      },
-      {
-        "$ref": "#/texts/59"
+        "$ref": "#/groups/5"
       },
       {
         "$ref": "#/texts/60"
@@ -138,34 +159,7 @@
         "$ref": "#/texts/61"
       },
       {
-        "$ref": "#/texts/62"
-      },
-      {
-        "$ref": "#/texts/63"
-      },
-      {
-        "$ref": "#/texts/64"
-      },
-      {
-        "$ref": "#/texts/65"
-      },
-      {
-        "$ref": "#/texts/66"
-      },
-      {
-        "$ref": "#/texts/67"
-      },
-      {
         "$ref": "#/groups/6"
-      },
-      {
-        "$ref": "#/texts/71"
-      },
-      {
-        "$ref": "#/texts/72"
-      },
-      {
-        "$ref": "#/groups/7"
       }
     ],
     "content_layer": "body",
@@ -179,24 +173,6 @@
         "$ref": "#/body"
       },
       "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
         {
           "$ref": "#/texts/7"
         },
@@ -221,16 +197,16 @@
       },
       "children": [
         {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
           "$ref": "#/texts/18"
-        },
-        {
-          "$ref": "#/texts/19"
-        },
-        {
-          "$ref": "#/texts/20"
-        },
-        {
-          "$ref": "#/texts/21"
         }
       ],
       "content_layer": "body",
@@ -244,16 +220,16 @@
       },
       "children": [
         {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
           "$ref": "#/texts/26"
-        },
-        {
-          "$ref": "#/texts/27"
-        },
-        {
-          "$ref": "#/texts/28"
-        },
-        {
-          "$ref": "#/texts/29"
         }
       ],
       "content_layer": "body",
@@ -267,16 +243,13 @@
       },
       "children": [
         {
+          "$ref": "#/texts/33"
+        },
+        {
           "$ref": "#/texts/34"
         },
         {
           "$ref": "#/texts/35"
-        },
-        {
-          "$ref": "#/texts/36"
-        },
-        {
-          "$ref": "#/texts/37"
         }
       ],
       "content_layer": "body",
@@ -290,13 +263,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/44"
+          "$ref": "#/texts/41"
         },
         {
-          "$ref": "#/texts/45"
+          "$ref": "#/texts/42"
         },
         {
-          "$ref": "#/texts/46"
+          "$ref": "#/texts/43"
         }
       ],
       "content_layer": "body",
@@ -310,13 +283,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/52"
+          "$ref": "#/texts/57"
         },
         {
-          "$ref": "#/texts/53"
+          "$ref": "#/texts/58"
         },
         {
-          "$ref": "#/texts/54"
+          "$ref": "#/texts/59"
         }
       ],
       "content_layer": "body",
@@ -330,39 +303,19 @@
       },
       "children": [
         {
-          "$ref": "#/texts/68"
+          "$ref": "#/texts/62"
         },
         {
-          "$ref": "#/texts/69"
+          "$ref": "#/texts/63"
         },
         {
-          "$ref": "#/texts/70"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/73"
+          "$ref": "#/texts/64"
         },
         {
-          "$ref": "#/texts/74"
+          "$ref": "#/texts/65"
         },
         {
-          "$ref": "#/texts/75"
-        },
-        {
-          "$ref": "#/texts/76"
-        },
-        {
-          "$ref": "#/texts/77"
+          "$ref": "#/texts/66"
         }
       ],
       "content_layer": "body",
@@ -380,92 +333,80 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "The grades came back last Friday and I've passed the last exam in the requirements to become a  Red Hat Certified Architect (RHCA) . I was fortunate enough to be part of Rackspace's RHCA pilot program and we took our first exam back at the end of 2010. It's definitely a good feeling to be finished and I'm definitely ready to give back some knowledge to the readers of this blog.",
+      "text": "The grades came back last Friday and I've passed the last exam in the requirements to become a  Red Hat Certified Architect (RHCA) . I was fortunate enough to be part of Rackspace's RHCA pilot program and we took our first exam back at the end of 2010. It's definitely a good feeling to be finished and I'm definitely ready to give back some knowledge to the readers of this blog."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "/2012/02/13/looking-back-at-the-long-road-to-becoming-a-red-hat-certified-architect/",
-      "text": "/2012/02/13/looking-back-at-the-long-road-to-becoming-a-red-hat-certified-architect/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "First things first:  there are going to be many part of this post which probably aren't as specific as you'd like. A lot of that is due to the NDA that all Red Hat examinees agree to when they take an exam. We aren't allowed to talk about what was on the exam or our experiences during the exam. If we do, penalties range from smaller things like losing certifications all the way up to serious stuff like legal action. It goes without saying that I want to protect the security of the exams, I don't want to lose my certifications, and I don't want to hire a lawyer. Please try to keep this in mind if you yearn for more specifics than I'm able to give.",
+      "text": "First things first:  there are going to be many part of this post which probably aren't as specific as you'd like. A lot of that is due to the NDA that all Red Hat examinees agree to when they take an exam. We aren't allowed to talk about what was on the exam or our experiences during the exam. If we do, penalties range from smaller things like losing certifications all the way up to serious stuff like legal action. It goes without saying that I want to protect the security of the exams, I don't want to lose my certifications, and I don't want to hire a lawyer. Please try to keep this in mind if you yearn for more specifics than I'm able to give."
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "centos",
-      "text": "centos",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "Red Hat Certified Engineer",
+      "text": "Red Hat Certified Engineer"
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "certifications",
-      "text": "certifications",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "The  RHCSA  and  RHCE  exams are the first step on the path to the RHCA. You can't take any of the RHCA prerequisite exams without it. These exams cover a really broad spectrum of material including apache configuration, NFS, iptables and mail services. The two links above will take you to the exam objectives for each exam.",
+      "text": "The  RHCSA  and  RHCE  exams are the first step on the path to the RHCA. You can't take any of the RHCA prerequisite exams without it. These exams cover a really broad spectrum of material including apache configuration, NFS, iptables and mail services. The two links above will take you to the exam objectives for each exam."
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "I've always recommended the RHCE exam for Linux administrators who are trying to sharpen their skills and get to the next level whether they use Red Hat or not. The exam covers a lot of good material that makes a solid foundation for any Linux user without throwing in too many Red Hat-specific knowledge.",
+      "text": "I've always recommended the RHCE exam for Linux administrators who are trying to sharpen their skills and get to the next level whether they use Red Hat or not. The exam covers a lot of good material that makes a solid foundation for any Linux user without throwing in too many Red Hat-specific knowledge."
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "The exam (like all Red Hat exams) is fully practical. There are no multiple choice questions or essays. You'll have to meet all of the objectives by logging into a local Red Hat system and making the system do what it needs to do.",
+      "text": "The exam (like all Red Hat exams) is fully practical. There are no multiple choice questions or essays. You'll have to meet all of the objectives by logging into a local Red Hat system and making the system do what it needs to do."
     },
     {
       "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "Quick tips for the RHCSA/RHCE exams:",
+      "text": "Quick tips for the RHCSA/RHCE exams:"
     },
     {
       "self_ref": "#/texts/7",
@@ -476,8 +417,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "rackspace",
-      "text": "rackspace",
+      "orig": "Keep your eye on the clock. Time can really get away from you if you get stuck in the weeds on a problem that should be relatively straightforward.",
+      "text": "Keep your eye on the clock. Time can really get away from you if you get stuck in the weeds on a problem that should be relatively straightforward.",
       "enumerated": false,
       "marker": "-"
     },
@@ -490,8 +431,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "red hat",
-      "text": "red hat",
+      "orig": "Leave time at the end to check your work. When you set up a lot of services, it's inevitable that you might configure a service for one problem that breaks the functionality required by a problem you completed already.",
+      "text": "Leave time at the end to check your work. When you set up a lot of services, it's inevitable that you might configure a service for one problem that breaks the functionality required by a problem you completed already.",
       "enumerated": false,
       "marker": "-"
     },
@@ -504,8 +445,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "rpm",
-      "text": "rpm",
+      "orig": "Always reboot before you leave. We all forget to use ",
+      "text": "Always reboot before you leave. We all forget to use ",
       "enumerated": false,
       "marker": "-"
     },
@@ -518,8 +459,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "sysadmin",
-      "text": "sysadmin",
+      "orig": "Practice, practice, practice. There's not one objective on this exam that you can't test in a VM on your own.",
+      "text": "Practice, practice, practice. There's not one objective on this exam that you can't test in a VM on your own.",
       "enumerated": false,
       "marker": "-"
     },
@@ -532,151 +473,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "The grades came back last Friday and I've passed the last exam in the requirements to become a  Red Hat Certified Architect (RHCA) . I was fortunate enough to be part of Rackspace's RHCA pilot program and we took our first exam back at the end of 2010. It's definitely a good feeling to be finished and I'm definitely ready to give back some knowledge to the readers of this blog.",
-      "text": "The grades came back last Friday and I've passed the last exam in the requirements to become a  Red Hat Certified Architect (RHCA) . I was fortunate enough to be part of Rackspace's RHCA pilot program and we took our first exam back at the end of 2010. It's definitely a good feeling to be finished and I'm definitely ready to give back some knowledge to the readers of this blog."
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "First things first:  there are going to be many part of this post which probably aren't as specific as you'd like. A lot of that is due to the NDA that all Red Hat examinees agree to when they take an exam. We aren't allowed to talk about what was on the exam or our experiences during the exam. If we do, penalties range from smaller things like losing certifications all the way up to serious stuff like legal action. It goes without saying that I want to protect the security of the exams, I don't want to lose my certifications, and I don't want to hire a lawyer. Please try to keep this in mind if you yearn for more specifics than I'm able to give.",
-      "text": "First things first:  there are going to be many part of this post which probably aren't as specific as you'd like. A lot of that is due to the NDA that all Red Hat examinees agree to when they take an exam. We aren't allowed to talk about what was on the exam or our experiences during the exam. If we do, penalties range from smaller things like losing certifications all the way up to serious stuff like legal action. It goes without saying that I want to protect the security of the exams, I don't want to lose my certifications, and I don't want to hire a lawyer. Please try to keep this in mind if you yearn for more specifics than I'm able to give."
-    },
-    {
-      "self_ref": "#/texts/13",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Red Hat Certified Engineer",
-      "text": "Red Hat Certified Engineer"
-    },
-    {
-      "self_ref": "#/texts/14",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "The  RHCSA  and  RHCE  exams are the first step on the path to the RHCA. You can't take any of the RHCA prerequisite exams without it. These exams cover a really broad spectrum of material including apache configuration, NFS, iptables and mail services. The two links above will take you to the exam objectives for each exam.",
-      "text": "The  RHCSA  and  RHCE  exams are the first step on the path to the RHCA. You can't take any of the RHCA prerequisite exams without it. These exams cover a really broad spectrum of material including apache configuration, NFS, iptables and mail services. The two links above will take you to the exam objectives for each exam."
-    },
-    {
-      "self_ref": "#/texts/15",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "I've always recommended the RHCE exam for Linux administrators who are trying to sharpen their skills and get to the next level whether they use Red Hat or not. The exam covers a lot of good material that makes a solid foundation for any Linux user without throwing in too many Red Hat-specific knowledge.",
-      "text": "I've always recommended the RHCE exam for Linux administrators who are trying to sharpen their skills and get to the next level whether they use Red Hat or not. The exam covers a lot of good material that makes a solid foundation for any Linux user without throwing in too many Red Hat-specific knowledge."
-    },
-    {
-      "self_ref": "#/texts/16",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "The exam (like all Red Hat exams) is fully practical. There are no multiple choice questions or essays. You'll have to meet all of the objectives by logging into a local Red Hat system and making the system do what it needs to do.",
-      "text": "The exam (like all Red Hat exams) is fully practical. There are no multiple choice questions or essays. You'll have to meet all of the objectives by logging into a local Red Hat system and making the system do what it needs to do."
-    },
-    {
-      "self_ref": "#/texts/17",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Quick tips for the RHCSA/RHCE exams:",
-      "text": "Quick tips for the RHCSA/RHCE exams:"
-    },
-    {
-      "self_ref": "#/texts/18",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Keep your eye on the clock. Time can really get away from you if you get stuck in the weeds on a problem that should be relatively straightforward.",
-      "text": "Keep your eye on the clock. Time can really get away from you if you get stuck in the weeds on a problem that should be relatively straightforward.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/19",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Leave time at the end to check your work. When you set up a lot of services, it's inevitable that you might configure a service for one problem that breaks the functionality required by a problem you completed already.",
-      "text": "Leave time at the end to check your work. When you set up a lot of services, it's inevitable that you might configure a service for one problem that breaks the functionality required by a problem you completed already.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/20",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Always reboot before you leave. We all forget to use ",
-      "text": "Always reboot before you leave. We all forget to use ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/21",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Practice, practice, practice. There's not one objective on this exam that you can't test in a VM on your own.",
-      "text": "Practice, practice, practice. There's not one objective on this exam that you can't test in a VM on your own.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/22",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Red Hat Enterprise System Monitoring and Performance Tuning",
       "text": "Red Hat Enterprise System Monitoring and Performance Tuning"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -688,7 +489,7 @@
       "text": "Our group at Rackspace started off with  EX442  and it was a very difficult way to start off the RHCA track. Take a look at the objectives and you'll see that much of the exam is related to tweaking system performance and then monitoring that performance with graphs and raw data. You'll have to turn a lot of knobs on the kernel and you'll need to know where to store these configurations so they'll be persistent."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -700,7 +501,7 @@
       "text": "In addition, the objective regarding TCP buffers and related settings is a real challenge. You'll have to wrestle with some math that appears to be relatively simple, but can get confusing quickly. Some of the settings can't really be checked to know if your setting is correct. The objectives mention tuning disk scheduling - you don't really have the time or tools to know if your setting is ideal."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -712,9 +513,9 @@
       "text": "Quick tips for EX442:"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/15",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -726,9 +527,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/16",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -740,9 +541,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/17",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -754,9 +555,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/18",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -768,7 +569,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -780,7 +581,7 @@
       "text": "Red Hat Enterprise Storage Management"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -792,7 +593,7 @@
       "text": "I'm surprised to say this now, but I actually enjoyed  EX436 . I've always used other clustering tools like heartbeat and pacemaker, but I've never had the need to use the Red Hat Cluster Suite. Although RHCS definitely has a lot of quirks and rough edges, it's pretty solid once you get familiar with the GUI and command line tools."
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -804,7 +605,7 @@
       "text": "You get the opportunity to mess around with some pretty useful technology like iSCSI, GFS, and clustered LVM. These are things that you're probably already using or will be using soon in a large server environment. The web interface for RHCS is quite peculiar and you may find yourself wanting to put your fist through the screen when you're staring down the endless animated GIFs when the cluster is syncing its configuration. Do your best to be patient because you certainly don't want to short circuit the cluster sync."
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -816,6 +617,148 @@
       "text": "Quick tips for EX436:"
     },
     {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Be patient. You'll feel like the RHCS web interface is mocking you when you're pressed for time.",
+      "text": "Be patient. You'll feel like the RHCS web interface is mocking you when you're pressed for time.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Watch the clock. It's extremely easy to burn a lot of time on this exam if you get stuck on a particular problem.",
+      "text": "Watch the clock. It's extremely easy to burn a lot of time on this exam if you get stuck on a particular problem.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Double check your entries in the web interface. Make sure you're doing things in the right order and that you've set up the prerequisites before adding services to the cluster. If you get it wrong, you could put your cluster into a weird state.",
+      "text": "Double check your entries in the web interface. Make sure you're doing things in the right order and that you've set up the prerequisites before adding services to the cluster. If you get it wrong, you could put your cluster into a weird state.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Use man pages. If you don't mess with GFS a lot, the man pages will save you in a pinch.",
+      "text": "Use man pages. If you don't mess with GFS a lot, the man pages will save you in a pinch.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Red Hat Enterprise Deployment and Systems Management",
+      "text": "Red Hat Enterprise Deployment and Systems Management"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If there's one exam where time management is critical, it's  EX401 . Importing data into the Satellite Server takes quite a bit of time and there's almost nothing you can do to speed it up. It probably goes without saying, but as with most long-running tasks, you'll want to run it in screen. The last thing you'd ever want is to abort the import due to an errant click or CTRL-C (I did it while practicing - it's aggravating).",
+      "text": "If there's one exam where time management is critical, it's  EX401 . Importing data into the Satellite Server takes quite a bit of time and there's almost nothing you can do to speed it up. It probably goes without saying, but as with most long-running tasks, you'll want to run it in screen. The last thing you'd ever want is to abort the import due to an errant click or CTRL-C (I did it while practicing - it's aggravating)."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "There are other test objectives which you can either complete or partially complete while you wait for the import to finish.",
+      "text": "There are other test objectives which you can either complete or partially complete while you wait for the import to finish."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Also, take the time to really dig into the Satellite Server web interface while your practicing for the exam. Knowing where to find the most common configuration items will really save some time when you're in the exam. You can sometimes get pretty bogged down in the interface so don't forget to use multiple tabs to keep your work organized.",
+      "text": "Also, take the time to really dig into the Satellite Server web interface while your practicing for the exam. Knowing where to find the most common configuration items will really save some time when you're in the exam. You can sometimes get pretty bogged down in the interface so don't forget to use multiple tabs to keep your work organized."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I felt like this exam was the easiest out of the bunch since you could go back and test every single question with good time management.  Did I mention how important time management was on this exam already?  If I forgot to mention it earlier, be sure to focus on time management for this test.",
+      "text": "I felt like this exam was the easiest out of the bunch since you could go back and test every single question with good time management.  Did I mention how important time management was on this exam already?  If I forgot to mention it earlier, be sure to focus on time management for this test."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Quick tips for EX401:",
+      "text": "Quick tips for EX401:"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Time management will make or break you on this test. Keep an eye on the clock and make sure you've done absolutely every piece of the exam that you can while you wait for the server to do its work.",
+      "text": "Time management will make or break you on this test. Keep an eye on the clock and make sure you've done absolutely every piece of the exam that you can while you wait for the server to do its work.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
       "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/groups/3"
@@ -824,8 +767,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Be patient. You'll feel like the RHCS web interface is mocking you when you're pressed for time.",
-      "text": "Be patient. You'll feel like the RHCS web interface is mocking you when you're pressed for time.",
+      "orig": "Scour the web interface. Keep a mental map in your mind where the big chunks of configuration items are.",
+      "text": "Scour the web interface. Keep a mental map in your mind where the big chunks of configuration items are.",
       "enumerated": false,
       "marker": "-"
     },
@@ -838,155 +781,13 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Watch the clock. It's extremely easy to burn a lot of time on this exam if you get stuck on a particular problem.",
-      "text": "Watch the clock. It's extremely easy to burn a lot of time on this exam if you get stuck on a particular problem.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/36",
-      "parent": {
-        "$ref": "#/groups/3"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Double check your entries in the web interface. Make sure you're doing things in the right order and that you've set up the prerequisites before adding services to the cluster. If you get it wrong, you could put your cluster into a weird state.",
-      "text": "Double check your entries in the web interface. Make sure you're doing things in the right order and that you've set up the prerequisites before adding services to the cluster. If you get it wrong, you could put your cluster into a weird state.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/37",
-      "parent": {
-        "$ref": "#/groups/3"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Use man pages. If you don't mess with GFS a lot, the man pages will save you in a pinch.",
-      "text": "Use man pages. If you don't mess with GFS a lot, the man pages will save you in a pinch.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/38",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Red Hat Enterprise Deployment and Systems Management",
-      "text": "Red Hat Enterprise Deployment and Systems Management"
-    },
-    {
-      "self_ref": "#/texts/39",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "If there's one exam where time management is critical, it's  EX401 . Importing data into the Satellite Server takes quite a bit of time and there's almost nothing you can do to speed it up. It probably goes without saying, but as with most long-running tasks, you'll want to run it in screen. The last thing you'd ever want is to abort the import due to an errant click or CTRL-C (I did it while practicing - it's aggravating).",
-      "text": "If there's one exam where time management is critical, it's  EX401 . Importing data into the Satellite Server takes quite a bit of time and there's almost nothing you can do to speed it up. It probably goes without saying, but as with most long-running tasks, you'll want to run it in screen. The last thing you'd ever want is to abort the import due to an errant click or CTRL-C (I did it while practicing - it's aggravating)."
-    },
-    {
-      "self_ref": "#/texts/40",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "There are other test objectives which you can either complete or partially complete while you wait for the import to finish.",
-      "text": "There are other test objectives which you can either complete or partially complete while you wait for the import to finish."
-    },
-    {
-      "self_ref": "#/texts/41",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Also, take the time to really dig into the Satellite Server web interface while your practicing for the exam. Knowing where to find the most common configuration items will really save some time when you're in the exam. You can sometimes get pretty bogged down in the interface so don't forget to use multiple tabs to keep your work organized.",
-      "text": "Also, take the time to really dig into the Satellite Server web interface while your practicing for the exam. Knowing where to find the most common configuration items will really save some time when you're in the exam. You can sometimes get pretty bogged down in the interface so don't forget to use multiple tabs to keep your work organized."
-    },
-    {
-      "self_ref": "#/texts/42",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "I felt like this exam was the easiest out of the bunch since you could go back and test every single question with good time management.  Did I mention how important time management was on this exam already?  If I forgot to mention it earlier, be sure to focus on time management for this test.",
-      "text": "I felt like this exam was the easiest out of the bunch since you could go back and test every single question with good time management.  Did I mention how important time management was on this exam already?  If I forgot to mention it earlier, be sure to focus on time management for this test."
-    },
-    {
-      "self_ref": "#/texts/43",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Quick tips for EX401:",
-      "text": "Quick tips for EX401:"
-    },
-    {
-      "self_ref": "#/texts/44",
-      "parent": {
-        "$ref": "#/groups/4"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Time management will make or break you on this test. Keep an eye on the clock and make sure you've done absolutely every piece of the exam that you can while you wait for the server to do its work.",
-      "text": "Time management will make or break you on this test. Keep an eye on the clock and make sure you've done absolutely every piece of the exam that you can while you wait for the server to do its work.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/45",
-      "parent": {
-        "$ref": "#/groups/4"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Scour the web interface. Keep a mental map in your mind where the big chunks of configuration items are.",
-      "text": "Scour the web interface. Keep a mental map in your mind where the big chunks of configuration items are.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/46",
-      "parent": {
-        "$ref": "#/groups/4"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "Go back and test everything. If you manage your time well, you should have enough time to verify each and every objective on this exam.",
       "text": "Go back and test everything. If you manage your time well, you should have enough time to verify each and every objective on this exam.",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -998,7 +799,7 @@
       "text": "Red Hat Enterprise Directory Services and Authentication"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -1010,7 +811,7 @@
       "text": "At first,  EX423  looks pretty straightforward. Red Hat's authentication configuration tools make LDAP authentication setup pretty easy. However, this exam comes with a lot of curveballs."
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -1022,7 +823,7 @@
       "text": "The GUI interface for the Directory Services component is a little frustrating to use. I found that the GUI stopped responding to keyboard input occasionally unless I clicked on another window and came back. If you misconfigure the SSL certificates in the interface, your LDAP server is down for the count. If you don't input the correct data into the setup scripts at the beginning, you might not notice it until much later when it's either too difficult to dig yourself out of the hole or it's too late to start over with a clean configuration."
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -1034,7 +835,7 @@
       "text": "I didn't feel pressed for time on this exam too much and that was pretty refreshing after taking the EX401 test. It's extremely critical to watch what you type and click on this exam. Some mistakes can be quickly corrected while others may require you to blow away the LDAP server configuration and re-provision the whole thing."
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -1046,9 +847,9 @@
       "text": "Quick tips for EX423:"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/41",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1060,9 +861,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/42",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1074,9 +875,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/43",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1088,7 +889,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -1100,7 +901,7 @@
       "text": "Red Hat Enterprise Security: Network Services"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -1112,7 +913,7 @@
       "text": "There's no sugar coating it -  EX333  is a beast. It's a six hour exam broken into two three-hour chunks. It covers a ton of material and I refer to it as \"the RHCE on steroids.\" You might argue that I thought it was hard since it was the last test and I was ready to be finished, but I really think this exam is a tough one."
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1124,7 +925,7 @@
       "text": "Practicing for the Kerberos and DNS objectives was the hardest for me. I just couldn't understand Kerberos, no matter how hard I tried. The realization that I would really have to learn it soon set in. I dug into the Kerberos design documentation on MIT's site, read the summaries on Wikipedia, and scoured the documentation available in the Kerberos RPM packages. Once I understood  why  Kerberos is set up the way it is and  why  the security measures are present, everything began to come together. I was able to remember the steps not because I was memorizing them, but because I understood how Kerberos worked."
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1136,7 +937,7 @@
       "text": "When you're working through the DNS objectives, keep an eye out for punctuation. I blew through a good 20 minutes in what seemed like the blink of an eye when I forgot a period in my TSIG key configuration while studying. Make sure you use the resources available to you, like "
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1152,7 +953,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1164,7 +965,7 @@
       "text": " and sample configs in "
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1180,7 +981,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1192,7 +993,7 @@
       "text": ". Get to know commands like "
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1208,7 +1009,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1220,7 +1021,7 @@
       "text": " really well."
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1232,7 +1033,7 @@
       "text": "If you're overwhelmed by OpenSSL's command line syntax, check out the "
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1248,7 +1049,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1260,9 +1061,9 @@
       "text": " script. There are some handy comments at the top of the script that explain how to use it. You can also pluck OpenSSL commands right out of the script if you need to run them yourself."
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/57",
       "parent": {
-        "$ref": "#/groups/6"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
@@ -1274,9 +1075,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/58",
       "parent": {
-        "$ref": "#/groups/6"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
@@ -1288,9 +1089,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/70",
+      "self_ref": "#/texts/59",
       "parent": {
-        "$ref": "#/groups/6"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
@@ -1302,7 +1103,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/71",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1314,7 +1115,7 @@
       "text": "Ranking the exams"
     },
     {
-      "self_ref": "#/texts/72",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1326,9 +1127,9 @@
       "text": "A couple of folks on Twitter asked me to rank the exams from most difficult to least difficult. Keep in mind that these are a little subjective since I was more familiar with some objectives than others for certain tests."
     },
     {
-      "self_ref": "#/texts/73",
+      "self_ref": "#/texts/62",
       "parent": {
-        "$ref": "#/groups/7"
+        "$ref": "#/groups/6"
       },
       "children": [],
       "content_layer": "body",
@@ -1340,9 +1141,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/74",
+      "self_ref": "#/texts/63",
       "parent": {
-        "$ref": "#/groups/7"
+        "$ref": "#/groups/6"
       },
       "children": [],
       "content_layer": "body",
@@ -1354,9 +1155,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/64",
       "parent": {
-        "$ref": "#/groups/7"
+        "$ref": "#/groups/6"
       },
       "children": [],
       "content_layer": "body",
@@ -1368,9 +1169,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/65",
       "parent": {
-        "$ref": "#/groups/7"
+        "$ref": "#/groups/6"
       },
       "children": [],
       "content_layer": "body",
@@ -1382,9 +1183,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/66",
       "parent": {
-        "$ref": "#/groups/7"
+        "$ref": "#/groups/6"
       },
       "children": [],
       "content_layer": "body",

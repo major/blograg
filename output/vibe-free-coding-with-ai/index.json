@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 15266122765352621658,
-    "filename": "index.md"
+    "binary_hash": 4788552169196902962,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,13 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
       },
       {
         "$ref": "#/texts/4"
@@ -187,103 +193,16 @@
       },
       {
         "$ref": "#/texts/58"
-      },
-      {
-        "$ref": "#/texts/59"
-      },
-      {
-        "$ref": "#/texts/60"
-      },
-      {
-        "$ref": "#/texts/61"
-      },
-      {
-        "$ref": "#/texts/62"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "author: Major Hayden date: '2025-05-07' Yes, I do write code with help from an LLM, but I wouldn't call it vibe coding. Let's dig into how  (and why)  I do it. \ud83e\udd16 tags: ",
-      "text": "author: Major Hayden date: '2025-05-07' Yes, I do write code with help from an LLM, but I wouldn't call it vibe coding. Let's dig into how  (and why)  I do it. \ud83e\udd16 tags: "
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "ai",
-      "text": "ai",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "general advice",
-      "text": "general advice",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "vscode",
-      "text": "vscode",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -295,7 +214,7 @@
       "text": "The internet has been in quite a ruckus about  vibe coding  recently. Heck, there's already a  Wikipedia  page about it! It must be real if it has a Wikipedia page! \ud83d\ude06"
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -307,7 +226,7 @@
       "text": "Long story short, vibe coding involves asking a large language model (LLM), the foundation of an AI platform, to write code for you. LLMs are actually quite good at writing code. It turns out that they're often terrible at understanding nuance or stitching complex code relationships together."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -319,7 +238,7 @@
       "text": "I use AI all the time when I write software, but I wouldn't call it  vibe coding . LLMs in my development environment help me catch errors more quickly, highlight improvements, and reduce time spent on very tedious tasks."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -331,7 +250,7 @@
       "text": "This post covers my use cases for AI while writing code and my current setup."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -343,7 +262,7 @@
       "text": "My setup"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -355,7 +274,7 @@
       "text": "About 90% of my development happens in Visual Studio Code, or VS Code. The rest is in vim. There's a helpful  GitHub Copilot extension for VS Code  that integrates really well to help with errors, give auto-complete suggestions, and answer questions."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -367,7 +286,7 @@
       "text": "GitHub offers a totally free GitHub Copilot subscription, but if you're a maintainer of a popular open source project or an avid open source contributor, they currently offer  Pro subscriptions  at no cost. This free Pro offering could change at any time, so be prepared for that. \ud83d\ude09"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -379,7 +298,7 @@
       "text": "AI use cases"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -391,7 +310,7 @@
       "text": "I use AI in several different ways when I write code."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -404,7 +323,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -416,7 +335,7 @@
       "text": "Most of my development is done in Python and I'm almost always coding with "
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -432,7 +351,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -444,7 +363,7 @@
       "text": " and "
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -460,7 +379,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -472,7 +391,7 @@
       "text": ". This means that I run into some linting problems from time to time and sometimes I forget to put a type annotation for functions or arguments. Existing non-AI plugins catch most of these mistakes and usually the fixes are easy. Sometimes they're difficult."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -484,7 +403,7 @@
       "text": "For those difficult times, it's handy to ask for some AI help, especially when I haven't used a specific python module before. VS Code gives me a little sparkle emoji underneath the function name and offers to fix the problem for me."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -496,7 +415,7 @@
       "text": "This has helped recently at work as I've worked with llama-index extensively and determining which type is returned from a function can be challenging. Sometimes it's a base model being returned, but sometimes it's a different class that inherits a base class. Sure, I could dig through documentation or wade through the llama-index code for that, but that's tedious work. I'd rather get a suggestion from Copilot and confirm that it's correct. That's a lot easier than digging through the code to find the right answer."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -509,7 +428,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -521,7 +440,7 @@
       "text": "How many times have you been working on a complex project and you think:"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -533,7 +452,7 @@
       "text": "Who wrote this? I have no idea what's going on. Why is this even here?"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -545,7 +464,7 @@
       "text": "I'll often highlight the code in question and ask for an interpretation from the LLM. Since Copilot has access to more files in the project, it's able to connect the dots with functions and methods from other files."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -557,7 +476,7 @@
       "text": "This helps me better understand the project in less time. It also helps me learn new methods for doing things (even if those methods might be terrible)."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -570,7 +489,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -582,7 +501,7 @@
       "text": "Errors sometimes still sneak into the code even with careful linting and strict type checking. I'll often ask Copilot to write a test for a function for me with branch coverage. Branch coverage catches those situations where code might be skipped based on an "
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -598,7 +517,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -610,7 +529,7 @@
       "text": "/"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -626,7 +545,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -638,7 +557,7 @@
       "text": " clause and it ensures you're testing all possible code paths. Sometimes Copilot will write a test that checks a condition I didn't consider. That's a great opportunity to return to the original code and think through the logic once more."
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -650,7 +569,7 @@
       "text": "There are other situations where a test fails and it's difficult to understand why. I'll usually bring up the test on the right and the code on the left to think through the code path in my head. Then there are those times where I ask Copilot to give a suggestion and it points to the exact spot in my code where I didn't consider a specific condition. Strings and byte strings catch me offsides quite often. \ud83e\udd2d"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -663,7 +582,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -675,7 +594,7 @@
       "text": "We've all been in that situation where we know what needs to be done, we write a few functions, and then think \"Gosh, that seems like too much code\" or \"That looks convoluted\". I'll sometimes ask Copilot for a suggestion to simplify a function or block of code. I rarely take the whole suggestion, but it reminds me of patterns I've forgotten or it introduces me to new ones I haven't seen before."
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -687,7 +606,7 @@
       "text": "As an example, I was working on some async python code that needed to be wrapped in a timeout. The timeout seemed to be working fine, but then the original function being awaited kept running until it timed out later. That caused exceptions to be thrown via Sentry and it was extremely annoying."
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -699,7 +618,7 @@
       "text": "What I really needed is a way to stop the awaited function once the timeout wrapper was reached."
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -711,7 +630,7 @@
       "text": "I asked Copilot for help with something like:"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -723,7 +642,7 @@
       "text": "This function keeps running after the timeout is reached and it causes another exception. I need to kill the awaited function as soon as the timeout is reached."
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -735,7 +654,7 @@
       "text": "Sure enough, Copilot came back with a suggestion to use "
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -751,7 +670,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -763,7 +682,7 @@
       "text": ". I'd never seen that before! The docs highlighted the big difference between "
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -779,7 +698,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -791,7 +710,7 @@
       "text": " and "
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -807,7 +726,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -819,7 +738,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -831,7 +750,7 @@
       "text": "If a timeout occurs, it cancels the task and raises TimeoutError."
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -843,7 +762,7 @@
       "text": "Perfect! \ud83c\udf89"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -856,7 +775,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -868,7 +787,7 @@
       "text": "There are many occasions where Copilot guesses what I'm thinking next, especially as I build out scaffolding for a new class or write documentation for a function. As an example, I was writing an OpenShift template last month and I was bringing over some templated "
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -884,7 +803,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -896,7 +815,7 @@
       "text": " and "
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -912,7 +831,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -924,7 +843,7 @@
       "text": " definitions. I customized the template with lots of variables for the image source, environment variables, and volume mounts."
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -936,7 +855,7 @@
       "text": "OpenShift templates have a long section at the bottom where you define the default values for the variables used in your template. As I began typing the first variable name, Copilot suggested the variable name, a short definition, and the default value. The default value was correct, but the description was a little off. After a quick fix of the description, I moved to the next variable and Copilot started filling in the next one from the template. I gradually just tab completed the remainder of the file."
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -948,7 +867,7 @@
       "text": "Many of the descriptions needed some tweaks here and there and the default variables needed to be updated. However, all of that structure that I'd be copying and pasting repeatedly was all done for me. That saved me plenty of time and reduced the chance of making a syntax error."
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -960,7 +879,7 @@
       "text": "Conclusion"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -972,7 +891,7 @@
       "text": "GitHub Copilot in VS Code feels like a partner that is looking over my shoulder as I work. I can choose when to engage with a suggestion or ask for additional help. It's also a great way to get un-stuck when you're in a tight spot."
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -984,7 +903,7 @@
       "text": "None of this is a replacement for fully understanding what you're being asked to write and being knowledgeable about how your application fits together."
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -996,7 +915,7 @@
       "text": "Some might argue that an AI coding assistant is some kind of  crutch [^crutch]. I'd argue that this depends completely on how you use it. If you use it to write code for you without understanding the code, then yes, it's a crutch."
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1008,7 +927,7 @@
       "text": "If you use it to help you understand the code, catch errors, and improve your code, then it's a useful virtual partner in your coding adventures. \ud83e\uddd7\u200d\u2642\ufe0f"
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1020,7 +939,7 @@
       "text": "[^crutch]: In the realm of US English, a crutch is a device that helps you walk when you have an injury. Many people use it as a metaphor for something that helps you do something you can't do on your own. I've had people tell me that using VS Code is a crutch. Some people even say that  vim  is a crutch."
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },

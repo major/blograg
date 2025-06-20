@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 4735861192004749973,
-    "filename": "index.md"
+    "binary_hash": 14494002467932325887,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,19 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
       },
       {
         "$ref": "#/texts/6"
@@ -42,13 +54,7 @@
         "$ref": "#/texts/11"
       },
       {
-        "$ref": "#/texts/12"
-      },
-      {
-        "$ref": "#/texts/13"
-      },
-      {
-        "$ref": "#/texts/14"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/15"
@@ -60,13 +66,16 @@
         "$ref": "#/texts/17"
       },
       {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
         "$ref": "#/groups/1"
-      },
-      {
-        "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
       },
       {
         "$ref": "#/texts/23"
@@ -81,7 +90,10 @@
         "$ref": "#/texts/26"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
       },
       {
         "$ref": "#/texts/29"
@@ -121,24 +133,6 @@
       },
       {
         "$ref": "#/texts/41"
-      },
-      {
-        "$ref": "#/texts/42"
-      },
-      {
-        "$ref": "#/texts/43"
-      },
-      {
-        "$ref": "#/texts/44"
-      },
-      {
-        "$ref": "#/texts/45"
-      },
-      {
-        "$ref": "#/texts/46"
-      },
-      {
-        "$ref": "#/texts/47"
       }
     ],
     "content_layer": "body",
@@ -153,19 +147,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/12"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/13"
         },
         {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
+          "$ref": "#/texts/14"
         }
       ],
       "content_layer": "body",
@@ -179,30 +167,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/18"
+          "$ref": "#/texts/21"
         },
         {
-          "$ref": "#/texts/19"
-        },
-        {
-          "$ref": "#/texts/20"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/27"
-        },
-        {
-          "$ref": "#/texts/28"
+          "$ref": "#/texts/22"
         }
       ],
       "content_layer": "body",
@@ -220,93 +188,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2019/11/18/monitoring-openshift-cron-jobs/",
-      "text": "/2019/11/18/monitoring-openshift-cron-jobs/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "kubernetes",
-      "text": "kubernetes",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "openshift",
-      "text": "openshift",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "shell",
-      "text": "shell",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Moving applications into an entirely containerized deployment, such as OpenShift or Kubernetes, requires care and attention. One aspect of both that is often overlooked is scheduled jobs, or cron jobs. \u23f0",
       "text": "Moving applications into an entirely containerized deployment, such as OpenShift or Kubernetes, requires care and attention. One aspect of both that is often overlooked is scheduled jobs, or cron jobs. \u23f0"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -318,7 +204,7 @@
       "text": "Cron jobs in OpenShift allow you to run certain containers on a regular basis and execute certain applications or scripts in those containers. You can use them to trigger GitLab CI pipelines, run certain housekeeping tasks in web applications, or run backups."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -330,7 +216,7 @@
       "text": "This post will cover a quick example of a cron job and how to monitor it."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -342,7 +228,7 @@
       "text": "Note: Almost all of these commands will work in a Kubernetes deployment by changing "
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -358,7 +244,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -370,7 +256,7 @@
       "text": " to "
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -386,7 +272,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -398,7 +284,7 @@
       "text": ", but your mileage may vary based on your Kubernetes version. All of these commands were tested on OpenShift 3.11."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -411,7 +297,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -423,7 +309,7 @@
       "text": "Here is a really simple cron job that gets the current date:"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -439,7 +325,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -451,9 +337,9 @@
       "text": "The job definition says:"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/12",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -465,9 +351,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -479,9 +365,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/14",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -493,7 +379,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -505,7 +391,7 @@
       "text": "Load this into OpenShift with: "
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -521,7 +407,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -533,7 +419,7 @@
       "text": "If you want to make more complex jobs, review the  OpenShift documentation on cron job objects . The  cron job API documentation  has much more detail."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -546,7 +432,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -558,7 +444,7 @@
       "text": "Cron jobs come with certain limitations and these are explained in the Kuberntes documentation on cron jobs . If a cron job is  missed  for a certain period of time, the scheduler will think something has gone horribly wrong and it won't schedule new jobs."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -570,9 +456,9 @@
       "text": "These situations include:"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/21",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -584,9 +470,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/22",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -598,7 +484,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -610,7 +496,7 @@
       "text": "If 100 of the jobs are missed, the scheduler will not start any new jobs. This could be a disaster for your application and it's a good place to add monitoring."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -623,7 +509,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -635,7 +521,7 @@
       "text": "Luckily, OpenShift makes an API available for checking on these situations where cron jobs are missed. The API sits under the following URI:"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -651,7 +537,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -663,7 +549,7 @@
       "text": "For our "
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -679,7 +565,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -691,7 +577,7 @@
       "text": " example above, this would be:"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -707,7 +593,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -719,7 +605,7 @@
       "text": "We can monitor this job using two handy tools: "
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -735,7 +621,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -747,7 +633,7 @@
       "text": " and "
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -763,7 +649,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -775,7 +661,7 @@
       "text": "."
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -791,7 +677,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -803,7 +689,7 @@
       "text": "Note: Getting tokens for the curl request is covered in  OpenShift's Authentication documentation ."
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -815,7 +701,7 @@
       "text": "If the cron job is running normally, the script output should be:"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -831,7 +717,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -843,7 +729,7 @@
       "text": "And when things go wrong:"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },

@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 3101987784572227011,
-    "filename": "index.md"
+    "binary_hash": 14743487501459428916,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,16 +21,19 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
         "$ref": "#/groups/0"
-      },
-      {
-        "$ref": "#/texts/6"
-      },
-      {
-        "$ref": "#/texts/7"
-      },
-      {
-        "$ref": "#/texts/8"
       },
       {
         "$ref": "#/texts/9"
@@ -39,7 +42,16 @@
         "$ref": "#/texts/10"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
       },
       {
         "$ref": "#/texts/15"
@@ -51,25 +63,25 @@
         "$ref": "#/texts/17"
       },
       {
-        "$ref": "#/texts/18"
+        "$ref": "#/groups/1"
       },
       {
-        "$ref": "#/texts/19"
+        "$ref": "#/texts/24"
       },
       {
-        "$ref": "#/texts/20"
+        "$ref": "#/texts/25"
       },
       {
-        "$ref": "#/texts/21"
+        "$ref": "#/texts/26"
       },
       {
-        "$ref": "#/texts/22"
+        "$ref": "#/texts/27"
       },
       {
-        "$ref": "#/texts/23"
+        "$ref": "#/texts/28"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/29"
       },
       {
         "$ref": "#/texts/30"
@@ -99,16 +111,7 @@
         "$ref": "#/texts/38"
       },
       {
-        "$ref": "#/texts/39"
-      },
-      {
-        "$ref": "#/texts/40"
-      },
-      {
-        "$ref": "#/texts/41"
-      },
-      {
-        "$ref": "#/texts/42"
+        "$ref": "#/groups/2"
       },
       {
         "$ref": "#/texts/43"
@@ -117,16 +120,22 @@
         "$ref": "#/texts/44"
       },
       {
-        "$ref": "#/groups/3"
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
       },
       {
         "$ref": "#/texts/49"
       },
       {
-        "$ref": "#/texts/50"
-      },
-      {
-        "$ref": "#/texts/51"
+        "$ref": "#/groups/3"
       },
       {
         "$ref": "#/texts/52"
@@ -141,7 +150,10 @@
         "$ref": "#/texts/55"
       },
       {
-        "$ref": "#/groups/4"
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
       },
       {
         "$ref": "#/texts/58"
@@ -187,24 +199,6 @@
       },
       {
         "$ref": "#/texts/72"
-      },
-      {
-        "$ref": "#/texts/73"
-      },
-      {
-        "$ref": "#/texts/74"
-      },
-      {
-        "$ref": "#/texts/75"
-      },
-      {
-        "$ref": "#/texts/76"
-      },
-      {
-        "$ref": "#/texts/77"
-      },
-      {
-        "$ref": "#/texts/78"
       }
     ],
     "content_layer": "body",
@@ -219,19 +213,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
           "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
         }
       ],
       "content_layer": "body",
@@ -245,16 +236,22 @@
       },
       "children": [
         {
-          "$ref": "#/texts/11"
+          "$ref": "#/texts/18"
         },
         {
-          "$ref": "#/texts/12"
+          "$ref": "#/texts/19"
         },
         {
-          "$ref": "#/texts/13"
+          "$ref": "#/texts/20"
         },
         {
-          "$ref": "#/texts/14"
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
         }
       ],
       "content_layer": "body",
@@ -268,27 +265,21 @@
       },
       "children": [
         {
-          "$ref": "#/texts/24"
+          "$ref": "#/texts/39"
         },
         {
-          "$ref": "#/texts/25"
+          "$ref": "#/texts/40"
         },
         {
-          "$ref": "#/texts/26"
+          "$ref": "#/texts/41"
         },
         {
-          "$ref": "#/texts/27"
-        },
-        {
-          "$ref": "#/texts/28"
-        },
-        {
-          "$ref": "#/texts/29"
+          "$ref": "#/texts/42"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "list"
+      "label": "ordered_list"
     },
     {
       "self_ref": "#/groups/3",
@@ -297,33 +288,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/45"
+          "$ref": "#/texts/50"
         },
         {
-          "$ref": "#/texts/46"
-        },
-        {
-          "$ref": "#/texts/47"
-        },
-        {
-          "$ref": "#/texts/48"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "ordered_list"
-    },
-    {
-      "self_ref": "#/groups/4",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/56"
-        },
-        {
-          "$ref": "#/texts/57"
+          "$ref": "#/texts/51"
         }
       ],
       "content_layer": "body",
@@ -341,93 +309,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2019/09/11/deploy-monit-in-openshift/",
-      "text": "/2019/09/11/deploy-monit-in-openshift/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "monit",
-      "text": "monit",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "monitoring",
-      "text": "monitoring",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "openshift",
-      "text": "openshift",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Monit  is a tried-and-true method for monitoring all kinds of systems, services, and network endpoints. Deploying monit is easy. There's only one binary daemon to run and it reads monitoring configuration from files in a directory you specify.",
       "text": "Monit  is a tried-and-true method for monitoring all kinds of systems, services, and network endpoints. Deploying monit is easy. There's only one binary daemon to run and it reads monitoring configuration from files in a directory you specify."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -439,7 +325,7 @@
       "text": "Most Linux distributions have a package for monit and the package usually contains some basic configuration along with a systemd unit file to run the daemon reliably."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -451,7 +337,7 @@
       "text": "However, this post is all about how to deploy it inside OpenShift. Deploying monit inside OpenShift allows you to monitor services inside OpenShift that might not have a route or a NodePort configured, but you can monitor systems outside OpenShift, too."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -464,7 +350,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -476,9 +362,9 @@
       "text": "Before we can put monit into a container, we need to think about what it requires. At the most basic level, we will need:"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -490,9 +376,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -504,9 +390,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -518,9 +404,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -532,7 +418,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -544,7 +430,7 @@
       "text": "In my case, some of the scripts I want to run require "
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -560,7 +446,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -572,7 +458,7 @@
       "text": ", "
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -588,7 +474,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -600,7 +486,7 @@
       "text": " (for complex HTTP/JSON requests), and "
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -616,7 +502,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -628,7 +514,7 @@
       "text": " (for parsing json). I've added those, along with some requirements for the monit binary, to my container build file:"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -644,7 +530,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -656,9 +542,9 @@
       "text": "Let's break down what's here in the container build file:"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/18",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -670,9 +556,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/19",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -684,9 +570,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/20",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -698,9 +584,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/21",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -712,9 +598,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/22",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -726,9 +612,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/23",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -740,7 +626,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -752,7 +638,7 @@
       "text": "The last three parts help us run with OpenShift's strict security requirements."
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -765,7 +651,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -777,7 +663,7 @@
       "text": "Monit has some strict security requirements for startup. It requires that the monit daemon is started with the same user/group combination that owns the initial configuration file ("
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -793,7 +679,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -805,7 +691,7 @@
       "text": "). That's why we removed the "
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -821,7 +707,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -833,7 +719,7 @@
       "text": "user/group  and  made "
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -849,7 +735,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -861,7 +747,7 @@
       "text": " and "
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -877,7 +763,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -889,7 +775,7 @@
       "text": " writable during the build step. We need to add those back in once the container starts and we've received our arbitrary UID from OpenShift."
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -901,7 +787,7 @@
       "text": "(For more on OpenShift's arbitrary UIDs, read my other post about  Running Ansible in OpenShift with arbitrary UIDs .)"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -913,7 +799,7 @@
       "text": "Here's the startup script:"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -929,7 +815,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -941,9 +827,9 @@
       "text": "Let's talk about what is happening in the script:"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/39",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -955,9 +841,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/40",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -969,9 +855,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/41",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -983,9 +869,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/42",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -997,7 +883,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -1009,7 +895,7 @@
       "text": "OpenShift will make an emptyDir volume in "
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -1025,7 +911,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -1037,7 +923,7 @@
       "text": " that we can modify since we specified a volume in the container build file."
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1050,7 +936,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1062,7 +948,7 @@
       "text": "Now that we have a container and a startup script, it's time to deploy monit in OpenShift."
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1078,7 +964,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1090,9 +976,9 @@
       "text": "There is a lot of text here, but there are two important parts:"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/50",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -1104,9 +990,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/51",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -1118,7 +1004,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1130,7 +1016,7 @@
       "text": "Next comes the service (which allows the monit web port to be exposed inside the OpenShift cluster):"
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1146,7 +1032,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1158,7 +1044,7 @@
       "text": "And finally, the route (which exposes the monit web port service  outside  the OpenShift cluster):"
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1174,7 +1060,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1187,7 +1073,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1199,7 +1085,7 @@
       "text": "The deploymentConfig for monit refers to a configMap called "
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1215,7 +1101,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1227,7 +1113,7 @@
       "text": ". This config map contains all of the additional monitoring configuration for monit outside of the "
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1243,7 +1129,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1255,7 +1141,7 @@
       "text": ". Here is a basic configMap for checking that"
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/62",
       "parent": {
         "$ref": "#/body"
       },
@@ -1271,7 +1157,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/63",
       "parent": {
         "$ref": "#/body"
       },
@@ -1283,7 +1169,7 @@
       "text": " is accessible:"
     },
     {
-      "self_ref": "#/texts/70",
+      "self_ref": "#/texts/64",
       "parent": {
         "$ref": "#/body"
       },
@@ -1299,7 +1185,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/71",
+      "self_ref": "#/texts/65",
       "parent": {
         "$ref": "#/body"
       },
@@ -1311,7 +1197,7 @@
       "text": "This configuration will check "
     },
     {
-      "self_ref": "#/texts/72",
+      "self_ref": "#/texts/66",
       "parent": {
         "$ref": "#/body"
       },
@@ -1327,7 +1213,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/73",
+      "self_ref": "#/texts/67",
       "parent": {
         "$ref": "#/body"
       },
@@ -1339,7 +1225,7 @@
       "text": " and only alert if the check fails for two check periods. Each check period is 30 seconds, so the site would need to be inaccessible for 60 seconds before an alert would be sent."
     },
     {
-      "self_ref": "#/texts/74",
+      "self_ref": "#/texts/68",
       "parent": {
         "$ref": "#/body"
       },
@@ -1351,7 +1237,7 @@
       "text": "Also, there is a second check that runs a script. Let's deploy the script to OpenShift as well:"
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/69",
       "parent": {
         "$ref": "#/body"
       },
@@ -1367,7 +1253,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/70",
       "parent": {
         "$ref": "#/body"
       },
@@ -1379,7 +1265,7 @@
       "text": "Use "
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/71",
       "parent": {
         "$ref": "#/body"
       },
@@ -1395,7 +1281,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },

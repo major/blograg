@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 6042942994576935837,
-    "filename": "index.md"
+    "binary_hash": 6904950049280363974,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -24,49 +24,43 @@
         "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/4"
+        "$ref": "#/texts/2"
       },
       {
         "$ref": "#/groups/1"
       },
       {
-        "$ref": "#/texts/6"
+        "$ref": "#/texts/4"
       },
       {
         "$ref": "#/groups/2"
       },
       {
-        "$ref": "#/texts/8"
+        "$ref": "#/texts/6"
       },
       {
         "$ref": "#/groups/3"
       },
       {
-        "$ref": "#/texts/10"
+        "$ref": "#/texts/8"
       },
       {
         "$ref": "#/groups/4"
       },
       {
-        "$ref": "#/texts/12"
+        "$ref": "#/texts/10"
       },
       {
         "$ref": "#/groups/5"
       },
       {
-        "$ref": "#/texts/14"
+        "$ref": "#/texts/12"
       },
       {
         "$ref": "#/groups/6"
       },
       {
-        "$ref": "#/texts/16"
-      },
-      {
-        "$ref": "#/groups/7"
-      },
-      {
-        "$ref": "#/texts/18"
+        "$ref": "#/texts/14"
       }
     ],
     "content_layer": "body",
@@ -82,17 +76,11 @@
       "children": [
         {
           "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "list"
+      "label": "ordered_list"
     },
     {
       "self_ref": "#/groups/1",
@@ -101,7 +89,7 @@
       },
       "children": [
         {
-          "$ref": "#/texts/5"
+          "$ref": "#/texts/3"
         }
       ],
       "content_layer": "body",
@@ -115,7 +103,7 @@
       },
       "children": [
         {
-          "$ref": "#/texts/7"
+          "$ref": "#/texts/5"
         }
       ],
       "content_layer": "body",
@@ -129,7 +117,7 @@
       },
       "children": [
         {
-          "$ref": "#/texts/9"
+          "$ref": "#/texts/7"
         }
       ],
       "content_layer": "body",
@@ -143,7 +131,7 @@
       },
       "children": [
         {
-          "$ref": "#/texts/11"
+          "$ref": "#/texts/9"
         }
       ],
       "content_layer": "body",
@@ -157,7 +145,7 @@
       },
       "children": [
         {
-          "$ref": "#/texts/13"
+          "$ref": "#/texts/11"
         }
       ],
       "content_layer": "body",
@@ -171,21 +159,7 @@
       },
       "children": [
         {
-          "$ref": "#/texts/15"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "ordered_list"
-    },
-    {
-      "self_ref": "#/groups/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/17"
+          "$ref": "#/texts/13"
         }
       ],
       "content_layer": "body",
@@ -203,67 +177,13 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "MySQL replication may sound complicated, but it can be done easily. Here's a quick 7-step guide:",
+      "text": "MySQL replication may sound complicated, but it can be done easily. Here's a quick 7-step guide:"
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2007/12/31/seven-step-mysql-replication/",
-      "text": "/2007/12/31/seven-step-mysql-replication/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "database",
-      "text": "database",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "mysql",
-      "text": "mysql",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "MySQL replication may sound complicated, but it can be done easily. Here's a quick 7-step guide:",
-      "text": "MySQL replication may sound complicated, but it can be done easily. Here's a quick 7-step guide:"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -275,7 +195,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -291,9 +211,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -305,7 +225,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -321,9 +241,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -335,7 +255,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -351,9 +271,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -365,7 +285,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -381,9 +301,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -395,7 +315,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -411,9 +331,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/groups/6"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
@@ -425,7 +345,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -441,9 +361,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/groups/7"
+        "$ref": "#/groups/6"
       },
       "children": [],
       "content_layer": "body",
@@ -455,7 +375,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },

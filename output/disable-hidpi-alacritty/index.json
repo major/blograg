@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 4026313317718008323,
-    "filename": "index.md"
+    "binary_hash": 8880221446641750778,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,22 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
         "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
       },
       {
         "$ref": "#/texts/8"
@@ -30,7 +45,10 @@
         "$ref": "#/texts/9"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
       },
       {
         "$ref": "#/texts/12"
@@ -82,30 +100,6 @@
       },
       {
         "$ref": "#/texts/28"
-      },
-      {
-        "$ref": "#/texts/29"
-      },
-      {
-        "$ref": "#/texts/30"
-      },
-      {
-        "$ref": "#/texts/31"
-      },
-      {
-        "$ref": "#/texts/32"
-      },
-      {
-        "$ref": "#/texts/33"
-      },
-      {
-        "$ref": "#/texts/34"
-      },
-      {
-        "$ref": "#/texts/35"
-      },
-      {
-        "$ref": "#/texts/36"
       }
     ],
     "content_layer": "body",
@@ -120,42 +114,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
           "$ref": "#/texts/2"
         },
         {
           "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/10"
-        },
-        {
-          "$ref": "#/texts/11"
         }
       ],
       "content_layer": "body",
@@ -173,22 +135,20 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "The  alacritty  terminal remains my favorite terminal because of its simple configuration, regular expression hints, and incredible performance. It's written in Rust and it uses OpenGL to accelerate the terminal output.",
+      "text": "The  alacritty  terminal remains my favorite terminal because of its simple configuration, regular expression hints, and incredible performance. It's written in Rust and it uses OpenGL to accelerate the terminal output."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "/2022/03/25/disable-hidpi-alacritty/",
-      "text": "/2022/03/25/disable-hidpi-alacritty/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "I also like high DPI displays. My desktop has two 4K monitors (3840x2160) and my  X1 Nano  (2160x1350) crams plenty of pixels into a small display. With Linux, you get two options:",
+      "text": "I also like high DPI displays. My desktop has two 4K monitors (3840x2160) and my  X1 Nano  (2160x1350) crams plenty of pixels into a small display. With Linux, you get two options:"
     },
     {
       "self_ref": "#/texts/2",
@@ -199,8 +159,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "alacritty",
-      "text": "alacritty",
+      "orig": "Use HiDPI with larger fonts for a clear, crisp display. It really does look pretty.",
+      "text": "Use HiDPI with larger fonts for a clear, crisp display. It really does look pretty.",
       "enumerated": false,
       "marker": "-"
     },
@@ -213,121 +173,13 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "hidpi",
-      "text": "hidpi",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "i3",
-      "text": "i3",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "terminal",
-      "text": "terminal",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "The  alacritty  terminal remains my favorite terminal because of its simple configuration, regular expression hints, and incredible performance. It's written in Rust and it uses OpenGL to accelerate the terminal output.",
-      "text": "The  alacritty  terminal remains my favorite terminal because of its simple configuration, regular expression hints, and incredible performance. It's written in Rust and it uses OpenGL to accelerate the terminal output."
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "I also like high DPI displays. My desktop has two 4K monitors (3840x2160) and my  X1 Nano  (2160x1350) crams plenty of pixels into a small display. With Linux, you get two options:",
-      "text": "I also like high DPI displays. My desktop has two 4K monitors (3840x2160) and my  X1 Nano  (2160x1350) crams plenty of pixels into a small display. With Linux, you get two options:"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Use HiDPI with larger fonts for a clear, crisp display. It really does look pretty.",
-      "text": "Use HiDPI with larger fonts for a clear, crisp display. It really does look pretty.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "Disable HiDPI and get a lot more screen real estate with smaller fonts. Prepare to",
       "text": "Disable HiDPI and get a lot more screen real estate with smaller fonts. Prepare to",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -339,7 +191,7 @@
       "text": "I prefer more screen real estate (and I wear glasses), so I usually disable HiDPI on most of my machines. After wiping my laptop and starting over recently, I realized my alacritty terminals had massive fonts again. If only I had written down how I fixed it. \ud83e\udd14"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -351,7 +203,7 @@
       "text": "Lucky for you, I'm writing about those options here:"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -364,7 +216,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -376,7 +228,7 @@
       "text": "You might be saying \"just lower the font size in the alacritty configuration\" and call it a day. Well, that method leaves you with smaller fonts, sure, but then there are gaps in spacing between character and lines. It just looks clunky."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -388,7 +240,7 @@
       "text": "There's an environment variable we can use: "
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -404,7 +256,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -416,7 +268,7 @@
       "text": ". To disable HiDPI and use pixels at a 1:1 ratio, set the following option in your alacritty configuration file (usually "
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -432,7 +284,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -444,7 +296,7 @@
       "text": "):"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -460,7 +312,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -472,7 +324,7 @@
       "text": "Close all of your alacritty terminals and open a new one. You should now see smaller fonts and a terminal with HiDPI disabled."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -485,7 +337,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -497,7 +349,7 @@
       "text": "In many of the full-featured window manager, such as GNOME or KDE, you can disable HiDPI within the system settings. The i3 window manager requires some manual work (as you might expect)."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -509,7 +361,7 @@
       "text": "From the old days of X comes "
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -525,7 +377,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -537,7 +389,7 @@
       "text": "! These  X resources  set all kinds of configuration options for all applications running under X. Here's my current"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -553,7 +405,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -565,7 +417,7 @@
       "text": " file:"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -581,7 +433,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -593,7 +445,7 @@
       "text": "The first line sets the DPI to 96 (which is my preference). Increasing that number will take you closer to a HiDPI setting and potentially make text crisper, but larger. Lowering it will make text smaller and sometimes a bit ugly if you go below 85."
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -605,7 +457,7 @@
       "text": "To use X resources, you first need "
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -621,7 +473,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -633,7 +485,7 @@
       "text": ". On Fedora, install it, load your current configuration, and query it:"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -649,7 +501,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },

@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 5888378685471878413,
-    "filename": "index.md"
+    "binary_hash": 4555015332459392638,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,25 +21,25 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
         "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/3"
+        "$ref": "#/texts/9"
       },
       {
-        "$ref": "#/texts/4"
-      },
-      {
-        "$ref": "#/texts/5"
+        "$ref": "#/texts/10"
       },
       {
         "$ref": "#/groups/1"
       },
       {
-        "$ref": "#/texts/12"
-      },
-      {
-        "$ref": "#/texts/13"
+        "$ref": "#/texts/17"
       },
       {
         "$ref": "#/groups/2"
@@ -60,7 +60,10 @@
         "$ref": "#/texts/26"
       },
       {
-        "$ref": "#/groups/5"
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
       },
       {
         "$ref": "#/texts/29"
@@ -97,15 +100,6 @@
       },
       {
         "$ref": "#/texts/40"
-      },
-      {
-        "$ref": "#/texts/41"
-      },
-      {
-        "$ref": "#/texts/42"
-      },
-      {
-        "$ref": "#/texts/43"
       }
     ],
     "content_layer": "body",
@@ -120,10 +114,22 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/3"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
         }
       ],
       "content_layer": "body",
@@ -137,22 +143,22 @@
       },
       "children": [
         {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        },
-        {
-          "$ref": "#/texts/8"
-        },
-        {
-          "$ref": "#/texts/9"
-        },
-        {
-          "$ref": "#/texts/10"
-        },
-        {
           "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
         }
       ],
       "content_layer": "body",
@@ -165,18 +171,6 @@
         "$ref": "#/body"
       },
       "children": [
-        {
-          "$ref": "#/texts/14"
-        },
-        {
-          "$ref": "#/texts/15"
-        },
-        {
-          "$ref": "#/texts/16"
-        },
-        {
-          "$ref": "#/texts/17"
-        },
         {
           "$ref": "#/texts/18"
         },
@@ -221,23 +215,6 @@
       "content_layer": "body",
       "name": "list",
       "label": "list"
-    },
-    {
-      "self_ref": "#/groups/5",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/27"
-        },
-        {
-          "$ref": "#/texts/28"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
     }
   ],
   "texts": [
@@ -250,51 +227,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2007/08/08/mysqls-query-cache-explained/",
-      "text": "/2007/08/08/mysqls-query-cache-explained/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "database",
-      "text": "database",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "An often misused and misunderstood aspect of MySQL is the query cache. I've seen blog post after blog post online talking about query caching as the most integral and important feature in MySQL. Many of these same posts advocate cranking the variables to the max to give you \"ultimate performance.\" One of the worst things you can do to a MySQL server is crank your variables up and hope for the best. I'll try to clear some things up here.",
       "text": "An often misused and misunderstood aspect of MySQL is the query cache. I've seen blog post after blog post online talking about query caching as the most integral and important feature in MySQL. Many of these same posts advocate cranking the variables to the max to give you \"ultimate performance.\" One of the worst things you can do to a MySQL server is crank your variables up and hope for the best. I'll try to clear some things up here."
     },
     {
-      "self_ref": "#/texts/4",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -306,7 +243,7 @@
       "text": "The MySQL query cache is available in MySQL 4.0, 4.1, 5.0, 5.1, and 6.0 (3.23 has no query cache). The goal of the query cache is to hold result sets that are retrieved repeatedly. Since the data is held in memory, MySQL only feeds the data from memory (which is fast) into your application without digging into the tables themselves (which is slow). The result set from the query you're running and the query in the query cache must be completely identical, or MySQL will pull the data as it traditionally does from the tables."
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -318,9 +255,9 @@
       "text": "Queries and result sets must meet certain criteria to make it into the query cache:"
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -332,9 +269,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -346,9 +283,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -360,9 +297,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -374,9 +311,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -388,9 +325,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -402,7 +339,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -414,7 +351,7 @@
       "text": "Besides these rules, all other queries are approved to enter the query cache. This includes wild things such as views, joins, and queries with subqueries."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -426,9 +363,9 @@
       "text": "The MySQL query cache is controlled by several variables:"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -440,9 +377,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/12",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -454,9 +391,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -468,9 +405,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/14",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -482,6 +419,46 @@
       "marker": "-"
     },
     {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='query'>, <Literal children='_'>, <RawText children='cache'>, <Literal children='_'>, <RawText children='type'>]",
+      "text": "[<RawText children='query'>, <Literal children='_'>, <RawText children='cache'>, <Literal children='_'>, <RawText children='type'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='query'>, <Literal children='_'>, <RawText children='cache'>, <Literal children='_'>, <RawText children='wlock_invalidate'>]",
+      "text": "[<RawText children='query'>, <Literal children='_'>, <RawText children='cache'>, <Literal children='_'>, <RawText children='wlock_invalidate'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Explaining the query cache type is a little rough. If the query cache type is 0:",
+      "text": "Explaining the query cache type is a little rough. If the query cache type is 0:"
+    },
+    {
       "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/groups/2"
@@ -490,8 +467,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "[<RawText children='query'>, <Literal children='_'>, <RawText children='cache'>, <Literal children='_'>, <RawText children='type'>]",
-      "text": "[<RawText children='query'>, <Literal children='_'>, <RawText children='cache'>, <Literal children='_'>, <RawText children='type'>]",
+      "orig": "and the query",
+      "text": "and the query",
       "enumerated": false,
       "marker": "-"
     },
@@ -504,8 +481,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "[<RawText children='query'>, <Literal children='_'>, <RawText children='cache'>, <Literal children='_'>, <RawText children='wlock_invalidate'>]",
-      "text": "[<RawText children='query'>, <Literal children='_'>, <RawText children='cache'>, <Literal children='_'>, <RawText children='wlock_invalidate'>]",
+      "orig": "and the query",
+      "text": "and the query",
       "enumerated": false,
       "marker": "-"
     },
@@ -518,8 +495,8 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "Explaining the query cache type is a little rough. If the query cache type is 0:",
-      "text": "Explaining the query cache type is a little rough. If the query cache type is 0:"
+      "orig": "If the query cache type is 1:",
+      "text": "If the query cache type is 1:"
     },
     {
       "self_ref": "#/texts/21",
@@ -558,8 +535,8 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "If the query cache type is 1:",
-      "text": "If the query cache type is 1:"
+      "orig": "If the query cache type is 2:",
+      "text": "If the query cache type is 2:"
     },
     {
       "self_ref": "#/texts/24",
@@ -598,51 +575,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "If the query cache type is 2:",
-      "text": "If the query cache type is 2:"
-    },
-    {
-      "self_ref": "#/texts/27",
-      "parent": {
-        "$ref": "#/groups/5"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "and the query",
-      "text": "and the query",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/28",
-      "parent": {
-        "$ref": "#/groups/5"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "and the query",
-      "text": "and the query",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/29",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Now that we have the variables behind us, how can we tell if we're using the query cache appropriately? Each time a query runs against the query cache, the server will increment the Qcache hits status variable instead of Com select (which is incremented when a normal SELECT runs). If the table changes for any reason, its data is rendered invalid and is dropped from the query cache.",
       "text": "Now that we have the variables behind us, how can we tell if we're using the query cache appropriately? Each time a query runs against the query cache, the server will increment the Qcache hits status variable instead of Com select (which is incremented when a normal SELECT runs). If the table changes for any reason, its data is rendered invalid and is dropped from the query cache."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -654,7 +591,7 @@
       "text": "It's vital to understand the performance implications of the query cache:"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -666,7 +603,7 @@
       "text": "Purging the cache"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -678,7 +615,7 @@
       "text": "If the query cache fills completely, it will be flushed entirely - this is a significant performance hit as many memory addresses will have to be adjusted. Check your Qcache lowmem prunes in your status variables and increase the query cache size if you find yourself pruning the query cache more than a few times per hour."
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -690,7 +627,7 @@
       "text": "Query cache utilization"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -702,7 +639,7 @@
       "text": "There's a simple formula to calculate your query cache efficiency in percentage form:"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -718,7 +655,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -730,7 +667,7 @@
       "text": "A query cache efficiency percentage of 20% or less points to a performance problem. You may want to shrink your result sets by building more restrictive queries. If that isn't possible, then you can increase your query cache limit so that more of your larger result sets actually make it into the cache. Keep in mind, however, that this will increase your prunes (see the previous paragraph) and can reduce performance. Increasing the query cache limit by small amounts and then recalculating your efficiency is a good idea."
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -742,7 +679,7 @@
       "text": "Fighting fragmentation"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -754,7 +691,7 @@
       "text": "As queries move in and out of the query cache, the memory may become fragmented. This is normally signified by an increase in slow queries, but your query cache efficiency percentage still remains high. In this situation, run "
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -770,7 +707,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -782,7 +719,7 @@
       "text": " from the MySQL client and keep monitoring your efficiency. If this doesn't help, you may be better off flushing the cache entirely with "
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -798,7 +735,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -810,7 +747,7 @@
       "text": "."
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },

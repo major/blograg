@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/html",
-    "binary_hash": 4157416990325836515,
-    "filename": "index.md"
+    "binary_hash": 9171929408763557149,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,16 +21,10 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
         "$ref": "#/groups/0"
-      },
-      {
-        "$ref": "#/texts/5"
-      },
-      {
-        "$ref": "#/texts/6"
-      },
-      {
-        "$ref": "#/groups/1"
       }
     ],
     "content_layer": "body",
@@ -45,30 +39,7 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "furniture",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/groups/2"
+          "$ref": "#/groups/1"
         }
       ],
       "content_layer": "body",
@@ -76,31 +47,31 @@
       "label": "section"
     },
     {
-      "self_ref": "#/groups/2",
+      "self_ref": "#/groups/1",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [
         {
-          "$ref": "#/texts/7"
+          "$ref": "#/texts/2"
         },
         {
-          "$ref": "#/texts/19"
+          "$ref": "#/texts/14"
         },
         {
-          "$ref": "#/texts/26"
+          "$ref": "#/texts/21"
         },
         {
-          "$ref": "#/texts/30"
+          "$ref": "#/texts/25"
         },
         {
-          "$ref": "#/texts/37"
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/40"
         },
         {
           "$ref": "#/texts/45"
-        },
-        {
-          "$ref": "#/texts/50"
         }
       ],
       "content_layer": "body",
@@ -108,22 +79,22 @@
       "label": "section"
     },
     {
-      "self_ref": "#/groups/3",
+      "self_ref": "#/groups/2",
       "parent": {
-        "$ref": "#/texts/50"
+        "$ref": "#/texts/45"
       },
       "children": [
         {
-          "$ref": "#/texts/52"
+          "$ref": "#/texts/47"
         },
         {
-          "$ref": "#/texts/53"
+          "$ref": "#/texts/48"
         },
         {
-          "$ref": "#/texts/54"
+          "$ref": "#/texts/49"
         },
         {
-          "$ref": "#/texts/55"
+          "$ref": "#/texts/50"
         }
       ],
       "content_layer": "body",
@@ -141,79 +112,11 @@
       "content_layer": "furniture",
       "label": "text",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2015/05/01/howto-mikrotik-openvpn-server/",
-      "text": "/2015/05/01/howto-mikrotik-openvpn-server/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "list_item",
-      "prov": [],
-      "orig": "mikrotik",
-      "text": "mikrotik",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "list_item",
-      "prov": [],
-      "orig": "networking",
-      "text": "networking",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "list_item",
-      "prov": [],
-      "orig": "openvpn",
-      "text": "openvpn",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "text",
-      "prov": [],
       "orig": "Mikrotik firewalls have been good to me over the years and they work well for multiple purposes. Creating an OpenVPN server on the device can allow you to connect into your local network when you're on the road or protect your traffic when you're using untrusted networks.",
       "text": "Mikrotik firewalls have been good to me over the years and they work well for multiple purposes. Creating an OpenVPN server on the device can allow you to connect into your local network when you're on the road or protect your traffic when you're using untrusted networks."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -225,11 +128,26 @@
       "text": "Although Miktrotik's implementation isn't terribly robust (TCP only, client cert auth is wonky), it works quite well for most users. I'll walk you through the process from importing certificates through testing it out with a client."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
         {
           "$ref": "#/texts/8"
         },
@@ -247,21 +165,6 @@
         },
         {
           "$ref": "#/texts/13"
-        },
-        {
-          "$ref": "#/texts/14"
-        },
-        {
-          "$ref": "#/texts/15"
-        },
-        {
-          "$ref": "#/texts/16"
-        },
-        {
-          "$ref": "#/texts/17"
-        },
-        {
-          "$ref": "#/texts/18"
         }
       ],
       "content_layer": "body",
@@ -272,9 +175,9 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/texts/7"
+        "$ref": "#/texts/2"
       },
       "children": [],
       "content_layer": "body",
@@ -284,9 +187,9 @@
       "text": "Creating a CA and signing a certificate and key is outside the scope of this post and there are plenty of sites that cover the basics of creating a  self-signed certificate . You could also create a certificate signing request (CSR) on the Mikrotik and have that signed by a trusted CA. In my case, I have a simple CA already and I signed a certificate for myself."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/texts/7"
+        "$ref": "#/texts/2"
       },
       "children": [],
       "content_layer": "body",
@@ -296,9 +199,9 @@
       "text": "Upload your certificate, key, and CA certificate (if applicable) to the Mikrotik. After that, import those files into the Mikrotik's certificate storage:"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/texts/7"
+        "$ref": "#/texts/2"
       },
       "children": [],
       "content_layer": "body",
@@ -312,9 +215,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/texts/7"
+        "$ref": "#/texts/2"
       },
       "children": [],
       "content_layer": "body",
@@ -324,9 +227,77 @@
       "text": "Always import the certificate first, then the key.  You should be able to do a"
     },
     {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/texts/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/certificate print",
+      "text": "/certificate print",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/texts/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "and see the entries for the files you imported. In the print output, look at the flags column and verify that the line with your certificate has a  T  and a  K . If the K is missing, import the key one more time. If that still doesn't work, ensure that your certificate and key match.",
+      "text": "and see the entries for the files you imported. In the print output, look at the flags column and verify that the line with your certificate has a  T  and a  K . If the K is missing, import the key one more time. If that still doesn't work, ensure that your certificate and key match."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/texts/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "The default naming conventions used for certificates is a little confusing. You can rename a certificate by running",
+      "text": "The default naming conventions used for certificates is a little confusing. You can rename a certificate by running"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/texts/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "set name=firewall.example.com number=0",
+      "text": "set name=firewall.example.com number=0",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/texts/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "(run a",
+      "text": "(run a"
+    },
+    {
       "self_ref": "#/texts/12",
       "parent": {
-        "$ref": "#/texts/7"
+        "$ref": "#/texts/2"
       },
       "children": [],
       "content_layer": "body",
@@ -342,75 +313,7 @@
     {
       "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/texts/7"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "and see the entries for the files you imported. In the print output, look at the flags column and verify that the line with your certificate has a  T  and a  K . If the K is missing, import the key one more time. If that still doesn't work, ensure that your certificate and key match.",
-      "text": "and see the entries for the files you imported. In the print output, look at the flags column and verify that the line with your certificate has a  T  and a  K . If the K is missing, import the key one more time. If that still doesn't work, ensure that your certificate and key match."
-    },
-    {
-      "self_ref": "#/texts/14",
-      "parent": {
-        "$ref": "#/texts/7"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "The default naming conventions used for certificates is a little confusing. You can rename a certificate by running",
-      "text": "The default naming conventions used for certificates is a little confusing. You can rename a certificate by running"
-    },
-    {
-      "self_ref": "#/texts/15",
-      "parent": {
-        "$ref": "#/texts/7"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "set name=firewall.example.com number=0",
-      "text": "set name=firewall.example.com number=0",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/16",
-      "parent": {
-        "$ref": "#/texts/7"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "(run a",
-      "text": "(run a"
-    },
-    {
-      "self_ref": "#/texts/17",
-      "parent": {
-        "$ref": "#/texts/7"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "/certificate print",
-      "text": "/certificate print",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/18",
-      "parent": {
-        "$ref": "#/texts/7"
+        "$ref": "#/texts/2"
       },
       "children": [],
       "content_layer": "body",
@@ -420,28 +323,28 @@
       "text": "to get the right number)."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/14",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
           "$ref": "#/texts/20"
-        },
-        {
-          "$ref": "#/texts/21"
-        },
-        {
-          "$ref": "#/texts/22"
-        },
-        {
-          "$ref": "#/texts/23"
-        },
-        {
-          "$ref": "#/texts/24"
-        },
-        {
-          "$ref": "#/texts/25"
         }
       ],
       "content_layer": "body",
@@ -452,9 +355,9 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/15",
       "parent": {
-        "$ref": "#/texts/19"
+        "$ref": "#/texts/14"
       },
       "children": [],
       "content_layer": "body",
@@ -464,9 +367,9 @@
       "text": "We're now ready to do the first steps of the OpenVPN setup on the Mikrotik. You can do this configuration via the Winbox GUI or via the web interface, but I prefer to use the command line. Let's start:"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/16",
       "parent": {
-        "$ref": "#/texts/19"
+        "$ref": "#/texts/14"
       },
       "children": [],
       "content_layer": "body",
@@ -480,9 +383,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/17",
       "parent": {
-        "$ref": "#/texts/19"
+        "$ref": "#/texts/14"
       },
       "children": [],
       "content_layer": "body",
@@ -492,9 +395,9 @@
       "text": "This tells the device that we want to use the certificate we imported earlier along with all of the available ciphers. We're also selecting the  default-encryption  profile that we will configure in more detail later. Feel free to adjust your cipher list later on but I recommend allowing all of them until you're sure that the VPN configuration works."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/18",
       "parent": {
-        "$ref": "#/texts/19"
+        "$ref": "#/texts/14"
       },
       "children": [],
       "content_layer": "body",
@@ -504,9 +407,9 @@
       "text": "We're now ready to add an OpenVPN interface. In Mikrotik terms, you can have multiple OpenVPN server profiles running under the same server. They will all share the same certificate, but each may have different authentication methods or network configurations. Let's define our first profile:"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/19",
       "parent": {
-        "$ref": "#/texts/19"
+        "$ref": "#/texts/14"
       },
       "children": [],
       "content_layer": "body",
@@ -520,9 +423,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/20",
       "parent": {
-        "$ref": "#/texts/19"
+        "$ref": "#/texts/14"
       },
       "children": [],
       "content_layer": "body",
@@ -532,19 +435,19 @@
       "text": "There's now a profile with a username of  openvpn . That will be the username that we use to connect to this VPN server."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/21",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "$ref": "#/texts/27"
+          "$ref": "#/texts/22"
         },
         {
-          "$ref": "#/texts/28"
+          "$ref": "#/texts/23"
         },
         {
-          "$ref": "#/texts/29"
+          "$ref": "#/texts/24"
         }
       ],
       "content_layer": "body",
@@ -555,9 +458,9 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/22",
       "parent": {
-        "$ref": "#/texts/26"
+        "$ref": "#/texts/21"
       },
       "children": [],
       "content_layer": "body",
@@ -567,9 +470,9 @@
       "text": "The router needs a way to identify the user we just created. We can define a secret easily:"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/23",
       "parent": {
-        "$ref": "#/texts/26"
+        "$ref": "#/texts/21"
       },
       "children": [],
       "content_layer": "body",
@@ -583,9 +486,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/24",
       "parent": {
-        "$ref": "#/texts/26"
+        "$ref": "#/texts/21"
       },
       "children": [],
       "content_layer": "body",
@@ -595,28 +498,28 @@
       "text": "We've set a password secret and defined a connection profile that corresponds to the secret."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/25",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
           "$ref": "#/texts/31"
-        },
-        {
-          "$ref": "#/texts/32"
-        },
-        {
-          "$ref": "#/texts/33"
-        },
-        {
-          "$ref": "#/texts/34"
-        },
-        {
-          "$ref": "#/texts/35"
-        },
-        {
-          "$ref": "#/texts/36"
         }
       ],
       "content_layer": "body",
@@ -627,9 +530,9 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/26",
       "parent": {
-        "$ref": "#/texts/30"
+        "$ref": "#/texts/25"
       },
       "children": [],
       "content_layer": "body",
@@ -639,9 +542,9 @@
       "text": "We've been referring to this  default-encryption  profile several times and now it's time to configure it. This is one of the things I prefer to configure using the Winbox GUI or the web interface since there are plenty of options to review."
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/27",
       "parent": {
-        "$ref": "#/texts/30"
+        "$ref": "#/texts/25"
       },
       "children": [],
       "content_layer": "body",
@@ -651,9 +554,9 @@
       "text": "The most important part is how you connect the VPN connection into your internal network. You have a few options here. You can configure an IP address that will always be assigned to this connection no matter what. There are upsides and downsides with that choice. You'll always get the same IP on the inside network but you won't be able to connect to the same profile with multiple clients."
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/28",
       "parent": {
-        "$ref": "#/texts/30"
+        "$ref": "#/texts/25"
       },
       "children": [],
       "content_layer": "body",
@@ -663,9 +566,9 @@
       "text": "I prefer to set the bridge option to my internal network bridge (which I call  lanbridge ). That allows me to use my existing bridge configuration and filtering rules on my OpenVPN tunnels. My configuration looks something like this:"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/29",
       "parent": {
-        "$ref": "#/texts/30"
+        "$ref": "#/texts/25"
       },
       "children": [],
       "content_layer": "body",
@@ -679,9 +582,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/30",
       "parent": {
-        "$ref": "#/texts/30"
+        "$ref": "#/texts/25"
       },
       "children": [],
       "content_layer": "body",
@@ -691,9 +594,9 @@
       "text": "I've told the router that I want VPN connections to be hooked up to my main bridge and it should get local and remote IP addresses from my default DHCP server. In addition, I've also allowed more than one simultaneous connection to this profile."
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/31",
       "parent": {
-        "$ref": "#/texts/30"
+        "$ref": "#/texts/25"
       },
       "children": [],
       "content_layer": "body",
@@ -703,20 +606,138 @@
       "text": "The other defaults are fairly decent to get started. You can go back and adjust them later if needed."
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/32",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
         {
           "$ref": "#/texts/38"
         },
         {
           "$ref": "#/texts/39"
-        },
-        {
-          "$ref": "#/texts/40"
-        },
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "OpenVPN client",
+      "text": "OpenVPN client",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/texts/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Every client has things configured a bit differently but I'll be working with a basic OpenVPN configuration file here that should work on most systems (or at least show you what to click in your client GUI).",
+      "text": "Every client has things configured a bit differently but I'll be working with a basic OpenVPN configuration file here that should work on most systems (or at least show you what to click in your client GUI)."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/texts/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Here's my OpenVPN client configuration file:",
+      "text": "Here's my OpenVPN client configuration file:"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/texts/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "remote firewall.example.com 1194 tcp-client\npersist-key\nauth-user-pass /etc/openvpn/firewall-creds.txt\ntls-client\npull\nca /home/major/.cert/ca.crt\nredirect-gateway def1\ndev tun\npersist-tun\ncert /home/major/.cert/cert.crt\nnobind\nkey /home/major/.cert/key.key",
+      "text": "remote firewall.example.com 1194 tcp-client\npersist-key\nauth-user-pass /etc/openvpn/firewall-creds.txt\ntls-client\npull\nca /home/major/.cert/ca.crt\nredirect-gateway def1\ndev tun\npersist-tun\ncert /home/major/.cert/cert.crt\nnobind\nkey /home/major/.cert/key.key",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/texts/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "In my configuration, I refer to a  /etc/openvpn/firewall-creds.txt  file to hold my credentials. You can store the file anywhere (or this might be configurable in a GUI) but it should look like this:",
+      "text": "In my configuration, I refer to a  /etc/openvpn/firewall-creds.txt  file to hold my credentials. You can store the file anywhere (or this might be configurable in a GUI) but it should look like this:"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/texts/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "username\npassword",
+      "text": "username\npassword",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/texts/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "That's it - just a two line file with the username, a line feed, and a password.",
+      "text": "That's it - just a two line file with the username, a line feed, and a password."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/texts/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "At this point, you should be able to test your client.",
+      "text": "At this point, you should be able to test your client."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
         {
           "$ref": "#/texts/41"
         },
@@ -733,132 +754,14 @@
       "content_layer": "body",
       "label": "section_header",
       "prov": [],
-      "orig": "OpenVPN client",
-      "text": "OpenVPN client",
-      "level": 2
-    },
-    {
-      "self_ref": "#/texts/38",
-      "parent": {
-        "$ref": "#/texts/37"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "Every client has things configured a bit differently but I'll be working with a basic OpenVPN configuration file here that should work on most systems (or at least show you what to click in your client GUI).",
-      "text": "Every client has things configured a bit differently but I'll be working with a basic OpenVPN configuration file here that should work on most systems (or at least show you what to click in your client GUI)."
-    },
-    {
-      "self_ref": "#/texts/39",
-      "parent": {
-        "$ref": "#/texts/37"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "Here's my OpenVPN client configuration file:",
-      "text": "Here's my OpenVPN client configuration file:"
-    },
-    {
-      "self_ref": "#/texts/40",
-      "parent": {
-        "$ref": "#/texts/37"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "remote firewall.example.com 1194 tcp-client\npersist-key\nauth-user-pass /etc/openvpn/firewall-creds.txt\ntls-client\npull\nca /home/major/.cert/ca.crt\nredirect-gateway def1\ndev tun\npersist-tun\ncert /home/major/.cert/cert.crt\nnobind\nkey /home/major/.cert/key.key",
-      "text": "remote firewall.example.com 1194 tcp-client\npersist-key\nauth-user-pass /etc/openvpn/firewall-creds.txt\ntls-client\npull\nca /home/major/.cert/ca.crt\nredirect-gateway def1\ndev tun\npersist-tun\ncert /home/major/.cert/cert.crt\nnobind\nkey /home/major/.cert/key.key",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/41",
-      "parent": {
-        "$ref": "#/texts/37"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "In my configuration, I refer to a  /etc/openvpn/firewall-creds.txt  file to hold my credentials. You can store the file anywhere (or this might be configurable in a GUI) but it should look like this:",
-      "text": "In my configuration, I refer to a  /etc/openvpn/firewall-creds.txt  file to hold my credentials. You can store the file anywhere (or this might be configurable in a GUI) but it should look like this:"
-    },
-    {
-      "self_ref": "#/texts/42",
-      "parent": {
-        "$ref": "#/texts/37"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "username\npassword",
-      "text": "username\npassword",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/43",
-      "parent": {
-        "$ref": "#/texts/37"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "That's it - just a two line file with the username, a line feed, and a password.",
-      "text": "That's it - just a two line file with the username, a line feed, and a password."
-    },
-    {
-      "self_ref": "#/texts/44",
-      "parent": {
-        "$ref": "#/texts/37"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "At this point, you should be able to test your client.",
-      "text": "At this point, you should be able to test your client."
-    },
-    {
-      "self_ref": "#/texts/45",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/46"
-        },
-        {
-          "$ref": "#/texts/47"
-        },
-        {
-          "$ref": "#/texts/48"
-        },
-        {
-          "$ref": "#/texts/49"
-        }
-      ],
-      "content_layer": "body",
-      "label": "section_header",
-      "prov": [],
       "orig": "Troubleshooting",
       "text": "Troubleshooting",
       "level": 2
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/41",
       "parent": {
-        "$ref": "#/texts/45"
+        "$ref": "#/texts/40"
       },
       "children": [],
       "content_layer": "body",
@@ -868,9 +771,9 @@
       "text": "Firewall  - Ensure that you have a firewall rule set to allow traffic into your OpenVPN port. This could be something as simple as:"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/42",
       "parent": {
-        "$ref": "#/texts/45"
+        "$ref": "#/texts/40"
       },
       "children": [],
       "content_layer": "body",
@@ -884,9 +787,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/43",
       "parent": {
-        "$ref": "#/texts/45"
+        "$ref": "#/texts/40"
       },
       "children": [],
       "content_layer": "body",
@@ -896,9 +799,9 @@
       "text": "Certificates  - Check that your certificate and key were imported properly and that your client is configured to trust the self-signed certificate or the CA you used."
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/44",
       "parent": {
-        "$ref": "#/texts/45"
+        "$ref": "#/texts/40"
       },
       "children": [],
       "content_layer": "body",
@@ -908,16 +811,16 @@
       "text": "Compression  - For some reason, I have lots of problems if compression is enabled on the client. They range from connection failures to being unable to pass traffic through the tunnel after getting connected. Be sure that anything that mentions compression or LZO is disabled."
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/45",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "$ref": "#/texts/51"
+          "$ref": "#/texts/46"
         },
         {
-          "$ref": "#/groups/3"
+          "$ref": "#/groups/2"
         }
       ],
       "content_layer": "body",
@@ -928,9 +831,9 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/46",
       "parent": {
-        "$ref": "#/texts/50"
+        "$ref": "#/texts/45"
       },
       "children": [],
       "content_layer": "body",
@@ -940,9 +843,9 @@
       "text": "There are some security improvements that can be made after configuring everything:"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/47",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -954,9 +857,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/48",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -968,9 +871,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/49",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -982,9 +885,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/50",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",

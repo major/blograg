@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 9086238587698178863,
-    "filename": "index.md"
+    "binary_hash": 18278208137194175385,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,19 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
       },
       {
         "$ref": "#/texts/6"
@@ -78,19 +90,7 @@
         "$ref": "#/texts/23"
       },
       {
-        "$ref": "#/texts/24"
-      },
-      {
-        "$ref": "#/texts/25"
-      },
-      {
-        "$ref": "#/texts/26"
-      },
-      {
-        "$ref": "#/texts/27"
-      },
-      {
-        "$ref": "#/texts/28"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/29"
@@ -99,28 +99,22 @@
         "$ref": "#/groups/1"
       },
       {
-        "$ref": "#/texts/35"
+        "$ref": "#/texts/39"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/40"
       },
       {
-        "$ref": "#/texts/45"
+        "$ref": "#/texts/41"
       },
       {
-        "$ref": "#/texts/46"
+        "$ref": "#/texts/42"
       },
       {
-        "$ref": "#/texts/47"
+        "$ref": "#/texts/43"
       },
       {
-        "$ref": "#/texts/48"
-      },
-      {
-        "$ref": "#/texts/49"
-      },
-      {
-        "$ref": "#/texts/50"
+        "$ref": "#/texts/44"
       }
     ],
     "content_layer": "body",
@@ -135,24 +129,24 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/24"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/25"
         },
         {
-          "$ref": "#/texts/3"
+          "$ref": "#/texts/26"
         },
         {
-          "$ref": "#/texts/4"
+          "$ref": "#/texts/27"
         },
         {
-          "$ref": "#/texts/5"
+          "$ref": "#/texts/28"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "list"
+      "label": "ordered_list"
     },
     {
       "self_ref": "#/groups/1",
@@ -174,18 +168,10 @@
         },
         {
           "$ref": "#/texts/34"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "ordered_list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
+        },
+        {
+          "$ref": "#/texts/35"
+        },
         {
           "$ref": "#/texts/36"
         },
@@ -194,24 +180,6 @@
         },
         {
           "$ref": "#/texts/38"
-        },
-        {
-          "$ref": "#/texts/39"
-        },
-        {
-          "$ref": "#/texts/40"
-        },
-        {
-          "$ref": "#/texts/41"
-        },
-        {
-          "$ref": "#/texts/42"
-        },
-        {
-          "$ref": "#/texts/43"
-        },
-        {
-          "$ref": "#/texts/44"
         }
       ],
       "content_layer": "body",
@@ -229,93 +197,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2022/03/24/build-url-shortener-with-cloudflare-workers/",
-      "text": "/2022/03/24/build-url-shortener-with-cloudflare-workers/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "cloudflare",
-      "text": "cloudflare",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "github",
-      "text": "github",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "javascript",
-      "text": "javascript",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "serverless",
-      "text": "serverless",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Shortened URLs make it easier to quickly reference complicated URLs and share them with other people. For example, https://url.major.io/reviews is definitely an easier method for sharing my  Fedora package review  list with other people instead of the full Bugzilla URL:",
       "text": "Shortened URLs make it easier to quickly reference complicated URLs and share them with other people. For example, https://url.major.io/reviews is definitely an easier method for sharing my  Fedora package review  list with other people instead of the full Bugzilla URL:"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -331,7 +217,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -343,7 +229,7 @@
       "text": "It also avoids those situations where you share a URL only to find that a chat system gobbled up special characters and your URL arrives broken on the other end."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -355,7 +241,7 @@
       "text": "However, most URL shorteners depend on a web server and possibly a database server to serve up shortened URLs. This is a really quick setup that nearly any system administrator has done a hundred times or more, but what about the ongoing maintenance and updates? What about redundancy? How much will it cost?"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -367,7 +253,7 @@
       "text": "That's simply too much work. I went on the hunt for an alternative."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -380,7 +266,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -392,7 +278,7 @@
       "text": "My first stop was nelsontky's  gh-pages-url-shortener . It uses GitHub issues to manage URLs, but the author mentions that the solution is a bit hacky. I need something more reliable."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -405,7 +291,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -417,7 +303,7 @@
       "text": "Cloudflare offers  redirects  via a simple text file on its  Pages  service.  (This blog is hosted via Cloudflare pages and it's been extremely reliable and fast.)"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -429,7 +315,7 @@
       "text": "The only downside is the limits applied to the redirects:"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -441,7 +327,7 @@
       "text": "A project is limited to 100 total redirects. Each redirect declaration has a 1000-character limit. Malformed definitions are ignored. If there are multiple redirects for the same source path, the topmost redirect is applied."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -453,7 +339,7 @@
       "text": "If you think you'll need less than 100 redirects and your destination URLs are under 1,000 characters, this might work for you. Head on over to  Deploying your site  and get going!"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -465,7 +351,7 @@
       "text": "What if you want (nearly) limitless redirects?"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -478,7 +364,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -490,7 +376,7 @@
       "text": "More Googling led to a blog post titled  World's Simplest URL Shortener using Cloudflare Workers . In the post,  Patrick Reader  lays out a simple javascript handler that takes the URI provided, compares it to a list of JSON keys, and then returns the destination URL."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -502,7 +388,7 @@
       "text": "His instructions in the post get you up and running quickly. He also offers up a link to his own  GitHub repo  so you can fork it and get done quickly. The "
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -518,7 +404,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -530,7 +416,7 @@
       "text": " file expects the keys to be short URIs and the values to be the long URLs, like this:"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -546,7 +432,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -558,7 +444,7 @@
       "text": "I decided to build out  my repository  with  wrangler 's "
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -574,7 +460,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -586,7 +472,7 @@
       "text": " command and then brought over Patrick's script. Your "
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -602,7 +488,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -614,6 +500,88 @@
       "text": " will need a few adjustments to get going:"
     },
     {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Set ",
+      "text": "Set ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "account_id",
+      "text": "account_id",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Set ",
+      "text": "Set ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Set ",
+      "text": "Set ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Your ",
+      "text": "Your ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Manual work is not my thing, so I wanted to get GitHub Actions to do the work for me when I changed my list of short URLs. For that, I first needed an API key from Cloudflare. For that, go to your  API Tokens  page at Cloudflare and do these steps:",
+      "text": "Manual work is not my thing, so I wanted to get GitHub Actions to do the work for me when I changed my list of short URLs. For that, I first needed an API key from Cloudflare. For that, go to your  API Tokens  page at Cloudflare and do these steps:"
+    },
+    {
       "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/groups/1"
@@ -622,8 +590,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Set ",
-      "text": "Set ",
+      "orig": "Click ",
+      "text": "Click ",
       "enumerated": false,
       "marker": "-"
     },
@@ -636,8 +604,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "account_id",
-      "text": "account_id",
+      "orig": "Click ",
+      "text": "Click ",
       "enumerated": false,
       "marker": "-"
     },
@@ -650,8 +618,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Set ",
-      "text": "Set ",
+      "orig": "Under ",
+      "text": "Under ",
       "enumerated": false,
       "marker": "-"
     },
@@ -664,8 +632,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Set ",
-      "text": "Set ",
+      "orig": "Select your account under ",
+      "text": "Select your account under ",
       "enumerated": false,
       "marker": "-"
     },
@@ -678,27 +646,29 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Your ",
-      "text": "Your ",
+      "orig": "Click ",
+      "text": "Click ",
       "enumerated": false,
       "marker": "-"
     },
     {
       "self_ref": "#/texts/35",
       "parent": {
-        "$ref": "#/body"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
-      "label": "paragraph",
+      "label": "list_item",
       "prov": [],
-      "orig": "Manual work is not my thing, so I wanted to get GitHub Actions to do the work for me when I changed my list of short URLs. For that, I first needed an API key from Cloudflare. For that, go to your  API Tokens  page at Cloudflare and do these steps:",
-      "text": "Manual work is not my thing, so I wanted to get GitHub Actions to do the work for me when I changed my list of short URLs. For that, I first needed an API key from Cloudflare. For that, go to your  API Tokens  page at Cloudflare and do these steps:"
+      "orig": "Run over to your repo in GitHub, click ",
+      "text": "Run over to your repo in GitHub, click ",
+      "enumerated": false,
+      "marker": "-"
     },
     {
       "self_ref": "#/texts/36",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -712,91 +682,7 @@
     {
       "self_ref": "#/texts/37",
       "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Click ",
-      "text": "Click ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/38",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Under ",
-      "text": "Under ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/39",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Select your account under ",
-      "text": "Select your account under ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/40",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Click ",
-      "text": "Click ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/41",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Run over to your repo in GitHub, click ",
-      "text": "Run over to your repo in GitHub, click ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/42",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Click ",
-      "text": "Click ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/43",
-      "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -808,9 +694,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/38",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -822,7 +708,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -834,7 +720,7 @@
       "text": "All that's left is to drop in a GitHub Actions workflow to make it all automated. You can copy the  workflow file  from  my repository :"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -850,7 +736,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -862,7 +748,7 @@
       "text": "Each time you change a URL in "
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -878,7 +764,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -890,7 +776,7 @@
       "text": ", GitHub Actions assembles your application for Cloudflare Workers and ships it to Cloudflare. You can edit your URLs right in the GitHub web editor, save them, and they'll be active in a minute or two!"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },

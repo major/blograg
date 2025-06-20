@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 3580112830216970965,
-    "filename": "index.md"
+    "binary_hash": 13367638068145456119,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,7 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
       },
       {
         "$ref": "#/texts/2"
@@ -39,13 +39,13 @@
         "$ref": "#/texts/6"
       },
       {
-        "$ref": "#/texts/7"
+        "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/8"
+        "$ref": "#/texts/11"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/12"
       },
       {
         "$ref": "#/texts/13"
@@ -159,34 +159,28 @@
         "$ref": "#/texts/49"
       },
       {
-        "$ref": "#/texts/50"
+        "$ref": "#/groups/1"
       },
       {
-        "$ref": "#/texts/51"
+        "$ref": "#/texts/55"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/56"
       },
       {
         "$ref": "#/texts/57"
       },
       {
-        "$ref": "#/texts/58"
+        "$ref": "#/groups/2"
       },
       {
-        "$ref": "#/texts/59"
+        "$ref": "#/texts/60"
       },
       {
-        "$ref": "#/groups/3"
+        "$ref": "#/texts/61"
       },
       {
         "$ref": "#/texts/62"
-      },
-      {
-        "$ref": "#/texts/63"
-      },
-      {
-        "$ref": "#/texts/64"
       }
     ],
     "content_layer": "body",
@@ -201,7 +195,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
         }
       ],
       "content_layer": "body",
@@ -215,16 +218,19 @@
       },
       "children": [
         {
-          "$ref": "#/texts/9"
+          "$ref": "#/texts/50"
         },
         {
-          "$ref": "#/texts/10"
+          "$ref": "#/texts/51"
         },
         {
-          "$ref": "#/texts/11"
+          "$ref": "#/texts/52"
         },
         {
-          "$ref": "#/texts/12"
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
         }
       ],
       "content_layer": "body",
@@ -238,36 +244,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/52"
+          "$ref": "#/texts/58"
         },
         {
-          "$ref": "#/texts/53"
-        },
-        {
-          "$ref": "#/texts/54"
-        },
-        {
-          "$ref": "#/texts/55"
-        },
-        {
-          "$ref": "#/texts/56"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/3",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/60"
-        },
-        {
-          "$ref": "#/texts/61"
+          "$ref": "#/texts/59"
         }
       ],
       "content_layer": "body",
@@ -285,37 +265,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "author: Major Hayden date: '2023-06-25' Layoffs create traumatic times for many. Find ways to break through the frustration and pain. For those that stay, your ability to influence the business can grow. \ud83e\udeb4 tags:",
-      "text": "author: Major Hayden date: '2023-06-25' Layoffs create traumatic times for many. Find ways to break through the frustration and pain. For those that stay, your ability to influence the business can grow. \ud83e\udeb4 tags:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "{{< alert >}} All comments and thoughts in this post are my own and certainly do not reflect the positions of any of my employers, past and present. The goal of this post is to help with healing after a layoff event and organizing your thoughts around your decisions afterwards. {{< /alert >}}",
       "text": "{{< alert >}} All comments and thoughts in this post are my own and certainly do not reflect the positions of any of my employers, past and present. The goal of this post is to help with healing after a layoff event and organizing your thoughts around your decisions afterwards. {{< /alert >}}"
     },
     {
-      "self_ref": "#/texts/3",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -327,7 +281,7 @@
       "text": "Whatever you want to call them -- layoffs, reductions in force, or downsizing -- they're terrible."
     },
     {
-      "self_ref": "#/texts/4",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -339,7 +293,7 @@
       "text": "For those who leave, uncertainty can become overwhelming. Loss of work means a loss of salary on the simplest level, but it can also mean a loss of purpose. It can mean a loss of critical medical insurance benefits."
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -351,7 +305,7 @@
       "text": "For those who stay, layoffs shake the foundations of trust with the employer. I have a whole blog post on  red flags  that goes into detail on this topic, so I won't repeat it all here."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -363,7 +317,7 @@
       "text": "My argument in this post is that for those who stay and recommit to the mission of the business,  you have much more control over customer outcomes than you ever did before."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -375,7 +329,7 @@
       "text": "How to think about layoffs"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -387,9 +341,9 @@
       "text": "I went through several rounds of layoffs at my last employer and my current employer just did a round. Engineers around me often say things like:"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -401,9 +355,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -415,9 +369,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -429,9 +383,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -443,7 +397,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -455,7 +409,7 @@
       "text": "The first step is to avoid  reading deeply into the decision  and avoid  making it personal ."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -467,7 +421,7 @@
       "text": "In my experience, some of the decisions are made based on data that you can't see at a publicly traded company. Sometimes a company sheds employees simply because everyone in their market sector is doing it and they're looking for a temporary bump in the stock price. And then there are those situations where a company chooses to end a product line or project."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -479,7 +433,7 @@
       "text": "These decisions are often made at a high level within the company and done in such a way to avoid any type of employment-related lawsuits. That brings me to my next topic."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -491,7 +445,7 @@
       "text": "Why do they let top performers go?"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -503,7 +457,7 @@
       "text": "This frustrated me many times over the years. As an example, there was a talented network engineer on a team who was a rising star in the company. He could work through complex network topologies to provide a balance of performance and security based on the customer's demands."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -515,7 +469,7 @@
       "text": "Even better, he could explain it all to customers. Better still, he could explain it to the customer's technical and non-technical staff."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -527,7 +481,7 @@
       "text": "The customer was getting closer to making the deal and this engineer was central to the deal being made. The deal was  large . Everyone was preparing with implementation calls, documents, and everything else needed for the final meeting."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -539,7 +493,7 @@
       "text": "The final meeting came, but the network engineer wasn't on the call."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -551,7 +505,7 @@
       "text": "Salespeople, solutions architects, and other engineers were frantic. Did he go home sick? Did we send him the wrong time on the calendar invitation?"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -563,7 +517,7 @@
       "text": "No, as it turns out, he was laid off at lunch and the call was scheduled for 2PM."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -575,7 +529,7 @@
       "text": "A choice was made to reduce engineering staff by some percentage, so the business essentially did this:"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -591,7 +545,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -603,7 +557,7 @@
       "text": "And they went through the list methodically until their percentage was met."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -615,7 +569,7 @@
       "text": "This is why taking layoffs personally will only cause you pain. Avoid looking for a deeper meaning and explanation where one does not exist."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -627,7 +581,7 @@
       "text": "As Yoda once said:"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -639,7 +593,7 @@
       "text": "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -651,7 +605,7 @@
       "text": "How about the people who aren't top performers?"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -663,7 +617,7 @@
       "text": "Why don't companies just lay off low performers?"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -675,7 +629,7 @@
       "text": "(Again, try to to avoid looking for deeper meaning here, but I'll go through this question anyway.)"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -687,7 +641,7 @@
       "text": "I've heard this many times and I've asked it myself before:"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -699,7 +653,7 @@
       "text": "Why don't companies just lay off the low performers? After all, some of these people might be toxic to teams and it's clear they're not committed to the company mission."
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -711,7 +665,7 @@
       "text": "It's a good argument! If a company wants to save money by spending less on salaries and benefits, why not target the people who aren't doing the work first? You'd reduce expenses while improving the quality of the workforce!"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -723,7 +677,7 @@
       "text": "Long story short:  It's not that simple."
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -735,7 +689,7 @@
       "text": "A wise manager once told me that:"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -747,7 +701,7 @@
       "text": "If you're the last person to find out that your performance is inadequate, that's not your fault. It's your manager's fault."
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -759,7 +713,7 @@
       "text": "Managers make mistakes. Whether they're mistakes made on purpose or not, it often opens the company up to litigation."
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -771,7 +725,7 @@
       "text": "For example, a manager might label an employee as a low performer due to factors outside their job performance. Perhaps they don't look like the rest of the team, they have a different religious affiliation, or a different sexual orientation. They might not participate in after-work functions with the team where alcohol is involved. In some extreme situations, an employee might be labeled a low performer due to rejected romantic advances from the manager. (This last one seems crazy, but I've seen it happen once.)"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -783,7 +737,7 @@
       "text": "The problem shows up when the company tries to do a layoff like this:"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -799,7 +753,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -811,7 +765,7 @@
       "text": "Suddenly there are people on the low performing list who don't belong there. However, at the executive level, they have no idea about the dubious performance reviews."
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -823,7 +777,7 @@
       "text": "This is a fast path to wrongful termination lawsuits."
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -835,7 +789,7 @@
       "text": "{{< alert >}} First off, be sure that you're ready to recommit to the company mission. If something happened that shook your commitment to the core, take some time to truly understand how you feel about your company. My post on  red flags  might help. {{< /alert >}}"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -847,7 +801,7 @@
       "text": "Let's get back on something positive. How do we avoid taking these events personally and push through to something better?"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -859,7 +813,7 @@
       "text": "Use your newfound power"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -871,7 +825,7 @@
       "text": "As an engineer, you have more control over customer outcomes after a layoff than ever before. Confused? I'll explain."
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -883,7 +837,7 @@
       "text": "I've worked in engineering, management, and leadership roles in technology since 2004. In many situations, engineers struggle to change business processes and persuade business-minded people to change their outlook on a topic. There's another blog post on here about  persuasion engineering  that might be worth reading."
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -895,7 +849,7 @@
       "text": "Layoffs shake the foundations of any company, including the processes that brought the company to that point. It's a great time to question any of these processes. Does the process save time? Does it benefit customers? Does it need to be modified? Should we throw it away completely?"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -907,7 +861,7 @@
       "text": "I'm not suggesting that you approach all processes and business justifications with immediate contempt, but have the courage to ask questions about them. Even long-held beliefs should be questioned."
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -919,9 +873,37 @@
       "text": "For example, I recently had an exchange like this one:"
     },
     {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Me: ",
+      "text": "Me: ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Them: ",
+      "text": "Them: ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
       "self_ref": "#/texts/52",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -935,7 +917,7 @@
     {
       "self_ref": "#/texts/53",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -949,7 +931,7 @@
     {
       "self_ref": "#/texts/54",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -963,34 +945,6 @@
     {
       "self_ref": "#/texts/55",
       "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Them: ",
-      "text": "Them: ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/56",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Me: ",
-      "text": "Me: ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/57",
-      "parent": {
         "$ref": "#/body"
       },
       "children": [],
@@ -1001,7 +955,7 @@
       "text": "The number one fear I have as someone who stays when a layoff happens is this: What if we're too afraid to speak up? What if we're too afraid to take a leap? What if fear of being next on the layoff list prevents us from doing something amazing?"
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1013,7 +967,7 @@
       "text": "You can be an advocate for change. It's the best environment to make a change and think differently about where the company can best serve its customers."
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1025,9 +979,9 @@
       "text": "It could end in one of two ways:"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/58",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1039,9 +993,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/59",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1053,7 +1007,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1065,7 +1019,7 @@
       "text": "On the first one, you've done something truly incredible and you will likely receive recognition for it. You'll also feel more engaged in your work."
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1077,7 +1031,7 @@
       "text": "On the second one, if the company decides you rocked the boat too much and decides to let you go, it's for the best. You're likely dealing with some levels of middle management who lead with fear rather than a drive to improve. Don't take it personally and look for the next opportunity."
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/62",
       "parent": {
         "$ref": "#/body"
       },

@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/html",
-    "binary_hash": 6822899347680935516,
-    "filename": "index.md"
+    "binary_hash": 7847431934989038047,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,13 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
       },
       {
         "$ref": "#/texts/4"
@@ -46,103 +52,16 @@
       },
       {
         "$ref": "#/texts/11"
-      },
-      {
-        "$ref": "#/texts/12"
-      },
-      {
-        "$ref": "#/texts/13"
-      },
-      {
-        "$ref": "#/texts/14"
-      },
-      {
-        "$ref": "#/texts/15"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2014/02/04/be-an-inspiration-not-an-impostor/",
-      "text": "/2014/02/04/be-an-inspiration-not-an-impostor/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "sysadmin",
-      "text": "sysadmin",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -154,7 +73,7 @@
       "text": "Many of the non-technical posts on the blog are inspired by the comments of others. I stumbled upon this tweet after it was retweeted by someone I follow:"
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -166,7 +85,7 @@
       "text": "Impostor syndrome is holding a lot of us back. Let's stop that. (yeah, easier said than done, but we should try): http://t.co/aqx9G1GJ52"
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -178,7 +97,7 @@
       "text": "\u2014 erika owens (@erika_owens) December 16, 2013"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -190,7 +109,7 @@
       "text": "The link in the tweet takes you to a  blog post from Erika Owens about impostor syndrome . Erika touches on that uncomfortable feeling that some of us feel when we're surrounded by other people from our field of study or work. These three sentences hit home for me:"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -202,7 +121,7 @@
       "text": "At first, I thought people were just being modest. But it soon became clear that people were reluctant to recognize in themselves the same traits that awed them in other people. This dynamic holds people back while also overtaxing the limited number of anointed experts."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -214,7 +133,7 @@
       "text": "Anne Gentle  gave a presentation at this year's offsite for leaders at Rackspace and talked about the challenges of defeating impostor syndrome while attending male-dominated technical conferences. She talked about a portion of these challenges in her  Women of OpenStack  post."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -226,7 +145,7 @@
       "text": "I've struggled with this from time to time with various groups. Sure, I have some deep technical knowledge and experience in some areas, but I don't always feel like the expert in those areas. One thing I've come to realize is that when you're invited to talk to a group or asked to write an article,  you're being asked because the community has identified you as an expert ."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -238,7 +157,7 @@
       "text": "\"Expert\" is always a relative term. Toss me in a room with Windows system administrators and I can provide an expert level of guidance around the Linux kernel. If  Linus  or  Greg Kroah-Hartman  walk in the door, I'd certainly defer to them. I'd definitely offer up an opinion if asked or if I disagreed with something that was being said (even if an \"expert\" said it). With that said, I've spoken with Linus and Greg in person and they seem to understand this well. They leave gaps in conversation and defer to their peers to ensure that the experts around them get time in the spotlight."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -250,7 +169,7 @@
       "text": "Here's where the rubber meets the road: when you embrace your expertise and share it with others,  you  inspire  them ."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -262,7 +181,7 @@
       "text": "What happens when you inspire others? They're more eager to talk. They're more eager to listen.  They're more eager to learn more and embrace their inner expert."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -274,7 +193,7 @@
       "text": "This process isn't easy. Read through my post on why  technical people should blog, but don't . You'll need to understand that you'll be wrong from time to time and that you'll need to do some homework when you're asked for an expert opinion. You'll also need to learn when and how to say \"I don't know, but I'll find out the answer.\""
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },

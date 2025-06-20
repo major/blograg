@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 9938976527136928325,
-    "filename": "index.md"
+    "binary_hash": 14792001773664047064,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,13 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
       },
       {
         "$ref": "#/texts/4"
@@ -60,6 +66,9 @@
         "$ref": "#/texts/15"
       },
       {
+        "$ref": "#/pictures/0"
+      },
+      {
         "$ref": "#/texts/16"
       },
       {
@@ -72,9 +81,6 @@
         "$ref": "#/texts/19"
       },
       {
-        "$ref": "#/pictures/0"
-      },
-      {
         "$ref": "#/texts/20"
       },
       {
@@ -82,103 +88,16 @@
       },
       {
         "$ref": "#/texts/22"
-      },
-      {
-        "$ref": "#/texts/23"
-      },
-      {
-        "$ref": "#/texts/24"
-      },
-      {
-        "$ref": "#/texts/25"
-      },
-      {
-        "$ref": "#/texts/26"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "author: Major Hayden date: '2022-12-04' summary: Have family or coworkers in multiple time zones? Get multiple clocks with i3status. \u231a tags:",
-      "text": "author: Major Hayden date: '2022-12-04' summary: Have family or coworkers in multiple time zones? Get multiple clocks with i3status. \u231a tags:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "i3",
-      "text": "i3",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "i3status",
-      "text": "i3status",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "timezones",
-      "text": "timezones",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -190,7 +109,7 @@
       "text": "Many of my coworkers are on Central European Time (CET) and they're seven hours ahead of me  (most of the time) . Then there are those weird times of year where they move their clocks for Daylight Savings Time before we do in the USA."
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -202,7 +121,7 @@
       "text": "I have a handy clock in my  i3status  bar, but I'd like to track my coworkers' timezones in addition to my own."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -215,7 +134,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -227,7 +146,7 @@
       "text": "By default, i3status looks for its configuration file in "
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -243,7 +162,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -255,7 +174,7 @@
       "text": ". Open up the configuration file in your favorite editor and add two pieces."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -267,7 +186,7 @@
       "text": "I'm most interested in CET, so I'll use Berlin for my extra clock. First, add two "
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -283,7 +202,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -295,7 +214,7 @@
       "text": " lines near the top:"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -311,7 +230,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -323,7 +242,7 @@
       "text": "Then add the corresponding sections at the end of the configuration file:"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -339,7 +258,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -351,7 +270,7 @@
       "text": "The "
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -367,7 +286,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -379,7 +298,7 @@
       "text": " configuration ensures that I only see one clock if my local timezone switches to CET. Emoji flags add a little bit of flair to the clocks in the status bar. \ud83d\ude09"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -391,7 +310,7 @@
       "text": "Here's how it looks (with the  Hack  font):"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -403,7 +322,7 @@
       "text": "i3status screenshot"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -416,7 +335,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -428,7 +347,7 @@
       "text": "Reload the i3 configuration with "
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -444,7 +363,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -456,7 +375,7 @@
       "text": " and restart i3 with "
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -472,7 +391,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },

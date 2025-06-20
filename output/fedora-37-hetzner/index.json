@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 5836900275153231551,
-    "filename": "index.md"
+    "binary_hash": 1422517936607568714,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,6 +21,12 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
         "$ref": "#/groups/0"
       },
       {
@@ -33,7 +39,10 @@
         "$ref": "#/texts/7"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
       },
       {
         "$ref": "#/texts/10"
@@ -106,21 +115,6 @@
       },
       {
         "$ref": "#/texts/33"
-      },
-      {
-        "$ref": "#/texts/34"
-      },
-      {
-        "$ref": "#/texts/35"
-      },
-      {
-        "$ref": "#/texts/36"
-      },
-      {
-        "$ref": "#/texts/37"
-      },
-      {
-        "$ref": "#/texts/38"
       }
     ],
     "content_layer": "body",
@@ -135,33 +129,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
           "$ref": "#/texts/3"
         },
         {
           "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/8"
-        },
-        {
-          "$ref": "#/texts/9"
         }
       ],
       "content_layer": "body",
@@ -179,36 +150,32 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "author: Major Hayden date: '2022-12-08' summary: Avoid cloud provider modifications and deploy a genuine release version of Fedora 37 on Hetzner Cloud. \u26c5 tags:",
-      "text": "author: Major Hayden date: '2022-12-08' summary: Avoid cloud provider modifications and deploy a genuine release version of Fedora 37 on Hetzner Cloud. \u26c5 tags:"
+      "orig": "Hetzner Cloud provides high performance cloud instances with excellent network connectivity at a reasonable price. They have two US regions (Virginia and Oregon) that give me good latency numbers here in Texas.",
+      "text": "Hetzner Cloud provides high performance cloud instances with excellent network connectivity at a reasonable price. They have two US regions (Virginia and Oregon) that give me good latency numbers here in Texas."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "cloud",
-      "text": "cloud",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "However, they modify some of the Linux images they offer. This ensures every image looks similar when it boots, but it means that Fedora in one cloud doesn't behave like Fedora in another cloud. (They're not the only cloud that makes these changes.)",
+      "text": "However, they modify some of the Linux images they offer. This ensures every image looks similar when it boots, but it means that Fedora in one cloud doesn't behave like Fedora in another cloud. (They're not the only cloud that makes these changes.)"
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "The modifications frustrate me for two reasons:",
+      "text": "The modifications frustrate me for two reasons:"
     },
     {
       "self_ref": "#/texts/3",
@@ -219,8 +186,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "hetzner",
-      "text": "hetzner",
+      "orig": "I automate nearly everything and I expect images to match in different clouds.",
+      "text": "I automate nearly everything and I expect images to match in different clouds.",
       "enumerated": false,
       "marker": "-"
     },
@@ -233,8 +200,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "linux",
-      "text": "linux",
+      "orig": "I want to use the unaltered image that went through Fedora's QA process.",
+      "text": "I want to use the unaltered image that went through Fedora's QA process.",
       "enumerated": false,
       "marker": "-"
     },
@@ -247,75 +214,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "Hetzner Cloud provides high performance cloud instances with excellent network connectivity at a reasonable price. They have two US regions (Virginia and Oregon) that give me good latency numbers here in Texas.",
-      "text": "Hetzner Cloud provides high performance cloud instances with excellent network connectivity at a reasonable price. They have two US regions (Virginia and Oregon) that give me good latency numbers here in Texas."
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "However, they modify some of the Linux images they offer. This ensures every image looks similar when it boots, but it means that Fedora in one cloud doesn't behave like Fedora in another cloud. (They're not the only cloud that makes these changes.)",
-      "text": "However, they modify some of the Linux images they offer. This ensures every image looks similar when it boots, but it means that Fedora in one cloud doesn't behave like Fedora in another cloud. (They're not the only cloud that makes these changes.)"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "The modifications frustrate me for two reasons:",
-      "text": "The modifications frustrate me for two reasons:"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "I automate nearly everything and I expect images to match in different clouds.",
-      "text": "I automate nearly everything and I expect images to match in different clouds.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "I want to use the unaltered image that went through Fedora's QA process.",
-      "text": "I want to use the unaltered image that went through Fedora's QA process.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Fortunately for us, Hetzner offers all the tools we need to deploy our own genuine image. Let's get started! \ud83d\udd27",
       "text": "Fortunately for us, Hetzner offers all the tools we need to deploy our own genuine image. Let's get started! \ud83d\udd27"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -327,7 +230,7 @@
       "text": "Preparing for a snapshot"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -339,7 +242,7 @@
       "text": "We need a small instance to make our initial snapshot. Our first step is to make a cloud-init configuration. Here's mine (be sure to change usernames and keys for yours):"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -355,7 +258,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -367,7 +270,7 @@
       "text": "We could create the instance using the web console, but I prefer to use  hcloud . Fedora users can simply run "
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -383,7 +286,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -395,7 +298,7 @@
       "text": " to get the CLI installed quickly."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -407,7 +310,7 @@
       "text": "Let's use the CLI to start our instance:"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -423,7 +326,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -435,7 +338,7 @@
       "text": "Once the instance finishes building, make a note of the server number in the output."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -447,7 +350,7 @@
       "text": "Let's put the server into rescue mode so we can have full access to the disk:"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -463,7 +366,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -475,7 +378,7 @@
       "text": "Connect to the server via ssh using the root password from the rescue output. Once we're connected, look for the root disk. Then we download the image and extract it to the root disk directly:"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -491,7 +394,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -503,7 +406,7 @@
       "text": "At this point, the root disk of the instance now holds the genuine Fedora 37 cloud image from the GA release. We don't want to boot it before we capture it, so let's disconnect the ssh session and then power off the instance:"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -519,7 +422,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -531,7 +434,7 @@
       "text": "Make the snapshot"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -543,7 +446,7 @@
       "text": "Take a snapshot of the root disk that contains the Fedora cloud image:"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -559,7 +462,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -571,7 +474,7 @@
       "text": "Let's get all of the available data about our snapshot:"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -587,7 +490,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -599,7 +502,7 @@
       "text": "Now you can build instances from the snapshot! In my case, I would adjust my original server create command to use image "
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -615,7 +518,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -627,7 +530,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -643,7 +546,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -655,7 +558,7 @@
       "text": "\ud83e\uddf9 Clean up before you go!"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -667,7 +570,7 @@
       "text": "Nothing is worse than getting a surprise bill at the end of the month for cloud infrastructure that you forgot you had! In this case, a  CPX11  instance should cost you less than $5 per month. It could be worse. \ud83e\udd2d"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -679,7 +582,7 @@
       "text": "Clean it up easily with one command:"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },

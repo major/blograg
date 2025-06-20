@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 6032538152104449854,
-    "filename": "index.md"
+    "binary_hash": 11626083540199097464,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,13 +21,22 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
         "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/11"
+        "$ref": "#/texts/6"
       },
       {
-        "$ref": "#/texts/12"
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
       },
       {
         "$ref": "#/groups/1"
@@ -45,46 +54,31 @@
         "$ref": "#/texts/20"
       },
       {
+        "$ref": "#/texts/21"
+      },
+      {
         "$ref": "#/groups/2"
       },
       {
-        "$ref": "#/texts/28"
+        "$ref": "#/texts/23"
       },
       {
-        "$ref": "#/texts/29"
+        "$ref": "#/texts/24"
       },
       {
-        "$ref": "#/texts/30"
-      },
-      {
-        "$ref": "#/texts/31"
+        "$ref": "#/groups/3"
       },
       {
         "$ref": "#/texts/32"
       },
       {
-        "$ref": "#/groups/3"
+        "$ref": "#/texts/33"
       },
       {
         "$ref": "#/texts/34"
       },
       {
         "$ref": "#/texts/35"
-      },
-      {
-        "$ref": "#/groups/4"
-      },
-      {
-        "$ref": "#/texts/43"
-      },
-      {
-        "$ref": "#/texts/44"
-      },
-      {
-        "$ref": "#/texts/45"
-      },
-      {
-        "$ref": "#/texts/46"
       }
     ],
     "content_layer": "body",
@@ -99,9 +93,6 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
           "$ref": "#/texts/2"
         },
         {
@@ -112,26 +103,11 @@
         },
         {
           "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        },
-        {
-          "$ref": "#/texts/8"
-        },
-        {
-          "$ref": "#/texts/9"
-        },
-        {
-          "$ref": "#/texts/10"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "list"
+      "label": "ordered_list"
     },
     {
       "self_ref": "#/groups/1",
@@ -139,6 +115,15 @@
         "$ref": "#/body"
       },
       "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
         {
           "$ref": "#/texts/13"
         },
@@ -163,30 +148,12 @@
       },
       "children": [
         {
-          "$ref": "#/texts/21"
-        },
-        {
           "$ref": "#/texts/22"
-        },
-        {
-          "$ref": "#/texts/23"
-        },
-        {
-          "$ref": "#/texts/24"
-        },
-        {
-          "$ref": "#/texts/25"
-        },
-        {
-          "$ref": "#/texts/26"
-        },
-        {
-          "$ref": "#/texts/27"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "ordered_list"
+      "label": "list"
     },
     {
       "self_ref": "#/groups/3",
@@ -195,39 +162,25 @@
       },
       "children": [
         {
-          "$ref": "#/texts/33"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/4",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/36"
+          "$ref": "#/texts/25"
         },
         {
-          "$ref": "#/texts/37"
+          "$ref": "#/texts/26"
         },
         {
-          "$ref": "#/texts/38"
+          "$ref": "#/texts/27"
         },
         {
-          "$ref": "#/texts/39"
+          "$ref": "#/texts/28"
         },
         {
-          "$ref": "#/texts/40"
+          "$ref": "#/texts/29"
         },
         {
-          "$ref": "#/texts/41"
+          "$ref": "#/texts/30"
         },
         {
-          "$ref": "#/texts/42"
+          "$ref": "#/texts/31"
         }
       ],
       "content_layer": "body",
@@ -245,22 +198,20 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "Let's Encrypt  has taken the world by storm by providing free SSL certificates that can be renewed via automated methods. They have issued  over 1.4 million certificates  since launch in the fall of 2015.",
+      "text": "Let's Encrypt  has taken the world by storm by providing free SSL certificates that can be renewed via automated methods. They have issued  over 1.4 million certificates  since launch in the fall of 2015."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "/2016/03/31/automated-lets-encrypt-dns-challenges-with-rackspace-cloud-dns/",
-      "text": "/2016/03/31/automated-lets-encrypt-dns-challenges-with-rackspace-cloud-dns/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "If you are not familiar with how Let's Encrypt operates, here is an  extremely  simple explanation:",
+      "text": "If you are not familiar with how Let's Encrypt operates, here is an  extremely  simple explanation:"
     },
     {
       "self_ref": "#/texts/2",
@@ -271,8 +222,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "ansible",
-      "text": "ansible",
+      "orig": "Create a private key",
+      "text": "Create a private key",
       "enumerated": false,
       "marker": "-"
     },
@@ -285,8 +236,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "bash",
-      "text": "bash",
+      "orig": "Make a request for a new certificate",
+      "text": "Make a request for a new certificate",
       "enumerated": false,
       "marker": "-"
     },
@@ -299,8 +250,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "development",
-      "text": "development",
+      "orig": "Complete the challenge process",
+      "text": "Complete the challenge process",
       "enumerated": false,
       "marker": "-"
     },
@@ -313,163 +264,13 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "dns",
-      "text": "dns",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "networking",
-      "text": "networking",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "python",
-      "text": "python",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "ssl",
-      "text": "ssl",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "web",
-      "text": "web",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Let's Encrypt  has taken the world by storm by providing free SSL certificates that can be renewed via automated methods. They have issued  over 1.4 million certificates  since launch in the fall of 2015.",
-      "text": "Let's Encrypt  has taken the world by storm by providing free SSL certificates that can be renewed via automated methods. They have issued  over 1.4 million certificates  since launch in the fall of 2015."
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "If you are not familiar with how Let's Encrypt operates, here is an  extremely  simple explanation:",
-      "text": "If you are not familiar with how Let's Encrypt operates, here is an  extremely  simple explanation:"
-    },
-    {
-      "self_ref": "#/texts/13",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Create a private key",
-      "text": "Create a private key",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/14",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Make a request for a new certificate",
-      "text": "Make a request for a new certificate",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/15",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Complete the challenge process",
-      "text": "Complete the challenge process",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/16",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "You have a certificate!",
       "text": "You have a certificate!",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -481,7 +282,7 @@
       "text": "That is highly simplified, but there is  plenty of detail available  on how the whole system works."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -493,7 +294,7 @@
       "text": "One of the most popular challenge methods is HTTP. That involves getting a challenge string from Let's Encrypt, placing the string at a known URL on your domain, and then waiting for verification of the challenge. The process is quick and Let's Encrypt  provides tools  that automate much of the process for you."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -506,7 +307,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -518,9 +319,9 @@
       "text": "A DNS challenge is available in addition to the HTTP challenge. As you might imagine, this involves creating a DNS record with a string provided by Let's Encrypt. Once the DNS record is in place, it is verified and certificates are issued. The process goes something like this:"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -532,9 +333,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -546,9 +347,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/12",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -560,9 +361,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -574,9 +375,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/14",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -588,9 +389,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/15",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -602,9 +403,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/16",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -616,7 +417,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -628,7 +429,7 @@
       "text": "Wrapping automation around this method is often easier than using the HTTP method since it does not require any changes on web servers. If someone has 500 web servers but they change their DNS records through a single API with a DNS provider, it quickly becomes apparent that adding a single DNS record is much easier."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -640,7 +441,7 @@
       "text": "In addition, the HTTP challenge method creates problems for websites which are not entirely publicly accessible yet. A stealth startup or a pre-release site could acquire a certificate without needing to allow any access into the webserver. This is also helpful for sites which will never be public facing, such as those on intranets."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -653,7 +454,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -665,7 +466,7 @@
       "text": "After some research, I stumbled upon a project in GitHub called  letsencrypt.sh . The project consists of a bash script that makes all the necessary requests to Let's Encrypt's API for requesting and obtaining SSL certificates. However, DNS records are tricky since they are usually managed via an API or other non-trivial methods."
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -677,9 +478,9 @@
       "text": "The project provides a hook feature which allows anyone to write a script that receives data and does the necessary DNS adjustments to complete the challenge process. I wrote a hook that interfaces with  Rackspace's Cloud DNS API  and handles the creation of DNS records:"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/22",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -691,7 +492,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -703,7 +504,7 @@
       "text": "All of the installation and configuration instructions are in the  main README file  within the repository. You can begin issuing certificates with DNS challenges in a few minutes."
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -715,9 +516,9 @@
       "text": "The hook works like this:"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/25",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -729,9 +530,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/26",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -743,9 +544,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/27",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -757,9 +558,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/28",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -771,9 +572,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/29",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -785,9 +586,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/30",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -799,9 +600,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/31",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -813,7 +614,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -825,7 +626,7 @@
       "text": "From there, you can configure your configuration management software to push out the new certificate and keys to your production servers. Let's Encrypt certificates are currently limited to a 90-day duration, so be sure to configure this automation via a cron job. At the very least, set a calendar reminder for yourself a week or two in advance of the expiration."
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -837,7 +638,7 @@
       "text": "Keep in mind that Let's Encrypt and Rackspace's DNS service are completely free. Free is a good thing."
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -849,7 +650,7 @@
       "text": "Let me know what you think of the script! Feel free to make pull requests or issues if you find bugs. I am still working on some automated testing for the script and I hope to have that available in the next week or two."
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },

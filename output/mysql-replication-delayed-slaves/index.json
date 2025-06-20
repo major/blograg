@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 18304582453371184054,
-    "filename": "index.md"
+    "binary_hash": 14713501156988673157,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,13 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
       },
       {
         "$ref": "#/texts/4"
@@ -61,103 +67,16 @@
       },
       {
         "$ref": "#/texts/16"
-      },
-      {
-        "$ref": "#/texts/17"
-      },
-      {
-        "$ref": "#/texts/18"
-      },
-      {
-        "$ref": "#/texts/19"
-      },
-      {
-        "$ref": "#/texts/20"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2008/01/08/mysql-replication-delayed-slaves/",
-      "text": "/2008/01/08/mysql-replication-delayed-slaves/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "database",
-      "text": "database",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "mysql",
-      "text": "mysql",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -169,7 +88,7 @@
       "text": "In a perfect world, slaves will contain the same data as the master at all times. The events should be picked up and executed by the slaves in milliseconds. However, in real world scenarios, replication will be held up for different reasons. Whether it's table locks, disk I/O, network saturation, or CPU usage, slaves might become several seconds, minutes or even hours behind the master."
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -181,7 +100,7 @@
       "text": "In some situations, delays of less than 30 seconds may not be a big issue. Some applications, like social networking applications, would need to have the data match at all times. Lags would not be acceptable."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -193,7 +112,7 @@
       "text": "For example, review this scenario. Let's say you go to a site and create an account. That would send a write query to the master. Once you've finished the account creation, the page will depend on a read query. If the slave is behind the master, it won't have any data about your new account, and the application will probably tell you that you don't have an account. That would be pretty annoying for your application's users."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -205,7 +124,7 @@
       "text": "To check your current lag, simply run "
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -221,7 +140,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -233,7 +152,7 @@
       "text": " in MySQL, and review the number following "
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -249,7 +168,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -261,7 +180,7 @@
       "text": ". If everything is running well, it should be followed by 0. If "
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -277,7 +196,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -289,7 +208,7 @@
       "text": " is shown, then there is most likely an issue with replication, and you might want to check "
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -305,7 +224,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -317,7 +236,7 @@
       "text": "."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -329,7 +248,7 @@
       "text": "So, how can replication lags be corrected? Try these methods:"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -341,7 +260,7 @@
       "text": "Review your queries.  When queries keep running in MySQL, the slave may be unable to keep up. Make sure that your read queries are as  optimized as possible  so they complete quickly."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -353,7 +272,7 @@
       "text": "Optimize your MySQL server variables.  Be sure to  thoroughly review your MySQL configuration  for any bottlenecks."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -365,7 +284,7 @@
       "text": "Choose the right storage engines.  If you're making a lot of updates to a table,  consider using InnoDB . If your tables are not updated often, c onsider using MyISAM tables  (or even  compressed MyISAM tables )."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },

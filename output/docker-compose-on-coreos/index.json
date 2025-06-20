@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 13752181567892650736,
-    "filename": "index.md"
+    "binary_hash": 16510209280165599069,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,19 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
       },
       {
         "$ref": "#/texts/6"
@@ -39,10 +51,7 @@
         "$ref": "#/texts/10"
       },
       {
-        "$ref": "#/texts/11"
-      },
-      {
-        "$ref": "#/texts/12"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/13"
@@ -57,7 +66,10 @@
         "$ref": "#/texts/16"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
       },
       {
         "$ref": "#/texts/19"
@@ -90,16 +102,7 @@
         "$ref": "#/texts/28"
       },
       {
-        "$ref": "#/texts/29"
-      },
-      {
-        "$ref": "#/texts/30"
-      },
-      {
-        "$ref": "#/texts/31"
-      },
-      {
-        "$ref": "#/texts/32"
+        "$ref": "#/groups/1"
       },
       {
         "$ref": "#/texts/33"
@@ -108,7 +111,16 @@
         "$ref": "#/texts/34"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
       },
       {
         "$ref": "#/texts/39"
@@ -211,24 +223,6 @@
       },
       {
         "$ref": "#/texts/72"
-      },
-      {
-        "$ref": "#/texts/73"
-      },
-      {
-        "$ref": "#/texts/74"
-      },
-      {
-        "$ref": "#/texts/75"
-      },
-      {
-        "$ref": "#/texts/76"
-      },
-      {
-        "$ref": "#/texts/77"
-      },
-      {
-        "$ref": "#/texts/78"
       }
     ],
     "content_layer": "body",
@@ -243,24 +237,15 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/11"
         },
         {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
+          "$ref": "#/texts/12"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "list"
+      "label": "ordered_list"
     },
     {
       "self_ref": "#/groups/1",
@@ -269,33 +254,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/17"
+          "$ref": "#/texts/29"
         },
         {
-          "$ref": "#/texts/18"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "ordered_list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/35"
+          "$ref": "#/texts/30"
         },
         {
-          "$ref": "#/texts/36"
+          "$ref": "#/texts/31"
         },
         {
-          "$ref": "#/texts/37"
-        },
-        {
-          "$ref": "#/texts/38"
+          "$ref": "#/texts/32"
         }
       ],
       "content_layer": "body",
@@ -313,93 +281,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "author: Major Hayden date: '2022-12-17' summary: > My go-to method for managing containers easily is still docker-compose. It works really well on Fedora CoreOS. \ud83d\udce6 tags:",
-      "text": "author: Major Hayden date: '2022-12-17' summary: > My go-to method for managing containers easily is still docker-compose. It works really well on Fedora CoreOS. \ud83d\udce6 tags:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "containers",
-      "text": "containers",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "coreos",
-      "text": "coreos",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "docker",
-      "text": "docker",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "kubernetes",
-      "text": "kubernetes",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Deploying applications in containers provides lots of flexibility and compatibility benefits.",
       "text": "Deploying applications in containers provides lots of flexibility and compatibility benefits."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -411,7 +297,7 @@
       "text": "Once you package your application and its dependencies in a container, that container runs almost anywhere without issues. Very few of the old \"it worked on my machine!\" problems remain. However, the challenge of running a container and linking it up with other helpful pieces of software still remains."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -423,7 +309,7 @@
       "text": "Web applications need something to serve HTTP requests and handle TLS. They also need databases, and those databases must be online and available first. All of these need reliable storage that is easily managed."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -435,7 +321,7 @@
       "text": "In my personal infrastructure, I keep coming back to  docker-compose ."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -447,7 +333,7 @@
       "text": "\ud83d\udc07  In a hurry? Skip to the last section of this post if you want to skip my reasons for using docker-compose and you just want to see the steps."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -459,7 +345,7 @@
       "text": "Why docker-compose?"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -471,7 +357,7 @@
       "text": "The tried-and-true docker-compose is one of the original \"set your desired state\" systems for managing containers. You specify what your container deployment should look like and docker-compose finds a way to get your containers in order. Sometimes that's a fresh start without any existing containers. Sometimes it involves managing an existing fleet of containers and adjusting their configuration."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -483,7 +369,7 @@
       "text": "As an example, deploying your first container with docker-compose is easy. Assemble a  basic YAML file , point docker-compose at it, and your container is running!"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -495,7 +381,7 @@
       "text": "Need to change the configuration? Just make your changes in the YAML file, re-run docker-compose, and it knows enough to make the right changes. If containers need to be restarted, it takes care of that."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -508,7 +394,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -520,9 +406,9 @@
       "text": "I've run my own kubernetes deployment and I've also been a consumer of large kubernetes and OpenShift deployments. All of this experience taught me two things:"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -534,9 +420,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/12",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -548,7 +434,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -560,7 +446,7 @@
       "text": "Deploying, maintaining, and troubleshooting kubernetes infrastructure on your own is time consuming. Shared storage and networking caused me the most headaches in the past."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -573,7 +459,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -585,7 +471,7 @@
       "text": "I love  k3s . However, that still means I have to figure out networking for inter-container communication and load balancing. Shared storage is also needed."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -597,7 +483,7 @@
       "text": "I could argue that running my own k3s deployment is easier than full kubernetes, but in the end, there's more extra stuff around it that I don't want to maintain."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -610,7 +496,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -622,7 +508,7 @@
       "text": "Great question! Several providers have some excellent kubernetes offerings out there. Smaller providers, such as  Digital Ocean  and  VULTR , have affordable offerings that are packed with features."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -634,7 +520,7 @@
       "text": "The challenge is that kubernetes deployments have overhead for the control plane, so you can't use all of the virtual machines that you rent. For example, you may get three virtual machines in your cluster, each with 2GB RAM, but you can really only use about 1GB of RAM from each instance for your containers."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -646,7 +532,7 @@
       "text": "In addition, you will eventually need shared storage and some type of load balancer. The costs add up quickly."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -658,7 +544,7 @@
       "text": "It's easy to start with a $50-$70 kubernetes offering and later find yourself cracking $100 per month after adding on storage and load balancers."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -671,7 +557,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -683,7 +569,7 @@
       "text": "Podman  is a delight to use. You can toss some kubernetes YAML at it for deployments or pods and it will start them up for you. It also has a handy feature for exporting a container to a systemd unit file so you can manage it like any other systemd unit."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -695,7 +581,7 @@
       "text": "However, when I want to make quick adjustments to a container configuration, it can be frustrating to get that done. I also like to make adjustments to all of my containers in one place since some applications depend on multiple containers running in tandem."
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -707,7 +593,7 @@
       "text": "The  podman-compose  project helps quite a bit, but it still lacks some of docker-compose's features."
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -719,7 +605,7 @@
       "text": "I use podman  constantly  on my laptop and desktop for development, testing, and toolbox containers."
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -731,7 +617,7 @@
       "text": "What's the big deal about CoreOS?"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -743,9 +629,9 @@
       "text": "Fedora CoreOS  provides the foundation for my container infrastructure. I love Fedora already, but here's what makes CoreOS special to me:"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/29",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -757,9 +643,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/30",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -771,9 +657,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/31",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -785,9 +671,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/32",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -799,7 +685,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -811,7 +697,7 @@
       "text": "It's a constantly-updated OS that is designed for containers. What could be better than that?"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -823,7 +709,7 @@
       "text": "Adding docker-compose to CoreOS"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -835,7 +721,7 @@
       "text": "Deploy CoreOS in your favorite cloud or on your favorite piece of hardware (I have  a post  about deploying it on  Hetzner Cloud ). Login as the "
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -851,7 +737,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -863,7 +749,7 @@
       "text": " user via ssh."
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -875,7 +761,7 @@
       "text": "Go to the  releases page  for docker-compose and get the latest release for your architecture. Move it into place once you download it:"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -891,7 +777,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -903,7 +789,7 @@
       "text": "Let's add a really basic deployment of traefik's  whoami  container. Start a new file called "
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -919,7 +805,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -931,7 +817,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -947,7 +833,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -959,7 +845,7 @@
       "text": "If we try to bring up our containers now, we get an error:"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -975,7 +861,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -987,7 +873,7 @@
       "text": "The "
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1003,7 +889,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1015,7 +901,7 @@
       "text": " user is not in the "
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1031,7 +917,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1043,7 +929,7 @@
       "text": " group and does not have permissions to talk to the docker socket."
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1059,7 +945,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1071,7 +957,7 @@
       "text": "Add the "
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1087,7 +973,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1099,7 +985,7 @@
       "text": " group to the "
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1115,7 +1001,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1127,7 +1013,7 @@
       "text": " user as a supplementary group:"
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1143,7 +1029,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1155,7 +1041,7 @@
       "text": "Log out of your ssh session and log in again to pick up the new group. Start the containers once more:"
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1171,7 +1057,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1183,7 +1069,7 @@
       "text": "Success!"
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1195,7 +1081,7 @@
       "text": "\ud83e\udd14  BUT WAIT! If we reboot our system, the containers won't start up at boot time!"
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/62",
       "parent": {
         "$ref": "#/body"
       },
@@ -1207,7 +1093,7 @@
       "text": "On CoreOS, there's a "
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/63",
       "parent": {
         "$ref": "#/body"
       },
@@ -1223,7 +1109,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/70",
+      "self_ref": "#/texts/64",
       "parent": {
         "$ref": "#/body"
       },
@@ -1235,7 +1121,7 @@
       "text": " file that starts the actual docker service (which is actually  moby-engine  on Fedora and not full-fledged docker). As soon as something touches the socket, systemd starts the docker service. That keeps it out of the way until something actually asks to use it."
     },
     {
-      "self_ref": "#/texts/71",
+      "self_ref": "#/texts/65",
       "parent": {
         "$ref": "#/body"
       },
@@ -1251,7 +1137,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/72",
+      "self_ref": "#/texts/66",
       "parent": {
         "$ref": "#/body"
       },
@@ -1263,7 +1149,7 @@
       "text": "After a reboot, nothing pokes the socket and the associated service never starts. You can try it yourself! Reboot and the whoami container will be down. Run "
     },
     {
-      "self_ref": "#/texts/73",
+      "self_ref": "#/texts/67",
       "parent": {
         "$ref": "#/body"
       },
@@ -1279,7 +1165,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/74",
+      "self_ref": "#/texts/68",
       "parent": {
         "$ref": "#/body"
       },
@@ -1291,7 +1177,7 @@
       "text": " one time and suddenly your containers are running!"
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/69",
       "parent": {
         "$ref": "#/body"
       },
@@ -1303,7 +1189,7 @@
       "text": "Let's fix this so containers come up on boot without any extra work (or socket poking):"
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/70",
       "parent": {
         "$ref": "#/body"
       },
@@ -1319,7 +1205,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/71",
       "parent": {
         "$ref": "#/body"
       },
@@ -1331,7 +1217,7 @@
       "text": "The socket will still be handled by systemd, but now the docker service itself will always start at boot whether someone touched it or not."
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },

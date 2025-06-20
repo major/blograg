@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 16556872833598447750,
-    "filename": "index.md"
+    "binary_hash": 17891042197464669295,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,22 +21,16 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
         "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/4"
+        "$ref": "#/texts/8"
       },
       {
-        "$ref": "#/texts/5"
-      },
-      {
-        "$ref": "#/groups/1"
-      },
-      {
-        "$ref": "#/texts/12"
-      },
-      {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       }
     ],
     "content_layer": "body",
@@ -51,13 +45,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
           "$ref": "#/texts/2"
         },
         {
-          "$ref": "#/texts/3"
+          "$ref": "#/groups/1"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
         }
       ],
       "content_layer": "body",
@@ -67,20 +64,17 @@
     {
       "self_ref": "#/groups/1",
       "parent": {
-        "$ref": "#/body"
+        "$ref": "#/groups/0"
       },
       "children": [
         {
-          "$ref": "#/texts/6"
+          "$ref": "#/texts/3"
         },
         {
-          "$ref": "#/groups/2"
+          "$ref": "#/texts/4"
         },
         {
-          "$ref": "#/texts/10"
-        },
-        {
-          "$ref": "#/texts/11"
+          "$ref": "#/texts/5"
         }
       ],
       "content_layer": "body",
@@ -90,34 +84,14 @@
     {
       "self_ref": "#/groups/2",
       "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/7"
-        },
-        {
-          "$ref": "#/texts/8"
-        },
-        {
-          "$ref": "#/texts/9"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/3",
-      "parent": {
         "$ref": "#/body"
       },
       "children": [
         {
-          "$ref": "#/texts/13"
+          "$ref": "#/texts/9"
         },
         {
-          "$ref": "#/texts/14"
+          "$ref": "#/texts/10"
         }
       ],
       "content_layer": "body",
@@ -135,65 +109,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2007/05/17/relay-access-denied/",
-      "text": "/2007/05/17/relay-access-denied/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "mail",
-      "text": "mail",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "If you're checking through your mail logs, or you catch a bounced e-mail with \"554 relay access denied\" in the bounce, the issue can be related to a few different things:",
       "text": "If you're checking through your mail logs, or you catch a bounced e-mail with \"554 relay access denied\" in the bounce, the issue can be related to a few different things:"
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -205,9 +125,9 @@
       "text": "If  your  server bounces with this message when people send e-mail to  you :"
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -219,9 +139,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -233,9 +153,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -247,9 +167,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -261,9 +181,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -275,9 +195,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -289,7 +209,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -301,9 +221,9 @@
       "text": "If you get this message when you try to send e-mail to other people through your server:"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -315,9 +235,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",

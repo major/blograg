@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 716351068804962426,
-    "filename": "index.md"
+    "binary_hash": 17556896817855149707,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,25 +21,19 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
         "$ref": "#/groups/0"
-      },
-      {
-        "$ref": "#/texts/5"
-      },
-      {
-        "$ref": "#/texts/6"
       },
       {
         "$ref": "#/texts/7"
       },
       {
-        "$ref": "#/groups/1"
-      },
-      {
-        "$ref": "#/texts/12"
-      },
-      {
-        "$ref": "#/texts/13"
+        "$ref": "#/texts/8"
       }
     ],
     "content_layer": "body",
@@ -54,39 +48,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
           "$ref": "#/texts/3"
         },
         {
           "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/8"
         },
         {
-          "$ref": "#/texts/9"
+          "$ref": "#/texts/5"
         },
         {
-          "$ref": "#/texts/10"
-        },
-        {
-          "$ref": "#/texts/11"
+          "$ref": "#/texts/6"
         }
       ],
       "content_layer": "body",
@@ -104,36 +75,32 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "If you're currently running a Xen hypervisor on a Fedora release before 22,  stay put for now .",
+      "text": "If you're currently running a Xen hypervisor on a Fedora release before 22,  stay put for now ."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "/2015/05/27/xen-4-5-crashes-during-boot-on-fedora-22/",
-      "text": "/2015/05/27/xen-4-5-crashes-during-boot-on-fedora-22/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "There's a bug in Xen when you compile it with GCC 5 that will cause your system to get an error during bootup. In my case, I'm sometimes getting the crash shortly after the hypervisor to dom0 kernel handoff and sometimes it's happening later in the boot process closer to when I'd expect a login screen to appear.",
+      "text": "There's a bug in Xen when you compile it with GCC 5 that will cause your system to get an error during bootup. In my case, I'm sometimes getting the crash shortly after the hypervisor to dom0 kernel handoff and sometimes it's happening later in the boot process closer to when I'd expect a login screen to appear."
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "Here are some helpful links to follow the progress of the fix:",
+      "text": "Here are some helpful links to follow the progress of the fix:"
     },
     {
       "self_ref": "#/texts/3",
@@ -144,8 +111,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "gcc",
-      "text": "gcc",
+      "orig": "[<RawText children='Crash logs from the kernel panic'>]",
+      "text": "[<RawText children='Crash logs from the kernel panic'>]",
       "enumerated": false,
       "marker": "-"
     },
@@ -158,79 +125,15 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "xen",
-      "text": "xen",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "If you're currently running a Xen hypervisor on a Fedora release before 22,  stay put for now .",
-      "text": "If you're currently running a Xen hypervisor on a Fedora release before 22,  stay put for now ."
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "There's a bug in Xen when you compile it with GCC 5 that will cause your system to get an error during bootup. In my case, I'm sometimes getting the crash shortly after the hypervisor to dom0 kernel handoff and sometimes it's happening later in the boot process closer to when I'd expect a login screen to appear.",
-      "text": "There's a bug in Xen when you compile it with GCC 5 that will cause your system to get an error during bootup. In my case, I'm sometimes getting the crash shortly after the hypervisor to dom0 kernel handoff and sometimes it's happening later in the boot process closer to when I'd expect a login screen to appear."
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Here are some helpful links to follow the progress of the fix:",
-      "text": "Here are some helpful links to follow the progress of the fix:"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "[<RawText children='Crash logs from the kernel panic'>]",
-      "text": "[<RawText children='Crash logs from the kernel panic'>]",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "[<RawText children='Bug 1219197 &#8211; Xen BUG at page_alloc.c:1738'>]",
       "text": "[<RawText children='Bug 1219197 &#8211; Xen BUG at page_alloc.c:1738'>]",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -242,9 +145,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -256,7 +159,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -268,7 +171,7 @@
       "text": "Michael Young found that Xen 4.5.1-rc1 (which has code very similar to 4.5) will compile and boot  if compiled with GCC 4.x in Fedora 21 . It's a decent workaround but it's certainly not a long term fix."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },

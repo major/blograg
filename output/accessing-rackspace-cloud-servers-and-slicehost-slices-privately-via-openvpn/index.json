@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 13864042450452287802,
-    "filename": "index.md"
+    "binary_hash": 3617616810054278664,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -18,13 +18,37 @@
     "self_ref": "#/body",
     "children": [
       {
+        "$ref": "#/pictures/0"
+      },
+      {
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
       },
       {
-        "$ref": "#/pictures/0"
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/12"
@@ -54,7 +78,13 @@
         "$ref": "#/texts/20"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
       },
       {
         "$ref": "#/texts/24"
@@ -64,42 +94,6 @@
       },
       {
         "$ref": "#/texts/26"
-      },
-      {
-        "$ref": "#/texts/27"
-      },
-      {
-        "$ref": "#/texts/28"
-      },
-      {
-        "$ref": "#/texts/29"
-      },
-      {
-        "$ref": "#/texts/30"
-      },
-      {
-        "$ref": "#/texts/31"
-      },
-      {
-        "$ref": "#/texts/32"
-      },
-      {
-        "$ref": "#/texts/33"
-      },
-      {
-        "$ref": "#/texts/34"
-      },
-      {
-        "$ref": "#/texts/35"
-      },
-      {
-        "$ref": "#/texts/36"
-      },
-      {
-        "$ref": "#/texts/37"
-      },
-      {
-        "$ref": "#/texts/38"
       }
     ],
     "content_layer": "body",
@@ -114,30 +108,6 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        },
-        {
-          "$ref": "#/texts/8"
-        },
-        {
           "$ref": "#/texts/9"
         },
         {
@@ -145,26 +115,6 @@
         },
         {
           "$ref": "#/texts/11"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/21"
-        },
-        {
-          "$ref": "#/texts/22"
-        },
-        {
-          "$ref": "#/texts/23"
         }
       ],
       "content_layer": "body",
@@ -182,177 +132,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2010/11/16/accessing-rackspace-cloud-servers-and-slicehost-slices-privately-via-openvpn/",
-      "text": "/2010/11/16/accessing-rackspace-cloud-servers-and-slicehost-slices-privately-via-openvpn/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "cloud",
-      "text": "cloud",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "command line",
-      "text": "command line",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "networking",
-      "text": "networking",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "networkmanager",
-      "text": "networkmanager",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "rackspace",
-      "text": "rackspace",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "slicehost",
-      "text": "slicehost",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "sysadmin",
-      "text": "sysadmin",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "vpn",
-      "text": "vpn",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "diagram  Diagram: OpenVPN to Rackspace Cloud Servers and Slicehost",
       "text": "diagram  Diagram: OpenVPN to Rackspace Cloud Servers and Slicehost"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -364,7 +148,7 @@
       "text": "A recent  blog post from Mixpanel  inspired me to write a quick how-to for Fedora users on using OpenVPN to talk to instances privately in the Rackspace Cloud."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -376,7 +160,7 @@
       "text": "The diagram at the right gives an idea of what this guide will allow you to accomplish. Consider a situation where you want to talk to the MySQL installation on db1 directly without requiring extra ssh tunnels or MySQL over SSL via the public network. If you tunnel into one of your instances, you can utilize the private network to talk between your instances very easily."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -388,7 +172,7 @@
       "text": "There's one important thing to keep in mind here: even though you'll be utilizing the private network between your tunnel endpoint and your other instances, your traffic will still traverse the public network. That means that the instance with your tunnel endpoint will still get billed for the traffic flowing through your tunnel."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -400,7 +184,7 @@
       "text": "You'll only need the openvpn package on the server side:"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -416,7 +200,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -428,7 +212,7 @@
       "text": "Throw down this simple configuration file into /etc/openvpn/server.conf:"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -444,7 +228,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -456,9 +240,9 @@
       "text": "Here's a bit of explanation for some things you may want to configure:"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -470,9 +254,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -484,9 +268,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -498,7 +282,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -510,7 +294,7 @@
       "text": "Build your Diffie-Hellman parameters file:"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -526,7 +310,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -538,7 +322,7 @@
       "text": "Tell iptables that you want to NAT your VPN endpoint traffic out to all 10.x.x.x IP addresses on the private network:"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -554,7 +338,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -566,7 +350,7 @@
       "text": "The last step on the server side is to ensure that the kernel will forward packets from the VPN endpoint out through the private interface. Ensure that your /etc/sysctl.conf looks like this:"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -582,7 +366,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -594,7 +378,7 @@
       "text": "Adjusting your sysctl.conf ensures that forwarding is enabled at boot time, but you'll need to enable it on your VPN endpoint right now:"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -610,7 +394,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -622,7 +406,7 @@
       "text": "Start the openvpn server:"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -638,7 +422,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -650,7 +434,7 @@
       "text": "If all is well, you should see openvpn listening on port 1194:"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -666,7 +450,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -678,7 +462,7 @@
       "text": "You'll need to configure a client to talk to your VPN now. This involves three steps: creating a new certificate/key pair for the client (same procedure as making your server certificates), signing the client's certificate with your CA certificate (same one that you used above to sign your server certificates), and then configuring your client application to access the VPN."
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -690,7 +474,7 @@
       "text": "There are  many  openvpn clients out there to choose from."
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },

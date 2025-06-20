@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 9056423269146741423,
-    "filename": "index.md"
+    "binary_hash": 1680616541953358439,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,19 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
       },
       {
         "$ref": "#/texts/6"
@@ -69,25 +81,25 @@
         "$ref": "#/texts/20"
       },
       {
-        "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
-      },
-      {
-        "$ref": "#/texts/23"
-      },
-      {
-        "$ref": "#/texts/24"
-      },
-      {
-        "$ref": "#/texts/25"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/26"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
       },
       {
         "$ref": "#/texts/32"
@@ -145,24 +157,6 @@
       },
       {
         "$ref": "#/texts/50"
-      },
-      {
-        "$ref": "#/texts/51"
-      },
-      {
-        "$ref": "#/texts/52"
-      },
-      {
-        "$ref": "#/texts/53"
-      },
-      {
-        "$ref": "#/texts/54"
-      },
-      {
-        "$ref": "#/texts/55"
-      },
-      {
-        "$ref": "#/texts/56"
       }
     ],
     "content_layer": "body",
@@ -177,45 +171,19 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/21"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/22"
         },
         {
-          "$ref": "#/texts/3"
+          "$ref": "#/texts/23"
         },
         {
-          "$ref": "#/texts/4"
+          "$ref": "#/texts/24"
         },
         {
-          "$ref": "#/texts/5"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/27"
-        },
-        {
-          "$ref": "#/texts/28"
-        },
-        {
-          "$ref": "#/texts/29"
-        },
-        {
-          "$ref": "#/texts/30"
-        },
-        {
-          "$ref": "#/texts/31"
+          "$ref": "#/texts/25"
         }
       ],
       "content_layer": "body",
@@ -233,93 +201,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2018/05/09/how-to-thrive-at-a-tech-conference/",
-      "text": "/2018/05/09/how-to-thrive-at-a-tech-conference/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "conferences",
-      "text": "conferences",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "guidance",
-      "text": "guidance",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "red hat",
-      "text": "red hat",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "I'm at the  2018 Red Hat Summit  this week in San Francisco and I am enjoying the interactions between developers, executives, vendors, and engineers. It's my seventh Summit (but my first as a Red Hat employee!), but I regularly meet people who are attending their first technical conference.",
       "text": "I'm at the  2018 Red Hat Summit  this week in San Francisco and I am enjoying the interactions between developers, executives, vendors, and engineers. It's my seventh Summit (but my first as a Red Hat employee!), but I regularly meet people who are attending their first technical conference."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -331,7 +217,7 @@
       "text": "The question inevitably comes up: \"I'm so tired. How do you survive these events?\""
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -343,7 +229,7 @@
       "text": "One attendee asked me to write a blog post on my tips and tricks. This is the post that explains how to thrive, not just survive, at conferences. Beware - these tips are based on my experiences and your mileage may vary depending on your personality, the event itself, and your caffeine intake."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -356,7 +242,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -368,7 +254,7 @@
       "text": "Traveling to a conference is awesome way to experience more of the world! Take time to enjoy the tourist sites but also find out where the locals like to go. Any hotel concierge should be able to give you advice on where to go to truly experience the location."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -380,7 +266,7 @@
       "text": "Take some time to learn the area around your hotel and the venue. Be sure you can navigate between the two and find some important spots nearby, like pharmacies and coffee shops."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -393,7 +279,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -405,7 +291,7 @@
       "text": "These conferences can often feel overwhelming and you may find yourself forgetting to eat the right foods, stay hydrated, and get some rest."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -417,7 +303,7 @@
       "text": "Take every opportunity to eat healthier foods during the week that will give you energy without weighing you down. All the stuff that your Mom told you to eat is a good idea. My rule of thumb is to eat a heavy breakfast, a medium sized lunch, and then whatever I want for dinner. Evening events often have free food (more on those events next), and that fits my travel budget well. It also allows me to splurge a bit on foods that I might not eat back home."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -429,7 +315,7 @@
       "text": "Take along a water container when you travel. You can't always depend on the conference for making water available and you'll often need more than they offer anyway. I'm a big fan of  Nalgene's  products since they take a beating and they have really good seals."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -441,7 +327,7 @@
       "text": "Sleeping is a real challenge. Early morning keynotes and late night events put a strain on anyone's sleep schedule. Lots of people have trouble sleeping in hotels or in cities where the noise level remains high all night long. The best remedy is to be choosy about the events you attend and the time you spend there. Think about what is more valuable: more time listening to blasting music at a party or more time with your head on the pillow."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -453,7 +339,7 @@
       "text": "Consider using an application on your phone that provides various types of noises, such as  white noise . I love the  White Noise  app on Android since it has tons of options for various sounds. In my experience, brown noise works best for sleeping. Pink noise can help in extremely noisy environments (like downtown San Francisco) but it's often too loud for me."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -466,7 +352,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -478,7 +364,7 @@
       "text": "Find a way to keep your devices charged, especially your phone. I use  Anker  battery packs to keep my phone topped up during the day when I can't get to a plug. A dead phone disconnects you from your friends, maps, and conference details."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -491,7 +377,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -503,7 +389,7 @@
       "text": "Your clothing selection really depends on the type of conference and the company you represent. If you need to dress formally each day, then your choices are already made for you."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -515,7 +401,7 @@
       "text": "Pack layers of clothing so you can add or remove layers as needed. The walk to the conference center may be warm, but the keynote auditorium could feel like a freezer. This also prepares you for evening events which might be outdoors."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -527,7 +413,7 @@
       "text": "Wear clothing that makes you feel comfortable. You'll find a wide range of outfits at most tech conferences and you'll find that nobody really cares how formal or informal you are. If you're there to listen, learn, and contribute, then dress casually. If you're looking for a new job, doing a talk, or if you'll be on camera, choose something a little more formal."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -540,7 +426,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -552,7 +438,7 @@
       "text": "You won't find the hallway track on any agenda, but it is often the most valuable part of any gathering. The hallway track encompasses those brief encounters you have with other people at the event. Turn those mundane events, such as waiting in line, eating lunch, or between talks, into opportunities to meet other people."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -564,9 +450,9 @@
       "text": "Yes, this does mean that you must do something to come out of your shell and start a conversation. This is still difficult for me. Here are some good ways to start a conversation with someone around you:"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/21",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -578,9 +464,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/22",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -592,9 +478,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/23",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -606,9 +492,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/24",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -620,9 +506,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/25",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -634,7 +520,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -646,7 +532,7 @@
       "text": "The secret is to find something that makes you and the other person feel comfortable. There are situations where you might be met with a cold shoulder, and that's okay. I've found that sometimes people need some space or the issue could be a language barrier. Making the attempt is what matters."
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -658,7 +544,7 @@
       "text": "These are excellent opportunities for learning, for listening, and for sharing. These new contacts will show up again and again at the event (more on parties/networking next), and you can talk to them again when you feel the tendency to become a  wallflower  again."
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -671,7 +557,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -683,7 +569,7 @@
       "text": "Evening events at conferences are a great way to keep the hallway track going while taking some time to relax as well. Some of the best conversations I've had at conferences were during evening events or vendor parties. People are more candid since the conference demands are often reduced."
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -695,7 +581,7 @@
       "text": "However, it's incredibly easy to make some spectacularly bad decisions at these events. This list should help you navigate these events and get value from them:"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -708,7 +594,7 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -720,7 +606,7 @@
       "text": "Early in my career, I looked at an open bar as a magical oasis. Free drinks! As many as I want! This is heaven! (Narrator:  It was not heaven. It was something else. )"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -732,7 +618,7 @@
       "text": "I think about open bars much like I think about a trip to Las Vegas. Before I go, I think about how much money I feel like losing, and I only bet that much.  Once the money is gone, I'm done."
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -744,7 +630,7 @@
       "text": "Go into the event knowing how much or how little you want to consume.  Zero is an entirely valid answer.  Keep in mind that the answer to \"Why aren't you drinking anything?\" does not have to be \"I guess I'll get something.\"  Nobody needs to know why you're not drinking and you shouldn't feel pressured to do something you don't want to do."
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -756,7 +642,7 @@
       "text": "Think about how you want to feel in the morning. Is a massive hangover worth another round of shots? Is it worth it to ruin your talk the next day? Is it worth it to get belligerent and say something that may be difficult to take back? Think about these things ahead of time and make a plan before you begin drinking."
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -769,7 +655,7 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -781,7 +667,7 @@
       "text": "Some evening events can last much too late and this could derail your plans for the morning. If the party runs from 7-10PM, don't feel obligated to stay until 10PM. If you're not meeting the right people or if you're not having a good time: leave. It's better to abandon an event early than suffer through it and crawl through the next morning."
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -794,7 +680,7 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -806,7 +692,7 @@
       "text": "The conference may host various events or a vendor may invite you to an event. These are just invitations and your attendance is not required (unless you work for the vendor throwing the party). Feel free to do something else with your time if the event or the venue seem uninteresting or unsafe. (More on safety next.)"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -819,7 +705,7 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -831,7 +717,7 @@
       "text": "Remember those people you talked to in the hallway and during lunch? Find those people at the event and tell them you enjoyed the conversation from earlier. I've been to conferences before where I've been the only one from my company and after letting the other person know that, they invited me to hang out with them or their group at the event."
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -843,7 +729,7 @@
       "text": "This is a good idea for two reasons. First, it gives you someone to talk to. More importantly, it helps you stay safe."
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -856,7 +742,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -868,7 +754,7 @@
       "text": "This gets its own section. It has happened to me and it will likely happen to you."
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -880,7 +766,7 @@
       "text": "Nobody ever wants it to happen, but people are often harassed in one way or another at these events. It's inevitable: there are drinks, people are away from home, and they're enjoying time away from work. For some people, this is a combination of factors that leads them to make bad choices at these events."
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -892,7 +778,7 @@
       "text": "Harassment comes in many forms, but nobody should put up with it. If you see someone being treated badly, step in. If you're being treated badly, get help. If you're treating someone badly, apologize and remove yourself from the situation. This is where a party buddy can be extremely helpful."
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -904,7 +790,7 @@
       "text": "Harassment is not a women-only or men-only problem. I have been touched in unwelcome ways and verbally harassed at evening events. It is not fun. In my experience, telling the other person to \"Please stop\" or \"That is not okay\" is usually enough to diffuse the situation."
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -916,7 +802,7 @@
       "text": "This may not always work. Grab your buddy and get help from conference staffers or a security guard if a situation continues to escalate."
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -929,7 +815,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },

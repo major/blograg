@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 7581095487636711038,
-    "filename": "index.md"
+    "binary_hash": 6103759477877501967,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,28 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
       },
       {
         "$ref": "#/texts/9"
@@ -57,37 +78,10 @@
         "$ref": "#/texts/19"
       },
       {
-        "$ref": "#/texts/20"
-      },
-      {
-        "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/23"
-      },
-      {
-        "$ref": "#/texts/24"
-      },
-      {
-        "$ref": "#/texts/25"
-      },
-      {
-        "$ref": "#/texts/26"
-      },
-      {
-        "$ref": "#/texts/27"
-      },
-      {
-        "$ref": "#/texts/28"
-      },
-      {
-        "$ref": "#/groups/1"
-      },
-      {
-        "$ref": "#/texts/32"
       }
     ],
     "content_layer": "body",
@@ -102,48 +96,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/20"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/21"
         },
         {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        },
-        {
-          "$ref": "#/texts/8"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/29"
-        },
-        {
-          "$ref": "#/texts/30"
-        },
-        {
-          "$ref": "#/texts/31"
+          "$ref": "#/texts/22"
         }
       ],
       "content_layer": "body",
@@ -161,135 +120,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aktt_notify_twitter:",
-      "text": "aktt_notify_twitter:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "false",
-      "text": "false",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2010/08/11/one-month-with-glusterfs-in-production/",
-      "text": "/2010/08/11/one-month-with-glusterfs-in-production/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "glusterfs",
-      "text": "glusterfs",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "network",
-      "text": "network",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "sysadmin",
-      "text": "sysadmin",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "web",
-      "text": "web",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "wordpress",
-      "text": "wordpress",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "As many of you might have noticed from my  previous GlusterFS blog post  and my  various tweets , I've been working with GlusterFS in production for my personal hosting needs for just over a month. I've also been learning quite a bit from some of the folks in the  #gluster  channel on  Freenode . On a few occasions I've even been able to help out with some configuration problems from other users.",
       "text": "As many of you might have noticed from my  previous GlusterFS blog post  and my  various tweets , I've been working with GlusterFS in production for my personal hosting needs for just over a month. I've also been learning quite a bit from some of the folks in the  #gluster  channel on  Freenode . On a few occasions I've even been able to help out with some configuration problems from other users."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -301,7 +136,7 @@
       "text": "There has been quite a bit of interest in GlusterFS as of late and I've been inundated with questions from coworkers, other system administrators and developers. Most folks want to know about its reliability and performance in demanding production environments. I'll try to do my best to cover the big points in this post."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -313,7 +148,7 @@
       "text": "First off, here's now I'm using it in production:  I have two web nodes that keep content in sync for various web sites. They each run a GlusterFS server instance and they also mount their GlusterFS share. I'm using the  replicate translator  to keep both web nodes in sync with client side replication."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -325,7 +160,7 @@
       "text": "Here are my impressions after a month:"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -337,7 +172,7 @@
       "text": "I/O speed is often tied heavily to network throughput"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -349,7 +184,7 @@
       "text": "This one may seem obvious, but it's not always true in all environments. If you deal with a lot of small files like I do, a 40mbit/sec link between the Xen guests is plenty. Adding extra throughput didn't add any performance to my servers. However, if you wrangle large files on your servers regularly, you may want to consider higher throughput links between your servers. I was able to push just under 900mbit/sec by using dd to create a large file within a GlusterFS mount."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -361,7 +196,7 @@
       "text": "Network and I/O latency are big factors for small file performance"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -373,7 +208,7 @@
       "text": "If you have a busy network and the latency creeps up from time to time, you'll find that your small file performance will drop significantly (especially with the replicate translator). Without getting too nerdy (you're welcome to read the  technical document on replication ), replication is an intensive process. When a file is accessed, the client goes around to each server node to ensure that it not only has a copy of the file being read, but that it has the  correct  copy. If a server didn't save a copy of a file (due to disk failure or the server being offline when the file was written), it has to be synced across the network from one of the good nodes."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -385,7 +220,7 @@
       "text": "When you write files on replicated servers, the client has to roll through the same process first. Once that's done, it has to lock the file, write to the change log, then do the write operation, drop the change log entries, and then unlock the file. All of those operations must be done on  all of the servers . High latency networks will wreak havoc on this process and cause it to take longer than it should."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -397,7 +232,7 @@
       "text": "It's quite obvious that if you have a fast, low-latency network between your servers, slow disks can still be a problem. If the client is waiting on the server nodes' disks to write data, the read and write performance will suffer. I've tested this in environments with fast networks and very busy RAID arrays. Even if the network was very underutilized, slow disks could cut performance drastically."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -409,7 +244,7 @@
       "text": "Monitoring GlusterFS isn't easy"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -421,7 +256,7 @@
       "text": "When the client has communication problems with the server nodes, some weird things can happen. I've seen situations where the client loses connections to the servers (see the next section on reliability) and the client mount simply hangs. In other situations, the client has been knocked offline entirely and the process is missing from the process tree by the time I logged in. Your monitoring will need to ensure that the mount is active and is responding in a timely fashion."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -433,7 +268,7 @@
       "text": "There's a  handy script  which allows you to monitor GlusterFS mounts via nagios that Ian Rogers put together. Also, you can get some historical data with  acrollet's munin-glusterfs plugin ."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -445,7 +280,7 @@
       "text": "GlusterFS 3.x is pretty reliable"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -457,7 +292,7 @@
       "text": "When I first started working with GlusterFS, I was using a version from the 2.x tree. The Fedora package maintainer hadn't updated the package in quite some time, but I figured it should work well enough for my needs. I found that the small file performance was lacking and the nodes often had communication issues when many files were being accessed or written simultaneously. This improved when I built my own RPMs of 3.0.4 (and later 3.0.5) and began using those instead."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -469,7 +304,7 @@
       "text": "I did some failure testing by hard cycling the server and client nodes and found some interesting results. First off, abruptly pulling clients had no effects on the other clients or the server nodes. The connection eventually timed out and the servers logged the timeout as expected."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -481,7 +316,7 @@
       "text": "Abruptly pulling servers led to some mixed results. In the 2.x branch, I saw client hangs and timeouts when I abruptly removed a server. This appears to be mostly corrected in the 3.x branch. If you're using replicate, it's important to keep in mind that the first server volume listed in your client's volume file is the one that will be coordinating the file and directory locking. Should that one fall offline quickly, you'll see a hiccup in performance for a brief moment and the next server will be used for coordinating the locking. When your original server comes back up, the locking coordination will shift back."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -493,7 +328,7 @@
       "text": "Conclusion"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -505,7 +340,7 @@
       "text": "I'm really impressed with how much GlusterFS can do with the simplicity of how it operates. Sure, you can get better performance and more features (sometimes) from something like Lustre or GFS2, but the amount of work required to stand up that kind of cluster isn't trivial. GlusterFS really only requires that your kernel have FUSE support (it's been in mainline kernels since 2.6.14)."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -517,9 +352,9 @@
       "text": "There are some things that GlusterFS really needs in order to succeed:"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/20",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -531,9 +366,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/21",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -545,9 +380,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/22",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -559,7 +394,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },

@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 1032357846272983629,
-    "filename": "index.md"
+    "binary_hash": 3615256556248408812,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,13 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
       },
       {
         "$ref": "#/texts/4"
@@ -45,52 +51,52 @@
         "$ref": "#/texts/10"
       },
       {
-        "$ref": "#/texts/11"
+        "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/12"
+        "$ref": "#/texts/15"
       },
       {
-        "$ref": "#/texts/13"
+        "$ref": "#/texts/16"
       },
       {
-        "$ref": "#/texts/14"
+        "$ref": "#/texts/17"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/18"
       },
       {
         "$ref": "#/texts/19"
       },
       {
-        "$ref": "#/texts/20"
-      },
-      {
-        "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
+        "$ref": "#/groups/1"
       },
       {
         "$ref": "#/texts/23"
       },
       {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
         "$ref": "#/groups/2"
       },
       {
-        "$ref": "#/texts/27"
+        "$ref": "#/texts/31"
       },
       {
-        "$ref": "#/texts/28"
+        "$ref": "#/texts/32"
       },
       {
-        "$ref": "#/texts/29"
+        "$ref": "#/texts/33"
       },
       {
-        "$ref": "#/texts/30"
-      },
-      {
-        "$ref": "#/groups/3"
+        "$ref": "#/texts/34"
       },
       {
         "$ref": "#/texts/35"
@@ -123,19 +129,19 @@
         "$ref": "#/texts/44"
       },
       {
-        "$ref": "#/texts/45"
+        "$ref": "#/groups/3"
       },
       {
-        "$ref": "#/texts/46"
+        "$ref": "#/texts/51"
       },
       {
-        "$ref": "#/texts/47"
+        "$ref": "#/texts/52"
       },
       {
-        "$ref": "#/texts/48"
+        "$ref": "#/texts/53"
       },
       {
-        "$ref": "#/groups/4"
+        "$ref": "#/texts/54"
       },
       {
         "$ref": "#/texts/55"
@@ -162,22 +168,19 @@
         "$ref": "#/texts/62"
       },
       {
-        "$ref": "#/texts/63"
+        "$ref": "#/groups/4"
       },
       {
-        "$ref": "#/texts/64"
+        "$ref": "#/texts/67"
       },
       {
-        "$ref": "#/texts/65"
+        "$ref": "#/texts/68"
       },
       {
-        "$ref": "#/texts/66"
+        "$ref": "#/texts/69"
       },
       {
         "$ref": "#/groups/5"
-      },
-      {
-        "$ref": "#/texts/71"
       },
       {
         "$ref": "#/texts/72"
@@ -186,25 +189,16 @@
         "$ref": "#/texts/73"
       },
       {
-        "$ref": "#/groups/6"
+        "$ref": "#/texts/74"
+      },
+      {
+        "$ref": "#/texts/75"
       },
       {
         "$ref": "#/texts/76"
       },
       {
         "$ref": "#/texts/77"
-      },
-      {
-        "$ref": "#/texts/78"
-      },
-      {
-        "$ref": "#/texts/79"
-      },
-      {
-        "$ref": "#/texts/80"
-      },
-      {
-        "$ref": "#/texts/81"
       }
     ],
     "content_layer": "body",
@@ -219,13 +213,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/11"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/12"
         },
         {
-          "$ref": "#/texts/3"
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
         }
       ],
       "content_layer": "body",
@@ -239,16 +236,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/15"
+          "$ref": "#/texts/20"
         },
         {
-          "$ref": "#/texts/16"
+          "$ref": "#/texts/21"
         },
         {
-          "$ref": "#/texts/17"
-        },
-        {
-          "$ref": "#/texts/18"
+          "$ref": "#/texts/22"
         }
       ],
       "content_layer": "body",
@@ -262,13 +256,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/24"
+          "$ref": "#/texts/27"
         },
         {
-          "$ref": "#/texts/25"
+          "$ref": "#/texts/28"
         },
         {
-          "$ref": "#/texts/26"
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
         }
       ],
       "content_layer": "body",
@@ -282,16 +279,22 @@
       },
       "children": [
         {
-          "$ref": "#/texts/31"
+          "$ref": "#/texts/45"
         },
         {
-          "$ref": "#/texts/32"
+          "$ref": "#/texts/46"
         },
         {
-          "$ref": "#/texts/33"
+          "$ref": "#/texts/47"
         },
         {
-          "$ref": "#/texts/34"
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
         }
       ],
       "content_layer": "body",
@@ -305,22 +308,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/49"
+          "$ref": "#/texts/63"
         },
         {
-          "$ref": "#/texts/50"
+          "$ref": "#/texts/64"
         },
         {
-          "$ref": "#/texts/51"
+          "$ref": "#/texts/65"
         },
         {
-          "$ref": "#/texts/52"
-        },
-        {
-          "$ref": "#/texts/53"
-        },
-        {
-          "$ref": "#/texts/54"
+          "$ref": "#/texts/66"
         }
       ],
       "content_layer": "body",
@@ -334,33 +331,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/67"
-        },
-        {
-          "$ref": "#/texts/68"
-        },
-        {
-          "$ref": "#/texts/69"
-        },
-        {
           "$ref": "#/texts/70"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/74"
         },
         {
-          "$ref": "#/texts/75"
+          "$ref": "#/texts/71"
         }
       ],
       "content_layer": "body",
@@ -378,65 +352,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2021/01/23/choosing-options-to-sell/",
-      "text": "/2021/01/23/choosing-options-to-sell/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "investing",
-      "text": "investing",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "options",
-      "text": "options",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "\ud83e\udd14  This is another post in a set of posts on  options trading . If you are new to options trading, you may want to start with some of my earlier posts.",
       "text": "\ud83e\udd14  This is another post in a set of posts on  options trading . If you are new to options trading, you may want to start with some of my earlier posts."
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -448,7 +368,7 @@
       "text": "You know your terminology, you know your max loss, and you are ready to start. Now you're faced with the difficult question all new options traders face:"
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -460,7 +380,7 @@
       "text": "How do I choose which option to sell?"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -472,7 +392,7 @@
       "text": "At first, you learn to look for the trades that are right for you. This post explains some of the things I look for when I make a trade, and how I compare different trades to see which one is right for me."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -485,7 +405,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -497,7 +417,7 @@
       "text": "If you're starting the wheel strategy, then you are selling a put contract on a stock at a particular strike price. Options contracts involve 100 shares of the underlying stock, so you can multiply the strike price by 100 to know how much money you are risking on the trade."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -509,7 +429,7 @@
       "text": "For example, if you sell a $90 put option on AMD, then you are risking $9,000 on the trade. The chances of AMD rocketing to $0 is extremely unlikely, but anything is possible."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -521,7 +441,7 @@
       "text": "Compare the size of your trade to the size of your account. Risking $9,000 in a $10,000 account may not be the best idea for new traders since you are putting 90% of your capital at risk. The goal is to avoid \"blowing up\" -- when you lose so much that you don't have enough capital left for good trades. \ud83d\udca3"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -533,7 +453,7 @@
       "text": "If my conviction on a trade is very strong (I know the company, I know the stock's personality, and I've done my homework), then risking 15-20% of my account on the trade seems reasonable. For companies I know less about, I won't go past about 5-10% of my account on the trade."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -546,7 +466,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -558,9 +478,9 @@
       "text": "There a certain events in the lifetime of a stock that can cause wild swings in price. Selling options around the time of these events creates increased risk because you really don't know what happens during the event. Some of these events include:"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -572,9 +492,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/12",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -586,9 +506,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -600,9 +520,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/14",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -614,7 +534,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -626,7 +546,7 @@
       "text": "I've written about earnings in previous  options trading  post, but it bears repeating: earnings are unpredictable. Even if the earnings report is stellar, you may see the price fall off drastically. Why? Perhaps investors want to take profit. Perhaps investors were expecting more on earnings and the expectations were already \"priced in\"."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -638,7 +558,7 @@
       "text": "Don't sell options around earnings unless you know what you're doing. Even if you think you know what you're doing, you probably don't. \ud83d\ude09"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -651,7 +571,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -663,7 +583,7 @@
       "text": "Once you know the stocks that fit your trading style, it's now time to choose your strike price. IThere's a critical options calculation to know here: delta."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -675,9 +595,9 @@
       "text": "Delta runs from 0 to 1 and some software represents it as a percentage. It describes how much the option price moves as the underlying price moves. Here are some examples:"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/20",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -689,9 +609,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/21",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -703,9 +623,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/22",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -717,7 +637,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -729,7 +649,7 @@
       "text": "Most of my puts are sold near the 0.25 delta mark. This means that there is roughly a 75% chance that my put will finish out of the money (I keep the premium and there is no loss). There is a 25% chance that my put finishes in the money and I will be assigned stock (possibly at a loss)."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -741,7 +661,7 @@
       "text": "We could spend all afternoon talking about delta and theta, but a good start is to sell your puts somewhere near 0.25 delta. I will sometimes move towards 0.30-0.35 delta if I feel very bullish about a stock or I will move towards 0.20 delta if my conviction is less strong."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -754,7 +674,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -766,9 +686,9 @@
       "text": "We wouldn't sell options if we didn't expect a return! It's a good idea to know your potential return for any trade you make. Let's take an example trade and calculate our maximum loss and potential return."
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/27",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -780,9 +700,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/28",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -794,9 +714,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/29",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -808,9 +728,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/30",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -822,7 +742,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -834,7 +754,7 @@
       "text": "You can calculate your return with: "
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -850,7 +770,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -862,7 +782,7 @@
       "text": ". For our trade, that's: "
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -878,7 +798,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -890,7 +810,7 @@
       "text": ". If AMD stays over $85 through the life of the contract, you get a 2.9% return."
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -902,7 +822,7 @@
       "text": "There's another angle we can use to analyze the trade: an annualized return. Annualized returns consider how long you had to tie up your capital on a trade while you wait for your return. Would you rather make a 2.9% return in one week or one year? I'd much rather make it in a week."
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -914,7 +834,7 @@
       "text": "The annualized return calculation extends the calculation we've already done above: "
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -930,7 +850,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -942,7 +862,7 @@
       "text": ". We know we have a 2.9% potential return and 28 days to expiration, so we can calculate the annualized return: "
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -958,7 +878,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -970,7 +890,7 @@
       "text": "If you did this trade successfully over and over again all year long, you could possibly get a 37.8% return at the end of the year on these trades. Don't take this as a given, though. I usually use this to compare different trades against each other to see which one is a better use of my money."
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -983,7 +903,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -995,7 +915,7 @@
       "text": "Let's say you like the AMD trade from the previous section, but you're also looking at another stock that you really like. How do you choose which one to sell? I usually consider the annualized return. If I can make more money with the same amount of capital, I'll go for that trade."
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -1007,9 +927,9 @@
       "text": "FUBO is another stock I follow and I have strong conviction on it as well. Here's a trade there:"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/45",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -1021,9 +941,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/46",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -1035,9 +955,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/47",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -1049,9 +969,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/48",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -1063,9 +983,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/49",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -1077,9 +997,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/50",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -1091,7 +1011,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1103,7 +1023,7 @@
       "text": "The FUBO put has a much higher annualized return, which gets my attention. However, FUBO is riskier for me since the stock has a much shorter history and it is much more volatile. Sure, I can make more money with this trade, but the risk is substantially higher."
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1115,7 +1035,7 @@
       "text": "After checking the calendars, I found that AMD has earnings in the next week! That breaks my trading rules since I avoid earnings under almost all conditions!"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1128,7 +1048,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1140,7 +1060,7 @@
       "text": "Every stock and options trade has a bid/ask spread. Buyers say \"I will pay $1.00 for this trade\" and that's the bid. Sellers say \"I will only sell if someone pays me $2.00\" and that's the ask."
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1152,7 +1072,7 @@
       "text": "Under most situations, I sell at the midpoint of the bid/ask spread. This means that on a spread of 1.00-1.10, I will sell at 1.05. The trade executes within 30 seconds unless the stock price is moving quickly."
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1164,7 +1084,7 @@
       "text": "If the stock is moving fast or if you really want to be sure your trade gets in, sell at the bid price. That almost always guarantees that a buyer is waiting to buy your contract as soon as you write it."
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1176,7 +1096,7 @@
       "text": "You can sell at the ask or even higher if you really want to, but your execution could be delayed or it may never execute."
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1188,7 +1108,7 @@
       "text": "Congratulations! You sold your first option. What do you do now?  (Keep reading.)"
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1201,7 +1121,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1213,7 +1133,7 @@
       "text": "Your trade may turn red immediately after it executes: don't panic! Most brokers show the midpoint price (or \"mark\") and if you sold at the bid price, your trade will be red at first. Also, if the stock price dipped a little, your trade will be red for a short while. Take a deep breath."
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1225,7 +1145,7 @@
       "text": "One of the first things I do (after  logging my trades on thetagang.com ), is to put in a buy order at a 50% gain. Consider our AMD trade earlier ($85 put with $2.42 premium). I would enter a buy order for $1.21 with \"good til canceled\" (GTC). There's no more work to do! As soon as I can get a 50% gain, the trade executes and I keep my $121 profit!"
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/62",
       "parent": {
         "$ref": "#/body"
       },
@@ -1237,9 +1157,9 @@
       "text": "Why stop at 50%? I have several reasons:"
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/63",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1251,9 +1171,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/64",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1265,9 +1185,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/65",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1279,9 +1199,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/70",
+      "self_ref": "#/texts/66",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1293,7 +1213,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/71",
+      "self_ref": "#/texts/67",
       "parent": {
         "$ref": "#/body"
       },
@@ -1305,7 +1225,7 @@
       "text": "A better return with a smaller profit? How can that be? \ud83e\udd14"
     },
     {
-      "self_ref": "#/texts/72",
+      "self_ref": "#/texts/68",
       "parent": {
         "$ref": "#/body"
       },
@@ -1317,7 +1237,7 @@
       "text": "Let's  take an example from a PLTR trade I did last month . I sold two $25 puts for $2.04 premium each that had a 128% annualized return. However, the 50% trigger closed the trade in two days when PLTR rocketed upward unexpectedly."
     },
     {
-      "self_ref": "#/texts/73",
+      "self_ref": "#/texts/69",
       "parent": {
         "$ref": "#/body"
       },
@@ -1329,9 +1249,9 @@
       "text": "If I held the trade from January 20 to February 12 and PLTR finished above $25, I would have made $408 (128% annualized return). Instead, I made $204 in two days (Jan 20-22). What's our annualized return here?"
     },
     {
-      "self_ref": "#/texts/74",
+      "self_ref": "#/texts/70",
       "parent": {
-        "$ref": "#/groups/6"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
@@ -1343,9 +1263,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/71",
       "parent": {
-        "$ref": "#/groups/6"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
@@ -1357,7 +1277,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },
@@ -1369,7 +1289,7 @@
       "text": "Wow! \ud83e\udd2f"
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/73",
       "parent": {
         "$ref": "#/body"
       },
@@ -1381,7 +1301,7 @@
       "text": "That's 1,624% versus our original 128% annualized return and my money was only at risk for two days. What if PLTR suddenly drops next week? I avoid that risk by collecting profit early and freeing up capital for another trade."
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/74",
       "parent": {
         "$ref": "#/body"
       },
@@ -1393,7 +1313,7 @@
       "text": "One big part of risk management in the market is to keep your capital at risk for the shortest amount of time possible to make the returns you want."
     },
     {
-      "self_ref": "#/texts/79",
+      "self_ref": "#/texts/75",
       "parent": {
         "$ref": "#/body"
       },
@@ -1405,7 +1325,7 @@
       "text": "Good luck! \ud83c\udf40"
     },
     {
-      "self_ref": "#/texts/80",
+      "self_ref": "#/texts/76",
       "parent": {
         "$ref": "#/body"
       },
@@ -1417,7 +1337,7 @@
       "text": "Disclaimer: Keep in mind that I am not an investment professional and you should make your own decisions around stock research and trades. Investing comes with plenty of risk and I'm the last person who should be giving anyone investment advice.  \ud83d\ude1c"
     },
     {
-      "self_ref": "#/texts/81",
+      "self_ref": "#/texts/77",
       "parent": {
         "$ref": "#/body"
       },

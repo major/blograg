@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 4813820683708918411,
-    "filename": "index.md"
+    "binary_hash": 1320093042017510872,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,22 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
       },
       {
         "$ref": "#/texts/7"
@@ -51,16 +66,7 @@
         "$ref": "#/texts/15"
       },
       {
-        "$ref": "#/texts/16"
-      },
-      {
-        "$ref": "#/texts/17"
-      },
-      {
-        "$ref": "#/texts/18"
-      },
-      {
-        "$ref": "#/texts/19"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/20"
@@ -72,25 +78,13 @@
         "$ref": "#/texts/22"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/23"
       },
       {
-        "$ref": "#/texts/27"
+        "$ref": "#/texts/24"
       },
       {
-        "$ref": "#/texts/28"
-      },
-      {
-        "$ref": "#/texts/29"
-      },
-      {
-        "$ref": "#/texts/30"
-      },
-      {
-        "$ref": "#/texts/31"
-      },
-      {
-        "$ref": "#/texts/32"
+        "$ref": "#/texts/25"
       }
     ],
     "content_layer": "body",
@@ -105,45 +99,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/16"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/17"
         },
         {
-          "$ref": "#/texts/3"
+          "$ref": "#/texts/18"
         },
         {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/23"
-        },
-        {
-          "$ref": "#/texts/24"
-        },
-        {
-          "$ref": "#/texts/25"
-        },
-        {
-          "$ref": "#/texts/26"
+          "$ref": "#/texts/19"
         }
       ],
       "content_layer": "body",
@@ -161,107 +126,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2016/10/31/talk-recap-holistic-security-for-openstack-clouds/",
-      "text": "/2016/10/31/talk-recap-holistic-security-for-openstack-clouds/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "network",
-      "text": "network",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "networking",
-      "text": "networking",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "openstack",
-      "text": "openstack",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "presentation",
-      "text": "presentation",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Thanks to everyone who attended my talk at the OpenStack Summit in Barcelona! I really enjoyed sharing some tips with the audience and it was great to meet some attendees in person afterwards.",
       "text": "Thanks to everyone who attended my talk at the OpenStack Summit in Barcelona! I really enjoyed sharing some tips with the audience and it was great to meet some attendees in person afterwards."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -273,7 +142,7 @@
       "text": "If you weren't able to make it, don't fret! This post will cover some of the main points of the talk and link to the video and slides."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -286,7 +155,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -298,7 +167,7 @@
       "text": "OpenStack clouds are inherently complex. Operating a cloud involves a lot of moving pieces in software, hardware, and networking. Securing complex systems can be a real challenge, especially for newcomers to the information security realm. One wrong turn can knock critical infrastructure online or lead to lengthy debugging sessions."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -310,7 +179,7 @@
       "text": "However, securing OpenStack clouds doesn't need to be a tremendously stressful experience. It requires a methodical, thoughful, and strategic approach. The goal of the talk is give the audience a reliable strategy that is easy to start with and that scales easily over time."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -323,7 +192,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -335,7 +204,7 @@
       "text": "The dictionary definition of  holistic  is:"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -347,7 +216,7 @@
       "text": "characterized by comprehension of the parts of something as intimately connected and explicable only by reference to the whole"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -359,7 +228,7 @@
       "text": "To simplify things a bit, thinking about something holistically means that you understand that there are small parts that are valuable on their own, but they make much more value when combined together. Also, it's difficult to talk about the individual parts and get a real understanding of the whole."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -371,7 +240,7 @@
       "text": "In holistic medicine, humans are considered to be a body, mind, and spirit. OpenStack clouds involve servers, software, and a business goal. Security consists of people, process, and technology. To truly understand what's going on, you need to take a look at something with all of its parts connected."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -384,7 +253,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -396,7 +265,7 @@
       "text": "Get into the mindset that  attackers will get in eventually . Just change each instance of  if  to  when  in your conversations. Attackers can be wrong many times, but the defenders only need to be wrong once to allow a breach to occur."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -408,7 +277,7 @@
       "text": "Simply building a huge moat and tall castle walls around the outside isn't sufficient. Attackers will have free reign to move around inside and take what they want. Multiple layers are needed, and this is the backbone of a  defense-in-depth  strategy."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -420,7 +289,7 @@
       "text": "Cloud operators need to work from the outside inwards, much like you do with utensils at a fancy dinner. Make a good wall around the outside and work on tightening down the internals at multiple levels."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -433,7 +302,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -445,9 +314,9 @@
       "text": "During the talk, I divided OpenStack clouds into four main layers:"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/16",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -459,9 +328,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/17",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -473,9 +342,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/18",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -487,9 +356,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/19",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -501,7 +370,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -513,7 +382,7 @@
       "text": "For the best explanation of what to do at this level, I highly recommend reviewing the slides or the presentation video (keep scrolling)."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -526,7 +395,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -538,7 +407,7 @@
       "text": "The slides are on  SlideShare  and they are licensed  CC-BY-SA . Feel free to share anything from the slide deck as you wish, but please share it via a similar license and attribute the source!"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -550,7 +419,7 @@
       "text": "The video of the talk (including Q&A) is up on YouTube:"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -563,7 +432,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },

@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 1544437974453321882,
-    "filename": "index.md"
+    "binary_hash": 7293357174329458634,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -18,13 +18,19 @@
     "self_ref": "#/body",
     "children": [
       {
+        "$ref": "#/pictures/0"
+      },
+      {
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
       },
       {
-        "$ref": "#/pictures/0"
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
       },
       {
         "$ref": "#/texts/4"
@@ -64,103 +70,16 @@
       },
       {
         "$ref": "#/texts/16"
-      },
-      {
-        "$ref": "#/texts/17"
-      },
-      {
-        "$ref": "#/texts/18"
-      },
-      {
-        "$ref": "#/texts/19"
-      },
-      {
-        "$ref": "#/texts/20"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2015/06/08/pulseaudio-popping-with-multiple-sounds-in-fedora-22/",
-      "text": "/2015/06/08/pulseaudio-popping-with-multiple-sounds-in-fedora-22/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "pulseaudio",
-      "text": "pulseaudio",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -172,7 +91,7 @@
       "text": "1"
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -184,7 +103,7 @@
       "text": "My transition from Fedora 21 to 22 on the ThinkPad X1 Carbon was fairly uneventful even with over 2,400 packages involved in the upgrade. The only problem I dealt with on reboot was that my icons on the GNOME 3 desktop were way too large. That's a pretty easy problem to fix."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -196,7 +115,7 @@
       "text": "However, something else cropped up after a while. I started listening to music in Chrome and a Pidgin notification sound came through. There was a quiet pop before the Pidgin sound and a loud pop on the end. Thunderbird's notifications sounded the same. The pops at the end of the sound were sometimes  very  loud and hurt my ears."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -208,7 +127,7 @@
       "text": "I started running PulseAudio in debug mode within a terminal:"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -224,7 +143,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -236,7 +155,7 @@
       "text": "There were some messages about buffer underruns and latency issues but they were all very minimal. I loaded up  pavucontrol  and couldn't find anything unusual when multiple sounds played. I gave  pavumeter  a try and found something very interesting."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -248,7 +167,7 @@
       "text": "When Chrome was playing audio, the meters in pavumeter were at 80-90%. That seems to make sense because I keep Chrome as one of the loudest applications on my laptop. My logic there is that I don't want to get blasted by a notification tone that is drastically louder than my music."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -260,7 +179,7 @@
       "text": "However, if I received a Pidgin or Thunderbird notification while Chrome was playing music, the pavumeter showed the volume levels dropping to 30% or less. As soon as the sound was over, the meters snapped back to 80-90% and there was a big popping sound. I lowered Chrome's volume so that it showed up at the 30% level in pavumeter and forced a new Pidgin notification sound - the pops were still there."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -272,7 +191,7 @@
       "text": "I started searching in Google and stumbled upon  ArchLinux's PulseAudio documentation . (Their documentation is really awesome.) There's a mention of the  flat-volumes  PulseAudio configuration option. If it's set to  no , you get the older ALSA functionality where volumes can be set independently per application. The default is  yes  and that default comes with a warning in the documentation:"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -284,7 +203,7 @@
       "text": "Warning: The default behavior can sometimes be confusing and some applications, unaware of this feature, can set their volume to 100% at startup, potentially blowing your speakers or your ears. To restore the classic (ALSA) behavior set this to no."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -296,7 +215,7 @@
       "text": "As a test, I switched  flat-volumes  to  no  in "
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -312,7 +231,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -324,7 +243,7 @@
       "text": ". I restarted PulseAudio with the new setting:"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -340,7 +259,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -352,7 +271,7 @@
       "text": "I started music in Chrome and sent myself an IM in Pidgin. No pops! An email came through and Thunderbird and a notification sound played. No pops there, either!"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -364,7 +283,7 @@
       "text": "GNOME 3 was a bit unhappy at my PulseAudio tinkering and the volume control disappeared from the menu at the top right. I logged out of my GNOME session and logged back in to find the volume control working again."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },

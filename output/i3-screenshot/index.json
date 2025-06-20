@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 17533588911608974854,
-    "filename": "index.md"
+    "binary_hash": 9573392171385221993,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,16 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
       },
       {
         "$ref": "#/texts/5"
@@ -45,28 +54,13 @@
         "$ref": "#/texts/11"
       },
       {
-        "$ref": "#/texts/12"
-      },
-      {
-        "$ref": "#/texts/13"
-      },
-      {
-        "$ref": "#/texts/14"
-      },
-      {
-        "$ref": "#/texts/15"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/16"
       },
       {
-        "$ref": "#/groups/1"
-      },
-      {
-        "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
+        "$ref": "#/texts/17"
       }
     ],
     "content_layer": "body",
@@ -81,39 +75,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/12"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/13"
         },
         {
-          "$ref": "#/texts/3"
+          "$ref": "#/texts/14"
         },
         {
-          "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/17"
-        },
-        {
-          "$ref": "#/texts/18"
-        },
-        {
-          "$ref": "#/texts/19"
-        },
-        {
-          "$ref": "#/texts/20"
+          "$ref": "#/texts/15"
         }
       ],
       "content_layer": "body",
@@ -131,79 +102,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "author: Major Hayden date: '2022-11-29' summary: Take quick screenshots and send them to the clipboard in i3 with maim. \ud83d\udcf8 tags:",
-      "text": "author: Major Hayden date: '2022-11-29' summary: Take quick screenshots and send them to the clipboard in i3 with maim. \ud83d\udcf8 tags:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "clipboard",
-      "text": "clipboard",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "i3",
-      "text": "i3",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "maim",
-      "text": "maim",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "screenshot",
-      "text": "screenshot",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "My daily workflow includes taking tons of screenshots. I'm constantly relaying views of different data or results of various work between different chat systems and emails. As with all things that I do often, I look for ways to optimize them as much as possible.",
       "text": "My daily workflow includes taking tons of screenshots. I'm constantly relaying views of different data or results of various work between different chat systems and emails. As with all things that I do often, I look for ways to optimize them as much as possible."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -215,7 +118,7 @@
       "text": "(I'm that guy who wrote a post on an  efficient emoji workflow in Wayland .)  \ud83d\ude02"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -227,7 +130,7 @@
       "text": "Goals"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -239,7 +142,7 @@
       "text": "Screenshots must be easy to take and share, period. Modern versions of Firefox make this extremely easy with the built-in screenshot mechanism."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -251,7 +154,7 @@
       "text": "Right click an element on a web page, choose  Take Screenshot  from the pop-up and screenshot a whole page or just a single DOM element. From there, you can copy it directly to the clipboard and paste it elsewhere or save it to a file."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -263,7 +166,7 @@
       "text": "I want something as close to that for the i3 desktop environment."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -275,7 +178,7 @@
       "text": "The maim game"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -287,7 +190,7 @@
       "text": "Fortunately, there's a piece of software called  maim ![^maimname] The README in the repository contains lots of helpful examples for basic screenshots all the way up to fancy conversions with drop shadows. \u2728"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -299,7 +202,7 @@
       "text": "My use case is quite simple. I want to press a key, get a selection crosshair, make my selection, and get my screenshot copied to the clipboard."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -311,7 +214,7 @@
       "text": "Here's how I do it in i3:"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -327,7 +230,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -339,9 +242,9 @@
       "text": "Let's break this down:"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -353,9 +256,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -367,9 +270,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/14",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -381,9 +284,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/15",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -395,7 +298,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -407,7 +310,7 @@
       "text": "I'm able to go to my favorite application or browser window with Slack, Discord, or Mastodon open and simply paste the image into my message. \ud83c\udfc1"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },

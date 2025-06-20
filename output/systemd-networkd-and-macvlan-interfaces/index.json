@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 5806404144506670778,
-    "filename": "index.md"
+    "binary_hash": 18251757290146747766,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,25 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
       },
       {
         "$ref": "#/texts/8"
@@ -72,6 +90,9 @@
         "$ref": "#/texts/23"
       },
       {
+        "$ref": "#/pictures/0"
+      },
+      {
         "$ref": "#/texts/24"
       },
       {
@@ -91,186 +112,16 @@
       },
       {
         "$ref": "#/texts/30"
-      },
-      {
-        "$ref": "#/texts/31"
-      },
-      {
-        "$ref": "#/pictures/0"
-      },
-      {
-        "$ref": "#/texts/32"
-      },
-      {
-        "$ref": "#/texts/33"
-      },
-      {
-        "$ref": "#/texts/34"
-      },
-      {
-        "$ref": "#/texts/35"
-      },
-      {
-        "$ref": "#/texts/36"
-      },
-      {
-        "$ref": "#/texts/37"
-      },
-      {
-        "$ref": "#/texts/38"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2015/10/26/systemd-networkd-and-macvlan-interfaces/",
-      "text": "/2015/10/26/systemd-networkd-and-macvlan-interfaces/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "kvm",
-      "text": "kvm",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "macvlan",
-      "text": "macvlan",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "networking",
-      "text": "networking",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "virtualization",
-      "text": "virtualization",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -282,7 +133,7 @@
       "text": "I spent some time working with  macvlan  interfaces on KVM hypervisors last weekend. They're interesting because they're not really a  bridge . It allows you to assign multiple MAC addresses to a single interface and then allow the kernel to filter traffic into tap interfaces based on the MAC address in the packet. If you're looking for a highly detailed explanation, head on over to  waldner's blog  for a deep dive into the technology and the changes that come along with it."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -295,7 +146,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -307,7 +158,7 @@
       "text": "Bridging can become a pain to work with, especially when you're forced to add in creative filtering rules and keep them updated. The macvlan interfaces can help with that (read up on  VEPA  mode). There are some  interesting email threads  showing that macvlan interfaces can improve network performance for various workloads. Low latency workloads can benefit from the simplicity and low overhead of macvlan interfaces."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -320,7 +171,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -332,7 +183,7 @@
       "text": "Fortunately for us, systemd-networkd makes configuring a macvlan interface  really  easy. I've written about  configuring bridges with systemd-networkd  and the process for macvlan interfaces is similar."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -344,7 +195,7 @@
       "text": "In my scenario, I have a 1U server with an ethernet interface called "
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -360,7 +211,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -372,7 +223,7 @@
       "text": " (read up on  interface naming with systemd-udevd ). I want to make a macvlan interface for virtual machines and I'll be attaching VM's to that interface via macvtap interfaces. It's similar to bridging where you make a bridge and then give everyone a port on the bridge."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -384,7 +235,7 @@
       "text": "Start by creating a network device for our macvlan interface:"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -400,7 +251,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -412,7 +263,7 @@
       "text": "I've told systemd-networkd that I want a macvlan interface set up in bridge mode. This will allow hosts and virtual machines to talk to one another on the interface. You could choose "
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -428,7 +279,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -440,7 +291,7 @@
       "text": " for the mode if you want additional security. However, this will force traffic out to your upstream switch/router and makes it challenging for hosts and guests to communicate with each other."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -452,7 +303,7 @@
       "text": "Now that we have a device configured, let's configure the IP address for the macvlan interface (similar to configuring a bridge):"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -468,7 +319,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -480,7 +331,7 @@
       "text": "Let's tell systemd-networkd that our physical network interface, "
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -496,7 +347,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -508,7 +359,7 @@
       "text": ", is part of this interface:"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -524,7 +375,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -536,7 +387,7 @@
       "text": "This is very similar to a configuration for a standard Linux bridge. Once you've reached this step, you'll most likely want to reboot to ensure all of your network devices come up properly."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -549,7 +400,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -561,7 +412,7 @@
       "text": "Attaching a KVM virtual machine to the macvlan interface is quite easy. When you're creating a new VM using "
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -577,7 +428,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -589,7 +440,7 @@
       "text": ", look for this setting in the wizard:"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -601,7 +452,7 @@
       "text": "6"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -613,7 +464,7 @@
       "text": "If you're installing via "
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -629,7 +480,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -641,7 +492,7 @@
       "text": " just use the following argument for your network configuration:"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -657,7 +508,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -669,7 +520,7 @@
       "text": "You'll end up with interfaces like these after creating multiple virtual machines:"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },

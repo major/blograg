@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 518319390593867604,
-    "filename": "index.md"
+    "binary_hash": 5722757065114863849,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,34 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
       },
       {
         "$ref": "#/texts/11"
@@ -94,243 +121,16 @@
       },
       {
         "$ref": "#/texts/34"
-      },
-      {
-        "$ref": "#/texts/35"
-      },
-      {
-        "$ref": "#/texts/36"
-      },
-      {
-        "$ref": "#/texts/37"
-      },
-      {
-        "$ref": "#/texts/38"
-      },
-      {
-        "$ref": "#/texts/39"
-      },
-      {
-        "$ref": "#/texts/40"
-      },
-      {
-        "$ref": "#/texts/41"
-      },
-      {
-        "$ref": "#/texts/42"
-      },
-      {
-        "$ref": "#/texts/43"
-      },
-      {
-        "$ref": "#/texts/44"
-      },
-      {
-        "$ref": "#/texts/45"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        },
-        {
-          "$ref": "#/texts/8"
-        },
-        {
-          "$ref": "#/texts/9"
-        },
-        {
-          "$ref": "#/texts/10"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2013/08/26/moving-from-os-x-to-linux-day-one/",
-      "text": "/2013/08/26/moving-from-os-x-to-linux-day-one/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "command line",
-      "text": "command line",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "kernel",
-      "text": "kernel",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "networking",
-      "text": "networking",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "performance",
-      "text": "performance",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "rpm",
-      "text": "rpm",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "sysadmin",
-      "text": "sysadmin",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "yum",
-      "text": "yum",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -342,7 +142,7 @@
       "text": "The thought of using Linux as a manager in a highly Windows- and Mac-centric corporate environment isn't something to be taken lightly. Integrating with Active Directory, wrangling email with Microsoft Exchange, and taming quirky Microsoft office documents can be a challenge even with a well-equipped Mac. I decided to make a change after using a Mac at Rackspace for six years."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -354,7 +154,7 @@
       "text": "Let's get one thing straight: I'm not a Windows or Mac basher. Windows 7 has been a solid performer for me and OS X has an amazing UI (and a vibrant community around it). I can't make any sense out of Windows 8, but I've heard some positive things about it on tablets."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -366,7 +166,7 @@
       "text": "My main goal for switching to Linux is to reduce clutter. I moved away from the iPhone to Android last year because the Android gave me finer-grained controls over my phone and allowed me to troubleshoot my own problems. The Mac was working well for me, but as each release passed, it seems like more things were out of my control and I was constantly notified of something that my computer wanted me to do."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -378,7 +178,7 @@
       "text": "While at this year's Red Hat Summit, I saw someone using Linux on a laptop and I asked: \"How do you survive on Linux at your office?\" He confided that his office is extremely Windows-centric and that it was tough to overcome in the beginning. When I asked why he stuck with Linux, he smiled and responded quickly: \"When I use Linux, I feel like I can do my work without being bothered. Reducing clutter has saved me a ton of time.\""
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -390,7 +190,7 @@
       "text": "In an effort to free up my time at work for the important stuff, I'm moving to Linux. I'm hoping that the move is permanent, but time will tell. If you're eager to make the same change, here's the workflow I'm using:"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -402,7 +202,7 @@
       "text": "Hardware"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -414,7 +214,7 @@
       "text": "Thinkpad X1 Carbon . It has a decent screen, a fantastic keyboard, good battery life, and it's very light. Extra displays are connected with mini-DisplayPort and that allows me to use the Mac DisplayPort dongles that I find laying around all over the place. There's no ethernet adapter, but you can pick up a USB 2.0 Gigabit adapter for $25 or less."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -426,7 +226,7 @@
       "text": "One nice benefit is that almost every piece of hardware is recognized within Linux. The only hangup is the fingerprint reader (due to proprietary firmware). That can be fixed but I'm too lazy to go down that road at the moment."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -438,7 +238,7 @@
       "text": "One of my favorite parts of the Thinkpad is the mouse buttons  above  the trackpad. As a Mac user, I sometimes find myself highlighting the wrong piece of text or rolling backwards and forwards to get the right selection. I'm able to hold the left mouse button with my left hand while using the touchpad with my right. It feels awkward at first but it's extremely quick and accurate once you get it right."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -450,7 +250,7 @@
       "text": "Distribution and Desktop Environment."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -462,7 +262,7 @@
       "text": "I chose Fedora 19 with KDE. Some folks prefer Kubuntu (Ubuntu's KDE release) or Linux Mint's KDE release, but I'm a bit biased towards Fedora as I enjoy RPM/yum and I'm involved in the Fedora community."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -474,7 +274,7 @@
       "text": "KDE makes sense for me because it's feature-rich and the Qt-based applications are well-designed. GNOME 3 has an interface that just doesn't make sense to me, but GNOME 3's new classic mode shows a lot of potential. Cinnamon is a good alternative if you really enjoy GNOME applications. XFCE is good if you're on older hardware or if you prefer something very lightweight."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -486,7 +286,7 @@
       "text": "Microsoft Exchange email"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -498,7 +298,7 @@
       "text": "Exchange can even be a challenge on Windows, so don't expect a cakewalk in Linux. My preferred method is to use  Thunderbird  and  Davmail . Davmail is a translation layer that handles the Exchange connectivity (via OWA/EWS) and it serves up POP, IMAP, SMTP, LDAP, and CalDav to applications on your machine. Point Davmail to your OWA server and then configure Thunderbird to talk to Davmail. One downside is that Davmail can become a bit CPU-hungry at times and may drag down a battery on a laptop."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -510,7 +310,7 @@
       "text": "The latest release of  Evolution  for GNOME has an exchange-ews connector that works relatively well with newer versions of Exchange. There are still some bugs and missing features, especially around starring/flagging emails. The performance could be better, but it seems to perform slightly better than using Davmail. Evolution's UI was too clunky for me to use and it seemed to have significant lags when fetching email."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -522,7 +322,7 @@
       "text": "If you're not eager to mess with a fat client, just use Outlook Web Access in your favorite browser. Beware that OWA detects Chrome on Linux and presents you with the awful \"light\" interface for OWA. Add a  user agent spoofing extension  to Chrome and masquerade as Chrome on Windows or Mac. You'll get the rich OWA interface that makes things much easier."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -534,7 +334,7 @@
       "text": "Microsoft Exchange calendar"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -546,7 +346,7 @@
       "text": "Getting calendaring right with Exchange seems to be more difficult than email. My preferred method is to use OWA to manage calendaring. As long as you set your user agent correctly (see previous paragraph), it works flawlessly."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -558,7 +358,7 @@
       "text": "Fat client users should look at Evolution's calendaring capabilities. I found it to still be pretty buggy and complex recurring invitations were often botched in the interface. Coworkers reported not seeing confirmation responses for me on certain invitations while others reported receiving multiple acceptances for the same invitation."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -570,7 +370,7 @@
       "text": "Another option is to use Thunderbird with Davmail via CalDav. This was as buggy as Evolution and it was excruciatingly slow."
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -582,7 +382,7 @@
       "text": "Microsoft Office"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -594,7 +394,7 @@
       "text": "LibreOffice copes well with the majority of the documents I need to edit. I took some time to bring over some of the most commonly used fonts from my Mac and I picked up the Windows fonts via  fedorautils . The Calligra office suite in KDE fulfills a lot of the additional needs (like a Visio and Project replacement)."
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -606,7 +406,7 @@
       "text": "However, there are those times when you need a little more from your Office applications. I have a Windows 7 VM running in VirtualBox when I need it for some Office heavy lifting. Another option is to use Office365's web interface for the common Office applications. If your organization has SharePoint, some of the licenses allow you to have SkyDrive access within your organization and that includes the web-based Office applications as well."
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -618,7 +418,7 @@
       "text": "RSS feeds"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -630,7 +430,7 @@
       "text": "Ever since Google Reader's demise, I've switched to  Tiny Tiny RSS  running on a cheap VM. I can access the RSS feeds via any browser or via applications on my Nexus 4."
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -642,7 +442,7 @@
       "text": "IM and IRC"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -654,7 +454,7 @@
       "text": "Pidgin  has been my go-to choice for instant messaging ever since I used GAIM. I've heard good things about telepathy/empathy but the UI didn't make much sense to me. For IRC,  Konversation  is a clear GUI winner with  irssi  being my favorite in the terminal."
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -666,7 +466,7 @@
       "text": "Twitter"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -678,7 +478,7 @@
       "text": "As you probably know, I like to use Twitter, so this was critical to my workflow. I use  TweetDeck's Chrome application  because it uses the streaming API and gives me plenty of one-click functionality."
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -690,7 +490,7 @@
       "text": "Music"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -702,7 +502,7 @@
       "text": "iTunes was hard to live without, but  Clementine  filled my needs well. It has built-in internet music services that are easy to use. I'm a Digitally Imported subscriber and I was able to log in via Clementine and access the premium streams. The podcast management isn't perfect but it's certainly a decent replacement for iTunes. It can monitor certain directories for new music and automatically populate itself with a playlist based on the music it finds."
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -714,7 +514,7 @@
       "text": "Networking"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -726,7 +526,7 @@
       "text": "All of my required VPN capabilities worked right out of the box, including OpenVPN and Cisco VPN's via VPNC. I can join 802.1x-protected wireless and wired networks with ease. Every USB to ethernet adapter I've tried has worked right out of the box without any additional configuration needed. IPv6 connectivity works just fine (as expected)."
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -738,7 +538,7 @@
       "text": "Summary"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },

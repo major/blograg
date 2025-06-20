@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 7460451696861727039,
-    "filename": "index.md"
+    "binary_hash": 17010220740668947683,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,22 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
       },
       {
         "$ref": "#/texts/7"
@@ -42,10 +57,7 @@
         "$ref": "#/texts/12"
       },
       {
-        "$ref": "#/texts/13"
-      },
-      {
-        "$ref": "#/texts/14"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/15"
@@ -63,7 +75,10 @@
         "$ref": "#/texts/19"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
       },
       {
         "$ref": "#/texts/22"
@@ -141,13 +156,7 @@
         "$ref": "#/texts/46"
       },
       {
-        "$ref": "#/texts/47"
-      },
-      {
-        "$ref": "#/texts/48"
-      },
-      {
-        "$ref": "#/texts/49"
+        "$ref": "#/groups/1"
       },
       {
         "$ref": "#/texts/50"
@@ -162,7 +171,13 @@
         "$ref": "#/texts/53"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
       },
       {
         "$ref": "#/texts/57"
@@ -181,27 +196,6 @@
       },
       {
         "$ref": "#/texts/62"
-      },
-      {
-        "$ref": "#/texts/63"
-      },
-      {
-        "$ref": "#/texts/64"
-      },
-      {
-        "$ref": "#/texts/65"
-      },
-      {
-        "$ref": "#/texts/66"
-      },
-      {
-        "$ref": "#/texts/67"
-      },
-      {
-        "$ref": "#/texts/68"
-      },
-      {
-        "$ref": "#/texts/69"
       }
     ],
     "content_layer": "body",
@@ -216,22 +210,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/13"
         },
         {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
+          "$ref": "#/texts/14"
         }
       ],
       "content_layer": "body",
@@ -245,30 +227,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/20"
+          "$ref": "#/texts/47"
         },
         {
-          "$ref": "#/texts/21"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/54"
+          "$ref": "#/texts/48"
         },
         {
-          "$ref": "#/texts/55"
-        },
-        {
-          "$ref": "#/texts/56"
+          "$ref": "#/texts/49"
         }
       ],
       "content_layer": "body",
@@ -286,107 +251,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2022/05/06/build-custom-centos-stream-cloud-image/",
-      "text": "/2022/05/06/build-custom-centos-stream-cloud-image/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "centos",
-      "text": "centos",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "cloud",
-      "text": "cloud",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "epel",
-      "text": "epel",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "imagebuilder",
-      "text": "imagebuilder",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "This is my  third post  about  Image Builder , so I guess you could say that I enjoy using it[^biased]. It's a great way to define a custom cloud image, build it, and (optionally) ship it to a supported cloud provider.",
       "text": "This is my  third post  about  Image Builder , so I guess you could say that I enjoy using it[^biased]. It's a great way to define a custom cloud image, build it, and (optionally) ship it to a supported cloud provider."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -398,7 +267,7 @@
       "text": "This post covers how to build a customized CentOS Stream 9 image along with a custom repository for additional packages. In this case, that's  Extra Packages for Enterprise Linux (EPEL) ."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -410,7 +279,7 @@
       "text": "[^biased]: I once worked on the team that makes Image Builder happen, so I may be a little bit biased. Enjoy the post anyway. \ud83d\ude09"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -422,7 +291,7 @@
       "text": "Why do I need a custom image anyway?"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -434,7 +303,7 @@
       "text": "Building your own image empowers you to choose which packages you want, which services run at boot time, and where you deploy your image. Some cloud providers may not have an image from the Linux distribution you enjoy most, or they might have an image with the wrong package set."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -446,7 +315,7 @@
       "text": "Some cloud providers build images with too many packages or too few. Sometimes they add configuration that doesn't exist in the OS itself. I've even found some that alter cloud-init and force you to log in directly as the "
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -462,7 +331,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -474,7 +343,7 @@
       "text": " user. \ud83d\ude31"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -486,7 +355,7 @@
       "text": "I enjoy building my own images so I know exactly what it contains and I know that the configuration came from the OS itself."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -498,7 +367,7 @@
       "text": "First steps"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -510,7 +379,7 @@
       "text": "This post uses CentOS Stream 9 as an example. You will need a physical host, virtual machine, or cloud instance running CentOS Stream 9 first. We start by installing some packages:"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -526,7 +395,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -538,9 +407,9 @@
       "text": "What do these packages contain?"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -552,9 +421,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/14",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -566,7 +435,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -578,7 +447,7 @@
       "text": "One nice thing about this stack is that it starts via systemd's  socket activation  and it only runs when you query it. Let's start the socket now and ensure it comes up on a reboot:"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -594,7 +463,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -606,7 +475,7 @@
       "text": "Verify that the API is responding:"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -622,7 +491,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -634,7 +503,7 @@
       "text": "[^justcomposer]: Most people at Red Hat just call it  composer , but I'll use the full name here to avoid confusion."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -646,7 +515,7 @@
       "text": "Adding EPEL"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -658,7 +527,7 @@
       "text": "CentOS Stream 9 has most of the packages I want, but I really love this program called"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -674,7 +543,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -686,7 +555,7 @@
       "text": " that displays resource usage and allows you to introspect certain processes or namespaces easily. This package is only available in the EPEL repository, so we need to add that one to our list of enabled repositories for image builds."
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -698,7 +567,7 @@
       "text": "osbuild-composer  comes with its own set of repositories in the package and does not use the system's repositories. You can list all the enabled repositories that it knows about:"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -714,7 +583,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -726,7 +595,7 @@
       "text": "If we want to add EPEL, we can dump the configuration from one of these to a file and edit it:"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -742,7 +611,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -754,7 +623,7 @@
       "text": "After editing the EPEL repository file, it should look like this:"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -770,7 +639,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -782,7 +651,7 @@
       "text": "You can use any mirror you prefer, but the kernel mirrors are very fast for me from most locations. Now we need to add this repository:"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -798,7 +667,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -810,7 +679,7 @@
       "text": "We now have "
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -826,7 +695,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -838,7 +707,7 @@
       "text": " in our list. \ud83c\udf89"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -850,7 +719,7 @@
       "text": "Define our image"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -862,7 +731,7 @@
       "text": "All image definitions, or blueprints, are in TOML format. Here's my simple one for this post:"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -878,7 +747,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -890,7 +759,7 @@
       "text": "Now we push our blueprint and solve the dependencies to ensure we added our EPEL repository properly:"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -906,7 +775,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -918,7 +787,7 @@
       "text": "And there's "
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -934,7 +803,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -946,7 +815,7 @@
       "text": " at the end of the list! \ud83c\udf89"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -958,7 +827,7 @@
       "text": "Make the image"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -970,7 +839,7 @@
       "text": "The fun part has arrived! Let's build an image:"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -986,7 +855,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -998,9 +867,9 @@
       "text": "This command does a few things:"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/47",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -1012,9 +881,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/48",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -1026,9 +895,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/49",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -1040,7 +909,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1052,7 +921,7 @@
       "text": "\ud83e\udd14 Note that you do not need to set the size explicitly here, but I do it as a good measure. When your instance boots, "
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1068,7 +937,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1080,7 +949,7 @@
       "text": " runs "
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1096,7 +965,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1108,7 +977,7 @@
       "text": " to expand the storage to fit the disk size in your cloud instance."
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1120,7 +989,7 @@
       "text": "\ud83d\udca3  However , "
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1136,7 +1005,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1148,7 +1017,7 @@
       "text": " will not  shrink  the disk at boot time. If you choose a size that is larger than the disk space in your cloud instance, you will likely see an error at provisioning time."
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1160,7 +1029,7 @@
       "text": "Let's check the status after a few minutes:"
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1176,7 +1045,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1188,7 +1057,7 @@
       "text": "If you want to get a copy of the image and import it yourself into your favorite cloud, you can do that now:"
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1204,7 +1073,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/62",
       "parent": {
         "$ref": "#/body"
       },

@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 4117026177182412452,
-    "filename": "index.md"
+    "binary_hash": 3195129604286590998,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,19 +21,34 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
       },
       {
         "$ref": "#/texts/8"
       },
       {
-        "$ref": "#/texts/9"
-      },
-      {
-        "$ref": "#/texts/10"
-      },
-      {
-        "$ref": "#/pictures/0"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/11"
@@ -54,22 +69,10 @@
         "$ref": "#/texts/16"
       },
       {
+        "$ref": "#/texts/17"
+      },
+      {
         "$ref": "#/groups/1"
-      },
-      {
-        "$ref": "#/texts/19"
-      },
-      {
-        "$ref": "#/texts/20"
-      },
-      {
-        "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
-      },
-      {
-        "$ref": "#/texts/23"
       },
       {
         "$ref": "#/texts/24"
@@ -78,7 +81,22 @@
         "$ref": "#/texts/25"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
       },
       {
         "$ref": "#/texts/32"
@@ -166,30 +184,6 @@
       },
       {
         "$ref": "#/texts/60"
-      },
-      {
-        "$ref": "#/texts/61"
-      },
-      {
-        "$ref": "#/texts/62"
-      },
-      {
-        "$ref": "#/texts/63"
-      },
-      {
-        "$ref": "#/texts/64"
-      },
-      {
-        "$ref": "#/texts/65"
-      },
-      {
-        "$ref": "#/texts/66"
-      },
-      {
-        "$ref": "#/texts/67"
-      },
-      {
-        "$ref": "#/texts/68"
       }
     ],
     "content_layer": "body",
@@ -204,25 +198,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/9"
         },
         {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
+          "$ref": "#/texts/10"
         }
       ],
       "content_layer": "body",
@@ -236,39 +215,22 @@
       },
       "children": [
         {
-          "$ref": "#/texts/17"
-        },
-        {
           "$ref": "#/texts/18"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/26"
         },
         {
-          "$ref": "#/texts/27"
+          "$ref": "#/texts/19"
         },
         {
-          "$ref": "#/texts/28"
+          "$ref": "#/texts/20"
         },
         {
-          "$ref": "#/texts/29"
+          "$ref": "#/texts/21"
         },
         {
-          "$ref": "#/texts/30"
+          "$ref": "#/texts/22"
         },
         {
-          "$ref": "#/texts/31"
+          "$ref": "#/texts/23"
         }
       ],
       "content_layer": "body",
@@ -286,121 +248,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2016/05/16/troubleshooting-openstack-network-connectivity/",
-      "text": "/2016/05/16/troubleshooting-openstack-network-connectivity/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "network",
-      "text": "network",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "networking",
-      "text": "networking",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "openstack",
-      "text": "openstack",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "troubleshooting",
-      "text": "troubleshooting",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "NOTE: This post is a work in progress. If you find something that I missed, feel free to leave a comment. I've made plenty of silly mistakes, but I'm sure I'll make a few more. :)",
       "text": "NOTE: This post is a work in progress. If you find something that I missed, feel free to leave a comment. I've made plenty of silly mistakes, but I'm sure I'll make a few more. :)"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -412,7 +264,7 @@
       "text": "Completing a deployment of an OpenStack cloud is an  amazing feeling . There is so much automation and power at your fingertips as soon as you're finished. However, the mood quickly turns sour when you create that first instance and it never responds to pings."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -424,7 +276,7 @@
       "text": "It's the same feeling I get when I hang Christmas lights every year only to find that a whole section didn't light up. If you've ever seen  National Lampoon's Christmas Vacation , you know what I'm talking about:"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -436,7 +288,7 @@
       "text": "Chevy-Chase-in-National-Lampoons-Christmas-Vacation.jpg"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -448,7 +300,7 @@
       "text": "I've stumbled into plenty of problems (and solutions) along the way and I'll detail them here in the hopes that it can help someone avoid throwing a keyboard across the room."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -461,7 +313,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -473,7 +325,7 @@
       "text": "Security groups get their own section because I forget about them constantly.  Security groups  are a great feature that lets you limit inbound and outbound access to a particular network port."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -485,7 +337,7 @@
       "text": "However, OpenStack's default settings are fairly locked down. That's great from a security perspective, but it can derail your first instance build if you're not thinking about it."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -497,9 +349,9 @@
       "text": "You have two options to allow traffic:"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -511,9 +363,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -525,7 +377,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -537,7 +389,7 @@
       "text": "I usually ensure that ICMP traffic is allowed into any port with the "
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -553,7 +405,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -565,7 +417,7 @@
       "text": " security group applied, and then I create a another security group specific to the class of server I'm building (like "
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -581,7 +433,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -593,7 +445,7 @@
       "text": "). Changing a security group rule or adding a new security group to a port takes effect in a few seconds."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -606,7 +458,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -618,9 +470,9 @@
       "text": "Try to  get console access  to the instance through Horizon or via the command line tools. I generally find an issue in one of these areas:"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/18",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -632,9 +484,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/19",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -646,9 +498,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/20",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -660,9 +512,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/21",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -674,9 +526,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/22",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -688,9 +540,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/23",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -702,7 +554,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -714,7 +566,7 @@
       "text": "If the network configuration looks incorrect, cloud-init may have had a problem during startup. Look in "
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -730,7 +582,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -742,7 +594,7 @@
       "text": " or in "
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -758,7 +610,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -770,7 +622,7 @@
       "text": " for any explanation of why cloud-init failed."
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -782,7 +634,7 @@
       "text": "There's also the chance that the network configuration is correct, but the instance can't get a DHCP address. Verify that there are no iptables rules in place on the instance that might block DHCP requests and replies."
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -794,7 +646,7 @@
       "text": "Some Linux distributions don't send  gratuitous ARP packets  when they bring an interface online. Tools like  arping  can help with these problems."
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -806,7 +658,7 @@
       "text": "If you find that you can connect to almost anything from within the instance, but you can't connect to the instance from the outside, verify your security groups (see the previous section). In my experience, a lopsided ingress/egress filter almost always points to a security group problem."
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -819,7 +671,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -831,7 +683,7 @@
       "text": "Within the OpenStack control plane, the nova service talks to neutron to create network ports and manage addresses on those ports. One of the requests or responses may have been lost along the way or you may have stumbled into a bug."
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -843,7 +695,7 @@
       "text": "If your instance couldn't get an IP address via DHCP, make sure the DHCP agent is running on the server that has your neutron agents. Restarting the agent should bring the DHCP server back online if it isn't running."
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -855,7 +707,7 @@
       "text": "You can also hop into the network namespace that the neutron agent uses for your network. Start by running:"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -871,7 +723,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -883,7 +735,7 @@
       "text": "Look for a namespace that starts with "
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -899,7 +751,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -911,7 +763,7 @@
       "text": " and ends with your network's UUID. You can run commands inside that namespace to verify that networking is functioning:"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -927,7 +779,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -939,7 +791,7 @@
       "text": "If your agent can ping the instance's address, but you can't ping the instance's address, there could be a problem on the underlying network - either within the virtual networking layer (bridges and virtual switches) or on the hardware layer (between the server and upstream network devices)."
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -951,7 +803,7 @@
       "text": "Try to use "
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -967,7 +819,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -979,7 +831,7 @@
       "text": " to dump traffic on the neutron agent and on the instance's network port. Do you see any traffic at all? You may find a problem with incorrect VLAN ID's here or you may see activity that gives you more clue (like one half of an ARP or DHCP exchange)."
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -992,7 +844,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1004,7 +856,7 @@
       "text": "Diagnosing these problems can become a bit challenging since it involves logging into other systems."
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1016,7 +868,7 @@
       "text": "If you are using VLAN networks, be sure that the proper VLAN ID is being set for the network. Run "
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1032,7 +884,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1044,7 +896,7 @@
       "text": " and look for "
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1060,7 +912,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1072,7 +924,7 @@
       "text": ". If that's correct, be sure that all of your servers can transmit packets with that VLAN tag applied. I often remember to allow tagged traffic on all of the hypervisors and then I forget to do the same in the control plane."
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1084,7 +936,7 @@
       "text": "Be sure that your router has the VLAN configured and has the correct IP address configuration applied. It's possible that you've configured all of the VLAN tags correctly in all places, but then fat-fingered an IP address in OpenStack or on the router."
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1096,7 +948,7 @@
       "text": "While you're in the router, test some pings to your instance. If you can ping from the router to the instance, but not from your desk to the instance, your router might not be configured correctly."
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1108,7 +960,7 @@
       "text": "For instances on private networks, ensure that you created a router on the network. This is something I tend to forget. Also, be sure that you have the right routes configured between you and your OpenStack environment so that you can route traffic to your private networks through the router. If this isn't feasible for you, another option could be OpenStack's  VPN-as-a-service  feature."
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1120,7 +972,7 @@
       "text": "Another issue could be the cabling between servers and the nearest switch. If a cable is crossed, it could mean that a valid VLAN is being blocked at the switch because it's coming in on the wrong port."
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1133,7 +985,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1145,7 +997,7 @@
       "text": "There are some situations that aren't covered here. If you think of any, please leave a comment below."
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1157,7 +1009,7 @@
       "text": "As with any other troubleshooting, I go back to this quote from  Dr. Theodore Woodward  about diagnosing illness in the medical field:"
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1169,7 +1021,7 @@
       "text": "When you hear hoofbeats, think of horses not zebras."
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },

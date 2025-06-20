@@ -1,8 +1,10 @@
 import os
 from concurrent.futures import ProcessPoolExecutor, as_completed
+from io import BytesIO
 from pathlib import Path
 
 import psutil
+from docling.datamodel.base_models import DocumentStream
 from docling.document_converter import DocumentConverter
 from rich import print
 from tqdm import tqdm
@@ -16,8 +18,13 @@ filenames = list(Path(BLOG_POSTS).glob("**/*.md"))
 
 
 def process_file(filename: Path) -> bool:
+    raw_file = filename.read_text(encoding="utf-8")
+    content = raw_file.strip("-").split("---\n", 1)[1].strip()
+
+    stream = DocumentStream(name="myfile.md", stream=BytesIO(content.encode()))
+
     converter = DocumentConverter()
-    result = converter.convert(filename, raises_on_error=False)
+    result = converter.convert(stream, raises_on_error=False)
     if result.status == "success":
         doc = result.document
         output_path = os.path.join(

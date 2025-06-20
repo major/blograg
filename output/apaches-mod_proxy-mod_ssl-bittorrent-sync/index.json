@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 5749167797719098767,
-    "filename": "index.md"
+    "binary_hash": 4070279820877389808,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -18,13 +18,28 @@
     "self_ref": "#/body",
     "children": [
       {
+        "$ref": "#/pictures/0"
+      },
+      {
         "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
       },
       {
         "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/pictures/0"
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
       },
       {
         "$ref": "#/texts/8"
@@ -36,7 +51,10 @@
         "$ref": "#/texts/10"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
       },
       {
         "$ref": "#/texts/13"
@@ -76,30 +94,6 @@
       },
       {
         "$ref": "#/texts/25"
-      },
-      {
-        "$ref": "#/texts/26"
-      },
-      {
-        "$ref": "#/texts/27"
-      },
-      {
-        "$ref": "#/texts/28"
-      },
-      {
-        "$ref": "#/texts/29"
-      },
-      {
-        "$ref": "#/texts/30"
-      },
-      {
-        "$ref": "#/texts/31"
-      },
-      {
-        "$ref": "#/texts/32"
-      },
-      {
-        "$ref": "#/texts/33"
       }
     ],
     "content_layer": "body",
@@ -114,42 +108,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
           "$ref": "#/texts/3"
         },
         {
           "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/11"
-        },
-        {
-          "$ref": "#/texts/12"
         }
       ],
       "content_layer": "body",
@@ -167,36 +129,32 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "1",
+      "text": "1"
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "/2014/09/27/apaches-mod_proxy-mod_ssl-bittorrent-sync/",
-      "text": "/2014/09/27/apaches-mod_proxy-mod_ssl-bittorrent-sync/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "BitTorrent Sync  allows you to keep files synchronized between multiple computers or mobile devices. It's a handy way to do backups, share files with friends, or automate the movement of data from device to device. It comes with a web frontend, called the Web UI, that allows for connections over HTTP or HTTPS.",
+      "text": "BitTorrent Sync  allows you to keep files synchronized between multiple computers or mobile devices. It's a handy way to do backups, share files with friends, or automate the movement of data from device to device. It comes with a web frontend, called the Web UI, that allows for connections over HTTP or HTTPS."
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "apache",
-      "text": "apache",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "Using HTTP across the internet to administer Sync seems totally absurd, so I decided to enable HTTPS. I quickly realized two things:",
+      "text": "Using HTTP across the internet to administer Sync seems totally absurd, so I decided to enable HTTPS. I quickly realized two things:"
     },
     {
       "self_ref": "#/texts/3",
@@ -207,8 +165,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
+      "orig": "My SSL certificates were now specified in Apache and Sync",
+      "text": "My SSL certificates were now specified in Apache and Sync",
       "enumerated": false,
       "marker": "-"
     },
@@ -221,119 +179,13 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "ssl",
-      "text": "ssl",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "sync",
-      "text": "sync",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "1",
-      "text": "1"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "BitTorrent Sync  allows you to keep files synchronized between multiple computers or mobile devices. It's a handy way to do backups, share files with friends, or automate the movement of data from device to device. It comes with a web frontend, called the Web UI, that allows for connections over HTTP or HTTPS.",
-      "text": "BitTorrent Sync  allows you to keep files synchronized between multiple computers or mobile devices. It's a handy way to do backups, share files with friends, or automate the movement of data from device to device. It comes with a web frontend, called the Web UI, that allows for connections over HTTP or HTTPS."
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Using HTTP across the internet to administer Sync seems totally absurd, so I decided to enable HTTPS. I quickly realized two things:",
-      "text": "Using HTTP across the internet to administer Sync seems totally absurd, so I decided to enable HTTPS. I quickly realized two things:"
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "My SSL certificates were now specified in Apache and Sync",
-      "text": "My SSL certificates were now specified in Apache and Sync",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "Sync's Web UI is relatively slow with SSL enabled (especially over higher latency links)",
       "text": "Sync's Web UI is relatively slow with SSL enabled (especially over higher latency links)",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -345,7 +197,7 @@
       "text": "I really wanted to keep things simple by wedging Sync into my existing Apache configuration using mod_proxy. \u00a0That was easier said than done since the Web UI has some hard-coded paths for certain assets, like CSS and Javascript. \u00a0After quite a bit of trial end error, this configuration works well:"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -361,7 +213,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -373,7 +225,7 @@
       "text": "The  ProxyPass  and  ProxyPassReverse  lines tell Apache where to proxy the requests and it also tells Apache to make requests  on behalf of  the browser making the request. The  ProxyHTMLURLMap  directive tells Apache that any requests to "
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -389,7 +241,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -401,7 +253,7 @@
       "text": " from a client browser should be translated as a request to the root directory ("
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -417,7 +269,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -429,7 +281,7 @@
       "text": ") of the Web UI. The last line redirects hard-coded requests to "
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -445,7 +297,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -457,7 +309,7 @@
       "text": " up to "
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -473,7 +325,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -485,7 +337,7 @@
       "text": " instead."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -497,7 +349,7 @@
       "text": "When your configuration is in place, be sure to run a configuration check ("
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -513,7 +365,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -525,7 +377,7 @@
       "text": ") and reload the Apache daemon. If you'd like to access your application at a different URI, just replace "
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -541,7 +393,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -553,7 +405,7 @@
       "text": " in the example configuration with that URI."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -565,7 +417,7 @@
       "text": "Once all this is done, I'm able to access Sync at "
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -581,7 +433,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -593,7 +445,7 @@
       "text": " and Apache handles all of the backend requests properly. On some distributions, you may find that  mod proxy html  isn't installed by default. You'll need to install it if you want to use  ProxyHTMLURLMap  in your configuration. For Fedora users, just install it via yum:"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -609,7 +461,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },

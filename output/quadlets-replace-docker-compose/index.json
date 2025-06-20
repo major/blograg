@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 11357877219821892517,
-    "filename": "index.md"
+    "binary_hash": 6290827649869266984,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -24,10 +24,28 @@
         "$ref": "#/groups/0"
       },
       {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
         "$ref": "#/texts/8"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
       },
       {
         "$ref": "#/texts/14"
@@ -78,16 +96,7 @@
         "$ref": "#/texts/29"
       },
       {
-        "$ref": "#/texts/30"
-      },
-      {
-        "$ref": "#/texts/31"
-      },
-      {
-        "$ref": "#/texts/32"
-      },
-      {
-        "$ref": "#/texts/33"
+        "$ref": "#/groups/1"
       },
       {
         "$ref": "#/texts/34"
@@ -102,7 +111,16 @@
         "$ref": "#/texts/37"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
       },
       {
         "$ref": "#/texts/42"
@@ -205,30 +223,6 @@
       },
       {
         "$ref": "#/texts/75"
-      },
-      {
-        "$ref": "#/texts/76"
-      },
-      {
-        "$ref": "#/texts/77"
-      },
-      {
-        "$ref": "#/texts/78"
-      },
-      {
-        "$ref": "#/texts/79"
-      },
-      {
-        "$ref": "#/texts/80"
-      },
-      {
-        "$ref": "#/texts/81"
-      },
-      {
-        "$ref": "#/texts/82"
-      },
-      {
-        "$ref": "#/texts/83"
       }
     ],
     "content_layer": "body",
@@ -256,12 +250,6 @@
         },
         {
           "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
         }
       ],
       "content_layer": "body",
@@ -275,42 +263,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/9"
+          "$ref": "#/texts/30"
         },
         {
-          "$ref": "#/texts/10"
+          "$ref": "#/texts/31"
         },
         {
-          "$ref": "#/texts/11"
+          "$ref": "#/texts/32"
         },
         {
-          "$ref": "#/texts/12"
-        },
-        {
-          "$ref": "#/texts/13"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/38"
-        },
-        {
-          "$ref": "#/texts/39"
-        },
-        {
-          "$ref": "#/texts/40"
-        },
-        {
-          "$ref": "#/texts/41"
+          "$ref": "#/texts/33"
         }
       ],
       "content_layer": "body",
@@ -328,8 +290,8 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "author: Major Hayden date: '2023-09-25' summary: > Sure, docker-compose is great, but could we get similar functionality using just the tools that are built into CoreOS? Can we get automatic updates, too? Yes we can! \ud83d\udce6 tags:",
-      "text": "author: Major Hayden date: '2023-09-25' summary: > Sure, docker-compose is great, but could we get similar functionality using just the tools that are built into CoreOS? Can we get automatic updates, too? Yes we can! \ud83d\udce6 tags:"
+      "orig": "I've  written a lot about containers  on this blog. Why do I love containers so much?",
+      "text": "I've  written a lot about containers  on this blog. Why do I love containers so much?"
     },
     {
       "self_ref": "#/texts/1",
@@ -340,8 +302,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "containers",
-      "text": "containers",
+      "orig": "They start quickly",
+      "text": "They start quickly",
       "enumerated": false,
       "marker": "-"
     },
@@ -354,8 +316,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "coreos",
-      "text": "coreos",
+      "orig": "They make your workloads portable",
+      "text": "They make your workloads portable",
       "enumerated": false,
       "marker": "-"
     },
@@ -368,8 +330,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "docker",
-      "text": "docker",
+      "orig": "They disconnect your application stack from the OS that runs underneath",
+      "text": "They disconnect your application stack from the OS that runs underneath",
       "enumerated": false,
       "marker": "-"
     },
@@ -382,8 +344,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
+      "orig": "You can send your application through CI as a single container image",
+      "text": "You can send your application through CI as a single container image",
       "enumerated": false,
       "marker": "-"
     },
@@ -396,123 +358,13 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "podman",
-      "text": "podman",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "wordpress",
-      "text": "wordpress",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "I've  written a lot about containers  on this blog. Why do I love containers so much?",
-      "text": "I've  written a lot about containers  on this blog. Why do I love containers so much?"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "They start quickly",
-      "text": "They start quickly",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "They make your workloads portable",
-      "text": "They make your workloads portable",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "They disconnect your application stack from the OS that runs underneath",
-      "text": "They disconnect your application stack from the OS that runs underneath",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "You can send your application through CI as a single container image",
-      "text": "You can send your application through CI as a single container image",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/13",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "You can isolate workloads on the network and limit their resource usage much like a VM",
       "text": "You can isolate workloads on the network and limit their resource usage much like a VM",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -524,7 +376,7 @@
       "text": "However, I'm still addicted to  docker-compose . Can podman's  quadlets  change that?"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -536,7 +388,7 @@
       "text": "Yes, I think they can."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -548,7 +400,7 @@
       "text": "What's a quadlet?"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -560,7 +412,7 @@
       "text": "Podman introduced support for quadlets in version 4.4 and it's a simpler way of letting systemd manage your containers. There was an option in the past to have podman generate systemd unit files, but those were unwieldy and full of podman command line options inside a unit file. These unit files weren't easy to edit or even parse with eyeballs."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -572,7 +424,7 @@
       "text": "Quadlets make this easier by giving you a simple ini-style file that you can easily read and edit. This blog post will include some quadlets later, but here's an example one for Wordpress:"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -588,7 +440,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -600,7 +452,7 @@
       "text": "Lots of the lines under "
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -616,7 +468,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -628,7 +480,7 @@
       "text": " should look familiar to most readers who have worked with containers before. However, there's something new here."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -640,7 +492,7 @@
       "text": "Check out the "
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -656,7 +508,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -668,7 +520,7 @@
       "text": " line. This tells podman to keep your container updated on a regular basis with the upstream container registry. I've used  watchtower  in the past for this, but it requires a privileged container and it's yet another external dependency."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -680,7 +532,7 @@
       "text": "Also, at the very end, you'll see a "
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -696,7 +548,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -708,7 +560,7 @@
       "text": " line. This is a great place to set up container dependencies. In this example, the container that runs "
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -724,7 +576,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -736,7 +588,7 @@
       "text": " (a web server) can't start until Wordpress is up and running."
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -748,7 +600,7 @@
       "text": "So why not stick with docker-compose?"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -760,7 +612,7 @@
       "text": "There's no denying that docker-compose is an awesome tool. You specify the desired outcome, tell it to bring up containers, and it gets containers into the state you specified. It handles volumes, networks, and complicated configuration without a lot of legwork. The YAML files are pretty easy to read, too."
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -772,7 +624,7 @@
       "text": "However, as with watchtower, that's another external dependency."
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -784,7 +636,7 @@
       "text": "My container deployments are often done at instance boot time and I don't make too many changes afterwards. I found myself using docker-compose for the initial deployment and then I didn't really use it again."
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -796,7 +648,7 @@
       "text": "Why not remove it entirely and use what's built into CoreOS already?"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -808,7 +660,7 @@
       "text": "Quaint quadlets quickly!"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -820,9 +672,9 @@
       "text": "Before we start, we're going to need a few things:"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/30",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -834,9 +686,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/31",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -848,9 +700,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/32",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -862,9 +714,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/33",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -876,7 +728,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -888,7 +740,7 @@
       "text": "I've packed all of these items into my  quadlets-wordpress  repository to make it easy. Start by looking at the  config.butane  file."
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -900,7 +752,7 @@
       "text": "Let's break it down here. First up, we add an ssh key for the default "
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -916,7 +768,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -928,7 +780,7 @@
       "text": " user."
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -944,7 +796,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -956,7 +808,7 @@
       "text": "Next up, we enable the "
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -972,7 +824,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -984,7 +836,7 @@
       "text": " so we get container updates automatically:"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -1000,7 +852,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -1012,7 +864,7 @@
       "text": "Next is the long "
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -1028,7 +880,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -1040,7 +892,7 @@
       "text": " section:"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1056,7 +908,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1068,7 +920,7 @@
       "text": "The  Caddyfile  is also in the repository and will be deployed by the butane configuration shown above."
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1080,7 +932,7 @@
       "text": "We can go through each quadlet in detail. First up is MariaDB. We tell systemd that the wordpress container will want to have this one started first."
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1096,7 +948,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1108,7 +960,7 @@
       "text": "The wordpress quadlet is much the same as the MariaDB one, but we tell systemd that caddy will want wordpress started first."
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1124,7 +976,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1136,7 +988,7 @@
       "text": "Finally, the caddy quadlet contains four volumes and some published ports. These ports will be published to the container host. Also, you'll note that the wordpress volume is mounted here, too. This is because caddy can serve static files  much faster  than wordpress can."
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1152,7 +1004,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1164,7 +1016,7 @@
       "text": "Launch the quadlets"
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1176,7 +1028,7 @@
       "text": "There's a  launch script  that ships this configuration to VULTR and launches a CoreOS instance:"
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1192,7 +1044,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1204,7 +1056,7 @@
       "text": "To launch an instance, get your  VULTR API key  first. Then install vultr-cli and butane:"
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1220,7 +1072,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1232,7 +1084,7 @@
       "text": "After launch, check to see what your containers are doing:"
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1248,7 +1100,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1260,7 +1112,7 @@
       "text": "We should be able to talk to wordpress through caddy on port 80:"
     },
     {
-      "self_ref": "#/texts/70",
+      "self_ref": "#/texts/62",
       "parent": {
         "$ref": "#/body"
       },
@@ -1276,7 +1128,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/71",
+      "self_ref": "#/texts/63",
       "parent": {
         "$ref": "#/body"
       },
@@ -1288,7 +1140,7 @@
       "text": "Awesome! \ud83c\udf89"
     },
     {
-      "self_ref": "#/texts/72",
+      "self_ref": "#/texts/64",
       "parent": {
         "$ref": "#/body"
       },
@@ -1300,7 +1152,7 @@
       "text": "Managing containers"
     },
     {
-      "self_ref": "#/texts/73",
+      "self_ref": "#/texts/65",
       "parent": {
         "$ref": "#/body"
       },
@@ -1312,7 +1164,7 @@
       "text": "Containers will automatically update on a schedule and you can check the timer:"
     },
     {
-      "self_ref": "#/texts/74",
+      "self_ref": "#/texts/66",
       "parent": {
         "$ref": "#/body"
       },
@@ -1328,7 +1180,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/67",
       "parent": {
         "$ref": "#/body"
       },
@@ -1340,7 +1192,7 @@
       "text": "Quadlets are just regular systemd units:"
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/68",
       "parent": {
         "$ref": "#/body"
       },
@@ -1356,7 +1208,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/69",
       "parent": {
         "$ref": "#/body"
       },
@@ -1368,7 +1220,7 @@
       "text": "As an example, you can make changes to caddy's config file and restart it easily:"
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/70",
       "parent": {
         "$ref": "#/body"
       },
@@ -1384,7 +1236,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/79",
+      "self_ref": "#/texts/71",
       "parent": {
         "$ref": "#/body"
       },
@@ -1396,7 +1248,7 @@
       "text": "If you need to change a quadlet's configuration, just open up the configuration file in your favorite editor under "
     },
     {
-      "self_ref": "#/texts/80",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },
@@ -1412,7 +1264,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/81",
+      "self_ref": "#/texts/73",
       "parent": {
         "$ref": "#/body"
       },
@@ -1424,7 +1276,7 @@
       "text": ", reload systemd, and restart the container:"
     },
     {
-      "self_ref": "#/texts/82",
+      "self_ref": "#/texts/74",
       "parent": {
         "$ref": "#/body"
       },
@@ -1440,7 +1292,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/83",
+      "self_ref": "#/texts/75",
       "parent": {
         "$ref": "#/body"
       },

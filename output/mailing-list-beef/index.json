@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 1923635847072403456,
-    "filename": "index.md"
+    "binary_hash": 7405214765937115357,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,16 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/3"
       },
       {
         "$ref": "#/texts/4"
@@ -31,9 +40,6 @@
       },
       {
         "$ref": "#/texts/6"
-      },
-      {
-        "$ref": "#/pictures/0"
       },
       {
         "$ref": "#/texts/7"
@@ -87,34 +93,34 @@
         "$ref": "#/texts/23"
       },
       {
-        "$ref": "#/texts/24"
+        "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/25"
+        "$ref": "#/texts/28"
       },
       {
-        "$ref": "#/texts/26"
+        "$ref": "#/texts/29"
       },
       {
-        "$ref": "#/texts/27"
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
       },
       {
         "$ref": "#/groups/1"
       },
       {
-        "$ref": "#/texts/32"
+        "$ref": "#/texts/42"
       },
       {
-        "$ref": "#/texts/33"
+        "$ref": "#/texts/43"
       },
       {
-        "$ref": "#/texts/34"
+        "$ref": "#/texts/44"
       },
       {
-        "$ref": "#/texts/35"
-      },
-      {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/45"
       },
       {
         "$ref": "#/texts/46"
@@ -132,19 +138,19 @@
         "$ref": "#/texts/50"
       },
       {
-        "$ref": "#/texts/51"
+        "$ref": "#/groups/2"
       },
       {
-        "$ref": "#/texts/52"
+        "$ref": "#/texts/57"
       },
       {
-        "$ref": "#/texts/53"
+        "$ref": "#/texts/58"
       },
       {
-        "$ref": "#/texts/54"
+        "$ref": "#/texts/59"
       },
       {
-        "$ref": "#/groups/3"
+        "$ref": "#/texts/60"
       },
       {
         "$ref": "#/texts/61"
@@ -201,22 +207,10 @@
         "$ref": "#/texts/78"
       },
       {
-        "$ref": "#/texts/79"
+        "$ref": "#/groups/3"
       },
       {
-        "$ref": "#/texts/80"
-      },
-      {
-        "$ref": "#/texts/81"
-      },
-      {
-        "$ref": "#/texts/82"
-      },
-      {
-        "$ref": "#/groups/4"
-      },
-      {
-        "$ref": "#/texts/88"
+        "$ref": "#/texts/84"
       }
     ],
     "content_layer": "body",
@@ -231,13 +225,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/24"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/25"
         },
         {
-          "$ref": "#/texts/3"
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
         }
       ],
       "content_layer": "body",
@@ -251,28 +248,17 @@
       },
       "children": [
         {
-          "$ref": "#/texts/28"
+          "$ref": "#/texts/32"
         },
         {
-          "$ref": "#/texts/29"
+          "$ref": "#/texts/33"
         },
         {
-          "$ref": "#/texts/30"
+          "$ref": "#/texts/34"
         },
         {
-          "$ref": "#/texts/31"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
+          "$ref": "#/texts/35"
+        },
         {
           "$ref": "#/texts/36"
         },
@@ -290,23 +276,40 @@
         },
         {
           "$ref": "#/texts/41"
-        },
-        {
-          "$ref": "#/texts/42"
-        },
-        {
-          "$ref": "#/texts/43"
-        },
-        {
-          "$ref": "#/texts/44"
-        },
-        {
-          "$ref": "#/texts/45"
         }
       ],
       "content_layer": "body",
       "name": "list",
       "label": "ordered_list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
     },
     {
       "self_ref": "#/groups/3",
@@ -315,48 +318,19 @@
       },
       "children": [
         {
-          "$ref": "#/texts/55"
+          "$ref": "#/texts/79"
         },
         {
-          "$ref": "#/texts/56"
+          "$ref": "#/texts/80"
         },
         {
-          "$ref": "#/texts/57"
+          "$ref": "#/texts/81"
         },
         {
-          "$ref": "#/texts/58"
+          "$ref": "#/texts/82"
         },
-        {
-          "$ref": "#/texts/59"
-        },
-        {
-          "$ref": "#/texts/60"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/4",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
         {
           "$ref": "#/texts/83"
-        },
-        {
-          "$ref": "#/texts/84"
-        },
-        {
-          "$ref": "#/texts/85"
-        },
-        {
-          "$ref": "#/texts/86"
-        },
-        {
-          "$ref": "#/texts/87"
         }
       ],
       "content_layer": "body",
@@ -374,65 +348,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "author: Major Hayden date: '2023-05-10' My issues with open source mailing lists aren't with the technology, but with unorganized pattern of the discourse itself. \ud83d\udd87\ufe0f tags:",
-      "text": "author: Major Hayden date: '2023-05-10' My issues with open source mailing lists aren't with the technology, but with unorganized pattern of the discourse itself. \ud83d\udd87\ufe0f tags:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "email",
-      "text": "email",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "open source",
-      "text": "open source",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "\ud83e\udd75  This post is long.  If you need a TL;DR, just  hop down to the end .",
       "text": "\ud83e\udd75  This post is long.  If you need a TL;DR, just  hop down to the end ."
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -444,7 +364,7 @@
       "text": "One of my toots fell into a  Fedora Development mailing list discussion  recently that was titled  \"It's time to transform the Fedora devel list into something new.\" As you might imagine, that post blew up."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -456,7 +376,7 @@
       "text": "Here's the  toot :"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -468,7 +388,7 @@
       "text": "toot.png"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -480,7 +400,7 @@
       "text": "After 20 days and 218 emails from 63 participants, the discussion continues. A few people reached out with questions and comments to better understand where I was coming from in that tweet."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -492,7 +412,7 @@
       "text": "Long story short:  My beef[^beef] isn't about the venue, the technology, or the people."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -504,7 +424,7 @@
       "text": "My issues are centered around the discourse itself and the time required to parse it."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -516,7 +436,7 @@
       "text": "Time"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -528,7 +448,7 @@
       "text": "One of my favorite leaders of all time once caught me off guard during a development conversation:"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -540,7 +460,7 @@
       "text": "Them: Major, what's the most valuable thing you have that you can give to someone else?"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -552,7 +472,7 @@
       "text": "Me: What I know?"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -564,7 +484,7 @@
       "text": "Them: No."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -576,7 +496,7 @@
       "text": "Me: My ability to understand what they need?"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -588,7 +508,7 @@
       "text": "Them: No."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -600,7 +520,7 @@
       "text": "Me: Okay, just tell me."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -612,7 +532,7 @@
       "text": "Them: Your time."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -624,7 +544,7 @@
       "text": "He made a point that time is something you can't get back and it's why companies pay people. Companies pay people for their  time ."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -636,7 +556,7 @@
       "text": "Time  spent doing hard things."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -648,7 +568,7 @@
       "text": "Time  spent away from family."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -660,7 +580,7 @@
       "text": "Time  spent building something new or repairing something that's broken."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -672,7 +592,7 @@
       "text": "Time  spent doing tasks that nobody else wants to do."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -684,7 +604,7 @@
       "text": "Humans jump at anything that saves them a little time. We stream Netflix instead of going to the video store or getting DVDs in the mail. We sign up for Amazon Prime to save time on shopping. We rely on appliances to do work for us so we have time for other things."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -696,7 +616,7 @@
       "text": "Mailing lists"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -708,9 +628,9 @@
       "text": "Anyone working on open source projects of any scale have likely used mailing lists from time to time. If you're not familiar, here's an example workflow:"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/24",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -722,9 +642,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/25",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -736,9 +656,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/26",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -750,9 +670,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/27",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -764,7 +684,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -776,7 +696,7 @@
       "text": "But this post isn't about technology. You can have asynchronous discussions of varying quality levels just like these in other systems, such as Discourse, forums, Reddit, or bug trackers. There's nothing inherently bad about mailing lists in general. Mailing lists just happen to be very common in open source projects."
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -788,7 +708,7 @@
       "text": "So what is this post about?"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -800,7 +720,7 @@
       "text": "Unorganized discourse"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -812,9 +732,9 @@
       "text": "When someone asks for comments on a topic, especially a controversial one, they get a wide array of replies:"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/32",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -826,9 +746,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/33",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -840,9 +760,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/34",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -854,9 +774,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/35",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -868,9 +788,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/36",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -882,9 +802,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/37",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -896,9 +816,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/38",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -910,9 +830,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/39",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -924,9 +844,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/40",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -938,9 +858,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/41",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -952,7 +872,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -964,7 +884,7 @@
       "text": "Filtering through all of these to get to the heart of the argument  is incredibly tedious and time consuming.  \ud83e\udd75"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -976,7 +896,7 @@
       "text": "As Matthew Miller mentioned in his Fedora thread, long threads often cause people to lose the meaning of the discussion. They reply on third, fourth, and fifth level comments in the thread that often veer into other topics. Nobody can rein in the discussion at that point, but people do try. Again, these issues crop up in all kinds of discussion technology systems. They are not unique to mailing lists."
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -988,7 +908,7 @@
       "text": "Improvements"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -1000,7 +920,7 @@
       "text": "The problem is not the mailing list.  It's the discourse."
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1012,7 +932,7 @@
       "text": "Keeping the discourse more organized is a good option, but its effectiveness is largely governed by the project's communication rules and the civility of those who communicate in the thread. How do we make this better?"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1025,7 +945,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1037,7 +957,7 @@
       "text": "I'm often amazed at some of the change proposals I see where the technical solution looks so elegant. It's so easy to maintain. It won't be difficult to test. We could implement it so quickly. This person is a genius!"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1049,7 +969,7 @@
       "text": "Then I stop. Wait a minute. Why do we need to do this?"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1061,9 +981,9 @@
       "text": "Always include some of the backstory and use cases behind the change. Ask yourself a few questions:"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/51",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1075,9 +995,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/52",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1089,9 +1009,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/53",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1103,9 +1023,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/54",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1117,9 +1037,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/55",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1131,9 +1051,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/56",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1145,7 +1065,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1157,7 +1077,7 @@
       "text": "Include these in your original post to ensure everyone is on a level playing field at the start. This reduces replies requesting more information or questioning the value of the change based on a lack of understanding."
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1170,7 +1090,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1182,7 +1102,7 @@
       "text": "When I've written posts that blew up, I took time to read through the replies and summarize the comments thus far. I do this as a reply to my original post[^self-reply] with a bulleted list."
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1194,7 +1114,7 @@
       "text": "As an example:"
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1210,7 +1130,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/62",
       "parent": {
         "$ref": "#/body"
       },
@@ -1222,7 +1142,7 @@
       "text": "This saves time for newcomers to the thread since they can get a brief summary of the comments made thus far without needing to read all of them first. In addition, it gives some of the people who replied a chance to say  \"Yes, that's what I meant. Thank you.\" It also redirects the conversation back to the original topic and reduces the veering off into other topics."
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/63",
       "parent": {
         "$ref": "#/body"
       },
@@ -1235,7 +1155,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/64",
       "parent": {
         "$ref": "#/body"
       },
@@ -1247,7 +1167,7 @@
       "text": "I've seen many threads where the original author obviously felt the need to reply to every comment that came through. This lengthens the thread unnecessarily and causes you to think more about replying rather than understanding the replies. (Other participants in the thread may start doing this themselves.)"
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/65",
       "parent": {
         "$ref": "#/body"
       },
@@ -1259,7 +1179,7 @@
       "text": "When you send something and the replies start rolling in, just be patient. Sometimes others will engage each other in the thread and answer your questions for you. This gives you time to read and understand what people are saying. You also get the opportunity to build that intermission summary from the previous section. \ud83d\ude09"
     },
     {
-      "self_ref": "#/texts/70",
+      "self_ref": "#/texts/66",
       "parent": {
         "$ref": "#/body"
       },
@@ -1272,7 +1192,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/71",
+      "self_ref": "#/texts/67",
       "parent": {
         "$ref": "#/body"
       },
@@ -1284,7 +1204,7 @@
       "text": "Just like Elsa sang in  Frozen , sometimes you have to let it go:"
     },
     {
-      "self_ref": "#/texts/72",
+      "self_ref": "#/texts/68",
       "parent": {
         "$ref": "#/body"
       },
@@ -1296,7 +1216,7 @@
       "text": "Let it go, let it go"
     },
     {
-      "self_ref": "#/texts/73",
+      "self_ref": "#/texts/69",
       "parent": {
         "$ref": "#/body"
       },
@@ -1308,7 +1228,7 @@
       "text": "Can't hold it back anymore"
     },
     {
-      "self_ref": "#/texts/74",
+      "self_ref": "#/texts/70",
       "parent": {
         "$ref": "#/body"
       },
@@ -1320,7 +1240,7 @@
       "text": "Let it go, let it go"
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/71",
       "parent": {
         "$ref": "#/body"
       },
@@ -1332,7 +1252,7 @@
       "text": "Turn away and slam the door"
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },
@@ -1344,7 +1264,7 @@
       "text": "I don't care what they're going to say"
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/73",
       "parent": {
         "$ref": "#/body"
       },
@@ -1356,7 +1276,7 @@
       "text": "Let the storm rage on"
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/74",
       "parent": {
         "$ref": "#/body"
       },
@@ -1368,7 +1288,7 @@
       "text": "The cold never bothered me anyway"
     },
     {
-      "self_ref": "#/texts/79",
+      "self_ref": "#/texts/75",
       "parent": {
         "$ref": "#/body"
       },
@@ -1380,7 +1300,7 @@
       "text": "There's always going to be that time where you need to walk away. Take the feedback you received, build on it, and deliver something valuable for people. Let the people who want to be angry for the sake of being angry just be angry on their own."
     },
     {
-      "self_ref": "#/texts/80",
+      "self_ref": "#/texts/76",
       "parent": {
         "$ref": "#/body"
       },
@@ -1392,7 +1312,7 @@
       "text": "Every thread reaches that point where the people with real comments have provided all of their feedback. Other people just get exhausted with the conversation. That leaves the people who have nothing better to do, and of course, the  trolls . (Don't feed the trolls.)"
     },
     {
-      "self_ref": "#/texts/81",
+      "self_ref": "#/texts/77",
       "parent": {
         "$ref": "#/body"
       },
@@ -1404,7 +1324,7 @@
       "text": "TL;DR"
     },
     {
-      "self_ref": "#/texts/82",
+      "self_ref": "#/texts/78",
       "parent": {
         "$ref": "#/body"
       },
@@ -1416,9 +1336,9 @@
       "text": "Just to summarize:"
     },
     {
-      "self_ref": "#/texts/83",
+      "self_ref": "#/texts/79",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -1430,9 +1350,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/84",
+      "self_ref": "#/texts/80",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -1444,9 +1364,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/85",
+      "self_ref": "#/texts/81",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -1458,9 +1378,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/86",
+      "self_ref": "#/texts/82",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -1472,9 +1392,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/87",
+      "self_ref": "#/texts/83",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -1486,7 +1406,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/88",
+      "self_ref": "#/texts/84",
       "parent": {
         "$ref": "#/body"
       },

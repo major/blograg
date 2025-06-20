@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 4367214910745135042,
-    "filename": "index.md"
+    "binary_hash": 5419958429247383911,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,22 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
       },
       {
         "$ref": "#/texts/7"
@@ -57,13 +72,7 @@
         "$ref": "#/texts/17"
       },
       {
-        "$ref": "#/texts/18"
-      },
-      {
-        "$ref": "#/texts/19"
-      },
-      {
-        "$ref": "#/texts/20"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/21"
@@ -78,7 +87,13 @@
         "$ref": "#/texts/24"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
       },
       {
         "$ref": "#/texts/28"
@@ -178,27 +193,6 @@
       },
       {
         "$ref": "#/texts/60"
-      },
-      {
-        "$ref": "#/texts/61"
-      },
-      {
-        "$ref": "#/texts/62"
-      },
-      {
-        "$ref": "#/texts/63"
-      },
-      {
-        "$ref": "#/texts/64"
-      },
-      {
-        "$ref": "#/texts/65"
-      },
-      {
-        "$ref": "#/texts/66"
-      },
-      {
-        "$ref": "#/texts/67"
       }
     ],
     "content_layer": "body",
@@ -213,42 +207,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/18"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/19"
         },
         {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/25"
-        },
-        {
-          "$ref": "#/texts/26"
-        },
-        {
-          "$ref": "#/texts/27"
+          "$ref": "#/texts/20"
         }
       ],
       "content_layer": "body",
@@ -266,107 +231,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2022/04/07/update-supermicro-bios-firmware-from-linux/",
-      "text": "/2022/04/07/update-supermicro-bios-firmware-from-linux/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "hardware",
-      "text": "hardware",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "supermicro",
-      "text": "supermicro",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "terminal",
-      "text": "terminal",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "The  Linux Vendor Firmware Service  (LVFS) and  fwupd  turned the troublesome and time consuming activities of updating all kinds of firmware for laptops, desktops, and servers into something much easier. Check your list of updated firmware, update it, and submit feedback for the vendors when something doesn't work. You can even get notifications right inside GUI applications, such as GNOME Software, that notify you about updates and allow you to install them with one click.",
       "text": "The  Linux Vendor Firmware Service  (LVFS) and  fwupd  turned the troublesome and time consuming activities of updating all kinds of firmware for laptops, desktops, and servers into something much easier. Check your list of updated firmware, update it, and submit feedback for the vendors when something doesn't work. You can even get notifications right inside GUI applications, such as GNOME Software, that notify you about updates and allow you to install them with one click."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -378,7 +247,7 @@
       "text": "However, not all vendors participate in LVFS and some vendors only participate in LVFS for some devices. I've had a  small Supermicro server  at home that's been offline for quite some time. I decided to get it back online for some new projects and I discovered that the BIOS and BMC firmware were both extremely old."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -390,7 +259,7 @@
       "text": "This device isn't included in LVFS, so we're stuck with older methods."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -403,7 +272,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -415,7 +284,7 @@
       "text": "The  baseband management controller , or BMC, is an always-running component that provides out-of-band access to my server. I can control the server's power, view a virtrual console, or control certain BIOS configurations from a web browser or IPMI client."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -427,7 +296,7 @@
       "text": "Luckily, Supermicro makes it easy to update the BMC directly from the web interface. Our first step is to identify which board is inside the machine:"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -443,7 +312,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -455,7 +324,7 @@
       "text": "Asking "
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -471,7 +340,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -483,7 +352,7 @@
       "text": " for type 2 DMI data should give you the motherboard model in the"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -499,7 +368,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -511,7 +380,7 @@
       "text": " field. In this case, mine is "
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -527,7 +396,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -539,7 +408,7 @@
       "text": ". I ran over to  Supermicro's BMC List , typed in the motherboard model number, and downloaded the zip file. After unpacking the zip, I had a bunch of items:"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -555,7 +424,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -567,7 +436,7 @@
       "text": "This "
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -583,7 +452,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -595,9 +464,9 @@
       "text": " contains the firmware update for the BMC. Now access your IPMI interface via a web browser and authenticate. Follow these steps:"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/18",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -609,9 +478,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/19",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -623,9 +492,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/20",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -637,7 +506,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -649,7 +518,7 @@
       "text": "The upload process took around a minute and the BMC update took four or five minutes. The BMC will respond to pings early after the update but it will take a while for the web interface to respond. Be patient!"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -662,7 +531,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -674,7 +543,7 @@
       "text": "If you have the appropriate license for your BMC, you can update the BIOS right from the BMC interface. I don't have that license. Let's find another way!"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -686,7 +555,7 @@
       "text": "Start by downloading Supermicro's  SUM utility . The software is available after the registration step (which is free). In my case, I needed the second download (not the UEFI one) since my server is a little older."
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -698,7 +567,7 @@
       "text": "Now we need to download the BIOS firmware itself. One of the easiest methods I've seen for this is to throw "
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -714,7 +583,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -726,7 +595,7 @@
       "text": " (replace with your motherboard model) into Google and click the result. Then look for a  Update your BIOS  link under Links & Resources  on the right side. That takes you directly to a zip file to download."
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -738,7 +607,7 @@
       "text": "Create a directory (perhaps "
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -754,7 +623,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -766,7 +635,7 @@
       "text": ") and move the SUM zip as well as your firmware zip file in that directory. Some of these zip files have no directory prefix included and they will clobber your working directory. \ud83e\udd26\ud83c\udffb\u200d\u2642\ufe0f"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -778,7 +647,7 @@
       "text": "Unpack both zip files and find the "
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -794,7 +663,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -806,7 +675,7 @@
       "text": " executable:"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -822,7 +691,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -834,7 +703,7 @@
       "text": "Great! Now we need to find the BIOS firmware file. In most cases, they start with a few characters from your motherboard and end in a numerical extension:"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -850,7 +719,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -862,7 +731,7 @@
       "text": "The BIOS firmware is inside "
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -878,7 +747,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -890,7 +759,7 @@
       "text": " in my case. But first:"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -902,7 +771,7 @@
       "text": "\ud83d\udca3  UPGRADING BIOS FIRMWARE IS SERIOUS BUSINESS.  \ud83d\ude31 If an upgrade goes wrong, it may be challenging to get the system running properly again. I've recovered from some pretty awful BIOS update failures in the past on most x86 systems, but it was rarely an enjoyable process. Be sure you have  stable power for the device , you are running the update  inside tmux  (especially if connected via ssh), and you  have time  to complete the operation."
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -914,7 +783,7 @@
       "text": "You have been warned! \ud83d\udc40"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -926,7 +795,7 @@
       "text": "\ud83d\udea8 Start with a "
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -936,6 +805,102 @@
       "prov": [],
       "orig": "tmux",
       "text": "tmux",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " or ",
+      "text": " or "
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "screen",
+      "text": "screen",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " session, always. Seriously. Don't skip this step.",
+      "text": " session, always. Seriously. Don't skip this step."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Inside the ",
+      "text": "Inside the "
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "tmux",
+      "text": "tmux",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " or ",
+      "text": " or "
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "screen",
+      "text": "screen",
       "captions": [],
       "references": [],
       "footnotes": [],
@@ -950,107 +915,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": " or ",
-      "text": " or "
-    },
-    {
-      "self_ref": "#/texts/52",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "screen",
-      "text": "screen",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/53",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": " session, always. Seriously. Don't skip this step.",
-      "text": " session, always. Seriously. Don't skip this step."
-    },
-    {
-      "self_ref": "#/texts/54",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Inside the ",
-      "text": "Inside the "
-    },
-    {
-      "self_ref": "#/texts/55",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "tmux",
-      "text": "tmux",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/56",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": " or ",
-      "text": " or "
-    },
-    {
-      "self_ref": "#/texts/57",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "screen",
-      "text": "screen",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/58",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": " session  (which I'm sure you started because you were paying attention) , let's update the firmware:",
       "text": " session  (which I'm sure you started because you were paying attention) , let's update the firmware:"
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1066,7 +935,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1078,7 +947,7 @@
       "text": "Awesome! My preference here is to power down, wait a few seconds, and power it back up. I've had issues in the past with soft restarts after BIOS upgrades on non-laptop systems and I'm ultra cautious."
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1094,7 +963,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1106,7 +975,7 @@
       "text": "Once it's fully powered down, power it back up using the BMC/IPMI or via the button on the device. If all goes well, you should see a new firmware version after boot:"
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1122,7 +991,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1134,7 +1003,7 @@
       "text": "Perfect! \ud83c\udf89 I downloaded version 2.3 from Supermicro's site and it's now running on my server!"
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1147,7 +1016,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1159,7 +1028,7 @@
       "text": "You may want to do some additional (optional) steps depending on your configuration."
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },

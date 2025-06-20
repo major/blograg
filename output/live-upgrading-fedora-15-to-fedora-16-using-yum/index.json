@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/html",
-    "binary_hash": 14048335571650854274,
-    "filename": "index.md"
+    "binary_hash": 12371286146554839769,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,28 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
         "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
       },
       {
         "$ref": "#/texts/11"
@@ -36,7 +57,13 @@
         "$ref": "#/texts/14"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
       },
       {
         "$ref": "#/texts/18"
@@ -97,39 +124,6 @@
       },
       {
         "$ref": "#/texts/37"
-      },
-      {
-        "$ref": "#/texts/38"
-      },
-      {
-        "$ref": "#/texts/39"
-      },
-      {
-        "$ref": "#/texts/40"
-      },
-      {
-        "$ref": "#/texts/41"
-      },
-      {
-        "$ref": "#/texts/42"
-      },
-      {
-        "$ref": "#/texts/43"
-      },
-      {
-        "$ref": "#/texts/44"
-      },
-      {
-        "$ref": "#/texts/45"
-      },
-      {
-        "$ref": "#/texts/46"
-      },
-      {
-        "$ref": "#/texts/47"
-      },
-      {
-        "$ref": "#/texts/48"
       }
     ],
     "content_layer": "body",
@@ -144,15 +138,6 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
           "$ref": "#/texts/4"
         },
         {
@@ -160,38 +145,6 @@
         },
         {
           "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        },
-        {
-          "$ref": "#/texts/8"
-        },
-        {
-          "$ref": "#/texts/9"
-        },
-        {
-          "$ref": "#/texts/10"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/15"
-        },
-        {
-          "$ref": "#/texts/16"
-        },
-        {
-          "$ref": "#/texts/17"
         }
       ],
       "content_layer": "body",
@@ -209,50 +162,44 @@
       "content_layer": "body",
       "label": "text",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "Before we get started, I really ought to drop this here:",
+      "text": "Before we get started, I really ought to drop this here:"
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "text",
       "prov": [],
-      "orig": "/2011/11/14/live-upgrading-fedora-15-to-fedora-16-using-yum/",
-      "text": "/2011/11/14/live-upgrading-fedora-15-to-fedora-16-using-yum/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "Upgrading Fedora via yum is not the recommended method. Your first choice for upgrading Fedora should be to use preupgrade. Seriously.",
+      "text": "Upgrading Fedora via yum is not the recommended method. Your first choice for upgrading Fedora should be to use preupgrade. Seriously."
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "text",
       "prov": [],
-      "orig": "centos",
-      "text": "centos",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "This begs the question:  When should you use another method to upgrade Fedora? What other methods are there?",
+      "text": "This begs the question:  When should you use another method to upgrade Fedora? What other methods are there?"
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "text",
       "prov": [],
-      "orig": "command line",
-      "text": "command line",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "You have a few other methods to get the upgrade done:",
+      "text": "You have a few other methods to get the upgrade done:"
     },
     {
       "self_ref": "#/texts/4",
@@ -263,8 +210,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
+      "orig": "[<RawText children='Toss in a CD or DVD:'>]",
+      "text": "[<RawText children='Toss in a CD or DVD:'>]",
       "enumerated": false,
       "marker": "-"
     },
@@ -277,8 +224,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "linux",
-      "text": "linux",
+      "orig": "[<RawText children=\"Download the newer release's fedora-release RPM, install it with \">, <CodeSpan children='rpm'>, <RawText children=', and '>, <CodeSpan children='yum upgrade'>, <RawText children=':'>]",
+      "text": "[<RawText children=\"Download the newer release's fedora-release RPM, install it with \">, <CodeSpan children='rpm'>, <RawText children=', and '>, <CodeSpan children='yum upgrade'>, <RawText children=':'>]",
       "enumerated": false,
       "marker": "-"
     },
@@ -291,159 +238,13 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "raid",
-      "text": "raid",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "red hat",
-      "text": "red hat",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "scientific linux",
-      "text": "scientific linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "sysadmin",
-      "text": "sysadmin",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "yum",
-      "text": "yum",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "Before we get started, I really ought to drop this here:",
-      "text": "Before we get started, I really ought to drop this here:"
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "Upgrading Fedora via yum is not the recommended method. Your first choice for upgrading Fedora should be to use preupgrade. Seriously.",
-      "text": "Upgrading Fedora via yum is not the recommended method. Your first choice for upgrading Fedora should be to use preupgrade. Seriously."
-    },
-    {
-      "self_ref": "#/texts/13",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "This begs the question:  When should you use another method to upgrade Fedora? What other methods are there?",
-      "text": "This begs the question:  When should you use another method to upgrade Fedora? What other methods are there?"
-    },
-    {
-      "self_ref": "#/texts/14",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "You have a few other methods to get the upgrade done:",
-      "text": "You have a few other methods to get the upgrade done:"
-    },
-    {
-      "self_ref": "#/texts/15",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "[<RawText children='Toss in a CD or DVD:'>]",
-      "text": "[<RawText children='Toss in a CD or DVD:'>]",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/16",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "[<RawText children=\"Download the newer release's fedora-release RPM, install it with \">, <CodeSpan children='rpm'>, <RawText children=', and '>, <CodeSpan children='yum upgrade'>, <RawText children=':'>]",
-      "text": "[<RawText children=\"Download the newer release's fedora-release RPM, install it with \">, <CodeSpan children='rpm'>, <RawText children=', and '>, <CodeSpan children='yum upgrade'>, <RawText children=':'>]",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/17",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "[<RawText children='Use '>, <CodeSpan children='yum'>, <RawText children=\"'s distro-sync functionality:\">]",
       "text": "[<RawText children='Use '>, <CodeSpan children='yum'>, <RawText children=\"'s distro-sync functionality:\">]",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -455,7 +256,7 @@
       "text": "Personal anecdote time   (Keep scrolling for the meat and potatoes)"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -467,7 +268,7 @@
       "text": "I have a dedicated server at  Joe's Datacenter  (love those folks) with IPMI and KVM-over-LAN access. The"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -483,7 +284,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -495,7 +296,7 @@
       "text": "method won't work for me because my"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -511,7 +312,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -523,7 +324,7 @@
       "text": "partition is on a software RAID volume. There's a  rat's nest of a Bugzilla ticket  over on Red Hat's site about this problem. I'm really only left with a live upgrade using"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -539,7 +340,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -551,7 +352,7 @@
       "text": "."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -563,7 +364,7 @@
       "text": "Live"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -579,7 +380,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -591,7 +392,7 @@
       "text": "upgrade process"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -603,7 +404,7 @@
       "text": "Before even beginning the upgrade, I double-checked that I'd applied all of the available updates for my server. Once that was done, I realized I was one kernel revision behind and I rebooted to ensure I was in the latest Fedora 15 kernel."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -615,7 +416,7 @@
       "text": "A good practice here is to run"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -631,7 +432,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -643,7 +444,7 @@
       "text": "(it's in the"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -659,7 +460,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -671,7 +472,7 @@
       "text": "package) to find any packages which don't exist on any Fedora mirrors. In my case, I had two old kernels and a JungleDisk package. I removed the two old kernels (probably wasn't necessary) and left JungleDisk alone (it worked fine after the upgrade). If you have any external repositories, such as Livna or RPMForge, you may want to disable those until the upgrade is done. Should the initial upgrade checks bomb out, try adding as few repositories back in as possible to see if it clears up the problem."
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -683,7 +484,7 @@
       "text": "Once you make it this far, just follow the instructions available in Fedora's documentation:  Upgrading Fedora using yum . I set SELinux to permissive mode during the upgrade just in case it caused problems."
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -695,7 +496,7 @@
       "text": "I'd recommend skipping the"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -711,7 +512,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -723,7 +524,7 @@
       "text": "portion since your original grub installation will still be present after the upgrade. If your server has EFI (not BIOS),  don't use"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -739,7 +540,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -751,7 +552,7 @@
       "text": "yet. Keep an eye on the previously mentioned documentation page to see if the problems get ironed out between"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -767,7 +568,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -779,7 +580,7 @@
       "text": "and EFI."
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -791,7 +592,7 @@
       "text": "Before you reboot,  be sure to get a list of your active processes and daemons. After your reboot, some old SysVinit scripts will be converted into Systemd service scripts. They might not start automatically and you might need to enable and/or start some services."
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -803,7 +604,7 @@
       "text": "New to Systemd? This will be an extremely handy resource:  SysVinit to Systemd Cheatsheet ."
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -815,7 +616,7 @@
       "text": "I haven't seen too many issues after cleaning up some daemons that didn't start properly. There is a problem between"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -831,7 +632,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -843,7 +644,7 @@
       "text": "and SELinux that I haven't nailed down yet but it's not a showstopper."
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },

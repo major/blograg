@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 1827985032237930479,
-    "filename": "index.md"
+    "binary_hash": 7975111911565165295,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,25 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
       },
       {
         "$ref": "#/texts/8"
@@ -124,183 +142,16 @@
       },
       {
         "$ref": "#/texts/41"
-      },
-      {
-        "$ref": "#/texts/42"
-      },
-      {
-        "$ref": "#/texts/43"
-      },
-      {
-        "$ref": "#/texts/44"
-      },
-      {
-        "$ref": "#/texts/45"
-      },
-      {
-        "$ref": "#/texts/46"
-      },
-      {
-        "$ref": "#/texts/47"
-      },
-      {
-        "$ref": "#/texts/48"
-      },
-      {
-        "$ref": "#/texts/49"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2021/10/30/secure-tailscale-networks-with-firewalld/",
-      "text": "/2021/10/30/secure-tailscale-networks-with-firewalld/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "firewalld",
-      "text": "firewalld",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "networking",
-      "text": "networking",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "tailscale",
-      "text": "tailscale",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -312,7 +163,7 @@
       "text": "Much of my daily work involves using multiple clouds and I do the same for my personal infrastructure, too. Building mesh networks between each piece of cloud infrastructure, my home, and my mobile phone quickly became overwhelming. That's where  Tailscale  came in and completely changed my workflow."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -325,7 +176,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -337,7 +188,7 @@
       "text": "The company claims it's \"a secure network that just works\" and that definition fits well. Tailscale builds on protocols used in Wireguard to dynamically maintain a mesh network between any number of devices. Forget about sharing keys, managing complex IP space, and automating configuration changes. It handles all of that for you."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -349,7 +200,7 @@
       "text": "Setting up Tailscale is outside of the scope of this post, but once you get going, you can add a node to the network and access anything else running Tailscale within your account. The free account comes with 20 devices and a subnet router."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -361,7 +212,7 @@
       "text": "A subnet router allows you to install Tailscale on one device (perhaps one device in your home) and then relay traffic to all devices on that network through that single node. I use this on my home router and this saves me the work of installing Tailscale on multiple devices at home."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -374,7 +225,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -386,7 +237,7 @@
       "text": "Tailscale does give you a private mesh network with automatically updating encryption keys and access control lists (ACLs), but it needs to be secured like any other private network. If an attacker gains access to any of the nodes you have running Tailscale, then they could potentially wander throughout your Tailscale network."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -398,7 +249,7 @@
       "text": "You may be tempted to trust all traffic on your Tailscale network, but a firewall gives you one extra layer of protection so you're only exposing the right ports to the right nodes. I wrote about the need for host firewalls (even in the cloud) on the  Red Hat blog ."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -411,7 +262,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -423,7 +274,7 @@
       "text": "I use  firewalld  to manage my firewall configuration and to keep it consistent for both IPv4 and IPv6 connections. You can use it to easily secure your Tailscale network."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -435,7 +286,7 @@
       "text": "For those unfamiliar with firewalld, it uses zones to define what traffic should be allowed in or out of a system. Each zone can have lots of rules assigned for certain services, ports, sources, and destinations. You can add network interfaces to each zone to control access."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -447,7 +298,7 @@
       "text": "A router has a public-facing port that goes out to the internet and an internal-facing port that goes to the local area network (LAN). I put my internet-facing network device in the "
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -463,7 +314,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -475,7 +326,7 @@
       "text": " zone and I put the internal-facing network device in the "
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -491,7 +342,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -503,7 +354,7 @@
       "text": " zone. Then I can allow inbound DNS on the "
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -519,7 +370,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -531,7 +382,7 @@
       "text": " zone but block it in the "
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -547,7 +398,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -559,7 +410,7 @@
       "text": " zone."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -571,7 +422,7 @@
       "text": "Tailscale adds a network interface called "
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -587,7 +438,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -599,7 +450,7 @@
       "text": " by default. All of the traffic that flows into and out of your mesh network goes through that device. First off, decide which firewall zone you want to use for Tailscale. You could certainly create a new zone, but I'm using "
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -615,7 +466,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -627,7 +478,7 @@
       "text": " for mine."
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -643,7 +494,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -655,7 +506,7 @@
       "text": "By default, "
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -671,7 +522,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -683,7 +534,7 @@
       "text": " allows the ssh service and nothing else. If you want to expose a web server to the Tailscale network, just add the services:"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -699,7 +550,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -711,7 +562,7 @@
       "text": "The last step is to add the "
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -727,7 +578,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -739,7 +590,7 @@
       "text": " interface to the "
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -755,7 +606,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -767,7 +618,7 @@
       "text": " zone:"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -783,7 +634,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -795,7 +646,7 @@
       "text": "Now we can check the zone to be sure everything is ready:"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -811,7 +662,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -823,7 +674,7 @@
       "text": "The last step is to save the firewall configuration to permanent storage so that it's applied after a reboot:"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -839,7 +690,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -851,7 +702,7 @@
       "text": "Enjoy! \ud83d\udcbb"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },

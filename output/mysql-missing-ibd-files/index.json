@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 16158306365501511112,
-    "filename": "index.md"
+    "binary_hash": 2640397283177572056,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,10 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
       },
       {
         "$ref": "#/texts/3"
@@ -58,83 +61,16 @@
       },
       {
         "$ref": "#/texts/14"
-      },
-      {
-        "$ref": "#/texts/15"
-      },
-      {
-        "$ref": "#/texts/16"
-      },
-      {
-        "$ref": "#/texts/17"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2007/08/08/mysql-missing-ibd-files/",
-      "text": "/2007/08/08/mysql-missing-ibd-files/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "database",
-      "text": "database",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -146,7 +82,7 @@
       "text": "Using the InnoDB engine can be tricky due to the ibdata files' rather untraditional behavior. Instead of storing data in MYI and MYD files for each table, InnoDB stores everything in one (or several) large files starting with ibdata1. Of course, MySQL nerds know that you can adjust this behavior slightly with innodb file per_table, but you can  read up  on this at  your leisure ."
     },
     {
-      "self_ref": "#/texts/4",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -158,7 +94,7 @@
       "text": "If you've restored the ibdata files from a previous backup, or if you just toss the .frm files into a database directory, you might find this when you start MySQL:"
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -174,7 +110,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -186,7 +122,7 @@
       "text": "Any good MySQL DBA will find out what error #1 means:"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -202,7 +138,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -214,7 +150,7 @@
       "text": "This error sure sounds like a permission error. Go ahead and check your permissions in "
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -230,7 +166,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -242,7 +178,7 @@
       "text": ", but you'll probably find that they're properly set."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -254,7 +190,7 @@
       "text": "So, why is the operation not permitted?"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -266,7 +202,7 @@
       "text": "MySQL is actually hiding the actual problem behind an incorrect error. The actual issue is that the tables described in your .frm files are not present in the InnoDB tablespace (the ibdata files). This may occur if you restore the .frm files, but you don't restore the correct ibdata files."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -278,7 +214,7 @@
       "text": "What's the solution?"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -290,7 +226,7 @@
       "text": "The easiest fix is to obtain a mysqldump backup of your original data. When you import it, MySQL will create your .frm files and populate the ibdata files for you without any fuss. You'll be up and running in no time."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -302,7 +238,7 @@
       "text": "If you don't have mysqldump backups, then you've just realized how important it is to have a flatfile backup of your databases. :-) If you can restore your original ibdata file that you backed up with your .frm's, you should be able to stop MySQL, put the old ibdata file and transaction logs back, and start MySQL. However, if multiple databases have InnoDB tables, you're going to be reverting them to their previous state. This could cause BIG problems if you're not careful. You will want to begin running this on a regular basis:"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -318,7 +254,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },

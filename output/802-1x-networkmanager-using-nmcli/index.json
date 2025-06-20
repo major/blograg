@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 544739202800484157,
-    "filename": "index.md"
+    "binary_hash": 15588236670796059777,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,13 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
       },
       {
         "$ref": "#/texts/4"
@@ -76,46 +82,13 @@
       },
       {
         "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
-      },
-      {
-        "$ref": "#/texts/23"
-      },
-      {
-        "$ref": "#/texts/24"
-      },
-      {
-        "$ref": "#/texts/25"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
@@ -126,50 +99,48 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "Authenticating to a wired or wireless network using 802.1x is simple using NetworkManager's GUI client. However, this gets challenging on headless servers without a graphical interface. The ",
+      "text": "Authenticating to a wired or wireless network using 802.1x is simple using NetworkManager's GUI client. However, this gets challenging on headless servers without a graphical interface. The "
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "code",
       "prov": [],
-      "orig": "/2016/05/03/802-1x-networkmanager-using-nmcli/",
-      "text": "/2016/05/03/802-1x-networkmanager-using-nmcli/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "nmcli",
+      "text": "nmcli",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "networking",
-      "text": "networking",
-      "enumerated": false,
-      "marker": "-"
+      "orig": " command isn't able to store credentials in a keyring and this causes problems when you try to configure an interfaces with 802.1x authentication.",
+      "text": " command isn't able to store credentials in a keyring and this causes problems when you try to configure an interfaces with 802.1x authentication."
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "If you aren't familiar with 802.1x, there is some  light reading  and  heavier reading  available on the topic.",
+      "text": "If you aren't familiar with 802.1x, there is some  light reading  and  heavier reading  available on the topic."
     },
     {
       "self_ref": "#/texts/4",
@@ -180,8 +151,8 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "Authenticating to a wired or wireless network using 802.1x is simple using NetworkManager's GUI client. However, this gets challenging on headless servers without a graphical interface. The ",
-      "text": "Authenticating to a wired or wireless network using 802.1x is simple using NetworkManager's GUI client. However, this gets challenging on headless servers without a graphical interface. The "
+      "orig": "Start by setting some basic configurations on the interface using the ",
+      "text": "Start by setting some basic configurations on the interface using the "
     },
     {
       "self_ref": "#/texts/5",
@@ -208,63 +179,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": " command isn't able to store credentials in a keyring and this causes problems when you try to configure an interfaces with 802.1x authentication.",
-      "text": " command isn't able to store credentials in a keyring and this causes problems when you try to configure an interfaces with 802.1x authentication."
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "If you aren't familiar with 802.1x, there is some  light reading  and  heavier reading  available on the topic.",
-      "text": "If you aren't familiar with 802.1x, there is some  light reading  and  heavier reading  available on the topic."
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Start by setting some basic configurations on the interface using the ",
-      "text": "Start by setting some basic configurations on the interface using the "
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "nmcli",
-      "text": "nmcli",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": " editor shell:",
       "text": " editor shell:"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -280,7 +199,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -292,7 +211,7 @@
       "text": "Be sure to set the "
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -308,7 +227,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -320,7 +239,7 @@
       "text": " and "
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -336,7 +255,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -348,7 +267,7 @@
       "text": " to the appropriate values for your network. You might have noticed that the password isn't specified here. That's because NetworkManager has no access to a keyring where it can store the password. That comes next."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -360,7 +279,7 @@
       "text": "Create a new file called "
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -376,7 +295,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -388,7 +307,7 @@
       "text": " to hold your password. If your connection name has spaces in it, be sure to maintain those spaces in the filename. Add the following to that file:"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -404,7 +323,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -416,7 +335,7 @@
       "text": "Save the file and close it. Restart NetworkManager to pick up the changes:"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -432,7 +351,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -444,7 +363,7 @@
       "text": "You may need to bring the interface down and up to test the new changes:"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -460,7 +379,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },

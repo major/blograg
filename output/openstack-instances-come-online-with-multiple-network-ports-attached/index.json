@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 3765682267684483829,
-    "filename": "index.md"
+    "binary_hash": 13295265743714878243,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,19 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
         "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
       },
       {
         "$ref": "#/texts/8"
@@ -33,7 +45,13 @@
         "$ref": "#/texts/10"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
       },
       {
         "$ref": "#/texts/14"
@@ -90,6 +108,9 @@
         "$ref": "#/texts/31"
       },
       {
+        "$ref": "#/pictures/0"
+      },
+      {
         "$ref": "#/texts/32"
       },
       {
@@ -99,22 +120,13 @@
         "$ref": "#/texts/34"
       },
       {
-        "$ref": "#/texts/35"
-      },
-      {
-        "$ref": "#/texts/36"
-      },
-      {
-        "$ref": "#/texts/37"
+        "$ref": "#/groups/1"
       },
       {
         "$ref": "#/texts/38"
       },
       {
         "$ref": "#/texts/39"
-      },
-      {
-        "$ref": "#/pictures/0"
       },
       {
         "$ref": "#/texts/40"
@@ -126,31 +138,13 @@
         "$ref": "#/texts/42"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/43"
       },
       {
-        "$ref": "#/texts/46"
+        "$ref": "#/texts/44"
       },
       {
-        "$ref": "#/texts/47"
-      },
-      {
-        "$ref": "#/texts/48"
-      },
-      {
-        "$ref": "#/texts/49"
-      },
-      {
-        "$ref": "#/texts/50"
-      },
-      {
-        "$ref": "#/texts/51"
-      },
-      {
-        "$ref": "#/texts/52"
-      },
-      {
-        "$ref": "#/texts/53"
+        "$ref": "#/texts/45"
       }
     ],
     "content_layer": "body",
@@ -165,12 +159,6 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
           "$ref": "#/texts/3"
         },
         {
@@ -178,12 +166,6 @@
         },
         {
           "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
         }
       ],
       "content_layer": "body",
@@ -197,33 +179,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/11"
+          "$ref": "#/texts/35"
         },
         {
-          "$ref": "#/texts/12"
+          "$ref": "#/texts/36"
         },
         {
-          "$ref": "#/texts/13"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/43"
-        },
-        {
-          "$ref": "#/texts/44"
-        },
-        {
-          "$ref": "#/texts/45"
+          "$ref": "#/texts/37"
         }
       ],
       "content_layer": "body",
@@ -241,121 +203,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2016/08/03/openstack-instances-come-online-with-multiple-network-ports-attached/",
-      "text": "/2016/08/03/openstack-instances-come-online-with-multiple-network-ports-attached/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "kvm",
-      "text": "kvm",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "network",
-      "text": "network",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "networking",
-      "text": "networking",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "openstack",
-      "text": "openstack",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "python",
-      "text": "python",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "virtualization",
-      "text": "virtualization",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "I ran into an interesting problem recently in my production OpenStack deployment that runs the Mitaka release. On various occasions, instances were coming online with multiple network ports attached, even though I only asked for one network port.",
       "text": "I ran into an interesting problem recently in my production OpenStack deployment that runs the Mitaka release. On various occasions, instances were coming online with multiple network ports attached, even though I only asked for one network port."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -368,7 +220,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -380,9 +232,9 @@
       "text": "If I issued a build request for ten instances, I'd usually end up with this:"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -394,9 +246,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -408,9 +260,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -422,7 +274,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -434,7 +286,7 @@
       "text": "When I examined the instances with multiple network ports attached, I found that one of the network ports would be marked as  up  while the others would be marked as  down . However, the IP addresses associated with those extra ports would still be associated with the instance in horizon and via the nova API. All of the network ports seemed to be fully configured on the neutron side."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -447,7 +299,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -459,7 +311,7 @@
       "text": "The neutron API logs are fairly chatty, especially while instances are building, but I found two interesting log lines for one of my instances:"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -475,7 +327,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -487,7 +339,7 @@
       "text": "There are two requests to create network ports for this instance and neutron is allocating ports to both requests. This would normally be just fine, but I only asked for one network port on this instance."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -499,7 +351,7 @@
       "text": "The IP addresses making the requests are unusual, though. "
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -515,7 +367,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -525,6 +377,115 @@
       "prov": [],
       "orig": " and ",
       "text": " and "
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "172.29.236.41",
+      "text": "172.29.236.41",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " are two of the hypervisors within my cloud. Why are both of them asking neutron for network ports? Only one of those hypervisors should be building my instance, not both. After checking both hypervisors, I verified that the instance was only provisioned on one of the hosts and not both.",
+      "text": " are two of the hypervisors within my cloud. Why are both of them asking neutron for network ports? Only one of those hypervisors should be building my instance, not both. After checking both hypervisors, I verified that the instance was only provisioned on one of the hosts and not both."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Looking at nova-compute",
+      "text": "Looking at nova-compute",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "The instance ended up on the ",
+      "text": "The instance ended up on the "
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "172.29.236.11",
+      "text": "172.29.236.11",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " hypervisor once it finished building and the logs on that hypervisor looked fine:",
+      "text": " hypervisor once it finished building and the logs on that hypervisor looked fine:"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "nova.virt.libvirt.driver [-] [instance: 05eef1bb-5356-43d9-86c9-4d9854d4d46b] Instance spawned successfully.",
+      "text": "nova.virt.libvirt.driver [-] [instance: 05eef1bb-5356-43d9-86c9-4d9854d4d46b] Instance spawned successfully.",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I logged into the ",
+      "text": "I logged into the "
     },
     {
       "self_ref": "#/texts/22",
@@ -551,120 +512,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": " are two of the hypervisors within my cloud. Why are both of them asking neutron for network ports? Only one of those hypervisors should be building my instance, not both. After checking both hypervisors, I verified that the instance was only provisioned on one of the hosts and not both.",
-      "text": " are two of the hypervisors within my cloud. Why are both of them asking neutron for network ports? Only one of those hypervisors should be building my instance, not both. After checking both hypervisors, I verified that the instance was only provisioned on one of the hosts and not both."
-    },
-    {
-      "self_ref": "#/texts/24",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "section_header",
-      "prov": [],
-      "orig": "Looking at nova-compute",
-      "text": "Looking at nova-compute",
-      "level": 1
-    },
-    {
-      "self_ref": "#/texts/25",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "The instance ended up on the ",
-      "text": "The instance ended up on the "
-    },
-    {
-      "self_ref": "#/texts/26",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "172.29.236.11",
-      "text": "172.29.236.11",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/27",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": " hypervisor once it finished building and the logs on that hypervisor looked fine:",
-      "text": " hypervisor once it finished building and the logs on that hypervisor looked fine:"
-    },
-    {
-      "self_ref": "#/texts/28",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "nova.virt.libvirt.driver [-] [instance: 05eef1bb-5356-43d9-86c9-4d9854d4d46b] Instance spawned successfully.",
-      "text": "nova.virt.libvirt.driver [-] [instance: 05eef1bb-5356-43d9-86c9-4d9854d4d46b] Instance spawned successfully.",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/29",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "I logged into the ",
-      "text": "I logged into the "
-    },
-    {
-      "self_ref": "#/texts/30",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "172.29.236.41",
-      "text": "172.29.236.41",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/31",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": " hypervisor since it was the one that asked neutron for a port but it never built the instance. The logs there had a much different story:",
       "text": " hypervisor since it was the one that asked neutron for a port but it never built the instance. The logs there had a much different story:"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -680,7 +532,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -692,7 +544,7 @@
       "text": "This is one of those occasions where I was glad to find an exception in the log. The image that couldn't be found is an image I've used regularly in the environment before, and I know it exists."
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -705,7 +557,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -717,7 +569,7 @@
       "text": "First off, I asked glance what it knew about the image:"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -733,7 +585,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -745,7 +597,7 @@
       "text": "If glance knows about the image, why can't that hypervisor build an instance with that image? While I was scratching my head,  Kevin Carter  walked by my desk and joined in the debugging."
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -757,7 +609,7 @@
       "text": "He asked about how I had deployed glance and what storage backend I was using. I was using the regular file storage backend since I don't have swift deployed in the environment. He asked me how many glance nodes I had (I had two) and if I was doing anything to sync the images between the glance nodes."
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -769,7 +621,7 @@
       "text": "Then it hit me."
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -781,7 +633,7 @@
       "text": "stitch_frustrated.gif"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -793,7 +645,7 @@
       "text": "Although both glance nodes knew about the image (since that data is in the database),  only one of the glance nodes had the actual image content (the actual qcow2 file) stored . That means that if a hypervisor requests the image from a glance node that knows about the image but doesn't have it stored, the hypervisor won't be able to retrieve the image."
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -805,9 +657,9 @@
       "text": "Unfortunately, the checks go in this order on the nova-compute side:"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/35",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -819,9 +671,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/36",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -833,9 +685,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/37",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -847,7 +699,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -859,7 +711,7 @@
       "text": "If a hypervisor rolls through steps one and two without issues, but then fails on step 3, the network port will be provisioned but won't come up on the instance. There's nothing that cleans up that port in the Mitaka release, so it requires manual intervention."
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -872,7 +724,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -884,7 +736,7 @@
       "text": "As a temporary workaround, I took one of the glance nodes offline so that only one glance node is being used. After hundreds of builds, all of the instances came up with only one network port attached!"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -896,7 +748,7 @@
       "text": "There are a few options for long-term fixes."
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -908,7 +760,7 @@
       "text": "I could deploy swift and put glance images into swift. That would allow me to use multiple glance nodes with the same swift backend. Another option would be to use an existing swift deployment, such as Rackspace's Cloud Files product."
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -920,7 +772,7 @@
       "text": "Since I'm not eager to deploy swift in my environment for now, I decided to remove the second glance node and reconfigure nova to use only one glance node. That means I'm running with only one glance node and a failure there could be highly annoying. However, that trade-off is fine with me until I can get around to deploying swift."
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -932,7 +784,7 @@
       "text": "UPDATE:  I've opened  a bug  for nova so that the network ports are cleaned up if the instance fails to build."
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },

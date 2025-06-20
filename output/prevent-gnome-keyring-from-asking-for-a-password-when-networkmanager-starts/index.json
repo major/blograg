@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 1307696484305670178,
-    "filename": "index.md"
+    "binary_hash": 8926801870099876420,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,25 +21,19 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
         "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/5"
+        "$ref": "#/texts/11"
       },
       {
-        "$ref": "#/texts/6"
-      },
-      {
-        "$ref": "#/texts/7"
-      },
-      {
-        "$ref": "#/groups/1"
-      },
-      {
-        "$ref": "#/texts/16"
-      },
-      {
-        "$ref": "#/texts/17"
+        "$ref": "#/texts/12"
       }
     ],
     "content_layer": "body",
@@ -54,28 +48,20 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
           "$ref": "#/texts/3"
         },
         {
           "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
         {
           "$ref": "#/texts/8"
         },
@@ -84,21 +70,6 @@
         },
         {
           "$ref": "#/texts/10"
-        },
-        {
-          "$ref": "#/texts/11"
-        },
-        {
-          "$ref": "#/texts/12"
-        },
-        {
-          "$ref": "#/texts/13"
-        },
-        {
-          "$ref": "#/texts/14"
-        },
-        {
-          "$ref": "#/texts/15"
         }
       ],
       "content_layer": "body",
@@ -116,36 +87,32 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "I recently tossed Ubuntu 8.10 on my Mac Mini at home to use it as a home theater PC (with  Boxee ). When I connected to my wireless network via NetworkManager, I entered my WPA2 passphrase, and then I was prompted to enter a password for gnome-keyring. I went back to the couch, SSH'ed in, and continued configuring it remotely. When it rebooted, it never came back online.",
+      "text": "I recently tossed Ubuntu 8.10 on my Mac Mini at home to use it as a home theater PC (with  Boxee ). When I connected to my wireless network via NetworkManager, I entered my WPA2 passphrase, and then I was prompted to enter a password for gnome-keyring. I went back to the couch, SSH'ed in, and continued configuring it remotely. When it rebooted, it never came back online."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "/2009/02/26/prevent-gnome-keyring-from-asking-for-a-password-when-networkmanager-starts/",
-      "text": "/2009/02/26/prevent-gnome-keyring-from-asking-for-a-password-when-networkmanager-starts/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "Once I switched the TV back over to the Mini, I saw that gnome-keyring had popped up and it was asking for my password. I entered it, and the Mini joined the wireless network. Each time I rebooted, I had to go through this procedure (which is annoying to do with a HTPC that is across the room). I found a  pretty fancy solution , but it looked a little complicated for my setup.",
+      "text": "Once I switched the TV back over to the Mini, I saw that gnome-keyring had popped up and it was asking for my password. I entered it, and the Mini joined the wireless network. Each time I rebooted, I had to go through this procedure (which is annoying to do with a HTPC that is across the room). I found a  pretty fancy solution , but it looked a little complicated for my setup."
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "annoyances",
-      "text": "annoyances",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "Here's how I did it in a simpler way in Ubuntu 8.10:",
+      "text": "Here's how I did it in a simpler way in Ubuntu 8.10:"
     },
     {
       "self_ref": "#/texts/3",
@@ -156,8 +123,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "gnome-keyring",
-      "text": "gnome-keyring",
+      "orig": "Click ",
+      "text": "Click ",
       "enumerated": false,
       "marker": "-"
     },
@@ -170,51 +137,57 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "networkmanager",
-      "text": "networkmanager",
+      "orig": "Click ",
+      "text": "Click ",
       "enumerated": false,
       "marker": "-"
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/body"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "label": "paragraph",
+      "label": "list_item",
       "prov": [],
-      "orig": "I recently tossed Ubuntu 8.10 on my Mac Mini at home to use it as a home theater PC (with  Boxee ). When I connected to my wireless network via NetworkManager, I entered my WPA2 passphrase, and then I was prompted to enter a password for gnome-keyring. I went back to the couch, SSH'ed in, and continued configuring it remotely. When it rebooted, it never came back online.",
-      "text": "I recently tossed Ubuntu 8.10 on my Mac Mini at home to use it as a home theater PC (with  Boxee ). When I connected to my wireless network via NetworkManager, I entered my WPA2 passphrase, and then I was prompted to enter a password for gnome-keyring. I went back to the couch, SSH'ed in, and continued configuring it remotely. When it rebooted, it never came back online."
+      "orig": "Click your keyring name (usually ",
+      "text": "Click your keyring name (usually ",
+      "enumerated": false,
+      "marker": "-"
     },
     {
       "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/body"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "label": "paragraph",
+      "label": "list_item",
       "prov": [],
-      "orig": "Once I switched the TV back over to the Mini, I saw that gnome-keyring had popped up and it was asking for my password. I entered it, and the Mini joined the wireless network. Each time I rebooted, I had to go through this procedure (which is annoying to do with a HTPC that is across the room). I found a  pretty fancy solution , but it looked a little complicated for my setup.",
-      "text": "Once I switched the TV back over to the Mini, I saw that gnome-keyring had popped up and it was asking for my password. I entered it, and the Mini joined the wireless network. Each time I rebooted, I had to go through this procedure (which is annoying to do with a HTPC that is across the room). I found a  pretty fancy solution , but it looked a little complicated for my setup."
+      "orig": "Click ",
+      "text": "Click ",
+      "enumerated": false,
+      "marker": "-"
     },
     {
       "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/body"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "label": "paragraph",
+      "label": "list_item",
       "prov": [],
-      "orig": "Here's how I did it in a simpler way in Ubuntu 8.10:",
-      "text": "Here's how I did it in a simpler way in Ubuntu 8.10:"
+      "orig": "Enter your current password in the top box, but leave the bottom two boxes blank",
+      "text": "Enter your current password in the top box, but leave the bottom two boxes blank",
+      "enumerated": false,
+      "marker": "-"
     },
     {
       "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -228,7 +201,7 @@
     {
       "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -242,89 +215,19 @@
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Click your keyring name (usually ",
-      "text": "Click your keyring name (usually ",
+      "orig": "Click ",
+      "text": "Click ",
       "enumerated": false,
       "marker": "-"
     },
     {
       "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Click ",
-      "text": "Click ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Enter your current password in the top box, but leave the bottom two boxes blank",
-      "text": "Enter your current password in the top box, but leave the bottom two boxes blank",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/13",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Click ",
-      "text": "Click ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/14",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Click ",
-      "text": "Click ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/15",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Click ",
-      "text": "Click ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -336,7 +239,7 @@
       "text": "If you reboot your machine, it should not ask for a password for your keyring any longer. This allowed my system to log into my wireless network automatically."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },

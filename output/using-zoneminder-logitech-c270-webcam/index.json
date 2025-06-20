@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 4675043246151347383,
-    "filename": "index.md"
+    "binary_hash": 17432155954381550671,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,19 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
       },
       {
         "$ref": "#/texts/6"
@@ -30,37 +42,19 @@
         "$ref": "#/texts/7"
       },
       {
-        "$ref": "#/texts/8"
-      },
-      {
-        "$ref": "#/texts/9"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/10"
       },
       {
-        "$ref": "#/texts/11"
-      },
-      {
-        "$ref": "#/texts/12"
-      },
-      {
-        "$ref": "#/texts/13"
-      },
-      {
         "$ref": "#/groups/1"
       },
       {
-        "$ref": "#/texts/16"
+        "$ref": "#/texts/17"
       },
       {
-        "$ref": "#/groups/2"
-      },
-      {
-        "$ref": "#/texts/23"
-      },
-      {
-        "$ref": "#/texts/24"
+        "$ref": "#/texts/18"
       }
     ],
     "content_layer": "body",
@@ -75,19 +69,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/8"
         },
         {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
+          "$ref": "#/texts/9"
         }
       ],
       "content_layer": "body",
@@ -101,39 +86,22 @@
       },
       "children": [
         {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
           "$ref": "#/texts/14"
         },
         {
           "$ref": "#/texts/15"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/17"
         },
         {
-          "$ref": "#/texts/18"
-        },
-        {
-          "$ref": "#/texts/19"
-        },
-        {
-          "$ref": "#/texts/20"
-        },
-        {
-          "$ref": "#/texts/21"
-        },
-        {
-          "$ref": "#/texts/22"
+          "$ref": "#/texts/16"
         }
       ],
       "content_layer": "body",
@@ -151,93 +119,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2015/02/07/using-zoneminder-logitech-c270-webcam/",
-      "text": "/2015/02/07/using-zoneminder-logitech-c270-webcam/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "command line",
-      "text": "command line",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "video",
-      "text": "video",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "web",
-      "text": "web",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "For those of you in the market for a cheap webcam for videoconferencing or home surveillance, the  Logitech C270  is hard to beat at about $20-25 USD. It can record video at 1280&#215;960 and it's fairly good at low light levels. The white balance gets a bit off when it's bright in the room but hey &#8212; this camera is cheap.",
       "text": "For those of you in the market for a cheap webcam for videoconferencing or home surveillance, the  Logitech C270  is hard to beat at about $20-25 USD. It can record video at 1280&#215;960 and it's fairly good at low light levels. The white balance gets a bit off when it's bright in the room but hey &#8212; this camera is cheap."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -249,7 +135,7 @@
       "text": "ZoneMinder  can monitor multiple cameras connected via USB or network. Setting up the C270 with ZoneMinder is relatively straightforward. (Getting ZoneMinder installed and running is well outside the scope of this post.)"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -262,7 +148,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -274,7 +160,7 @@
       "text": "If a user wants to access the webcam in Linux, they must be in the video group. On my system, ZoneMinder runs as the apache user. I needed to add the apache user to the video group:"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -290,7 +176,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -303,7 +189,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -315,7 +201,7 @@
       "text": "After clicking  Add New Monitor , here's the data for each tab:"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -327,6 +213,88 @@
       "text": "General Tab:"
     },
     {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Source Type: Local",
+      "text": "Source Type: Local",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Function: Modect",
+      "text": "Function: Modect",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Source:",
+      "text": "Source:"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Device Path: /dev/video0",
+      "text": "Device Path: /dev/video0",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Capture Method: Video For Linux version2",
+      "text": "Capture Method: Video For Linux version2",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Device Format: PAL",
+      "text": "Device Format: PAL",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
       "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/groups/1"
@@ -335,8 +303,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Source Type: Local",
-      "text": "Source Type: Local",
+      "orig": "Capture Palette: YUYV",
+      "text": "Capture Palette: YUYV",
       "enumerated": false,
       "marker": "-"
     },
@@ -349,97 +317,15 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Function: Modect",
-      "text": "Function: Modect",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/16",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Source:",
-      "text": "Source:"
-    },
-    {
-      "self_ref": "#/texts/17",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Device Path: /dev/video0",
-      "text": "Device Path: /dev/video0",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/18",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Capture Method: Video For Linux version2",
-      "text": "Capture Method: Video For Linux version2",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/19",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Device Format: PAL",
-      "text": "Device Format: PAL",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/20",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Capture Palette: YUYV",
-      "text": "Capture Palette: YUYV",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/21",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "Capture Width: 1280",
       "text": "Capture Width: 1280",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/16",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -451,7 +337,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -463,7 +349,7 @@
       "text": "The width and height settings are suggestions. You can crank them down to something like 640&#215;480 if you'd like to save disk space or get a higher frame rate."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },

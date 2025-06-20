@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 11166159287206821391,
-    "filename": "index.md"
+    "binary_hash": 11224649664352117542,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -18,19 +18,34 @@
     "self_ref": "#/body",
     "children": [
       {
-        "$ref": "#/texts/0"
-      },
-      {
-        "$ref": "#/groups/0"
-      },
-      {
         "$ref": "#/pictures/0"
       },
       {
-        "$ref": "#/texts/9"
+        "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/texts/10"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/11"
@@ -51,7 +66,13 @@
         "$ref": "#/texts/16"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
       },
       {
         "$ref": "#/texts/20"
@@ -192,22 +213,7 @@
         "$ref": "#/texts/65"
       },
       {
-        "$ref": "#/texts/66"
-      },
-      {
-        "$ref": "#/texts/67"
-      },
-      {
-        "$ref": "#/texts/68"
-      },
-      {
-        "$ref": "#/texts/69"
-      },
-      {
-        "$ref": "#/texts/70"
-      },
-      {
-        "$ref": "#/texts/71"
+        "$ref": "#/groups/1"
       },
       {
         "$ref": "#/texts/72"
@@ -219,7 +225,22 @@
         "$ref": "#/texts/74"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/texts/77"
+      },
+      {
+        "$ref": "#/texts/78"
+      },
+      {
+        "$ref": "#/texts/79"
+      },
+      {
+        "$ref": "#/texts/80"
       },
       {
         "$ref": "#/texts/81"
@@ -394,33 +415,6 @@
       },
       {
         "$ref": "#/texts/138"
-      },
-      {
-        "$ref": "#/texts/139"
-      },
-      {
-        "$ref": "#/texts/140"
-      },
-      {
-        "$ref": "#/texts/141"
-      },
-      {
-        "$ref": "#/texts/142"
-      },
-      {
-        "$ref": "#/texts/143"
-      },
-      {
-        "$ref": "#/texts/144"
-      },
-      {
-        "$ref": "#/texts/145"
-      },
-      {
-        "$ref": "#/texts/146"
-      },
-      {
-        "$ref": "#/texts/147"
       }
     ],
     "content_layer": "body",
@@ -435,28 +429,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        },
-        {
           "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
         }
       ],
       "content_layer": "body",
@@ -470,42 +449,22 @@
       },
       "children": [
         {
-          "$ref": "#/texts/17"
+          "$ref": "#/texts/66"
         },
         {
-          "$ref": "#/texts/18"
+          "$ref": "#/texts/67"
         },
         {
-          "$ref": "#/texts/19"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/75"
+          "$ref": "#/texts/68"
         },
         {
-          "$ref": "#/texts/76"
+          "$ref": "#/texts/69"
         },
         {
-          "$ref": "#/texts/77"
+          "$ref": "#/texts/70"
         },
         {
-          "$ref": "#/texts/78"
-        },
-        {
-          "$ref": "#/texts/79"
-        },
-        {
-          "$ref": "#/texts/80"
+          "$ref": "#/texts/71"
         }
       ],
       "content_layer": "body",
@@ -523,135 +482,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2015/09/10/chronicles-of-selinux-dealing-with-web-content-in-unusual-directories/",
-      "text": "/2015/09/10/chronicles-of-selinux-dealing-with-web-content-in-unusual-directories/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "centos",
-      "text": "centos",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "command line",
-      "text": "command line",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "rhel",
-      "text": "rhel",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "selinux",
-      "text": "selinux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "web",
-      "text": "web",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "1",
       "text": "1"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -663,7 +498,7 @@
       "text": "I've decided to start a series of posts called \"Chronicles of SELinux\" where I hope to educate more users on how to handle SELinux denials with finesse rather than simply  disabling it entirely . To kick things off, I'll be talking about dealing with web content in the first post."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -676,7 +511,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -688,7 +523,7 @@
       "text": "If you'd like to follow along, simply hop onto a system running Fedora 21 (or later), CentOS 7 or Red Hat Enterprise Linux 7. We need SELinux in enforcing mode on the host, so be sure to check the status with "
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -704,7 +539,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -716,7 +551,7 @@
       "text": ". Depending on what "
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -732,7 +567,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -744,9 +579,9 @@
       "text": " returns, you'll need to make adjustments:"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -758,9 +593,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -772,9 +607,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -786,7 +621,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -798,7 +633,7 @@
       "text": "To enable enforcing mode in the SELinux configuration file, edit "
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -814,7 +649,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -826,7 +661,7 @@
       "text": " and ensure your "
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -842,7 +677,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -854,7 +689,7 @@
       "text": " line has "
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -870,7 +705,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -882,7 +717,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -898,7 +733,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -910,7 +745,7 @@
       "text": "If "
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -926,7 +761,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -938,7 +773,7 @@
       "text": " returned  Disabled  earlier, you will need to reboot to get SELinux working. Also be sure that the "
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -954,7 +789,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -966,7 +801,7 @@
       "text": " package is installed and run "
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -982,7 +817,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -994,7 +829,7 @@
       "text": " to relabel the system on reboot  ( thanks to immanetize for the comment ) ."
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -1006,7 +841,7 @@
       "text": "Let's install httpd and create a developer user:"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -1022,7 +857,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -1034,7 +869,7 @@
       "text": "On to the guide!"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -1047,7 +882,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -1059,7 +894,7 @@
       "text": "On Red Hat-based systems, httpd expects to find its content in "
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -1075,7 +910,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -1087,7 +922,7 @@
       "text": ", but some system administrators prefer to have content stored elsewhere on the system. It could be on a SAN or other remote storage, but it could also just be in a different directory to make things easier for the business."
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -1099,7 +934,7 @@
       "text": "Let's consider a situation where the web content is hosted from "
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -1115,7 +950,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -1127,7 +962,7 @@
       "text": ". We can create the directory:"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -1143,7 +978,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -1155,7 +990,7 @@
       "text": "We can edit "
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -1171,7 +1006,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -1183,7 +1018,7 @@
       "text": " and set our new "
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -1199,7 +1034,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -1211,7 +1046,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -1227,7 +1062,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -1239,7 +1074,7 @@
       "text": "Let's reload the httpd configuration:"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -1255,7 +1090,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -1267,7 +1102,7 @@
       "text": "And now we can add some amazing web content:"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1283,7 +1118,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1295,7 +1130,7 @@
       "text": "It's time to test our web server:"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1311,7 +1146,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1323,7 +1158,7 @@
       "text": "Oh, come on. What's with this 403 error?"
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1336,7 +1171,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1348,7 +1183,7 @@
       "text": "The first step for any situation like this is to review some logs. Let's check the logs for httpd:"
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1364,7 +1199,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1376,7 +1211,7 @@
       "text": "Search permissions are missing? What? Let's check the permissions on our web directory:"
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1392,7 +1227,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1404,7 +1239,7 @@
       "text": "The httpd user has the ability to get into the directory ("
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1420,7 +1255,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1432,7 +1267,7 @@
       "text": " is set on "
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1448,7 +1283,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1460,7 +1295,7 @@
       "text": ") and the httpd user can read the file ("
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1476,7 +1311,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/70",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1488,7 +1323,7 @@
       "text": " is set on "
     },
     {
-      "self_ref": "#/texts/71",
+      "self_ref": "#/texts/62",
       "parent": {
         "$ref": "#/body"
       },
@@ -1504,7 +1339,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/72",
+      "self_ref": "#/texts/63",
       "parent": {
         "$ref": "#/body"
       },
@@ -1516,7 +1351,7 @@
       "text": "). Let's check the system journal just in case:"
     },
     {
-      "self_ref": "#/texts/73",
+      "self_ref": "#/texts/64",
       "parent": {
         "$ref": "#/body"
       },
@@ -1532,7 +1367,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/74",
+      "self_ref": "#/texts/65",
       "parent": {
         "$ref": "#/body"
       },
@@ -1544,9 +1379,9 @@
       "text": "That's quite a long log line. Let's break it into pieces:"
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/66",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -1558,9 +1393,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/67",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -1572,9 +1407,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/68",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -1586,9 +1421,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/69",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -1600,9 +1435,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/79",
+      "self_ref": "#/texts/70",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -1614,9 +1449,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/80",
+      "self_ref": "#/texts/71",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -1628,7 +1463,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/81",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },
@@ -1640,7 +1475,7 @@
       "text": "Long story short, when httpd tried to access our "
     },
     {
-      "self_ref": "#/texts/82",
+      "self_ref": "#/texts/73",
       "parent": {
         "$ref": "#/body"
       },
@@ -1656,7 +1491,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/83",
+      "self_ref": "#/texts/74",
       "parent": {
         "$ref": "#/body"
       },
@@ -1668,7 +1503,7 @@
       "text": " file, the httpd process was labeled with "
     },
     {
-      "self_ref": "#/texts/84",
+      "self_ref": "#/texts/75",
       "parent": {
         "$ref": "#/body"
       },
@@ -1684,7 +1519,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/85",
+      "self_ref": "#/texts/76",
       "parent": {
         "$ref": "#/body"
       },
@@ -1696,7 +1531,7 @@
       "text": ", but the kernel found that the HTML file was labeled with "
     },
     {
-      "self_ref": "#/texts/86",
+      "self_ref": "#/texts/77",
       "parent": {
         "$ref": "#/body"
       },
@@ -1712,7 +1547,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/87",
+      "self_ref": "#/texts/78",
       "parent": {
         "$ref": "#/body"
       },
@@ -1724,7 +1559,7 @@
       "text": ". The httpd process (labeled with "
     },
     {
-      "self_ref": "#/texts/88",
+      "self_ref": "#/texts/79",
       "parent": {
         "$ref": "#/body"
       },
@@ -1740,7 +1575,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/89",
+      "self_ref": "#/texts/80",
       "parent": {
         "$ref": "#/body"
       },
@@ -1752,7 +1587,7 @@
       "text": ") isn't allowed to read files that are labeled as "
     },
     {
-      "self_ref": "#/texts/90",
+      "self_ref": "#/texts/81",
       "parent": {
         "$ref": "#/body"
       },
@@ -1768,7 +1603,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/91",
+      "self_ref": "#/texts/82",
       "parent": {
         "$ref": "#/body"
       },
@@ -1780,7 +1615,7 @@
       "text": ", so the access is denied."
     },
     {
-      "self_ref": "#/texts/92",
+      "self_ref": "#/texts/83",
       "parent": {
         "$ref": "#/body"
       },
@@ -1793,7 +1628,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/93",
+      "self_ref": "#/texts/84",
       "parent": {
         "$ref": "#/body"
       },
@@ -1805,7 +1640,7 @@
       "text": "Since we know what SELinux expects for this file (from the log line in the journal), we can apply the right context and re-test. The "
     },
     {
-      "self_ref": "#/texts/94",
+      "self_ref": "#/texts/85",
       "parent": {
         "$ref": "#/body"
       },
@@ -1821,7 +1656,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/95",
+      "self_ref": "#/texts/86",
       "parent": {
         "$ref": "#/body"
       },
@@ -1833,7 +1668,7 @@
       "text": " command has a handy argument that allows you to reference a file or directory, and apply the contexts from there. Since we know that "
     },
     {
-      "self_ref": "#/texts/96",
+      "self_ref": "#/texts/87",
       "parent": {
         "$ref": "#/body"
       },
@@ -1849,7 +1684,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/97",
+      "self_ref": "#/texts/88",
       "parent": {
         "$ref": "#/body"
       },
@@ -1861,7 +1696,7 @@
       "text": " has the right contexts already, we can use it as a reference:"
     },
     {
-      "self_ref": "#/texts/98",
+      "self_ref": "#/texts/89",
       "parent": {
         "$ref": "#/body"
       },
@@ -1877,7 +1712,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/99",
+      "self_ref": "#/texts/90",
       "parent": {
         "$ref": "#/body"
       },
@@ -1889,7 +1724,7 @@
       "text": "Now we see some different contexts on "
     },
     {
-      "self_ref": "#/texts/100",
+      "self_ref": "#/texts/91",
       "parent": {
         "$ref": "#/body"
       },
@@ -1905,7 +1740,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/101",
+      "self_ref": "#/texts/92",
       "parent": {
         "$ref": "#/body"
       },
@@ -1917,7 +1752,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/102",
+      "self_ref": "#/texts/93",
       "parent": {
         "$ref": "#/body"
       },
@@ -1933,7 +1768,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/103",
+      "self_ref": "#/texts/94",
       "parent": {
         "$ref": "#/body"
       },
@@ -1945,7 +1780,7 @@
       "text": "Let's test again:"
     },
     {
-      "self_ref": "#/texts/104",
+      "self_ref": "#/texts/95",
       "parent": {
         "$ref": "#/body"
       },
@@ -1961,7 +1796,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/105",
+      "self_ref": "#/texts/96",
       "parent": {
         "$ref": "#/body"
       },
@@ -1973,7 +1808,7 @@
       "text": "Darn! What's in the httpd logs?"
     },
     {
-      "self_ref": "#/texts/106",
+      "self_ref": "#/texts/97",
       "parent": {
         "$ref": "#/body"
       },
@@ -1989,7 +1824,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/107",
+      "self_ref": "#/texts/98",
       "parent": {
         "$ref": "#/body"
       },
@@ -2001,7 +1836,7 @@
       "text": "Ah, we cleared the SELinux problem but now httpd is upset. Just below the "
     },
     {
-      "self_ref": "#/texts/108",
+      "self_ref": "#/texts/99",
       "parent": {
         "$ref": "#/body"
       },
@@ -2017,7 +1852,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/109",
+      "self_ref": "#/texts/100",
       "parent": {
         "$ref": "#/body"
       },
@@ -2029,7 +1864,7 @@
       "text": " line that we edited earlier, look for two "
     },
     {
-      "self_ref": "#/texts/110",
+      "self_ref": "#/texts/101",
       "parent": {
         "$ref": "#/body"
       },
@@ -2045,7 +1880,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/111",
+      "self_ref": "#/texts/102",
       "parent": {
         "$ref": "#/body"
       },
@@ -2057,7 +1892,7 @@
       "text": " blocks. Change "
     },
     {
-      "self_ref": "#/texts/112",
+      "self_ref": "#/texts/103",
       "parent": {
         "$ref": "#/body"
       },
@@ -2073,7 +1908,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/113",
+      "self_ref": "#/texts/104",
       "parent": {
         "$ref": "#/body"
       },
@@ -2085,7 +1920,7 @@
       "text": " and "
     },
     {
-      "self_ref": "#/texts/114",
+      "self_ref": "#/texts/105",
       "parent": {
         "$ref": "#/body"
       },
@@ -2101,7 +1936,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/115",
+      "self_ref": "#/texts/106",
       "parent": {
         "$ref": "#/body"
       },
@@ -2113,7 +1948,7 @@
       "text": " to "
     },
     {
-      "self_ref": "#/texts/116",
+      "self_ref": "#/texts/107",
       "parent": {
         "$ref": "#/body"
       },
@@ -2129,7 +1964,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/117",
+      "self_ref": "#/texts/108",
       "parent": {
         "$ref": "#/body"
       },
@@ -2141,7 +1976,7 @@
       "text": " in those blocks. Reload the httpd configuration and try once more:"
     },
     {
-      "self_ref": "#/texts/118",
+      "self_ref": "#/texts/109",
       "parent": {
         "$ref": "#/body"
       },
@@ -2157,7 +1992,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/119",
+      "self_ref": "#/texts/110",
       "parent": {
         "$ref": "#/body"
       },
@@ -2169,7 +2004,7 @@
       "text": "Success!"
     },
     {
-      "self_ref": "#/texts/120",
+      "self_ref": "#/texts/111",
       "parent": {
         "$ref": "#/body"
       },
@@ -2182,7 +2017,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/121",
+      "self_ref": "#/texts/112",
       "parent": {
         "$ref": "#/body"
       },
@@ -2194,7 +2029,7 @@
       "text": "The "
     },
     {
-      "self_ref": "#/texts/122",
+      "self_ref": "#/texts/113",
       "parent": {
         "$ref": "#/body"
       },
@@ -2210,7 +2045,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/123",
+      "self_ref": "#/texts/114",
       "parent": {
         "$ref": "#/body"
       },
@@ -2222,7 +2057,7 @@
       "text": " method is good for fixing one-off issues and for testing, but we need a good long term fix. SELinux has some file contexts already configured for certain directories, but not for our custom web directory. You can examine the defaults here:"
     },
     {
-      "self_ref": "#/texts/124",
+      "self_ref": "#/texts/115",
       "parent": {
         "$ref": "#/body"
       },
@@ -2238,7 +2073,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/125",
+      "self_ref": "#/texts/116",
       "parent": {
         "$ref": "#/body"
       },
@@ -2250,7 +2085,7 @@
       "text": "SELinux's tools have a concept of  equivalency . This allows you to say that one directory is  equivalent  to another one in the long term. We already used "
     },
     {
-      "self_ref": "#/texts/126",
+      "self_ref": "#/texts/117",
       "parent": {
         "$ref": "#/body"
       },
@@ -2266,7 +2101,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/127",
+      "self_ref": "#/texts/118",
       "parent": {
         "$ref": "#/body"
       },
@@ -2278,7 +2113,7 @@
       "text": " to apply contexts with a reference to a directory with valid contexts, but this equivalency concept gives us a longer term fix. Here's the command to use:"
     },
     {
-      "self_ref": "#/texts/128",
+      "self_ref": "#/texts/119",
       "parent": {
         "$ref": "#/body"
       },
@@ -2294,7 +2129,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/129",
+      "self_ref": "#/texts/120",
       "parent": {
         "$ref": "#/body"
       },
@@ -2306,7 +2141,7 @@
       "text": "If we break this down, we're saying we want to add a new file context where "
     },
     {
-      "self_ref": "#/texts/130",
+      "self_ref": "#/texts/121",
       "parent": {
         "$ref": "#/body"
       },
@@ -2322,7 +2157,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/131",
+      "self_ref": "#/texts/122",
       "parent": {
         "$ref": "#/body"
       },
@@ -2334,7 +2169,7 @@
       "text": " is equal to "
     },
     {
-      "self_ref": "#/texts/132",
+      "self_ref": "#/texts/123",
       "parent": {
         "$ref": "#/body"
       },
@@ -2350,7 +2185,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/133",
+      "self_ref": "#/texts/124",
       "parent": {
         "$ref": "#/body"
       },
@@ -2362,7 +2197,7 @@
       "text": ". This means we want the same SELinux contexts applied in the same places and want them treated equally. After running the "
     },
     {
-      "self_ref": "#/texts/134",
+      "self_ref": "#/texts/125",
       "parent": {
         "$ref": "#/body"
       },
@@ -2378,7 +2213,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/135",
+      "self_ref": "#/texts/126",
       "parent": {
         "$ref": "#/body"
       },
@@ -2390,7 +2225,7 @@
       "text": " command, let's make an "
     },
     {
-      "self_ref": "#/texts/136",
+      "self_ref": "#/texts/127",
       "parent": {
         "$ref": "#/body"
       },
@@ -2406,7 +2241,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/137",
+      "self_ref": "#/texts/128",
       "parent": {
         "$ref": "#/body"
       },
@@ -2418,7 +2253,7 @@
       "text": " file to test:"
     },
     {
-      "self_ref": "#/texts/138",
+      "self_ref": "#/texts/129",
       "parent": {
         "$ref": "#/body"
       },
@@ -2434,7 +2269,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/139",
+      "self_ref": "#/texts/130",
       "parent": {
         "$ref": "#/body"
       },
@@ -2446,7 +2281,7 @@
       "text": "Great! We didn't have to use "
     },
     {
-      "self_ref": "#/texts/140",
+      "self_ref": "#/texts/131",
       "parent": {
         "$ref": "#/body"
       },
@@ -2462,7 +2297,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/141",
+      "self_ref": "#/texts/132",
       "parent": {
         "$ref": "#/body"
       },
@@ -2474,7 +2309,7 @@
       "text": " this time around because we configured "
     },
     {
-      "self_ref": "#/texts/142",
+      "self_ref": "#/texts/133",
       "parent": {
         "$ref": "#/body"
       },
@@ -2490,7 +2325,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/143",
+      "self_ref": "#/texts/134",
       "parent": {
         "$ref": "#/body"
       },
@@ -2502,7 +2337,7 @@
       "text": " as an equivalent directory to "
     },
     {
-      "self_ref": "#/texts/144",
+      "self_ref": "#/texts/135",
       "parent": {
         "$ref": "#/body"
       },
@@ -2518,7 +2353,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/145",
+      "self_ref": "#/texts/136",
       "parent": {
         "$ref": "#/body"
       },
@@ -2530,7 +2365,7 @@
       "text": ". Let's double check the contexts:"
     },
     {
-      "self_ref": "#/texts/146",
+      "self_ref": "#/texts/137",
       "parent": {
         "$ref": "#/body"
       },
@@ -2546,7 +2381,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/147",
+      "self_ref": "#/texts/138",
       "parent": {
         "$ref": "#/body"
       },

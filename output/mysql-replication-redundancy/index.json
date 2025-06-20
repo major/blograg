@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 16990727403758883956,
-    "filename": "index.md"
+    "binary_hash": 1833833542945891285,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,37 +21,31 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
         "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/4"
+        "$ref": "#/texts/7"
       },
       {
-        "$ref": "#/texts/5"
+        "$ref": "#/texts/8"
       },
       {
-        "$ref": "#/texts/6"
+        "$ref": "#/texts/9"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/10"
       },
       {
         "$ref": "#/texts/11"
       },
       {
         "$ref": "#/texts/12"
-      },
-      {
-        "$ref": "#/texts/13"
-      },
-      {
-        "$ref": "#/texts/14"
-      },
-      {
-        "$ref": "#/texts/15"
-      },
-      {
-        "$ref": "#/texts/16"
       }
     ],
     "content_layer": "body",
@@ -66,36 +60,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
           "$ref": "#/texts/3"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/7"
         },
         {
-          "$ref": "#/texts/8"
+          "$ref": "#/texts/4"
         },
         {
-          "$ref": "#/texts/9"
+          "$ref": "#/texts/5"
         },
         {
-          "$ref": "#/texts/10"
+          "$ref": "#/texts/6"
         }
       ],
       "content_layer": "body",
@@ -113,65 +87,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2008/01/03/mysql-replication-redundancy/",
-      "text": "/2008/01/03/mysql-replication-redundancy/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "database",
-      "text": "database",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "mysql",
-      "text": "mysql",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Although performance is a much larger benefit of replication, it provides some redundancy for your application as well. Adding a slave server to a master allows you to perform read operations on either server, but you're still bound to the master server for writes. In a group of multiple slaves with one master, you have your data available and online in multiple locations, which means that certain servers can fall out of replication without a large disaster.",
       "text": "Although performance is a much larger benefit of replication, it provides some redundancy for your application as well. Adding a slave server to a master allows you to perform read operations on either server, but you're still bound to the master server for writes. In a group of multiple slaves with one master, you have your data available and online in multiple locations, which means that certain servers can fall out of replication without a large disaster."
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -183,7 +103,7 @@
       "text": "When disaster does occur, use the following recommendations as a guide."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -195,9 +115,9 @@
       "text": "If the master fails in a two-server replication environment,  you will be dead in the water with regards to write queries. You will need to convert the slave into a master. This can be done relatively quickly by following these steps:"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -209,9 +129,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -223,9 +143,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -237,9 +157,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -251,7 +171,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -263,7 +183,7 @@
       "text": "Once the original master comes back online,  set it up just like a new slave . You can skip some steps, such as setting the server-id, since that still should correspond to your overall configuration."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -275,7 +195,7 @@
       "text": "If the master fails in a multiple-server replication environment,  you're still in bad shape for writes. Follow the steps shown above, and then adjust the other slaves (with "
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -291,7 +211,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -303,7 +223,7 @@
       "text": ") so that they pull events from the new master instead."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -315,7 +235,7 @@
       "text": "If a slave fails in any replication environment,  adjust your application so that it no longer attempts to send reads to the failed slave. While you work to bring the failed slave back online, your queries will be distributed to the remaining servers."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },

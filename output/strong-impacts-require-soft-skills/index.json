@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 6549343309603712445,
-    "filename": "index.md"
+    "binary_hash": 17533984677095762898,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,13 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
       },
       {
         "$ref": "#/texts/4"
@@ -33,19 +39,19 @@
         "$ref": "#/texts/6"
       },
       {
-        "$ref": "#/texts/7"
+        "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/8"
+        "$ref": "#/texts/11"
       },
       {
-        "$ref": "#/texts/9"
+        "$ref": "#/texts/12"
       },
       {
-        "$ref": "#/texts/10"
+        "$ref": "#/texts/13"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/14"
       },
       {
         "$ref": "#/texts/15"
@@ -90,22 +96,10 @@
         "$ref": "#/texts/28"
       },
       {
-        "$ref": "#/texts/29"
-      },
-      {
-        "$ref": "#/texts/30"
-      },
-      {
-        "$ref": "#/texts/31"
+        "$ref": "#/groups/1"
       },
       {
         "$ref": "#/texts/32"
-      },
-      {
-        "$ref": "#/groups/2"
-      },
-      {
-        "$ref": "#/texts/36"
       }
     ],
     "content_layer": "body",
@@ -120,13 +114,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/7"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/8"
         },
         {
-          "$ref": "#/texts/3"
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
         }
       ],
       "content_layer": "body",
@@ -140,36 +137,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/11"
+          "$ref": "#/texts/29"
         },
         {
-          "$ref": "#/texts/12"
+          "$ref": "#/texts/30"
         },
         {
-          "$ref": "#/texts/13"
-        },
-        {
-          "$ref": "#/texts/14"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/33"
-        },
-        {
-          "$ref": "#/texts/34"
-        },
-        {
-          "$ref": "#/texts/35"
+          "$ref": "#/texts/31"
         }
       ],
       "content_layer": "body",
@@ -187,65 +161,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2022/09/08/strong-impacts-require-soft-skills/",
-      "text": "/2022/09/08/strong-impacts-require-soft-skills/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "mentorship",
-      "text": "mentorship",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "My first full-time job was purely technical. Most of my interview centered around my abilities to manage and maintain Linux servers since the company had very limited Linux knowledge. Once I was hired, my main responsibility was maintaining a single Red Hat Linux 9 server.",
       "text": "My first full-time job was purely technical. Most of my interview centered around my abilities to manage and maintain Linux servers since the company had very limited Linux knowledge. Once I was hired, my main responsibility was maintaining a single Red Hat Linux 9 server."
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -257,7 +177,7 @@
       "text": "Yes. A single server. And no, not Red Hat Enterprise Linux 9. Red Hat Linux 9. (It was 2005.)"
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -269,7 +189,7 @@
       "text": "I spent the first three months of that job focused on learning as much as I could about everything that was running on that Linux server. My success was directly tied to my ability to keep it running."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -281,7 +201,7 @@
       "text": "However, as I build trust and joined more conversations at the very small company, I realized that I had another set of skills that were definitely lacking in the company:  soft  skills. Although I didn't know it at the time, those skills would carry me further in my career than my technical skills."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -293,7 +213,7 @@
       "text": "What's a soft skill?"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -305,7 +225,7 @@
       "text": "Soft skills are all about interacting with other people. Much of it is centered around communication, but that doesn't include just talking and listening."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -317,9 +237,9 @@
       "text": "For me, soft skills are centered around several areas:"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -331,9 +251,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -345,9 +265,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -359,9 +279,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -373,7 +293,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -385,7 +305,7 @@
       "text": "Everyone can develop at least one interpersonal skill and many people can develop a few of them at a time."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -397,7 +317,7 @@
       "text": "How can soft skills help me?"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -409,7 +329,7 @@
       "text": "I've mentored several technical people over the years and these common themes show up often:"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -421,7 +341,7 @@
       "text": "My ideas never seem to get any attention in meetings."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -433,7 +353,7 @@
       "text": "Nobody ever reviews my pull requests."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -445,7 +365,7 @@
       "text": "I want a promotion but it seems so far away."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -457,7 +377,7 @@
       "text": "It's entirely possible that you're performing terribly in your role and writing awful code, but I doubt it. Much of this comes down to how you communicate in your daily work."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -469,7 +389,7 @@
       "text": "In the book  Switch: How to change things when change is hard , the authors talk about the concept of a rider and an elephant. (Please read the book because I can't do it justice here. It's a great read.)"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -481,7 +401,7 @@
       "text": "Elephants are very large, very stubborn, and very strong. The rider could certainly make small adjustments in the elephant's path, but if the elephant want to make a hard left turn, the rider is along for the ride."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -493,7 +413,7 @@
       "text": "The elephant is a metaphor for our emotions. They have a huge impact on how we act and they're very difficult to change. Emotions usually don't match up with reason at all."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -505,7 +425,7 @@
       "text": "The rider is a metaphor for reason and analytical thinking. Reason and data can only do so much with our emotions are in control."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -517,7 +437,7 @@
       "text": "The secret is to make the problem  real  for your coworkers and appeal to their emotions. (For a lot more detail here, see my post on  Persuasion Engineering .) This means you must tell a story with a beginning, middle, and end from a  very  important perspective. For most companies, the customer perspective is paramount."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -529,7 +449,7 @@
       "text": "(If you would like a handy framework for thinking through situations and perspectives, I wrote a post about writing  SBAR  documents.)"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -541,7 +461,7 @@
       "text": "How do I work on my soft skills?"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -553,7 +473,7 @@
       "text": "An easy first step is to look back at recent interactions that didn't go as you expected. Try to put yourself in the other person's shoes and come up with reasons why they rejected your change."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -565,7 +485,7 @@
       "text": "Were they confused about the goal? Was it difficult to see how it affected the customer? Did you explain the why?"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -577,7 +497,7 @@
       "text": "A mentor (formal or informal) can help here, too. Find someone you trust and get candid feedback from them about your performance. Trust is key, because without it, you won't get the feedback you're looking for. Make sure you ask about  specific  aspects of your performance, such as a particular meeting or pull request."
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -589,9 +509,9 @@
       "text": "You can ask the mentor to give you feedback in the SBI format:"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/29",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -603,9 +523,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/30",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -617,9 +537,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/31",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -631,7 +551,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },

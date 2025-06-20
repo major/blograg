@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 12961231464528342846,
-    "filename": "index.md"
+    "binary_hash": 16563539953551349929,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,10 +21,22 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
       },
       {
-        "$ref": "#/texts/8"
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/9"
@@ -42,7 +54,16 @@
         "$ref": "#/texts/13"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
       },
       {
         "$ref": "#/texts/17"
@@ -58,9 +79,6 @@
       },
       {
         "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/pictures/0"
       },
       {
         "$ref": "#/texts/22"
@@ -87,16 +105,7 @@
         "$ref": "#/texts/29"
       },
       {
-        "$ref": "#/texts/30"
-      },
-      {
-        "$ref": "#/texts/31"
-      },
-      {
-        "$ref": "#/texts/32"
-      },
-      {
-        "$ref": "#/texts/33"
+        "$ref": "#/groups/1"
       },
       {
         "$ref": "#/texts/34"
@@ -111,7 +120,16 @@
         "$ref": "#/texts/37"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
       },
       {
         "$ref": "#/texts/42"
@@ -147,6 +165,9 @@
         "$ref": "#/texts/52"
       },
       {
+        "$ref": "#/pictures/1"
+      },
+      {
         "$ref": "#/texts/53"
       },
       {
@@ -154,33 +175,6 @@
       },
       {
         "$ref": "#/texts/55"
-      },
-      {
-        "$ref": "#/texts/56"
-      },
-      {
-        "$ref": "#/texts/57"
-      },
-      {
-        "$ref": "#/texts/58"
-      },
-      {
-        "$ref": "#/texts/59"
-      },
-      {
-        "$ref": "#/texts/60"
-      },
-      {
-        "$ref": "#/pictures/1"
-      },
-      {
-        "$ref": "#/texts/61"
-      },
-      {
-        "$ref": "#/texts/62"
-      },
-      {
-        "$ref": "#/texts/63"
       }
     ],
     "content_layer": "body",
@@ -195,30 +189,18 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
           "$ref": "#/texts/6"
         },
         {
           "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "list"
+      "label": "ordered_list"
     },
     {
       "self_ref": "#/groups/1",
@@ -227,36 +209,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/14"
+          "$ref": "#/texts/30"
         },
         {
-          "$ref": "#/texts/15"
+          "$ref": "#/texts/31"
         },
         {
-          "$ref": "#/texts/16"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "ordered_list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/38"
+          "$ref": "#/texts/32"
         },
         {
-          "$ref": "#/texts/39"
-        },
-        {
-          "$ref": "#/texts/40"
-        },
-        {
-          "$ref": "#/texts/41"
+          "$ref": "#/texts/33"
         }
       ],
       "content_layer": "body",
@@ -274,78 +236,68 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "All of the recent changes at Twitter inspired me to take a second look at  mastodon . In short, mastodon is a federated social network that feels a bit like someone took Twitter and split it up into a vast network of independent servers.",
+      "text": "All of the recent changes at Twitter inspired me to take a second look at  mastodon . In short, mastodon is a federated social network that feels a bit like someone took Twitter and split it up into a vast network of independent servers."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "title",
       "prov": [],
-      "orig": "/2022/11/11/adventures-with-the-mastodon-herd/",
-      "text": "/2022/11/11/adventures-with-the-mastodon-herd/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "Why mastodon?",
+      "text": "Why mastodon?"
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "containers",
-      "text": "containers",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "It feels a lot like Twitter, but better.",
+      "text": "It feels a lot like Twitter, but better."
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "docker",
-      "text": "docker",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "You can search for people, follow them, and publish messages (called  toots ). They can also follow you and see the messages you publish.",
+      "text": "You can search for people, follow them, and publish messages (called  toots ). They can also follow you and see the messages you publish."
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "mastodon",
-      "text": "mastodon",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "The big difference is that you don't join a central server with mastodon. There's a massive network of servers to choose from and you can create accounts on one or more of those servers to get started. You can even run your own!",
+      "text": "The big difference is that you don't join a central server with mastodon. There's a massive network of servers to choose from and you can create accounts on one or more of those servers to get started. You can even run your own!"
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "postgres",
-      "text": "postgres",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "Mastodon reminds me of email for many reasons:",
+      "text": "Mastodon reminds me of email for many reasons:"
     },
     {
       "self_ref": "#/texts/6",
@@ -356,8 +308,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "redis",
-      "text": "redis",
+      "orig": "There's no central server. You join a server (from the ",
+      "text": "There's no central server. You join a server (from the ",
       "enumerated": false,
       "marker": "-"
     },
@@ -370,115 +322,15 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "twitter",
-      "text": "twitter",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "All of the recent changes at Twitter inspired me to take a second look at  mastodon . In short, mastodon is a federated social network that feels a bit like someone took Twitter and split it up into a vast network of independent servers.",
-      "text": "All of the recent changes at Twitter inspired me to take a second look at  mastodon . In short, mastodon is a federated social network that feels a bit like someone took Twitter and split it up into a vast network of independent servers."
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "title",
-      "prov": [],
-      "orig": "Why mastodon?",
-      "text": "Why mastodon?"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "It feels a lot like Twitter, but better.",
-      "text": "It feels a lot like Twitter, but better."
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "You can search for people, follow them, and publish messages (called  toots ). They can also follow you and see the messages you publish.",
-      "text": "You can search for people, follow them, and publish messages (called  toots ). They can also follow you and see the messages you publish."
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "The big difference is that you don't join a central server with mastodon. There's a massive network of servers to choose from and you can create accounts on one or more of those servers to get started. You can even run your own!",
-      "text": "The big difference is that you don't join a central server with mastodon. There's a massive network of servers to choose from and you can create accounts on one or more of those servers to get started. You can even run your own!"
-    },
-    {
-      "self_ref": "#/texts/13",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Mastodon reminds me of email for many reasons:",
-      "text": "Mastodon reminds me of email for many reasons:"
-    },
-    {
-      "self_ref": "#/texts/14",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "There's no central server. You join a server (from the ",
-      "text": "There's no central server. You join a server (from the ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/15",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "Everything is on an eventual consistency model. If a mastodon server goes offline for",
       "text": "Everything is on an eventual consistency model. If a mastodon server goes offline for",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -490,7 +342,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -502,7 +354,7 @@
       "text": "After joining the  fosstodon.org  server, I noticed that it was really easy to begin following people and get messages. I reconnected with people that I had not heard from in a very long time!"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -514,7 +366,7 @@
       "text": "Migrating from Twitter"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -526,7 +378,7 @@
       "text": "One of my first questions after joining mastodon was: \"How do I find the people I follow on Twitter?\""
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -538,7 +390,7 @@
       "text": "Many Twitter users are adding their mastodon accounts to their bio to make them easier to find on mastodon. For example, I added my mastodon account,  @major@fosstodon.org , to my  twitter bio :"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -550,7 +402,7 @@
       "text": "Twitter bio showing off my mastodon link"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -562,7 +414,7 @@
       "text": "twitter_bio.png"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -574,7 +426,7 @@
       "text": "Adding this to your bio makes it easier for people to find you via some helpful tools. I used  debirdify  to look through my Twitter account for mastodon handles of the people I follow. Within seconds, it provided links to about 15 mastodon accounts and offered me a CSV that I could directly import into my mastodon server. \ud83c\udf89 (Mastodon servers have some awesome import and export capabilities.)"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -586,7 +438,7 @@
       "text": "I've also heard good things about  Fedifinder  and  Twitodon  for helping you find Twitter friends on mastodon. There's a  helpful article on Wired  with more suggestions."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -598,7 +450,7 @@
       "text": "Apps"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -610,7 +462,7 @@
       "text": "I'm neck-deep in the Android ecosystem, so most of my suggestions here are for Android devices. I tried the  main mastodon app  first. It looks great, updates quickly, and is very easy to use. However, inserting GIFs into toots became really frustrating (although I hear that's being fixed)."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -622,7 +474,7 @@
       "text": "I moved to  Tusky  and it's my go-to mastodon app. You can add multiple accounts, posting media is incredibly easy, and it has tons of configuration knobs everywhere."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -634,7 +486,7 @@
       "text": "There are various desktop applications for mastodon, but the web interface is good enough for me! The default web interface looks a lot like Twitter with a big timeline running down the middle and section links on the right."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -646,7 +498,7 @@
       "text": "However, I use Tweetdeck with Twitter and I wanted something similar on mastodon. Go into the settings for the web application, and choose  Appearance . Click  Enable advanced web interface , save the changes, and click  Back to Mastodon . Enjoy your Tweetdeck-like multi-column interface! \u2728"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -658,7 +510,7 @@
       "text": "Run your own instance"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -670,7 +522,7 @@
       "text": "The federated nature of mastodon means you can run your own single user instance if you want! Buy a domain you like (or use a subdomain off an existing domain) and deploy!"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -682,7 +534,7 @@
       "text": "The upstream repository has a  helm chart  which works well with kubernetes. Also, there's a  docker-compose  file which works well for smaller deployments."
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -694,7 +546,7 @@
       "text": "I went the docker-compose route on a small cloud instance at Hetzner, but I modified the upstream "
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -710,7 +562,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -722,7 +574,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -738,7 +590,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -750,9 +602,9 @@
       "text": "Here are the main changes I made:"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/30",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -764,9 +616,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/31",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -778,9 +630,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/32",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -792,9 +644,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/33",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -806,7 +658,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -818,7 +670,7 @@
       "text": "The provisioning script for postgres allows me to bring up postgres without needing to run any extra commands:"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -834,7 +686,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -846,7 +698,7 @@
       "text": "Once you have all of this in place, run the usual "
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -862,7 +714,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -874,7 +726,7 @@
       "text": " and wait for everything to start. Then you can run through the initial mastodon setup:"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -890,7 +742,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -902,7 +754,7 @@
       "text": "You will need to answer lots of questions, including your domain name, postgres/redis details, email configuration, and object storage configuration. I use  Mailgun  for mastodon's email since it makes the setup much easier and has a very low cost. For object storage, I went with a public  Backblaze B2  bucket since it's Amazon S3 compatible but very inexpensive[^b2config]."
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -914,7 +766,7 @@
       "text": "When the setup finishes, it will dump an environments file to the screen. Be sure to save that file. This will allow you to start up all of the containers again with the same configuration later. A copy of the environments file will be kept inside the container storage as well."
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -926,7 +778,7 @@
       "text": "[^b2config]: Be sure to note the endpoint for your Backblaze bucket when you create it. You will need to specify that endpoint when you set up mastodon. As an example, my endpoint is "
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -942,7 +794,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -954,7 +806,7 @@
       "text": " and my region is "
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -970,7 +822,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -982,7 +834,7 @@
       "text": "."
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -994,7 +846,7 @@
       "text": "Self-hosted instance takeaways"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1006,7 +858,7 @@
       "text": "I've been running my own mastodon instance for a few days and I'm not sure if I will keep it. Sure, I love having an instance on a hilarious domain like  toots.cloud  and having full control over my mastodon experience."
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1018,7 +870,7 @@
       "text": "But it's one more thing to manage, patch, and back up."
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1030,7 +882,7 @@
       "text": "The fosstodon.org community has been excellent so far and I'm contributing to their costs each month via their  Patreon page . Every mastodon instance is going through growing pains recently due to really high demand."
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1042,7 +894,7 @@
       "text": "The last count from the  Mastodon Users bot  shows massive interest:"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1054,7 +906,7 @@
       "text": "\ud83e\udd16 Mastodon user count bot"
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1066,7 +918,7 @@
       "text": "mastodon_users.png"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1078,7 +930,7 @@
       "text": "If you're on a server that isn't performing well:  be patient ."
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1102,7 +954,7 @@
       "prov": [],
       "captions": [
         {
-          "$ref": "#/texts/21"
+          "$ref": "#/texts/13"
         }
       ],
       "references": [],
@@ -1120,7 +972,7 @@
       "prov": [],
       "captions": [
         {
-          "$ref": "#/texts/60"
+          "$ref": "#/texts/52"
         }
       ],
       "references": [],

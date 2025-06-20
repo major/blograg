@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/html",
-    "binary_hash": 11344994226382907513,
-    "filename": "index.md"
+    "binary_hash": 14055406180266638737,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,16 +21,10 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
         "$ref": "#/groups/0"
-      },
-      {
-        "$ref": "#/texts/4"
-      },
-      {
-        "$ref": "#/texts/5"
-      },
-      {
-        "$ref": "#/groups/1"
       }
     ],
     "content_layer": "body",
@@ -45,27 +39,7 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        }
-      ],
-      "content_layer": "furniture",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/groups/2"
+          "$ref": "#/groups/1"
         }
       ],
       "content_layer": "body",
@@ -73,25 +47,25 @@
       "label": "section"
     },
     {
-      "self_ref": "#/groups/2",
+      "self_ref": "#/groups/1",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [
         {
-          "$ref": "#/texts/6"
+          "$ref": "#/texts/2"
         },
         {
-          "$ref": "#/texts/9"
+          "$ref": "#/texts/5"
         },
         {
-          "$ref": "#/texts/20"
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/25"
         },
         {
           "$ref": "#/texts/29"
-        },
-        {
-          "$ref": "#/texts/33"
         }
       ],
       "content_layer": "body",
@@ -99,22 +73,22 @@
       "label": "section"
     },
     {
-      "self_ref": "#/groups/3",
+      "self_ref": "#/groups/2",
       "parent": {
-        "$ref": "#/texts/20"
+        "$ref": "#/texts/16"
       },
       "children": [
         {
-          "$ref": "#/texts/25"
+          "$ref": "#/texts/21"
         },
         {
-          "$ref": "#/texts/26"
+          "$ref": "#/texts/22"
         },
         {
-          "$ref": "#/texts/27"
+          "$ref": "#/texts/23"
         },
         {
-          "$ref": "#/texts/28"
+          "$ref": "#/texts/24"
         }
       ],
       "content_layer": "body",
@@ -132,65 +106,11 @@
       "content_layer": "furniture",
       "label": "text",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2011/08/26/how-to-write-e-mails-to-nerds-that-they-will-actually-read/",
-      "text": "/2011/08/26/how-to-write-e-mails-to-nerds-that-they-will-actually-read/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "list_item",
-      "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "list_item",
-      "prov": [],
-      "orig": "sysadmin",
-      "text": "sysadmin",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "text",
-      "prov": [],
       "orig": "Standard e-mail etiquette is pretty obvious to most of us and if you're good at it, you'll get your point across more often without stepping on toes or causing unneeded confusion. Simple things like identifying yourself well, avoiding sarcasm and adding context to statements are all extremely beneficial. However, writing e-mails to highly technical developers, system administrators, and engineers is a little trickier. These types of e-mail recipients don't really enjoy handling e-mail (inbound or outbound) and most find that e-mail is just a speed bump which interrupts their productivity.",
       "text": "Standard e-mail etiquette is pretty obvious to most of us and if you're good at it, you'll get your point across more often without stepping on toes or causing unneeded confusion. Simple things like identifying yourself well, avoiding sarcasm and adding context to statements are all extremely beneficial. However, writing e-mails to highly technical developers, system administrators, and engineers is a little trickier. These types of e-mail recipients don't really enjoy handling e-mail (inbound or outbound) and most find that e-mail is just a speed bump which interrupts their productivity."
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -202,16 +122,16 @@
       "text": "If you're not technical, you might be asking yourself:  \"I need to e-mail technical people and they need to take what I say seriously? How do I do it?\"  It's not impossible, but the rest of this blog post should help."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "$ref": "#/texts/7"
+          "$ref": "#/texts/3"
         },
         {
-          "$ref": "#/texts/8"
+          "$ref": "#/texts/4"
         }
       ],
       "content_layer": "body",
@@ -222,9 +142,9 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/texts/6"
+        "$ref": "#/texts/2"
       },
       "children": [],
       "content_layer": "body",
@@ -234,9 +154,9 @@
       "text": "There are some people who thrive on receiving e-mail, sending e-mail, and talking about e-mail that they've sent or received. Most nerds don't feel this way."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/texts/6"
+        "$ref": "#/texts/2"
       },
       "children": [],
       "content_layer": "body",
@@ -246,11 +166,23 @@
       "text": "You need to get your point across concisely and succinctly so that your e-mail is seen as less of a distraction. Avoid adding a lot of context where it isn't needed and try to summarize business needs and processes unless details are absolutely critical. If you need to send your e-mail to multiple recipients and some of those recipients need additional details, provide an abstract at the beginning of the e-mail."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
         {
           "$ref": "#/texts/10"
         },
@@ -268,18 +200,6 @@
         },
         {
           "$ref": "#/texts/15"
-        },
-        {
-          "$ref": "#/texts/16"
-        },
-        {
-          "$ref": "#/texts/17"
-        },
-        {
-          "$ref": "#/texts/18"
-        },
-        {
-          "$ref": "#/texts/19"
         }
       ],
       "content_layer": "body",
@@ -290,9 +210,9 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/texts/9"
+        "$ref": "#/texts/5"
       },
       "children": [],
       "content_layer": "body",
@@ -302,9 +222,9 @@
       "text": "I've heard quite a few conversations like these around the office:"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/texts/9"
+        "$ref": "#/texts/5"
       },
       "children": [],
       "content_layer": "body",
@@ -314,9 +234,9 @@
       "text": "Nerd 1: \"Did you get that e-mail from [name here]?\""
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/texts/9"
+        "$ref": "#/texts/5"
       },
       "children": [],
       "content_layer": "body",
@@ -326,9 +246,9 @@
       "text": "Nerd 2: \"The six page one with four PDF files attached?\""
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/texts/9"
+        "$ref": "#/texts/5"
       },
       "children": [],
       "content_layer": "body",
@@ -338,9 +258,9 @@
       "text": "Nerd 1: \"Yeah. That one.\""
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/texts/9"
+        "$ref": "#/texts/5"
       },
       "children": [],
       "content_layer": "body",
@@ -350,9 +270,9 @@
       "text": "Nerd 2: \"TL;DR dude, seriously. Did you read it?\""
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/texts/9"
+        "$ref": "#/texts/5"
       },
       "children": [],
       "content_layer": "body",
@@ -362,9 +282,9 @@
       "text": "Nerd 1: \"Nah. I might read it later.\""
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/12",
       "parent": {
-        "$ref": "#/texts/9"
+        "$ref": "#/texts/5"
       },
       "children": [],
       "content_layer": "body",
@@ -374,9 +294,9 @@
       "text": "If someone's ever mentioned \"TL;DR\" (too long; didn't read) when your e-mail was mentioned, don't fret. It's a quick fix. Just add a quick summary to the top of your e-mail prefaced with \"TL;DR\". Provide a really brief summary (bulleted lists are a plus) of your e-mail in the section and then start your e-mail right afterwards. Here's an example:"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/texts/9"
+        "$ref": "#/texts/5"
       },
       "children": [],
       "content_layer": "body",
@@ -390,9 +310,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/14",
       "parent": {
-        "$ref": "#/texts/9"
+        "$ref": "#/texts/5"
       },
       "children": [],
       "content_layer": "body",
@@ -402,9 +322,9 @@
       "text": "Missed the joke?  Head over to Wikipedia ."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/15",
       "parent": {
-        "$ref": "#/texts/9"
+        "$ref": "#/texts/5"
       },
       "children": [],
       "content_layer": "body",
@@ -414,28 +334,28 @@
       "text": "If one of the summary points interests a recipient, they'll scan your e-mail for the pertinent sections. Some recipients may only need to see what's in the summary and they won't bother reading the remainder. Either way, the effectiveness of your e-mail increases by leaps and bounds."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/16",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
           "$ref": "#/pictures/0"
         },
         {
-          "$ref": "#/texts/21"
+          "$ref": "#/texts/17"
         },
         {
-          "$ref": "#/texts/22"
+          "$ref": "#/texts/18"
         },
         {
-          "$ref": "#/texts/23"
+          "$ref": "#/texts/19"
         },
         {
-          "$ref": "#/texts/24"
+          "$ref": "#/texts/20"
         },
         {
-          "$ref": "#/groups/3"
+          "$ref": "#/groups/2"
         }
       ],
       "content_layer": "body",
@@ -446,9 +366,9 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/17",
       "parent": {
-        "$ref": "#/texts/20"
+        "$ref": "#/texts/16"
       },
       "children": [],
       "content_layer": "body",
@@ -458,9 +378,9 @@
       "text": "Users of mutt prefer plain text e-mails"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/18",
       "parent": {
-        "$ref": "#/texts/20"
+        "$ref": "#/texts/16"
       },
       "children": [],
       "content_layer": "body",
@@ -470,9 +390,9 @@
       "text": "If you only take away one thing from this entire post, let it be this section. Writing e-mails in plain text is \\*highly recommended\\* if you want a technical person to take your e-mail seriously. Many system administrators I know use"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/19",
       "parent": {
-        "$ref": "#/texts/20"
+        "$ref": "#/texts/16"
       },
       "children": [],
       "content_layer": "body",
@@ -482,9 +402,9 @@
       "text": "mutt , a text-based console-only e-mail reader. Click the thumbnail at the right and imagine what your e-mails would look like if they're full of images, stylesheets and background images. Better yet, imagine if your entire e-mail was in an image and the e-mail itself had no text."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/20",
       "parent": {
-        "$ref": "#/texts/20"
+        "$ref": "#/texts/16"
       },
       "children": [],
       "content_layer": "body",
@@ -494,9 +414,9 @@
       "text": "Here are a few more tips under this category:"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/21",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -508,9 +428,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/22",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -522,9 +442,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/23",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -536,9 +456,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/24",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -550,19 +470,19 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/25",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "$ref": "#/texts/30"
+          "$ref": "#/texts/26"
         },
         {
-          "$ref": "#/texts/31"
+          "$ref": "#/texts/27"
         },
         {
-          "$ref": "#/texts/32"
+          "$ref": "#/texts/28"
         }
       ],
       "content_layer": "body",
@@ -573,9 +493,9 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/26",
       "parent": {
-        "$ref": "#/texts/29"
+        "$ref": "#/texts/25"
       },
       "children": [],
       "content_layer": "body",
@@ -585,9 +505,9 @@
       "text": "Brevity can definitely be applied to e-mail signatures, too. How many times have you seen e-mails that end like this:"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/27",
       "parent": {
-        "$ref": "#/texts/29"
+        "$ref": "#/texts/25"
       },
       "children": [],
       "content_layer": "body",
@@ -601,9 +521,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/28",
       "parent": {
-        "$ref": "#/texts/29"
+        "$ref": "#/texts/25"
       },
       "children": [],
       "content_layer": "body",
@@ -613,16 +533,16 @@
       "text": "You might think that nobody would ever send out e-mails with a signature like the one above, but I've seen some that are actually worse. Keep the signature short and only put in the information that people really need to know. Generally, your name and title or department is sufficient for e-mail signatures (unless your local/federal laws require otherwise). Always preface it with a double dash \"-\" on a line by itself to signify that the remainder of the e-mail is the signature."
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/29",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "$ref": "#/texts/34"
+          "$ref": "#/texts/30"
         },
         {
-          "$ref": "#/texts/35"
+          "$ref": "#/texts/31"
         }
       ],
       "content_layer": "body",
@@ -633,9 +553,9 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/30",
       "parent": {
-        "$ref": "#/texts/33"
+        "$ref": "#/texts/29"
       },
       "children": [],
       "content_layer": "body",
@@ -645,9 +565,9 @@
       "text": "Keep it simple, keep it brief, and keep it relevant. While the suggestions above might not apply to every business or every person, following the suggestions will increase the effectiveness of your e-mails and ensure that your voice is heard on the other end."
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/31",
       "parent": {
-        "$ref": "#/texts/33"
+        "$ref": "#/texts/29"
       },
       "children": [],
       "content_layer": "body",
@@ -661,7 +581,7 @@
     {
       "self_ref": "#/pictures/0",
       "parent": {
-        "$ref": "#/texts/20"
+        "$ref": "#/texts/16"
       },
       "children": [],
       "content_layer": "body",

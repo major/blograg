@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 8810893477683900815,
-    "filename": "index.md"
+    "binary_hash": 10041750187866339567,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -24,10 +24,10 @@
         "$ref": "#/texts/1"
       },
       {
-        "$ref": "#/texts/2"
+        "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/6"
       },
       {
         "$ref": "#/texts/7"
@@ -39,10 +39,10 @@
         "$ref": "#/texts/9"
       },
       {
-        "$ref": "#/texts/10"
+        "$ref": "#/groups/1"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/13"
       },
       {
         "$ref": "#/texts/14"
@@ -69,10 +69,10 @@
         "$ref": "#/texts/21"
       },
       {
-        "$ref": "#/texts/22"
+        "$ref": "#/groups/2"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/26"
       },
       {
         "$ref": "#/texts/27"
@@ -87,10 +87,10 @@
         "$ref": "#/texts/30"
       },
       {
-        "$ref": "#/texts/31"
+        "$ref": "#/groups/3"
       },
       {
-        "$ref": "#/groups/3"
+        "$ref": "#/texts/35"
       },
       {
         "$ref": "#/texts/36"
@@ -117,10 +117,10 @@
         "$ref": "#/texts/43"
       },
       {
-        "$ref": "#/texts/44"
+        "$ref": "#/groups/4"
       },
       {
-        "$ref": "#/groups/4"
+        "$ref": "#/texts/48"
       },
       {
         "$ref": "#/texts/49"
@@ -214,9 +214,6 @@
       },
       {
         "$ref": "#/texts/79"
-      },
-      {
-        "$ref": "#/texts/80"
       }
     ],
     "content_layer": "body",
@@ -231,6 +228,9 @@
       },
       "children": [
         {
+          "$ref": "#/texts/2"
+        },
+        {
           "$ref": "#/texts/3"
         },
         {
@@ -238,9 +238,6 @@
         },
         {
           "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
         }
       ],
       "content_layer": "body",
@@ -254,13 +251,13 @@
       },
       "children": [
         {
+          "$ref": "#/texts/10"
+        },
+        {
           "$ref": "#/texts/11"
         },
         {
           "$ref": "#/texts/12"
-        },
-        {
-          "$ref": "#/texts/13"
         }
       ],
       "content_layer": "body",
@@ -274,6 +271,9 @@
       },
       "children": [
         {
+          "$ref": "#/texts/22"
+        },
+        {
           "$ref": "#/texts/23"
         },
         {
@@ -281,9 +281,6 @@
         },
         {
           "$ref": "#/texts/25"
-        },
-        {
-          "$ref": "#/texts/26"
         }
       ],
       "content_layer": "body",
@@ -297,6 +294,9 @@
       },
       "children": [
         {
+          "$ref": "#/texts/31"
+        },
+        {
           "$ref": "#/texts/32"
         },
         {
@@ -304,9 +304,6 @@
         },
         {
           "$ref": "#/texts/34"
-        },
-        {
-          "$ref": "#/texts/35"
         }
       ],
       "content_layer": "body",
@@ -320,6 +317,9 @@
       },
       "children": [
         {
+          "$ref": "#/texts/44"
+        },
+        {
           "$ref": "#/texts/45"
         },
         {
@@ -327,9 +327,6 @@
         },
         {
           "$ref": "#/texts/47"
-        },
-        {
-          "$ref": "#/texts/48"
         }
       ],
       "content_layer": "body",
@@ -347,23 +344,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "author: Major Hayden date: '2023-09-13' summary: > Fedora now has the AWS Elastic File Store (EFS) mount helper available for Fedora 38 and newer releases! It chooses optimized NFS mount options for you and makes mounting and unmounting a breeze. tags: - aws - cloud - fedora - linux - python title: Mounting the AWS Elastic File Store on Fedora coverAlt: Toyota 4runner in the snow on a mountain Photo by  Maxime Agnelli  on Unsplash",
-      "text": "author: Major Hayden date: '2023-09-13' summary: > Fedora now has the AWS Elastic File Store (EFS) mount helper available for Fedora 38 and newer releases! It chooses optimized NFS mount options for you and makes mounting and unmounting a breeze. tags: - aws - cloud - fedora - linux - python title: Mounting the AWS Elastic File Store on Fedora coverAlt: Toyota 4runner in the snow on a mountain Photo by  Maxime Agnelli  on Unsplash"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "I package a few things here and there in  Fedora  and one of my latest packages is  efs-utils . AWS offers a mount helper for their  Elastic File System (EFS)  product on  GitHub .",
       "text": "I package a few things here and there in  Fedora  and one of my latest packages is  efs-utils . AWS offers a mount helper for their  Elastic File System (EFS)  product on  GitHub ."
     },
     {
-      "self_ref": "#/texts/2",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -375,7 +360,7 @@
       "text": "In this post, I'll explain how to:"
     },
     {
-      "self_ref": "#/texts/3",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/groups/0"
       },
@@ -389,7 +374,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/4",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/groups/0"
       },
@@ -403,7 +388,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/groups/0"
       },
@@ -417,7 +402,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/groups/0"
       },
@@ -431,7 +416,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -443,7 +428,7 @@
       "text": "{{< alert \"skull-crossbones\" >}} Always check the pricing for any cloud service before you use it! EFS pricing  is based on how much you store and how often you access it. Backups are also enabled by default and they add to the monthly charges. {{< /alert >}}"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -455,7 +440,7 @@
       "text": "Let's go! \ud83d\ude80"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -467,7 +452,7 @@
       "text": "Wait, what is EFS?"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -479,7 +464,7 @@
       "text": "When you launch a cloud instance (virtual machine) on most clouds, you have different storage options available to you:"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/groups/1"
       },
@@ -493,7 +478,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/groups/1"
       },
@@ -507,7 +492,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/groups/1"
       },
@@ -521,7 +506,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -533,7 +518,7 @@
       "text": "Using EFS is almost like having someone else host a network accessible storage (NAS) device within your cloud deployment."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -545,7 +530,7 @@
       "text": "Launching Fedora"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -557,7 +542,7 @@
       "text": "Every image in AWS has an AMI ID attached to it and you need to know the ID for the image you want in your region. You can find these quickly for Fedora by visiting the  Fedora Cloud download page . Look for  AWS  in the list, click the button on that row, and you'll see a list of Fedora AMI IDs. Click the rocket (\ud83d\ude80) for your preferred region and you're linked directly to launch that instance in AWS!"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -569,7 +554,7 @@
       "text": "I'm clicking the  launch link for us-east-2 (Ohio) [^ohio]. To finish quickly, I'm choosing all of the default options and using a spot instance (look inside  Advanced details  at the bottom of the page)."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -581,7 +566,7 @@
       "text": "Wait for the instance to finish intializing and access it via ssh:"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -597,7 +582,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -609,7 +594,7 @@
       "text": "Success! \ud83c\udf89"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -621,7 +606,7 @@
       "text": "Prepare your security group"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -633,7 +618,7 @@
       "text": "Before leaving the EC2 console, you need to make a note of the security group that you used for this instance. That's because EFS uses security groups to guard access to volumes. Follow these steps to find it:"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/groups/2"
       },
@@ -647,7 +632,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/groups/2"
       },
@@ -661,7 +646,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/groups/2"
       },
@@ -675,7 +660,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/groups/2"
       },
@@ -689,7 +674,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -701,7 +686,7 @@
       "text": "It should be in the format "
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -717,7 +702,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -729,7 +714,7 @@
       "text": "."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -741,7 +726,7 @@
       "text": "If you click the security group name (after saving it), you'll see the inbound rules associated with that security group. By default, items in the same security group can't talk to each other. We need to allow that so our EFS mount will work later."
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -753,7 +738,7 @@
       "text": "Click  Edit inbound rules  and do the following:"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/groups/3"
       },
@@ -767,7 +752,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/groups/3"
       },
@@ -781,7 +766,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/groups/3"
       },
@@ -795,7 +780,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/groups/3"
       },
@@ -809,7 +794,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -821,7 +806,7 @@
       "text": "Installing efs-utils"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -833,7 +818,7 @@
       "text": "Let's start by getting the  efs-utils  package onto our new Fedora system:"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -849,7 +834,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -861,7 +846,7 @@
       "text": "The package includes some configuration, a watchdog, and a mount helper:"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -877,7 +862,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -889,7 +874,7 @@
       "text": "Let's get the watchdog running so we have that ready later. The watchdog helps to build and tear down the encrypted connection when you mount and unmount an EFS volume:"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -905,7 +890,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -917,7 +902,7 @@
       "text": "Setting up an EFS volume"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -929,7 +914,7 @@
       "text": "Start by going over to the  EFS console  and do the following:"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/groups/4"
       },
@@ -943,7 +928,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/groups/4"
       },
@@ -957,7 +942,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/groups/4"
       },
@@ -969,7 +954,7 @@
       "text": "A modal appears with a box for the volume name and a VPC selection. Select an easy to remember name (I'm using  testing-efs-for-blog-post ) and select a VPC. If you're not sure what a VPC is or which one to use, use the default VPC since that's likely where your instance landed as well."
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/groups/4"
       },
@@ -983,7 +968,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -995,7 +980,7 @@
       "text": "There's a delay while the filesystem initializes and you should see the filesystem show  Available  with a green check mark after about 30 seconds. Click on the filesystem you just created from the list and you'll see the details page for the filesystem."
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1007,7 +992,7 @@
       "text": "Security setup"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1019,7 +1004,7 @@
       "text": "EFS volumes come online with the default security group attached and that's not helpful. From the EFS filesystem details page, click the  Network  tab and then click  Manage ."
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1031,7 +1016,7 @@
       "text": "For each availability zone, go to the  Security groups  column and add the security group that your instance came up with in the first step. In my case, I accepted the defaults from EC2 and ended up with a  launch-wizard-1  security group. Remove the  default  security group from each. Click  Save ."
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1043,7 +1028,7 @@
       "text": "Mounting time"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1055,7 +1040,7 @@
       "text": "You should still be on the filesystem details page from the previous step. Click  Attach  at the top right and a modal will appear with mount instructions. The first option should use the EFS mount helper!"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1067,7 +1052,7 @@
       "text": "For me, it looks like "
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1083,7 +1068,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1095,7 +1080,7 @@
       "text": "Go back to your Fedora instance, create a mount point, and create the volume:"
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1111,7 +1096,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1123,7 +1108,7 @@
       "text": "We did it! \ud83c\udf89"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1135,7 +1120,7 @@
       "text": "We see "
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1151,7 +1136,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1163,7 +1148,7 @@
       "text": " here because efs-utils uses stunnel to handle the encryption between your instance and the EFS storage system."
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/62",
       "parent": {
         "$ref": "#/body"
       },
@@ -1175,7 +1160,7 @@
       "text": "The disk was mounted by root, so we can add a "
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/63",
       "parent": {
         "$ref": "#/body"
       },
@@ -1191,7 +1176,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/64",
       "parent": {
         "$ref": "#/body"
       },
@@ -1203,7 +1188,7 @@
       "text": " to give our Fedora user permissions to write files:"
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/65",
       "parent": {
         "$ref": "#/body"
       },
@@ -1219,7 +1204,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/66",
       "parent": {
         "$ref": "#/body"
       },
@@ -1231,7 +1216,7 @@
       "text": "Also,  efs-utils  uses encrypted communication by default, which is great. There may be some situations where you don't need encrypted communications or you don't want the overhead. In that case, drop the "
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/67",
       "parent": {
         "$ref": "#/body"
       },
@@ -1247,7 +1232,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/68",
       "parent": {
         "$ref": "#/body"
       },
@@ -1259,7 +1244,7 @@
       "text": " option from the mount command and you'll mount the volume unencrypted."
     },
     {
-      "self_ref": "#/texts/70",
+      "self_ref": "#/texts/69",
       "parent": {
         "$ref": "#/body"
       },
@@ -1275,7 +1260,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/71",
+      "self_ref": "#/texts/70",
       "parent": {
         "$ref": "#/body"
       },
@@ -1287,7 +1272,7 @@
       "text": "Extra credit"
     },
     {
-      "self_ref": "#/texts/72",
+      "self_ref": "#/texts/71",
       "parent": {
         "$ref": "#/body"
       },
@@ -1299,7 +1284,7 @@
       "text": "You can get fancy with  access points  that allow you to carve up your EFS storage and only let certain instances mount certain parts of the filesystem. So instance A might only be able to mount "
     },
     {
-      "self_ref": "#/texts/73",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },
@@ -1315,7 +1300,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/74",
+      "self_ref": "#/texts/73",
       "parent": {
         "$ref": "#/body"
       },
@@ -1327,7 +1312,7 @@
       "text": " while instance B can only mount "
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/74",
       "parent": {
         "$ref": "#/body"
       },
@@ -1343,7 +1328,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/75",
       "parent": {
         "$ref": "#/body"
       },
@@ -1355,7 +1340,7 @@
       "text": "."
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/76",
       "parent": {
         "$ref": "#/body"
       },
@@ -1367,7 +1352,7 @@
       "text": "It would also be a good idea to take an inventory of your security groups and ensure the least amount of instances can reach your EFS volume as possible. Much of the work I did in this post was just for testing. A good plan might be to make a security group for your EFS volume and only allow inbound traffic from security groups which should access it. That would allow you to gather up all of your instances into different security groups and limit access."
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/77",
       "parent": {
         "$ref": "#/body"
       },
@@ -1379,7 +1364,7 @@
       "text": "Also, be aware of the  EFS pricing ! \ud83d\udcb8"
     },
     {
-      "self_ref": "#/texts/79",
+      "self_ref": "#/texts/78",
       "parent": {
         "$ref": "#/body"
       },
@@ -1391,7 +1376,7 @@
       "text": "You are billed not only for how much storage you use, but also on requests. Different requests are priced differently depending on access frequency. Backups are also  enabled by default  at $0.05/GB-month!"
     },
     {
-      "self_ref": "#/texts/80",
+      "self_ref": "#/texts/79",
       "parent": {
         "$ref": "#/body"
       },

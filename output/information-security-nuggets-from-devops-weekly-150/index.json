@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 8778579768362894123,
-    "filename": "index.md"
+    "binary_hash": 12878599290611895283,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,6 +21,9 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
         "$ref": "#/groups/0"
       },
       {
@@ -30,19 +33,10 @@
         "$ref": "#/texts/7"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/8"
       },
       {
-        "$ref": "#/texts/12"
-      },
-      {
-        "$ref": "#/texts/13"
-      },
-      {
-        "$ref": "#/texts/14"
-      },
-      {
-        "$ref": "#/texts/15"
+        "$ref": "#/texts/9"
       }
     ],
     "content_layer": "body",
@@ -57,9 +51,6 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
           "$ref": "#/texts/2"
         },
         {
@@ -70,29 +61,6 @@
         },
         {
           "$ref": "#/texts/5"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/8"
-        },
-        {
-          "$ref": "#/texts/9"
-        },
-        {
-          "$ref": "#/texts/10"
-        },
-        {
-          "$ref": "#/texts/11"
         }
       ],
       "content_layer": "body",
@@ -110,22 +78,20 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "Keeping an eye out for the  DevOps Weekly email  is something I've enjoyed since it started at the end of 2010. It's usually chock full of tips for systems engineers, developers, managers, or anyone who is focused on environments that utilize continuous integration and deployment strategies. Quite a few of the tips are totally relevant for information security professionals who are looking for an edge at work.",
+      "text": "Keeping an eye out for the  DevOps Weekly email  is something I've enjoyed since it started at the end of 2010. It's usually chock full of tips for systems engineers, developers, managers, or anyone who is focused on environments that utilize continuous integration and deployment strategies. Quite a few of the tips are totally relevant for information security professionals who are looking for an edge at work."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "/2013/11/17/information-security-nuggets-from-devops-weekly-150/",
-      "text": "/2013/11/17/information-security-nuggets-from-devops-weekly-150/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "This week, there are four links worth reviewing if you work in information security:",
+      "text": "This week, there are four links worth reviewing if you work in information security:"
     },
     {
       "self_ref": "#/texts/2",
@@ -136,8 +102,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "devops",
-      "text": "devops",
+      "orig": "[<RawText children='sitespeed.io'>]",
+      "text": "[<RawText children='sitespeed.io'>]",
       "enumerated": false,
       "marker": "-"
     },
@@ -150,8 +116,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "advice",
-      "text": "advice",
+      "orig": "[<RawText children='Burnout, Recovery and Honesty'>]",
+      "text": "[<RawText children='Burnout, Recovery and Honesty'>]",
       "enumerated": false,
       "marker": "-"
     },
@@ -164,8 +130,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "networking",
-      "text": "networking",
+      "orig": "[<RawText children='Audits of High Deployment Environments'>]",
+      "text": "[<RawText children='Audits of High Deployment Environments'>]",
       "enumerated": false,
       "marker": "-"
     },
@@ -178,8 +144,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "security",
-      "text": "security",
+      "orig": "[<RawText children='A tcpdump Primer'>]",
+      "text": "[<RawText children='A tcpdump Primer'>]",
       "enumerated": false,
       "marker": "-"
     },
@@ -192,91 +158,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "Keeping an eye out for the  DevOps Weekly email  is something I've enjoyed since it started at the end of 2010. It's usually chock full of tips for systems engineers, developers, managers, or anyone who is focused on environments that utilize continuous integration and deployment strategies. Quite a few of the tips are totally relevant for information security professionals who are looking for an edge at work.",
-      "text": "Keeping an eye out for the  DevOps Weekly email  is something I've enjoyed since it started at the end of 2010. It's usually chock full of tips for systems engineers, developers, managers, or anyone who is focused on environments that utilize continuous integration and deployment strategies. Quite a few of the tips are totally relevant for information security professionals who are looking for an edge at work."
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "This week, there are four links worth reviewing if you work in information security:",
-      "text": "This week, there are four links worth reviewing if you work in information security:"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "[<RawText children='sitespeed.io'>]",
-      "text": "[<RawText children='sitespeed.io'>]",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "[<RawText children='Burnout, Recovery and Honesty'>]",
-      "text": "[<RawText children='Burnout, Recovery and Honesty'>]",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "[<RawText children='Audits of High Deployment Environments'>]",
-      "text": "[<RawText children='Audits of High Deployment Environments'>]",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "[<RawText children='A tcpdump Primer'>]",
-      "text": "[<RawText children='A tcpdump Primer'>]",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "The idea behind  sitespeed.io  is to monitor an application's performance through deployments. Availability is critical to security (although it's often de-prioritized until you feel the pain) and it can signal an attack in process. Performance degradation over time could allow the application to be knocked offline from smaller attacks.",
       "text": "The idea behind  sitespeed.io  is to monitor an application's performance through deployments. Availability is critical to security (although it's often de-prioritized until you feel the pain) and it can signal an attack in process. Performance degradation over time could allow the application to be knocked offline from smaller attacks."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -288,7 +174,7 @@
       "text": "Burnout, Recovery and Honesty  is an anecdote from an IT worker about how their job changed their personal and home life. It's worth a read so that you can catch the warning signs of burnout within yourself and your coworkers."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -300,7 +186,7 @@
       "text": "Bringing continuous deployments to large companies is challenging due to the number of compliance and regulatory programs. A great slide deck called  Audits of High Deployment Environments  covers some of the basic strategies for how to deal with these challenges."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },

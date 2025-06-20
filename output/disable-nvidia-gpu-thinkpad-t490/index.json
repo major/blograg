@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 9629139725998021367,
-    "filename": "index.md"
+    "binary_hash": 12041897930127609282,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,22 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
       },
       {
         "$ref": "#/texts/7"
@@ -78,10 +93,7 @@
         "$ref": "#/texts/24"
       },
       {
-        "$ref": "#/texts/25"
-      },
-      {
-        "$ref": "#/texts/26"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/27"
@@ -99,7 +111,10 @@
         "$ref": "#/texts/31"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
       },
       {
         "$ref": "#/texts/34"
@@ -358,27 +373,6 @@
       },
       {
         "$ref": "#/texts/119"
-      },
-      {
-        "$ref": "#/texts/120"
-      },
-      {
-        "$ref": "#/texts/121"
-      },
-      {
-        "$ref": "#/texts/122"
-      },
-      {
-        "$ref": "#/texts/123"
-      },
-      {
-        "$ref": "#/texts/124"
-      },
-      {
-        "$ref": "#/texts/125"
-      },
-      {
-        "$ref": "#/texts/126"
       }
     ],
     "content_layer": "body",
@@ -393,39 +387,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/25"
         },
         {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/32"
-        },
-        {
-          "$ref": "#/texts/33"
+          "$ref": "#/texts/26"
         }
       ],
       "content_layer": "body",
@@ -443,107 +408,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2020/01/24/disable-nvidia-gpu-thinkpad-t490/",
-      "text": "/2020/01/24/disable-nvidia-gpu-thinkpad-t490/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "lenovo",
-      "text": "lenovo",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "thinkpad",
-      "text": "thinkpad",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "nvidia",
-      "text": "nvidia",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "I wrote about  installing Linux on the Lenovo ThinkPad T490 last month  and one of the biggest challenges was getting graphics working properly. The T490 comes with an option where you can get a discrete Nvidia MX250 GPU and it packs plenty of power in a small footprint.",
       "text": "I wrote about  installing Linux on the Lenovo ThinkPad T490 last month  and one of the biggest challenges was getting graphics working properly. The T490 comes with an option where you can get a discrete Nvidia MX250 GPU and it packs plenty of power in a small footprint."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -555,7 +424,7 @@
       "text": "It also brings along a few issues."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -568,7 +437,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -580,7 +449,7 @@
       "text": "There are many times where it would be helpful to fully disable the Nvidia card to extend battery life when graphics processing is not needed. The MX250 is a Pascal family GPU and those GPUs require signed drivers, so nouveau will not work."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -592,7 +461,7 @@
       "text": "There is a handy kernel feature called  VGA Switcheroo   (yes, that is the name) . It gives you a quick method for turning the GPU on and off. Unfortunately, that does require the nouveau module to work with the card."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -604,7 +473,7 @@
       "text": "The Nvidia drivers attempt to take the card into a low power mode called P8, but it's not low enough. Removing the "
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -620,7 +489,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -632,7 +501,7 @@
       "text": " module causes the card to run with full power and that makes things even worse."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -644,7 +513,7 @@
       "text": "Darn. It's time to fix some other problems. \ud83d\ude1f"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -657,7 +526,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -669,7 +538,7 @@
       "text": "There are issues with suspend and resume with the Nvidia drivers after Linux 4.8. If you close the lid on the laptop, the laptop suspends properly and you can see the pulsating LED light on the lid."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -681,7 +550,7 @@
       "text": "Open the lid after a few seconds and you will see a black screen (possibly with a kernel trace) that looks like this:"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -697,7 +566,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -709,7 +578,7 @@
       "text": "The laptop will lock up and the fans will spin up shortly after. The only remedy is a hard power off."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -721,7 +590,7 @@
       "text": "This is related to a Nvidia driver bug that surfaced after Linux 4.8 added per-port PCIe power management . That feature allows the kernels to handle PCIe power management for each port individually. It helps certain PCIe devies (or portions of those devices) to go into various power saving modes independently."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -733,7 +602,7 @@
       "text": "You can work around this issue by adding "
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -749,7 +618,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -761,7 +630,7 @@
       "text": " to your kernel command line. I added it and my suspend/resume worked well after a reboot."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -773,7 +642,7 @@
       "text": "This leads to another problem:"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -786,7 +655,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -798,7 +667,7 @@
       "text": "Getting suspend and resume back was a nice improvement, but I noticed that my battery life dropped significantly. I went from 6 hours (which was not great) down to 3-4 hours. That's terrible."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -810,7 +679,7 @@
       "text": "I booted my laptop into i3wm and ran "
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -826,7 +695,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -838,7 +707,7 @@
       "text": " in a terminal. The idle power usage bounced between 10-12 watts with a single terminal open and i3status updating my status line."
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -850,9 +719,9 @@
       "text": "So I was left with a choice:"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/25",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -864,9 +733,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/26",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -878,7 +747,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -890,7 +759,7 @@
       "text": "Both options were terrible."
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -902,7 +771,7 @@
       "text": "I knew there was only one good choice:  find a way to disable the Nvidia card by default and only enable it when I need it ."
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -915,7 +784,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -927,7 +796,7 @@
       "text": "If you can't control your hardware well enough in the OS, and you can control it in the BIOS, the only option remaining is to examine your ACPI tables. This requires dumping the DSDT and SSDT tables from the laptop. These tables provide a map of instructions for taking all kinds of actions with the hardware on the laptop, including turning devices on and off."
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -939,7 +808,7 @@
       "text": "\ud83d\udd25  DISCLAIMER: Tinkering with DSDT and SSDT files can damage your machine if you are not familiar with the process. All changes in these files must be made with extreme care and you should try the  smallest  possible change first to reduce the risks."
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -951,7 +820,7 @@
       "text": "We need some tools to dump the ACPI tables and decompile them into a DSL that we can read as humans:"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -967,7 +836,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -979,7 +848,7 @@
       "text": "Make a directory to hold the files and dump the ACPI tables:"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -995,7 +864,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -1007,7 +876,7 @@
       "text": "You should have plenty of files ending in "
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -1023,7 +892,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -1035,7 +904,7 @@
       "text": " in the directory. These are the compiled ACPI tables and they are difficult to read unless you love hex. You can decompile them with "
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -1051,7 +920,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -1063,7 +932,7 @@
       "text": " and move the compiled files out of the way:"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -1079,7 +948,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -1091,7 +960,7 @@
       "text": "You can find the decompiled files in my  T490 DSDT repository on GitLab ."
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -1103,7 +972,7 @@
       "text": "We need to find some details on the discrete GPU. Running a "
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -1119,7 +988,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -1131,7 +1000,7 @@
       "text": " on the"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1147,7 +1016,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1159,7 +1028,7 @@
       "text": " files in the directory shows some mentions in the "
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1175,7 +1044,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1187,7 +1056,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1203,7 +1072,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1215,7 +1084,7 @@
       "text": "So the GPU is represented in the ACPI tables as "
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1231,7 +1100,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1243,7 +1112,7 @@
       "text": ". Let's grep for that:"
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1259,7 +1128,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1271,7 +1140,7 @@
       "text": "So the card appears in "
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1287,7 +1156,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1299,7 +1168,7 @@
       "text": ". Examine that file and you will find:"
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1315,7 +1184,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1327,7 +1196,7 @@
       "text": "When the "
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1343,7 +1212,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1355,7 +1224,7 @@
       "text": " method is called, it calls "
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/62",
       "parent": {
         "$ref": "#/body"
       },
@@ -1371,7 +1240,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/70",
+      "self_ref": "#/texts/63",
       "parent": {
         "$ref": "#/body"
       },
@@ -1383,7 +1252,7 @@
       "text": " and that turns on the card. There's another method called "
     },
     {
-      "self_ref": "#/texts/71",
+      "self_ref": "#/texts/64",
       "parent": {
         "$ref": "#/body"
       },
@@ -1399,7 +1268,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/72",
+      "self_ref": "#/texts/65",
       "parent": {
         "$ref": "#/body"
       },
@@ -1411,7 +1280,7 @@
       "text": " that turns off the card."
     },
     {
-      "self_ref": "#/texts/73",
+      "self_ref": "#/texts/66",
       "parent": {
         "$ref": "#/body"
       },
@@ -1423,7 +1292,7 @@
       "text": "Let's try changing any instances of "
     },
     {
-      "self_ref": "#/texts/74",
+      "self_ref": "#/texts/67",
       "parent": {
         "$ref": "#/body"
       },
@@ -1439,7 +1308,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/68",
       "parent": {
         "$ref": "#/body"
       },
@@ -1451,7 +1320,7 @@
       "text": " to "
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/69",
       "parent": {
         "$ref": "#/body"
       },
@@ -1467,7 +1336,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/70",
       "parent": {
         "$ref": "#/body"
       },
@@ -1479,7 +1348,7 @@
       "text": ". It's dirty, but it just might work. There are two calls to "
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/71",
       "parent": {
         "$ref": "#/body"
       },
@@ -1495,7 +1364,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/79",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },
@@ -1505,6 +1374,102 @@
       "prov": [],
       "orig": " in ",
       "text": " in "
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "ssdt11.dsl",
+      "text": "ssdt11.dsl",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " and I changed both to ",
+      "text": " and I changed both to "
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "HSOF",
+      "text": "HSOF",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": ". This should cause the card to be turned off when the system boots (and the ",
+      "text": ". This should cause the card to be turned off when the system boots (and the "
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "_INI",
+      "text": "_INI",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " methods are called).",
+      "text": " methods are called)."
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "We need to make one more change so that the kernel will know our patched SSDT file is newer than the one in the BIOS. Look for this line at the top of ",
+      "text": "We need to make one more change so that the kernel will know our patched SSDT file is newer than the one in the BIOS. Look for this line at the top of "
     },
     {
       "self_ref": "#/texts/80",
@@ -1531,107 +1496,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": " and I changed both to ",
-      "text": " and I changed both to "
-    },
-    {
-      "self_ref": "#/texts/82",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "HSOF",
-      "text": "HSOF",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/83",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": ". This should cause the card to be turned off when the system boots (and the ",
-      "text": ". This should cause the card to be turned off when the system boots (and the "
-    },
-    {
-      "self_ref": "#/texts/84",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "_INI",
-      "text": "_INI",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/85",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": " methods are called).",
-      "text": " methods are called)."
-    },
-    {
-      "self_ref": "#/texts/86",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "We need to make one more change so that the kernel will know our patched SSDT file is newer than the one in the BIOS. Look for this line at the top of ",
-      "text": "We need to make one more change so that the kernel will know our patched SSDT file is newer than the one in the BIOS. Look for this line at the top of "
-    },
-    {
-      "self_ref": "#/texts/87",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "ssdt11.dsl",
-      "text": "ssdt11.dsl",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/88",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": ":",
       "text": ":"
     },
     {
-      "self_ref": "#/texts/89",
+      "self_ref": "#/texts/82",
       "parent": {
         "$ref": "#/body"
       },
@@ -1647,7 +1516,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/90",
+      "self_ref": "#/texts/83",
       "parent": {
         "$ref": "#/body"
       },
@@ -1659,7 +1528,7 @@
       "text": "Change the number at the very end so that it is incremented by one:"
     },
     {
-      "self_ref": "#/texts/91",
+      "self_ref": "#/texts/84",
       "parent": {
         "$ref": "#/body"
       },
@@ -1675,7 +1544,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/92",
+      "self_ref": "#/texts/85",
       "parent": {
         "$ref": "#/body"
       },
@@ -1687,7 +1556,7 @@
       "text": "Now we need to compile the SSDT"
     },
     {
-      "self_ref": "#/texts/93",
+      "self_ref": "#/texts/86",
       "parent": {
         "$ref": "#/body"
       },
@@ -1703,7 +1572,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/94",
+      "self_ref": "#/texts/87",
       "parent": {
         "$ref": "#/body"
       },
@@ -1715,7 +1584,7 @@
       "text": "The easiest method for loading the SSDT table is to patch it during the initrd step. We need to pack the file into a cpio archive:"
     },
     {
-      "self_ref": "#/texts/95",
+      "self_ref": "#/texts/88",
       "parent": {
         "$ref": "#/body"
       },
@@ -1731,7 +1600,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/96",
+      "self_ref": "#/texts/89",
       "parent": {
         "$ref": "#/body"
       },
@@ -1743,7 +1612,7 @@
       "text": "Now we can carefully edit the bootloader options by adding"
     },
     {
-      "self_ref": "#/texts/97",
+      "self_ref": "#/texts/90",
       "parent": {
         "$ref": "#/body"
       },
@@ -1759,7 +1628,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/98",
+      "self_ref": "#/texts/91",
       "parent": {
         "$ref": "#/body"
       },
@@ -1771,7 +1640,7 @@
       "text": " to our current kernel entry. These are found in"
     },
     {
-      "self_ref": "#/texts/99",
+      "self_ref": "#/texts/92",
       "parent": {
         "$ref": "#/body"
       },
@@ -1787,7 +1656,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/100",
+      "self_ref": "#/texts/93",
       "parent": {
         "$ref": "#/body"
       },
@@ -1799,7 +1668,7 @@
       "text": " and are named based on the kernel they load. In my case, the bootloader config for 5.4.12 is in"
     },
     {
-      "self_ref": "#/texts/101",
+      "self_ref": "#/texts/94",
       "parent": {
         "$ref": "#/body"
       },
@@ -1815,7 +1684,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/102",
+      "self_ref": "#/texts/95",
       "parent": {
         "$ref": "#/body"
       },
@@ -1827,7 +1696,7 @@
       "text": "."
     },
     {
-      "self_ref": "#/texts/103",
+      "self_ref": "#/texts/96",
       "parent": {
         "$ref": "#/body"
       },
@@ -1839,7 +1708,7 @@
       "text": "The file should look like this afterwards:"
     },
     {
-      "self_ref": "#/texts/104",
+      "self_ref": "#/texts/97",
       "parent": {
         "$ref": "#/body"
       },
@@ -1855,7 +1724,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/105",
+      "self_ref": "#/texts/98",
       "parent": {
         "$ref": "#/body"
       },
@@ -1867,7 +1736,7 @@
       "text": "The "
     },
     {
-      "self_ref": "#/texts/106",
+      "self_ref": "#/texts/99",
       "parent": {
         "$ref": "#/body"
       },
@@ -1883,7 +1752,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/107",
+      "self_ref": "#/texts/100",
       "parent": {
         "$ref": "#/body"
       },
@@ -1895,7 +1764,7 @@
       "text": " line is the one I added."
     },
     {
-      "self_ref": "#/texts/108",
+      "self_ref": "#/texts/101",
       "parent": {
         "$ref": "#/body"
       },
@@ -1907,7 +1776,7 @@
       "text": "Reboot your laptop. After the boot, look for the SSDT lines in "
     },
     {
-      "self_ref": "#/texts/109",
+      "self_ref": "#/texts/102",
       "parent": {
         "$ref": "#/body"
       },
@@ -1923,7 +1792,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/110",
+      "self_ref": "#/texts/103",
       "parent": {
         "$ref": "#/body"
       },
@@ -1935,7 +1804,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/111",
+      "self_ref": "#/texts/104",
       "parent": {
         "$ref": "#/body"
       },
@@ -1951,7 +1820,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/112",
+      "self_ref": "#/texts/105",
       "parent": {
         "$ref": "#/body"
       },
@@ -1963,7 +1832,7 @@
       "text": "Now look for Nvidia:"
     },
     {
-      "self_ref": "#/texts/113",
+      "self_ref": "#/texts/106",
       "parent": {
         "$ref": "#/body"
       },
@@ -1979,7 +1848,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/114",
+      "self_ref": "#/texts/107",
       "parent": {
         "$ref": "#/body"
       },
@@ -1991,7 +1860,7 @@
       "text": "Success! My laptop is now hovering around 4.5-5.5 watts. That's half of what it was before! \ud83c\udf8a \ud83c\udf89 \ud83e\udd73"
     },
     {
-      "self_ref": "#/texts/115",
+      "self_ref": "#/texts/108",
       "parent": {
         "$ref": "#/body"
       },
@@ -2004,7 +1873,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/116",
+      "self_ref": "#/texts/109",
       "parent": {
         "$ref": "#/body"
       },
@@ -2016,7 +1885,7 @@
       "text": "Okay, there  are  some times where the discrete GPU is nice. Let's edit the SSDT table once more to add an option to enable it at boot time with a kernel command line option."
     },
     {
-      "self_ref": "#/texts/117",
+      "self_ref": "#/texts/110",
       "parent": {
         "$ref": "#/body"
       },
@@ -2028,7 +1897,7 @@
       "text": "Here are the changes needed for "
     },
     {
-      "self_ref": "#/texts/118",
+      "self_ref": "#/texts/111",
       "parent": {
         "$ref": "#/body"
       },
@@ -2044,7 +1913,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/119",
+      "self_ref": "#/texts/112",
       "parent": {
         "$ref": "#/body"
       },
@@ -2056,7 +1925,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/120",
+      "self_ref": "#/texts/113",
       "parent": {
         "$ref": "#/body"
       },
@@ -2072,7 +1941,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/121",
+      "self_ref": "#/texts/114",
       "parent": {
         "$ref": "#/body"
       },
@@ -2084,7 +1953,7 @@
       "text": "Follow the same steps as before to compile the SSDT, pack it into a cpio archive, and copy it to "
     },
     {
-      "self_ref": "#/texts/122",
+      "self_ref": "#/texts/115",
       "parent": {
         "$ref": "#/body"
       },
@@ -2100,7 +1969,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/123",
+      "self_ref": "#/texts/116",
       "parent": {
         "$ref": "#/body"
       },
@@ -2112,7 +1981,7 @@
       "text": ". Now you can add"
     },
     {
-      "self_ref": "#/texts/124",
+      "self_ref": "#/texts/117",
       "parent": {
         "$ref": "#/body"
       },
@@ -2128,7 +1997,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/125",
+      "self_ref": "#/texts/118",
       "parent": {
         "$ref": "#/body"
       },
@@ -2140,7 +2009,7 @@
       "text": " to your kernel command line whenever you want to use your Nvidia card. You won't need to mess with SSDT tables again to make it work."
     },
     {
-      "self_ref": "#/texts/126",
+      "self_ref": "#/texts/119",
       "parent": {
         "$ref": "#/body"
       },

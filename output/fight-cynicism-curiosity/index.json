@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 3734637680029786738,
-    "filename": "index.md"
+    "binary_hash": 9092194304823565439,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,16 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
       },
       {
         "$ref": "#/texts/5"
@@ -30,22 +39,22 @@
         "$ref": "#/texts/6"
       },
       {
-        "$ref": "#/texts/7"
+        "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/8"
+        "$ref": "#/texts/12"
       },
       {
-        "$ref": "#/texts/9"
+        "$ref": "#/texts/13"
       },
       {
-        "$ref": "#/texts/10"
+        "$ref": "#/texts/14"
       },
       {
-        "$ref": "#/texts/11"
+        "$ref": "#/texts/15"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/16"
       },
       {
         "$ref": "#/texts/17"
@@ -81,6 +90,9 @@
         "$ref": "#/texts/27"
       },
       {
+        "$ref": "#/pictures/0"
+      },
+      {
         "$ref": "#/texts/28"
       },
       {
@@ -90,25 +102,22 @@
         "$ref": "#/texts/30"
       },
       {
-        "$ref": "#/texts/31"
+        "$ref": "#/groups/1"
       },
       {
-        "$ref": "#/texts/32"
+        "$ref": "#/texts/36"
       },
       {
-        "$ref": "#/pictures/0"
+        "$ref": "#/texts/37"
       },
       {
-        "$ref": "#/texts/33"
+        "$ref": "#/texts/38"
       },
       {
-        "$ref": "#/texts/34"
+        "$ref": "#/texts/39"
       },
       {
-        "$ref": "#/texts/35"
-      },
-      {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/40"
       },
       {
         "$ref": "#/texts/41"
@@ -121,21 +130,6 @@
       },
       {
         "$ref": "#/texts/44"
-      },
-      {
-        "$ref": "#/texts/45"
-      },
-      {
-        "$ref": "#/texts/46"
-      },
-      {
-        "$ref": "#/texts/47"
-      },
-      {
-        "$ref": "#/texts/48"
-      },
-      {
-        "$ref": "#/texts/49"
       }
     ],
     "content_layer": "body",
@@ -150,16 +144,19 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/7"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/8"
         },
         {
-          "$ref": "#/texts/3"
+          "$ref": "#/texts/9"
         },
         {
-          "$ref": "#/texts/4"
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
         }
       ],
       "content_layer": "body",
@@ -173,45 +170,19 @@
       },
       "children": [
         {
-          "$ref": "#/texts/12"
+          "$ref": "#/texts/31"
         },
         {
-          "$ref": "#/texts/13"
+          "$ref": "#/texts/32"
         },
         {
-          "$ref": "#/texts/14"
+          "$ref": "#/texts/33"
         },
         {
-          "$ref": "#/texts/15"
+          "$ref": "#/texts/34"
         },
         {
-          "$ref": "#/texts/16"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/36"
-        },
-        {
-          "$ref": "#/texts/37"
-        },
-        {
-          "$ref": "#/texts/38"
-        },
-        {
-          "$ref": "#/texts/39"
-        },
-        {
-          "$ref": "#/texts/40"
+          "$ref": "#/texts/35"
         }
       ],
       "content_layer": "body",
@@ -229,79 +200,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2016/02/17/fight-cynicism-curiosity/",
-      "text": "/2016/02/17/fight-cynicism-curiosity/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "development",
-      "text": "development",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "sysadmin",
-      "text": "sysadmin",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "I'm  always interested to talk to college students  about technology and business in general. They have amazing ideas and they don't place any limits on themselves. In particular, their curiosity is limitless.",
       "text": "I'm  always interested to talk to college students  about technology and business in general. They have amazing ideas and they don't place any limits on themselves. In particular, their curiosity is limitless."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -314,7 +217,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -326,7 +229,7 @@
       "text": "I joined several other local employers at the  University of Texas at San Antonio  last week for mock interviews with computer science students. We went through plenty of sample questions and gave feedback to the students on their content and delivery during the mock interviews. At the end, we opened it up for questions."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -338,7 +241,7 @@
       "text": "One student asked a question that really made me pause:"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -350,7 +253,7 @@
       "text": "What's the one thing that you learned while working that you didn't learn in college? What should we know that we won't learn in the classroom?"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -363,7 +266,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -375,9 +278,9 @@
       "text": "There are plenty of obvious things that came to mind when I thought about it:"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -389,9 +292,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -403,9 +306,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -417,9 +320,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -431,9 +334,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -445,7 +348,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -457,7 +360,7 @@
       "text": "However, many of these are cliche or difficult to teach. It takes some real world experience with real people on real projects to really understand them. There must be some correlation between these things I've learned since I entered the business world."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -469,7 +372,7 @@
       "text": "Then it hit me. The biggest key to my own success rests upon a single word:  curiosity ."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -482,7 +385,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -494,7 +397,7 @@
       "text": "I've always been curious about things for as long as I can remember. I've questioned everything at one time or another and demanded to know the real story behind events in my work and personal life."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -506,7 +409,7 @@
       "text": "Being curious allows me to approach new things with more wonder and less fear. It has stopped me in my tracks when I've tried to pass judgement on a person or a situation without asking the right questions first. It has brought me closer to more people at work, in open source communities, and at home."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -518,7 +421,7 @@
       "text": "It's not always easy. Being curious is exhausting. There are many times where I've wanted less change and I've rejected new ways of doing things. When those situations arise, I take a break and think about something else. I come back to it with more energy and a myriad of questions."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -530,7 +433,7 @@
       "text": "Being curious also leads you down those paths less traveled. Robert Frost's poem,  The Road Not Taken , ends with a paragraph that has special meaning to me as a curious person:"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -542,7 +445,7 @@
       "text": "I shall be telling this with a sigh"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -554,7 +457,7 @@
       "text": "Somewhere ages and ages hence:"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -566,7 +469,7 @@
       "text": "Two roads diverged in a wood, and I-"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -578,7 +481,7 @@
       "text": "I took the one less traveled by,"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -590,7 +493,7 @@
       "text": "And that has made all the difference."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -602,7 +505,7 @@
       "text": "Being curious has taken me down this path less traveled many times. Almost every trip has been worth the trouble."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -615,7 +518,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -627,7 +530,7 @@
       "text": "Anyone who works in technology, especially software development or system administration, has found themselves looking over a block of code or a server deployment that someone else has prepared. Many of us have had one of these moments:"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -639,7 +542,7 @@
       "text": "Clint Eastwood is disgusted"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -651,7 +554,7 @@
       "text": "clint_eastwood_disgusted.gif"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -663,7 +566,7 @@
       "text": "That's totally natural.  It's human nature."
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -675,9 +578,9 @@
       "text": "Luckily, that's a habit we can break and curiosity can be the tool that breaks it. Instead of immediately passing judgement, start making a list of questions in your head:"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/31",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -689,9 +592,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/32",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -703,9 +606,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/33",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -717,9 +620,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/34",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -731,9 +634,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/35",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -745,7 +648,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -757,7 +660,7 @@
       "text": "This situation appears  very frequently  in open source software. Quickly passing judgement about a particular piece of software or user community can often to the dangerous cycle of  Not Invented Here (NIH) . This leads to competing standards, projects, and communities."
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -769,7 +672,7 @@
       "text": "A healthier approach is to look over the software and the community with a curious approach. Start asking questions and sharing your unique use cases with the community. You might find others in the community with a similar need and this can often convince the herd to change direction. Instead of building something on your own, you will belong to a community and stand on the shoulders of the work that is already done."
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -782,7 +685,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -794,7 +697,7 @@
       "text": "My advice here is the same as what I told the UTSA student last week:  always be curious ."
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -806,7 +709,7 @@
       "text": "Let curiosity drive your decisions and your growth."
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -818,7 +721,7 @@
       "text": "Let curiosity push you through the challenging or difficult times."
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -830,7 +733,7 @@
       "text": "Let curiosity guide your interactions with other people and encourage them to be curious as well."
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -842,7 +745,7 @@
       "text": "As you refocus your energy from cynicism to curiosity, the momentum will build. Being curious will become one of the most beneficial habits you'll ever make."
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -866,7 +769,7 @@
       "prov": [],
       "captions": [
         {
-          "$ref": "#/texts/32"
+          "$ref": "#/texts/27"
         }
       ],
       "references": [],

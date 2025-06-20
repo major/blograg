@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 7580011209253963847,
-    "filename": "index.md"
+    "binary_hash": 8974736296374075154,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,13 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
       },
       {
         "$ref": "#/texts/4"
@@ -36,6 +42,9 @@
         "$ref": "#/texts/7"
       },
       {
+        "$ref": "#/pictures/0"
+      },
+      {
         "$ref": "#/texts/8"
       },
       {
@@ -45,10 +54,10 @@
         "$ref": "#/texts/10"
       },
       {
-        "$ref": "#/texts/11"
+        "$ref": "#/pictures/1"
       },
       {
-        "$ref": "#/pictures/0"
+        "$ref": "#/texts/11"
       },
       {
         "$ref": "#/texts/12"
@@ -58,9 +67,6 @@
       },
       {
         "$ref": "#/texts/14"
-      },
-      {
-        "$ref": "#/pictures/1"
       },
       {
         "$ref": "#/texts/15"
@@ -75,10 +81,7 @@
         "$ref": "#/texts/18"
       },
       {
-        "$ref": "#/texts/19"
-      },
-      {
-        "$ref": "#/texts/20"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/21"
@@ -87,7 +90,10 @@
         "$ref": "#/texts/22"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
       },
       {
         "$ref": "#/texts/25"
@@ -100,18 +106,6 @@
       },
       {
         "$ref": "#/texts/28"
-      },
-      {
-        "$ref": "#/texts/29"
-      },
-      {
-        "$ref": "#/texts/30"
-      },
-      {
-        "$ref": "#/texts/31"
-      },
-      {
-        "$ref": "#/texts/32"
       }
     ],
     "content_layer": "body",
@@ -126,30 +120,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/19"
         },
         {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/23"
-        },
-        {
-          "$ref": "#/texts/24"
+          "$ref": "#/texts/20"
         }
       ],
       "content_layer": "body",
@@ -167,65 +141,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2019/06/02/texas-linux-fest-2019-recap/",
-      "text": "/2019/06/02/texas-linux-fest-2019-recap/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "conferences",
-      "text": "conferences",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Another Texas Linux Fest has come and gone! The  2019 Texas Linux Fest  was held in Irving at the Irving Convention Center. It was a great venue surrounded by lots of shops and restaurants.",
       "text": "Another Texas Linux Fest has come and gone! The  2019 Texas Linux Fest  was held in Irving at the Irving Convention Center. It was a great venue surrounded by lots of shops and restaurants."
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -237,7 +157,7 @@
       "text": "If you haven't attended one of these events before, you really should! Attendees have varying levels of experience with Linux and the conference organizers (volunteers) work really hard to ensure everyone feels included."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -249,7 +169,7 @@
       "text": "The event usually falls on a Friday and Saturday. Fridays consist of longer, deeper dive talks on various topics -- technical and non-technical. Saturdays are more of a typical conference format with a keynote in the morning and 45-minute talks through the day. Saturday nights have lightning talks as well as \"Birds of a Feather\" events for people with similar interests."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -262,7 +182,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -274,7 +194,7 @@
       "text": "Steve Ovens  took us on a three hour journey on Friday to learn more about our self-worth. His talk, \" You're Worth More Than You Know, Matching your Skills to Employers \", covered a myriad of concepts such as discovering what really motivates you, understanding how to value yourself (and your skills), and how to work well with different personality types."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -286,7 +206,7 @@
       "text": "I've attended these types of talks before and they sometimes end up a bit fluffy without items that you can begin using quickly. Steve's talk was the opposite. He gave us concrete ways to change how we think about ourselves and use that knowledge to advance ourselves at work. I learned a lot about negotiation strategies for salary when getting hired or when pushing for a raise. Steve stopped lots of times to answer questions and it was clear that he was  really  interested in this topic."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -298,7 +218,7 @@
       "text": "Thomas Cameron  kicked off Saturday with his \"Linux State of the Union\" talk. He talked a lot about his personal journey and how he has changed along the way. He noted quite a few changes to Linux (not the code, but the people around it) that many of us had not noticed. We learned more about how we can make the Linux community more diverse, inclusive, and welcoming. We also groaned through some problems from the good old days with jumpers on SATA cards and the joys of winmodems."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -310,7 +230,7 @@
       "text": "Adam Miller  threw us into a seat of a roller coaster and gave a whirlwind talk about all the ways you can automate (nearly) everything with Ansible."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -322,7 +242,7 @@
       "text": "Adam Miller Ansible talk"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -334,7 +254,7 @@
       "text": "He covered everything from simple configuration management tasks to scaling up software deployments over thousands of nodes. Adam also explained the OCI image format as being \"sweet sweet tarballs with a little bit of metadata\" and the audience was rolling with laughter. Adam's talks are always good and you'll be energized all the way through."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -346,7 +266,7 @@
       "text": "Jos\u00e9 Miguel Parrella  led a great lightning talk in the evening about how Microsoft uses Linux in plenty of places:"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -358,7 +278,7 @@
       "text": "Debian at Microsoft slide"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -370,7 +290,7 @@
       "text": "The audience was shocked by how much Debian was used at Microsoft and it made it more clear that Microsoft is really making a big shift towards open source well. Many of us knew that already but we didn't know the extent of the work being done."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -383,7 +303,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -395,7 +315,7 @@
       "text": "My first talk was about my team at Red Hat, the  Continuous Kernel Integration team . I shared some of the challenges involved with doing CI for the kernel at scale and how difficult it is to increase test coverage of subsystems within the kernel. There were two kernel developers in the audience and they had some really good questions."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -407,7 +327,7 @@
       "text": "The discussion at the end was quite productive. The audience had plenty of questions about how different pieces of the system worked, and how well GitLab was working for us. We also talked a bit about how the kernel is developed and if there is room for improvement. One attendee hoped that some of the work we're doing will change the kernel development process for the better. I hope so, too."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -419,7 +339,7 @@
       "text": "My second talk covered the topic of burnout. I have delivered plenty of talks about impostor syndrome in the past and I was eager to share more ideas around \"soft\" skills that become more important to technical career development over time."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -431,7 +351,7 @@
       "text": "The best part of these types of talks for me is the honesty that people bring when they share their thoughts after the talk. A few people from the audience shared their own personal experiences (some were  very  personal) and you could see people in the audience begin to understand how difficult burnout recovery can be. Small conferences like these create environments where people can talk honestly about difficult topics."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -443,9 +363,9 @@
       "text": "If you're looking for the slides from these talks, you can view them in Google Slides (for the sake of the GIFs!):"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/19",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -457,9 +377,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/20",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -471,7 +391,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -483,7 +403,7 @@
       "text": "Google Slides also allows you to download the slides as PDFs. Just choose File > Download as > PDF."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -496,7 +416,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -508,7 +428,7 @@
       "text": "The BoFs were fairly late in the day and everyone was looking tired. However, we had a great group assemble for the Ham Radio and OSS BoF. We had about 15-20 licensed hams and 5-6 people who were curious about the hobby."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -520,7 +440,7 @@
       "text": "We talked about radios, antennas, procedures, how to study, and the exams. The ham-curious folks who joined us looked a bit overwhelmed by the help they were getting, but they left the room with plenty of ideas on how to get started."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -532,7 +452,7 @@
       "text": "I also agreed to write a blog post about everything I've learned so far that has made the hobby easier for me and I hope to write that soon. There is so much information out there for studying and finding equipment that it can become really confusing for people new to the hobby."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -545,7 +465,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -557,7 +477,7 @@
       "text": "If you get the opportunity to attend a local Linux fest in your state, do it! The Texas one is always good and people joined us from Arkansas, Oklahoma, Louisiana, and Arizona. Some people came as far as Connecticut and the United Kingdom! These smaller events have a much higher signal to noise ratio and there is more real discussion rather than marketing from industry giants."
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },

@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 9927353500567334030,
-    "filename": "index.md"
+    "binary_hash": 17952060237312681675,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,22 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
       },
       {
         "$ref": "#/texts/7"
@@ -33,13 +48,7 @@
         "$ref": "#/texts/9"
       },
       {
-        "$ref": "#/texts/10"
-      },
-      {
-        "$ref": "#/texts/11"
-      },
-      {
-        "$ref": "#/texts/12"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/13"
@@ -51,25 +60,10 @@
         "$ref": "#/texts/15"
       },
       {
-        "$ref": "#/texts/16"
-      },
-      {
         "$ref": "#/groups/1"
       },
       {
-        "$ref": "#/texts/20"
-      },
-      {
-        "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
-      },
-      {
-        "$ref": "#/groups/2"
-      },
-      {
-        "$ref": "#/texts/30"
+        "$ref": "#/texts/23"
       }
     ],
     "content_layer": "body",
@@ -84,22 +78,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/10"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/11"
         },
         {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
+          "$ref": "#/texts/12"
         }
       ],
       "content_layer": "body",
@@ -113,6 +98,9 @@
       },
       "children": [
         {
+          "$ref": "#/texts/16"
+        },
+        {
           "$ref": "#/texts/17"
         },
         {
@@ -120,38 +108,15 @@
         },
         {
           "$ref": "#/texts/19"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/23"
         },
         {
-          "$ref": "#/texts/24"
+          "$ref": "#/texts/20"
         },
         {
-          "$ref": "#/texts/25"
+          "$ref": "#/texts/21"
         },
         {
-          "$ref": "#/texts/26"
-        },
-        {
-          "$ref": "#/texts/27"
-        },
-        {
-          "$ref": "#/texts/28"
-        },
-        {
-          "$ref": "#/texts/29"
+          "$ref": "#/texts/22"
         }
       ],
       "content_layer": "body",
@@ -169,107 +134,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aktt_notify_twitter:",
-      "text": "aktt_notify_twitter:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "false",
-      "text": "false",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2010/05/26/how-to-sell-a-guide-for-technical-people/",
-      "text": "/2010/05/26/how-to-sell-a-guide-for-technical-people/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "guidance",
-      "text": "guidance",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "rackspace",
-      "text": "rackspace",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "sales",
-      "text": "sales",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "sysadmin",
-      "text": "sysadmin",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "I'll admit it right now: I love engaging customers and learning more about how what we do at Rackspace can help their business or ideas take flight. Talking with customers can be a little nerve-wracking at first since you're not always sure what their experience level is and which products they really need. However, you can get past that initial nervousness very quickly by getting an idea of what the customer needs and what they've tried already (that didn't work).",
       "text": "I'll admit it right now: I love engaging customers and learning more about how what we do at Rackspace can help their business or ideas take flight. Talking with customers can be a little nerve-wracking at first since you're not always sure what their experience level is and which products they really need. However, you can get past that initial nervousness very quickly by getting an idea of what the customer needs and what they've tried already (that didn't work)."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -281,7 +150,7 @@
       "text": "You may not have realized it, but I covered the most important part of selling a technical product in the first paragraph without even mentioning the word \"sell\".  That was intentional.  As a technical person, you have an innate ability to interact with customers without needing to actively  sell  them the product."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -293,7 +162,7 @@
       "text": "Whenever I meet a customer at a conference, trade show, or some other relatively informal event, I try to keep a few things in mind. I'll share them with you:"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -305,7 +174,7 @@
       "text": "Learn why your customers are seeking out your product and what they really need"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -317,7 +186,7 @@
       "text": "It's pretty obvious that this step requires more listening than talking. While the customer is explaining what they need but haven't found, try to keep a running tally in your brain of what technologies are important to them so that you can rank your suggestions for them. Don't think about which product will work best for them yet - just keep keep their general requirements in mind."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -329,7 +198,7 @@
       "text": "This is also a good opportunity to relate to what they've told you. If there's a certain solution that ended up working really well or one that failed miserably, and you're familiar with one of those solutions, tell them briefly about your experiences. This will re-affirm how the customer feels about that solution and it also shows them that you've been in their shoes before. They'll also appreciate that you've been listening to their concerns and looking for ways to relate to their unique situation."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -341,7 +210,7 @@
       "text": "Make thoughtful production suggestions and discuss implementation"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -353,7 +222,7 @@
       "text": "Some folks might say this is where the selling starts, but if you're doing it correctly, you've been selling your product and your company the whole time. This is where things can get tricky. Most technical people I've met will try to avoid being pushy when suggesting a product for a customer to use, and that's a good idea."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -365,7 +234,7 @@
       "text": "You need to do three things: pick the right product (or group of products), explain what needs it meets, and briefly cover some example implementations.  As a technical person, this is where you really shine.  Interpreting the customer's needs and turning it into a mini technical sales pitch is a piece of cake when you know the product well and you've implemented it before."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -377,6 +246,98 @@
       "text": "It's great to give a customer multiple options, but it's a bad idea to overwhelm them. If you find that you're talking a bit too much, there's no harm in offering to talk about details later during a formal meeting. You can say things like these:"
     },
     {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\"this product will meet all your needs, but if you want to save a little money, you can use this other product like this.\"",
+      "text": "\"this product will meet all your needs, but if you want to save a little money, you can use this other product like this.\"",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\"if you combine these two products, you can meet these needs and save some time, but you can just use one and set it up like this&#8230;\"",
+      "text": "\"if you combine these two products, you can meet these needs and save some time, but you can just use one and set it up like this&#8230;\"",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "\"then later on, if you need to expand, you can start using this product by&#8230;\"",
+      "text": "\"then later on, if you need to expand, you can start using this product by&#8230;\"",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Think about the customer's future growth",
+      "text": "Think about the customer's future growth"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Even if you have products that meet your customer's needs, they're going to be concerned about what's going to happen down the road. What happens when they scale to a level that they can't even comprehend right now? I don't think any customer would expect you to cover all the bases, but try to think of some basic future-proofing for the customer. Even if it might involve a product that your company doesn't sell, just mention it.",
+      "text": "Even if you have products that meet your customer's needs, they're going to be concerned about what's going to happen down the road. What happens when they scale to a level that they can't even comprehend right now? I don't think any customer would expect you to cover all the bases, but try to think of some basic future-proofing for the customer. Even if it might involve a product that your company doesn't sell, just mention it."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Of course, there are some things that you shouldn't do:",
+      "text": "Of course, there are some things that you shouldn't do:"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Don't overpromise or push hard about a future product.",
+      "text": "Don't overpromise or push hard about a future product.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
       "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/groups/1"
@@ -385,8 +346,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "\"this product will meet all your needs, but if you want to save a little money, you can use this other product like this.\"",
-      "text": "\"this product will meet all your needs, but if you want to save a little money, you can use this other product like this.\"",
+      "orig": "Don't feel obligated to know the answer to every question.",
+      "text": "Don't feel obligated to know the answer to every question.",
       "enumerated": false,
       "marker": "-"
     },
@@ -399,8 +360,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "\"if you combine these two products, you can meet these needs and save some time, but you can just use one and set it up like this&#8230;\"",
-      "text": "\"if you combine these two products, you can meet these needs and save some time, but you can just use one and set it up like this&#8230;\"",
+      "orig": "Don't use words like \"infinite\", \"forever\", or \"perfect\".",
+      "text": "Don't use words like \"infinite\", \"forever\", or \"perfect\".",
       "enumerated": false,
       "marker": "-"
     },
@@ -413,107 +374,15 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "\"then later on, if you need to expand, you can start using this product by&#8230;\"",
-      "text": "\"then later on, if you need to expand, you can start using this product by&#8230;\"",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/20",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Think about the customer's future growth",
-      "text": "Think about the customer's future growth"
-    },
-    {
-      "self_ref": "#/texts/21",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Even if you have products that meet your customer's needs, they're going to be concerned about what's going to happen down the road. What happens when they scale to a level that they can't even comprehend right now? I don't think any customer would expect you to cover all the bases, but try to think of some basic future-proofing for the customer. Even if it might involve a product that your company doesn't sell, just mention it.",
-      "text": "Even if you have products that meet your customer's needs, they're going to be concerned about what's going to happen down the road. What happens when they scale to a level that they can't even comprehend right now? I don't think any customer would expect you to cover all the bases, but try to think of some basic future-proofing for the customer. Even if it might involve a product that your company doesn't sell, just mention it."
-    },
-    {
-      "self_ref": "#/texts/22",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Of course, there are some things that you shouldn't do:",
-      "text": "Of course, there are some things that you shouldn't do:"
-    },
-    {
-      "self_ref": "#/texts/23",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Don't overpromise or push hard about a future product.",
-      "text": "Don't overpromise or push hard about a future product.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/24",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Don't feel obligated to know the answer to every question.",
-      "text": "Don't feel obligated to know the answer to every question.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/25",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Don't use words like \"infinite\", \"forever\", or \"perfect\".",
-      "text": "Don't use words like \"infinite\", \"forever\", or \"perfect\".",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/26",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "Don't talk about cost constantly.",
       "text": "Don't talk about cost constantly.",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/20",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -525,9 +394,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/21",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -539,9 +408,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/22",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -553,7 +422,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },

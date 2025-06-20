@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 14379758349137480358,
-    "filename": "index.md"
+    "binary_hash": 12355245937666870264,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,16 +21,31 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
       },
       {
         "$ref": "#/texts/7"
       },
       {
         "$ref": "#/texts/8"
-      },
-      {
-        "$ref": "#/pictures/0"
       },
       {
         "$ref": "#/texts/9"
@@ -72,28 +87,19 @@
         "$ref": "#/texts/21"
       },
       {
-        "$ref": "#/texts/22"
+        "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/23"
-      },
-      {
-        "$ref": "#/texts/24"
-      },
-      {
-        "$ref": "#/texts/25"
-      },
-      {
-        "$ref": "#/texts/26"
-      },
-      {
-        "$ref": "#/texts/27"
-      },
-      {
-        "$ref": "#/texts/28"
+        "$ref": "#/texts/30"
       },
       {
         "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
       },
       {
         "$ref": "#/texts/37"
@@ -102,16 +108,25 @@
         "$ref": "#/groups/2"
       },
       {
-        "$ref": "#/texts/42"
-      },
-      {
         "$ref": "#/texts/43"
       },
       {
         "$ref": "#/texts/44"
       },
       {
-        "$ref": "#/groups/3"
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
       },
       {
         "$ref": "#/texts/50"
@@ -231,6 +246,9 @@
         "$ref": "#/texts/88"
       },
       {
+        "$ref": "#/pictures/1"
+      },
+      {
         "$ref": "#/texts/89"
       },
       {
@@ -238,30 +256,6 @@
       },
       {
         "$ref": "#/texts/91"
-      },
-      {
-        "$ref": "#/texts/92"
-      },
-      {
-        "$ref": "#/texts/93"
-      },
-      {
-        "$ref": "#/texts/94"
-      },
-      {
-        "$ref": "#/texts/95"
-      },
-      {
-        "$ref": "#/pictures/1"
-      },
-      {
-        "$ref": "#/texts/96"
-      },
-      {
-        "$ref": "#/texts/97"
-      },
-      {
-        "$ref": "#/texts/98"
       }
     ],
     "content_layer": "body",
@@ -276,27 +270,33 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/22"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/23"
         },
         {
-          "$ref": "#/texts/3"
+          "$ref": "#/texts/24"
         },
         {
-          "$ref": "#/texts/4"
+          "$ref": "#/texts/25"
         },
         {
-          "$ref": "#/texts/5"
+          "$ref": "#/texts/26"
         },
         {
-          "$ref": "#/texts/6"
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "list"
+      "label": "ordered_list"
     },
     {
       "self_ref": "#/groups/1",
@@ -304,12 +304,6 @@
         "$ref": "#/body"
       },
       "children": [
-        {
-          "$ref": "#/texts/29"
-        },
-        {
-          "$ref": "#/texts/30"
-        },
         {
           "$ref": "#/texts/31"
         },
@@ -321,17 +315,11 @@
         },
         {
           "$ref": "#/texts/34"
-        },
-        {
-          "$ref": "#/texts/35"
-        },
-        {
-          "$ref": "#/texts/36"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "ordered_list"
+      "label": "list"
     },
     {
       "self_ref": "#/groups/2",
@@ -350,32 +338,9 @@
         },
         {
           "$ref": "#/texts/41"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/3",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/45"
         },
         {
-          "$ref": "#/texts/46"
-        },
-        {
-          "$ref": "#/texts/47"
-        },
-        {
-          "$ref": "#/texts/48"
-        },
-        {
-          "$ref": "#/texts/49"
+          "$ref": "#/texts/42"
         }
       ],
       "content_layer": "body",
@@ -393,107 +358,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2022/08/05/use-gnome-keyring-with-sway/",
-      "text": "/2022/08/05/use-gnome-keyring-with-sway/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "gnome",
-      "text": "gnome",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "ssh",
-      "text": "ssh",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "sway",
-      "text": "sway",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "SSH key authentication  makes it easier to secure SSH servers and it opens the door to automation with projects such as  Ansible . However, working with encrypted SSH keys becomes tedious when you have several of them for different services. This is where an SSH agent can help!",
       "text": "SSH key authentication  makes it easier to secure SSH servers and it opens the door to automation with projects such as  Ansible . However, working with encrypted SSH keys becomes tedious when you have several of them for different services. This is where an SSH agent can help!"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -505,7 +374,7 @@
       "text": "But before we talk about SSH agents:"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -517,7 +386,7 @@
       "text": "Padme meme where she asks Anakin about encrypting his ssh keys"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -529,7 +398,7 @@
       "text": "You do, don't you?  \ud83e\udd14"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -541,7 +410,7 @@
       "text": "Encrypting an existing ssh key"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -553,7 +422,7 @@
       "text": "I won't tell anyone, but if you happen to have unencrypted SSH keys laying around (which I'm sure you don't), I'll give you a quick primer on encrypting them. But you surely won't need these instructions. I'll do it anyway."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -565,7 +434,7 @@
       "text": "Hop into your "
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -581,7 +450,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -593,7 +462,7 @@
       "text": " directory and encrypt the key with "
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -609,7 +478,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -621,7 +490,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -637,7 +506,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -649,7 +518,7 @@
       "text": "If the first response from "
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -665,7 +534,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -677,7 +546,7 @@
       "text": " says "
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -693,7 +562,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -705,7 +574,7 @@
       "text": ", then you have an unencrypted key. If it says "
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -721,7 +590,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -733,7 +602,7 @@
       "text": " instead, your private key is already encrypted. You can proceed through the prompts to set the password on the key."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -745,7 +614,7 @@
       "text": "Agents can help"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -757,7 +626,7 @@
       "text": "One thing you quickly notice when you have a fleet of encrypted SSH keys is that you are constantly entering passwords. That's tedious. Instead, an agent helps you enter a password for a key one time per session. Every time to use the key after that first time, the agent steps in to help. \ud83d\udd75\ud83c\udffb"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -769,9 +638,9 @@
       "text": "It goes something like this:"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/22",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -783,9 +652,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/23",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -797,6 +666,102 @@
       "marker": "-"
     },
     {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "The remote server says ",
+      "text": "The remote server says ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Your ssh client takes the request from the remote server and hands it to the agent",
+      "text": "Your ssh client takes the request from the remote server and hands it to the agent",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "The agent signs the message for the client",
+      "text": "The agent signs the message for the client",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Your client sends the signed message back to the server",
+      "text": "Your client sends the signed message back to the server",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "The server verifies the signature",
+      "text": "The server verifies the signature",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "The ssh connection is connected \ud83c\udf8a",
+      "text": "The ssh connection is connected \ud83c\udf8a",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "There are some really important things to note here:",
+      "text": "There are some really important things to note here:"
+    },
+    {
       "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/groups/1"
@@ -805,8 +770,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "The remote server says ",
-      "text": "The remote server says ",
+      "orig": "The agent holds the key or certificate in an unencrypted state in memory",
+      "text": "The agent holds the key or certificate in an unencrypted state in memory",
       "enumerated": false,
       "marker": "-"
     },
@@ -819,8 +784,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Your ssh client takes the request from the remote server and hands it to the agent",
-      "text": "Your ssh client takes the request from the remote server and hands it to the agent",
+      "orig": "The agent doesn't write anything to the disk",
+      "text": "The agent doesn't write anything to the disk",
       "enumerated": false,
       "marker": "-"
     },
@@ -833,8 +798,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "The agent signs the message for the client",
-      "text": "The agent signs the message for the client",
+      "orig": "Your password is not stored in memory once the initial decryption with ",
+      "text": "Your password is not stored in memory once the initial decryption with ",
       "enumerated": false,
       "marker": "-"
     },
@@ -847,109 +812,13 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Your client sends the signed message back to the server",
-      "text": "Your client sends the signed message back to the server",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/35",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "The server verifies the signature",
-      "text": "The server verifies the signature",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/36",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "The ssh connection is connected \ud83c\udf8a",
-      "text": "The ssh connection is connected \ud83c\udf8a",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/37",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "There are some really important things to note here:",
-      "text": "There are some really important things to note here:"
-    },
-    {
-      "self_ref": "#/texts/38",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "The agent holds the key or certificate in an unencrypted state in memory",
-      "text": "The agent holds the key or certificate in an unencrypted state in memory",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/39",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "The agent doesn't write anything to the disk",
-      "text": "The agent doesn't write anything to the disk",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/40",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Your password is not stored in memory once the initial decryption with ",
-      "text": "Your password is not stored in memory once the initial decryption with ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/41",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "Communication happens over a Unix socket that is owned by only your user",
       "text": "Communication happens over a Unix socket that is owned by only your user",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -961,7 +830,7 @@
       "text": "This setup is far better than entering passwords over and over again, but if you forget to use "
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -977,7 +846,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -989,9 +858,9 @@
       "text": " before connecting to another server, you can get stuck in a loop like I do:"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/38",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1003,9 +872,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/39",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1017,9 +886,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/40",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1031,9 +900,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/41",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1045,9 +914,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/42",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1059,7 +928,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -1071,7 +940,7 @@
       "text": "Luckily, there's a better way."
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -1083,7 +952,7 @@
       "text": "Adding GNOME Keyring"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -1095,7 +964,7 @@
       "text": "GNOME Keyring  has been around for many years and it provides tons of helpful features. You can store secrets, certificates, and SSH keys in the keyring. The keyring prompts you for a password when you log in to unlock the keyring and it locks again on reboot or shutdown."
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1107,7 +976,7 @@
       "text": "It also provides ssh-agent functionality with a key difference: when it asks you for your SSH key password one time, it stores it for the next time. That means no "
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1117,6 +986,102 @@
       "prov": [],
       "orig": "ssh-add",
       "text": "ssh-add",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " doom loops like I talked about earlier. You run ",
+      "text": " doom loops like I talked about earlier. You run "
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "ssh",
+      "text": "ssh",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " to connect to a server, get prompted for the key's password, and that's it. That key won't need to be decrypted again as long as your session is active.",
+      "text": " to connect to a server, get prompted for the key's password, and that's it. That key won't need to be decrypted again as long as your session is active."
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Let's look at the options for ",
+      "text": "Let's look at the options for "
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "gnome-keyring-daemon",
+      "text": "gnome-keyring-daemon",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": ":",
+      "text": ":"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "\u276f gnome-keyring-daemon --help\nUsage:\n  gnome-keyring-daemon [OPTION\u2026] - The Gnome Keyring Daemon\n\nHelp Options:\n  -h, --help                              Show help options\n\nApplication Options:\n  -s, --start                             Start a dameon or initialize an already running daemon.\n  -r, --replace                           Replace the daemon for this desktop login environment.\n  -f, --foreground                        Run in the foreground\n  -d, --daemonize                         Run as a daemon\n  -l, --login                             Run by PAM for a user login. Read login password from stdin\n  --unlock                                Prompt for login keyring password, or read from stdin\n  -c, --components=pkcs11,secrets,ssh     The optional components to run\n  -C, --control-directory                 The directory for sockets and control data\n  -V, --version                           Show the version number and exit.",
+      "text": "\u276f gnome-keyring-daemon --help\nUsage:\n  gnome-keyring-daemon [OPTION\u2026] - The Gnome Keyring Daemon\n\nHelp Options:\n  -h, --help                              Show help options\n\nApplication Options:\n  -s, --start                             Start a dameon or initialize an already running daemon.\n  -r, --replace                           Replace the daemon for this desktop login environment.\n  -f, --foreground                        Run in the foreground\n  -d, --daemonize                         Run as a daemon\n  -l, --login                             Run by PAM for a user login. Read login password from stdin\n  --unlock                                Prompt for login keyring password, or read from stdin\n  -c, --components=pkcs11,secrets,ssh     The optional components to run\n  -C, --control-directory                 The directory for sockets and control data\n  -V, --version                           Show the version number and exit.",
       "captions": [],
       "references": [],
       "footnotes": [],
@@ -1131,8 +1096,8 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": " doom loops like I talked about earlier. You run ",
-      "text": " doom loops like I talked about earlier. You run "
+      "orig": "You'll notice that the default set of components includes ",
+      "text": "You'll notice that the default set of components includes "
     },
     {
       "self_ref": "#/texts/56",
@@ -1159,107 +1124,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": " to connect to a server, get prompted for the key's password, and that's it. That key won't need to be decrypted again as long as your session is active.",
-      "text": " to connect to a server, get prompted for the key's password, and that's it. That key won't need to be decrypted again as long as your session is active."
-    },
-    {
-      "self_ref": "#/texts/58",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Let's look at the options for ",
-      "text": "Let's look at the options for "
-    },
-    {
-      "self_ref": "#/texts/59",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "gnome-keyring-daemon",
-      "text": "gnome-keyring-daemon",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/60",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": ":",
-      "text": ":"
-    },
-    {
-      "self_ref": "#/texts/61",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "\u276f gnome-keyring-daemon --help\nUsage:\n  gnome-keyring-daemon [OPTION\u2026] - The Gnome Keyring Daemon\n\nHelp Options:\n  -h, --help                              Show help options\n\nApplication Options:\n  -s, --start                             Start a dameon or initialize an already running daemon.\n  -r, --replace                           Replace the daemon for this desktop login environment.\n  -f, --foreground                        Run in the foreground\n  -d, --daemonize                         Run as a daemon\n  -l, --login                             Run by PAM for a user login. Read login password from stdin\n  --unlock                                Prompt for login keyring password, or read from stdin\n  -c, --components=pkcs11,secrets,ssh     The optional components to run\n  -C, --control-directory                 The directory for sockets and control data\n  -V, --version                           Show the version number and exit.",
-      "text": "\u276f gnome-keyring-daemon --help\nUsage:\n  gnome-keyring-daemon [OPTION\u2026] - The Gnome Keyring Daemon\n\nHelp Options:\n  -h, --help                              Show help options\n\nApplication Options:\n  -s, --start                             Start a dameon or initialize an already running daemon.\n  -r, --replace                           Replace the daemon for this desktop login environment.\n  -f, --foreground                        Run in the foreground\n  -d, --daemonize                         Run as a daemon\n  -l, --login                             Run by PAM for a user login. Read login password from stdin\n  --unlock                                Prompt for login keyring password, or read from stdin\n  -c, --components=pkcs11,secrets,ssh     The optional components to run\n  -C, --control-directory                 The directory for sockets and control data\n  -V, --version                           Show the version number and exit.",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/62",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "You'll notice that the default set of components includes ",
-      "text": "You'll notice that the default set of components includes "
-    },
-    {
-      "self_ref": "#/texts/63",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "ssh",
-      "text": "ssh",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/64",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": " for the ssh-agent functionality. However, Fedora handles things a little differently by default:",
       "text": " for the ssh-agent functionality. However, Fedora handles things a little differently by default:"
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1275,7 +1144,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1285,6 +1154,102 @@
       "prov": [],
       "orig": "The ",
       "text": "The "
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "ssh",
+      "text": "ssh",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " component is missing from the user systemd unit! \ud83d\ude31",
+      "text": " component is missing from the user systemd unit! \ud83d\ude31"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Let's start by copying this unit to our systemd user unit directory so we can modify it:",
+      "text": "Let's start by copying this unit to our systemd user unit directory so we can modify it:"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "\u276f mkdir -vp ~/.config/systemd/user/\n\u276f cp /usr/lib/systemd/user/gnome-keyring-daemon.service ~/.config/systemd/user/",
+      "text": "\u276f mkdir -vp ~/.config/systemd/user/\n\u276f cp /usr/lib/systemd/user/gnome-keyring-daemon.service ~/.config/systemd/user/",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Open ",
+      "text": "Open "
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "~/.config/systemd/user/gnome-keyring-daemon.service",
+      "text": "~/.config/systemd/user/gnome-keyring-daemon.service",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " in your favorite text editor and add ",
+      "text": " in your favorite text editor and add "
     },
     {
       "self_ref": "#/texts/67",
@@ -1311,107 +1276,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": " component is missing from the user systemd unit! \ud83d\ude31",
-      "text": " component is missing from the user systemd unit! \ud83d\ude31"
-    },
-    {
-      "self_ref": "#/texts/69",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Let's start by copying this unit to our systemd user unit directory so we can modify it:",
-      "text": "Let's start by copying this unit to our systemd user unit directory so we can modify it:"
-    },
-    {
-      "self_ref": "#/texts/70",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "\u276f mkdir -vp ~/.config/systemd/user/\n\u276f cp /usr/lib/systemd/user/gnome-keyring-daemon.service ~/.config/systemd/user/",
-      "text": "\u276f mkdir -vp ~/.config/systemd/user/\n\u276f cp /usr/lib/systemd/user/gnome-keyring-daemon.service ~/.config/systemd/user/",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/71",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Open ",
-      "text": "Open "
-    },
-    {
-      "self_ref": "#/texts/72",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "~/.config/systemd/user/gnome-keyring-daemon.service",
-      "text": "~/.config/systemd/user/gnome-keyring-daemon.service",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/73",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": " in your favorite text editor and add ",
-      "text": " in your favorite text editor and add "
-    },
-    {
-      "self_ref": "#/texts/74",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "ssh",
-      "text": "ssh",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/75",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": " to the ",
       "text": " to the "
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/69",
       "parent": {
         "$ref": "#/body"
       },
@@ -1427,7 +1296,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/70",
       "parent": {
         "$ref": "#/body"
       },
@@ -1439,7 +1308,7 @@
       "text": " argument so it looks like this:"
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/71",
       "parent": {
         "$ref": "#/body"
       },
@@ -1455,7 +1324,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/79",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },
@@ -1467,7 +1336,7 @@
       "text": "Let's reload the systemd user units and start the service:"
     },
     {
-      "self_ref": "#/texts/80",
+      "self_ref": "#/texts/73",
       "parent": {
         "$ref": "#/body"
       },
@@ -1483,7 +1352,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/81",
+      "self_ref": "#/texts/74",
       "parent": {
         "$ref": "#/body"
       },
@@ -1495,7 +1364,7 @@
       "text": "Awesome! There's only one last step. The SSH client needs to know where to look for the agent socket. The last line of the status output line shows the answer: "
     },
     {
-      "self_ref": "#/texts/82",
+      "self_ref": "#/texts/75",
       "parent": {
         "$ref": "#/body"
       },
@@ -1511,7 +1380,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/83",
+      "self_ref": "#/texts/76",
       "parent": {
         "$ref": "#/body"
       },
@@ -1523,7 +1392,7 @@
       "text": "Open your "
     },
     {
-      "self_ref": "#/texts/84",
+      "self_ref": "#/texts/77",
       "parent": {
         "$ref": "#/body"
       },
@@ -1539,7 +1408,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/85",
+      "self_ref": "#/texts/78",
       "parent": {
         "$ref": "#/body"
       },
@@ -1551,7 +1420,7 @@
       "text": " or "
     },
     {
-      "self_ref": "#/texts/86",
+      "self_ref": "#/texts/79",
       "parent": {
         "$ref": "#/body"
       },
@@ -1567,7 +1436,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/87",
+      "self_ref": "#/texts/80",
       "parent": {
         "$ref": "#/body"
       },
@@ -1579,7 +1448,7 @@
       "text": " (or whatever you use for your shell) and add this line:"
     },
     {
-      "self_ref": "#/texts/88",
+      "self_ref": "#/texts/81",
       "parent": {
         "$ref": "#/body"
       },
@@ -1595,7 +1464,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/89",
+      "self_ref": "#/texts/82",
       "parent": {
         "$ref": "#/body"
       },
@@ -1607,7 +1476,7 @@
       "text": "Open a new terminal or reload your shell with "
     },
     {
-      "self_ref": "#/texts/90",
+      "self_ref": "#/texts/83",
       "parent": {
         "$ref": "#/body"
       },
@@ -1623,7 +1492,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/91",
+      "self_ref": "#/texts/84",
       "parent": {
         "$ref": "#/body"
       },
@@ -1635,7 +1504,7 @@
       "text": " or "
     },
     {
-      "self_ref": "#/texts/92",
+      "self_ref": "#/texts/85",
       "parent": {
         "$ref": "#/body"
       },
@@ -1651,7 +1520,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/93",
+      "self_ref": "#/texts/86",
       "parent": {
         "$ref": "#/body"
       },
@@ -1663,7 +1532,7 @@
       "text": ". Run "
     },
     {
-      "self_ref": "#/texts/94",
+      "self_ref": "#/texts/87",
       "parent": {
         "$ref": "#/body"
       },
@@ -1679,7 +1548,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/95",
+      "self_ref": "#/texts/88",
       "parent": {
         "$ref": "#/body"
       },
@@ -1691,7 +1560,7 @@
       "text": " to connect to a server with an encrypted key and you should get a password prompt like this one:"
     },
     {
-      "self_ref": "#/texts/96",
+      "self_ref": "#/texts/89",
       "parent": {
         "$ref": "#/body"
       },
@@ -1703,7 +1572,7 @@
       "text": "Password prompt from GNOME Keyring"
     },
     {
-      "self_ref": "#/texts/97",
+      "self_ref": "#/texts/90",
       "parent": {
         "$ref": "#/body"
       },
@@ -1715,7 +1584,7 @@
       "text": "Extra credit"
     },
     {
-      "self_ref": "#/texts/98",
+      "self_ref": "#/texts/91",
       "parent": {
         "$ref": "#/body"
       },

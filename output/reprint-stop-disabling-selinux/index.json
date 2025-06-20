@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 13629326981859978444,
-    "filename": "index.md"
+    "binary_hash": 15235087809907534518,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,28 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
       },
       {
         "$ref": "#/texts/9"
@@ -45,34 +66,7 @@
         "$ref": "#/texts/15"
       },
       {
-        "$ref": "#/texts/16"
-      },
-      {
-        "$ref": "#/texts/17"
-      },
-      {
-        "$ref": "#/texts/18"
-      },
-      {
-        "$ref": "#/texts/19"
-      },
-      {
-        "$ref": "#/texts/20"
-      },
-      {
-        "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
-      },
-      {
-        "$ref": "#/texts/23"
-      },
-      {
-        "$ref": "#/texts/24"
-      },
-      {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       }
     ],
     "content_layer": "body",
@@ -87,48 +81,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/16"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/17"
         },
         {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        },
-        {
-          "$ref": "#/texts/8"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/25"
-        },
-        {
-          "$ref": "#/texts/26"
-        },
-        {
-          "$ref": "#/texts/27"
+          "$ref": "#/texts/18"
         }
       ],
       "content_layer": "body",
@@ -146,135 +105,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2013/04/19/reprint-stop-disabling-selinux/",
-      "text": "/2013/04/19/reprint-stop-disabling-selinux/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "centos",
-      "text": "centos",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "red hat",
-      "text": "red hat",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "selinux",
-      "text": "selinux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "writing",
-      "text": "writing",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "This article appeared in  SC Magazine  and I've posted it here as well. For those of you who were left wanting more from my  previous SELinux post , this should help. If it doesn't help, leave a comment. ;)",
       "text": "This article appeared in  SC Magazine  and I've posted it here as well. For those of you who were left wanting more from my  previous SELinux post , this should help. If it doesn't help, leave a comment. ;)"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -286,7 +121,7 @@
       "text": "The push to cloud transforms the way we apply information security principles to systems and applications. Perimeters of the past, secured heavily with traditional network devices in the outermost ring, lose effectiveness day by day. Shifting the focus to \"defense in depth\" brings the perimeter down to the individual cloud instances running your application. Security-Enhanced Linux, or SELinux, forms an effective part of that perimeter."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -298,7 +133,7 @@
       "text": "SELinux operates in the realm of mandatory access control, or MAC. The design of MAC involves placing constraints on what a user (a  subject ) can do to a particular object (a  target ) on the system. In contrast, discretionary access control, or DAC, allows a user with certain access to use discretion to limit or allow access to certain files, directories, or devices. You can set any file system permissions that you want but SELinux can override them with ease at the operating system level."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -310,7 +145,7 @@
       "text": "Consider a typical server running a web application. An attacker compromises the web application and executes malicious code via the web server daemon itself. SELinux has default policies that prevent the daemon from initiating communication on the network. That limits the attacker\u2019s options to attack other services or servers."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -322,7 +157,7 @@
       "text": "In addition, SELinux sets policies on which files and directories the web server can access, regardless of any file system permissions. This protection limits the attacker\u2019s access to other sensitive parts of the file system even if the administrator set the files to be readable to the world."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -334,7 +169,7 @@
       "text": "This is where SELinux shines. Oddly enough, this is the point where many system administrators actually  disable SELinux  on their systems."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -346,7 +181,7 @@
       "text": "Troubleshooting these events, called AVC denials, without some helpful tools is challenging and frustrating. Each denial flows into to your audit log as a cryptic message. Most administrators will check the usual suspects, like firewall rules and file system permissions. As frustration builds, they disable SELinux and notice that their application begins working as expected. SELinux remains disabled and hundreds of helpful policies lie dormant solely because one policy caused a problem."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -358,7 +193,7 @@
       "text": "Disabling SELinux without investigation frustrated me to the point where I started a site at  stopdisablingselinux.com . The site is a snarky response to Linux administrators who reach for the disable switch as soon as SELinux gets in their way."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -370,7 +205,7 @@
       "text": "All jokes aside, here are some helpful tips to use SELinux effectively:"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -382,7 +217,7 @@
       "text": "Use the  setroubleshoot  helpers to understand denials"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -394,7 +229,7 @@
       "text": "Working through denials is easy with the  setroubleshoot-server  package. When a denial occurs, you still receive a cryptic log message in your audit logs. However, you also receive a message via syslog that is very easy to read. Your server can email you these messages as well. The message contains guidance about adjusting SELinux booleans, setting contexts, or generating new SELinux policies to work around a really unusual problem. When I say guidance, I mean that the tools give you commands to copy and paste to adjust your policies, booleans and contexts."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -406,7 +241,7 @@
       "text": "Review SELinux booleans for quick adjustments"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -418,7 +253,7 @@
       "text": "Although the myriad of SELinux user-space tools isn\u2019t within the scope of this article,  getsebool  and  togglesebool  deserve a mention. Frequently adjusted policies are controlled by booleans that are toggled on and off with  togglesebool . Start with  getsebool \u2013a  for a full list of booleans and then use  togglesebool  to enable or disable the policy."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -430,7 +265,7 @@
       "text": "Quickly restore file or directory contexts"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -442,7 +277,7 @@
       "text": "Shuffling files or directories around a server can cause SELinux denials due to contexts not matching their original values. This happens to me frequently if I move a configuration file from one system to another. Correcting the context problem involves one of two simple commands. The  restorecon  command applies the default contexts specific to the file or directory. If you have a file in the directory with the correct context, use  chcon  to fix the context on the wrong file by giving it the path to the file with the correct context."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -454,9 +289,9 @@
       "text": "Here are some additional links with helpful SELinux documentation:"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/16",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -468,9 +303,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/17",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -482,9 +317,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/18",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",

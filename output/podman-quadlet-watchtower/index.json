@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 10017431576253379770,
-    "filename": "index.md"
+    "binary_hash": 10696774715202529044,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,16 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
         "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
       },
       {
         "$ref": "#/texts/8"
@@ -30,7 +39,16 @@
         "$ref": "#/texts/9"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
       },
       {
         "$ref": "#/texts/14"
@@ -60,22 +78,13 @@
         "$ref": "#/texts/22"
       },
       {
-        "$ref": "#/texts/23"
-      },
-      {
-        "$ref": "#/texts/24"
+        "$ref": "#/groups/1"
       },
       {
         "$ref": "#/texts/25"
       },
       {
-        "$ref": "#/texts/26"
-      },
-      {
-        "$ref": "#/texts/27"
-      },
-      {
-        "$ref": "#/texts/28"
+        "$ref": "#/groups/2"
       },
       {
         "$ref": "#/texts/29"
@@ -84,43 +93,28 @@
         "$ref": "#/texts/30"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
       },
       {
         "$ref": "#/texts/33"
       },
       {
-        "$ref": "#/groups/3"
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
       },
       {
         "$ref": "#/texts/37"
       },
       {
         "$ref": "#/texts/38"
-      },
-      {
-        "$ref": "#/texts/39"
-      },
-      {
-        "$ref": "#/texts/40"
-      },
-      {
-        "$ref": "#/texts/41"
-      },
-      {
-        "$ref": "#/texts/42"
-      },
-      {
-        "$ref": "#/texts/43"
-      },
-      {
-        "$ref": "#/texts/44"
-      },
-      {
-        "$ref": "#/texts/45"
-      },
-      {
-        "$ref": "#/texts/46"
       }
     ],
     "content_layer": "body",
@@ -135,9 +129,6 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
           "$ref": "#/texts/2"
         },
         {
@@ -148,12 +139,6 @@
         },
         {
           "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
         }
       ],
       "content_layer": "body",
@@ -167,21 +152,15 @@
       },
       "children": [
         {
-          "$ref": "#/texts/10"
+          "$ref": "#/texts/23"
         },
         {
-          "$ref": "#/texts/11"
-        },
-        {
-          "$ref": "#/texts/12"
-        },
-        {
-          "$ref": "#/texts/13"
+          "$ref": "#/texts/24"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "list"
+      "label": "ordered_list"
     },
     {
       "self_ref": "#/groups/2",
@@ -190,30 +169,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/31"
+          "$ref": "#/texts/26"
         },
         {
-          "$ref": "#/texts/32"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "ordered_list"
-    },
-    {
-      "self_ref": "#/groups/3",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/34"
+          "$ref": "#/texts/27"
         },
         {
-          "$ref": "#/texts/35"
-        },
-        {
-          "$ref": "#/texts/36"
+          "$ref": "#/texts/28"
         }
       ],
       "content_layer": "body",
@@ -231,22 +193,20 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "title: \"Launch a watchtower container via podman quadlets\" Podman's new quadlet feature lets you specify container launch configuration via simple systemd-like unit files. \ud83d\udce6 date: 2023-05-31 tags:",
-      "text": "title: \"Launch a watchtower container via podman quadlets\" Podman's new quadlet feature lets you specify container launch configuration via simple systemd-like unit files. \ud83d\udce6 date: 2023-05-31 tags:"
+      "orig": "Most of my container workloads run on independent CoreOS cloud instances that I  treat like pets . Keeping containers update remains a constant battle, but it's still easier than running kubernetes.",
+      "text": "Most of my container workloads run on independent CoreOS cloud instances that I  treat like pets . Keeping containers update remains a constant battle, but it's still easier than running kubernetes."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "containers",
-      "text": "containers",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "I wrote about  using watchtower  in the past to keep containers updated. It's a simple container that does a few important things:",
+      "text": "I wrote about  using watchtower  in the past to keep containers updated. It's a simple container that does a few important things:"
     },
     {
       "self_ref": "#/texts/2",
@@ -257,8 +217,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "coreos",
-      "text": "coreos",
+      "orig": "It monitors (via docker/podman socket) the running containers on the host",
+      "text": "It monitors (via docker/podman socket) the running containers on the host",
       "enumerated": false,
       "marker": "-"
     },
@@ -271,8 +231,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
+      "orig": "It tracks the versions/tags of each container image",
+      "text": "It tracks the versions/tags of each container image",
       "enumerated": false,
       "marker": "-"
     },
@@ -285,8 +245,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "podman",
-      "text": "podman",
+      "orig": "It looks for updated versions of the container image in their upstream repositories",
+      "text": "It looks for updated versions of the container image in their upstream repositories",
       "enumerated": false,
       "marker": "-"
     },
@@ -299,121 +259,13 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "quadlet",
-      "text": "quadlet",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "watchtower",
-      "text": "watchtower",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Most of my container workloads run on independent CoreOS cloud instances that I  treat like pets . Keeping containers update remains a constant battle, but it's still easier than running kubernetes.",
-      "text": "Most of my container workloads run on independent CoreOS cloud instances that I  treat like pets . Keeping containers update remains a constant battle, but it's still easier than running kubernetes."
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "I wrote about  using watchtower  in the past to keep containers updated. It's a simple container that does a few important things:",
-      "text": "I wrote about  using watchtower  in the past to keep containers updated. It's a simple container that does a few important things:"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "It monitors (via docker/podman socket) the running containers on the host",
-      "text": "It monitors (via docker/podman socket) the running containers on the host",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "It tracks the versions/tags of each container image",
-      "text": "It tracks the versions/tags of each container image",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "It looks for updated versions of the container image in their upstream repositories",
-      "text": "It looks for updated versions of the container image in their upstream repositories",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/13",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "Based on a configurable schedule, it pulls a new container image and restarts the container for updates",
       "text": "Based on a configurable schedule, it pulls a new container image and restarts the container for updates",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -425,7 +277,7 @@
       "text": "I encourage you to  read more about watchtower on GitHub . There's plenty you can configure, including update intervals, how updates are handled, and how you can get notifications when an update happens."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -437,7 +289,7 @@
       "text": "My new deployments always need watchtower running. Luckily, we can combine Fedora CoreOS' initial provisioning system, called  ignition , with podman's new  quadlet  feature and launch watchtower automatically on the first boot."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -449,7 +301,7 @@
       "text": "Quadlets"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -461,7 +313,7 @@
       "text": "So what's a quadlet?"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -473,7 +325,7 @@
       "text": "The  blog post  explains it well by making containers more declarative via a familiar systemd syntax. Here's an example "
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -489,7 +341,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -501,7 +353,7 @@
       "text": " file from the post:"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -517,7 +369,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -529,7 +381,7 @@
       "text": "You can toss this into "
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -545,7 +397,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -557,7 +409,7 @@
       "text": " for rootless user containers or in "
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -573,7 +425,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -585,7 +437,7 @@
       "text": " for a container running as root."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -597,7 +449,7 @@
       "text": "Configure a quadlet on boot"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -609,7 +461,7 @@
       "text": "As I mentioned earlier, I want a watchtower container running on my CoreOS nodes at first boot. Let's start with a fairly basic  butane  file:"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -625,7 +477,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -637,9 +489,9 @@
       "text": "Let's break this file down:"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/23",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -651,9 +503,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/24",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -665,7 +517,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -677,9 +529,9 @@
       "text": "The quadlet file has some important configurations:"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/26",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -691,9 +543,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/27",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -705,9 +557,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/28",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -719,7 +571,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -731,7 +583,7 @@
       "text": "{{< alert >}} Mounting the podman socket and disabling security labels is not an ideal security approach. However, I've found that watchtower's configuration and automation fits my needs really well and I retreive the image from a trusted source. If this won't work for you, you can use  podman's built-in auto-update  feature instead. {{< /alert >}}"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -743,7 +595,7 @@
       "text": "From here, we convert the butane configuration into an ignition configuration. I'm launching this CoreOS node on  VULTR , so I've named my files accordingly:"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -759,7 +611,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -771,7 +623,7 @@
       "text": "Let's go \ud83d\ude80"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -783,7 +635,7 @@
       "text": "I'm using VULTR's CLI here in Fedora, but you can do the same steps via VULTR's portal if needed. Just paste in the ignition configuration into the large text box before launch."
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -799,7 +651,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -811,7 +663,7 @@
       "text": "Let's see how the container is doing:"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -827,7 +679,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -839,7 +691,7 @@
       "text": "Awesome!  \ud83e\udd73"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },

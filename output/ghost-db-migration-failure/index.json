@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 11614360154358747967,
-    "filename": "index.md"
+    "binary_hash": 6456338056991398962,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,19 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
       },
       {
         "$ref": "#/texts/6"
@@ -96,25 +108,25 @@
         "$ref": "#/texts/29"
       },
       {
-        "$ref": "#/texts/30"
+        "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/31"
+        "$ref": "#/texts/36"
       },
       {
-        "$ref": "#/texts/32"
+        "$ref": "#/texts/37"
       },
       {
-        "$ref": "#/texts/33"
+        "$ref": "#/texts/38"
       },
       {
-        "$ref": "#/texts/34"
+        "$ref": "#/texts/39"
       },
       {
-        "$ref": "#/texts/35"
+        "$ref": "#/texts/40"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/41"
       },
       {
         "$ref": "#/texts/42"
@@ -205,24 +217,6 @@
       },
       {
         "$ref": "#/texts/71"
-      },
-      {
-        "$ref": "#/texts/72"
-      },
-      {
-        "$ref": "#/texts/73"
-      },
-      {
-        "$ref": "#/texts/74"
-      },
-      {
-        "$ref": "#/texts/75"
-      },
-      {
-        "$ref": "#/texts/76"
-      },
-      {
-        "$ref": "#/texts/77"
       }
     ],
     "content_layer": "body",
@@ -237,48 +231,22 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/30"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/31"
         },
         {
-          "$ref": "#/texts/3"
+          "$ref": "#/texts/32"
         },
         {
-          "$ref": "#/texts/4"
+          "$ref": "#/texts/33"
         },
         {
-          "$ref": "#/texts/5"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/36"
+          "$ref": "#/texts/34"
         },
         {
-          "$ref": "#/texts/37"
-        },
-        {
-          "$ref": "#/texts/38"
-        },
-        {
-          "$ref": "#/texts/39"
-        },
-        {
-          "$ref": "#/texts/40"
-        },
-        {
-          "$ref": "#/texts/41"
+          "$ref": "#/texts/35"
         }
       ],
       "content_layer": "body",
@@ -296,93 +264,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "author: Major Hayden date: '2023-08-31' summary: > I woke up one morning to find my Ghost blog unresponsive. It required an unexpected fix. \ud83d\udd27 tags:",
-      "text": "author: Major Hayden date: '2023-08-31' summary: > I woke up one morning to find my Ghost blog unresponsive. It required an unexpected fix. \ud83d\udd27 tags:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "containers",
-      "text": "containers",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "ghost",
-      "text": "ghost",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "mariadb",
-      "text": "mariadb",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "mysql",
-      "text": "mysql",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "podman",
-      "text": "podman",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "I love learning about the  behind the scenes  aspects of just about everything. I do  ham radio , I self-host lots of my personal infrastructure, and I've been learning more about the math behind the stock market for the last year or two.",
       "text": "I love learning about the  behind the scenes  aspects of just about everything. I do  ham radio , I self-host lots of my personal infrastructure, and I've been learning more about the math behind the stock market for the last year or two."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -394,7 +280,7 @@
       "text": "That led me to start a blog on  Ghost  to share my findings with others. I started  Theta Nerd [^what_theta] earlier this summer."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -406,7 +292,7 @@
       "text": "My deployment looked great when I started! Everything was automatically updated with  watchtower  and running with  docker-compose on Fedora CoreOS .  (Click these links to read the posts on both topics!)"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -418,7 +304,7 @@
       "text": "However, I woke up one morning to my monitoring going off and my site was down. \ud83d\ude31"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -430,7 +316,7 @@
       "text": "Why is the site down?"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -442,7 +328,7 @@
       "text": "Anyone who has worked in IT knows this sinking feeling. Something is down, you don't know why, and you suspect the worst possible scenarios."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -454,7 +340,7 @@
       "text": "The instance hosting the blog was online and responsive, so I started digging into the logs with "
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -470,7 +356,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -482,7 +368,7 @@
       "text": ". I suddenly found a wall of text in the logs for the Ghost container:"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -498,7 +384,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -510,7 +396,7 @@
       "text": "Ah, so a failed database migration in the upgrade to 5.57.2 is the culprit! \ud83d\udc4f"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -522,7 +408,7 @@
       "text": "I brought the site back online quickly by changing the container version for Ghost back to the previous version (5.55.2)."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -534,7 +420,7 @@
       "text": "Why did the database migration fail?"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -546,7 +432,7 @@
       "text": "The error message from above boils down to this:"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -562,7 +448,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -574,7 +460,7 @@
       "text": "Adjusting the "
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -590,7 +476,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -602,7 +488,7 @@
       "text": " column to be a foreign key of "
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -618,7 +504,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -630,7 +516,7 @@
       "text": " is failing because they are incompatible types. However, as I examined both tables, both were regular "
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -646,7 +532,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -658,7 +544,7 @@
       "text": " columns without anything special attached to them:"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -674,7 +560,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -686,7 +572,7 @@
       "text": "Going upstream"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -698,7 +584,7 @@
       "text": "I went to Ghost's GitHub repository and  opened an issue  with as much data as I can find."
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -710,7 +596,7 @@
       "text": "One of the  first replies  mentioned something about database collations. Long story short, collations describe how databases handle sorting and comparing data for different languages. Comparing some languages to other languages can be particularly challenging and this can lead to problems."
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -722,7 +608,7 @@
       "text": "I made a switch from MariaDB to MySQL recently for the blog. Could that be related?"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -734,7 +620,7 @@
       "text": "More searching"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -746,7 +632,7 @@
       "text": "I figured that I wasn't the first one to stumble into this problem, and sure enough -- I wasn't! There's a  great blog post  about a broken migration from MySQL 5 to 8 with Ghost."
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -758,9 +644,9 @@
       "text": "In short, it required several steps to fix it:"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/30",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -772,9 +658,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/31",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -786,9 +672,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/32",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -800,9 +686,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/33",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -814,9 +700,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/34",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -828,9 +714,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/35",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -842,7 +728,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -854,7 +740,7 @@
       "text": "Dropping databases always makes me pause, but that's what backups are for! \ud83d\ude09"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -866,7 +752,7 @@
       "text": "How I fixed it"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -878,7 +764,7 @@
       "text": "In my case, my MySQL container is called "
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -894,7 +780,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -906,7 +792,7 @@
       "text": " and my Ghost database is "
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -922,7 +808,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -934,7 +820,7 @@
       "text": ". Then I made a backup of the database using "
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -950,7 +836,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -962,7 +848,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -978,7 +864,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -990,7 +876,7 @@
       "text": "Next, I copied the SQL file to another directory  just in case  I accidentally deleted this backup with an errant command."
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1006,7 +892,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1018,7 +904,7 @@
       "text": "Then I made a copy of the SQL file in the current directory and ran the find and replace on that copy. This changes the collations from the wrong one, "
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1034,7 +920,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1046,7 +932,7 @@
       "text": ", to the right one, "
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1062,7 +948,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1074,7 +960,7 @@
       "text": "[^default_collation]:"
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1090,7 +976,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1102,7 +988,7 @@
       "text": "Now I have the collations right for importing the database back into MySQL. But first, I have to drop the existing database. This is a good time to double check your backups!"
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1118,7 +1004,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1130,7 +1016,7 @@
       "text": "Now we can import the modified backup:"
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1146,7 +1032,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1156,6 +1042,90 @@
       "prov": [],
       "orig": "Start all the containers:",
       "text": "Start all the containers:"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "sudo docker-compose up -d",
+      "text": "sudo docker-compose up -d",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Ghost was back online with the older version and everything looked good! I updated my ",
+      "text": "Ghost was back online with the older version and everything looked good! I updated my "
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "docker-compose.yaml",
+      "text": "docker-compose.yaml",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " back to use ",
+      "text": " back to use "
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "latest",
+      "text": "latest",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " for the Ghost version and ran ",
+      "text": " for the Ghost version and ran "
     },
     {
       "self_ref": "#/texts/65",
@@ -1182,95 +1152,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "Ghost was back online with the older version and everything looked good! I updated my ",
-      "text": "Ghost was back online with the older version and everything looked good! I updated my "
-    },
-    {
-      "self_ref": "#/texts/67",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "docker-compose.yaml",
-      "text": "docker-compose.yaml",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/68",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": " back to use ",
-      "text": " back to use "
-    },
-    {
-      "self_ref": "#/texts/69",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "latest",
-      "text": "latest",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/70",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": " for the Ghost version and ran ",
-      "text": " for the Ghost version and ran "
-    },
-    {
-      "self_ref": "#/texts/71",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "sudo docker-compose up -d",
-      "text": "sudo docker-compose up -d",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/72",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": " once more.",
       "text": " once more."
     },
     {
-      "self_ref": "#/texts/73",
+      "self_ref": "#/texts/67",
       "parent": {
         "$ref": "#/body"
       },
@@ -1282,7 +1168,7 @@
       "text": "Within seconds, the new container image was in place and the container was running! Both migrations completed in seconds and the blog was back online with the newest version. \ud83c\udf89"
     },
     {
-      "self_ref": "#/texts/74",
+      "self_ref": "#/texts/68",
       "parent": {
         "$ref": "#/body"
       },
@@ -1294,7 +1180,7 @@
       "text": "[^what_theta]: Theta is one of many  financial Greeks  that measure certain aspects of options contracts in the market. It's also a  letter in the Greek alphabet ."
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/69",
       "parent": {
         "$ref": "#/body"
       },
@@ -1306,7 +1192,7 @@
       "text": "[^default_collation]: The default collation in MySQL 8 is "
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/70",
       "parent": {
         "$ref": "#/body"
       },
@@ -1322,7 +1208,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/71",
       "parent": {
         "$ref": "#/body"
       },

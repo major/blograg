@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/html",
-    "binary_hash": 9365023691613711091,
-    "filename": "index.md"
+    "binary_hash": 12706765665013320225,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,19 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
       },
       {
         "$ref": "#/texts/6"
@@ -57,31 +69,13 @@
         "$ref": "#/texts/16"
       },
       {
-        "$ref": "#/texts/17"
+        "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/18"
+        "$ref": "#/texts/30"
       },
       {
-        "$ref": "#/texts/19"
-      },
-      {
-        "$ref": "#/texts/20"
-      },
-      {
-        "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
-      },
-      {
-        "$ref": "#/groups/1"
-      },
-      {
-        "$ref": "#/texts/36"
-      },
-      {
-        "$ref": "#/texts/37"
+        "$ref": "#/texts/31"
       }
     ],
     "content_layer": "body",
@@ -96,31 +90,23 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/17"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/18"
         },
         {
-          "$ref": "#/texts/3"
+          "$ref": "#/texts/19"
         },
         {
-          "$ref": "#/texts/4"
+          "$ref": "#/texts/20"
         },
         {
-          "$ref": "#/texts/5"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
         {
           "$ref": "#/texts/23"
         },
@@ -141,24 +127,6 @@
         },
         {
           "$ref": "#/texts/29"
-        },
-        {
-          "$ref": "#/texts/30"
-        },
-        {
-          "$ref": "#/texts/31"
-        },
-        {
-          "$ref": "#/texts/32"
-        },
-        {
-          "$ref": "#/texts/33"
-        },
-        {
-          "$ref": "#/texts/34"
-        },
-        {
-          "$ref": "#/texts/35"
         }
       ],
       "content_layer": "body",
@@ -176,93 +144,11 @@
       "content_layer": "body",
       "label": "text",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2012/09/06/one-week-with-android/",
-      "text": "/2012/09/06/one-week-with-android/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "android",
-      "text": "android",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "apple",
-      "text": "apple",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "networking",
-      "text": "networking",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
       "orig": "After getting Android-envy at  LinuxCon , I decided to push myself out of my comfort zone and ditch my iPhone 4 for a  Samsung Galaxy S III . It surprised a lot of people I know since I've been a big iPhone fan since the original model was released in 2007. I've carried the original iPhone, the 3GS, and then the 4. There have been good times and bad times, but the devices have served me pretty well overall.",
       "text": "After getting Android-envy at  LinuxCon , I decided to push myself out of my comfort zone and ditch my iPhone 4 for a  Samsung Galaxy S III . It surprised a lot of people I know since I've been a big iPhone fan since the original model was released in 2007. I've carried the original iPhone, the 3GS, and then the 4. There have been good times and bad times, but the devices have served me pretty well overall."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -274,7 +160,7 @@
       "text": "The Good Stuff"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -286,7 +172,7 @@
       "text": "3"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -298,7 +184,7 @@
       "text": "One of my coworkers summed up Android devices pretty succinctly: \"This will be the first phone that feels like  your  phone.\" That's what I like about it the most. I have so much more control over what my phone does and when it does it. It seems like there's a checkbox or option list for almost every possible setting on the phone. Everything feels customizable (to a reasonable point). Even trivial things like configuring home screens and adjusting Wi-Fi settings seem to be more user-friendly."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -310,7 +196,7 @@
       "text": "The raw performance of the S3 handset is impressive. All of the menus are responsive and I rarely find myself waiting on the phone to do something. 4G LTE is extremely fast (but it does chow down on your battery) and it's hard to tell when I'm on Wi-Fi and when I'm not. Photo adjustments are instantaneous and moving around in Chrome is snappy."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -322,7 +208,7 @@
       "text": "Another big benefit is that applications can harness the power of the Linux system under the hood (although some may require getting root access on your phone). Using rsync, ssh, FTP, and samba makes transferring data and managing the device much easier. It also allows you to set up automated backups to remote locations or to another SD card in your phone."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -334,7 +220,7 @@
       "text": "The Not-So-Good Stuff"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -346,7 +232,7 @@
       "text": "If you've ever used a Mac along with Apple's music devices, you know that the integration is tight and well planned. Moving over to Android has been really rough for me and the ways that I manage music. I gave  DoubleTwist  and  AirSync  a try but then I found that all of my music was being transcoded on the fly from AAC to another format. Syncing music took forever, quality was reduced, and the DoubleTwist music player on the phone was difficult to use. I downloaded  SongBird  and then tried to use  Google Play Music  but both felt inefficient and confusing."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -358,7 +244,7 @@
       "text": "Eventually, I found  SSHDroid  and started transferring music via ssh. That worked out well but then I couldn't find any of the music I uploaded on my phone. A friend recommended  SDRescan  since it forces the device to scan itself for any new media files. My current work flow involves uploading the music via ssh, rescanning for media files, and then listening to the new files with Apollo (from  CyanogenMod , more on that later)."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -370,7 +256,7 @@
       "text": "Battery life on the S3 is well below what I expected but it sounds like it might be more the shortfall of the device rather than the software. The screen is large and it's very bright even on the lowest settings. The battery settings panel on the phone regularly shows the screen as the largest consumer of energy on the phone. I did make some adjustments, like allowing Wi-Fi to switch off when the phone is asleep, which has helped with battery life. Disabling push email or IMAP IDLE has helped but it's prevented me from getting some of the functionality I want."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -382,7 +268,7 @@
       "text": "Finally, the pre-installed Samsung software was absolutely terrible. There were background processes running that were eating the battery and the interface was hard to use. I'm not sure what their target audience is, but it made coming over from the iPhone pretty difficult."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -394,7 +280,7 @@
       "text": "11"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -406,7 +292,7 @@
       "text": "To Flash or Not To Flash"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -418,7 +304,7 @@
       "text": "Voiding the warranty and flashing the phone had me pretty nervous, but then again, I had quite a few coworkers who were experienced in the process and they had rarely experienced problems. Luckily,  there is a great wiki page  that walks you through the process. It's a bit technical but I found it reasonably straightforward to follow. One of the nightly builds caused some problems with the GPS functionality on the phone but that was corrected in a day or two with another nightly build."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -430,7 +316,7 @@
       "text": "Upgrading to new nightly ROMs is unbelievably simple. You can download them manually to your phone and then reboot into recovery mode to flash the phone or you can load up an application on the phone itself which will download the ROM images and install the new image after a quick reboot with one key press. Don't forget to make backups just in case something goes wrong, though."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -442,7 +328,7 @@
       "text": "My Application List"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -454,9 +340,9 @@
       "text": "Here are my favorite applications so far:"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/17",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -468,9 +354,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/18",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -482,9 +368,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/19",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -496,9 +382,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/20",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -510,9 +396,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/21",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -524,9 +410,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/22",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -538,9 +424,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/23",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -552,9 +438,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/24",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -566,9 +452,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/25",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -580,9 +466,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/26",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -594,9 +480,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/27",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -608,9 +494,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/28",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -622,9 +508,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/29",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -636,7 +522,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -648,7 +534,7 @@
       "text": "More Changes"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },

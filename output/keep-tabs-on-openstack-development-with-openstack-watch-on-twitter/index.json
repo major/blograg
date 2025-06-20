@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/html",
-    "binary_hash": 14023167323276340658,
-    "filename": "index.md"
+    "binary_hash": 16246795372645109943,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,34 +21,28 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
       },
       {
-        "$ref": "#/texts/6"
+        "$ref": "#/texts/2"
       },
       {
-        "$ref": "#/texts/7"
-      },
-      {
-        "$ref": "#/texts/8"
-      },
-      {
-        "$ref": "#/texts/9"
+        "$ref": "#/texts/3"
       },
       {
         "$ref": "#/pictures/0"
       },
       {
-        "$ref": "#/texts/10"
+        "$ref": "#/texts/4"
       },
       {
-        "$ref": "#/texts/11"
+        "$ref": "#/texts/5"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/13"
+        "$ref": "#/texts/7"
       }
     ],
     "content_layer": "body",
@@ -63,33 +57,7 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/12"
+          "$ref": "#/texts/6"
         }
       ],
       "content_layer": "body",
@@ -107,93 +75,11 @@
       "content_layer": "body",
       "label": "text",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2012/06/08/keep-tabs-on-openstack-development-with-openstack-watch-on-twitter/",
-      "text": "/2012/06/08/keep-tabs-on-openstack-development-with-openstack-watch-on-twitter/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "development",
-      "text": "development",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "openstack",
-      "text": "openstack",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "python",
-      "text": "python",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "twitter",
-      "text": "twitter",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
       "orig": "It's no secret that I'm a fan of  Twitter  and  OpenStack . I found myself needing a better way to follow the rapid pace of OpenStack development and I figured that a Twitter bot would be a pretty good method for staying up to date.",
       "text": "It's no secret that I'm a fan of  Twitter  and  OpenStack . I found myself needing a better way to follow the rapid pace of OpenStack development and I figured that a Twitter bot would be a pretty good method for staying up to date."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -205,7 +91,7 @@
       "text": "I'd like to invite you to check out  @openstackwatch ."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -217,7 +103,7 @@
       "text": "First things first, it's a completely unofficial project that I worked on during my spare time and it's not affiliated with OpenStack in any way. If it breaks, it's most likely my fault."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -229,7 +115,7 @@
       "text": "The bot watches for ticket status changes in  OpenStack's Gerrit server  and makes a tweet about the change within a few minutes. Every tweet contains the commit's project, owner, status, and a brief summary of the change. In addition, you'll get a link directly to the review page on the Gerrit server. Here's an example:"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -241,7 +127,7 @@
       "text": "Hey! It's Dan!"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -253,9 +139,9 @@
       "text": "If you're not a fan of Twitter, there's a link to the RSS feed in the bio section, or you can just add this URL to your RSS feed reader:"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -267,7 +153,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },

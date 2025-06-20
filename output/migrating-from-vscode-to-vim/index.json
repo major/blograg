@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 3367639935306284291,
-    "filename": "index.md"
+    "binary_hash": 10435895204072602257,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,22 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
       },
       {
         "$ref": "#/texts/7"
@@ -156,31 +171,10 @@
         "$ref": "#/texts/50"
       },
       {
-        "$ref": "#/texts/51"
-      },
-      {
-        "$ref": "#/texts/52"
-      },
-      {
-        "$ref": "#/texts/53"
-      },
-      {
-        "$ref": "#/texts/54"
-      },
-      {
-        "$ref": "#/texts/55"
-      },
-      {
-        "$ref": "#/texts/56"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/57"
-      },
-      {
-        "$ref": "#/groups/1"
-      },
-      {
-        "$ref": "#/texts/64"
       }
     ],
     "content_layer": "body",
@@ -195,51 +189,22 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/51"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/52"
         },
         {
-          "$ref": "#/texts/3"
+          "$ref": "#/texts/53"
         },
         {
-          "$ref": "#/texts/4"
+          "$ref": "#/texts/54"
         },
         {
-          "$ref": "#/texts/5"
+          "$ref": "#/texts/55"
         },
         {
-          "$ref": "#/texts/6"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/58"
-        },
-        {
-          "$ref": "#/texts/59"
-        },
-        {
-          "$ref": "#/texts/60"
-        },
-        {
-          "$ref": "#/texts/61"
-        },
-        {
-          "$ref": "#/texts/62"
-        },
-        {
-          "$ref": "#/texts/63"
+          "$ref": "#/texts/56"
         }
       ],
       "content_layer": "body",
@@ -257,107 +222,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2022/08/11/migrating-from-vscode-to-vim/",
-      "text": "/2022/08/11/migrating-from-vscode-to-vim/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "development",
-      "text": "development",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "terminal",
-      "text": "terminal",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "vim",
-      "text": "vim",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "vscode",
-      "text": "vscode",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Every Linux user experienced at least one \"battle of the text editors\" once in their lifetime. I even participated in a few! Text editors form the foundation of nearly every Linux user's workflow. You need to use one eventually, whether for quick configuration file edits, developing software, or writing blog posts in markdown  (like this one) !",
       "text": "Every Linux user experienced at least one \"battle of the text editors\" once in their lifetime. I even participated in a few! Text editors form the foundation of nearly every Linux user's workflow. You need to use one eventually, whether for quick configuration file edits, developing software, or writing blog posts in markdown  (like this one) !"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -369,7 +238,7 @@
       "text": "An older and much wiser Linux engineer told me this early in my career:"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -381,7 +250,7 @@
       "text": "Everyone spends time arguing about the best text editor. Nobody spends time being grateful that we have so many great choices!"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -393,7 +262,7 @@
       "text": "He was totally right. Sometimes we quickly forget about the benefits of choice in open source software."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -405,7 +274,7 @@
       "text": "But before I could say anything else, he said:"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -417,7 +286,7 @@
       "text": "And, naturally, emacs is the best editor out there, anyway."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -429,7 +298,7 @@
       "text": "\ud83e\udd26\u200d\u2642\ufe0f"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -441,7 +310,7 @@
       "text": "Why migrate to vim?"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -453,7 +322,7 @@
       "text": "Visual Studio Code , or vscode, comes from Microsoft and delivers a full-featured editor and IDE with tons of plugins available. It also offers plenty of extensions that enable extra functions for certain file types and merges testing output into the same interface."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -465,7 +334,7 @@
       "text": "However, newer releases performed poorly on my machine. I spent too much time going through extensions to find out which one was causing the performance drops. Then I noticed that my extension usage had gone way overboard and I wasn't vetting new extensions as I should have."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -477,7 +346,7 @@
       "text": "Privacy questions  came up from time to time, too. Switching to something like  vscodium  helped with the privacy issues but the slowdowns from extensions came right back."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -489,7 +358,7 @@
       "text": "What really pushed me over the edge was  inconsistency ."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -501,7 +370,7 @@
       "text": "Whenever I made edits of system configuration files, wrote comments in git commits, or made a quick change in a text document, I was in vim. I began packaging more software in Fedora and it was much quicker to open a spec file in vim, make commits, and test my changes. My vim configuration file grew as I changed settings to make edits easier and I loaded a few plugins (with  vim-plug )."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -513,7 +382,7 @@
       "text": "I found myself opening vscode less and less often. I was gradually improving my skills in vim with visual selections, copy/paste, and moving quickly through files  (oh how I love using curly braces to jump between ansible tasks) . Did I make mistakes? Oh, yes. And if anyone was watching over my shoulder, it would have been hilarious (for them)."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -525,7 +394,7 @@
       "text": "New adventures outside my comfort zone are always fun for me, so I embarked on a migration to vim as my full time editor."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -537,7 +406,7 @@
       "text": "Initial challenges"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -549,7 +418,7 @@
       "text": "Old habits die hard."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -561,7 +430,7 @@
       "text": "My muscle memory of running "
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -577,7 +446,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -589,7 +458,7 @@
       "text": " kept kicking in when I went to edit something, so I removed vscode from my system entirely. Just like throwing out the cookies as you start a diet, there's no going back now."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -602,7 +471,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -614,7 +483,7 @@
       "text": "I struggled with replicating the file manager component of vscode that runs down the left side. My dependency on that file list was  deep . I stumbled upon a blog post called  Oil and vinegar - split windows and the project drawer  that argued against some of the file manager drawer designs."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -626,7 +495,7 @@
       "text": "A friend showed me  fzf  and the corrsponding vim plugin,  fzf.vim . At first, I was totally lost. Then I found a video from  samoshkin  that  explained how to use fzf  with the zsh shell as well as vim."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -638,7 +507,7 @@
       "text": "{{< youtube qgG5Jhi_Els >}}"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -650,7 +519,7 @@
       "text": "It's now a critical part of my workflow in large projects. If I know the filename, I type "
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -666,7 +535,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -678,7 +547,7 @@
       "text": ", press enter, and search for the file. If I know what's in the file, I type "
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -694,7 +563,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -706,7 +575,7 @@
       "text": ", press enter, and type search strings to match files."
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -719,7 +588,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -731,7 +600,7 @@
       "text": "Vim makes it easy to write markdown, but I missed the spell checking in vscode. Luckily vim has built-in spell checking and a friend showed me how to set up a toggle that turns it on and off:"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -747,7 +616,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -759,7 +628,7 @@
       "text": "The default "
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -775,7 +644,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -787,7 +656,7 @@
       "text": " key is the backslash, so I can hit backslash followed by a capital S to enable spell checking. Hitting the same keys (backslash, then capital S) turns the spell checking off. I leave spell checking off by default and enable it just before publishing when I do my proofreading. It reduces distractions while I'm writing."
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -800,7 +669,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -812,7 +681,7 @@
       "text": "The  solarized-dark  theme has been my workhorse for years and it's easy on my eyes. I found some vim examples online and the author was using the  nord  theme. It's a blend of blues and light greys that gives me a little more contrast while still being easy on my eyes during the workday."
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -824,7 +693,7 @@
       "text": "I started with a few plugins:"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -840,7 +709,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -852,7 +721,7 @@
       "text": "This adds support for the nord theme for all of vim as well as for  vim-airline  (an awesome vim status bar plugin). I enabled nord by default as well:"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -868,7 +737,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -880,7 +749,7 @@
       "text": "The "
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -896,7 +765,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -908,7 +777,7 @@
       "text": " helps improve contrast for some of the darkest colors and "
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -924,7 +793,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -936,7 +805,7 @@
       "text": " makes comments italicized."
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -949,7 +818,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -961,7 +830,7 @@
       "text": "I manage all of my dotfiles with  chezmoi  and you can get my current "
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -977,7 +846,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -989,7 +858,7 @@
       "text": " file in my  dotfiles repository ."
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1001,9 +870,9 @@
       "text": "To use my config as-is, follow these steps:"
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/51",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -1015,9 +884,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/52",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -1029,9 +898,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/53",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -1043,9 +912,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/54",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -1057,9 +926,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/55",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -1071,9 +940,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/56",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -1085,7 +954,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },

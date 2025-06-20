@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 1745846365161164692,
-    "filename": "index.md"
+    "binary_hash": 17828914096547845490,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,22 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
       },
       {
         "$ref": "#/texts/7"
@@ -30,16 +45,7 @@
         "$ref": "#/texts/8"
       },
       {
-        "$ref": "#/texts/9"
-      },
-      {
-        "$ref": "#/texts/10"
-      },
-      {
-        "$ref": "#/texts/11"
-      },
-      {
-        "$ref": "#/texts/12"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/13"
@@ -48,10 +54,13 @@
         "$ref": "#/texts/14"
       },
       {
-        "$ref": "#/texts/15"
+        "$ref": "#/groups/1"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
       },
       {
         "$ref": "#/texts/20"
@@ -60,7 +69,13 @@
         "$ref": "#/texts/21"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
       },
       {
         "$ref": "#/texts/25"
@@ -235,27 +250,6 @@
       },
       {
         "$ref": "#/texts/82"
-      },
-      {
-        "$ref": "#/texts/83"
-      },
-      {
-        "$ref": "#/texts/84"
-      },
-      {
-        "$ref": "#/texts/85"
-      },
-      {
-        "$ref": "#/texts/86"
-      },
-      {
-        "$ref": "#/texts/87"
-      },
-      {
-        "$ref": "#/texts/88"
-      },
-      {
-        "$ref": "#/texts/89"
       }
     ],
     "content_layer": "body",
@@ -270,22 +264,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/9"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/10"
         },
         {
-          "$ref": "#/texts/3"
+          "$ref": "#/texts/11"
         },
         {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
+          "$ref": "#/texts/12"
         }
       ],
       "content_layer": "body",
@@ -299,36 +287,13 @@
       },
       "children": [
         {
+          "$ref": "#/texts/15"
+        },
+        {
           "$ref": "#/texts/16"
         },
         {
           "$ref": "#/texts/17"
-        },
-        {
-          "$ref": "#/texts/18"
-        },
-        {
-          "$ref": "#/texts/19"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/22"
-        },
-        {
-          "$ref": "#/texts/23"
-        },
-        {
-          "$ref": "#/texts/24"
         }
       ],
       "content_layer": "body",
@@ -346,107 +311,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "author: Major Hayden date: '2024-04-04' Static blogs are easy to serve, but so many of the free options have no analytics whatsoever. This post talks about how to serve your own blog from a container with live updating analytics tags: ",
-      "text": "author: Major Hayden date: '2024-04-04' Static blogs are easy to serve, but so many of the free options have no analytics whatsoever. This post talks about how to serve your own blog from a container with live updating analytics tags: "
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "amd",
-      "text": "amd",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "laptop",
-      "text": "laptop",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "sway",
-      "text": "sway",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "thinkpad",
-      "text": "thinkpad",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Static blogs come with tons of advantages. They're cheap to serve. You store all your changes in git. People with spotty internet connections can clone your blog and run it locally.",
       "text": "Static blogs come with tons of advantages. They're cheap to serve. You store all your changes in git. People with spotty internet connections can clone your blog and run it locally."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -458,7 +327,7 @@
       "text": "However, one of the challenges that I've run into over the years is around analytics."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -470,7 +339,7 @@
       "text": "I could quickly add Google Analytics to the site and call it a day, but is that a good idea? Many browsers have ad blocking these days and the analytics wouldn't even run. For those that don't have an ad blocker, do I want to send more data about them to Google? \ud83d\ude43"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -482,7 +351,7 @@
       "text": "How about running my own self-hosted analytics platform? That's pretty easy with containers, but most ad blockers know about those, too."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -494,7 +363,7 @@
       "text": "This post talks about how to host a static blog in a container behind a  Caddy  web server. We will use  goaccess  to analyze the log files on the server itself to avoid dragging in an analytics platform."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -507,7 +376,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -519,7 +388,7 @@
       "text": "Yes, yes, I know this comes from the guy who wrote a post about  writing for yourself , but sometimes I like to know which posts are popular with other people. I also like to know if something's misconfigured and visitors are seeing 404 errors for pages which should be working."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -531,7 +400,7 @@
       "text": "It can also be handy to know when someone else is  writing about you , especially when those things are incorrect. \ud83d\ude09"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -543,9 +412,9 @@
       "text": "So my goals here are these:"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -557,9 +426,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -571,9 +440,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -585,9 +454,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/12",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -599,7 +468,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -612,7 +481,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -624,9 +493,9 @@
       "text": "There are three main pieces:"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/15",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -638,9 +507,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/16",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -652,9 +521,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/17",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -666,7 +535,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -678,7 +547,7 @@
       "text": "Caddy will write logs to a location that goaccess can read. In turn, goaccess will write log analysis to an HTML file that caddy can serve. The HTML file served by caddy will open a websocket to goaccess for live analytics."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -691,7 +560,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -703,7 +572,7 @@
       "text": "We can pack a static blog into a very thin container with an extremely lightweight web server. After all, caddy can handle automatic TLS certificate installation, logging, and caching. That just means we need the most basic webserver in the container itself."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -715,7 +584,7 @@
       "text": "I was considering a second caddy container with the blog content in it until I stumbled upon a great post by Florin Lipan about  The smallest Docker image to serve static websites . He went down a rabbit hole to make the smallest possible web server container with busybox."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -727,7 +596,7 @@
       "text": "His first stop led to a 1.25MB container, and that's tiny enough for me.[^keptgoing] \ud83e\udd0f"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -739,7 +608,7 @@
       "text": "[^keptgoing]: Florin went all the way down to 154KB and I was extremely impressed. However, I'm not too worried about an extra megabyte here. \ud83d\ude09"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -751,7 +620,7 @@
       "text": "I built a  container workflow  in GitHub Actions that builds a container, puts the blog in it, and  stores that container as a package  in the GitHub repository. It all starts with a brief Dockerfile:"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -767,7 +636,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -779,7 +648,7 @@
       "text": "We start with busybox, add a user, put the website content into the user's home directory, and start busybox's "
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -795,7 +664,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -807,7 +676,7 @@
       "text": " server. The container starts up and serves the static content on port 3000."
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -820,7 +689,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -832,7 +701,7 @@
       "text": "Caddy writes its logs in a JSON format and goaccess already knows how to parse caddy logs. Our first step is to get caddy writing some logs. In my case, I have a directory called "
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -848,7 +717,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -860,7 +729,7 @@
       "text": " in my home directory where those logs are written."
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -872,7 +741,7 @@
       "text": "I'll mount the log storage into the caddy container and mount one extra directory to hold the HTML file that goaccess will write. Here's my "
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -888,7 +757,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -900,7 +769,7 @@
       "text": " excerpt:"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -916,7 +785,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -928,7 +797,7 @@
       "text": "Now we need to update the "
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -944,7 +813,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -956,7 +825,7 @@
       "text": " to tell caddy where to place the logs and add a "
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -972,7 +841,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -984,7 +853,7 @@
       "text": " configuration for our new container that serves the blog:"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -1000,7 +869,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -1012,7 +881,7 @@
       "text": "Great! We now have the configuration in place for caddy to write the logs and the caddy container can mount the log and analytics storage."
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -1025,7 +894,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -1037,7 +906,7 @@
       "text": "We're heading back to the "
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1053,7 +922,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1065,7 +934,7 @@
       "text": " file once more, this time to set up a goaccess container:"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1081,7 +950,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1093,7 +962,7 @@
       "text": "This gets us a goaccess container to parse the logs from caddy. We need to update the caddy configuration so that we can reach the goaccess websocket for live updates:"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1109,7 +978,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1121,7 +990,7 @@
       "text": "At this point, we have caddy writing logs in the right place, goaccess can read them, and the analytics output is written to a place where caddy can serve it. We've also exposed the websocket from goaccess for live updates."
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1134,7 +1003,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1146,7 +1015,7 @@
       "text": "We've reached the most important part!"
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1158,7 +1027,7 @@
       "text": "We added the caddy configuration to reach the blog container earlier, but now it's time to deploy the container itself. As a reminder, this is the container with busybox and the blog content that comes from GitHub Actions."
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1170,7 +1039,7 @@
       "text": "The "
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1186,7 +1055,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1198,7 +1067,7 @@
       "text": " configuration here is  very basic :"
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1214,7 +1083,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1226,7 +1095,7 @@
       "text": "Caddy will connect to this container on port 3000 to serve the blog. (We set port 3000 in the original "
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1242,7 +1111,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1254,7 +1123,7 @@
       "text": ")."
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/62",
       "parent": {
         "$ref": "#/body"
       },
@@ -1266,7 +1135,7 @@
       "text": "At this point, everything should be set to go. Make it live with:"
     },
     {
-      "self_ref": "#/texts/70",
+      "self_ref": "#/texts/63",
       "parent": {
         "$ref": "#/body"
       },
@@ -1282,7 +1151,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/71",
+      "self_ref": "#/texts/64",
       "parent": {
         "$ref": "#/body"
       },
@@ -1294,7 +1163,7 @@
       "text": "This should bring up the goaccess and blog containers while also restarting caddy. The website should be visible now at  major.io  (and that's how you're reading this today)."
     },
     {
-      "self_ref": "#/texts/72",
+      "self_ref": "#/texts/65",
       "parent": {
         "$ref": "#/body"
       },
@@ -1307,7 +1176,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/73",
+      "self_ref": "#/texts/66",
       "parent": {
         "$ref": "#/body"
       },
@@ -1319,7 +1188,7 @@
       "text": "I'm glad you asked! That was something I wondered about as well. How do we get the new blog content down to the container when a new post is written?  \ud83e\udd14"
     },
     {
-      "self_ref": "#/texts/74",
+      "self_ref": "#/texts/67",
       "parent": {
         "$ref": "#/body"
       },
@@ -1331,7 +1200,7 @@
       "text": "As I've  written in the past , I like using  watchtower  to keep containers updated. Watchtower offers an HTTP API interface for webhooks to initiate container updates. We can trigger that update via a simple curl request from GitHub Actions when our container pipeline runs."
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/68",
       "parent": {
         "$ref": "#/body"
       },
@@ -1343,7 +1212,7 @@
       "text": "My  container workflow  has a brief bit at the end that does this:"
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/69",
       "parent": {
         "$ref": "#/body"
       },
@@ -1359,7 +1228,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/70",
       "parent": {
         "$ref": "#/body"
       },
@@ -1371,7 +1240,7 @@
       "text": "You can enable this in watchtower with a few new environment variables in your "
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/71",
       "parent": {
         "$ref": "#/body"
       },
@@ -1387,7 +1256,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/79",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },
@@ -1399,7 +1268,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/80",
+      "self_ref": "#/texts/73",
       "parent": {
         "$ref": "#/body"
       },
@@ -1415,7 +1284,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/81",
+      "self_ref": "#/texts/74",
       "parent": {
         "$ref": "#/body"
       },
@@ -1431,7 +1300,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/82",
+      "self_ref": "#/texts/75",
       "parent": {
         "$ref": "#/body"
       },
@@ -1443,7 +1312,7 @@
       "text": " enables the updating via API and "
     },
     {
-      "self_ref": "#/texts/83",
+      "self_ref": "#/texts/76",
       "parent": {
         "$ref": "#/body"
       },
@@ -1459,7 +1328,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/84",
+      "self_ref": "#/texts/77",
       "parent": {
         "$ref": "#/body"
       },
@@ -1471,7 +1340,7 @@
       "text": " sets the token required when making the API request. If you set "
     },
     {
-      "self_ref": "#/texts/85",
+      "self_ref": "#/texts/78",
       "parent": {
         "$ref": "#/body"
       },
@@ -1487,7 +1356,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/86",
+      "self_ref": "#/texts/79",
       "parent": {
         "$ref": "#/body"
       },
@@ -1499,7 +1368,7 @@
       "text": " to "
     },
     {
-      "self_ref": "#/texts/87",
+      "self_ref": "#/texts/80",
       "parent": {
         "$ref": "#/body"
       },
@@ -1515,7 +1384,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/88",
+      "self_ref": "#/texts/81",
       "parent": {
         "$ref": "#/body"
       },
@@ -1527,7 +1396,7 @@
       "text": ", watchtower will still periodically look for updates to containers even if an API request never appeared. By default, watchtower will stop doing periodic updates if you enable the API."
     },
     {
-      "self_ref": "#/texts/89",
+      "self_ref": "#/texts/82",
       "parent": {
         "$ref": "#/body"
       },

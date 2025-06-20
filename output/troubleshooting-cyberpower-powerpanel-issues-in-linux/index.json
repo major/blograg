@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 17189422580343360973,
-    "filename": "index.md"
+    "binary_hash": 5354419724271170162,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,19 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
       },
       {
         "$ref": "#/texts/6"
@@ -190,58 +202,13 @@
       },
       {
         "$ref": "#/texts/61"
-      },
-      {
-        "$ref": "#/texts/62"
-      },
-      {
-        "$ref": "#/texts/63"
-      },
-      {
-        "$ref": "#/texts/64"
-      },
-      {
-        "$ref": "#/texts/65"
-      },
-      {
-        "$ref": "#/texts/66"
-      },
-      {
-        "$ref": "#/texts/67"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
@@ -252,78 +219,80 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "I have a  CyberPower BRG1350AVRLCD  at home and I've just connected it to a new device. However, the ",
+      "text": "I have a  CyberPower BRG1350AVRLCD  at home and I've just connected it to a new device. However, the "
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "code",
       "prov": [],
-      "orig": "/2017/07/25/troubleshooting-cyberpower-powerpanel-issues-in-linux/",
-      "text": "/2017/07/25/troubleshooting-cyberpower-powerpanel-issues-in-linux/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "pwrstat",
+      "text": "pwrstat",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
+      "orig": " command doesn't retrieve any useful data on the new system:",
+      "text": " command doesn't retrieve any useful data on the new system:"
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "code",
       "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "# pwrstat -status\n\nThe UPS information shows as following:\n\n\n    Current UPS status:\n        State........................ Normal\n        Power Supply by.............. Utility Power\n        Last Power Event............. None",
+      "text": "# pwrstat -status\n\nThe UPS information shows as following:\n\n\n    Current UPS status:\n        State........................ Normal\n        Power Supply by.............. Utility Power\n        Last Power Event............. None",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "serial",
-      "text": "serial",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "I disconnected the USB cable and ran ",
+      "text": "I disconnected the USB cable and ran "
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "code",
       "prov": [],
-      "orig": "ups",
-      "text": "ups",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "pwrstat",
+      "text": "pwrstat",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
     },
     {
       "self_ref": "#/texts/6",
@@ -334,8 +303,8 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "I have a  CyberPower BRG1350AVRLCD  at home and I've just connected it to a new device. However, the ",
-      "text": "I have a  CyberPower BRG1350AVRLCD  at home and I've just connected it to a new device. However, the "
+      "orig": " again.  Same output.  I disconnected power from the UPS itself and ran ",
+      "text": " again.  Same output.  I disconnected power from the UPS itself and ran "
     },
     {
       "self_ref": "#/texts/7",
@@ -362,95 +331,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": " command doesn't retrieve any useful data on the new system:",
-      "text": " command doesn't retrieve any useful data on the new system:"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "# pwrstat -status\n\nThe UPS information shows as following:\n\n\n    Current UPS status:\n        State........................ Normal\n        Power Supply by.............. Utility Power\n        Last Power Event............. None",
-      "text": "# pwrstat -status\n\nThe UPS information shows as following:\n\n\n    Current UPS status:\n        State........................ Normal\n        Power Supply by.............. Utility Power\n        Last Power Event............. None",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "I disconnected the USB cable and ran ",
-      "text": "I disconnected the USB cable and ran "
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "pwrstat",
-      "text": "pwrstat",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": " again.  Same output.  I disconnected power from the UPS itself and ran ",
-      "text": " again.  Same output.  I disconnected power from the UPS itself and ran "
-    },
-    {
-      "self_ref": "#/texts/13",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "pwrstat",
-      "text": "pwrstat",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/14",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": " again.  Same output.  This can't be right.",
       "text": " again.  Same output.  This can't be right."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -463,7 +348,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -475,7 +360,7 @@
       "text": "A quick look at "
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -491,7 +376,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -503,7 +388,7 @@
       "text": " output shows that the UPS is connected and the kernel recognizes it:"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -519,7 +404,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -531,7 +416,7 @@
       "text": "I checked the "
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -547,7 +432,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -559,7 +444,7 @@
       "text": " file to see if there were any errors:"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -575,7 +460,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -585,6 +470,87 @@
       "prov": [],
       "orig": "The ",
       "text": "The "
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "pwrstatd",
+      "text": "pwrstatd",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " daemon can see the device and communicate with it. This is unusual.",
+      "text": " daemon can see the device and communicate with it. This is unusual."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Digging into the daemon",
+      "text": "Digging into the daemon",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "If the daemon can truly see the UPS, then what is it talking to? I used ",
+      "text": "If the daemon can truly see the UPS, then what is it talking to? I used "
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "lsof",
+      "text": "lsof",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " to examine what the ",
+      "text": " to examine what the "
     },
     {
       "self_ref": "#/texts/25",
@@ -611,8 +577,8 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": " daemon can see the device and communicate with it. This is unusual.",
-      "text": " daemon can see the device and communicate with it. This is unusual."
+      "orig": " daemon is doing:",
+      "text": " daemon is doing:"
     },
     {
       "self_ref": "#/texts/27",
@@ -621,11 +587,14 @@
       },
       "children": [],
       "content_layer": "body",
-      "label": "section_header",
+      "label": "code",
       "prov": [],
-      "orig": "Digging into the daemon",
-      "text": "Digging into the daemon",
-      "level": 1
+      "orig": "# lsof -p 3975\nCOMMAND   PID USER   FD   TYPE             DEVICE SIZE/OFF      NODE NAME\npwrstatd 3975 root  cwd    DIR               8,68      224        96 /\npwrstatd 3975 root  rtd    DIR               8,68      224        96 /\npwrstatd 3975 root  txt    REG               8,68   224175 134439879 /usr/sbin/pwrstatd\npwrstatd 3975 root  mem    REG               8,68  2163104 134218946 /usr/lib64/libc-2.25.so\npwrstatd 3975 root  mem    REG               8,68  1226368 134218952 /usr/lib64/libm-2.25.so\npwrstatd 3975 root  mem    REG               8,68    19496 134218950 /usr/lib64/libdl-2.25.so\npwrstatd 3975 root  mem    REG               8,68   187552 134218939 /usr/lib64/ld-2.25.so\npwrstatd 3975 root    0r   CHR                1,3      0t0      1028 /dev/null\npwrstatd 3975 root    1u  unix 0xffff9e395e137400      0t0     37320 type=STREAM\npwrstatd 3975 root    2u  unix 0xffff9e395e137400      0t0     37320 type=STREAM\npwrstatd 3975 root    3u  unix 0xffff9e392f0c0c00      0t0     39485 /var/pwrstatd.ipc type=STREAM\npwrstatd 3975 root    4u   CHR             180,96      0t0     50282 /dev/ttyS1",
+      "text": "# lsof -p 3975\nCOMMAND   PID USER   FD   TYPE             DEVICE SIZE/OFF      NODE NAME\npwrstatd 3975 root  cwd    DIR               8,68      224        96 /\npwrstatd 3975 root  rtd    DIR               8,68      224        96 /\npwrstatd 3975 root  txt    REG               8,68   224175 134439879 /usr/sbin/pwrstatd\npwrstatd 3975 root  mem    REG               8,68  2163104 134218946 /usr/lib64/libc-2.25.so\npwrstatd 3975 root  mem    REG               8,68  1226368 134218952 /usr/lib64/libm-2.25.so\npwrstatd 3975 root  mem    REG               8,68    19496 134218950 /usr/lib64/libdl-2.25.so\npwrstatd 3975 root  mem    REG               8,68   187552 134218939 /usr/lib64/ld-2.25.so\npwrstatd 3975 root    0r   CHR                1,3      0t0      1028 /dev/null\npwrstatd 3975 root    1u  unix 0xffff9e395e137400      0t0     37320 type=STREAM\npwrstatd 3975 root    2u  unix 0xffff9e395e137400      0t0     37320 type=STREAM\npwrstatd 3975 root    3u  unix 0xffff9e392f0c0c00      0t0     39485 /var/pwrstatd.ipc type=STREAM\npwrstatd 3975 root    4u   CHR             180,96      0t0     50282 /dev/ttyS1",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
     },
     {
       "self_ref": "#/texts/28",
@@ -636,8 +605,8 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "If the daemon can truly see the UPS, then what is it talking to? I used ",
-      "text": "If the daemon can truly see the UPS, then what is it talking to? I used "
+      "orig": "Wait a minute.  The last line of the ",
+      "text": "Wait a minute.  The last line of the "
     },
     {
       "self_ref": "#/texts/29",
@@ -664,8 +633,8 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": " to examine what the ",
-      "text": " to examine what the "
+      "orig": " output shows that ",
+      "text": " output shows that "
     },
     {
       "self_ref": "#/texts/31",
@@ -692,95 +661,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": " daemon is doing:",
-      "text": " daemon is doing:"
-    },
-    {
-      "self_ref": "#/texts/33",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "# lsof -p 3975\nCOMMAND   PID USER   FD   TYPE             DEVICE SIZE/OFF      NODE NAME\npwrstatd 3975 root  cwd    DIR               8,68      224        96 /\npwrstatd 3975 root  rtd    DIR               8,68      224        96 /\npwrstatd 3975 root  txt    REG               8,68   224175 134439879 /usr/sbin/pwrstatd\npwrstatd 3975 root  mem    REG               8,68  2163104 134218946 /usr/lib64/libc-2.25.so\npwrstatd 3975 root  mem    REG               8,68  1226368 134218952 /usr/lib64/libm-2.25.so\npwrstatd 3975 root  mem    REG               8,68    19496 134218950 /usr/lib64/libdl-2.25.so\npwrstatd 3975 root  mem    REG               8,68   187552 134218939 /usr/lib64/ld-2.25.so\npwrstatd 3975 root    0r   CHR                1,3      0t0      1028 /dev/null\npwrstatd 3975 root    1u  unix 0xffff9e395e137400      0t0     37320 type=STREAM\npwrstatd 3975 root    2u  unix 0xffff9e395e137400      0t0     37320 type=STREAM\npwrstatd 3975 root    3u  unix 0xffff9e392f0c0c00      0t0     39485 /var/pwrstatd.ipc type=STREAM\npwrstatd 3975 root    4u   CHR             180,96      0t0     50282 /dev/ttyS1",
-      "text": "# lsof -p 3975\nCOMMAND   PID USER   FD   TYPE             DEVICE SIZE/OFF      NODE NAME\npwrstatd 3975 root  cwd    DIR               8,68      224        96 /\npwrstatd 3975 root  rtd    DIR               8,68      224        96 /\npwrstatd 3975 root  txt    REG               8,68   224175 134439879 /usr/sbin/pwrstatd\npwrstatd 3975 root  mem    REG               8,68  2163104 134218946 /usr/lib64/libc-2.25.so\npwrstatd 3975 root  mem    REG               8,68  1226368 134218952 /usr/lib64/libm-2.25.so\npwrstatd 3975 root  mem    REG               8,68    19496 134218950 /usr/lib64/libdl-2.25.so\npwrstatd 3975 root  mem    REG               8,68   187552 134218939 /usr/lib64/ld-2.25.so\npwrstatd 3975 root    0r   CHR                1,3      0t0      1028 /dev/null\npwrstatd 3975 root    1u  unix 0xffff9e395e137400      0t0     37320 type=STREAM\npwrstatd 3975 root    2u  unix 0xffff9e395e137400      0t0     37320 type=STREAM\npwrstatd 3975 root    3u  unix 0xffff9e392f0c0c00      0t0     39485 /var/pwrstatd.ipc type=STREAM\npwrstatd 3975 root    4u   CHR             180,96      0t0     50282 /dev/ttyS1",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/34",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Wait a minute.  The last line of the ",
-      "text": "Wait a minute.  The last line of the "
-    },
-    {
-      "self_ref": "#/texts/35",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "lsof",
-      "text": "lsof",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/36",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": " output shows that ",
-      "text": " output shows that "
-    },
-    {
-      "self_ref": "#/texts/37",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "pwrstatd",
-      "text": "pwrstatd",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/38",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": " is talking to ",
       "text": " is talking to "
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -796,7 +681,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -808,7 +693,7 @@
       "text": ", but the device is supposed to be a "
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -824,7 +709,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -836,7 +721,7 @@
       "text": " device over USB. If you remember, we had this line in "
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -852,7 +737,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -864,7 +749,7 @@
       "text": " when the UPS was plugged in:"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -880,7 +765,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -892,7 +777,7 @@
       "text": "Things are beginning to make more sense now. I have a USB-to-serial device that allows my server to talk to the console port on my Cisco switch:"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -908,7 +793,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -920,7 +805,7 @@
       "text": "It appears that "
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -936,7 +821,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -948,7 +833,7 @@
       "text": " is trying to talk to my Cisco switch (through the USB-to-serial adapter) rather than my UPS! I'm sure they could have a great conversation together, but it's hardly productive."
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -961,7 +846,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -973,7 +858,7 @@
       "text": "The "
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -989,7 +874,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1001,7 +886,7 @@
       "text": " has a relevant section:"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1017,7 +902,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1027,6 +912,90 @@
       "prov": [],
       "orig": "We need to explicitly tell ",
       "text": "We need to explicitly tell "
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "pwrstatd",
+      "text": "pwrstatd",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " to talk to the UPS on ",
+      "text": " to talk to the UPS on "
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/dev/hid/hiddev0",
+      "text": "/dev/hid/hiddev0",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": ":",
+      "text": ":"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "allowed-device-nodes = /dev/usb/hiddev0",
+      "text": "allowed-device-nodes = /dev/usb/hiddev0",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Let's restart the ",
+      "text": "Let's restart the "
     },
     {
       "self_ref": "#/texts/57",
@@ -1053,95 +1022,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": " to talk to the UPS on ",
-      "text": " to talk to the UPS on "
-    },
-    {
-      "self_ref": "#/texts/59",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "/dev/hid/hiddev0",
-      "text": "/dev/hid/hiddev0",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/60",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": ":",
-      "text": ":"
-    },
-    {
-      "self_ref": "#/texts/61",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "allowed-device-nodes = /dev/usb/hiddev0",
-      "text": "allowed-device-nodes = /dev/usb/hiddev0",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/62",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Let's restart the ",
-      "text": "Let's restart the "
-    },
-    {
-      "self_ref": "#/texts/63",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "pwrstatd",
-      "text": "pwrstatd",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/64",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": " daemon and see what we get:",
       "text": " daemon and see what we get:"
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1157,7 +1042,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1169,7 +1054,7 @@
       "text": "Success!"
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },

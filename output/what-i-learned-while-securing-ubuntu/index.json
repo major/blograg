@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 10701524284894653628,
-    "filename": "index.md"
+    "binary_hash": 17257491614894884194,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,28 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
         "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
       },
       {
         "$ref": "#/texts/10"
@@ -36,7 +57,10 @@
         "$ref": "#/texts/13"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
       },
       {
         "$ref": "#/texts/16"
@@ -235,36 +259,6 @@
       },
       {
         "$ref": "#/texts/81"
-      },
-      {
-        "$ref": "#/texts/82"
-      },
-      {
-        "$ref": "#/texts/83"
-      },
-      {
-        "$ref": "#/texts/84"
-      },
-      {
-        "$ref": "#/texts/85"
-      },
-      {
-        "$ref": "#/texts/86"
-      },
-      {
-        "$ref": "#/texts/87"
-      },
-      {
-        "$ref": "#/texts/88"
-      },
-      {
-        "$ref": "#/texts/89"
-      },
-      {
-        "$ref": "#/texts/90"
-      },
-      {
-        "$ref": "#/texts/91"
       }
     ],
     "content_layer": "body",
@@ -279,48 +273,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
           "$ref": "#/texts/4"
         },
         {
           "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        },
-        {
-          "$ref": "#/texts/8"
-        },
-        {
-          "$ref": "#/texts/9"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/14"
-        },
-        {
-          "$ref": "#/texts/15"
         }
       ],
       "content_layer": "body",
@@ -338,149 +294,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2015/10/14/what-i-learned-while-securing-ubuntu/",
-      "text": "/2015/10/14/what-i-learned-while-securing-ubuntu/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "ansible",
-      "text": "ansible",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "apparmor",
-      "text": "apparmor",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "debian",
-      "text": "debian",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "openstack",
-      "text": "openstack",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "selinux",
-      "text": "selinux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "ubuntu",
-      "text": "ubuntu",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "The blog posts have slowed down a bit lately because I've been heads down on a security project at work. I'm working with people in the OpenStack community to create a new Ansible role called  openstack-ansible-security . The role aims to improve host security by using hardening standards to improve the configuration of various parts of the operating system.",
       "text": "The blog posts have slowed down a bit lately because I've been heads down on a security project at work. I'm working with people in the OpenStack community to create a new Ansible role called  openstack-ansible-security . The role aims to improve host security by using hardening standards to improve the configuration of various parts of the operating system."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -492,7 +310,7 @@
       "text": "This means applying security hardening to Ubuntu 14.04 systems since that's the only host operating system supported by  openstack-ansible  at the moment. I have plenty of experience with securing Red Hat-based systems like Red Hat Enteprise Linux, CentOS and Fedora; but Ubuntu is new territory entirely. The rest of this post is full of lessons learned along the way."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -505,7 +323,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -517,9 +335,9 @@
       "text": "Finding a complete hardening standard for Ubuntu 14.04 is challenging. The  Center for Internet Security  offers  Ubuntu security benchmarks  with two big caveats:"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -531,9 +349,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -545,7 +363,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -557,7 +375,7 @@
       "text": "With that idea off the table, I examined the other options that meet Requirement 2.2 of PCI-DSS 3.1  [PDF] . Anther choice was  ISO 27002 , but it's not terribly specific or easy to automate with scripts. The same goes for  NIST 800-53 ."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -569,7 +387,7 @@
       "text": "After plenty of searching, the decision was made to go forth with the  Security Technical Implementation Guide (STIG)  from the  Defense Information Systems Agency (DISA)  (part of the US Department of Defense). The STIGs aren't licensed and they're in the public domain. The only downside is that the closest STIG for use with Ubuntu 14.04 is the  RHEL 6 STIG ."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -581,7 +399,7 @@
       "text": "Using the RHEL 6 STIG meant that plenty of things will need to be translated for the different tools, configuration files, and package names that come with Ubuntu. It was frustrating to search all over for a hardening standard that applies well to Ubuntu and comes with decent auditing tools, but this was the best we could find."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -594,7 +412,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -606,7 +424,7 @@
       "text": "The standard Ubuntu and Debian practice of automatically starting daemons has  perplexed me before  and it still continues to do so. Starting a daemon before I've had a chance to configure it makes little sense. The main argument is that the daemons come up with a highly secure configuration, so starting it automatically shouldn't be a big deal. I'd prefer to install a package, have a look at the configuration, alter the configuration, and then start the daemon. Also, it had better not start after a reboot unless I explicitly ask it to do so."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -618,7 +436,7 @@
       "text": "There are plenty of examples where automatically starting a daemon with its default configuration is a bad idea. Take the postfix package as an example. If you install the package in non-interactive mode (as Ansible does by default), postfix will come online wth the following configuration option set:"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -634,7 +452,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -646,7 +464,7 @@
       "text": "Since Ubuntu doesn't come with a firewall enabled by default, your postfix server is listening on all interfaces for mail immediately. The "
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -662,7 +480,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -674,7 +492,7 @@
       "text": " configuration should prevent relaying, but any potential vulnerabilities in your postfix daemon are exposed to the network without your consent. I would prefer to configure postfix first before I ever allow it to run on my server."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -687,7 +505,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -699,7 +517,7 @@
       "text": "Say what you will about RPM packages and the "
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -715,7 +533,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -727,7 +545,7 @@
       "text": " command, but the verification portions of the "
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -743,7 +561,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -755,7 +573,7 @@
       "text": " command are quite helpful. Here's an example of verifying the aide RPM in Fedora:"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -771,7 +589,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -783,7 +601,7 @@
       "text": "If the verification finds that nothing in the package has changed, it won't print anything. I've added the "
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -799,7 +617,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -811,7 +629,7 @@
       "text": " here to ensure that everything is printed to the console. In the output, you can see that everything is checked. That includes configuration files, log directories, libraries, and documentation. If I change the content of the "
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -827,7 +645,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -839,7 +657,7 @@
       "text": " by adding a comment, I see that change:"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -855,7 +673,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -867,7 +685,7 @@
       "text": "The "
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -883,7 +701,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -895,7 +713,7 @@
       "text": " denotes that the MD5 checksum on the file has changed since the package was installed. What happens if I change the owner, group, and mode of the "
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -911,7 +729,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -923,7 +741,7 @@
       "text": "?"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -939,7 +757,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -951,7 +769,7 @@
       "text": "Now I have a "
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -967,7 +785,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -979,7 +797,7 @@
       "text": " there that denotes a user/group ownership change. Similar messages appear for changes to the permissions on files or directories. The "
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -995,7 +813,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -1007,7 +825,7 @@
       "text": " command even lets you figure out when SELinux contexts have changed. If you set a file to have the wrong ownership or permission, one "
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -1023,7 +841,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -1035,7 +853,7 @@
       "text": " command gets you back to normal:"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -1051,7 +869,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -1063,7 +881,7 @@
       "text": "On the Ubuntu side, you can use the "
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -1079,7 +897,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -1091,7 +909,7 @@
       "text": " package to help with some verification:"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1107,7 +925,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1119,7 +937,7 @@
       "text": "But wait &#8212; where are the configuration files? Where are the log and library directories? If you type these commands on an Ubuntu system, you'll see that the configuration files and directories aren't checked. In addition, there's not a method for querying whether a particular file in a package has changed ownership or has had its mode changed. There's also no option to restore the right permissions and ownership after an errant "
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1135,7 +953,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1147,7 +965,7 @@
       "text": " or "
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1163,7 +981,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1175,7 +993,7 @@
       "text": "."
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1188,7 +1006,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1200,7 +1018,7 @@
       "text": "The  AIDE  package is critical for secure deployments since it helps administrators monitor for file integrity on a regular basis. However, Ubuntu ships with some interesting configuration files and wrappers for AIDE."
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1212,7 +1030,7 @@
       "text": "One of the unique configuration files is this one:"
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1228,7 +1046,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1240,7 +1058,7 @@
       "text": "This causes AIDE to wander all over the system, indexing all types of files. It's best to limit AIDE to a small number of directories whenever possible so that the AIDE runs complete quickly and the database file remains relatively small. Plenty of disk I/O can be used during AIDE runs, so it's best to limit the scope."
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1252,7 +1070,7 @@
       "text": "Also, trying to initialize the database provides an unhelpful error:"
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1268,7 +1086,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1280,7 +1098,7 @@
       "text": "That path doesn't exist, and I'm confused because I did pass a parameter to "
     },
     {
-      "self_ref": "#/texts/70",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1296,7 +1114,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/71",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1308,7 +1126,7 @@
       "text": ". Long story short, you must use the "
     },
     {
-      "self_ref": "#/texts/72",
+      "self_ref": "#/texts/62",
       "parent": {
         "$ref": "#/body"
       },
@@ -1324,7 +1142,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/73",
+      "self_ref": "#/texts/63",
       "parent": {
         "$ref": "#/body"
       },
@@ -1336,7 +1154,7 @@
       "text": " command to initialize the aide database. That's actually a bash script which then calls on "
     },
     {
-      "self_ref": "#/texts/74",
+      "self_ref": "#/texts/64",
       "parent": {
         "$ref": "#/body"
       },
@@ -1352,7 +1170,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/65",
       "parent": {
         "$ref": "#/body"
       },
@@ -1364,7 +1182,7 @@
       "text": " (another bash script) to actually run the "
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/66",
       "parent": {
         "$ref": "#/body"
       },
@@ -1380,7 +1198,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/67",
       "parent": {
         "$ref": "#/body"
       },
@@ -1392,7 +1210,7 @@
       "text": " binary for you. Better yet, "
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/68",
       "parent": {
         "$ref": "#/body"
       },
@@ -1408,7 +1226,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/79",
+      "self_ref": "#/texts/69",
       "parent": {
         "$ref": "#/body"
       },
@@ -1420,7 +1238,7 @@
       "text": " is in "
     },
     {
-      "self_ref": "#/texts/80",
+      "self_ref": "#/texts/70",
       "parent": {
         "$ref": "#/body"
       },
@@ -1436,7 +1254,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/81",
+      "self_ref": "#/texts/71",
       "parent": {
         "$ref": "#/body"
       },
@@ -1448,7 +1266,7 @@
       "text": " while "
     },
     {
-      "self_ref": "#/texts/82",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },
@@ -1464,7 +1282,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/83",
+      "self_ref": "#/texts/73",
       "parent": {
         "$ref": "#/body"
       },
@@ -1476,7 +1294,7 @@
       "text": " is in "
     },
     {
-      "self_ref": "#/texts/84",
+      "self_ref": "#/texts/74",
       "parent": {
         "$ref": "#/body"
       },
@@ -1492,7 +1310,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/85",
+      "self_ref": "#/texts/75",
       "parent": {
         "$ref": "#/body"
       },
@@ -1504,7 +1322,7 @@
       "text": ". This leads to plenty of confusion."
     },
     {
-      "self_ref": "#/texts/86",
+      "self_ref": "#/texts/76",
       "parent": {
         "$ref": "#/body"
       },
@@ -1517,7 +1335,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/87",
+      "self_ref": "#/texts/77",
       "parent": {
         "$ref": "#/body"
       },
@@ -1529,7 +1347,7 @@
       "text": "It's possible to run SELinux on Ubuntu, but the policies aren't as well maintained as they are on other distributions. AppArmor is the recommended LSM on Ubuntu, but it doesn't provide the granularity of SELinux. For example, SELinux confines almost every single process on a minimal Fedora system, but AppArmor confines almost nothing on a minimal Ubuntu-based system. AppArmor policies aren't terribly restrictive and it's possible to work around them due to their reliance on path names."
     },
     {
-      "self_ref": "#/texts/88",
+      "self_ref": "#/texts/78",
       "parent": {
         "$ref": "#/body"
       },
@@ -1541,7 +1359,7 @@
       "text": "Fortunately, both LSM's provide decent coverage with virtual machines and containers (using libvirt's sVirt capability)."
     },
     {
-      "self_ref": "#/texts/89",
+      "self_ref": "#/texts/79",
       "parent": {
         "$ref": "#/body"
       },
@@ -1554,7 +1372,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/90",
+      "self_ref": "#/texts/80",
       "parent": {
         "$ref": "#/body"
       },
@@ -1566,7 +1384,7 @@
       "text": "The upside is that there is plenty of room for security improvements, especially around usability, in Ubuntu. Ubuntu-centric hardening standards are difficult to find and challenging to apply. Every distribution has its quirks and differences, but it seems like securing Ubuntu comes with more unusual hoops to jump through relative to Red Hat-based distributions, OpenSUSE, and even Arch."
     },
     {
-      "self_ref": "#/texts/91",
+      "self_ref": "#/texts/81",
       "parent": {
         "$ref": "#/body"
       },

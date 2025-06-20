@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 8788995295274515185,
-    "filename": "index.md"
+    "binary_hash": 7516549721265089144,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,22 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
       },
       {
         "$ref": "#/texts/7"
@@ -112,163 +127,16 @@
       },
       {
         "$ref": "#/texts/36"
-      },
-      {
-        "$ref": "#/texts/37"
-      },
-      {
-        "$ref": "#/texts/38"
-      },
-      {
-        "$ref": "#/texts/39"
-      },
-      {
-        "$ref": "#/texts/40"
-      },
-      {
-        "$ref": "#/texts/41"
-      },
-      {
-        "$ref": "#/texts/42"
-      },
-      {
-        "$ref": "#/texts/43"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2015/09/11/time-warner-road-runner-linux-and-large-ipv6-subnets/",
-      "text": "/2015/09/11/time-warner-road-runner-linux-and-large-ipv6-subnets/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "firewall",
-      "text": "firewall",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "ipv6",
-      "text": "ipv6",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "router",
-      "text": "router",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -280,7 +148,7 @@
       "text": "Although Time Warner Cable is now Spectrum and wide-dhcpv6 is quite old, this post is still what I'm using today (in 2019)!"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -292,7 +160,7 @@
       "text": "I've written about how to  get larger IPv6 subnets from Time Warner Cable's Road Runner service  on a Mikrotik router before, but I've converted to using a Linux server as my router for my home. Getting the larger /56 IPv6 subnet is a little tricky and it's not terribly well documented."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -305,7 +173,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -317,7 +185,7 @@
       "text": "My Linux router has two bridges,  br0  and  br1 , that handle WAN and LAN traffic respectively. This is a fairly simple configuration."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -333,7 +201,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -345,7 +213,7 @@
       "text": "Ideally, I'd like to have a single address assigned to  br0  so that my Linux router can reach IPv6 destinations. I'd also like a /64 assigned to the  br1  interface so that I can distribute addresses from that subnet to devices on my LAN."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -358,7 +226,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -370,7 +238,7 @@
       "text": "The  wide-dhcpv6  package provides a DHCPv6 client and also takes care of assigning some addresses for you. Installing it is easy with dnf:"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -386,7 +254,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -398,7 +266,7 @@
       "text": "We will create a new configuration file at "
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -414,7 +282,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -426,7 +294,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -442,7 +310,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -454,7 +322,7 @@
       "text": "If this configuration file makes sense to you without explanation, I'm impressed. Let's break it up into pieces to understand it."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -466,7 +334,7 @@
       "text": "The first section with  interface br0  specifies that we want to do our DHCPv6 requests on the  br0  interface. The configuration lines inside the curly braces says we want to specify a  prefix delegation  (the  IA_PD  DHCPv6 option) and we also want a stateful (SLAAC) address assigned on  br0  (the  IA_NA  DHCPv6 option). These are just simple flags that tell the upstream DHCPv6 server that we want to specify a particular prefix size and that we also want a single address (via SLAAC) for our external interface."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -478,7 +346,7 @@
       "text": "The  id-assoc na 1  section specifies that we want to accept the default SLAAC address provided by the upstream network device."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -490,7 +358,7 @@
       "text": "The  id-assoc pd 1  section gives the upstream DHCPv6 server a hint that we really want a /56 block of IPv6 addresses. The next three sections give our DHCPv6 client an idea of how we want addresses configured on our internal network devices. The three interfaces in each  prefix-interface  section will receive a different block (noted by the  sla-id  increasing by one each time). Also, the block size we intend to assign is a /64 ( sla-len  is 8, which means we knock 8 bits off a /56 and end up with a /64). Don't change your  sla-id  after you set it. That will cause the DHCPv6 client to move your /64 address blocks around to a different interface."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -502,7 +370,7 @@
       "text": "Still with me? This stuff is really confusing and documentation is sparse."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -514,7 +382,7 @@
       "text": "Start the DHCPv6 client and ensure it comes up at boot:"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -530,7 +398,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -542,7 +410,7 @@
       "text": "Run "
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -558,7 +426,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -570,7 +438,7 @@
       "text": " and look for IPv6 blocks configured on each interface. In my case,  br0  got a single address, and the other interfaces received unique /64's."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -583,7 +451,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -595,7 +463,7 @@
       "text": "The router is working now, but we need to tell our devices on the LAN that we have some IPv6 addresses available. You have different options for this, such as dnsmasq or radvd, but we will use radvd here:"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -611,7 +479,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -623,7 +491,7 @@
       "text": "If you open "
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -639,7 +507,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -651,7 +519,7 @@
       "text": ", you'll notice a helpful comment block at the top with a great example configuration. I only want to announce IPv6 on my  br1  interface, so I'll add this configuration block:"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -667,7 +535,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -679,7 +547,7 @@
       "text": "You don't actually need to specify the IPv6 prefix since radvd is smart enough to examine your interface and discover the IPv6 subnet assigned to it. This configuration says we will send router advertisements, let systems on the network choose their own addresses, and we will advertise those addresses as soon as the link comes up."
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -691,7 +559,7 @@
       "text": "Let's start radvd and ensure it comes up at boot:"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -707,7 +575,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -719,7 +587,7 @@
       "text": "Connect a machine to your LAN and you should receive an IPv6 address shortly after the link comes up!"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -732,7 +600,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -744,7 +612,7 @@
       "text": "If you're having trouble getting an IPv6 address, double-check your iptables rules. You will need to ensure you're allowing UDP 546 into your external interface. Here are some examples you can use:"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },

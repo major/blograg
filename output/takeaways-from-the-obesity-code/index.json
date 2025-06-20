@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 4040716745166808145,
-    "filename": "index.md"
+    "binary_hash": 11706530200180050964,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,13 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
       },
       {
         "$ref": "#/texts/4"
@@ -60,19 +66,19 @@
         "$ref": "#/texts/15"
       },
       {
-        "$ref": "#/texts/16"
+        "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/17"
+        "$ref": "#/texts/20"
       },
       {
-        "$ref": "#/texts/18"
+        "$ref": "#/texts/21"
       },
       {
-        "$ref": "#/texts/19"
+        "$ref": "#/texts/22"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/23"
       },
       {
         "$ref": "#/texts/24"
@@ -132,10 +138,7 @@
         "$ref": "#/texts/42"
       },
       {
-        "$ref": "#/texts/43"
-      },
-      {
-        "$ref": "#/texts/44"
+        "$ref": "#/groups/1"
       },
       {
         "$ref": "#/texts/45"
@@ -144,16 +147,7 @@
         "$ref": "#/texts/46"
       },
       {
-        "$ref": "#/groups/2"
-      },
-      {
-        "$ref": "#/texts/49"
-      },
-      {
-        "$ref": "#/texts/50"
-      },
-      {
-        "$ref": "#/texts/51"
+        "$ref": "#/texts/47"
       }
     ],
     "content_layer": "body",
@@ -168,13 +162,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/16"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/17"
         },
         {
-          "$ref": "#/texts/3"
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
         }
       ],
       "content_layer": "body",
@@ -188,33 +185,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/20"
+          "$ref": "#/texts/43"
         },
         {
-          "$ref": "#/texts/21"
-        },
-        {
-          "$ref": "#/texts/22"
-        },
-        {
-          "$ref": "#/texts/23"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/47"
-        },
-        {
-          "$ref": "#/texts/48"
+          "$ref": "#/texts/44"
         }
       ],
       "content_layer": "body",
@@ -232,65 +206,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2022/08/12/takeaways-from-the-obesity-code/",
-      "text": "/2022/08/12/takeaways-from-the-obesity-code/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "books",
-      "text": "books",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "keto",
-      "text": "keto",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "I finished Dr. Jason Fung's  The Obesity Code  earlier this week and it really made me think about how the nature of food and eating have changed over time. At a high level, the book focuses on not only  what  we eat, but  when  we eat.",
       "text": "I finished Dr. Jason Fung's  The Obesity Code  earlier this week and it really made me think about how the nature of food and eating have changed over time. At a high level, the book focuses on not only  what  we eat, but  when  we eat."
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -302,7 +222,7 @@
       "text": "This post includes some of the biggest takeaways that stayed with me after I finished reading it. However, the book has tons of excellent analogies to help you understand complicated systems in the body and their related medical conditions. It also includes results from many studies done over the past 200 years as well as deep dives into where some of our modern nutritional guidance started."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -314,7 +234,7 @@
       "text": "I highly recommend reading the entire book. Dr. Fung's writing style makes it easy to understand complicated tasks, and if you don't understand something, he reiterates his points in subsequent chapters to drive important messages home. (Love books? Get a copy of Dr. Fung's other excellent book,  The Cancer Code .)"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -326,7 +246,7 @@
       "text": "But before we get into this topic, we need a disclaimer."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -338,7 +258,7 @@
       "text": "Disclaimer"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -350,7 +270,7 @@
       "text": "I'm not a medical doctor and I couldn't play one on TV even if I tried. I'm just a person trying to improve my own health without landing in a fad diet that doesn't work. I also have nothing to sell to you."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -362,7 +282,7 @@
       "text": "Before you embark on any big changes with eating or exercise, talk with a medical professional to ensure you don't have any underlying conditions that would worsen with the changes. But, if your doctor tries to get you onto a low-fat, high-carb diet, I'd strongly recommend getting a second opinion. \ud83d\ude09"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -374,7 +294,7 @@
       "text": "Why this topic?"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -386,7 +306,7 @@
       "text": "I  started on the keto diet  back at the end of 2019 in the hope of improving my own health. My sleep patterns were terrible, I was on blood pressure medication, and my seasonal allergies really slowed me down. My weight wasn't ideal, either."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -398,7 +318,7 @@
       "text": "It's August 2022 and I'm still going with keto. My weight is down from 200-210 lbs (90.7-95.25kg) to 170-175 lbs (77.1-79.4kg) and that puts me in a healthy zone at 6'1\" (1.85m) tall. My blood pressure medicine went away a long time ago, as did most of my allergy medications (prescription and over the counter). I'm an active runner and I either run or walk about 3.2 miles (5km) daily."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -410,7 +330,7 @@
       "text": "I feel  great ."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -422,7 +342,7 @@
       "text": "However, I see constant updates on statistics around obesity in the news and in medical studies. I'm eager to find any details out there that reinforce my knowledge on the diet, question my assumptions, or offer me ways to improve it. This book is just one of many I've read to better understand how my own body works."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -434,7 +354,7 @@
       "text": "My takeaways"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -446,7 +366,7 @@
       "text": "Just as a reminder, these are only the big things that stuck with me after finishing the book. You should read it to get the full picture since you may be more interested in different topics."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -458,7 +378,7 @@
       "text": "Caloric restrictions don't work"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -470,9 +390,9 @@
       "text": "Many diets focus on reducing calories and they've been proven to fail over and over again. Dr. Fung provides several studies in the book that show a few different things:"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/16",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -484,9 +404,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/17",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -498,9 +418,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/18",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -512,9 +432,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/19",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -526,7 +446,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -538,7 +458,7 @@
       "text": "He provides a great analogy to help understand how the body handles weight. Everyone has a weight point set in their body, much like a thermostat for an air conditioner. If it's too cold in your room, you could start up a space heater or start the fireplace. The thermostat will notice the temperature increase and turn on the air conditioner. At some point, your space heater burns out while fighting the air conditioner or you run out of firewood."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -550,7 +470,7 @@
       "text": "This is how your body works."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -562,7 +482,7 @@
       "text": "Your body has a set point for weight, like a thermostat, and you must find a way to lower that setting. Dr. Fung notes that insulin levels are a huge factor. If insulin levels remain high for extended periods, the body thinks it needs to take on more fat and store the energy that is coming in. The weight thermostat moves up."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -574,7 +494,7 @@
       "text": "Turning that thermostat down requires lowering insulin levels over the long term. These levels spike every time we eat, no matter what we eat."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -586,7 +506,7 @@
       "text": "How do we lower the thermostat? Keep reading."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -598,7 +518,7 @@
       "text": "Avoid refined carbohydrates"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -610,7 +530,7 @@
       "text": "You probably knew this was coming. Dr. Fung notes that nothing raises insulin levels higher in the body than sugars. However, there are differences based on what you're consuming, whether it's plain table sugar, high fructose corn syrup, or artificial sugars."
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -622,7 +542,7 @@
       "text": "So much of the wheat we consume today isn't the same as it used to be. Lots of packaged foods contain hidden sugars or so much processing that barely any of the original nutrients remain. Any keto dieter can tell you that removing these foods will kick the keto diet into high gear."
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -634,7 +554,7 @@
       "text": "As stated earlier, caloric reduction doesn't work. So if you're removing calories from refined carbohydrates, something must fill the gap left behind."
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -646,7 +566,7 @@
       "text": "That's where an increase in fat and protein helps. Fat and protein do raise insulin levels, like any food, but the levels increase by a much smaller amount. In addition, he cites several studies that show saturated fat levels in the blood remaining relatively steady when people consume high-fat meals."
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -658,7 +578,7 @@
       "text": "I can vouch for this myself. My diet consists of fat as the number one source of calories and my triglycerides look fantastic. My A1C is down from where it was before starting keto and my cholesterol numbers are in a normal range."
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -670,7 +590,7 @@
       "text": "That leads to another good point from the book: 75% of the cholesterol in your blood comes from what your body makes. Only about 25% comes from your diet. But not all cholesterol is the same. You can break the HDL/LDL into many different types and there are types in both categories that are helpful and harmful."
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -682,7 +602,7 @@
       "text": "Think more about when and less about what"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -694,7 +614,7 @@
       "text": "Dr. Fung argues that you should focus on  when  you eat a lot more than about  what  you eat. (But avoid the refined carbohydrates anyway.)"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -706,7 +626,7 @@
       "text": "But there's one thing I am sure of:  intermittent fasting is my nemesis."
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -718,7 +638,7 @@
       "text": "Dr. Fung provides lots of study results that show fasting as a critical part of reducing obesity and keeping insulin levels in check. He even cites a study where someone went on a therapeutic (and medically supervised) fast for 382 days and was totally healthy afterwards. Reading things like that makes it seem less insurmountable."
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -730,7 +650,7 @@
       "text": "The body knows how to handle a fast and takes many actions to ensure we are performing our best during a fast. Think about early humans. Sometimes they would have a large meal after a hunt but then winter comes and food becomes scarce. When the body goes without food, it begins to think: \"Hey, we better be smart and be on the lookout for something to eat.\""
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -742,7 +662,7 @@
       "text": "Keto dieters who intermittently fast will tell you that during their fast, their focus improves. The body makes adjustments to blood glucose levels and overall blood flow to ensure we're operating at our best. If we're not, then we might miss our next meal."
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -754,7 +674,7 @@
       "text": "Dr. Fung provides 24-hour or 36-hour fasts as examples. These may be tough for beginners. I've found that any adjustments I can make, even if it's just skipping a meal, seems to improve how I feel."
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -766,7 +686,7 @@
       "text": "My current pattern is called the 16/8 because you spend 16 hours fasting with an 8 hour eating window. My window runs from 11AM to 7PM so I can eat lunch and dinner without being tempted to eat late in the evening (which is rough on sleep patterns). If you want to try something simple, try skipping breakfast (which is named as such because it's a  break  in the  fast  you have while sleeping). \ud83d\ude09"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -778,7 +698,7 @@
       "text": "Going forward"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -790,7 +710,7 @@
       "text": "My ability to resist refined carbohydrates and high sugar meals is superb right now, but it's taken a long time to get here. I thought this would be the most difficult thing to overcome, but surprisingly, a cake, a dish of cr\u00e8me br\u00fbl\u00e9e, or an ice cream seem unappetizing to me now. (Boy, I never thought I could escape the clutches of a good cr\u00e8me br\u00fbl\u00e9e.)"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -802,9 +722,9 @@
       "text": "However, there are two things I don't do well right now:"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/43",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -816,9 +736,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/44",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -830,7 +750,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -842,7 +762,7 @@
       "text": "My plan is to drink more water regularly, especially while fasting, and find a way to reduce my artificial sugar intake a bit more."
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -854,7 +774,7 @@
       "text": "Luckily, a friend told me about  r/Hydrohomies  on Reddit so I can get my water reminder along with hilarious memes. \ud83e\udd23 \ud83d\udca6"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },

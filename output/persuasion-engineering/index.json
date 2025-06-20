@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 15580650323088206408,
-    "filename": "index.md"
+    "binary_hash": 14057128439016944364,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,16 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
       },
       {
         "$ref": "#/texts/5"
@@ -51,22 +60,22 @@
         "$ref": "#/texts/13"
       },
       {
-        "$ref": "#/texts/14"
-      },
-      {
-        "$ref": "#/texts/15"
-      },
-      {
-        "$ref": "#/texts/16"
-      },
-      {
-        "$ref": "#/texts/17"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/18"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
       },
       {
         "$ref": "#/texts/23"
@@ -84,10 +93,7 @@
         "$ref": "#/texts/27"
       },
       {
-        "$ref": "#/texts/28"
-      },
-      {
-        "$ref": "#/texts/29"
+        "$ref": "#/groups/1"
       },
       {
         "$ref": "#/texts/30"
@@ -99,7 +105,10 @@
         "$ref": "#/texts/32"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
       },
       {
         "$ref": "#/texts/35"
@@ -138,31 +147,25 @@
         "$ref": "#/texts/46"
       },
       {
-        "$ref": "#/texts/47"
+        "$ref": "#/groups/2"
       },
       {
-        "$ref": "#/texts/48"
+        "$ref": "#/texts/52"
       },
       {
-        "$ref": "#/texts/49"
+        "$ref": "#/texts/53"
       },
       {
-        "$ref": "#/texts/50"
+        "$ref": "#/texts/54"
       },
       {
-        "$ref": "#/texts/51"
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
       },
       {
         "$ref": "#/groups/3"
-      },
-      {
-        "$ref": "#/texts/57"
-      },
-      {
-        "$ref": "#/texts/58"
-      },
-      {
-        "$ref": "#/texts/59"
       },
       {
         "$ref": "#/texts/60"
@@ -171,10 +174,10 @@
         "$ref": "#/texts/61"
       },
       {
-        "$ref": "#/groups/4"
+        "$ref": "#/texts/62"
       },
       {
-        "$ref": "#/texts/65"
+        "$ref": "#/groups/4"
       },
       {
         "$ref": "#/texts/66"
@@ -186,13 +189,19 @@
         "$ref": "#/groups/5"
       },
       {
+        "$ref": "#/texts/70"
+      },
+      {
         "$ref": "#/texts/71"
       },
       {
         "$ref": "#/texts/72"
       },
       {
-        "$ref": "#/groups/6"
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/texts/74"
       },
       {
         "$ref": "#/texts/75"
@@ -211,21 +220,6 @@
       },
       {
         "$ref": "#/texts/80"
-      },
-      {
-        "$ref": "#/texts/81"
-      },
-      {
-        "$ref": "#/texts/82"
-      },
-      {
-        "$ref": "#/texts/83"
-      },
-      {
-        "$ref": "#/texts/84"
-      },
-      {
-        "$ref": "#/texts/85"
       }
     ],
     "content_layer": "body",
@@ -240,16 +234,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/14"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/15"
         },
         {
-          "$ref": "#/texts/3"
+          "$ref": "#/texts/16"
         },
         {
-          "$ref": "#/texts/4"
+          "$ref": "#/texts/17"
         }
       ],
       "content_layer": "body",
@@ -263,21 +257,15 @@
       },
       "children": [
         {
-          "$ref": "#/texts/19"
+          "$ref": "#/texts/28"
         },
         {
-          "$ref": "#/texts/20"
-        },
-        {
-          "$ref": "#/texts/21"
-        },
-        {
-          "$ref": "#/texts/22"
+          "$ref": "#/texts/29"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "list"
+      "label": "ordered_list"
     },
     {
       "self_ref": "#/groups/2",
@@ -286,15 +274,24 @@
       },
       "children": [
         {
-          "$ref": "#/texts/33"
+          "$ref": "#/texts/47"
         },
         {
-          "$ref": "#/texts/34"
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "ordered_list"
+      "label": "list"
     },
     {
       "self_ref": "#/groups/3",
@@ -303,24 +300,18 @@
       },
       "children": [
         {
-          "$ref": "#/texts/52"
+          "$ref": "#/texts/57"
         },
         {
-          "$ref": "#/texts/53"
+          "$ref": "#/texts/58"
         },
         {
-          "$ref": "#/texts/54"
-        },
-        {
-          "$ref": "#/texts/55"
-        },
-        {
-          "$ref": "#/texts/56"
+          "$ref": "#/texts/59"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "list"
+      "label": "ordered_list"
     },
     {
       "self_ref": "#/groups/4",
@@ -329,13 +320,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/62"
-        },
-        {
           "$ref": "#/texts/63"
         },
         {
           "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
         }
       ],
       "content_layer": "body",
@@ -353,26 +344,6 @@
         },
         {
           "$ref": "#/texts/69"
-        },
-        {
-          "$ref": "#/texts/70"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "ordered_list"
-    },
-    {
-      "self_ref": "#/groups/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/73"
-        },
-        {
-          "$ref": "#/texts/74"
         }
       ],
       "content_layer": "body",
@@ -390,79 +361,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2021/07/11/persuasion-engineering/",
-      "text": "/2021/07/11/persuasion-engineering/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "career",
-      "text": "career",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "mentorship",
-      "text": "mentorship",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Mentorship stands out as one of my favorite parts of working in technology and I've been fortunate to be on both sides of mentoring relationships over the years. One common aspect of career growth is the ability to come up with a solution and then persuade other people to get on board with it.",
       "text": "Mentorship stands out as one of my favorite parts of working in technology and I've been fortunate to be on both sides of mentoring relationships over the years. One common aspect of career growth is the ability to come up with a solution and then persuade other people to get on board with it."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -474,7 +377,7 @@
       "text": "Not every change is a winner, but if you feel strongly that your solution will improve your product, transform your customer experience, or just make everyone's lives a little easier, how do you convince other people to join you?"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -486,7 +389,7 @@
       "text": "This post covers several lessons I learned while trying to convince others to join me on a new technology trek. Although there's no perfect answer that fits all situations, you can use bits and pieces of each of these to improve your persuasion skills at work."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -499,7 +402,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -511,7 +414,7 @@
       "text": "\"Fall in love with the problem, not the solution.\" &raquo; Uri Levine, co-founder of Waze"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -523,7 +426,7 @@
       "text": "Technology exists to solve problems, but engineers often lose sight of the problem they want to solve. This makes persuasion difficult. Before you can propose a solution and get others interested in contributing, you must identify and get agreement on the problem."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -535,7 +438,7 @@
       "text": "However, not everyone sees problems the same way. Some may see your problem as a non-issue since it doesn't affect them. Others may see your problem as an issue to fix, but other issues are more pressing. A smaller set will likely see the problem the same way you do, but they have other ideas for solving it.  (Don't worry about this for now. More on that later.)"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -547,7 +450,7 @@
       "text": "My journalism teacher in grade school always told us that stories that focus on people and their experiences, called \"feature stories\", always generate more attention. But why? Feature stories talk about people and their experiences, often by allowing the people to tell their own story in their own words. They make the story  real  for more readers. When you finish reading, you know what  happened and you know  how it affected real people ."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -559,7 +462,7 @@
       "text": "Discussing problems works the same way. The problem becomes real not when it is explained or presented, but when your audience understands how it affects people. Let affected people speak for themselves by gathering comments from customers or coworkers to accelerate this process."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -571,7 +474,7 @@
       "text": "Let's say there's a performance issue in your technology that affects large customers and they experience slow performance. You've identified the root of the problem and you're eager to solve it. A basic approach might go like this:"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -583,7 +486,7 @@
       "text": "\"Large customers are upset because our web interface is too slow when loading their data. We must fix our database server soon.\""
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -595,7 +498,7 @@
       "text": "This is okay, but what if we expand it a bit and make the problem more real for everyone?"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -607,7 +510,7 @@
       "text": "\"Several of our large customers are frustrated because their account listings take too long to load in our web application. For some customers, such as Company X, the wait time is over 60 seconds and they often can't get their data at all. Beth from Sales says she has three large customers who want to renew but want this problem fixed first. That's $500,000 in renewal income that we could lose. Dan from Support says his team spends too much time on these issues and their ticket queues have increased 30% -- the customer NPS surveys are down, too. This could affect our upcoming presentation at Conference Y where we've paid for a prime sponsorship slot. Our database administrators explained that they are having difficulty making backups since the database servers are incredibly busy. This may affect our business continuity plans.\""
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -619,9 +522,9 @@
       "text": "What's different with the second approach?"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/14",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -633,9 +536,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/15",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -647,9 +550,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/16",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -661,9 +564,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/17",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -675,7 +578,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -687,7 +590,7 @@
       "text": "We've turned a problem statement into a feature story. Your audience has heard about the problem, but they also  feel  the problem. They know how it is affecting their coworkers, but most importantly, they understand how it is affecting customers."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -699,7 +602,7 @@
       "text": "This  feeling the problem  step is critical and often overlooked. You're making an appeal to the  emotions  of your audience first, followed by an appeal to their  reasoning . That leads well into the next section."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -712,7 +615,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -724,7 +627,7 @@
       "text": "\"The weakness of the Elephant, our emotional and instinctive side, is clear: It\u2019s lazy and skittish, often looking for the quick payoff (ice cream cone) over the long-term payoff (being thin). When change efforts fail, it\u2019s usually the Elephant\u2019s fault, since the kinds of change we want typically involve short-term sacrifices for long-term payoffs.\" &raquo; Chip Heath, Switch"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -736,7 +639,7 @@
       "text": "In the fantastic book  Switch: How to Change Things When Change is Hard , Chip and Dan Heath talk about the elephant as a metaphor represents our emotions. Emotion drives everything we do (and don't do), and you can't use reasoning with someone if their emotions are not on board."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -748,7 +651,7 @@
       "text": "Think about a child with an ice cream cone and the ice cream falls to the ground. The child screams and screams because they feel like a great experience was taken from them. A parent might say \"It's okay! We can get another one!\", but the child continues to scream. But why? Getting another ice cream is easy and they still get to enjoy the experience."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -760,7 +663,7 @@
       "text": "At that point, the child's emotions are completely overwhelmed. Reasoning won't work. That part of the brain is like a rider on an elephant. If the elephant is frightened by something or feels strongly about going a certain direction, there's nothing that rider can do to change its mind. The only way to get back on track is to appeal to the child's emotions  (\"That's terrible. I know. Here, I'll give you a hug\")  until they are calm, and then apply some reasoning  (\"Can I get you another ice cream? Would you like the same flavor?\") ."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -772,7 +675,7 @@
       "text": "Everyone's emotions are triggered and managed differently, so it's best to cast a wide net. In the example from the last section, we talked about losing money, dissatisfied customers, and potential mortal danger to the company. The goal is to make an appeal on multiple levels in the hopes that at least one will catch the attention of someone's elephant (their emotions)."
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -784,7 +687,7 @@
       "text": "As a software developer, the best reward you can get is when someone uses what you wrote and they enjoy using it. If I learn that someone is dissatisfied with something I made, I want to know everything I can about it. Their dissatisfaction triggers my emotions. It's one of the strongest appeals that makes me want to stop what I am doing and improve what I've created."
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -796,9 +699,9 @@
       "text": "You have two main goals here:"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/28",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -810,9 +713,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/29",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -824,7 +727,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -837,7 +740,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -849,7 +752,7 @@
       "text": "\"When solving problems, dig at the roots instead of just hacking at the leaves.\" &raquo; Anthony J. D'Angelo"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -861,7 +764,7 @@
       "text": "Your next step is to work backwards to ensure you've found the root of the problem. There are plenty of methods to work through the process, but keep in mind that it is a  process . The process brings you closer to the root of the problem to ensure you're solving the right problem."
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -873,7 +776,7 @@
       "text": "One of my favorite methods is the Five Whys. It really just involves asking why  until you get that feeling that there's nothing else to ask. This is a great activity to do on your own before bringing it to the group. It helps you anticipate different conversations and prepare for them. Do the same process with the group, too."
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -885,7 +788,7 @@
       "text": "Going back to our example from the first section, it could go something like this:"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -897,7 +800,7 @@
       "text": "Our web interface is too slow for our largest customers."
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -909,7 +812,7 @@
       "text": "Why?"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -921,7 +824,7 @@
       "text": "The web interface sits around for a long time to get data from the database."
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -933,7 +836,7 @@
       "text": "Why?"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -945,7 +848,7 @@
       "text": "The database takes too long to send data back."
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -957,7 +860,7 @@
       "text": "Why?"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -969,7 +872,7 @@
       "text": "There's a lot of data to retrieve and the queries take a long time to run."
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -981,7 +884,7 @@
       "text": "Why?"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -993,7 +896,7 @@
       "text": "We store data that we don't need and our queries retrieve more data than we need."
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -1005,7 +908,7 @@
       "text": "Why?"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -1017,7 +920,7 @@
       "text": "We've never optimized this part of our application before."
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1029,9 +932,9 @@
       "text": "Awesome! What did we learn about the problems we need to solve?"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/47",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1043,9 +946,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/48",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1057,9 +960,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/49",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1071,9 +974,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/50",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1085,9 +988,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/51",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1099,7 +1002,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1111,7 +1014,7 @@
       "text": "Now we have a list of problems to solve and some things that need consideration during future development. This leads us to consider short, medium, and long term solutions, and that's our next step."
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1124,7 +1027,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1136,7 +1039,7 @@
       "text": "\"Every problem has in it the seeds of its own solution. If you don't have any problems, you don't get any seeds.\" &raquo; Norman Vincent Peale"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1148,7 +1051,7 @@
       "text": "Everything we've done has led to this moment. We need solutions to our problem from the first section. In a previous life, I was an EMT on ambulances and we faced constant problems. Some were immediate and life-threatening while others could become an emergency over time."
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1160,9 +1063,9 @@
       "text": "We can think through the solutions process in much the same way as I approached patients on the ambulance. I use this process:"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/57",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -1174,6 +1077,70 @@
       "marker": "-"
     },
     {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='Long term:'>]",
+      "text": "[<RawText children='Long term:'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='Medium term:'>]",
+      "text": "[<RawText children='Medium term:'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "You may wonder why the medium term tasks come last. I keep them at the end because as you argue about the short and long term items, you'll have work that lands in  gray areas  between short and long term. For example, you may want to fix a critical problem, but fixing it involves lots of planning or organization with other groups. Sure, it's critical, but it's not something you can do quickly.",
+      "text": "You may wonder why the medium term tasks come last. I keep them at the end because as you argue about the short and long term items, you'll have work that lands in  gray areas  between short and long term. For example, you may want to fix a critical problem, but fixing it involves lots of planning or organization with other groups. Sure, it's critical, but it's not something you can do quickly."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Short term solutions should obviously be critical ones, but they should be ones that can be done by smaller group of people. Some might call these \"low-hanging fruit\". These are the things where you look at a coworker and say \"Hey, let's sit down and try a few different fixes to see which one works best.\" Avoid anything here that requires wide cooperation or regulatory changes. You want the changes to quickly snowball into big improvements so everyone can  feel  that something is getting better.",
+      "text": "Short term solutions should obviously be critical ones, but they should be ones that can be done by smaller group of people. Some might call these \"low-hanging fruit\". These are the things where you look at a coworker and say \"Hey, let's sit down and try a few different fixes to see which one works best.\" Avoid anything here that requires wide cooperation or regulatory changes. You want the changes to quickly snowball into big improvements so everyone can  feel  that something is getting better."
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "From our example, short term things might be:",
+      "text": "From our example, short term things might be:"
+    },
+    {
       "self_ref": "#/texts/63",
       "parent": {
         "$ref": "#/groups/4"
@@ -1182,8 +1149,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "[<RawText children='Long term:'>]",
-      "text": "[<RawText children='Long term:'>]",
+      "orig": "Identify the queries that are retrieving too much data and inventory what",
+      "text": "Identify the queries that are retrieving too much data and inventory what",
       "enumerated": false,
       "marker": "-"
     },
@@ -1196,22 +1163,24 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "[<RawText children='Medium term:'>]",
-      "text": "[<RawText children='Medium term:'>]",
+      "orig": "Deploy a backup read-only copy of the database server to take backups.",
+      "text": "Deploy a backup read-only copy of the database server to take backups.",
       "enumerated": false,
       "marker": "-"
     },
     {
       "self_ref": "#/texts/65",
       "parent": {
-        "$ref": "#/body"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
-      "label": "paragraph",
+      "label": "list_item",
       "prov": [],
-      "orig": "You may wonder why the medium term tasks come last. I keep them at the end because as you argue about the short and long term items, you'll have work that lands in  gray areas  between short and long term. For example, you may want to fix a critical problem, but fixing it involves lots of planning or organization with other groups. Sure, it's critical, but it's not something you can do quickly.",
-      "text": "You may wonder why the medium term tasks come last. I keep them at the end because as you argue about the short and long term items, you'll have work that lands in  gray areas  between short and long term. For example, you may want to fix a critical problem, but fixing it involves lots of planning or organization with other groups. Sure, it's critical, but it's not something you can do quickly."
+      "orig": "Get a list of customers who are willing to try a preview of the newer, faster",
+      "text": "Get a list of customers who are willing to try a preview of the newer, faster",
+      "enumerated": false,
+      "marker": "-"
     },
     {
       "self_ref": "#/texts/66",
@@ -1222,8 +1191,8 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "Short term solutions should obviously be critical ones, but they should be ones that can be done by smaller group of people. Some might call these \"low-hanging fruit\". These are the things where you look at a coworker and say \"Hey, let's sit down and try a few different fixes to see which one works best.\" Avoid anything here that requires wide cooperation or regulatory changes. You want the changes to quickly snowball into big improvements so everyone can  feel  that something is getting better.",
-      "text": "Short term solutions should obviously be critical ones, but they should be ones that can be done by smaller group of people. Some might call these \"low-hanging fruit\". These are the things where you look at a coworker and say \"Hey, let's sit down and try a few different fixes to see which one works best.\" Avoid anything here that requires wide cooperation or regulatory changes. You want the changes to quickly snowball into big improvements so everyone can  feel  that something is getting better."
+      "orig": "Next, look for the long term solutions. These are things that require multiple groups to collaborate, consultations with vendors, or regulatory changes. Although these may take a while, the building momentum from the short term changes should build confidence that these can get done.",
+      "text": "Next, look for the long term solutions. These are things that require multiple groups to collaborate, consultations with vendors, or regulatory changes. Although these may take a while, the building momentum from the short term changes should build confidence that these can get done."
     },
     {
       "self_ref": "#/texts/67",
@@ -1234,8 +1203,8 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "From our example, short term things might be:",
-      "text": "From our example, short term things might be:"
+      "orig": "These might include:",
+      "text": "These might include:"
     },
     {
       "self_ref": "#/texts/68",
@@ -1246,8 +1215,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Identify the queries that are retrieving too much data and inventory what",
-      "text": "Identify the queries that are retrieving too much data and inventory what",
+      "orig": "Migrate the database to a faster server.",
+      "text": "Migrate the database to a faster server.",
       "enumerated": false,
       "marker": "-"
     },
@@ -1260,79 +1229,13 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Deploy a backup read-only copy of the database server to take backups.",
-      "text": "Deploy a backup read-only copy of the database server to take backups.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/70",
-      "parent": {
-        "$ref": "#/groups/5"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Get a list of customers who are willing to try a preview of the newer, faster",
-      "text": "Get a list of customers who are willing to try a preview of the newer, faster",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/71",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Next, look for the long term solutions. These are things that require multiple groups to collaborate, consultations with vendors, or regulatory changes. Although these may take a while, the building momentum from the short term changes should build confidence that these can get done.",
-      "text": "Next, look for the long term solutions. These are things that require multiple groups to collaborate, consultations with vendors, or regulatory changes. Although these may take a while, the building momentum from the short term changes should build confidence that these can get done."
-    },
-    {
-      "self_ref": "#/texts/72",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "These might include:",
-      "text": "These might include:"
-    },
-    {
-      "self_ref": "#/texts/73",
-      "parent": {
-        "$ref": "#/groups/6"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Migrate the database to a faster server.",
-      "text": "Migrate the database to a faster server.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/74",
-      "parent": {
-        "$ref": "#/groups/6"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "Consult with auditors to understand what data could be removed over time and",
       "text": "Consult with auditors to understand what data could be removed over time and",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/70",
       "parent": {
         "$ref": "#/body"
       },
@@ -1344,7 +1247,7 @@
       "text": "Finally, the medium term solutions are made up of those things that fit in between short and long term things. The best solutions here are process-based to reduce the chance of the problem happening again before long term solutions are implemented."
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/71",
       "parent": {
         "$ref": "#/body"
       },
@@ -1356,7 +1259,7 @@
       "text": "From our example, this could be a new process added to quality assurance that checks web interface performance after any feature or bug fix is proposed. The CI system could do a test to see if response times improved or worsened after the change. This would allow developers to determine which changes must be held back until performance reductions are fixed. These medium term solutions ensure that the problem doesn't worsen before the long term issues are fixed."
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },
@@ -1369,7 +1272,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/73",
       "parent": {
         "$ref": "#/body"
       },
@@ -1381,7 +1284,7 @@
       "text": "The solutions snowball should continue to build over time as problems are crushed one by one. The maintenance of this momentum drives everything forward. Ensure that you measure the impacts of these changes over time and let everyone know about the progress."
     },
     {
-      "self_ref": "#/texts/79",
+      "self_ref": "#/texts/74",
       "parent": {
         "$ref": "#/body"
       },
@@ -1393,7 +1296,7 @@
       "text": "Take time to celebrate the wins, no matter how big or small. This builds comradery among the teams and reminds people less about the problem and more about how they overcame it. I have t-shirts in my closet from big solutions to big problems from my previous work."
     },
     {
-      "self_ref": "#/texts/80",
+      "self_ref": "#/texts/75",
       "parent": {
         "$ref": "#/body"
       },
@@ -1405,7 +1308,7 @@
       "text": "Sure, people remember the problem that started it all, but they remember the hard work that came afterwards so much more."
     },
     {
-      "self_ref": "#/texts/81",
+      "self_ref": "#/texts/76",
       "parent": {
         "$ref": "#/body"
       },
@@ -1417,7 +1320,7 @@
       "text": "If you've seen the movie Apollo 13, where a failed trip to the moon put three astronauts in mortal danger,  what do you remember most?"
     },
     {
-      "self_ref": "#/texts/82",
+      "self_ref": "#/texts/77",
       "parent": {
         "$ref": "#/body"
       },
@@ -1429,7 +1332,7 @@
       "text": "Do you remember what broke on the spaceship? I do. It had something to do with oxygen tanks."
     },
     {
-      "self_ref": "#/texts/83",
+      "self_ref": "#/texts/78",
       "parent": {
         "$ref": "#/body"
       },
@@ -1441,7 +1344,7 @@
       "text": "What do you really remember from the movie? I remember three astronauts and a ton of people back on Earth working through plenty of solutions and eventually succeeding. I remember everyone trying to figure out how to filter out carbon dioxide with the wrong parts. I remember three astronauts making it back to Earth with the world watching. I remember seeing people relieved and amazed by the work they did how they turned an awful situation into an unforgettable ending."
     },
     {
-      "self_ref": "#/texts/84",
+      "self_ref": "#/texts/79",
       "parent": {
         "$ref": "#/body"
       },
@@ -1453,7 +1356,7 @@
       "text": "What will your coworkers remember?"
     },
     {
-      "self_ref": "#/texts/85",
+      "self_ref": "#/texts/80",
       "parent": {
         "$ref": "#/body"
       },

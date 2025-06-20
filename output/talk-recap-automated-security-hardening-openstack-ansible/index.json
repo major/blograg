@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/html",
-    "binary_hash": 639272315070185223,
-    "filename": "index.md"
+    "binary_hash": 6017060409253563699,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,16 +21,10 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
         "$ref": "#/groups/0"
-      },
-      {
-        "$ref": "#/texts/7"
-      },
-      {
-        "$ref": "#/texts/8"
-      },
-      {
-        "$ref": "#/groups/1"
       }
     ],
     "content_layer": "body",
@@ -45,48 +39,19 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
           "$ref": "#/texts/2"
         },
         {
-          "$ref": "#/texts/3"
+          "$ref": "#/texts/7"
         },
         {
-          "$ref": "#/texts/4"
+          "$ref": "#/texts/17"
         },
         {
-          "$ref": "#/texts/5"
+          "$ref": "#/texts/22"
         },
         {
-          "$ref": "#/texts/6"
-        }
-      ],
-      "content_layer": "furniture",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/9"
-        },
-        {
-          "$ref": "#/texts/14"
-        },
-        {
-          "$ref": "#/texts/24"
-        },
-        {
-          "$ref": "#/texts/29"
-        },
-        {
-          "$ref": "#/texts/33"
+          "$ref": "#/texts/26"
         }
       ],
       "content_layer": "body",
@@ -104,107 +69,11 @@
       "content_layer": "furniture",
       "label": "text",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2016/04/26/talk-recap-automated-security-hardening-openstack-ansible/",
-      "text": "/2016/04/26/talk-recap-automated-security-hardening-openstack-ansible/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "list_item",
-      "prov": [],
-      "orig": "ansible",
-      "text": "ansible",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "list_item",
-      "prov": [],
-      "orig": "openstack",
-      "text": "openstack",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "list_item",
-      "prov": [],
-      "orig": "ubuntu",
-      "text": "ubuntu",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "list_item",
-      "prov": [],
-      "orig": "virtualization",
-      "text": "virtualization",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "text",
-      "prov": [],
       "orig": "Today is the second day of the  OpenStack Summit in Austin  and I offered up a talk on host security hardening in OpenStack clouds. You can  download the slides  or watch the video here:",
       "text": "Today is the second day of the  OpenStack Summit in Austin  and I offered up a talk on host security hardening in OpenStack clouds. You can  download the slides  or watch the video here:"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -216,11 +85,91 @@
       "text": "Here's a quick recap of the talk and the conversations afterward:"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Security tug-of-war",
+      "text": "Security tug-of-war",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/texts/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Information security is a challenging task, mainly because it is more than just a technical problem. Technology is a big part of it, but communication, culture, and compromise are also critical. I flashed up this statement on the slides:",
+      "text": "Information security is a challenging task, mainly because it is more than just a technical problem. Technology is a big part of it, but communication, culture, and compromise are also critical. I flashed up this statement on the slides:"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/texts/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\"People should feel like security is something they are part of; not something that is done to them\" @majorhayden pic.twitter.com/Blh9rZp0uL",
+      "text": "\"People should feel like security is something they are part of; not something that is done to them\" @majorhayden pic.twitter.com/Blh9rZp0uL"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/texts/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "\u2014 Rackspace (@Rackspace) April 26, 2016",
+      "text": "\u2014 Rackspace (@Rackspace) April 26, 2016"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/texts/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "In the end, the information security teams, the developers  and  the auditors must be happy. This can be a challenging tightrope to walk, but automating some security allows everyone to get what they want in a scalable and repeatable way.",
+      "text": "In the end, the information security teams, the developers  and  the auditors must be happy. This can be a challenging tightrope to walk, but automating some security allows everyone to get what they want in a scalable and repeatable way."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
         {
           "$ref": "#/texts/10"
         },
@@ -232,95 +181,15 @@
         },
         {
           "$ref": "#/texts/13"
-        }
-      ],
-      "content_layer": "body",
-      "label": "section_header",
-      "prov": [],
-      "orig": "Security tug-of-war",
-      "text": "Security tug-of-war",
-      "level": 1
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/texts/9"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "Information security is a challenging task, mainly because it is more than just a technical problem. Technology is a big part of it, but communication, culture, and compromise are also critical. I flashed up this statement on the slides:",
-      "text": "Information security is a challenging task, mainly because it is more than just a technical problem. Technology is a big part of it, but communication, culture, and compromise are also critical. I flashed up this statement on the slides:"
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/texts/9"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "\"People should feel like security is something they are part of; not something that is done to them\" @majorhayden pic.twitter.com/Blh9rZp0uL",
-      "text": "\"People should feel like security is something they are part of; not something that is done to them\" @majorhayden pic.twitter.com/Blh9rZp0uL"
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "$ref": "#/texts/9"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "\u2014 Rackspace (@Rackspace) April 26, 2016",
-      "text": "\u2014 Rackspace (@Rackspace) April 26, 2016"
-    },
-    {
-      "self_ref": "#/texts/13",
-      "parent": {
-        "$ref": "#/texts/9"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "In the end, the information security teams, the developers  and  the auditors must be happy. This can be a challenging tightrope to walk, but automating some security allows everyone to get what they want in a scalable and repeatable way.",
-      "text": "In the end, the information security teams, the developers  and  the auditors must be happy. This can be a challenging tightrope to walk, but automating some security allows everyone to get what they want in a scalable and repeatable way."
-    },
-    {
-      "self_ref": "#/texts/14",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [
+        },
+        {
+          "$ref": "#/texts/14"
+        },
         {
           "$ref": "#/texts/15"
         },
         {
           "$ref": "#/texts/16"
-        },
-        {
-          "$ref": "#/texts/17"
-        },
-        {
-          "$ref": "#/texts/18"
-        },
-        {
-          "$ref": "#/texts/19"
-        },
-        {
-          "$ref": "#/texts/20"
-        },
-        {
-          "$ref": "#/texts/21"
-        },
-        {
-          "$ref": "#/texts/22"
-        },
-        {
-          "$ref": "#/texts/23"
         }
       ],
       "content_layer": "body",
@@ -331,9 +200,9 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/texts/14"
+        "$ref": "#/texts/7"
       },
       "children": [],
       "content_layer": "body",
@@ -343,9 +212,9 @@
       "text": "The  openstack-ansible-security role  allows information security teams to meet developers or OpenStack deployers halfway. It can easily bolt onto existing Ansible playbooks and manage host security hardening for Ubuntu 14.04 systems. The role also works in non-OpenStack environments just as well. All of the documentation, configuration, and Ansible tasks are all included with the role."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/texts/14"
+        "$ref": "#/texts/7"
       },
       "children": [],
       "content_layer": "body",
@@ -355,9 +224,9 @@
       "text": "The role itself applies security configurations to each host in an environment. Those configurations are based on the Security Technical Implementation Guide (STIG) from the Defense Information Systems Agency (DISA), which is part of the United States Department of Defense. The role takes the configurations from the STIG and makes small tweaks to fit an OpenStack environment. All of the tasks are carefully translated from the STIG for Red Hat Enterprise Linux 6 (there is no STIG for Ubuntu currently)."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/texts/14"
+        "$ref": "#/texts/7"
       },
       "children": [],
       "content_layer": "body",
@@ -367,9 +236,9 @@
       "text": "The role is available now as part of OpenStack-Ansible in the Liberty, Mitaka, and Newton releases. Simply adjust"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/texts/14"
+        "$ref": "#/texts/7"
       },
       "children": [],
       "content_layer": "body",
@@ -383,9 +252,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/12",
       "parent": {
-        "$ref": "#/texts/14"
+        "$ref": "#/texts/7"
       },
       "children": [],
       "content_layer": "body",
@@ -395,9 +264,9 @@
       "text": "from"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/texts/14"
+        "$ref": "#/texts/7"
       },
       "children": [],
       "content_layer": "body",
@@ -411,9 +280,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/14",
       "parent": {
-        "$ref": "#/texts/14"
+        "$ref": "#/texts/7"
       },
       "children": [],
       "content_layer": "body",
@@ -423,9 +292,9 @@
       "text": "to"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/15",
       "parent": {
-        "$ref": "#/texts/14"
+        "$ref": "#/texts/7"
       },
       "children": [],
       "content_layer": "body",
@@ -439,9 +308,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/16",
       "parent": {
-        "$ref": "#/texts/14"
+        "$ref": "#/texts/7"
       },
       "children": [],
       "content_layer": "body",
@@ -451,22 +320,22 @@
       "text": "and deploy. For other users, the role can easily be used in any Ansible playbook.  (Be sure to review the configuration to ensure its defaults meet your requirements.)"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/17",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [
         {
-          "$ref": "#/texts/25"
+          "$ref": "#/texts/18"
         },
         {
-          "$ref": "#/texts/26"
+          "$ref": "#/texts/19"
         },
         {
-          "$ref": "#/texts/27"
+          "$ref": "#/texts/20"
         },
         {
-          "$ref": "#/texts/28"
+          "$ref": "#/texts/21"
         }
       ],
       "content_layer": "body",
@@ -477,9 +346,9 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/18",
       "parent": {
-        "$ref": "#/texts/24"
+        "$ref": "#/texts/17"
       },
       "children": [],
       "content_layer": "body",
@@ -489,9 +358,9 @@
       "text": "We need your help! Upcoming plans include Ubuntu 16.04 and CentOS support, a rebase onto the RHEL 7 STIG (which will be finalized soon), and better reporting."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/19",
       "parent": {
-        "$ref": "#/texts/24"
+        "$ref": "#/texts/17"
       },
       "children": [],
       "content_layer": "body",
@@ -501,9 +370,9 @@
       "text": "Join us later this week for the OpenStack-Ansible design summit sessions or anytime on Freenode in #openstack-ansible. We're on the OpenStack development mailing list as well (be sure to use the"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/20",
       "parent": {
-        "$ref": "#/texts/24"
+        "$ref": "#/texts/17"
       },
       "children": [],
       "content_layer": "body",
@@ -517,9 +386,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/21",
       "parent": {
-        "$ref": "#/texts/24"
+        "$ref": "#/texts/17"
       },
       "children": [],
       "content_layer": "body",
@@ -529,19 +398,19 @@
       "text": "tags."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/22",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [
         {
-          "$ref": "#/texts/30"
+          "$ref": "#/texts/23"
         },
         {
-          "$ref": "#/texts/31"
+          "$ref": "#/texts/24"
         },
         {
-          "$ref": "#/texts/32"
+          "$ref": "#/texts/25"
         }
       ],
       "content_layer": "body",
@@ -552,9 +421,9 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/23",
       "parent": {
-        "$ref": "#/texts/29"
+        "$ref": "#/texts/22"
       },
       "children": [],
       "content_layer": "body",
@@ -564,9 +433,9 @@
       "text": "Lots of people came by to chat afterwards and offered to join in the development. A few people were hoping it would have been the security \"silver bullet\", and I reset some expectations."
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/24",
       "parent": {
-        "$ref": "#/texts/29"
+        "$ref": "#/texts/22"
       },
       "children": [],
       "content_layer": "body",
@@ -576,9 +445,9 @@
       "text": "Some attendees has good ideas around making the role more generic and adding an \"OpenStack switch\" that would configure many variables to fit an OpenStack environment. That would allow people to use it easily with non-OpenStack environments."
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/25",
       "parent": {
-        "$ref": "#/texts/29"
+        "$ref": "#/texts/22"
       },
       "children": [],
       "content_layer": "body",
@@ -588,13 +457,13 @@
       "text": "Other comments were around hardening inside of Linux containers. These users had \"heavy\" containers where the entire OS is virtualized and multiple processes might be running at the same time. Some of the configuration changes (especially the kernel tunables) don't make sense inside a container like that, but many of the others could be useful. For more information on securing Linux containers, watch the video from  Thomas Cameron's talk  here at the summit."
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/26",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [
         {
-          "$ref": "#/texts/34"
+          "$ref": "#/texts/27"
         }
       ],
       "content_layer": "body",
@@ -605,9 +474,9 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/27",
       "parent": {
-        "$ref": "#/texts/33"
+        "$ref": "#/texts/26"
       },
       "children": [],
       "content_layer": "body",

@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 5900308580940020328,
-    "filename": "index.md"
+    "binary_hash": 17687910380689991478,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,10 +21,13 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
       },
       {
-        "$ref": "#/texts/4"
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/5"
@@ -33,22 +36,25 @@
         "$ref": "#/texts/6"
       },
       {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
         "$ref": "#/groups/1"
       },
       {
-        "$ref": "#/texts/9"
+        "$ref": "#/texts/16"
       },
       {
-        "$ref": "#/texts/10"
+        "$ref": "#/texts/17"
       },
       {
-        "$ref": "#/texts/11"
+        "$ref": "#/texts/18"
       },
       {
-        "$ref": "#/texts/12"
-      },
-      {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/19"
       },
       {
         "$ref": "#/texts/20"
@@ -78,19 +84,19 @@
         "$ref": "#/texts/28"
       },
       {
-        "$ref": "#/texts/29"
+        "$ref": "#/groups/2"
       },
       {
-        "$ref": "#/texts/30"
+        "$ref": "#/texts/33"
       },
       {
-        "$ref": "#/texts/31"
+        "$ref": "#/texts/34"
       },
       {
-        "$ref": "#/texts/32"
+        "$ref": "#/texts/35"
       },
       {
-        "$ref": "#/groups/3"
+        "$ref": "#/texts/36"
       },
       {
         "$ref": "#/texts/37"
@@ -118,18 +124,6 @@
       },
       {
         "$ref": "#/texts/45"
-      },
-      {
-        "$ref": "#/texts/46"
-      },
-      {
-        "$ref": "#/texts/47"
-      },
-      {
-        "$ref": "#/texts/48"
-      },
-      {
-        "$ref": "#/texts/49"
       }
     ],
     "content_layer": "body",
@@ -144,18 +138,15 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
           "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "list"
+      "label": "ordered_list"
     },
     {
       "self_ref": "#/groups/1",
@@ -164,10 +155,25 @@
       },
       "children": [
         {
-          "$ref": "#/texts/7"
+          "$ref": "#/texts/9"
         },
         {
-          "$ref": "#/texts/8"
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
         }
       ],
       "content_layer": "body",
@@ -181,48 +187,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/13"
+          "$ref": "#/texts/29"
         },
         {
-          "$ref": "#/texts/14"
+          "$ref": "#/texts/30"
         },
         {
-          "$ref": "#/texts/15"
+          "$ref": "#/texts/31"
         },
         {
-          "$ref": "#/texts/16"
-        },
-        {
-          "$ref": "#/texts/17"
-        },
-        {
-          "$ref": "#/texts/18"
-        },
-        {
-          "$ref": "#/texts/19"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "ordered_list"
-    },
-    {
-      "self_ref": "#/groups/3",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/33"
-        },
-        {
-          "$ref": "#/texts/34"
-        },
-        {
-          "$ref": "#/texts/35"
-        },
-        {
-          "$ref": "#/texts/36"
+          "$ref": "#/texts/32"
         }
       ],
       "content_layer": "body",
@@ -240,65 +214,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "author: Major Hayden date: '2022-12-18' summary: Adopting the keto lifestyle in 2023? Here are some pointers from me after three years. \ud83c\udf7d tags:",
-      "text": "author: Major Hayden date: '2022-12-18' summary: Adopting the keto lifestyle in 2023? Here are some pointers from me after three years. \ud83c\udf7d tags:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "health",
-      "text": "health",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "keto",
-      "text": "keto",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "running",
-      "text": "running",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "I've  written about keto  before on the blog, but as we approach the end of 2022 and many people are making resolutions for the new year, I get a lot of questions about it. Hopefully I can answer most of those here!",
       "text": "I've  written about keto  before on the blog, but as we approach the end of 2022 and many people are making resolutions for the new year, I get a lot of questions about it. Hopefully I can answer most of those here!"
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -310,7 +230,7 @@
       "text": "What is keto?"
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -322,9 +242,9 @@
       "text": "Ketogenic diets  often sound complicated. The  TL;DR  is:"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -336,9 +256,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -350,7 +270,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -362,7 +282,7 @@
       "text": "Seriously. That's it."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -374,7 +294,7 @@
       "text": "But before we go any further:"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -386,7 +306,7 @@
       "text": "\ud83e\ude7a  Don't start (or stop) a ketogenic diet without talking to a trusted medical professional. There are certain health conditions that require modifications to the common ketogenic diet."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -398,9 +318,9 @@
       "text": "In my experience, adopting a keto lifestyle helped me to:"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -412,9 +332,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -426,9 +346,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -440,9 +360,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/12",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -454,9 +374,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -468,9 +388,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/14",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -482,9 +402,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/15",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -496,7 +416,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -508,7 +428,7 @@
       "text": "Top three things you should know"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -520,7 +440,7 @@
       "text": "I've boiled down all of the questions I've answered via email, social media, and in person at various dinner parties when people question my unusual eating habits. \ud83e\udd2d"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -532,7 +452,7 @@
       "text": "If you have questions that aren't answered here, click one of the links on my  profile page  and send me your question!"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -545,7 +465,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -557,7 +477,7 @@
       "text": "This is an easy one.  Nothing."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -569,7 +489,7 @@
       "text": "You'll find  tons  of products online and at your local store with \"keto\" on the label. If you flip them over and read the ingredients, they're chock full of artificial sweeteners, flour substitutes, and chemicals. Although many of these won't spike your blood sugar, many of them will! Some artificial sweeteners, like malitol, have the same effect as raw sugar, just on a smaller scale."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -581,7 +501,7 @@
       "text": "All of these artificial foods push your keto progress backwards."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -593,7 +513,7 @@
       "text": "You do not need keto shakes, keto fat bombs, or keto vitamins. You do not need gluten-free foods as they're packed with carbohydrates."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -605,7 +525,7 @@
       "text": "You need whole foods. You need high quality fats, proteins, and lower-carb vegetables and fruits."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -617,7 +537,7 @@
       "text": "The only exception I'll give here is that you need some high quality electrolytes, especially as you start on keto. As your body transitions from burning easily accessible glucose in your blood to burning fat, you'll find that your salt intake will be woefully insufficient. You can make your own keto electrolytes really easily (tons of recipes available online) or find electrolyte tables/mixes without sugar."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -630,7 +550,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -642,7 +562,7 @@
       "text": "Here's a big challenge. Your friends invite you to dinner or the holidays have arrived. How do you handle it?"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -654,9 +574,9 @@
       "text": "My strategy involves the following:"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/29",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -668,9 +588,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/30",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -682,9 +602,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/31",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -696,9 +616,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/32",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -710,7 +630,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -722,7 +642,7 @@
       "text": "Key takeaway: Your diet is your choice. It's the same situation with someone who doesn't drink but their friends keep offering them alcohol. Don't let anyone pressure you into changing your goals."
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -735,7 +655,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -747,7 +667,7 @@
       "text": "The holidays are coming! \ud83d\ude31"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -759,7 +679,7 @@
       "text": "First off, admit that mistakes happen. That's okay!"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -771,7 +691,7 @@
       "text": "When I've eaten tons of carbs, I make a mental plan for the next day to get back on track. Some argue that starting the next day with a fast makes the most sense. I prefer to get back to my high fat and moderate protein foods the next day as I normally would."
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -783,7 +703,7 @@
       "text": "Keep in mind, though, that once you've done keto for a good while (usually 1-2 months for me), your digestive system has adapted to the new diet. Lots of the bacteria you used to have on a high carbohydrate diet are gone. Flooding the digestive system with lots of high carb food will make your intestines confused. Confused intestines are not comfortable. \ud83d\udebd"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -795,7 +715,7 @@
       "text": "Remind yourself of why you started the keto diet, get back to eating right, and take it as a learning lesson."
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -807,7 +727,7 @@
       "text": "Sometimes I see a delicious high carb food, like pizza, and I think:"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -819,7 +739,7 @@
       "text": "\"That looks so good. But if I eat that, I'm going to have belly problems for two days. Is it worth it?"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -831,7 +751,7 @@
       "text": "I make myself think through the consequences before I eat it. Do I still eat it sometimes? I do. \ud83e\udd37\u200d\u2642\ufe0f"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -843,7 +763,7 @@
       "text": "Wrapping up"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -855,7 +775,7 @@
       "text": "Going keto delivered tons of benefits for me, but it certainly is not easy. However, the diet is fully open source and nobody needs to buy anything special to get started. You can still go out to eat with friends and recover from dieting errors easily."
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },

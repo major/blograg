@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 15548679283490847625,
-    "filename": "index.md"
+    "binary_hash": 3329135529444875205,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,16 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
       },
       {
         "$ref": "#/texts/5"
@@ -57,13 +66,7 @@
         "$ref": "#/texts/15"
       },
       {
-        "$ref": "#/texts/16"
-      },
-      {
-        "$ref": "#/texts/17"
-      },
-      {
-        "$ref": "#/texts/18"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/19"
@@ -72,19 +75,19 @@
         "$ref": "#/texts/20"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
       },
       {
         "$ref": "#/texts/24"
       },
       {
-        "$ref": "#/texts/25"
-      },
-      {
-        "$ref": "#/texts/26"
-      },
-      {
-        "$ref": "#/texts/27"
+        "$ref": "#/groups/1"
       },
       {
         "$ref": "#/texts/28"
@@ -93,7 +96,13 @@
         "$ref": "#/texts/29"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
       },
       {
         "$ref": "#/texts/33"
@@ -153,22 +162,22 @@
         "$ref": "#/texts/51"
       },
       {
-        "$ref": "#/texts/52"
-      },
-      {
-        "$ref": "#/texts/53"
-      },
-      {
-        "$ref": "#/texts/54"
-      },
-      {
-        "$ref": "#/texts/55"
+        "$ref": "#/groups/2"
       },
       {
         "$ref": "#/texts/56"
       },
       {
-        "$ref": "#/groups/3"
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
       },
       {
         "$ref": "#/texts/61"
@@ -307,21 +316,6 @@
       },
       {
         "$ref": "#/texts/106"
-      },
-      {
-        "$ref": "#/texts/107"
-      },
-      {
-        "$ref": "#/texts/108"
-      },
-      {
-        "$ref": "#/texts/109"
-      },
-      {
-        "$ref": "#/texts/110"
-      },
-      {
-        "$ref": "#/texts/111"
       }
     ],
     "content_layer": "body",
@@ -336,16 +330,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/16"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/17"
         },
         {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
+          "$ref": "#/texts/18"
         }
       ],
       "content_layer": "body",
@@ -359,13 +350,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/21"
+          "$ref": "#/texts/25"
         },
         {
-          "$ref": "#/texts/22"
+          "$ref": "#/texts/26"
         },
         {
-          "$ref": "#/texts/23"
+          "$ref": "#/texts/27"
         }
       ],
       "content_layer": "body",
@@ -379,36 +370,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/30"
+          "$ref": "#/texts/52"
         },
         {
-          "$ref": "#/texts/31"
+          "$ref": "#/texts/53"
         },
         {
-          "$ref": "#/texts/32"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/3",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/57"
+          "$ref": "#/texts/54"
         },
         {
-          "$ref": "#/texts/58"
-        },
-        {
-          "$ref": "#/texts/59"
-        },
-        {
-          "$ref": "#/texts/60"
+          "$ref": "#/texts/55"
         }
       ],
       "content_layer": "body",
@@ -426,79 +397,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2015/02/03/linux-support-dell-xps-13-9343-2015-model/",
-      "text": "/2015/02/03/linux-support-dell-xps-13-9343-2015-model/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "dell",
-      "text": "dell",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "I'M ALL DONE:  I'm not working on Linux compatibility for the XPS 13 any longer. I've purchased a Lenovo X1 Carbon (3rd gen) and that's my preferred laptop. More on this change later.",
       "text": "I'M ALL DONE:  I'm not working on Linux compatibility for the XPS 13 any longer. I've purchased a Lenovo X1 Carbon (3rd gen) and that's my preferred laptop. More on this change later."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -510,7 +413,7 @@
       "text": "I've been looking for a good laptop to run Linux for a while now and my new Dell XPS 13 9343 has arrived. It was released at CES in 2015 and it received quite a lot of attention for packing a large amount of pixels into a very small laptop frame with excellent battery life. Ars Technica has a  great overall review  of the device."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -522,7 +425,7 @@
       "text": "Linux support has been historically good on the previous generation XPS 13's and a  blog post from Dell  suggests that the latest revision will have good support as well. For a deep dive on the hardware inside the laptop, review  this GitHub Gist ."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -534,7 +437,7 @@
       "text": "After wiping Windows 8.1 off the laptop, I started with the Fedora 21 installation. If you want to run Linux on one of these laptops, here's what you need to know:"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -547,7 +450,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -559,7 +462,7 @@
       "text": "All of the most basic devices work just fine. The display, storage, and peripheral connections (USB, SD card slot, mini DisplayPort) all work out of the box in Linux 3.18.5 with Fedora 21. The display looks great with GNOME 3's default HiDPI settings and it's very readable with the default font sizes without HiDPI (although this is a bit subjective)."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -571,7 +474,7 @@
       "text": "The webcam works without any additional configuration the video quality is excellent."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -583,7 +486,7 @@
       "text": "The wireless card in the laptop I received is a BCM4352:"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -599,7 +502,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -611,7 +514,7 @@
       "text": "It's possible to get this card working with the b43 kernel modules but I've had better luck with the binary blob STA drivers from Broadcom. There are  plenty of guides  out there to help you install the kernel module for your Fedora kernel. I've had great network performance with the binary driver."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -623,7 +526,7 @@
       "text": "Some users are seeing Intel wireless cards in their Dell XPS 13's, especially in Europe. Opening the laptop for service  isn't terribly difficult  and you could replace the bluetooth/wireless card with a different one."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -635,7 +538,7 @@
       "text": "PRO TIP:  If you're seeing errors in your journald logs about NetworkManager being unable to scan for access points, be sure to hit the wireless switch key on your keyboard (Fn-F12) to enable the card. This had me stumped for about 45 minutes. There's an option in the BIOS to disable the switch and let the OS control the wireless card."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -647,7 +550,7 @@
       "text": "The special keyboard buttons (volume up/down, brightness up/down) all work flawlessly."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -660,7 +563,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -672,7 +575,7 @@
       "text": "The touchpad and keyboard are on the I2C bus and this creates some problems. Many users have reported that keys on the keyboard seem to repeat themselves while you're typing and the touchpad has an issue where X stops receiving input from it. However, when the touchpad seems to freeze, the kernel still sees data coming from the device (verified with evtest and evemu-record)."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -684,9 +587,9 @@
       "text": "There are some open bugs and discussion about the touchpad issues:"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/16",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -698,9 +601,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/17",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -712,9 +615,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/18",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -726,7 +629,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -738,7 +641,7 @@
       "text": "You can connect up a mouse and keyboard to the laptop and work around those issues. However, dragging around some big peripherals with such a small laptop isn't a great long-term solution. Some users suggested blacklisting the i2c_hid module so that the touchpad shows up as a plain PS/2 touchpad but I'm still seeing freezes even after making that change."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -750,7 +653,7 @@
       "text": "If you're having one of those &#8220;touchpad on the I2C bus?&#8221; moments like I had, read Synaptics'  brief page about Intertouch . Using the I2C bus saves power, reduces USB port consumption, and allows for more powerful multi-touch gestures."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -762,7 +665,7 @@
       "text": "Oddly enough, the touchscreen is an ELAN Touchscreen and it runs over USB. It suffers from the same freezes that the touchpad does."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -775,7 +678,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -787,7 +690,7 @@
       "text": "Sound is a big problem. The microphone, speakers and headphone port don't work under 3.18.5 and 3.19.0-rc7. The audio device is a ALC3263 from RealTek and it should use the same module as the RT286. However, the probing still fails and the module can't be used. The  module code  seems to be correct but the probing still fails."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -799,9 +702,9 @@
       "text": "There's an open bug on Launchpad about the problem:"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/25",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -813,9 +716,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/26",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -827,9 +730,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/27",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -841,7 +744,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -853,7 +756,7 @@
       "text": "I connected up an old Syba USB audio device to the USB port and was able to get sound immediately. This is also a horrible workaround."
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -866,7 +769,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -878,7 +781,7 @@
       "text": "From what I gather, Dell is extremely eager to make Linux work on the new XPS 13 and we should see some movement on these bugs soon. I'm still doing a bunch of testing on my own with kernel 3.19 and I'll be keeping this page updated as news becomes available."
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -890,7 +793,7 @@
       "text": "If you know much about the I2C bus or about the sound devices in this laptop and you have some time available to help, just let me know where to send the beer. ;)"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -903,7 +806,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -916,7 +819,7 @@
       "level": 3
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -928,7 +831,7 @@
       "text": "Added Red Hat bug link for sound issues."
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -941,7 +844,7 @@
       "level": 3
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -953,7 +856,7 @@
       "text": "The touchpad bug has been reduced to a kernel issue. Recordings from evemu-record look fine when they're played back in X. Users reported in Launchpad and in the Red Hat bug that kernel 3.16 works perfectly but 3.17 doesn't. A kernel bisection will most likely be required to find the patch that broke the touchpad."
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -965,7 +868,7 @@
       "text": "Many users find that adding "
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -981,7 +884,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -993,7 +896,7 @@
       "text": " to the kernel boot line will bring the audio card online after 1-3 reboots. Apparently there is some level of state information stored in memory that requires a few reboots to clear it. I haven't verified this yet."
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -1006,7 +909,7 @@
       "level": 3
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -1018,7 +921,7 @@
       "text": "Kernel bisect for the touchpad issue is underway. Every 3.16.x kernel I built would keep the trackpad in PS/2 mode and that's not helpful at all. There's no multi-finger taps/clicks/gestures. 3.17.0 works perfectly, however. My gut says something broke down between 3.17.0 and 3.18.0 but it might actually be closer to 3.17.4 since Fedora 21's initial kernel is 3.17.4 (and the touchpad doesn't work well with it)."
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -1030,7 +933,7 @@
       "text": "A post was made on  Barton's Blog  yesterday about Dell being aware of the Linux issues.  (Thanks to Chris' comment below!)"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -1042,7 +945,7 @@
       "text": "After about 35 kernel builds during the most frustrating git bisect of my life, I found the  problematic patch . The  Red Hat bug  is updated now and I'm hoping that someone with a detailed knowledge of this part of the kernel can make sense of it:"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -1058,7 +961,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -1070,7 +973,7 @@
       "text": "I reverted the patch in Linux 3.19-rc7 and built the kernel. The touchpad works flawlessly. However, simply reverting the patch probably isn't the best idea long term. ;)"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1083,7 +986,7 @@
       "level": 3
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1095,7 +998,7 @@
       "text": "The  audio patch  mentioned in the  Launchpad bug report  didn't work for me on Linux 3.19-rc7."
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1108,7 +1011,7 @@
       "level": 3
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1120,7 +1023,7 @@
       "text": "Progress is still being made on the touchpad in the  Red Hat bug  ticket. If you can live with the pad working as PS/2, you can get sound by adding "
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1136,7 +1039,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1148,9 +1051,9 @@
       "text": " to your kernel command line. Once you do that, you'll need to:"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/52",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1162,9 +1065,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/53",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1176,9 +1079,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/54",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1190,9 +1093,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/55",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -1204,7 +1107,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1216,7 +1119,7 @@
       "text": "If sound still isn't working, you may need to install "
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1232,7 +1135,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1244,7 +1147,7 @@
       "text": ", the PulseAudio volume controller, and disable the HDMI sound output that is built into the Broadwell chip."
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1256,7 +1159,7 @@
       "text": "This obviously isn't a long-term solution, but it's a fair workaround."
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1269,7 +1172,7 @@
       "level": 3
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1281,7 +1184,7 @@
       "text": "There is now a  patch  that you can apply to 3.18 or 3.19 kernels that eliminates the trackpad freeze:"
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/62",
       "parent": {
         "$ref": "#/body"
       },
@@ -1297,7 +1200,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/63",
       "parent": {
         "$ref": "#/body"
       },
@@ -1309,7 +1212,7 @@
       "text": "I've tested it against 3.19-rc7 as well as Fedora's 3.18.5. However, tapping still doesn't work yet with more than one finger. The touchpad jumps around a bit when you apply two fingers to it."
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/64",
       "parent": {
         "$ref": "#/body"
       },
@@ -1322,7 +1225,7 @@
       "level": 3
     },
     {
-      "self_ref": "#/texts/70",
+      "self_ref": "#/texts/65",
       "parent": {
         "$ref": "#/body"
       },
@@ -1334,7 +1237,7 @@
       "text": "Rene commented below that he  found a post in alsa devel with a patch  for the &#8220;Dell Dino&#8221; that looks like it might help with the i2c audio issues. Another kernel maintainer replied and asked for some of the code to be rewritten to make it easier to handle audio quirks. UPDATE: Audio patch didn't work."
     },
     {
-      "self_ref": "#/texts/71",
+      "self_ref": "#/texts/66",
       "parent": {
         "$ref": "#/body"
       },
@@ -1346,7 +1249,7 @@
       "text": "We've created an IRC channel on Freenode: #xps13."
     },
     {
-      "self_ref": "#/texts/72",
+      "self_ref": "#/texts/67",
       "parent": {
         "$ref": "#/body"
       },
@@ -1358,7 +1261,7 @@
       "text": "There's an interesting  kernel patch mentioning &#8220;Dell Dino&#8221;  that is line for inclusion in 3.20-rc1. Someone in IRC found &#8220;Dell Dino&#8221; mentioned on a  Dell business purchase page . The board name from dmidecode in the patch is  0144P8  but that doesn't match other known board names. My i5-5200U with touch is  0TM99H  while a user with a non-touch i5 has a board name of  OTRX4F . Other i5 touch models have the same board name as mine. All BIOS revisions found so far are A00 (the latest on Dell's site)."
     },
     {
-      "self_ref": "#/texts/73",
+      "self_ref": "#/texts/68",
       "parent": {
         "$ref": "#/body"
       },
@@ -1370,7 +1273,7 @@
       "text": "A probe for the rt286 module looks like it starts to happen and then it fails (skip to line 795):"
     },
     {
-      "self_ref": "#/texts/74",
+      "self_ref": "#/texts/69",
       "parent": {
         "$ref": "#/body"
       },
@@ -1386,7 +1289,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/70",
       "parent": {
         "$ref": "#/body"
       },
@@ -1398,7 +1301,7 @@
       "text": "2015-02-16"
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/71",
       "parent": {
         "$ref": "#/body"
       },
@@ -1410,7 +1313,7 @@
       "text": "I received an email from a Realtek developer about the sound card in the XPS:"
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },
@@ -1422,7 +1325,7 @@
       "text": "I see &#8220;rt286 i2c-INT343A:00: Device with ID register 0 is not rt286&#8221; in the log. It means there are something wrong when the driver is trying to read the device id of codec. I believe that is due to I2C read/write issue. ALC3263 is a dual mode (I2S and HDA) codec. And BIOS will decide which mode according to OS type. So, if you want to use i2s mode, you need to configure your BIOS to set ALC3263 to I2S mode."
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/73",
       "parent": {
         "$ref": "#/body"
       },
@@ -1434,7 +1337,7 @@
       "text": "After poring through the  DSDT and other ACPI tables  over the weekend (and building way too many kernels with overriden DSDT's), it sounds like a BIOS update may be required for the sound card to function properly. The  sound devices  specified in the DSDT that are on the i2c bus are only activated after a BUNCH of checks succeed. One of them is the check of "
     },
     {
-      "self_ref": "#/texts/79",
+      "self_ref": "#/texts/74",
       "parent": {
         "$ref": "#/body"
       },
@@ -1450,7 +1353,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/80",
+      "self_ref": "#/texts/75",
       "parent": {
         "$ref": "#/body"
       },
@@ -1462,7 +1365,7 @@
       "text": ", the system's operating system. Setting "
     },
     {
-      "self_ref": "#/texts/81",
+      "self_ref": "#/texts/76",
       "parent": {
         "$ref": "#/body"
       },
@@ -1478,7 +1381,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/82",
+      "self_ref": "#/texts/77",
       "parent": {
         "$ref": "#/body"
       },
@@ -1490,7 +1393,7 @@
       "text": " does flip "
     },
     {
-      "self_ref": "#/texts/83",
+      "self_ref": "#/texts/78",
       "parent": {
         "$ref": "#/body"
       },
@@ -1506,7 +1409,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/84",
+      "self_ref": "#/texts/79",
       "parent": {
         "$ref": "#/body"
       },
@@ -1518,7 +1421,7 @@
       "text": " to "
     },
     {
-      "self_ref": "#/texts/85",
+      "self_ref": "#/texts/80",
       "parent": {
         "$ref": "#/body"
       },
@@ -1534,7 +1437,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/86",
+      "self_ref": "#/texts/81",
       "parent": {
         "$ref": "#/body"
       },
@@ -1546,7 +1449,7 @@
       "text": ", but that's only part of the fix. There are other variables checked, like "
     },
     {
-      "self_ref": "#/texts/87",
+      "self_ref": "#/texts/82",
       "parent": {
         "$ref": "#/body"
       },
@@ -1562,7 +1465,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/88",
+      "self_ref": "#/texts/83",
       "parent": {
         "$ref": "#/body"
       },
@@ -1574,7 +1477,7 @@
       "text": " (that shows up very often) that are instantiated early in the DSDT but I can't find them ever being set to a value anywhere in the DSDT code. These variables equal zero by default and that disables critical parts of the sound device."
     },
     {
-      "self_ref": "#/texts/89",
+      "self_ref": "#/texts/84",
       "parent": {
         "$ref": "#/body"
       },
@@ -1586,7 +1489,7 @@
       "text": "My take: This laptop is going to need a BIOS update of some sort before we can get sound working properly in Linux with an i2c touchpad. If someone is more skilled with DSDT's than I am, I'll be glad to share all of my work that I've tried so far. As for now, I'm going to be waiting eagerly for some type of firmware update from Dell."
     },
     {
-      "self_ref": "#/texts/90",
+      "self_ref": "#/texts/85",
       "parent": {
         "$ref": "#/body"
       },
@@ -1598,7 +1501,7 @@
       "text": "2015-02-17"
     },
     {
-      "self_ref": "#/texts/91",
+      "self_ref": "#/texts/86",
       "parent": {
         "$ref": "#/body"
       },
@@ -1610,7 +1513,7 @@
       "text": "There's some progress on the sound card in Linux! After building the latest commits from  linux.git's master branch , my XPS started showing a device called &#8220;broadwell-rt286&#8221; in pavucontrol. It showed up as a normal audio device but it had no output support, only input. I tried to enable the microphone but I couldn't record any sound."
     },
     {
-      "self_ref": "#/texts/92",
+      "self_ref": "#/texts/87",
       "parent": {
         "$ref": "#/body"
       },
@@ -1622,7 +1525,7 @@
       "text": "I found a  kernel bug  from a ThinkPad Helix 2 user with a very similar hardware setup. Their rt286 device is on the I2S bus with a Haswell SoC. Their fix was to copy over the latest firmware binaries from  linux-firmware.git  and reboot. I did the same and an output device suddenly showed up in pavucontrol after a reboot."
     },
     {
-      "self_ref": "#/texts/93",
+      "self_ref": "#/texts/88",
       "parent": {
         "$ref": "#/body"
       },
@@ -1634,7 +1537,7 @@
       "text": "When I played sounds via aplay, canberra-gtk-play, and rhythmbox, I could see the signal level fluctuating in pavucontrol on the broadwell-rt286 device. However, I couldn't hear the sound through the speakers. I connected headphones and I couldn't hear any sound there either."
     },
     {
-      "self_ref": "#/texts/94",
+      "self_ref": "#/texts/89",
       "parent": {
         "$ref": "#/body"
       },
@@ -1646,7 +1549,7 @@
       "text": "There's now a  kernel bug ticket  open for the sound issue."
     },
     {
-      "self_ref": "#/texts/95",
+      "self_ref": "#/texts/90",
       "parent": {
         "$ref": "#/body"
       },
@@ -1658,7 +1561,7 @@
       "text": "Stay tuned for a BIOS update with a potential keyboard repeat fix. It's already been talked about in IRC as a potential A01 release sssssssssssoon:"
     },
     {
-      "self_ref": "#/texts/96",
+      "self_ref": "#/texts/91",
       "parent": {
         "$ref": "#/body"
       },
@@ -1670,7 +1573,7 @@
       "text": "someone asked about the fix for the repeating keypresses. yes, it was traced back to the source and will be fixed on all affected Dell platforms soon"
     },
     {
-      "self_ref": "#/texts/97",
+      "self_ref": "#/texts/92",
       "parent": {
         "$ref": "#/body"
       },
@@ -1682,7 +1585,7 @@
       "text": "I just saw that the one for 9343 was promoted to our factories so should be up on support.dell.com any day now as BIOS A01"
     },
     {
-      "self_ref": "#/texts/98",
+      "self_ref": "#/texts/93",
       "parent": {
         "$ref": "#/body"
       },
@@ -1694,7 +1597,7 @@
       "text": "You can get notifications about driver releases for the XPS on  Dell's site ."
     },
     {
-      "self_ref": "#/texts/99",
+      "self_ref": "#/texts/94",
       "parent": {
         "$ref": "#/body"
       },
@@ -1706,7 +1609,7 @@
       "text": "2015-03-04"
     },
     {
-      "self_ref": "#/texts/100",
+      "self_ref": "#/texts/95",
       "parent": {
         "$ref": "#/body"
       },
@@ -1718,7 +1621,7 @@
       "text": "Sound on the I2S bus is working in Linux 4.0-rc2!   See note from 2015-03-08 below.  I was too exhausted last night for a full write-up, but here's the gist of what I did:"
     },
     {
-      "self_ref": "#/texts/101",
+      "self_ref": "#/texts/96",
       "parent": {
         "$ref": "#/body"
       },
@@ -1730,7 +1633,7 @@
       "text": "First off, build 4.0-rc2 with all of the available I2C and ALSA SoC modules. I haven't narrowed down which modules are critical quite yet. Once you've built the kernel and rebooted into it, run "
     },
     {
-      "self_ref": "#/texts/102",
+      "self_ref": "#/texts/97",
       "parent": {
         "$ref": "#/body"
       },
@@ -1746,7 +1649,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/103",
+      "self_ref": "#/texts/98",
       "parent": {
         "$ref": "#/body"
       },
@@ -1758,7 +1661,7 @@
       "text": " and choose the "
     },
     {
-      "self_ref": "#/texts/104",
+      "self_ref": "#/texts/99",
       "parent": {
         "$ref": "#/body"
       },
@@ -1774,7 +1677,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/105",
+      "self_ref": "#/texts/100",
       "parent": {
         "$ref": "#/body"
       },
@@ -1786,7 +1689,7 @@
       "text": " card. Hold the right arrow key until you go all the way to the right of the alsamixer display and press M to unmute the last control there. You should now be able to turn up the volume and play some test sounds."
     },
     {
-      "self_ref": "#/texts/106",
+      "self_ref": "#/texts/101",
       "parent": {
         "$ref": "#/body"
       },
@@ -1798,7 +1701,7 @@
       "text": "Luckily, no update for linux-firmware is required. Also, there's no need for any ALSA UCM files as I had originally thought."
     },
     {
-      "self_ref": "#/texts/107",
+      "self_ref": "#/texts/102",
       "parent": {
         "$ref": "#/body"
       },
@@ -1810,7 +1713,7 @@
       "text": "Stay tuned for a more in-depth write-up soon."
     },
     {
-      "self_ref": "#/texts/108",
+      "self_ref": "#/texts/103",
       "parent": {
         "$ref": "#/body"
       },
@@ -1822,7 +1725,7 @@
       "text": "2015-03-08"
     },
     {
-      "self_ref": "#/texts/109",
+      "self_ref": "#/texts/104",
       "parent": {
         "$ref": "#/body"
       },
@@ -1834,7 +1737,7 @@
       "text": "After a few more reboots, I can't get sound working again. I'm wondering if I had an errant "
     },
     {
-      "self_ref": "#/texts/110",
+      "self_ref": "#/texts/105",
       "parent": {
         "$ref": "#/body"
       },
@@ -1850,7 +1753,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/111",
+      "self_ref": "#/texts/106",
       "parent": {
         "$ref": "#/body"
       },

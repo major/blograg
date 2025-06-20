@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 5118366678240541232,
-    "filename": "index.md"
+    "binary_hash": 11600200507160577545,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,6 +21,9 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
         "$ref": "#/groups/0"
       },
       {
@@ -30,7 +33,13 @@
         "$ref": "#/texts/6"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
       },
       {
         "$ref": "#/texts/10"
@@ -61,21 +70,6 @@
       },
       {
         "$ref": "#/texts/19"
-      },
-      {
-        "$ref": "#/texts/20"
-      },
-      {
-        "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
-      },
-      {
-        "$ref": "#/texts/23"
-      },
-      {
-        "$ref": "#/texts/24"
       }
     ],
     "content_layer": "body",
@@ -90,9 +84,6 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
           "$ref": "#/texts/2"
         },
         {
@@ -100,26 +91,6 @@
         },
         {
           "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/7"
-        },
-        {
-          "$ref": "#/texts/8"
-        },
-        {
-          "$ref": "#/texts/9"
         }
       ],
       "content_layer": "body",
@@ -137,22 +108,20 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "I've recently set up a Fedora 22 firewall/router at home (more on that later) and I noticed that remote ssh logins were extremely slow. In addition, sudo commands seemed to stall out for the same amount of time (about 25-30 seconds).",
+      "text": "I've recently set up a Fedora 22 firewall/router at home (more on that later) and I noticed that remote ssh logins were extremely slow. In addition, sudo commands seemed to stall out for the same amount of time (about 25-30 seconds)."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "/2015/07/27/very-slow-ssh-logins-on-fedora-22/",
-      "text": "/2015/07/27/very-slow-ssh-logins-on-fedora-22/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "I've done all the basic troubleshooting already:",
+      "text": "I've done all the basic troubleshooting already:"
     },
     {
       "self_ref": "#/texts/2",
@@ -163,8 +132,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
+      "orig": "Switch to ",
+      "text": "Switch to ",
       "enumerated": false,
       "marker": "-"
     },
@@ -177,8 +146,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "ssh",
-      "text": "ssh",
+      "orig": "Set ",
+      "text": "Set ",
       "enumerated": false,
       "marker": "-"
     },
@@ -191,8 +160,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "systemd",
-      "text": "systemd",
+      "orig": "Tested DNS resolution",
+      "text": "Tested DNS resolution",
       "enumerated": false,
       "marker": "-"
     },
@@ -205,77 +174,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "I've recently set up a Fedora 22 firewall/router at home (more on that later) and I noticed that remote ssh logins were extremely slow. In addition, sudo commands seemed to stall out for the same amount of time (about 25-30 seconds).",
-      "text": "I've recently set up a Fedora 22 firewall/router at home (more on that later) and I noticed that remote ssh logins were extremely slow. In addition, sudo commands seemed to stall out for the same amount of time (about 25-30 seconds)."
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "I've done all the basic troubleshooting already:",
-      "text": "I've done all the basic troubleshooting already:"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Switch to ",
-      "text": "Switch to ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Set ",
-      "text": "Set ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Tested DNS resolution",
-      "text": "Tested DNS resolution",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "These lines kept cropping up in my system journal when I tried to access the server using ssh:",
       "text": "These lines kept cropping up in my system journal when I tried to access the server using ssh:"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -291,7 +194,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -303,7 +206,7 @@
       "text": "The process list on the server looked fine. I could see "
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -319,7 +222,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -331,7 +234,7 @@
       "text": " and "
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -347,7 +250,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -359,7 +262,7 @@
       "text": " processes and they were in good states. However, it looked like "
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -375,7 +278,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -387,7 +290,7 @@
       "text": " had restarted at some point and "
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -403,7 +306,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -415,7 +318,7 @@
       "text": " had not been restarted since then. I crossed my fingers and bounced "
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -431,7 +334,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -443,7 +346,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -459,7 +362,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },

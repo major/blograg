@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 8273843359373463338,
-    "filename": "index.md"
+    "binary_hash": 16467947939840187720,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,28 +21,22 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
         "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/5"
-      },
-      {
-        "$ref": "#/texts/6"
-      },
-      {
-        "$ref": "#/groups/1"
-      },
-      {
-        "$ref": "#/texts/12"
+        "$ref": "#/texts/7"
       },
       {
         "$ref": "#/pictures/0"
       },
       {
-        "$ref": "#/texts/13"
+        "$ref": "#/texts/8"
       },
       {
-        "$ref": "#/texts/14"
+        "$ref": "#/texts/9"
       }
     ],
     "content_layer": "body",
@@ -57,9 +51,6 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
           "$ref": "#/texts/2"
         },
         {
@@ -67,32 +58,12 @@
         },
         {
           "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/7"
         },
         {
-          "$ref": "#/texts/8"
+          "$ref": "#/texts/5"
         },
         {
-          "$ref": "#/texts/9"
-        },
-        {
-          "$ref": "#/texts/10"
-        },
-        {
-          "$ref": "#/texts/11"
+          "$ref": "#/texts/6"
         }
       ],
       "content_layer": "body",
@@ -110,22 +81,20 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "My play/pause button mysteriously stopped working in iTunes and VLC mysteriously this week on my laptop. It affected the previous track and next track buttons as well. It turns out that my Google Music extension in Chrome stole the keyboard bindings after the extension updated this week.",
+      "text": "My play/pause button mysteriously stopped working in iTunes and VLC mysteriously this week on my laptop. It affected the previous track and next track buttons as well. It turns out that my Google Music extension in Chrome stole the keyboard bindings after the extension updated this week."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "/2014/07/30/playpause-button-stopped-working-in-os-x-mavericks/",
-      "text": "/2014/07/30/playpause-button-stopped-working-in-os-x-mavericks/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "If your buttons stopped working as well, follow these steps to check your keyboard shortcuts in Chrome:",
+      "text": "If your buttons stopped working as well, follow these steps to check your keyboard shortcuts in Chrome:"
     },
     {
       "self_ref": "#/texts/2",
@@ -136,8 +105,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "chrome",
-      "text": "chrome",
+      "orig": "Choose ",
+      "text": "Choose ",
       "enumerated": false,
       "marker": "-"
     },
@@ -150,8 +119,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "keyboard",
-      "text": "keyboard",
+      "orig": "Click ",
+      "text": "Click ",
       "enumerated": false,
       "marker": "-"
     },
@@ -164,81 +133,15 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "mac",
-      "text": "mac",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "My play/pause button mysteriously stopped working in iTunes and VLC mysteriously this week on my laptop. It affected the previous track and next track buttons as well. It turns out that my Google Music extension in Chrome stole the keyboard bindings after the extension updated this week.",
-      "text": "My play/pause button mysteriously stopped working in iTunes and VLC mysteriously this week on my laptop. It affected the previous track and next track buttons as well. It turns out that my Google Music extension in Chrome stole the keyboard bindings after the extension updated this week."
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "If your buttons stopped working as well, follow these steps to check your keyboard shortcuts in Chrome:",
-      "text": "If your buttons stopped working as well, follow these steps to check your keyboard shortcuts in Chrome:"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Choose ",
-      "text": "Choose ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Click ",
-      "text": "Click ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "Scroll all the way to the bottom of the page",
       "text": "Scroll all the way to the bottom of the page",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -250,9 +153,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -264,7 +167,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -276,7 +179,7 @@
       "text": "Your shortcuts might look like the ones shown here in an  Apple support forum . Click each box with the X to clear each key binding or click on the key binding box itself to bind it to another key combination. If you do that, it should end up like this:"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -288,7 +191,7 @@
       "text": "google-play-music-keyboard-shortcut.png"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },

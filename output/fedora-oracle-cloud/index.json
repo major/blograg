@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 12405937881915427853,
-    "filename": "index.md"
+    "binary_hash": 1339698773390433776,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,13 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
       },
       {
         "$ref": "#/texts/4"
@@ -168,37 +174,25 @@
         "$ref": "#/texts/51"
       },
       {
-        "$ref": "#/texts/52"
+        "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/53"
+        "$ref": "#/texts/60"
       },
       {
-        "$ref": "#/texts/54"
+        "$ref": "#/texts/61"
       },
       {
-        "$ref": "#/texts/55"
+        "$ref": "#/texts/62"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/63"
       },
       {
         "$ref": "#/texts/64"
       },
       {
         "$ref": "#/texts/65"
-      },
-      {
-        "$ref": "#/texts/66"
-      },
-      {
-        "$ref": "#/texts/67"
-      },
-      {
-        "$ref": "#/texts/68"
-      },
-      {
-        "$ref": "#/texts/69"
       }
     ],
     "content_layer": "body",
@@ -213,25 +207,17 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/52"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/53"
         },
         {
-          "$ref": "#/texts/3"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
         {
           "$ref": "#/texts/56"
         },
@@ -243,18 +229,6 @@
         },
         {
           "$ref": "#/texts/59"
-        },
-        {
-          "$ref": "#/texts/60"
-        },
-        {
-          "$ref": "#/texts/61"
-        },
-        {
-          "$ref": "#/texts/62"
-        },
-        {
-          "$ref": "#/texts/63"
         }
       ],
       "content_layer": "body",
@@ -272,65 +246,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "author: Major Hayden date: '2023-05-05' Add a Fedora x86_64 or aarch64 image to Oracle Cloud and launch an instance. \ud83d\ude80 tags:",
-      "text": "author: Major Hayden date: '2023-05-05' Add a Fedora x86_64 or aarch64 image to Oracle Cloud and launch an instance. \ud83d\ude80 tags:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "cloud",
-      "text": "cloud",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "oracle",
-      "text": "oracle",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "I enjoy taking Fedora with me to various clouds and ensuring that it works well on all of them. I've written posts on taking  Fedora to Hetzner cloud and  deploying custom Fedora images  to AWS with image builder.",
       "text": "I enjoy taking Fedora with me to various clouds and ensuring that it works well on all of them. I've written posts on taking  Fedora to Hetzner cloud and  deploying custom Fedora images  to AWS with image builder."
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -342,7 +262,7 @@
       "text": "Although Oracle Cloud isn't a cloud I use frequently, a question came up earlier this week in the Fedora community about how to take an image there. I love a good challenge, so buckle up and follow along as we launch a Fedora 38 instance on Oracle Cloud ."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -354,7 +274,7 @@
       "text": "{{< alert >}} Be sure to create an Oracle Cloud account first! The rest of the blog post requires CLI interactions with the Oracle Cloud API. {{< /alert >}}"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -366,7 +286,7 @@
       "text": "Let's go! \ud83c\udf92"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -378,7 +298,7 @@
       "text": "Oracle's cloud tools"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -390,7 +310,7 @@
       "text": "Although you can do the image upload and import via the web interface, I enjoy getting to learn a cloud provider's CLI tools in case I need them later. Oracle offers a CLI called "
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -406,7 +326,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -418,7 +338,7 @@
       "text": " that you can install via "
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -434,7 +354,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -446,7 +366,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -462,7 +382,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -474,7 +394,7 @@
       "text": "The CLI tool has a helpful authentication wizard that configures your credentials on your local machine. Run "
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -490,7 +410,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -502,7 +422,7 @@
       "text": " and follow the prompts."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -518,7 +438,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -530,7 +450,7 @@
       "text": "A long URL will appear on the console. Open that URL in a browser and finish the login process in your browser. Once you finish, you should see a message like this:"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -546,7 +466,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -558,7 +478,7 @@
       "text": "Replace  major  with your username and try out your authentication:"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -574,7 +494,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -586,7 +506,7 @@
       "text": "Success! Let's move on."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -598,7 +518,7 @@
       "text": "Uploading the Fedora image"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -610,7 +530,7 @@
       "text": "Most cloud providers have a custom image process that involves uploading the image to some object storage and then telling the compute service where the image is located. Oracle Cloud follows the same pattern."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -622,7 +542,7 @@
       "text": "First up, we need our  compartment ID . This is a way to logically separate infrastructure at Oracle Cloud. We will store it as an environment variable called "
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -638,7 +558,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -654,7 +574,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -666,7 +586,7 @@
       "text": "We need an object storage bucket to hold our image file. Naming things isn't my strong suit, so I'll call my bucket  majors-fedora-upload-bucket :"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -682,7 +602,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -694,7 +614,7 @@
       "text": "{{< alert >}} Within the data that is returned, look for the  namespace  key. You will need the value from that key when you do the image import step. {{< /alert >}}"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -706,7 +626,7 @@
       "text": "Now we need a Fedora image. The latest  Fedora 38 QCOW image should work fine."
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -722,7 +642,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -734,7 +654,7 @@
       "text": "(Oracle Cloud has aarch64 instances and you can use a Fedora aarch64 image for those instead. This example focuses on x86_64.)"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -746,7 +666,7 @@
       "text": "Upload the image to our bucket:"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -762,7 +682,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -774,7 +694,7 @@
       "text": "This may take a while depending on your upload speed."
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -786,7 +706,7 @@
       "text": "Import the Fedora image"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -798,7 +718,7 @@
       "text": "If you forgot to save the namespace from your bucket when you created it, just look it up again with the "
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -814,7 +734,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -826,7 +746,7 @@
       "text": " command:"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -842,7 +762,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -854,7 +774,7 @@
       "text": "At this point, we must tell Oracle's compute service to import the image we just uploaded to the object storage. Let's run another command to do the import:"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -870,7 +790,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -882,7 +802,7 @@
       "text": "Look for the "
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -898,7 +818,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -910,7 +830,7 @@
       "text": " in the output that was returned. Use that identifier to check the status of the import."
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -926,7 +846,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -938,7 +858,7 @@
       "text": "This step takes about ten minutes for most images I tested."
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -950,7 +870,7 @@
       "text": "Oracle Cloud uses  work requests  for most long running actions in the cloud. You can get their status via the CLI tools, but I found that to be extremely tedious. For a percentage completed and a progress bar, go to the  Custom Images  panel in the web interface, click your image name, click the  Create image  link under  Work requests  and monitor the percentage there. \ud83d\ude09"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -962,7 +882,7 @@
       "text": "Create an instance"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -974,7 +894,7 @@
       "text": "The "
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -990,7 +910,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1002,7 +922,7 @@
       "text": " CLI tool is good at many things, but it's tedious with many others. Launching a VM instance via the CLI was incredibly frustrating for me, so I usually go to the web interface to get this done.  (You could also use tools like Terraform for this step.)"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1014,9 +934,9 @@
       "text": "Let's run through the steps:"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/52",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -1028,65 +948,65 @@
       "marker": "-"
     },
     {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Click the ",
+      "text": "Click the ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Click ",
+      "text": "Click ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Click the ",
+      "text": "Click the ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Click ",
+      "text": "Click ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
       "self_ref": "#/texts/57",
       "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Click the ",
-      "text": "Click the ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/58",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Click ",
-      "text": "Click ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/59",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Click the ",
-      "text": "Click the ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/60",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Click ",
-      "text": "Click ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/61",
-      "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -1098,9 +1018,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/58",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -1112,9 +1032,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/59",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -1126,7 +1046,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1138,7 +1058,7 @@
       "text": "Now you should have an instance beginning to launch! \ud83d\ude80"
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1150,7 +1070,7 @@
       "text": "After it's online, you should be able to ssh[^cantconnect] to the instance using the fedora  user:"
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/62",
       "parent": {
         "$ref": "#/body"
       },
@@ -1166,7 +1086,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/63",
       "parent": {
         "$ref": "#/body"
       },
@@ -1178,7 +1098,7 @@
       "text": "Enjoy running Fedora on Oracle Cloud! \ud83c\udf89"
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/64",
       "parent": {
         "$ref": "#/body"
       },
@@ -1190,7 +1110,7 @@
       "text": "[^cantconnect]: If you aren't able to access the instance, you might be missing an internet gateway or a security group to allow traffic through to your instance. Here are direct links to the console instructions for those items:"
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/65",
       "parent": {
         "$ref": "#/body"
       },

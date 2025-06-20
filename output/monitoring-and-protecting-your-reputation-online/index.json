@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 17315846635106636429,
-    "filename": "index.md"
+    "binary_hash": 12211689254502967630,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,25 +21,28 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
         "$ref": "#/groups/0"
-      },
-      {
-        "$ref": "#/texts/5"
-      },
-      {
-        "$ref": "#/texts/6"
       },
       {
         "$ref": "#/texts/7"
       },
       {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
         "$ref": "#/groups/1"
-      },
-      {
-        "$ref": "#/texts/12"
-      },
-      {
-        "$ref": "#/texts/13"
       },
       {
         "$ref": "#/texts/14"
@@ -48,22 +51,13 @@
         "$ref": "#/texts/15"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/16"
       },
       {
-        "$ref": "#/texts/19"
+        "$ref": "#/texts/17"
       },
       {
-        "$ref": "#/texts/20"
-      },
-      {
-        "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
-      },
-      {
-        "$ref": "#/texts/23"
+        "$ref": "#/texts/18"
       }
     ],
     "content_layer": "body",
@@ -78,16 +72,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
           "$ref": "#/texts/3"
         },
         {
           "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
         }
       ],
       "content_layer": "body",
@@ -101,36 +95,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/8"
-        },
-        {
-          "$ref": "#/texts/9"
-        },
-        {
-          "$ref": "#/texts/10"
-        },
-        {
           "$ref": "#/texts/11"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/16"
         },
         {
-          "$ref": "#/texts/17"
+          "$ref": "#/texts/12"
         },
         {
-          "$ref": "#/texts/18"
+          "$ref": "#/texts/13"
         }
       ],
       "content_layer": "body",
@@ -148,36 +119,32 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "After a recent issue I had with some users in the Puppy Linux forums, I thought it might be prudent to write a post about how to monitor and protect your reputation online. This guide is mainly geared towards technical people who maintain some type of public presence. That should include folks who talk at conferences, contribute to high profile open source projects, or those who utilize social media to connect with other users and contributors.",
+      "text": "After a recent issue I had with some users in the Puppy Linux forums, I thought it might be prudent to write a post about how to monitor and protect your reputation online. This guide is mainly geared towards technical people who maintain some type of public presence. That should include folks who talk at conferences, contribute to high profile open source projects, or those who utilize social media to connect with other users and contributors."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "/2012/08/06/monitoring-and-protecting-your-reputation-online/",
-      "text": "/2012/08/06/monitoring-and-protecting-your-reputation-online/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "The first part is monitoring. A monitoring solution should ideally be inexpensive, have a low lag time between a new mention and a notification, and it should be able to search a lot of resources.",
+      "text": "The first part is monitoring. A monitoring solution should ideally be inexpensive, have a low lag time between a new mention and a notification, and it should be able to search a lot of resources."
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "For me, it made sense to use  Google Alerts . I have as-it-happens searches in place for several things:",
+      "text": "For me, it made sense to use  Google Alerts . I have as-it-happens searches in place for several things:"
     },
     {
       "self_ref": "#/texts/3",
@@ -188,8 +155,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "security",
-      "text": "security",
+      "orig": "my full name",
+      "text": "my full name",
       "enumerated": false,
       "marker": "-"
     },
@@ -202,79 +169,15 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "sysadmin",
-      "text": "sysadmin",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "After a recent issue I had with some users in the Puppy Linux forums, I thought it might be prudent to write a post about how to monitor and protect your reputation online. This guide is mainly geared towards technical people who maintain some type of public presence. That should include folks who talk at conferences, contribute to high profile open source projects, or those who utilize social media to connect with other users and contributors.",
-      "text": "After a recent issue I had with some users in the Puppy Linux forums, I thought it might be prudent to write a post about how to monitor and protect your reputation online. This guide is mainly geared towards technical people who maintain some type of public presence. That should include folks who talk at conferences, contribute to high profile open source projects, or those who utilize social media to connect with other users and contributors."
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "The first part is monitoring. A monitoring solution should ideally be inexpensive, have a low lag time between a new mention and a notification, and it should be able to search a lot of resources.",
-      "text": "The first part is monitoring. A monitoring solution should ideally be inexpensive, have a low lag time between a new mention and a notification, and it should be able to search a lot of resources."
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "For me, it made sense to use  Google Alerts . I have as-it-happens searches in place for several things:",
-      "text": "For me, it made sense to use  Google Alerts . I have as-it-happens searches in place for several things:"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "my full name",
-      "text": "my full name",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "frequently used handles/usernames on various communication mediums (like IRC, twitter, etc)",
       "text": "frequently used handles/usernames on various communication mediums (like IRC, twitter, etc)",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -286,9 +189,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -300,7 +203,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -312,7 +215,7 @@
       "text": "Google Alerts allow me to get notifications very quickly about new blog posts, forum posts, or other websites which mention something I find to be sensitive. The signal to noise ratio for my searches is quite good but it has taken some time to hone the queries down and reduce the useless notifications."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -324,7 +227,7 @@
       "text": "If you frequent certain IRC channels, you ought to consider setting up an IRC bouncer if the server administrators allow it. You'll have the benefit of getting all of the logs from the channel even when you're not actively at your computer and you may be able to spot things that need attention."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -336,7 +239,7 @@
       "text": "Protecting your reputation is multi-faceted and immensely critical. The same communication mediums that you depend upon to spread your message and meet other people can be used against you in an instant. How many times have you seen hacked Twitter and Facebook accounts and then wondered: \"I never would have thought someone would have targeted that person. I also figured that they would have protected their account a little more aggressively.\""
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -348,9 +251,9 @@
       "text": "I've seen people with giant piles of alphabet soup (certifications) after their name (including CSO, CISSP, Security+) have their Twitter accounts hacked and I've had to tell them about it. It can happen to anyone but it's up to you to make it extremely difficult for it to happen. Here are some tips which apply specifically to Twitter but could be loosely applied to almost anything you use daily:"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -362,9 +265,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -376,9 +279,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -390,7 +293,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -402,7 +305,7 @@
       "text": "If you don't get anything from this post, please understand this.  The most critical piece of your personal infrastructure to protect is your email account.  Think about it - where do your password resets go? Where do your domain name renewal notifications go? It's the crux of your personal security. Even if you have a 100-character password with upper/lower-case letters, numbers, symbols and unicode characters, you're totally unprotected when an attacker forces a password reset email and finds that your email account password is \"p455w0rd\"."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -414,7 +317,7 @@
       "text": "For those providers that offer two-factor authentication, you really should consider using it. The pain of two-factor auth may be annoying at first, but imagine the pain when you find your bank account emptied, credit card filled, iPhone/iPad/laptop wiped and your personal identification information stolen."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -426,7 +329,7 @@
       "text": "I'll wrap up this post by talking about what I mentioned at the start of this post: responding to someone who has dragged your name through the mud on false information. Respond promptly and succinctly. Let them know who you are (with proof via links or other means), that their statements are false, and then provide proof and redirection. You certainly don't want to be overly agressive and condescending, but you don't want to be passive about it either. Be assertive and protect what's yours."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -438,7 +341,7 @@
       "text": "My grade school journalism teacher summed it up pretty well (I'll paraphrase):"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },

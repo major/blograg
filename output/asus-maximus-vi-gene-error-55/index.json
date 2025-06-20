@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 16818873228841034271,
-    "filename": "index.md"
+    "binary_hash": 816718530877585803,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,28 +21,40 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
         "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/5"
-      },
-      {
-        "$ref": "#/texts/6"
-      },
-      {
-        "$ref": "#/texts/7"
-      },
-      {
-        "$ref": "#/texts/8"
-      },
-      {
-        "$ref": "#/groups/1"
-      },
-      {
-        "$ref": "#/texts/16"
+        "$ref": "#/texts/11"
       },
       {
         "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/16"
       },
       {
         "$ref": "#/texts/17"
@@ -54,31 +66,13 @@
         "$ref": "#/texts/19"
       },
       {
-        "$ref": "#/texts/20"
-      },
-      {
-        "$ref": "#/pictures/1"
-      },
-      {
-        "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
-      },
-      {
-        "$ref": "#/texts/23"
-      },
-      {
-        "$ref": "#/texts/24"
-      },
-      {
         "$ref": "#/pictures/2"
       },
       {
-        "$ref": "#/texts/25"
+        "$ref": "#/texts/20"
       },
       {
-        "$ref": "#/texts/26"
+        "$ref": "#/texts/21"
       }
     ],
     "content_layer": "body",
@@ -93,48 +87,25 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
           "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
         {
           "$ref": "#/texts/9"
         },
         {
           "$ref": "#/texts/10"
-        },
-        {
-          "$ref": "#/texts/11"
-        },
-        {
-          "$ref": "#/texts/12"
-        },
-        {
-          "$ref": "#/texts/13"
-        },
-        {
-          "$ref": "#/texts/14"
-        },
-        {
-          "$ref": "#/texts/15"
         }
       ],
       "content_layer": "body",
@@ -152,79 +123,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2014/08/22/asus-maximus-vi-gene-error-55/",
-      "text": "/2014/08/22/asus-maximus-vi-gene-error-55/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "asus",
-      "text": "asus",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "hardware",
-      "text": "hardware",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "It's been quite a while since I built a computer but I decided to give it a try for a new hypervisor/NAS box at home. I picked up an  Asus Maximus VI Gene  motherboard since it had some good parts installed and it seems to work well with Linux. This was my first time doing water cooling for the CPU and I picked up a  Seidon 240M  after getting some recommendations.",
       "text": "It's been quite a while since I built a computer but I decided to give it a try for a new hypervisor/NAS box at home. I picked up an  Asus Maximus VI Gene  motherboard since it had some good parts installed and it seems to work well with Linux. This was my first time doing water cooling for the CPU and I picked up a  Seidon 240M  after getting some recommendations."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -237,7 +140,7 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -249,7 +152,7 @@
       "text": "Once everything was in the box and the power was applied, I was stuck with an error code. There's a two-digit LCD display on the motherboard that rapidly flips between different codes during boot-up. If it stays on a code for a while and you don't get any display output, you have a problem. For me, this Asus Q code was 55."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -261,9 +164,9 @@
       "text": "The manual says it means that RAM isn't installed. I pulled out my four sticks of RAM and reseated all of them. I still got the same error. After reading a bunch of forum posts, I ran through a lot of troubleshooting steps:"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -275,9 +178,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -289,9 +192,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -303,9 +206,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -317,9 +220,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -331,9 +234,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -345,9 +248,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -359,7 +262,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -371,7 +274,7 @@
       "text": "I still had error 55 and wasn't going anywhere fast. After some further testing, I found that if I left the two RAM slots next to the CPU empty, the system would boot. If I put any RAM in the two left RAM slots (A1 and A2), the system wouldn't boot. Here's an excerpt from the manual:"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -383,7 +286,7 @@
       "text": "mobo_schematic CPU is on the left. RAM slots are A1, A2, B1, B2, left to right."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -396,7 +299,7 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -408,7 +311,7 @@
       "text": "I adjusted my Google terms to include \"A1 A2 slots\" and found more posts talking about CPU coolers being installed incorrectly. Mine had to be correct - I installed it four times! I decided to try re-installing it one last time."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -420,7 +323,7 @@
       "text": "When I removed the CPU cooler from the CPU, I noticed something strange. There are four standoffs around the CPU that the cooler would attach to with screws. Those standoffs screwed into posts that connected to a bracket on the back of the motherboard."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -432,7 +335,7 @@
       "text": "standoffs  The lower two standoffs are highlighted."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -444,7 +347,7 @@
       "text": "I removed the two standoffs that were closest to the A1/A2 RAM slots and noticed something peculiar. One side of the standoff had a black coating that seemed a bit tacky while the other side of the standoff was bare metal. Three of the standoffs had the black side down (against the board) while one had the black side up. I unscrewed that standoff and found that the bare metal side was wedged firmly onto some connections that run from the CPU to the A1/A2 RAM slots.  Could this be the issue?"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -457,7 +360,7 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -469,7 +372,7 @@
       "text": "After double-checking all of the CPU cooler standoffs and attaching the cooler to the board, I crossed my fingers and hit the power button. The machine shot through POST and I was staring down a Fedora logo that quickly led to a GDM login."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -481,7 +384,7 @@
       "text": "culprit  The culprit"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },

@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 4345723879968647087,
-    "filename": "index.md"
+    "binary_hash": 5355950265462011885,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,13 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
       },
       {
         "$ref": "#/texts/4"
@@ -273,40 +279,28 @@
         "$ref": "#/texts/86"
       },
       {
-        "$ref": "#/texts/87"
+        "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/88"
+        "$ref": "#/texts/95"
       },
       {
-        "$ref": "#/texts/89"
+        "$ref": "#/texts/96"
       },
       {
-        "$ref": "#/texts/90"
+        "$ref": "#/pictures/0"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/97"
+      },
+      {
+        "$ref": "#/texts/98"
       },
       {
         "$ref": "#/texts/99"
       },
       {
         "$ref": "#/texts/100"
-      },
-      {
-        "$ref": "#/pictures/0"
-      },
-      {
-        "$ref": "#/texts/101"
-      },
-      {
-        "$ref": "#/texts/102"
-      },
-      {
-        "$ref": "#/texts/103"
-      },
-      {
-        "$ref": "#/texts/104"
       }
     ],
     "content_layer": "body",
@@ -321,25 +315,17 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/87"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/88"
         },
         {
-          "$ref": "#/texts/3"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
+          "$ref": "#/texts/89"
+        },
+        {
+          "$ref": "#/texts/90"
+        },
         {
           "$ref": "#/texts/91"
         },
@@ -351,18 +337,6 @@
         },
         {
           "$ref": "#/texts/94"
-        },
-        {
-          "$ref": "#/texts/95"
-        },
-        {
-          "$ref": "#/texts/96"
-        },
-        {
-          "$ref": "#/texts/97"
-        },
-        {
-          "$ref": "#/texts/98"
         }
       ],
       "content_layer": "body",
@@ -380,65 +354,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2021/03/15/monitor-ups-with-raspberry-pi-zero-w/",
-      "text": "/2021/03/15/monitor-ups-with-raspberry-pi-zero-w/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "raspberrypi",
-      "text": "raspberrypi",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "After the recent  snow apocalypse that swept through Texas  followed by widespread power crisis , I realized that my UPS monitoring strategy needed improvement. One had batteries that were near death and my other two had loads that were not well balanced.",
       "text": "After the recent  snow apocalypse that swept through Texas  followed by widespread power crisis , I realized that my UPS monitoring strategy needed improvement. One had batteries that were near death and my other two had loads that were not well balanced."
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -450,7 +370,7 @@
       "text": "I have a few CyberPower UPS units and an old APC UPS. Although CyberPower does offer  relatively expensive monitoring cards  that puts the UPS on the local network, none of them worked with my 1350/1500VA units. However, all of them do have USB serial connectivity and I wondered how I could monitor them more effectively."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -463,7 +383,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -475,7 +395,7 @@
       "text": "The  Pi Zero W  is an extension of the old Pi Zero with wireless network connectivity included. It also has a USB port available that would allow me to connect it to a UPS. It runs an older Broadcom BCM2835 and only has 512MiB of RAM, but that's plenty to do the job."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -487,7 +407,7 @@
       "text": "The  Vilros kit  contains nearly everything you need for a Pi Zero W. I added on a 64GB SD card for $11 and that brought the total to just under $40 per UPS."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -500,7 +420,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -512,7 +432,7 @@
       "text": "While the  Raspberry Pi OS  is popular, I've been using Arch Linux a lot lately and decided to use  their build  for the Pi Zero W. The  installation instructions for Arch  we perfect, except for one step: I needed wireless network connectivity as soon as the Pi booted."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -524,7 +444,7 @@
       "text": "You can enable wireless network at boot time by following the Arch Linux instructions and stopping just before you unmount the filesystems on the SD card. The first step is to add a systemd-networkd config to use DHCP on the wireless network interface:"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -540,7 +460,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -552,7 +472,7 @@
       "text": "Next, we need to store our "
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -568,7 +488,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -580,7 +500,7 @@
       "text": " configuration for "
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -596,7 +516,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -608,7 +528,7 @@
       "text": "."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -624,7 +544,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -636,7 +556,7 @@
       "text": "This prepares the "
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -652,7 +572,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -662,6 +582,62 @@
       "prov": [],
       "orig": " configuration at boot time, but we need to tell systemd to start ",
       "text": " configuration at boot time, but we need to tell systemd to start "
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "wpa_supplicant",
+      "text": "wpa_supplicant",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " when the Pi boots:",
+      "text": " when the Pi boots:"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "ln -s \\\n   /usr/lib/systemd/system/wpa_supplicant@.service \\\n   root/etc/systemd/system/multi-user.target.wants/wpa_supplicant@wlan0.service",
+      "text": "ln -s \\\n   /usr/lib/systemd/system/wpa_supplicant@.service \\\n   root/etc/systemd/system/multi-user.target.wants/wpa_supplicant@wlan0.service",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "We've now enabled DHCP at boot time, stored the wireless connection credentials, and enabled ",
+      "text": "We've now enabled DHCP at boot time, stored the wireless connection credentials, and enabled "
     },
     {
       "self_ref": "#/texts/22",
@@ -688,67 +664,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": " when the Pi boots:",
-      "text": " when the Pi boots:"
-    },
-    {
-      "self_ref": "#/texts/24",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "ln -s \\\n   /usr/lib/systemd/system/wpa_supplicant@.service \\\n   root/etc/systemd/system/multi-user.target.wants/wpa_supplicant@wlan0.service",
-      "text": "ln -s \\\n   /usr/lib/systemd/system/wpa_supplicant@.service \\\n   root/etc/systemd/system/multi-user.target.wants/wpa_supplicant@wlan0.service",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/25",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "We've now enabled DHCP at boot time, stored the wireless connection credentials, and enabled ",
-      "text": "We've now enabled DHCP at boot time, stored the wireless connection credentials, and enabled "
-    },
-    {
-      "self_ref": "#/texts/26",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "wpa_supplicant",
-      "text": "wpa_supplicant",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/27",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": " at boot time. Follow the remaining Arch Linux installation instructions starting with unmounting the ",
       "text": " at boot time. Follow the remaining Arch Linux installation instructions starting with unmounting the "
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -764,7 +684,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -776,7 +696,7 @@
       "text": " and"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -792,7 +712,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -804,7 +724,7 @@
       "text": " filesystems."
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -816,7 +736,7 @@
       "text": "Pop the SD card into the Pi, connect your UPS' USB cable, and connect it to power. Once it boots, be sure to follow the last two steps from the Arch Linux installation instructions:"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -832,7 +752,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -845,7 +765,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -857,7 +777,7 @@
       "text": "When it comes to monitoring UPS devices in Linux, it's hard to beat  Network UPS Tools , or "
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -873,7 +793,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -885,7 +805,7 @@
       "text": ". Install it on your Pi:"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -901,7 +821,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -913,7 +833,7 @@
       "text": "Start by running "
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -929,7 +849,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -941,7 +861,7 @@
       "text": " to ensure your USB is connected and recognized:"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -957,7 +877,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -969,7 +889,7 @@
       "text": "If you can't see the UPS, double check your USB cable. You may need to disconnect and reconnect it after installing "
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -985,7 +905,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -997,7 +917,7 @@
       "text": " to pick up udev changes."
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -1009,7 +929,7 @@
       "text": "Next, it's time to update some configuration files. Start by opening"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -1025,7 +945,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -1037,7 +957,7 @@
       "text": " and setting the server mode to "
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -1053,7 +973,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1065,7 +985,7 @@
       "text": " so that nut can listen on the network:"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1081,7 +1001,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1093,7 +1013,7 @@
       "text": "Open "
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1109,7 +1029,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1121,7 +1041,7 @@
       "text": " and tell "
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1137,7 +1057,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1149,7 +1069,7 @@
       "text": " how to talk to your UPS:"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1165,7 +1085,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1177,7 +1097,7 @@
       "text": "Almost all modern UPS units will use the "
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1193,7 +1113,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1205,7 +1125,7 @@
       "text": " driver. The name in the section header ("
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1221,7 +1141,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1233,7 +1153,7 @@
       "text": " in my example) is how the UPS is named when you query "
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1249,7 +1169,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1261,7 +1181,7 @@
       "text": " for status."
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1273,7 +1193,7 @@
       "text": "Now we need to tell "
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/62",
       "parent": {
         "$ref": "#/body"
       },
@@ -1289,7 +1209,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/63",
       "parent": {
         "$ref": "#/body"
       },
@@ -1301,7 +1221,7 @@
       "text": " to listen on the network. I trust my local network, so I open it up to the LAN. Edit "
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/64",
       "parent": {
         "$ref": "#/body"
       },
@@ -1317,7 +1237,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/65",
       "parent": {
         "$ref": "#/body"
       },
@@ -1329,7 +1249,7 @@
       "text": " and adjust "
     },
     {
-      "self_ref": "#/texts/70",
+      "self_ref": "#/texts/66",
       "parent": {
         "$ref": "#/body"
       },
@@ -1345,7 +1265,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/71",
+      "self_ref": "#/texts/67",
       "parent": {
         "$ref": "#/body"
       },
@@ -1357,7 +1277,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/72",
+      "self_ref": "#/texts/68",
       "parent": {
         "$ref": "#/body"
       },
@@ -1373,7 +1293,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/73",
+      "self_ref": "#/texts/69",
       "parent": {
         "$ref": "#/body"
       },
@@ -1385,7 +1305,7 @@
       "text": "The next step is to set up an admin user for "
     },
     {
-      "self_ref": "#/texts/74",
+      "self_ref": "#/texts/70",
       "parent": {
         "$ref": "#/body"
       },
@@ -1401,7 +1321,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/71",
       "parent": {
         "$ref": "#/body"
       },
@@ -1413,7 +1333,7 @@
       "text": ". This is completely optional, but you will need this if you want to tell "
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },
@@ -1429,7 +1349,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/73",
       "parent": {
         "$ref": "#/body"
       },
@@ -1441,7 +1361,7 @@
       "text": " to execute certain commands on the UPS, such as disabling the beeping alarm or running self tests. Edit "
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/74",
       "parent": {
         "$ref": "#/body"
       },
@@ -1457,7 +1377,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/79",
+      "self_ref": "#/texts/75",
       "parent": {
         "$ref": "#/body"
       },
@@ -1469,7 +1389,7 @@
       "text": " and add a user:"
     },
     {
-      "self_ref": "#/texts/80",
+      "self_ref": "#/texts/76",
       "parent": {
         "$ref": "#/body"
       },
@@ -1485,7 +1405,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/81",
+      "self_ref": "#/texts/77",
       "parent": {
         "$ref": "#/body"
       },
@@ -1497,7 +1417,7 @@
       "text": "We're ready to start the service and ensure it comes up on reboots:"
     },
     {
-      "self_ref": "#/texts/82",
+      "self_ref": "#/texts/78",
       "parent": {
         "$ref": "#/body"
       },
@@ -1513,7 +1433,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/83",
+      "self_ref": "#/texts/79",
       "parent": {
         "$ref": "#/body"
       },
@@ -1525,7 +1445,7 @@
       "text": "We can test it:"
     },
     {
-      "self_ref": "#/texts/84",
+      "self_ref": "#/texts/80",
       "parent": {
         "$ref": "#/body"
       },
@@ -1541,7 +1461,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/85",
+      "self_ref": "#/texts/81",
       "parent": {
         "$ref": "#/body"
       },
@@ -1553,7 +1473,7 @@
       "text": "Sweet! You can test connectivity from another system on your network by specifying the IP address instead of "
     },
     {
-      "self_ref": "#/texts/86",
+      "self_ref": "#/texts/82",
       "parent": {
         "$ref": "#/body"
       },
@@ -1569,7 +1489,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/87",
+      "self_ref": "#/texts/83",
       "parent": {
         "$ref": "#/body"
       },
@@ -1581,7 +1501,7 @@
       "text": "."
     },
     {
-      "self_ref": "#/texts/88",
+      "self_ref": "#/texts/84",
       "parent": {
         "$ref": "#/body"
       },
@@ -1594,7 +1514,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/89",
+      "self_ref": "#/texts/85",
       "parent": {
         "$ref": "#/body"
       },
@@ -1606,7 +1526,7 @@
       "text": "Setting up HomeAssistant is well outside the scope of this post, but it can monitor all kinds of things on your home network and allow you to run certain automations when devices get into a certain state. You can put a sensor on your garage door and get a text when it opens or closes. You can lower your thermostat when your CPU temperature gets too hot."
     },
     {
-      "self_ref": "#/texts/90",
+      "self_ref": "#/texts/86",
       "parent": {
         "$ref": "#/body"
       },
@@ -1618,9 +1538,9 @@
       "text": "Fortunately, you can also monitor UPS devices and create alerts! Follow these steps to add your UPS to HomeAssistant:"
     },
     {
-      "self_ref": "#/texts/91",
+      "self_ref": "#/texts/87",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -1632,9 +1552,65 @@
       "marker": "-"
     },
     {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Click ",
+      "text": "Click ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Click ",
+      "text": "Click ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Search for ",
+      "text": "Search for ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "In the next window, specify your Pi's IP address and port for ",
+      "text": "In the next window, specify your Pi's IP address and port for ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
       "self_ref": "#/texts/92",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -1648,63 +1624,7 @@
     {
       "self_ref": "#/texts/93",
       "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Click ",
-      "text": "Click ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/94",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Search for ",
-      "text": "Search for ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/95",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "In the next window, specify your Pi's IP address and port for ",
-      "text": "In the next window, specify your Pi's IP address and port for ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/96",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Click ",
-      "text": "Click ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/97",
-      "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -1716,9 +1636,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/98",
+      "self_ref": "#/texts/94",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -1730,7 +1650,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/99",
+      "self_ref": "#/texts/95",
       "parent": {
         "$ref": "#/body"
       },
@@ -1742,7 +1662,7 @@
       "text": "Once HomeAssistant monitors your UPS for a while, you should have some useful data! Here's a graph of my UPS load during my workday:"
     },
     {
-      "self_ref": "#/texts/100",
+      "self_ref": "#/texts/96",
       "parent": {
         "$ref": "#/body"
       },
@@ -1754,7 +1674,7 @@
       "text": "Graph of UPS load from HomeAssistant"
     },
     {
-      "self_ref": "#/texts/101",
+      "self_ref": "#/texts/97",
       "parent": {
         "$ref": "#/body"
       },
@@ -1766,7 +1686,7 @@
       "text": "2021-03-homeassistant-screenshot.png"
     },
     {
-      "self_ref": "#/texts/102",
+      "self_ref": "#/texts/98",
       "parent": {
         "$ref": "#/body"
       },
@@ -1778,7 +1698,7 @@
       "text": "You can see that my workday starts just after 6AM and ends after 4PM. Using this data, you can set up all kinds of automations when UPS load is too high, input voltage is too low (brownout/blackout), or the runtime falls to a low level (could be dying batteries)."
     },
     {
-      "self_ref": "#/texts/103",
+      "self_ref": "#/texts/99",
       "parent": {
         "$ref": "#/body"
       },
@@ -1790,7 +1710,7 @@
       "text": "The Pi Zero W draws a tiny amount of power and can monitor your UPS for an extended period without having an impact on the runtime or your wallet! \ud83d\udcb8"
     },
     {
-      "self_ref": "#/texts/104",
+      "self_ref": "#/texts/100",
       "parent": {
         "$ref": "#/body"
       },
@@ -1814,7 +1734,7 @@
       "prov": [],
       "captions": [
         {
-          "$ref": "#/texts/100"
+          "$ref": "#/texts/96"
         }
       ],
       "references": [],

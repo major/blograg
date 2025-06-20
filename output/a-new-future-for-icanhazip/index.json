@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 17245275457978363014,
-    "filename": "index.md"
+    "binary_hash": 14223613341414202683,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,16 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
       },
       {
         "$ref": "#/texts/5"
@@ -133,123 +142,16 @@
       },
       {
         "$ref": "#/texts/41"
-      },
-      {
-        "$ref": "#/texts/42"
-      },
-      {
-        "$ref": "#/texts/43"
-      },
-      {
-        "$ref": "#/texts/44"
-      },
-      {
-        "$ref": "#/texts/45"
-      },
-      {
-        "$ref": "#/texts/46"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2021/06/06/a-new-future-for-icanhazip/",
-      "text": "/2021/06/06/a-new-future-for-icanhazip/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "icanhazip",
-      "text": "icanhazip",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "python",
-      "text": "python",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -261,7 +163,7 @@
       "text": "In the summer of 2009, I had an idea. My workdays were spent deploying tons of cloud infrastructure as Rackspace acquired Slicehost and we rushed to keep up with the constant demands for new infrastructure from our customers. Working quickly led to challenges with hardware and networking."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -273,7 +175,7 @@
       "text": "That was a time where the  I Can Has Cheeseburger  meme was red hot just about everywhere. We needed a way to quickly check the public-facing IP address of lots of backend infrastructure and our customers sometimes needed that information, too."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -285,7 +187,7 @@
       "text": "That's when  icanhazip.com  was born."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -297,7 +199,7 @@
       "text": "It has always been simple site that returns your external IP address and nothing else. No ads. No trackers. No goofy requirements. Sure, if you looked hard enough, you could spot my attempt at jokes in the HTTP headers. Other than that, the site had a narrow use case and started out mainly as an internal tool."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -310,7 +212,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -322,7 +224,7 @@
       "text": "Lifehacker's Australian site  featured a post about icanhazip.com and traffic went through the roof. My little Slicehost instance was inundated and I quickly realized my Apache and Python setup was not going to work long term."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -334,7 +236,7 @@
       "text": "I migrated to nginx and set up nginx to answer the requests by itself and removed the Python scripts. The load on my small cloud instances came down quickly and I figured the issue would be resolved for a while."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -346,7 +248,7 @@
       "text": "Fast forward to 2015 and icanhazip.com was serving well over 100M requests per day. My cloud instances were getting crushed again, so I deployed more with round robin DNS.  (My budget for icanhazip is tiny.)  Once that was overloaded, I moved to Hetzner in Germany since I could get physical servers there with better network cards along with unlimited traffic."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -358,7 +260,7 @@
       "text": "The Hetzner servers were not expensive, but I was paying almost $200/month to keep the site afloat and the site made no money. I met some people who worked for Packet.net (now Equinix Metal) and they offered to sponsor the site. This brought my expenses down a lot and I deployed icanhazip.com on one server at Packet."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -370,7 +272,7 @@
       "text": "The site soon crossed 500M requests per day and I deployed a second server. Traffic was still overloading the servers. I didn't want to spin up more servers at Packet since they were already helping me out quite a bit, so I decided to look under the hood of the kernel and make some improvements."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -382,7 +284,7 @@
       "text": "I learned more than I ever wanted to know about TCP backlogs, TCP/VLAN offloading, packet coalescing, IRQ balancing, and a hundred other things. Some Red Hat network experts helped me (before I joined the company) to continue tweaking. The site was running well after that and I was thankful for the support."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -395,7 +297,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -407,7 +309,7 @@
       "text": "Soon the site exceeded 1B requests per day. I went back to the people who helped me at Red Hat and after they looked through everything I sent, their response was similar to the well-known line from Jaws:  \"You're gonna need a bigger boat.\""
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -419,7 +321,7 @@
       "text": "I languished on Twitter about how things were getting out of control and someone from Cloudflare reached out to help. We configured Cloudflare to filter traffic in front of the site and this reduced the impact from SYN floods, half-open TLS connections, and other malicious clients that I couldn't even see when I hosted the site on my own."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -431,7 +333,7 @@
       "text": "Later, Cloudflare launched workers and my contact there said I should consider it since my responses were fairly simple and the workers product would handle it well. The cost for workers looked horrifying at my traffic levels, but the folks at Cloudflare offered to run my workers for free. Their new product was getting bucket loads of traffic and I was able to scale the site even further."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -443,7 +345,7 @@
       "text": "In 2021, the traffic I once received in a month started arriving in 24 hours. The site went from 1B requests per day to 30-35B requests per day over a weekend. Almost all of that traffic came from several network blocks in China. Through all of this, Cloudflare's workers kept chugging along and my response times barely moved. I was grateful for the help."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -455,7 +357,7 @@
       "text": "Cloudflare was doing a lot for me and I wanted to curb some of the malicious traffic to reduce the load on their products. I tried many times to reach out to the email addresses on the Chinese ASNs and couldn't make contact with anyone. Some former coworkers told me that my chances of changing that traffic or getting a response to an abuse request was near zero."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -468,7 +370,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -480,7 +382,7 @@
       "text": "There was a phase for a few years where malware authors kept writing malware that would call out to icanhazip.com to find out what they had infected. If they could find out the external IP address of the systems they had compromised, they could quickly assess the value of the target. Upatre was the first, but many followed after that."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -492,7 +394,7 @@
       "text": "I received emails from companies, US state governments, and even US three letter agencies (TLA). Most were very friendly and they had lots of questions. I explained how the site worked and rarely heard a lot more communication after that."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -504,7 +406,7 @@
       "text": "Not all of the interactions were positive, however. One CISO of a US state emailed me and threatened all kinds of legal action claming that icanhazip.com was involved in a malware infection in his state's computer systems. I tried repeatedly to explain how the site worked and that the malware authors were calling out to my site and I was powerless to stop it."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -516,7 +418,7 @@
       "text": "Along the way, many of my hosting providers received abuse emails about the site. I was using a colocation provider in Dallas for a while and the tech called me about an abuse email:"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -528,7 +430,7 @@
       "text": "\"So we got another abuse email for you,\" they said."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -540,7 +442,7 @@
       "text": "\"For icanhazip.com?\""
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -552,7 +454,7 @@
       "text": "\"Yes. I didn't know that was running here, I use it all the time!\""
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -564,7 +466,7 @@
       "text": "\"Thanks! What do we do?\""
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -576,7 +478,7 @@
       "text": "\"Your site just returns IP addresses, right?\""
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -588,7 +490,7 @@
       "text": "\"Yes, that's it.\""
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -600,7 +502,7 @@
       "text": "\"You know what, I'll write up a generic response and just start replying to these idiots for you from now on.\""
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -612,7 +514,7 @@
       "text": "There were many times where I saw a big traffic jump and I realized the traffic was coming from the same ASN, and likely from the same company. I tried reaching out to these companies when I saw it but they rarely ever replied. Some even became extremely hostile to my emails."
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -624,7 +526,7 @@
       "text": "The passion left in my passion project started shrinking by the day."
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -637,7 +539,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -649,7 +551,7 @@
       "text": "Seeing that over 90% of my traffic load was malicious and abusive was frustrating. Dealing with the abuse emails and complaints was worse."
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -661,7 +563,7 @@
       "text": "I built the site originally as just a utility for my team to use, but then it grew and it was fun to find new ways to handle the load without increasing cost. Seeing 2 petabytes of data flowing out per month and knowing that almost all of it was garbage pushed me over the line. I knew I needed a change."
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -673,7 +575,7 @@
       "text": "I received a few small offers from various small companies ($5,000 or less), but I realized that the money wasn't what I was after. I wanted someone to run the site and help the information security industry to stop some of these malicious actors."
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -686,7 +588,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -698,7 +600,7 @@
       "text": "I've worked closely with my contacts at Cloudflare for a long time and they've always jumped in to help me when something wasn't working well. Their sponsorship of icanhazip.com has saved me tens of thousands of dollars per month. It has also managed to keep the site alive even under horrific traffic load."
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -710,7 +612,7 @@
       "text": "I made this decision because Cloudflare has always done right by me and they've pledged not only to keep the site running, but to work through the traffic load and determine how to stop the malicious traffic. Their coordinated work with other companies to stop compromised machines from degrading the performance of so many sites was a great selling point for me."
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -722,7 +624,7 @@
       "text": "If you're curious, Cloudflare did pay me for the site. We made a deal for them to pay me $8.03; the cost of the domain registration. The goal was never to make money from the site (although I did get about $75 in total donations from 2009 to 2021). The goal was to provide a service to the internet. Cloudflare has helped me do that and they will continue to do it as the new owners and operators of icanhazip.com."
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -735,7 +637,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -747,7 +649,7 @@
       "text": "I'd like to thank everyone who has helped me with icanhazip.com along the way. Tons of people stepped up to help with hosting and server optimization. Hosting providers helped me field an onslaught of abuse requests and DDoS attacks. Most of all, thanks to the people who used the site and helped to promote it."
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },

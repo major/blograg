@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 11056642546111292691,
-    "filename": "index.md"
+    "binary_hash": 2238291552256107120,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,28 +21,28 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
         "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/4"
       },
       {
-        "$ref": "#/texts/5"
-      },
-      {
         "$ref": "#/groups/1"
       },
       {
-        "$ref": "#/texts/8"
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
       },
       {
         "$ref": "#/groups/2"
-      },
-      {
-        "$ref": "#/texts/16"
-      },
-      {
-        "$ref": "#/texts/17"
       },
       {
         "$ref": "#/texts/18"
@@ -51,10 +51,16 @@
         "$ref": "#/groups/3"
       },
       {
-        "$ref": "#/texts/22"
+        "$ref": "#/texts/23"
       },
       {
-        "$ref": "#/groups/4"
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
       },
       {
         "$ref": "#/texts/27"
@@ -69,19 +75,19 @@
         "$ref": "#/texts/30"
       },
       {
-        "$ref": "#/texts/31"
+        "$ref": "#/groups/4"
       },
       {
-        "$ref": "#/texts/32"
+        "$ref": "#/texts/36"
       },
       {
-        "$ref": "#/texts/33"
+        "$ref": "#/texts/37"
       },
       {
-        "$ref": "#/texts/34"
+        "$ref": "#/texts/38"
       },
       {
-        "$ref": "#/groups/5"
+        "$ref": "#/texts/39"
       },
       {
         "$ref": "#/texts/40"
@@ -190,18 +196,6 @@
       },
       {
         "$ref": "#/texts/75"
-      },
-      {
-        "$ref": "#/texts/76"
-      },
-      {
-        "$ref": "#/texts/77"
-      },
-      {
-        "$ref": "#/texts/78"
-      },
-      {
-        "$ref": "#/texts/79"
       }
     ],
     "content_layer": "body",
@@ -215,9 +209,6 @@
         "$ref": "#/body"
       },
       "children": [
-        {
-          "$ref": "#/texts/1"
-        },
         {
           "$ref": "#/texts/2"
         },
@@ -236,10 +227,25 @@
       },
       "children": [
         {
+          "$ref": "#/texts/5"
+        },
+        {
           "$ref": "#/texts/6"
         },
         {
           "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
         }
       ],
       "content_layer": "body",
@@ -253,25 +259,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/9"
-        },
-        {
-          "$ref": "#/texts/10"
-        },
-        {
-          "$ref": "#/texts/11"
-        },
-        {
-          "$ref": "#/texts/12"
-        },
-        {
-          "$ref": "#/texts/13"
-        },
-        {
-          "$ref": "#/texts/14"
-        },
-        {
           "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
         }
       ],
       "content_layer": "body",
@@ -292,6 +286,9 @@
         },
         {
           "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
         }
       ],
       "content_layer": "body",
@@ -305,42 +302,19 @@
       },
       "children": [
         {
-          "$ref": "#/texts/23"
+          "$ref": "#/texts/31"
         },
         {
-          "$ref": "#/texts/24"
+          "$ref": "#/texts/32"
         },
         {
-          "$ref": "#/texts/25"
+          "$ref": "#/texts/33"
         },
         {
-          "$ref": "#/texts/26"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/5",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
+          "$ref": "#/texts/34"
+        },
         {
           "$ref": "#/texts/35"
-        },
-        {
-          "$ref": "#/texts/36"
-        },
-        {
-          "$ref": "#/texts/37"
-        },
-        {
-          "$ref": "#/texts/38"
-        },
-        {
-          "$ref": "#/texts/39"
         }
       ],
       "content_layer": "body",
@@ -358,22 +332,20 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "We have two Google Pixel phones in our house: a Pixel 2 and a Pixel 3. Both of them drop off our home wireless network regularly. It causes lots of problems with various applications on the phones, especially casting video via Chromecast.",
+      "text": "We have two Google Pixel phones in our house: a Pixel 2 and a Pixel 3. Both of them drop off our home wireless network regularly. It causes lots of problems with various applications on the phones, especially casting video via Chromecast."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "/2019/03/17/pixel-3-wifi-drops-constantly/",
-      "text": "/2019/03/17/pixel-3-wifi-drops-constantly/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "At the time when I first noticed the drops, I was using a pair of wireless access points (APs) from Engenius:",
+      "text": "At the time when I first noticed the drops, I was using a pair of wireless access points (APs) from Engenius:"
     },
     {
       "self_ref": "#/texts/2",
@@ -384,8 +356,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "android",
-      "text": "android",
+      "orig": "[<RawText children='EAP600'>]",
+      "text": "[<RawText children='EAP600'>]",
       "enumerated": false,
       "marker": "-"
     },
@@ -398,8 +370,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "networking",
-      "text": "networking",
+      "orig": "[<RawText children='EAP1200H'>]",
+      "text": "[<RawText children='EAP1200H'>]",
       "enumerated": false,
       "marker": "-"
     },
@@ -412,20 +384,22 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "We have two Google Pixel phones in our house: a Pixel 2 and a Pixel 3. Both of them drop off our home wireless network regularly. It causes lots of problems with various applications on the phones, especially casting video via Chromecast.",
-      "text": "We have two Google Pixel phones in our house: a Pixel 2 and a Pixel 3. Both of them drop off our home wireless network regularly. It causes lots of problems with various applications on the phones, especially casting video via Chromecast."
+      "orig": "Also, here's what I knew at the time:",
+      "text": "Also, here's what I knew at the time:"
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/body"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
-      "label": "paragraph",
+      "label": "list_item",
       "prov": [],
-      "orig": "At the time when I first noticed the drops, I was using a pair of wireless access points (APs) from Engenius:",
-      "text": "At the time when I first noticed the drops, I was using a pair of wireless access points (APs) from Engenius:"
+      "orig": "Mac and Linux computers had no Wi-Fi issues at all",
+      "text": "Mac and Linux computers had no Wi-Fi issues at all",
+      "enumerated": false,
+      "marker": "-"
     },
     {
       "self_ref": "#/texts/6",
@@ -436,8 +410,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "[<RawText children='EAP600'>]",
-      "text": "[<RawText children='EAP600'>]",
+      "orig": "The signal level from both APs was strong",
+      "text": "The signal level from both APs was strong",
       "enumerated": false,
       "marker": "-"
     },
@@ -450,69 +424,15 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "[<RawText children='EAP1200H'>]",
-      "text": "[<RawText children='EAP1200H'>]",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Also, here's what I knew at the time:",
-      "text": "Also, here's what I knew at the time:"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Mac and Linux computers had no Wi-Fi issues at all",
-      "text": "Mac and Linux computers had no Wi-Fi issues at all",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "The signal level from both APs was strong",
-      "text": "The signal level from both APs was strong",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "Disabling one AP made no improvement",
       "text": "Disabling one AP made no improvement",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -524,9 +444,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -538,9 +458,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -552,9 +472,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -566,7 +486,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -578,7 +498,7 @@
       "text": "At this point, I felt strongly that the APs had nothing to do with it. I ordered a new  NetGear Orbi  mesh router and satellite anyway. The Pixels still dropped off the wireless network even with the new Orbi APs."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -591,7 +511,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -603,6 +523,60 @@
       "text": "I started reading logs from every source I could find:"
     },
     {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "dhcpd logs from my router",
+      "text": "dhcpd logs from my router",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "syslogs from my APs (which forwarded into the router)",
+      "text": "syslogs from my APs (which forwarded into the router)",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "output from tcpdump on my router",
+      "text": "output from tcpdump on my router",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Several things became apparent after reading the logs:",
+      "text": "Several things became apparent after reading the logs:"
+    },
+    {
       "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/groups/3"
@@ -611,8 +585,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "dhcpd logs from my router",
-      "text": "dhcpd logs from my router",
+      "orig": "The Wi-Fi drop occurred usually every 30-60 seconds",
+      "text": "The Wi-Fi drop occurred usually every 30-60 seconds",
       "enumerated": false,
       "marker": "-"
     },
@@ -625,8 +599,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "syslogs from my APs (which forwarded into the router)",
-      "text": "syslogs from my APs (which forwarded into the router)",
+      "orig": "The DHCP server received requests for a new IP address after every drop",
+      "text": "The DHCP server received requests for a new IP address after every drop",
       "enumerated": false,
       "marker": "-"
     },
@@ -639,69 +613,15 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "output from tcpdump on my router",
-      "text": "output from tcpdump on my router",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/22",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Several things became apparent after reading the logs:",
-      "text": "Several things became apparent after reading the logs:"
-    },
-    {
-      "self_ref": "#/texts/23",
-      "parent": {
-        "$ref": "#/groups/4"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "The Wi-Fi drop occurred usually every 30-60 seconds",
-      "text": "The Wi-Fi drop occurred usually every 30-60 seconds",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/24",
-      "parent": {
-        "$ref": "#/groups/4"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "The DHCP server received requests for a new IP address after every drop",
-      "text": "The DHCP server received requests for a new IP address after every drop",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/25",
-      "parent": {
-        "$ref": "#/groups/4"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "None of the network traffic from the phones was being blocked at the router",
       "text": "None of the network traffic from the phones was being blocked at the router",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/22",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -713,7 +633,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -725,7 +645,7 @@
       "text": "All of the wireless and routing systems in my house seemed to point to a problem in the phones themselves. They were voluntarily dropping from the network without being bumped off by APs or the router."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -738,7 +658,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -750,7 +670,7 @@
       "text": "It was time to get some logs from the phone itself. That would require connecting the phone via USB to a computer and enabling USB debugging on the phone."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -762,7 +682,7 @@
       "text": "First, I downloaded the  Android SDK . The full studio release isn't needed -- scroll down and find the  Command line tools only  section. Unzip the download and find the "
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -778,7 +698,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -790,7 +710,7 @@
       "text": " executable. Run it like this:"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -806,7 +726,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -818,9 +738,9 @@
       "text": "Now we need to enable USB debugging on the phone itself.  Be sure to disable USB debugging when you are done!  Follow these steps:"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/31",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -832,9 +752,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/32",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -846,9 +766,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/33",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -860,9 +780,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/34",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -874,9 +794,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/35",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -888,7 +808,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -900,7 +820,7 @@
       "text": "Connect the phone to your computer via USB and run:"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -916,7 +836,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -928,7 +848,7 @@
       "text": "Your screen will fill with logs from your phone."
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -941,7 +861,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -953,7 +873,7 @@
       "text": "I watched the logs and waited for the Wi-Fi to drop. As soon as it dropped, I saw some interesting log messages:"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -969,7 +889,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -981,7 +901,7 @@
       "text": "The line with "
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -997,7 +917,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -1009,7 +929,7 @@
       "text": " isn't relevant because it's simply a hint to the wireless drivers to avoid certain frequencies not used in the USA. The "
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -1025,7 +945,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1037,7 +957,7 @@
       "text": " shows where wpa_supplicant received the disconnection message. The last line with "
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1053,7 +973,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1065,7 +985,7 @@
       "text": " was very interesting. Something in the phone believes there is a network connectivity issue. That could be why the Pixel is hopping off the wireless network."
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1075,6 +995,62 @@
       "prov": [],
       "orig": "From there, I decided to examine only the ",
       "text": "From there, I decided to examine only the "
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "ConnectivityService",
+      "text": "ConnectivityService",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " logs:",
+      "text": " logs:"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "sudo platform-tools/adb logcat 'ConnectivityService:* *:S'",
+      "text": "sudo platform-tools/adb logcat 'ConnectivityService:* *:S'",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "This logcat line tells adb that I want all logs from all log levels about the",
+      "text": "This logcat line tells adb that I want all logs from all log levels about the"
     },
     {
       "self_ref": "#/texts/54",
@@ -1101,67 +1077,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": " logs:",
-      "text": " logs:"
-    },
-    {
-      "self_ref": "#/texts/56",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "sudo platform-tools/adb logcat 'ConnectivityService:* *:S'",
-      "text": "sudo platform-tools/adb logcat 'ConnectivityService:* *:S'",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/57",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "This logcat line tells adb that I want all logs from all log levels about the",
-      "text": "This logcat line tells adb that I want all logs from all log levels about the"
-    },
-    {
-      "self_ref": "#/texts/58",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "ConnectivityService",
-      "text": "ConnectivityService",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/59",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": ", but all of the other logs should be silenced. I started seeing some interesting details:",
       "text": ", but all of the other logs should be silenced. I started seeing some interesting details:"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1177,7 +1097,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1189,7 +1109,7 @@
       "text": "Wait, what is this \"validation failed\" message? The Pixel was making network connections successfully the entire time as shown by tcpdump. This is part of Android's [network connecivity checks] for various networks."
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1201,7 +1121,7 @@
       "text": "The last few connections just before the disconnect were to"
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1217,7 +1137,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1229,7 +1149,7 @@
       "text": " (based on tcpdump logs) and that's Google's way of verifying that the wireless network is usable and that there are no captive portals. I connected to it from my desktop on IPv4 and IPv6 to verify:"
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1245,7 +1165,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/62",
       "parent": {
         "$ref": "#/body"
       },
@@ -1257,7 +1177,7 @@
       "text": "Everything looked fine."
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/63",
       "parent": {
         "$ref": "#/body"
       },
@@ -1270,7 +1190,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/64",
       "parent": {
         "$ref": "#/body"
       },
@@ -1282,7 +1202,7 @@
       "text": "After a bunch of searching on Google, I kept finding posts talking about disabling IPv6 to fix the Wi-Fi drop issues. I shrugged it off and kept searching. Finally, I decided to disable IPv6 and see if that helped."
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/65",
       "parent": {
         "$ref": "#/body"
       },
@@ -1294,7 +1214,7 @@
       "text": "I stopped "
     },
     {
-      "self_ref": "#/texts/70",
+      "self_ref": "#/texts/66",
       "parent": {
         "$ref": "#/body"
       },
@@ -1310,7 +1230,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/71",
+      "self_ref": "#/texts/67",
       "parent": {
         "$ref": "#/body"
       },
@@ -1322,7 +1242,7 @@
       "text": " on the router, disabled Wi-Fi on the phone, and then re-enabled it. As I watched, the phone stayed on the wireless network for two minutes. Three minutes. Ten minutes.  There were no drops."
     },
     {
-      "self_ref": "#/texts/72",
+      "self_ref": "#/texts/68",
       "parent": {
         "$ref": "#/body"
       },
@@ -1334,7 +1254,7 @@
       "text": "At this point, this is still an unsolved mystery for me. Disabling IPv6 is a terrible idea, but it keeps my phones online. I plan to put the phones on their own VLAN without IPv6 so I can still keep IPv6 addresses for my other computers, but this is not a good long term fix. If anyone has any input on why this helps and how I can get IPv6 re-enabled, please  let me know !"
     },
     {
-      "self_ref": "#/texts/73",
+      "self_ref": "#/texts/69",
       "parent": {
         "$ref": "#/body"
       },
@@ -1347,7 +1267,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/74",
+      "self_ref": "#/texts/70",
       "parent": {
         "$ref": "#/body"
       },
@@ -1359,7 +1279,7 @@
       "text": "Several readers wanted to see what was happening just before the Wi-Fi drop, so here's a small snippet from tcpdump:"
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/71",
       "parent": {
         "$ref": "#/body"
       },
@@ -1375,7 +1295,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },
@@ -1387,7 +1307,7 @@
       "text": "That IPv6 address is at a Google PoP in Dallas, TX:"
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/73",
       "parent": {
         "$ref": "#/body"
       },
@@ -1403,7 +1323,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/74",
       "parent": {
         "$ref": "#/body"
       },
@@ -1415,7 +1335,7 @@
       "text": "I haven't been able to intercept the traffic via man-in-the-middle since Google's certificate checks are very strict. However, checks from my own computer work without an issue:"
     },
     {
-      "self_ref": "#/texts/79",
+      "self_ref": "#/texts/75",
       "parent": {
         "$ref": "#/body"
       },

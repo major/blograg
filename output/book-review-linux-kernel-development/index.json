@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 10098686673176791089,
-    "filename": "index.md"
+    "binary_hash": 995694536589421003,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,22 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
       },
       {
         "$ref": "#/texts/7"
@@ -52,163 +67,16 @@
       },
       {
         "$ref": "#/texts/16"
-      },
-      {
-        "$ref": "#/texts/17"
-      },
-      {
-        "$ref": "#/texts/18"
-      },
-      {
-        "$ref": "#/texts/19"
-      },
-      {
-        "$ref": "#/texts/20"
-      },
-      {
-        "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
-      },
-      {
-        "$ref": "#/texts/23"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2015/06/21/book-review-linux-kernel-development/",
-      "text": "/2015/06/21/book-review-linux-kernel-development/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "book",
-      "text": "book",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "kernel",
-      "text": "kernel",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -220,7 +88,7 @@
       "text": "I picked up a copy of  Robert Love's  book,  Linux Kernel Development , earlier this year and I've worked my way through it over the past several weeks. A few people recommended the book to me on Twitter and I'm so glad they did. This book totally changed how I look at a system running Linux."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -233,7 +101,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -245,7 +113,7 @@
       "text": "I've never had formal education in computer science or software development in the past. After all, my degree was in Biology and I was on the path to becoming a phyisician when this other extremely rewarding career came into play.  (That's a whole separate blog post in itself.)"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -257,7 +125,7 @@
       "text": "Just to level-set: I can read C and make small patches when I spot problems. However, I've never set out and started a project in C on my own and I haven't really made any large contributions to projects written in C. However, I'm well-versed in Perl, Ruby, and Python mainly from job experience and leaning on some much more skilled colleagues."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -269,7 +137,7 @@
       "text": "The book recommends that you have a basic grasp of C and some knowledge around memory management and process handling. I found that I was able to fully understand about 70% of the book immediately, another 20% or so required some additional research and practice, while about 10% was mind-blowing. Obviously, that leaves me with plenty of room to grow."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -281,7 +149,7 @@
       "text": "Honestly, if you understand how most kernel tunables work and you know at least one language that runs on your average Linux box, you should be able to understand the majority of the material. Some sections might require some re-reading and you might need to go back and read a section when a later chapter sheds more light on the subject."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -294,7 +162,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -306,7 +174,7 @@
       "text": "I won't go into a lot of detail around the content itself other than to say it's extremely comprehensive. After all, you wouldn't be reading a book about something as complex as the Linux kernel if you weren't ready for an onslaught of information."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -318,7 +186,7 @@
       "text": "The information is organized in an effective way. Initial concepts are familiar to someone who has worked in user space for quite some time. If you've dealt with oom-killer, loaded kernel modules, or written some horrible code that later needed to be optimized, you'll find the beginning of the book to be very useful. Robert draws plenty of distinctions around kernel space, user space, and how they interact. He take special care to cover SMP-safe code and how to take non-SMP-safe code and improve it."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -330,7 +198,7 @@
       "text": "I found a ton of value in the memory management, locking, and the I/O chapters. I didn't fully understand the blocks of C code within the text but there was a ton of value in the deep explanations of how data flows (and doesn't flow) from memory to disk and back again."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -343,7 +211,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -355,7 +223,7 @@
       "text": "If I had to pick one thing to entice more people to read the book, it would be the way Robert explains every concept in the book. He has a good formula that helps you understand the how, the what,  and  the why. So many books forget the  why ."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -367,7 +235,7 @@
       "text": "He takes the time to explain what frustrated the kernel developers that made them write a feature in the first place and then goes into detail about how they fixed it. He also talks about differences between other operating systems (like Unix, Windows, and others) and other hardware types (like ARM and Alpha). So many books leave this part out but it's often critical for understanding difficult topics. I learned this the hard way in my biology classes when I tried to memorize concepts rather than trying to understand the evolutionary or chemical reasons for why it occurs."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -379,7 +247,7 @@
       "text": "Robert also rounds out the book with plenty of debugging tips that allow readers to trudge through bug hunts with better chances of success. He helps open the doors to the Linux kernel community and gives tips on how to get the best interactions from the community."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -392,7 +260,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -404,7 +272,7 @@
       "text": "This book is worth it for anyone who wants to learn more about how their Linux systems operate or who want to actually write code for the kernel. Much of the deep workings of the kernel was a mystery to me before and I really only knew how to interact with a few interfaces."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },

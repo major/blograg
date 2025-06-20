@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 13415178841175798984,
-    "filename": "index.md"
+    "binary_hash": 5748817938920271120,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,16 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
       },
       {
         "$ref": "#/texts/5"
@@ -64,123 +73,16 @@
       },
       {
         "$ref": "#/texts/18"
-      },
-      {
-        "$ref": "#/texts/19"
-      },
-      {
-        "$ref": "#/texts/20"
-      },
-      {
-        "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
-      },
-      {
-        "$ref": "#/texts/23"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2014/04/17/devops-and-enterprise-inertia/",
-      "text": "/2014/04/17/devops-and-enterprise-inertia/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "development",
-      "text": "development",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "devops",
-      "text": "devops",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -192,7 +94,7 @@
       "text": "As I wait in the airport to fly back home from this year's  Red Hat Summit , I'm thinking back over the many conversations I had over breakfast, over lunch, and during the events. One common theme that kept cropping up was around bringing DevOps to the enterprise. I stumbled upon  Mathias Meyer's  post,  The Developer is Dead, Long Live the Developer , and I was inspired to write my own."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -204,7 +106,7 @@
       "text": "Before I go any further, here's my definition of DevOps:  it's a mindset shift where everyone is responsible for the success of the customer experience . The success (and failure) of the project rests on everyone involved. If it goes well, everyone celebrates and looks for ways to highlight what worked well. If it fails, everyone gets involved to bring it back on track. Doing this correctly means that your usage of \"us\" and \"them\" should decrease sharply."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -217,7 +119,7 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -229,7 +131,7 @@
       "text": "One of the conference attendees told me that he and his technical colleagues are curious about trying DevOps but their organization isn't set up in a way to make it work. On top of that, very few members of the teams knew about the concept of continuous delivery and only one or two people knew about tools that are commonly used to practice it."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -241,7 +143,7 @@
       "text": "I dug deeper and discovered that they have outages just like any other company and they treat outages as an operations problem primarily. \u00a0Operations teams don't get much sleep and they get frustrated with poorly written code that is difficult to deploy, upgrade, and maintain. \u00a0Feedback loops with the development teams are relatively non-existent since the development teams report into a different portion of the business. \u00a0His manager knows that something needs to change but his manager wasn't sure how to change it."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -253,7 +155,7 @@
       "text": "His company certainly isn't unique. \u00a0My advice for him was to start a three step process:"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -266,7 +168,7 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -278,7 +180,7 @@
       "text": "Leaders need to understand that the customer experience is key and that experience depends on much more than just uptime. This applies to products and systems that support internal users within your company and those that support your external customers."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -290,7 +192,7 @@
       "text": "Imagine if you called for pizza delivery and received a pizza without any cheese. You drive back to the pizza place to show the manager the partial pizza you received. The manager turns to the employees and they point to the person assigned to putting toppings on the pizza. They might say: \"It's his fault, I did my part and put it in the oven.\" The delivery driver might say: \"Hey, I did what I was supposed to and I delivered the pizza. It's not my fault.\""
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -302,7 +204,7 @@
       "text": "All this time, you, the customer, are stuck holding a half made pizza. Your experience is awful."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -314,7 +216,7 @@
       "text": "Looking back, the person who put the pizza in the oven should have asked why it was only partially made. The delivery driver should have asked about it when it was going into the box. Most important of all, the manager should have turned to the employees and put the responsibility on all of them to make it right."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -327,7 +229,7 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -339,7 +241,7 @@
       "text": "Once responsibility is shared, everyone within the group needs some knowledge of what other members of the group do. This is most obvious with developers and operations teams. Operations teams need to understand what the applications do and where their weak points are. Developers need to understand resource constraints and how to deploy their software. They don't need to become experts but they need to know enough overlapping knowledge to build a strong, healthy feedback loop."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -351,7 +253,7 @@
       "text": "This cross-training must include product managers, project managers, and leaders. Feedback loops between these groups will only be successful if they can speak some of the language of the other groups."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -364,7 +266,7 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -376,7 +278,7 @@
       "text": "Use the tools that make the most sense to the groups that need to use them. Just because a particular software tool helps another company collaborate or deploy software more reliably doesn't mean it will have a positive impact on your company."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -388,7 +290,7 @@
       "text": "Watch out for the \" sunk cost \" fallacy as well.  Neal Ford  talked about this during a  talk at the Red Hat Summit  and how it can really stunt the growth of a high performing team."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -401,7 +303,7 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },

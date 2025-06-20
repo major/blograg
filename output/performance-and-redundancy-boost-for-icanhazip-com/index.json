@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 15368649274836809385,
-    "filename": "index.md"
+    "binary_hash": 1272433460771674066,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,22 +21,16 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
         "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/4"
+        "$ref": "#/texts/6"
       },
       {
-        "$ref": "#/texts/5"
-      },
-      {
-        "$ref": "#/groups/1"
-      },
-      {
-        "$ref": "#/texts/10"
-      },
-      {
-        "$ref": "#/texts/11"
+        "$ref": "#/texts/7"
       }
     ],
     "content_layer": "body",
@@ -51,36 +45,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
           "$ref": "#/texts/2"
         },
         {
           "$ref": "#/texts/3"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/6"
         },
         {
-          "$ref": "#/texts/7"
+          "$ref": "#/texts/4"
         },
         {
-          "$ref": "#/texts/8"
-        },
-        {
-          "$ref": "#/texts/9"
+          "$ref": "#/texts/5"
         }
       ],
       "content_layer": "body",
@@ -98,22 +72,20 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "It's been a few years since I started  a little project  to operate a service to return your IPv4 and IPv6 address. Although there are a bunch of other sites that offer this service as well, I've been amazed by the gradually increasing traffic to  icanhazip.com .",
+      "text": "It's been a few years since I started  a little project  to operate a service to return your IPv4 and IPv6 address. Although there are a bunch of other sites that offer this service as well, I've been amazed by the gradually increasing traffic to  icanhazip.com ."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "/2012/04/18/performance-and-redundancy-boost-for-icanhazip-com/",
-      "text": "/2012/04/18/performance-and-redundancy-boost-for-icanhazip-com/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "Here's a sample of the latest statistics:",
+      "text": "Here's a sample of the latest statistics:"
     },
     {
       "self_ref": "#/texts/2",
@@ -124,8 +96,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "networking",
-      "text": "networking",
+      "orig": "Hits per day: ",
+      "text": "Hits per day: ",
       "enumerated": false,
       "marker": "-"
     },
@@ -138,67 +110,15 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "web",
-      "text": "web",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "It's been a few years since I started  a little project  to operate a service to return your IPv4 and IPv6 address. Although there are a bunch of other sites that offer this service as well, I've been amazed by the gradually increasing traffic to  icanhazip.com .",
-      "text": "It's been a few years since I started  a little project  to operate a service to return your IPv4 and IPv6 address. Although there are a bunch of other sites that offer this service as well, I've been amazed by the gradually increasing traffic to  icanhazip.com ."
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Here's a sample of the latest statistics:",
-      "text": "Here's a sample of the latest statistics:"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Hits per day: ",
-      "text": "Hits per day: ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "Unique IP addresses per day: ",
       "text": "Unique IP addresses per day: ",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -210,9 +130,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -224,7 +144,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -236,7 +156,7 @@
       "text": "The site is now running on multiple  Cloud Servers  at  Rackspace  behind a  load balancer cluster . In addition, the DNS records are hosted with Rackspace's  Cloud DNS  service."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },

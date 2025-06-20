@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 454431508264221416,
-    "filename": "index.md"
+    "binary_hash": 12212580801348127835,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,16 +21,19 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
         "$ref": "#/groups/0"
-      },
-      {
-        "$ref": "#/texts/5"
-      },
-      {
-        "$ref": "#/texts/6"
-      },
-      {
-        "$ref": "#/texts/7"
       },
       {
         "$ref": "#/texts/8"
@@ -39,7 +42,13 @@
         "$ref": "#/texts/9"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
       },
       {
         "$ref": "#/texts/13"
@@ -64,21 +73,6 @@
       },
       {
         "$ref": "#/texts/20"
-      },
-      {
-        "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
-      },
-      {
-        "$ref": "#/texts/23"
-      },
-      {
-        "$ref": "#/texts/24"
-      },
-      {
-        "$ref": "#/texts/25"
       }
     ],
     "content_layer": "body",
@@ -93,36 +87,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/5"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/6"
         },
         {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/10"
-        },
-        {
-          "$ref": "#/texts/11"
-        },
-        {
-          "$ref": "#/texts/12"
+          "$ref": "#/texts/7"
         }
       ],
       "content_layer": "body",
@@ -140,79 +111,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "author: Major Hayden date: '2022-12-09' summary: Automatically switch your system audio to your bluetooth headset as soon as they connect. \ud83c\udfa7 tags:",
-      "text": "author: Major Hayden date: '2022-12-09' summary: Automatically switch your system audio to your bluetooth headset as soon as they connect. \ud83c\udfa7 tags:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "audio",
-      "text": "audio",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "bluetooth",
-      "text": "bluetooth",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Working remotely involves lots of meetings in challenging home conditions and I love noise-canceling bluetooth headphones for meetings and music. It really helps me focus. However, as anyone knows who works with multiple audio devices on the same machine, getting all of the inputs and outputs working properly for each application is tedious. \ud83d\ude05",
       "text": "Working remotely involves lots of meetings in challenging home conditions and I love noise-canceling bluetooth headphones for meetings and music. It really helps me focus. However, as anyone knows who works with multiple audio devices on the same machine, getting all of the inputs and outputs working properly for each application is tedious. \ud83d\ude05"
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -224,7 +127,7 @@
       "text": "The last thing I want to wrestle with (as a scramble to a meeting) is redirecting audio from my speakers to my headphones in PulseAudio. \ud83d\ude31"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -236,7 +139,7 @@
       "text": "Luckily, there's a pulseaudio module for that!"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -248,7 +151,7 @@
       "text": "Goal"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -260,9 +163,9 @@
       "text": "Here's what I want:"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -274,9 +177,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -288,9 +191,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -302,7 +205,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -314,7 +217,7 @@
       "text": "Enabling the module"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -326,7 +229,7 @@
       "text": "This was working really well on my desktop, but I recently switched to  Fedora Silverblue . I forgot how I dealt with this before."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -338,7 +241,7 @@
       "text": "A quick search led to an  Arch Linux forum post . The pulseaudio module  module-switch-on-connect  handles this automatically without extra configuration."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -350,7 +253,7 @@
       "text": "Start some music, disconnect the bluetooth headphones, and load the module:"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -366,7 +269,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -378,7 +281,7 @@
       "text": "Power on your headphones and wait for the connection. Audio should switch to your bluetooth headset automatically. Power off the bluetooth headphones and audio should shift back to the original source (perhaps your computer speakers)."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -390,7 +293,7 @@
       "text": "If that didn't work, you might need to tinker with your default audio sinks or add some udev rules to ensure your bluetooth headphones come up with the right sink. The  Arch Linux pipewire docs  provide a few options."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -402,7 +305,7 @@
       "text": "Make it persistent"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -414,7 +317,7 @@
       "text": "Loading the module with "
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -430,7 +333,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -442,7 +345,7 @@
       "text": " only works until pulseaudio is restarted or the machine reboots. You can make it persistent by adding it to your window manager's startup scripts."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -454,7 +357,7 @@
       "text": "I use i3/sway, so my configuration line looks like this:"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },

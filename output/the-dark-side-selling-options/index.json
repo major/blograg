@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 10420949365911608180,
-    "filename": "index.md"
+    "binary_hash": 2360538413204869679,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,10 +21,13 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
       },
       {
-        "$ref": "#/texts/4"
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/5"
@@ -36,25 +39,22 @@
         "$ref": "#/groups/1"
       },
       {
-        "$ref": "#/texts/9"
-      },
-      {
         "$ref": "#/texts/10"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
       },
       {
         "$ref": "#/texts/14"
       },
       {
-        "$ref": "#/texts/15"
-      },
-      {
-        "$ref": "#/texts/16"
-      },
-      {
-        "$ref": "#/texts/17"
+        "$ref": "#/groups/2"
       },
       {
         "$ref": "#/texts/18"
@@ -63,10 +63,16 @@
         "$ref": "#/groups/3"
       },
       {
+        "$ref": "#/texts/21"
+      },
+      {
         "$ref": "#/texts/22"
       },
       {
-        "$ref": "#/groups/4"
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
       },
       {
         "$ref": "#/texts/25"
@@ -78,37 +84,34 @@
         "$ref": "#/texts/27"
       },
       {
-        "$ref": "#/texts/28"
+        "$ref": "#/groups/4"
       },
       {
-        "$ref": "#/texts/29"
+        "$ref": "#/texts/32"
       },
       {
-        "$ref": "#/texts/30"
+        "$ref": "#/texts/33"
       },
       {
-        "$ref": "#/texts/31"
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
       },
       {
         "$ref": "#/groups/5"
       },
       {
-        "$ref": "#/texts/36"
+        "$ref": "#/texts/45"
       },
       {
-        "$ref": "#/texts/37"
+        "$ref": "#/texts/46"
       },
       {
-        "$ref": "#/texts/38"
+        "$ref": "#/texts/47"
       },
       {
-        "$ref": "#/texts/39"
-      },
-      {
-        "$ref": "#/groups/6"
-      },
-      {
-        "$ref": "#/texts/49"
+        "$ref": "#/groups/9"
       },
       {
         "$ref": "#/texts/50"
@@ -117,7 +120,10 @@
         "$ref": "#/texts/51"
       },
       {
-        "$ref": "#/groups/10"
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
       },
       {
         "$ref": "#/texts/54"
@@ -129,22 +135,19 @@
         "$ref": "#/texts/56"
       },
       {
-        "$ref": "#/texts/57"
+        "$ref": "#/groups/10"
       },
       {
-        "$ref": "#/texts/58"
+        "$ref": "#/texts/68"
       },
       {
-        "$ref": "#/texts/59"
+        "$ref": "#/texts/69"
       },
       {
-        "$ref": "#/texts/60"
+        "$ref": "#/texts/70"
       },
       {
-        "$ref": "#/groups/11"
-      },
-      {
-        "$ref": "#/texts/72"
+        "$ref": "#/groups/14"
       },
       {
         "$ref": "#/texts/73"
@@ -153,7 +156,10 @@
         "$ref": "#/texts/74"
       },
       {
-        "$ref": "#/groups/15"
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/texts/76"
       },
       {
         "$ref": "#/texts/77"
@@ -162,10 +168,7 @@
         "$ref": "#/texts/78"
       },
       {
-        "$ref": "#/texts/79"
-      },
-      {
-        "$ref": "#/texts/80"
+        "$ref": "#/groups/15"
       },
       {
         "$ref": "#/texts/81"
@@ -174,7 +177,10 @@
         "$ref": "#/texts/82"
       },
       {
-        "$ref": "#/groups/16"
+        "$ref": "#/texts/83"
+      },
+      {
+        "$ref": "#/texts/84"
       },
       {
         "$ref": "#/texts/85"
@@ -189,28 +195,16 @@
         "$ref": "#/texts/88"
       },
       {
-        "$ref": "#/texts/89"
+        "$ref": "#/groups/16"
       },
       {
-        "$ref": "#/texts/90"
+        "$ref": "#/texts/94"
       },
       {
-        "$ref": "#/texts/91"
+        "$ref": "#/texts/95"
       },
       {
-        "$ref": "#/texts/92"
-      },
-      {
-        "$ref": "#/groups/17"
-      },
-      {
-        "$ref": "#/texts/98"
-      },
-      {
-        "$ref": "#/texts/99"
-      },
-      {
-        "$ref": "#/texts/100"
+        "$ref": "#/texts/96"
       }
     ],
     "content_layer": "body",
@@ -225,13 +219,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
           "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
         }
       ],
       "content_layer": "body",
@@ -249,6 +240,9 @@
         },
         {
           "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
         }
       ],
       "content_layer": "body",
@@ -262,13 +256,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/11"
+          "$ref": "#/texts/15"
         },
         {
-          "$ref": "#/texts/12"
+          "$ref": "#/texts/16"
         },
         {
-          "$ref": "#/texts/13"
+          "$ref": "#/texts/17"
         }
       ],
       "content_layer": "body",
@@ -286,14 +280,11 @@
         },
         {
           "$ref": "#/texts/20"
-        },
-        {
-          "$ref": "#/texts/21"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "list"
+      "label": "ordered_list"
     },
     {
       "self_ref": "#/groups/4",
@@ -302,15 +293,21 @@
       },
       "children": [
         {
-          "$ref": "#/texts/23"
+          "$ref": "#/texts/28"
         },
         {
-          "$ref": "#/texts/24"
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "ordered_list"
+      "label": "list"
     },
     {
       "self_ref": "#/groups/5",
@@ -319,16 +316,22 @@
       },
       "children": [
         {
-          "$ref": "#/texts/32"
+          "$ref": "#/texts/36"
         },
         {
-          "$ref": "#/texts/33"
+          "$ref": "#/groups/6"
         },
         {
-          "$ref": "#/texts/34"
+          "$ref": "#/texts/39"
         },
         {
-          "$ref": "#/texts/35"
+          "$ref": "#/groups/7"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/groups/8"
         }
       ],
       "content_layer": "body",
@@ -338,26 +341,14 @@
     {
       "self_ref": "#/groups/6",
       "parent": {
-        "$ref": "#/body"
+        "$ref": "#/groups/5"
       },
       "children": [
         {
-          "$ref": "#/texts/40"
+          "$ref": "#/texts/37"
         },
         {
-          "$ref": "#/groups/7"
-        },
-        {
-          "$ref": "#/texts/43"
-        },
-        {
-          "$ref": "#/groups/8"
-        },
-        {
-          "$ref": "#/texts/46"
-        },
-        {
-          "$ref": "#/groups/9"
+          "$ref": "#/texts/38"
         }
       ],
       "content_layer": "body",
@@ -367,14 +358,14 @@
     {
       "self_ref": "#/groups/7",
       "parent": {
-        "$ref": "#/groups/6"
+        "$ref": "#/groups/5"
       },
       "children": [
         {
-          "$ref": "#/texts/41"
+          "$ref": "#/texts/40"
         },
         {
-          "$ref": "#/texts/42"
+          "$ref": "#/texts/41"
         }
       ],
       "content_layer": "body",
@@ -384,14 +375,14 @@
     {
       "self_ref": "#/groups/8",
       "parent": {
-        "$ref": "#/groups/6"
+        "$ref": "#/groups/5"
       },
       "children": [
         {
-          "$ref": "#/texts/44"
+          "$ref": "#/texts/43"
         },
         {
-          "$ref": "#/texts/45"
+          "$ref": "#/texts/44"
         }
       ],
       "content_layer": "body",
@@ -401,14 +392,14 @@
     {
       "self_ref": "#/groups/9",
       "parent": {
-        "$ref": "#/groups/6"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "$ref": "#/texts/47"
+          "$ref": "#/texts/48"
         },
         {
-          "$ref": "#/texts/48"
+          "$ref": "#/texts/49"
         }
       ],
       "content_layer": "body",
@@ -422,10 +413,22 @@
       },
       "children": [
         {
-          "$ref": "#/texts/52"
+          "$ref": "#/texts/57"
         },
         {
-          "$ref": "#/texts/53"
+          "$ref": "#/groups/11"
+        },
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/groups/12"
+        },
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/groups/13"
         }
       ],
       "content_layer": "body",
@@ -435,26 +438,17 @@
     {
       "self_ref": "#/groups/11",
       "parent": {
-        "$ref": "#/body"
+        "$ref": "#/groups/10"
       },
       "children": [
         {
-          "$ref": "#/texts/61"
+          "$ref": "#/texts/58"
         },
         {
-          "$ref": "#/groups/12"
+          "$ref": "#/texts/59"
         },
         {
-          "$ref": "#/texts/65"
-        },
-        {
-          "$ref": "#/groups/13"
-        },
-        {
-          "$ref": "#/texts/68"
-        },
-        {
-          "$ref": "#/groups/14"
+          "$ref": "#/texts/60"
         }
       ],
       "content_layer": "body",
@@ -464,7 +458,7 @@
     {
       "self_ref": "#/groups/12",
       "parent": {
-        "$ref": "#/groups/11"
+        "$ref": "#/groups/10"
       },
       "children": [
         {
@@ -472,9 +466,6 @@
         },
         {
           "$ref": "#/texts/63"
-        },
-        {
-          "$ref": "#/texts/64"
         }
       ],
       "content_layer": "body",
@@ -484,9 +475,12 @@
     {
       "self_ref": "#/groups/13",
       "parent": {
-        "$ref": "#/groups/11"
+        "$ref": "#/groups/10"
       },
       "children": [
+        {
+          "$ref": "#/texts/65"
+        },
         {
           "$ref": "#/texts/66"
         },
@@ -501,17 +495,14 @@
     {
       "self_ref": "#/groups/14",
       "parent": {
-        "$ref": "#/groups/11"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "$ref": "#/texts/69"
-        },
-        {
-          "$ref": "#/texts/70"
-        },
-        {
           "$ref": "#/texts/71"
+        },
+        {
+          "$ref": "#/texts/72"
         }
       ],
       "content_layer": "body",
@@ -525,10 +516,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/75"
+          "$ref": "#/texts/79"
         },
         {
-          "$ref": "#/texts/76"
+          "$ref": "#/texts/80"
         }
       ],
       "content_layer": "body",
@@ -542,36 +533,19 @@
       },
       "children": [
         {
-          "$ref": "#/texts/83"
+          "$ref": "#/texts/89"
         },
         {
-          "$ref": "#/texts/84"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/17",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
+          "$ref": "#/texts/90"
+        },
+        {
+          "$ref": "#/texts/91"
+        },
+        {
+          "$ref": "#/texts/92"
+        },
         {
           "$ref": "#/texts/93"
-        },
-        {
-          "$ref": "#/texts/94"
-        },
-        {
-          "$ref": "#/texts/95"
-        },
-        {
-          "$ref": "#/texts/96"
-        },
-        {
-          "$ref": "#/texts/97"
         }
       ],
       "content_layer": "body",
@@ -589,65 +563,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2020/12/07/the-dark-side-selling-options/",
-      "text": "/2020/12/07/the-dark-side-selling-options/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "investing",
-      "text": "investing",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "options",
-      "text": "options",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "I've started a  series of posts on options trading  and if you haven't read yesterdays post,  Options trading introduction , you should start there first.",
       "text": "I've started a  series of posts on options trading  and if you haven't read yesterdays post,  Options trading introduction , you should start there first."
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -660,7 +580,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -672,6 +592,58 @@
       "text": "Just to recap the introductory post:"
     },
     {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Buying a call gives you the ",
+      "text": "Buying a call gives you the ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Buying a put gives you the ",
+      "text": "Buying a put gives you the ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Buying calls is a great way to capture gains from a stock that is trending upwards an buying puts provides an insurance policy in case your stock drops.",
+      "text": "Buying calls is a great way to capture gains from a stock that is trending upwards an buying puts provides an insurance policy in case your stock drops."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "You can make money in multiple ways:",
+      "text": "You can make money in multiple ways:"
+    },
+    {
       "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/groups/1"
@@ -680,8 +652,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Buying a call gives you the ",
-      "text": "Buying a call gives you the ",
+      "orig": "Exercising a call option to buy stock at a reduced price (without owning the",
+      "text": "Exercising a call option to buy stock at a reduced price (without owning the",
       "enumerated": false,
       "marker": "-"
     },
@@ -694,67 +666,15 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Buying a put gives you the ",
-      "text": "Buying a put gives you the ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Buying calls is a great way to capture gains from a stock that is trending upwards an buying puts provides an insurance policy in case your stock drops.",
-      "text": "Buying calls is a great way to capture gains from a stock that is trending upwards an buying puts provides an insurance policy in case your stock drops."
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "You can make money in multiple ways:",
-      "text": "You can make money in multiple ways:"
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Exercising a call option to buy stock at a reduced price (without owning the",
-      "text": "Exercising a call option to buy stock at a reduced price (without owning the",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "Exercising a put option to sell your stock at a higher price (and reduce",
       "text": "Exercising a put option to sell your stock at a higher price (and reduce",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -766,7 +686,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -778,7 +698,7 @@
       "text": "But there's an entirely other world out there and it involves  selling options ."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -791,7 +711,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -803,7 +723,7 @@
       "text": "So far, we've only talked about rights. When you buy an options contract, you have the right to do nothing, exercise the option, or sell it away to someone else."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -815,7 +735,7 @@
       "text": "Selling options means you  must fulfill an obligation.  We aren't talking about selling an option you purchased -- that's simply called  selling to close . What we're talking about here is a different concept:  selling to open . This is sometimes called  writing a put  or  writing a call ."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -827,6 +747,60 @@
       "text": "When you sell a contract, you are paid a sum of money called a  premium . The buyer is the one paying the premium to you. Let's dig into what's happening here:"
     },
     {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "You are going out into the market and saying \"I'd like to get $200 to sell",
+      "text": "You are going out into the market and saying \"I'd like to get $200 to sell",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "A buyer can choose to take you up on your offer, give you $200, and the",
+      "text": "A buyer can choose to take you up on your offer, give you $200, and the",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[<RawText children='The contract is written in stone until the expiration date'>]",
+      "text": "[<RawText children='The contract is written in stone until the expiration date'>]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "It's key to remember here that there are only two ways out of an options contract that you sell:",
+      "text": "It's key to remember here that there are only two ways out of an options contract that you sell:"
+    },
+    {
       "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/groups/3"
@@ -835,8 +809,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "You are going out into the market and saying \"I'd like to get $200 to sell",
-      "text": "You are going out into the market and saying \"I'd like to get $200 to sell",
+      "orig": "You buy it back (hopefully at a profit). This is called ",
+      "text": "You buy it back (hopefully at a profit). This is called ",
       "enumerated": false,
       "marker": "-"
     },
@@ -849,67 +823,13 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "A buyer can choose to take you up on your offer, give you $200, and the",
-      "text": "A buyer can choose to take you up on your offer, give you $200, and the",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/21",
-      "parent": {
-        "$ref": "#/groups/3"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "[<RawText children='The contract is written in stone until the expiration date'>]",
-      "text": "[<RawText children='The contract is written in stone until the expiration date'>]",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/22",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "It's key to remember here that there are only two ways out of an options contract that you sell:",
-      "text": "It's key to remember here that there are only two ways out of an options contract that you sell:"
-    },
-    {
-      "self_ref": "#/texts/23",
-      "parent": {
-        "$ref": "#/groups/4"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "You buy it back (hopefully at a profit). This is called ",
-      "text": "You buy it back (hopefully at a profit). This is called ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/24",
-      "parent": {
-        "$ref": "#/groups/4"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "The option expires.",
       "text": "The option expires.",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -921,7 +841,7 @@
       "text": "There are three warnings we must cover before we go any further:"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -933,7 +853,7 @@
       "text": "\ud83d\udca3  Never sell an options contract that you do not intend to fulfill.  Sure, it may sound amazing to receive $4,000 in an instant to sell an option, but eventually that option expires and that can sometimes be a disaster."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -945,7 +865,7 @@
       "text": "\ud83d\udca3  Never assume that you will be able to buy to close your sold contract before expiration.  The market does weird things and you may be stuck with holding your option through expiration or taking a loss before expiration."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -957,7 +877,7 @@
       "text": "\ud83d\udca3  Never sell options contracts if you don't have stock or cash to cover them.  Getting stuck in a margin call (or worse) with your broker is not a good place to be."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -969,7 +889,7 @@
       "text": "With that said, about 95% of my current trades involve selling options. More on that later."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -982,7 +902,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -994,9 +914,9 @@
       "text": "We should talk about selling puts first because that concept is a little easier. When you sell a put, you specify a few things:"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/28",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1008,9 +928,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/29",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1022,9 +942,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/30",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1036,9 +956,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/31",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -1050,7 +970,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -1062,7 +982,7 @@
       "text": "Selling puts can make money in a few different ways. The stock can go up, go sideways (where it hovers around a certain price), or go down a little."
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -1074,7 +994,7 @@
       "text": "Let's go through an example. You think AMD is likely going to keep its same price or go up over the next few weeks. If AMD is trading at $100 now, you decide to sell a put for $90 and collect $200 in premium."
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -1086,7 +1006,7 @@
       "text": "\ud83d\uded1  Before entering this trade, ensure you have  at least  $9,000 of cash in your account.  100 shares of AMD could potentially cost you $9,000 if you are assigned -- more on that below."
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -1098,9 +1018,9 @@
       "text": "Now what?"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/36",
       "parent": {
-        "$ref": "#/groups/6"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
@@ -1108,6 +1028,62 @@
       "prov": [],
       "orig": "AMD skyrockets up to $125",
       "text": "AMD skyrockets up to $125",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Your put loses value rapidly and you can buy it back for only $25 after a",
+      "text": "Your put loses value rapidly and you can buy it back for only $25 after a",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "You can let your put expire and keep the $200 premium. (Risky!)",
+      "text": "You can let your put expire and keep the $200 premium. (Risky!)",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "AMD gets stuck at $100",
+      "text": "AMD gets stuck at $100",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Over time, your put loses value and you can buy it back at a",
+      "text": "Over time, your put loses value and you can buy it back at a",
       "enumerated": false,
       "marker": "-"
     },
@@ -1120,36 +1096,36 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Your put loses value rapidly and you can buy it back for only $25 after a",
-      "text": "Your put loses value rapidly and you can buy it back for only $25 after a",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/42",
-      "parent": {
-        "$ref": "#/groups/7"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "You can let your put expire and keep the $200 premium. (Risky!)",
       "text": "You can let your put expire and keep the $200 premium. (Risky!)",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/42",
       "parent": {
-        "$ref": "#/groups/6"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "AMD gets stuck at $100",
-      "text": "AMD gets stuck at $100",
+      "orig": "AMD falls to $85",
+      "text": "AMD falls to $85",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "You're now in the money and that's not great for a sold option.",
+      "text": "You're now in the money and that's not great for a sold option.",
       "enumerated": false,
       "marker": "-"
     },
@@ -1162,69 +1138,13 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Over time, your put loses value and you can buy it back at a",
-      "text": "Over time, your put loses value and you can buy it back at a",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/45",
-      "parent": {
-        "$ref": "#/groups/8"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "You can let your put expire and keep the $200 premium. (Risky!)",
-      "text": "You can let your put expire and keep the $200 premium. (Risky!)",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/46",
-      "parent": {
-        "$ref": "#/groups/6"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "AMD falls to $85",
-      "text": "AMD falls to $85",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/47",
-      "parent": {
-        "$ref": "#/groups/9"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "You're now in the money and that's not great for a sold option.",
-      "text": "You're now in the money and that's not great for a sold option.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/48",
-      "parent": {
-        "$ref": "#/groups/9"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "The buyer will likely exercise the option they bought from you and you",
       "text": "The buyer will likely exercise the option they bought from you and you",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -1237,7 +1157,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1249,7 +1169,7 @@
       "text": "Some traders hear about  assignment  and they run off to hide. Assignment means that the buyer of your contract wants to use their right to exercise."
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1261,9 +1181,9 @@
       "text": "Let's go back to the very last example above where we sold a put for $90 and AMD fell to $85. This situation feels scary until you break it down:"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/48",
       "parent": {
-        "$ref": "#/groups/10"
+        "$ref": "#/groups/9"
       },
       "children": [],
       "content_layer": "body",
@@ -1275,9 +1195,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/49",
       "parent": {
-        "$ref": "#/groups/10"
+        "$ref": "#/groups/9"
       },
       "children": [],
       "content_layer": "body",
@@ -1289,7 +1209,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1301,7 +1221,7 @@
       "text": "But wait, you have to buy AMD at $90 even though AMD fell to $85! That's your obligation for selling the contract. That means you will lose $500 on the stock purchase. (You bought $8,500 of AMD stock but had to pay $9,000 for it.)"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1313,7 +1233,7 @@
       "text": "All together, you lost $300. You paid $500 extra for the AMD shares but you kept your $200 premium for selling the contract. But, now you have 100 AMD shares worth $8,500 in your account!"
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1325,7 +1245,7 @@
       "text": "What do you do with those?"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1338,7 +1258,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1350,7 +1270,7 @@
       "text": "Now you have 100 shares of AMD in your account worth $8,500 and you're still down $300. It's time to talk about selling calls. Selling calls and puts involve the same concepts of specifying a strike price, how much premium you want, and an expiration date."
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1362,7 +1282,7 @@
       "text": "You take a look at the options chain and you see that you can sell an AMD call for the $90 strike price for $250 and it expires in a few weeks. This is called a  covered call  since you own 100 shares as collateral for the contract."
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1374,9 +1294,9 @@
       "text": "You sell the call and now there are some potential outcomes:"
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/57",
       "parent": {
-        "$ref": "#/groups/11"
+        "$ref": "#/groups/10"
       },
       "children": [],
       "content_layer": "body",
@@ -1384,6 +1304,62 @@
       "prov": [],
       "orig": "AMD falls to $80",
       "text": "AMD falls to $80",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Your call loses value rapidly and you can buy it back for a tiny amount.",
+      "text": "Your call loses value rapidly and you can buy it back for a tiny amount.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Go back and sell another call, collect more premium, and increase your",
+      "text": "Go back and sell another call, collect more premium, and increase your",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Allow the call to expire worthless and keep your full $250 premium. (Risky!)",
+      "text": "Allow the call to expire worthless and keep your full $250 premium. (Risky!)",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "AMD gets stuck at $85",
+      "text": "AMD gets stuck at $85",
       "enumerated": false,
       "marker": "-"
     },
@@ -1396,8 +1372,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Your call loses value rapidly and you can buy it back for a tiny amount.",
-      "text": "Your call loses value rapidly and you can buy it back for a tiny amount.",
+      "orig": "Your call gradually loses value and you can buy it back for a tiny amount.",
+      "text": "Your call gradually loses value and you can buy it back for a tiny amount.",
       "enumerated": false,
       "marker": "-"
     },
@@ -1418,28 +1394,28 @@
     {
       "self_ref": "#/texts/64",
       "parent": {
-        "$ref": "#/groups/12"
+        "$ref": "#/groups/10"
       },
       "children": [],
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Allow the call to expire worthless and keep your full $250 premium. (Risky!)",
-      "text": "Allow the call to expire worthless and keep your full $250 premium. (Risky!)",
+      "orig": "AMD climbs to $95",
+      "text": "AMD climbs to $95",
       "enumerated": false,
       "marker": "-"
     },
     {
       "self_ref": "#/texts/65",
       "parent": {
-        "$ref": "#/groups/11"
+        "$ref": "#/groups/13"
       },
       "children": [],
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "AMD gets stuck at $85",
-      "text": "AMD gets stuck at $85",
+      "orig": "You're now in the money here.",
+      "text": "You're now in the money here.",
       "enumerated": false,
       "marker": "-"
     },
@@ -1452,8 +1428,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Your call gradually loses value and you can buy it back for a tiny amount.",
-      "text": "Your call gradually loses value and you can buy it back for a tiny amount.",
+      "orig": "When the option expires, the buyer of your contract will likely want to",
+      "text": "When the option expires, the buyer of your contract will likely want to",
       "enumerated": false,
       "marker": "-"
     },
@@ -1466,69 +1442,13 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Go back and sell another call, collect more premium, and increase your",
-      "text": "Go back and sell another call, collect more premium, and increase your",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/68",
-      "parent": {
-        "$ref": "#/groups/11"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "AMD climbs to $95",
-      "text": "AMD climbs to $95",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/69",
-      "parent": {
-        "$ref": "#/groups/14"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "You're now in the money here.",
-      "text": "You're now in the money here.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/70",
-      "parent": {
-        "$ref": "#/groups/14"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "When the option expires, the buyer of your contract will likely want to",
-      "text": "When the option expires, the buyer of your contract will likely want to",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/71",
-      "parent": {
-        "$ref": "#/groups/14"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "Your shares are gone. (But keep reading.)",
       "text": "Your shares are gone. (But keep reading.)",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/72",
+      "self_ref": "#/texts/68",
       "parent": {
         "$ref": "#/body"
       },
@@ -1541,7 +1461,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/73",
+      "self_ref": "#/texts/69",
       "parent": {
         "$ref": "#/body"
       },
@@ -1553,7 +1473,7 @@
       "text": "Getting assigned on puts means you have to buy the stock at your stike price. Getting assigned on calls is a little different. You  sell  your stock at the strike price to the person who bought your call option contract."
     },
     {
-      "self_ref": "#/texts/74",
+      "self_ref": "#/texts/70",
       "parent": {
         "$ref": "#/body"
       },
@@ -1565,9 +1485,9 @@
       "text": "Let's go back to the previous example where you sold a $90 call option for $250 and AMD went to $95 per share:"
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/71",
       "parent": {
-        "$ref": "#/groups/15"
+        "$ref": "#/groups/14"
       },
       "children": [],
       "content_layer": "body",
@@ -1579,9 +1499,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/72",
       "parent": {
-        "$ref": "#/groups/15"
+        "$ref": "#/groups/14"
       },
       "children": [],
       "content_layer": "body",
@@ -1593,7 +1513,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/73",
       "parent": {
         "$ref": "#/body"
       },
@@ -1605,7 +1525,7 @@
       "text": "Technically, you lost out on $500 of profit that you could have received if you had not sold the call. However, you keep the $250 of premium and you can begin selling puts again."
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/74",
       "parent": {
         "$ref": "#/body"
       },
@@ -1618,7 +1538,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/79",
+      "self_ref": "#/texts/75",
       "parent": {
         "$ref": "#/body"
       },
@@ -1630,7 +1550,7 @@
       "text": "I have accounts where I buy stock and hold it for a long time. However, selling options allows you to collect premium and get profits even in a market that isn't moving much."
     },
     {
-      "self_ref": "#/texts/80",
+      "self_ref": "#/texts/76",
       "parent": {
         "$ref": "#/body"
       },
@@ -1642,7 +1562,7 @@
       "text": "If a stock gets stuck in a sideways pattern where it doesn't move much for weeks, buying and holding the stock might give you a very small gain. During that time, you may have been able to get a better return selling options on that stock and collecting the premium."
     },
     {
-      "self_ref": "#/texts/81",
+      "self_ref": "#/texts/77",
       "parent": {
         "$ref": "#/body"
       },
@@ -1655,7 +1575,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/82",
+      "self_ref": "#/texts/78",
       "parent": {
         "$ref": "#/body"
       },
@@ -1667,9 +1587,9 @@
       "text": "It's always important to know what your max loss is for any trade. Losses begin when the stock price breaches your breakeven price:"
     },
     {
-      "self_ref": "#/texts/83",
+      "self_ref": "#/texts/79",
       "parent": {
-        "$ref": "#/groups/16"
+        "$ref": "#/groups/15"
       },
       "children": [],
       "content_layer": "body",
@@ -1681,9 +1601,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/84",
+      "self_ref": "#/texts/80",
       "parent": {
-        "$ref": "#/groups/16"
+        "$ref": "#/groups/15"
       },
       "children": [],
       "content_layer": "body",
@@ -1695,7 +1615,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/85",
+      "self_ref": "#/texts/81",
       "parent": {
         "$ref": "#/body"
       },
@@ -1707,7 +1627,7 @@
       "text": "If you sell a $90 put for $200 and the stock falls to $89, you are still up $100. If you sell a $90 call for $200 and the stock goes up to $91.50, you are still up $50."
     },
     {
-      "self_ref": "#/texts/86",
+      "self_ref": "#/texts/82",
       "parent": {
         "$ref": "#/body"
       },
@@ -1719,7 +1639,7 @@
       "text": "However, if you are selling puts or calls, there is a chance that the stock could completely crater and go to zero. The chances of that happening to a well-known company that has been on the market for years is  very low , but it's important to know max loss."
     },
     {
-      "self_ref": "#/texts/87",
+      "self_ref": "#/texts/83",
       "parent": {
         "$ref": "#/body"
       },
@@ -1731,7 +1651,7 @@
       "text": "Let's say you sold a put on company XYZ at the $100 strike and received $500 in premium. The stock somehow falls to $1 per share. Your max loss here is"
     },
     {
-      "self_ref": "#/texts/88",
+      "self_ref": "#/texts/84",
       "parent": {
         "$ref": "#/body"
       },
@@ -1747,7 +1667,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/89",
+      "self_ref": "#/texts/85",
       "parent": {
         "$ref": "#/body"
       },
@@ -1759,7 +1679,7 @@
       "text": ". The buyer of your options contract will  surely  want to exercise so they can sell their XYZ stock at $100 instead of $1."
     },
     {
-      "self_ref": "#/texts/90",
+      "self_ref": "#/texts/86",
       "parent": {
         "$ref": "#/body"
       },
@@ -1771,7 +1691,7 @@
       "text": "On the call side, let's say you sold a $110 call on XYZ for $500 and the stock fell to $1. The 100 shares of XYZ you own would now be worth $1 per share, but you do keep your $500 premium. If you had owned the shares without selling that call at that time, you would have suffered the same fate (without getting $500 in premium)."
     },
     {
-      "self_ref": "#/texts/91",
+      "self_ref": "#/texts/87",
       "parent": {
         "$ref": "#/body"
       },
@@ -1784,7 +1704,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/92",
+      "self_ref": "#/texts/88",
       "parent": {
         "$ref": "#/body"
       },
@@ -1796,9 +1716,9 @@
       "text": "The strategy shown here is called the wheel strategy. It involves these steps:"
     },
     {
-      "self_ref": "#/texts/93",
+      "self_ref": "#/texts/89",
       "parent": {
-        "$ref": "#/groups/17"
+        "$ref": "#/groups/16"
       },
       "children": [],
       "content_layer": "body",
@@ -1810,9 +1730,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/94",
+      "self_ref": "#/texts/90",
       "parent": {
-        "$ref": "#/groups/17"
+        "$ref": "#/groups/16"
       },
       "children": [],
       "content_layer": "body",
@@ -1824,9 +1744,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/95",
+      "self_ref": "#/texts/91",
       "parent": {
-        "$ref": "#/groups/17"
+        "$ref": "#/groups/16"
       },
       "children": [],
       "content_layer": "body",
@@ -1838,9 +1758,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/96",
+      "self_ref": "#/texts/92",
       "parent": {
-        "$ref": "#/groups/17"
+        "$ref": "#/groups/16"
       },
       "children": [],
       "content_layer": "body",
@@ -1852,9 +1772,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/97",
+      "self_ref": "#/texts/93",
       "parent": {
-        "$ref": "#/groups/17"
+        "$ref": "#/groups/16"
       },
       "children": [],
       "content_layer": "body",
@@ -1866,7 +1786,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/98",
+      "self_ref": "#/texts/94",
       "parent": {
         "$ref": "#/body"
       },
@@ -1878,7 +1798,7 @@
       "text": "This strategy will be covered in the next post!"
     },
     {
-      "self_ref": "#/texts/99",
+      "self_ref": "#/texts/95",
       "parent": {
         "$ref": "#/body"
       },
@@ -1890,7 +1810,7 @@
       "text": "Disclaimer: Keep in mind that I am not an investment professional and you should make your own decisions around stock research and trades. Investing comes with plenty of risk and I'm the last person who should be giving anyone investment advice.  \ud83d\ude1c"
     },
     {
-      "self_ref": "#/texts/100",
+      "self_ref": "#/texts/96",
       "parent": {
         "$ref": "#/body"
       },

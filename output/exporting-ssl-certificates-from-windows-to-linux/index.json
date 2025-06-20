@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 12034222946967758566,
-    "filename": "index.md"
+    "binary_hash": 4965366622682647968,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -24,10 +24,19 @@
         "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/5"
+        "$ref": "#/texts/11"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
       },
       {
         "$ref": "#/texts/16"
@@ -40,21 +49,6 @@
       },
       {
         "$ref": "#/texts/19"
-      },
-      {
-        "$ref": "#/texts/20"
-      },
-      {
-        "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
-      },
-      {
-        "$ref": "#/texts/23"
-      },
-      {
-        "$ref": "#/texts/24"
       }
     ],
     "content_layer": "body",
@@ -79,18 +73,10 @@
         },
         {
           "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
+        },
+        {
+          "$ref": "#/texts/5"
+        },
         {
           "$ref": "#/texts/6"
         },
@@ -105,21 +91,6 @@
         },
         {
           "$ref": "#/texts/10"
-        },
-        {
-          "$ref": "#/texts/11"
-        },
-        {
-          "$ref": "#/texts/12"
-        },
-        {
-          "$ref": "#/texts/13"
-        },
-        {
-          "$ref": "#/texts/14"
-        },
-        {
-          "$ref": "#/texts/15"
         }
       ],
       "content_layer": "body",
@@ -137,8 +108,8 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "First, you have to get the certificate and key out of Windows in a pfx (PKCS #12) format.",
+      "text": "First, you have to get the certificate and key out of Windows in a pfx (PKCS #12) format."
     },
     {
       "self_ref": "#/texts/1",
@@ -149,8 +120,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "/2007/03/23/exporting-ssl-certificates-from-windows-to-linux/",
-      "text": "/2007/03/23/exporting-ssl-certificates-from-windows-to-linux/",
+      "orig": "Click Start, Run, then type \"mmc\" and hit enter.",
+      "text": "Click Start, Run, then type \"mmc\" and hit enter.",
       "enumerated": false,
       "marker": "-"
     },
@@ -163,8 +134,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "command line",
-      "text": "command line",
+      "orig": "In the leftmost menu, choose \"Add/Remove Snap In\".",
+      "text": "In the leftmost menu, choose \"Add/Remove Snap In\".",
       "enumerated": false,
       "marker": "-"
     },
@@ -177,8 +148,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "security",
-      "text": "security",
+      "orig": "Click \"Add\", then click \"Certificates\", then OK.",
+      "text": "Click \"Add\", then click \"Certificates\", then OK.",
       "enumerated": false,
       "marker": "-"
     },
@@ -191,83 +162,15 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "web",
-      "text": "web",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "First, you have to get the certificate and key out of Windows in a pfx (PKCS #12) format.",
-      "text": "First, you have to get the certificate and key out of Windows in a pfx (PKCS #12) format."
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Click Start, Run, then type \"mmc\" and hit enter.",
-      "text": "Click Start, Run, then type \"mmc\" and hit enter.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "In the leftmost menu, choose \"Add/Remove Snap In\".",
-      "text": "In the leftmost menu, choose \"Add/Remove Snap In\".",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Click \"Add\", then click \"Certificates\", then OK.",
-      "text": "Click \"Add\", then click \"Certificates\", then OK.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "When the wizard starts, choose \"Computer Account\", \"Local Computer\" and finish out the wizard.",
       "text": "When the wizard starts, choose \"Computer Account\", \"Local Computer\" and finish out the wizard.",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -279,9 +182,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -293,9 +196,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -307,9 +210,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -321,9 +224,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -335,9 +238,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -349,7 +252,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -361,7 +264,7 @@
       "text": "Once the PFX makes it over to the Linux server, you have to decrypt the PFX into a plaintext PEM file (PFX's are binary files, and can't be viewed in a text editor):"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -377,7 +280,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -389,7 +292,7 @@
       "text": "You will be asked for the password for the PFX (which is the one you set in the Windows wizard). Once you enter that, you will be asked for a new password. This new password is used to encrypt the private key. You cannot proceed until you enter a password that is 4 characters or longer.  REMEMBER  this password!"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -401,7 +304,7 @@
       "text": "When this step is complete, you should have a PEM file that you can read in a text editor. Open the file in a text editor and copy the private key and certificate to different files. Remember to keep the dashed lines intact when you copy the certificates - this is important. There is some additional text above the key, and also between the key and certificate - this text should be ignored and should not be included in the certificate and key files."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -413,7 +316,7 @@
       "text": "Now that you have the key and certificate separated, you need to decrypt the private key (or face the wrath of Apache every time you restart the server). You can decrypt the private key like this:"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -429,7 +332,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -441,7 +344,7 @@
       "text": "Yes, provide the same file name twice and it will decrypt the key onto itself, keeping everything in one file. OpenSSL will ask for a password to decrypt the key, and this is the password you set when you decrypted the PFX. If you forgot the password, you will need to start over from when you brought it over from the Windows box."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -453,7 +356,7 @@
       "text": "After this entire process, you will have four files, a PFX, PEM, KEY, and CRT. Throw away the PFX and PEM, and you can use the key and certificate files to install into Apache. In case you forget the syntax, here's what goes in the Apache configuration:"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },

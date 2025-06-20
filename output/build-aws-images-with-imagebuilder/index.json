@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 15098342342788044082,
-    "filename": "index.md"
+    "binary_hash": 3342525004586717442,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,13 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
         "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
       },
       {
         "$ref": "#/texts/6"
@@ -33,16 +39,19 @@
         "$ref": "#/groups/1"
       },
       {
-        "$ref": "#/texts/11"
+        "$ref": "#/texts/15"
       },
       {
-        "$ref": "#/texts/12"
+        "$ref": "#/texts/16"
       },
       {
-        "$ref": "#/texts/13"
+        "$ref": "#/texts/17"
       },
       {
         "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/20"
       },
       {
         "$ref": "#/texts/21"
@@ -54,7 +63,10 @@
         "$ref": "#/texts/23"
       },
       {
-        "$ref": "#/groups/3"
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
       },
       {
         "$ref": "#/texts/26"
@@ -84,16 +96,7 @@
         "$ref": "#/texts/34"
       },
       {
-        "$ref": "#/texts/35"
-      },
-      {
-        "$ref": "#/texts/36"
-      },
-      {
-        "$ref": "#/texts/37"
-      },
-      {
-        "$ref": "#/texts/38"
+        "$ref": "#/groups/3"
       },
       {
         "$ref": "#/texts/39"
@@ -102,7 +105,16 @@
         "$ref": "#/texts/40"
       },
       {
-        "$ref": "#/groups/4"
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
       },
       {
         "$ref": "#/texts/45"
@@ -247,24 +259,6 @@
       },
       {
         "$ref": "#/texts/92"
-      },
-      {
-        "$ref": "#/texts/93"
-      },
-      {
-        "$ref": "#/texts/94"
-      },
-      {
-        "$ref": "#/texts/95"
-      },
-      {
-        "$ref": "#/texts/96"
-      },
-      {
-        "$ref": "#/texts/97"
-      },
-      {
-        "$ref": "#/texts/98"
       }
     ],
     "content_layer": "body",
@@ -279,9 +273,6 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
           "$ref": "#/texts/2"
         },
         {
@@ -289,14 +280,11 @@
         },
         {
           "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "list"
+      "label": "ordered_list"
     },
     {
       "self_ref": "#/groups/1",
@@ -312,6 +300,18 @@
         },
         {
           "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
         }
       ],
       "content_layer": "body",
@@ -325,30 +325,15 @@
       },
       "children": [
         {
-          "$ref": "#/texts/14"
-        },
-        {
-          "$ref": "#/texts/15"
-        },
-        {
-          "$ref": "#/texts/16"
-        },
-        {
-          "$ref": "#/texts/17"
-        },
-        {
           "$ref": "#/texts/18"
         },
         {
           "$ref": "#/texts/19"
-        },
-        {
-          "$ref": "#/texts/20"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "ordered_list"
+      "label": "list"
     },
     {
       "self_ref": "#/groups/3",
@@ -357,33 +342,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/24"
+          "$ref": "#/texts/35"
         },
         {
-          "$ref": "#/texts/25"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/4",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/41"
+          "$ref": "#/texts/36"
         },
         {
-          "$ref": "#/texts/42"
+          "$ref": "#/texts/37"
         },
         {
-          "$ref": "#/texts/43"
-        },
-        {
-          "$ref": "#/texts/44"
+          "$ref": "#/texts/38"
         }
       ],
       "content_layer": "body",
@@ -401,22 +369,20 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "The AMIs provided by most Linux distributions in AWS work well for most use cases. However, there are those times when you need a customized image to support a certain configuration or to speed up CI processes.",
+      "text": "The AMIs provided by most Linux distributions in AWS work well for most use cases. However, there are those times when you need a customized image to support a certain configuration or to speed up CI processes."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "/2020/06/19/build-aws-images-with-imagebuilder/",
-      "text": "/2020/06/19/build-aws-images-with-imagebuilder/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "You can get a customized image via a few methods:",
+      "text": "You can get a customized image via a few methods:"
     },
     {
       "self_ref": "#/texts/2",
@@ -427,8 +393,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "aws",
-      "text": "aws",
+      "orig": "Build from an existing AMI, customize it, and snapshot it.",
+      "text": "Build from an existing AMI, customize it, and snapshot it.",
       "enumerated": false,
       "marker": "-"
     },
@@ -441,8 +407,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "cloud",
-      "text": "cloud",
+      "orig": "Use an automated tool, such as Packer, to automate #1.",
+      "text": "Use an automated tool, such as Packer, to automate #1.",
       "enumerated": false,
       "marker": "-"
     },
@@ -455,93 +421,13 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "The AMIs provided by most Linux distributions in AWS work well for most use cases. However, there are those times when you need a customized image to support a certain configuration or to speed up CI processes.",
-      "text": "The AMIs provided by most Linux distributions in AWS work well for most use cases. However, there are those times when you need a customized image to support a certain configuration or to speed up CI processes."
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "You can get a customized image via a few methods:",
-      "text": "You can get a customized image via a few methods:"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Build from an existing AMI, customize it, and snapshot it.",
-      "text": "Build from an existing AMI, customize it, and snapshot it.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Use an automated tool, such as Packer, to automate #1.",
-      "text": "Use an automated tool, such as Packer, to automate #1.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "Build your own image locally in KVM, VMware, or Virtualbox and upload the",
       "text": "Build your own image locally in KVM, VMware, or Virtualbox and upload the",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -553,7 +439,7 @@
       "text": "My preferred option is the last method since the installation happens locally and the image is first booted in AWS. This ensures that log files and configurations are clean on first boot. Although this method produces the best result, it has plenty of steps that can go wrong."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -566,7 +452,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -578,9 +464,9 @@
       "text": "AWS has  documentation for importing an image  and the basic steps include:"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -592,9 +478,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -606,9 +492,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -620,9 +506,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -634,9 +520,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/12",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -648,9 +534,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -662,9 +548,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/14",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -676,7 +562,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -688,7 +574,7 @@
       "text": "This is a lot of manual work. \ud83d\ude29"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -701,7 +587,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -713,9 +599,9 @@
       "text": "Image Builder has two main components:"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/18",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -727,9 +613,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/19",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -741,7 +627,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -753,7 +639,7 @@
       "text": "The support for uploading to clouds first arrived in Fedora 32 and this post will use that release for generating images."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -765,7 +651,7 @@
       "text": "To get started, install "
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -781,7 +667,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -793,7 +679,7 @@
       "text": " along with "
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -809,7 +695,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -821,7 +707,7 @@
       "text": ", a command line interface to create images. Start the socket for"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -837,7 +723,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -849,7 +735,7 @@
       "text": " as well:"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -865,7 +751,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -877,7 +763,7 @@
       "text": "Verify that everything is working:"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -893,7 +779,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -905,7 +791,7 @@
       "text": "We now need an image blueprint. A blueprint is a TOML file that provides some basic specifications for the image, such as which packages to install, which services should start at boot time, and the system's time zone. Refer to the Lorax composer documentation  for a full list of options."
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -917,7 +803,7 @@
       "text": "In this example, we will build a small image with nginx to serve a website. Here's the TOML file:"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -933,7 +819,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -945,9 +831,9 @@
       "text": "Our specification says:"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/35",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -959,9 +845,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/36",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -973,9 +859,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/37",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -987,9 +873,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/38",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -1001,7 +887,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -1013,7 +899,7 @@
       "text": "Push the blueprint into "
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -1029,7 +915,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -1041,7 +927,7 @@
       "text": " and ensure the packages are available. (The "
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -1057,7 +943,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -1069,7 +955,7 @@
       "text": " check is optional, but I recommend it so you can find any typos in your package names.)"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -1085,7 +971,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -1097,7 +983,7 @@
       "text": "We can now build the image:"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1113,7 +999,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1125,7 +1011,7 @@
       "text": "Our image is building! After a few minutes, the image is ready:"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1141,7 +1027,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1153,7 +1039,7 @@
       "text": "We can take this image, upload it to S3 and import it into AWS using the process mentioned earlier in this post. Or, we can have osbuild-composer do this for us."
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1166,7 +1052,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1178,7 +1064,7 @@
       "text": "Start by making a bucket in S3 in your preferred region. Mine is called"
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1194,7 +1080,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1206,7 +1092,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1222,7 +1108,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1234,7 +1120,7 @@
       "text": "Now we need a role that allows EC2 to import images for us. Save this file as"
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1244,6 +1130,90 @@
       "prov": [],
       "orig": "vmimport.json",
       "text": "vmimport.json",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": ":",
+      "text": ":"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "{\n   \"Version\": \"2012-10-17\",\n   \"Statement\": [\n      {\n         \"Effect\": \"Allow\",\n         \"Principal\": { \"Service\": \"vmie.amazonaws.com\" },\n         \"Action\": \"sts:AssumeRole\",\n         \"Condition\": {\n            \"StringEquals\":{\n               \"sts:Externalid\": \"vmimport\"\n            }\n         }\n      }\n   ]\n}",
+      "text": "{\n   \"Version\": \"2012-10-17\",\n   \"Statement\": [\n      {\n         \"Effect\": \"Allow\",\n         \"Principal\": { \"Service\": \"vmie.amazonaws.com\" },\n         \"Action\": \"sts:AssumeRole\",\n         \"Condition\": {\n            \"StringEquals\":{\n               \"sts:Externalid\": \"vmimport\"\n            }\n         }\n      }\n   ]\n}",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "We now need a policy to apply to the ",
+      "text": "We now need a policy to apply to the "
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "vmimport",
+      "text": "vmimport",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " role that allows EC2 to use the role to download the image, import it, and register an AMI  (replace the bucket name with your S3 bucket) . Save this as ",
+      "text": " role that allows EC2 to use the role to download the image, import it, and register an AMI  (replace the bucket name with your S3 bucket) . Save this as "
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "vmimport-policy.json",
+      "text": "vmimport-policy.json",
       "captions": [],
       "references": [],
       "footnotes": [],
@@ -1270,8 +1240,8 @@
       "content_layer": "body",
       "label": "code",
       "prov": [],
-      "orig": "{\n   \"Version\": \"2012-10-17\",\n   \"Statement\": [\n      {\n         \"Effect\": \"Allow\",\n         \"Principal\": { \"Service\": \"vmie.amazonaws.com\" },\n         \"Action\": \"sts:AssumeRole\",\n         \"Condition\": {\n            \"StringEquals\":{\n               \"sts:Externalid\": \"vmimport\"\n            }\n         }\n      }\n   ]\n}",
-      "text": "{\n   \"Version\": \"2012-10-17\",\n   \"Statement\": [\n      {\n         \"Effect\": \"Allow\",\n         \"Principal\": { \"Service\": \"vmie.amazonaws.com\" },\n         \"Action\": \"sts:AssumeRole\",\n         \"Condition\": {\n            \"StringEquals\":{\n               \"sts:Externalid\": \"vmimport\"\n            }\n         }\n      }\n   ]\n}",
+      "orig": "{\n   \"Version\":\"2012-10-17\",\n   \"Statement\":[\n      {\n         \"Effect\": \"Allow\",\n         \"Action\": [\n            \"s3:GetBucketLocation\",\n            \"s3:GetObject\",\n            \"s3:ListBucket\"\n         ],\n         \"Resource\": [\n            \"arn:aws:s3:::mhayden-image-uploads\",\n            \"arn:aws:s3:::mhayden-image-uploads/*\"\n         ]\n      },\n      {\n         \"Effect\": \"Allow\",\n         \"Action\": [\n            \"ec2:ModifySnapshotAttribute\",\n            \"ec2:CopySnapshot\",\n            \"ec2:RegisterImage\",\n            \"ec2:Describe*\"\n         ],\n         \"Resource\": \"*\"\n      }\n   ]\n}",
+      "text": "{\n   \"Version\":\"2012-10-17\",\n   \"Statement\":[\n      {\n         \"Effect\": \"Allow\",\n         \"Action\": [\n            \"s3:GetBucketLocation\",\n            \"s3:GetObject\",\n            \"s3:ListBucket\"\n         ],\n         \"Resource\": [\n            \"arn:aws:s3:::mhayden-image-uploads\",\n            \"arn:aws:s3:::mhayden-image-uploads/*\"\n         ]\n      },\n      {\n         \"Effect\": \"Allow\",\n         \"Action\": [\n            \"ec2:ModifySnapshotAttribute\",\n            \"ec2:CopySnapshot\",\n            \"ec2:RegisterImage\",\n            \"ec2:Describe*\"\n         ],\n         \"Resource\": \"*\"\n      }\n   ]\n}",
       "captions": [],
       "references": [],
       "footnotes": [],
@@ -1286,95 +1256,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "We now need a policy to apply to the ",
-      "text": "We now need a policy to apply to the "
-    },
-    {
-      "self_ref": "#/texts/66",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "vmimport",
-      "text": "vmimport",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/67",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": " role that allows EC2 to use the role to download the image, import it, and register an AMI  (replace the bucket name with your S3 bucket) . Save this as ",
-      "text": " role that allows EC2 to use the role to download the image, import it, and register an AMI  (replace the bucket name with your S3 bucket) . Save this as "
-    },
-    {
-      "self_ref": "#/texts/68",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "vmimport-policy.json",
-      "text": "vmimport-policy.json",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/69",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": ":",
-      "text": ":"
-    },
-    {
-      "self_ref": "#/texts/70",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "{\n   \"Version\":\"2012-10-17\",\n   \"Statement\":[\n      {\n         \"Effect\": \"Allow\",\n         \"Action\": [\n            \"s3:GetBucketLocation\",\n            \"s3:GetObject\",\n            \"s3:ListBucket\"\n         ],\n         \"Resource\": [\n            \"arn:aws:s3:::mhayden-image-uploads\",\n            \"arn:aws:s3:::mhayden-image-uploads/*\"\n         ]\n      },\n      {\n         \"Effect\": \"Allow\",\n         \"Action\": [\n            \"ec2:ModifySnapshotAttribute\",\n            \"ec2:CopySnapshot\",\n            \"ec2:RegisterImage\",\n            \"ec2:Describe*\"\n         ],\n         \"Resource\": \"*\"\n      }\n   ]\n}",
-      "text": "{\n   \"Version\":\"2012-10-17\",\n   \"Statement\":[\n      {\n         \"Effect\": \"Allow\",\n         \"Action\": [\n            \"s3:GetBucketLocation\",\n            \"s3:GetObject\",\n            \"s3:ListBucket\"\n         ],\n         \"Resource\": [\n            \"arn:aws:s3:::mhayden-image-uploads\",\n            \"arn:aws:s3:::mhayden-image-uploads/*\"\n         ]\n      },\n      {\n         \"Effect\": \"Allow\",\n         \"Action\": [\n            \"ec2:ModifySnapshotAttribute\",\n            \"ec2:CopySnapshot\",\n            \"ec2:RegisterImage\",\n            \"ec2:Describe*\"\n         ],\n         \"Resource\": \"*\"\n      }\n   ]\n}",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/71",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Add the role and the policy to IAM:",
       "text": "Add the role and the policy to IAM:"
     },
     {
-      "self_ref": "#/texts/72",
+      "self_ref": "#/texts/66",
       "parent": {
         "$ref": "#/body"
       },
@@ -1390,7 +1276,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/73",
+      "self_ref": "#/texts/67",
       "parent": {
         "$ref": "#/body"
       },
@@ -1403,7 +1289,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/74",
+      "self_ref": "#/texts/68",
       "parent": {
         "$ref": "#/body"
       },
@@ -1415,7 +1301,7 @@
       "text": "We can use our same TOML blueprint we created earlier and provide one additional TOML file that provides AWS configuration and credentials. Create an "
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/69",
       "parent": {
         "$ref": "#/body"
       },
@@ -1431,7 +1317,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/70",
       "parent": {
         "$ref": "#/body"
       },
@@ -1443,7 +1329,7 @@
       "text": " file with the following content:"
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/71",
       "parent": {
         "$ref": "#/body"
       },
@@ -1459,7 +1345,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/78",
+      "self_ref": "#/texts/72",
       "parent": {
         "$ref": "#/body"
       },
@@ -1471,7 +1357,7 @@
       "text": "Add your AWS credentials here along with your S3 bucket, preferred AWS region, and an image key. The image key is the name applied to the snapshot and the resulting AMI."
     },
     {
-      "self_ref": "#/texts/79",
+      "self_ref": "#/texts/73",
       "parent": {
         "$ref": "#/body"
       },
@@ -1483,7 +1369,7 @@
       "text": "Now we can build our AMI and have it automatically uploaded:"
     },
     {
-      "self_ref": "#/texts/80",
+      "self_ref": "#/texts/74",
       "parent": {
         "$ref": "#/body"
       },
@@ -1499,7 +1385,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/81",
+      "self_ref": "#/texts/75",
       "parent": {
         "$ref": "#/body"
       },
@@ -1511,7 +1397,7 @@
       "text": "The output now shows an "
     },
     {
-      "self_ref": "#/texts/82",
+      "self_ref": "#/texts/76",
       "parent": {
         "$ref": "#/body"
       },
@@ -1527,7 +1413,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/83",
+      "self_ref": "#/texts/77",
       "parent": {
         "$ref": "#/body"
       },
@@ -1539,7 +1425,7 @@
       "text": " section with the AWS upload details included. This process may take some time, especially if your upload speed is low. You can follow along with "
     },
     {
-      "self_ref": "#/texts/84",
+      "self_ref": "#/texts/78",
       "parent": {
         "$ref": "#/body"
       },
@@ -1555,7 +1441,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/85",
+      "self_ref": "#/texts/79",
       "parent": {
         "$ref": "#/body"
       },
@@ -1567,7 +1453,7 @@
       "text": " or you can monitor the system journal:"
     },
     {
-      "self_ref": "#/texts/86",
+      "self_ref": "#/texts/80",
       "parent": {
         "$ref": "#/body"
       },
@@ -1583,7 +1469,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/87",
+      "self_ref": "#/texts/81",
       "parent": {
         "$ref": "#/body"
       },
@@ -1595,7 +1481,7 @@
       "text": "I ran this job on a small instance at Vultr and the whole process took about 10 minutes. The AWS image import process can vary a bit, but it's usually in the range of 5-15 minutes."
     },
     {
-      "self_ref": "#/texts/88",
+      "self_ref": "#/texts/82",
       "parent": {
         "$ref": "#/body"
       },
@@ -1607,7 +1493,7 @@
       "text": "At this point, I can take my new AMI (in my case, it's"
     },
     {
-      "self_ref": "#/texts/89",
+      "self_ref": "#/texts/83",
       "parent": {
         "$ref": "#/body"
       },
@@ -1623,7 +1509,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/90",
+      "self_ref": "#/texts/84",
       "parent": {
         "$ref": "#/body"
       },
@@ -1635,7 +1521,7 @@
       "text": ") and build instances at EC2! \ud83c\udf89"
     },
     {
-      "self_ref": "#/texts/91",
+      "self_ref": "#/texts/85",
       "parent": {
         "$ref": "#/body"
       },
@@ -1648,7 +1534,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/92",
+      "self_ref": "#/texts/86",
       "parent": {
         "$ref": "#/body"
       },
@@ -1660,7 +1546,7 @@
       "text": "Although there is some work involved in laying the groundwork for importing images into EC2, this work only needs to be done one time. You can re-use your existing AWS credentials TOML file over and over for new images that are made from different blueprints."
     },
     {
-      "self_ref": "#/texts/93",
+      "self_ref": "#/texts/87",
       "parent": {
         "$ref": "#/body"
       },
@@ -1672,7 +1558,7 @@
       "text": "You can also do almost all of this work via the  cockpit web interface  using the "
     },
     {
-      "self_ref": "#/texts/94",
+      "self_ref": "#/texts/88",
       "parent": {
         "$ref": "#/body"
       },
@@ -1688,7 +1574,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/95",
+      "self_ref": "#/texts/89",
       "parent": {
         "$ref": "#/body"
       },
@@ -1700,7 +1586,7 @@
       "text": " package if you prefer. The only downside to that method is that some image customizations cannot be made through cockpit and some TOML blueprint editing with "
     },
     {
-      "self_ref": "#/texts/96",
+      "self_ref": "#/texts/90",
       "parent": {
         "$ref": "#/body"
       },
@@ -1716,7 +1602,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/97",
+      "self_ref": "#/texts/91",
       "parent": {
         "$ref": "#/body"
       },
@@ -1728,7 +1614,7 @@
       "text": " is needed. Look for that in a future blog post."
     },
     {
-      "self_ref": "#/texts/98",
+      "self_ref": "#/texts/92",
       "parent": {
         "$ref": "#/body"
       },

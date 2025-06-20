@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 10415610966942256196,
-    "filename": "index.md"
+    "binary_hash": 9880096408524453036,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,10 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
       },
       {
         "$ref": "#/texts/3"
@@ -57,16 +60,16 @@
         "$ref": "#/texts/13"
       },
       {
-        "$ref": "#/texts/14"
+        "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/15"
+        "$ref": "#/texts/17"
       },
       {
-        "$ref": "#/texts/16"
+        "$ref": "#/texts/18"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/19"
       },
       {
         "$ref": "#/texts/20"
@@ -78,16 +81,16 @@
         "$ref": "#/texts/22"
       },
       {
-        "$ref": "#/texts/23"
+        "$ref": "#/groups/1"
       },
       {
-        "$ref": "#/texts/24"
+        "$ref": "#/texts/28"
       },
       {
-        "$ref": "#/texts/25"
+        "$ref": "#/texts/29"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/30"
       },
       {
         "$ref": "#/texts/31"
@@ -160,15 +163,6 @@
       },
       {
         "$ref": "#/texts/54"
-      },
-      {
-        "$ref": "#/texts/55"
-      },
-      {
-        "$ref": "#/texts/56"
-      },
-      {
-        "$ref": "#/texts/57"
       }
     ],
     "content_layer": "body",
@@ -183,15 +177,18 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/14"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "list"
+      "label": "ordered_list"
     },
     {
       "self_ref": "#/groups/1",
@@ -200,39 +197,19 @@
       },
       "children": [
         {
-          "$ref": "#/texts/17"
+          "$ref": "#/texts/23"
         },
         {
-          "$ref": "#/texts/18"
+          "$ref": "#/texts/24"
         },
         {
-          "$ref": "#/texts/19"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "ordered_list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
+          "$ref": "#/texts/25"
+        },
         {
           "$ref": "#/texts/26"
         },
         {
           "$ref": "#/texts/27"
-        },
-        {
-          "$ref": "#/texts/28"
-        },
-        {
-          "$ref": "#/texts/29"
-        },
-        {
-          "$ref": "#/texts/30"
         }
       ],
       "content_layer": "body",
@@ -250,51 +227,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "author: Major Hayden date: '2023-01-05' Every job has its ups and downs, but when is it the right time to double down or the right time to leave? Make a list of red flags that help you decide. \ud83d\udea9 tags:",
-      "text": "author: Major Hayden date: '2023-01-05' Every job has its ups and downs, but when is it the right time to double down or the right time to leave? Make a list of red flags that help you decide. \ud83d\udea9 tags:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "career",
-      "text": "career",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "As I advance in my career, there's one activity I consistently enjoy:  mentoring .",
       "text": "As I advance in my career, there's one activity I consistently enjoy:  mentoring ."
     },
     {
-      "self_ref": "#/texts/4",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -306,7 +243,7 @@
       "text": "I love helping other people discover their hidden potential and work through obstacles. Mentoring involves lots of listening and asking questions. My mentees ask some great questions as well, and some of them are difficult to answer."
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -318,7 +255,7 @@
       "text": "One that I've had a lot recently is:"
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -330,7 +267,7 @@
       "text": "When do I know it's time to move on from my current project or even my company?"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -342,7 +279,7 @@
       "text": "Take a quick look at any news source and you'll find news about  big layoffs  and a  hot labor market . Moving on from one project to another is one thing, but moving to another company is something different entirely."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -354,7 +291,7 @@
       "text": "This becomes more even complicated in the United States since, for most of us, our health insurance and disability benefits are tied to our current employer. \ud83d\ude30"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -366,7 +303,7 @@
       "text": "I've answered this question many times for many different people but I never covered it on the blog. This post will explain how I built my system of red flags and I'll explain some of the red flags that have been useful to me along the way."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -378,7 +315,7 @@
       "text": "Think gradients, not binary values"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -390,7 +327,7 @@
       "text": "I worked for a great leader in a previous job who had a talent for giving very direct feedback that I could put to good use quickly. He introduced me to  impostor syndrome , the  theory of constraints [^constraints], and empathy in a business setting."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -402,7 +339,7 @@
       "text": "Our company was going through quite a few challenges at the time. I asked him about how to know when to stay on a project, dig in, and improve it or when it's time to go. He sat down with me and explained his system of red flags. \ud83d\udea9"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -414,7 +351,7 @@
       "text": "He suggested making a list of two to three changes within the company that would reduce my faith in the company. These things would sew doubt about company leadership, products, or the approach to the customer experience. He explained that every change should be looked at with full context of the situation and that no single item should cause someone to make a rash decision."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -426,7 +363,7 @@
       "text": "There was one rule he was clear about:  You must come up with your list of red flags when you aren't under duress ."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -438,7 +375,7 @@
       "text": "These red flags must be in place before the ship starts to sink. Why? All kinds of  cognitive bias  set in when you're under frustrated or frightened. Once the body's fight or flight system kicks in, all bets are off. It's difficult to make sound judgments at that point."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -450,9 +387,9 @@
       "text": "I asked him if he could give me one of his red flags as an example. He said he keeps a list of people in the company who he respects and watches for them to change roles or leave the company. Earning his respect at the company meant:"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/14",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -464,9 +401,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/15",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -478,9 +415,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/16",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -492,7 +429,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -504,7 +441,7 @@
       "text": "His list changed over time and usually had five to ten people on the list at any one time. I asked him if he could give me another example and he immediately gave me  that look  and said:"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -516,7 +453,7 @@
       "text": "Only you know what your red flags really are."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -528,7 +465,7 @@
       "text": "My red flags"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -540,7 +477,7 @@
       "text": "Once I explain this concept to someone, they immediately want to know what I use. Here's a brief overview of what I use."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -553,7 +490,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -565,9 +502,9 @@
       "text": "I've watched incredibly talented people come and go during my career. However, much like my previous leader, I keep a list of five to ten people that I genuinely respect. The people on my list meet my criteria:"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/23",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -579,9 +516,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/24",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -593,9 +530,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/25",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -607,9 +544,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/26",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -621,9 +558,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/27",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -635,7 +572,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -647,7 +584,7 @@
       "text": "When people on my list leave the company, it starts raising red flags."
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -659,7 +596,7 @@
       "text": "Am I going to leave because one talented person left? Likely not."
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -671,7 +608,7 @@
       "text": "Am I going to leave because half of my list has left the company? Likely not. However, this will make me stop to think about my current situation and evaluate some other red flags."
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -684,7 +621,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -696,7 +633,7 @@
       "text": "Survival in almost any company requires you to believe that your contributions create value for someone somewhere. You also need a belief that your chance for further opportunities in the company should improve as the product improves."
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -708,7 +645,7 @@
       "text": "A previous CEO once talked to us about \"wobbles\". A wobble happens when your belief in your leadership and overall company direction is shaken. He argued that these wobbles are totally helpful and we must work to understand them. Simply shutting down a wobble only makes it worse."
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -720,7 +657,7 @@
       "text": "This is one of those red flags where  you must ask yourself how you could potentially change the outcome ."
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -732,7 +669,7 @@
       "text": "You might be the catalyst for a movement that changes the way your company thinks about your product and its customers! \ud83c\udf89"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -744,7 +681,7 @@
       "text": "You also might become a pariah for an effort that was doomed before it even started. \ud83d\ude25"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -756,7 +693,7 @@
       "text": "This is where a great relationship with your manager comes in handy. If you have a relationship where you can talk about these big ideas and your manager supports you, then you have a good chance of success."
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -768,7 +705,7 @@
       "text": "If not, then your best choice might be to walk away."
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -781,7 +718,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -793,7 +730,7 @@
       "text": "Quality means something different to everyone. When I talk about quality here, I am talking about delivering a high quality product and talking to customers about it honestly. Every product in the world has bugs and shortcomings that everyone wishes were better."
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -805,7 +742,7 @@
       "text": "If a product needs to ship with ten features, but only eight are ready, then it might make sense to ship what you have. The key is that you're honest with customers and say \"Okay, we have 80% of what you wanted and we wanted to get it to you now so you can get started sooner.\""
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -817,7 +754,7 @@
       "text": "That's not a quality issue. You did your best to hit the deadline, gave customers the largest amount of features you could, and then explained honestly that there's work left to be done. That's an honest job and it maintains customer trust."
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -829,7 +766,7 @@
       "text": "I look for situations where teams choose to release products without certain pieces and then find ways to hide it from the industry or from customers. An even bigger red flag goes up for me when those teams are confronted about it and they don't see a problem."
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -841,7 +778,7 @@
       "text": "A lack of honesty with customers is a step down a very dark path for any company."
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -853,7 +790,7 @@
       "text": "What now?"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -865,7 +802,7 @@
       "text": "Start small! \ud83e\udd0f"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -877,7 +814,7 @@
       "text": "Make a list of items, that if they changed, would frustrate you or make you nervous about your job. If it's something that increases your stress, write it down."
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -889,7 +826,7 @@
       "text": "When red flags start to appear, talk to your manager about them as soon as possible !"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -901,7 +838,7 @@
       "text": "Don't let them fester and get worse while you're silently becoming more and more upset and stressed. Try to bring them up with your manager in the context of your  experience with them ."
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -913,7 +850,7 @@
       "text": "Why focus on experiences? They are unique to you. They cannot be taken away. If someone on your list leaves the company and you are nervous about the future of the company after that, then that's  your experience . Start with something like:"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -925,7 +862,7 @@
       "text": "When he/she left the company, I became very nervous about the future of our product and I'm stressed about meeting our deadlines to customers."
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -937,7 +874,7 @@
       "text": "Great managers will usually want to know more about your feelings and the impact that person had on the project. It's entirely possible that your leaders had no idea how integral that person was to the project over time."
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -949,7 +886,7 @@
       "text": "I hope you can use this red flag framework as a method for reducing your stress and taking some of the emotion out of your decision to stay or leave. In the end, only you can make that decision. \ud83e\udec2"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },

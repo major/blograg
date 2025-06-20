@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 17772509483017166094,
-    "filename": "index.md"
+    "binary_hash": 4530013501804737654,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,16 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
       },
       {
         "$ref": "#/texts/5"
@@ -37,123 +46,16 @@
       },
       {
         "$ref": "#/texts/9"
-      },
-      {
-        "$ref": "#/texts/10"
-      },
-      {
-        "$ref": "#/texts/11"
-      },
-      {
-        "$ref": "#/texts/12"
-      },
-      {
-        "$ref": "#/texts/13"
-      },
-      {
-        "$ref": "#/texts/14"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aktt_notify_twitter:",
-      "text": "aktt_notify_twitter:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "false",
-      "text": "false",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2010/02/28/system-administration-inspiration-if-its-broken-break-it-a-little-more/",
-      "text": "/2010/02/28/system-administration-inspiration-if-its-broken-break-it-a-little-more/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "general\u00a0advice",
-      "text": "general\u00a0advice",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "sysadmin",
-      "text": "sysadmin",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -165,7 +67,7 @@
       "text": "Earlier this year,  I started a series of posts  to encourage systems administrators to refine their troubleshooting abilities. This is the second post in that series."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -177,7 +79,7 @@
       "text": "Almost every system administrator has found themselves in a situation where they're confronted with a server which has a problem. However, if you're not the primary administrator for the server, you may not always know what has changed recently or you may not be aware of changes in the server's environment. In these situations, if the fix isn't obvious, try going through these steps:"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -189,7 +91,7 @@
       "text": "Localize the problem to a specific daemon or service"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -201,7 +103,7 @@
       "text": "In the case of a problem where a website isn't loading properly, is it a problem with the web server itself? Could something other than the actual web server daemon be having an issue?"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -213,7 +115,7 @@
       "text": "As an example, consider a ruby on rails application which runs through apache's mod proxy balancer and queries data from MySQL. If any of those individual puzzle pieces were not functioning correctly, you'd get a different result. A downed MySQL instance could make the application throw errors or appear to be unresponsive. If the mongrel cluster had failed, apache might be returning internal server errors. Your browser might return a connection refused if apache was down. These are all relatively easy to determine."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -225,7 +127,7 @@
       "text": "What if you are unable to determine which daemon is causing the problem?"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -237,7 +139,7 @@
       "text": "If it's broken, break it a little more"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -249,7 +151,7 @@
       "text": "Let's say that you've reviewed the process list and all of the appropriate daemons appear to be running. However, the website is still not loading properly. What do you do? Bring down a service and try again. Did something change? Did a new error appear? If not, bring that daemon back up and try taking down one of the other ones."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -261,7 +163,7 @@
       "text": "I've also had some good results by making small adjustments in the web server's configuration file. If you have a virtual host that isn't returning the correct data, try commenting it out temporarily. For rewrite rules, try removing them temporarily or strip them down to a more basic form. Test again, and then begin adding lines back incrementally. As much as a single period or quotation mark can derail a perfectly good set of rewrite rules."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },

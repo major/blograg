@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/html",
-    "binary_hash": 2266871116188564588,
-    "filename": "index.md"
+    "binary_hash": 9401323620197908088,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,16 +21,10 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
         "$ref": "#/groups/0"
-      },
-      {
-        "$ref": "#/texts/5"
-      },
-      {
-        "$ref": "#/texts/6"
-      },
-      {
-        "$ref": "#/groups/1"
       }
     ],
     "content_layer": "body",
@@ -45,39 +39,16 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
           "$ref": "#/texts/2"
         },
         {
-          "$ref": "#/texts/3"
+          "$ref": "#/texts/9"
         },
         {
-          "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "furniture",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/7"
+          "$ref": "#/texts/19"
         },
         {
-          "$ref": "#/texts/14"
-        },
-        {
-          "$ref": "#/texts/24"
-        },
-        {
-          "$ref": "#/texts/39"
+          "$ref": "#/texts/34"
         }
       ],
       "content_layer": "body",
@@ -85,19 +56,19 @@
       "label": "section"
     },
     {
-      "self_ref": "#/groups/2",
+      "self_ref": "#/groups/1",
       "parent": {
-        "$ref": "#/texts/14"
+        "$ref": "#/texts/9"
       },
       "children": [
         {
-          "$ref": "#/texts/20"
+          "$ref": "#/texts/15"
         },
         {
-          "$ref": "#/texts/21"
+          "$ref": "#/texts/16"
         },
         {
-          "$ref": "#/texts/22"
+          "$ref": "#/texts/17"
         }
       ],
       "content_layer": "body",
@@ -115,79 +86,11 @@
       "content_layer": "furniture",
       "label": "text",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2019/02/08/automatic-floating-windows-in-i3/",
-      "text": "/2019/02/08/automatic-floating-windows-in-i3/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "list_item",
-      "prov": [],
-      "orig": "i3",
-      "text": "i3",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "label": "text",
-      "prov": [],
       "orig": "The  i3 window manager  is a fast window manager that helps you keep all of your applications in the right place. It automatically tiles windows and can manage those tiles across multiple virtual desktops.",
       "text": "The  i3 window manager  is a fast window manager that helps you keep all of your applications in the right place. It automatically tiles windows and can manage those tiles across multiple virtual desktops."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -199,28 +102,28 @@
       "text": "However, there are certain applications that I really prefer in a floating window. Floating windows do not get tiled and they can easily be dragged around with your mouse. They're the type of windows you expect to see on other non-tiling desktops such as GNOME or KDE."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [
         {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
           "$ref": "#/texts/8"
-        },
-        {
-          "$ref": "#/texts/9"
-        },
-        {
-          "$ref": "#/texts/10"
-        },
-        {
-          "$ref": "#/texts/11"
-        },
-        {
-          "$ref": "#/texts/12"
-        },
-        {
-          "$ref": "#/texts/13"
         }
       ],
       "content_layer": "body",
@@ -231,9 +134,9 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/texts/7"
+        "$ref": "#/texts/2"
       },
       "children": [],
       "content_layer": "body",
@@ -243,9 +146,9 @@
       "text": "If you have an existing window that you prefer to float, select that window and press  Mod + Shift + Space bar . The window will pop up in front of the tiled windows and you can easily move it with your mouse."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/texts/7"
+        "$ref": "#/texts/2"
       },
       "children": [],
       "content_layer": "body",
@@ -255,9 +158,9 @@
       "text": "Depending on your configuration, you may be able to resize it by grabbing a corner of the window with your mouse. You can also assign a key combination for resizing in your i3 configuration file (usually"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/texts/7"
+        "$ref": "#/texts/2"
       },
       "children": [],
       "content_layer": "body",
@@ -271,9 +174,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/texts/7"
+        "$ref": "#/texts/2"
       },
       "children": [],
       "content_layer": "body",
@@ -283,9 +186,9 @@
       "text": "):"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/texts/7"
+        "$ref": "#/texts/2"
       },
       "children": [],
       "content_layer": "body",
@@ -299,9 +202,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/texts/7"
+        "$ref": "#/texts/2"
       },
       "children": [],
       "content_layer": "body",
@@ -311,31 +214,31 @@
       "text": "With this configuration, simply press  Mod + r  and use the arrow keys to grow or shrink the window's borders."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [
         {
-          "$ref": "#/texts/15"
+          "$ref": "#/texts/10"
         },
         {
-          "$ref": "#/texts/16"
+          "$ref": "#/texts/11"
         },
         {
-          "$ref": "#/texts/17"
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/groups/1"
         },
         {
           "$ref": "#/texts/18"
-        },
-        {
-          "$ref": "#/texts/19"
-        },
-        {
-          "$ref": "#/groups/2"
-        },
-        {
-          "$ref": "#/texts/23"
         }
       ],
       "content_layer": "body",
@@ -346,9 +249,9 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/texts/14"
+        "$ref": "#/texts/9"
       },
       "children": [],
       "content_layer": "body",
@@ -358,9 +261,9 @@
       "text": "For those windows that you always want to be floating no matter what, i3 has a solution for that, too. Just tell i3 how to identify your windows and ensure"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/texts/14"
+        "$ref": "#/texts/9"
       },
       "children": [],
       "content_layer": "body",
@@ -374,9 +277,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
-        "$ref": "#/texts/14"
+        "$ref": "#/texts/9"
       },
       "children": [],
       "content_layer": "body",
@@ -386,9 +289,9 @@
       "text": "appears in the i3 config:"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/texts/14"
+        "$ref": "#/texts/9"
       },
       "children": [],
       "content_layer": "body",
@@ -402,9 +305,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/14",
       "parent": {
-        "$ref": "#/texts/14"
+        "$ref": "#/texts/9"
       },
       "children": [],
       "content_layer": "body",
@@ -414,9 +317,9 @@
       "text": "In the example above, I have a few windows always set to be floating:"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/15",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -428,9 +331,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/16",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -442,9 +345,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/17",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -456,9 +359,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/18",
       "parent": {
-        "$ref": "#/texts/14"
+        "$ref": "#/texts/9"
       },
       "children": [],
       "content_layer": "body",
@@ -468,11 +371,26 @@
       "text": "Any time these windows are spawned, they will automatically appear as floating windows. You can always switch them back to tiled manually by pressing  Mod + Shift + Space bar ."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/19",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
         {
           "$ref": "#/texts/25"
         },
@@ -499,10 +417,213 @@
         },
         {
           "$ref": "#/texts/33"
-        },
-        {
-          "$ref": "#/texts/34"
-        },
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Identifying windows",
+      "text": "Identifying windows",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Identifying windows in the way that i3 cares about can be challenging. Knowing when to use",
+      "text": "Identifying windows in the way that i3 cares about can be challenging. Knowing when to use"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "window_role",
+      "text": "window_role",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "or",
+      "text": "or"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "class",
+      "text": "class",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "for a window isn't very intuitive. Fortunately, there's a great script from an  archived i3 faq thread  that makes this easy:",
+      "text": "for a window isn't very intuitive. Fortunately, there's a great script from an  archived i3 faq thread  that makes this easy:"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Download this script to your system, make it executable (",
+      "text": "Download this script to your system, make it executable ("
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "chmod +x i3-get-window-criteria",
+      "text": "chmod +x i3-get-window-criteria",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "), and run it. As soon as you do that, a plus (+) icon will replace your normal mouse cursor. Click on the window you care about and look for the output in your terminal where you ran the",
+      "text": "), and run it. As soon as you do that, a plus (+) icon will replace your normal mouse cursor. Click on the window you care about and look for the output in your terminal where you ran the"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "i3-get-window-criteria",
+      "text": "i3-get-window-criteria",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "script.",
+      "text": "script."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "On my system, clicking on a terminator terminal window gives me:",
+      "text": "On my system, clicking on a terminator terminal window gives me:"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "[class=\"Terminator\" id=37748743 instance=\"terminator\" title=\"major@indium:~\"]",
+      "text": "[class=\"Terminator\" id=37748743 instance=\"terminator\" title=\"major@indium:~\"]",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "If I wanted to float all terminator windows, I could add this to my i3 configuration file:",
+      "text": "If I wanted to float all terminator windows, I could add this to my i3 configuration file:"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "for_window [class=\"Terminator\"] floating enable",
+      "text": "for_window [class=\"Terminator\"] floating enable",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [
         {
           "$ref": "#/texts/35"
         },
@@ -519,232 +640,14 @@
       "content_layer": "body",
       "label": "section_header",
       "prov": [],
-      "orig": "Identifying windows",
-      "text": "Identifying windows",
-      "level": 1
-    },
-    {
-      "self_ref": "#/texts/25",
-      "parent": {
-        "$ref": "#/texts/24"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "Identifying windows in the way that i3 cares about can be challenging. Knowing when to use",
-      "text": "Identifying windows in the way that i3 cares about can be challenging. Knowing when to use"
-    },
-    {
-      "self_ref": "#/texts/26",
-      "parent": {
-        "$ref": "#/texts/24"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "window_role",
-      "text": "window_role",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/27",
-      "parent": {
-        "$ref": "#/texts/24"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "or",
-      "text": "or"
-    },
-    {
-      "self_ref": "#/texts/28",
-      "parent": {
-        "$ref": "#/texts/24"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "class",
-      "text": "class",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/29",
-      "parent": {
-        "$ref": "#/texts/24"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "for a window isn't very intuitive. Fortunately, there's a great script from an  archived i3 faq thread  that makes this easy:",
-      "text": "for a window isn't very intuitive. Fortunately, there's a great script from an  archived i3 faq thread  that makes this easy:"
-    },
-    {
-      "self_ref": "#/texts/30",
-      "parent": {
-        "$ref": "#/texts/24"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "Download this script to your system, make it executable (",
-      "text": "Download this script to your system, make it executable ("
-    },
-    {
-      "self_ref": "#/texts/31",
-      "parent": {
-        "$ref": "#/texts/24"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "chmod +x i3-get-window-criteria",
-      "text": "chmod +x i3-get-window-criteria",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/32",
-      "parent": {
-        "$ref": "#/texts/24"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "), and run it. As soon as you do that, a plus (+) icon will replace your normal mouse cursor. Click on the window you care about and look for the output in your terminal where you ran the",
-      "text": "), and run it. As soon as you do that, a plus (+) icon will replace your normal mouse cursor. Click on the window you care about and look for the output in your terminal where you ran the"
-    },
-    {
-      "self_ref": "#/texts/33",
-      "parent": {
-        "$ref": "#/texts/24"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "i3-get-window-criteria",
-      "text": "i3-get-window-criteria",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/34",
-      "parent": {
-        "$ref": "#/texts/24"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "script.",
-      "text": "script."
-    },
-    {
-      "self_ref": "#/texts/35",
-      "parent": {
-        "$ref": "#/texts/24"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "On my system, clicking on a terminator terminal window gives me:",
-      "text": "On my system, clicking on a terminator terminal window gives me:"
-    },
-    {
-      "self_ref": "#/texts/36",
-      "parent": {
-        "$ref": "#/texts/24"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "[class=\"Terminator\" id=37748743 instance=\"terminator\" title=\"major@indium:~\"]",
-      "text": "[class=\"Terminator\" id=37748743 instance=\"terminator\" title=\"major@indium:~\"]",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/37",
-      "parent": {
-        "$ref": "#/texts/24"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "If I wanted to float all terminator windows, I could add this to my i3 configuration file:",
-      "text": "If I wanted to float all terminator windows, I could add this to my i3 configuration file:"
-    },
-    {
-      "self_ref": "#/texts/38",
-      "parent": {
-        "$ref": "#/texts/24"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "for_window [class=\"Terminator\"] floating enable",
-      "text": "for_window [class=\"Terminator\"] floating enable",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/39",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/40"
-        },
-        {
-          "$ref": "#/texts/41"
-        },
-        {
-          "$ref": "#/texts/42"
-        },
-        {
-          "$ref": "#/texts/43"
-        }
-      ],
-      "content_layer": "body",
-      "label": "section_header",
-      "prov": [],
       "orig": "Float in a specific workspace",
       "text": "Float in a specific workspace",
       "level": 1
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/35",
       "parent": {
-        "$ref": "#/texts/39"
+        "$ref": "#/texts/34"
       },
       "children": [],
       "content_layer": "body",
@@ -754,9 +657,9 @@
       "text": "Do you need a window to always float on a specific workspace? i3 can do that, too!"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/36",
       "parent": {
-        "$ref": "#/texts/39"
+        "$ref": "#/texts/34"
       },
       "children": [],
       "content_layer": "body",
@@ -766,9 +669,9 @@
       "text": "Let's go back to the example with VLC. Let's consider that we have a really nice 4K display where we always want to watch movies and that's where workspace 2 lives. We can tell i3 to always float the VLC window on workspace 2 with this configuration:"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/37",
       "parent": {
-        "$ref": "#/texts/39"
+        "$ref": "#/texts/34"
       },
       "children": [],
       "content_layer": "body",
@@ -782,9 +685,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/38",
       "parent": {
-        "$ref": "#/texts/39"
+        "$ref": "#/texts/34"
       },
       "children": [],
       "content_layer": "body",

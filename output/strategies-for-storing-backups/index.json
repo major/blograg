@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 5431567790308932134,
-    "filename": "index.md"
+    "binary_hash": 3749570565641991787,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,16 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
       },
       {
         "$ref": "#/texts/5"
@@ -46,123 +55,16 @@
       },
       {
         "$ref": "#/texts/12"
-      },
-      {
-        "$ref": "#/texts/13"
-      },
-      {
-        "$ref": "#/texts/14"
-      },
-      {
-        "$ref": "#/texts/15"
-      },
-      {
-        "$ref": "#/texts/16"
-      },
-      {
-        "$ref": "#/texts/17"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2011/01/09/strategies-for-storing-backups/",
-      "text": "/2011/01/09/strategies-for-storing-backups/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "emergency",
-      "text": "emergency",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "sysadmin",
-      "text": "sysadmin",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -174,7 +76,7 @@
       "text": "Although it's not a glamorous subject for system administrators, backups are necessary for any production environment. Those who run their systems without backups generally learn from their errors in a very painful way. However, the way you store your backups may sometimes prove to be just as vital as the methods you use to backup your data."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -186,7 +88,7 @@
       "text": "For my environments, I follow a strategy like this: I have some backups immediately accessible, others that are accessible very quickly (but not instantly), and others that are offsite and may take a bit more time to access."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -198,7 +100,7 @@
       "text": "Immediately accessible backups"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -210,7 +112,7 @@
       "text": "One of the easiest way to have an immediately accessible backup is to have multiple machines online running the same versions of code or databases in a high availability group. If you have a node which fails, the remaining nodes should be able to handle the requests immediately. You may not consider this to be a backup under the traditional definition of what a backup should be, but it's functionally similar."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -222,7 +124,7 @@
       "text": "Backups that are accessible quickly"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -234,7 +136,7 @@
       "text": "This second level of backups should be stored very close to your environment or within the environment itself. If you have multiple database and web server nodes, you could consider storing your web backups on the database servers and vice versa. For those who run very sensitive applications, this may violate the provisions of different certifications and regulations. A server dedicated to holding backups may be a viable alternative for additional security."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -246,7 +148,7 @@
       "text": "Offsite backup storage"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -258,7 +160,7 @@
       "text": "These are the backups that need to be geographically distant from your main environment. Also, you should always consider storing these backups on more than one medium with more than one company."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -270,7 +172,7 @@
       "text": "For example, if your hosting providers offers a storage service, it's fine to store one set of your backups there, but consider storing them with a competitor as well. If you store your backups with your hosting provider in multiple places, you could be caught be a provider issue and lose access to your backups entirely. Hosting with multiple providers will allow you to access at least one copy of your backups even if there are billing or technical issues with a particular provider."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -282,7 +184,7 @@
       "text": "Another thing to keep in mind with offsite backup storage is how long it will take to transfer the backups to your hosting environment in case of an emergency. If your hosting environment is in Texas, but your backups are stored in Australia, you're going to have a longer wait when you transfer your data back."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -294,7 +196,7 @@
       "text": "A specific example"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -306,7 +208,7 @@
       "text": "My environments are all in Dallas, Texas and I have a highly available environment with multiple instances. My second layer of backups are stored within the environment as well as in Rackspace's Cloud Files in Dallas. My third layer of backups are stored with Amazon S3 via Jungle Disk and at my home on a RAID array."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },

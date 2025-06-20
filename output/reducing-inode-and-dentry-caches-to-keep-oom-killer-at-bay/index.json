@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/html",
-    "binary_hash": 8679448591986417329,
-    "filename": "index.md"
+    "binary_hash": 12319700447713174265,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,16 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
       },
       {
         "$ref": "#/texts/5"
@@ -73,123 +82,16 @@
       },
       {
         "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
-      },
-      {
-        "$ref": "#/texts/23"
-      },
-      {
-        "$ref": "#/texts/24"
-      },
-      {
-        "$ref": "#/texts/25"
-      },
-      {
-        "$ref": "#/texts/26"
       }
     ],
     "content_layer": "body",
     "name": "_root_",
     "label": "unspecified"
   },
-  "groups": [
-    {
-      "self_ref": "#/groups/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    }
-  ],
+  "groups": [],
   "texts": [
     {
       "self_ref": "#/texts/0",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "aktt_notify_twitter:",
-      "text": "aktt_notify_twitter:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "false",
-      "text": "false",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2008/12/03/reducing-inode-and-dentry-caches-to-keep-oom-killer-at-bay/",
-      "text": "/2008/12/03/reducing-inode-and-dentry-caches-to-keep-oom-killer-at-bay/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "emergency",
-      "text": "emergency",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "kernel",
-      "text": "kernel",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -201,7 +103,7 @@
       "text": "When it comes to frustrating parts of the Linux kernel,  OOM killer  takes the cake. If it finds that applications are using too much memory on the server, it will kill process abruptly to free up memory for the system to use. I spent much of this week wrestling with a server that was in the clutches of OOM killer."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -213,7 +115,7 @@
       "text": "There are a few processes on the server that keep it fairly busy. Two of the processes are vital to the server's operation &#8211; if they are stopped, lots of work is required to get them running properly again. I found that a certain java process was being killed by OOM killer regularly, and another perl process was being killed occasionally."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -225,7 +127,7 @@
       "text": "Naturally, my disdain for java made me think that the java process was the source of the issue. The process was configured to use a small amount of RAM, so it was ruled out. The other perl process used even less memory, so it was ruled out as well. When I checked the sysstat data with sar, I found that the server was only using about 2-3GB out of 4GB of physical memory at the time when OOM killer was started.  At this point, I was utterly perplexed."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -237,7 +139,7 @@
       "text": "I polled some folks around the office and gathered some ideas. After putting some ideas together, I found that the server was actually caching too much data in the"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -253,7 +155,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -265,7 +167,7 @@
       "text": "and"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -281,7 +183,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -293,7 +195,7 @@
       "text": ". These caches hold recently accessed files and directories on the server, and they're purged as the files and directories become stale. Since the operations on the server read and write large amounts of data locally and via NFS, I knew these caches had to be gigantic. If you want to check your own caches, you can use the"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -309,7 +211,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -321,7 +223,7 @@
       "text": "command. For those who like things more difficult, you can also"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -337,7 +239,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -349,7 +251,7 @@
       "text": "the contents of"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -365,7 +267,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -377,7 +279,7 @@
       "text": "and grep for the caches that are important to you."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -389,7 +291,7 @@
       "text": "An immense amount of Googling revealed very little, but I discovered a  dirty hack  to fix the issue  (don't run this yet) :"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -405,7 +307,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -417,7 +319,7 @@
       "text": "There are huge consequences to dumping these caches and running"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -433,7 +335,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -445,7 +347,7 @@
       "text": ".  If you are writing data at the time you run these commands, you'll actually be dumping the data out of the filesystem cache before it reaches the disk, which could lead to very bad things."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -457,7 +359,7 @@
       "text": "While discussing the issue with a coworker, he  found a different method  for correcting the issue that was  much  safer. You can echo values into  /proc/sys/vm/vfs cache pressure  to tell the kernel what priority it should take when clearing out the inode/dentry caches. LinuxInsight explains the range of values well:"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -469,7 +371,7 @@
       "text": "At the default value of vfs cache pressure = 100 the kernel will attempt to reclaim dentries and inodes at a &#8220;fair&#8221; rate with respect to pagecache and swapcache reclaim. Decreasing vfs cache pressure causes the kernel to prefer to retain dentry and inode caches. Increasing vfs cache pressure beyond 100 causes the kernel to prefer to reclaim dentries and inodes."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },

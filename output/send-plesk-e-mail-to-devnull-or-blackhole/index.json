@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 17124547914669366970,
-    "filename": "index.md"
+    "binary_hash": 4559514498013116496,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -27,13 +27,7 @@
         "$ref": "#/texts/4"
       },
       {
-        "$ref": "#/groups/1"
-      },
-      {
-        "$ref": "#/texts/8"
-      },
-      {
-        "$ref": "#/texts/9"
+        "$ref": "#/texts/5"
       }
     ],
     "content_layer": "body",
@@ -60,26 +54,6 @@
       "content_layer": "body",
       "name": "list",
       "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
     }
   ],
   "texts": [
@@ -92,8 +66,8 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "Should you find yourself needing to send e-mail destined for a certain account to a blackhole or to /dev/null, you'll find very little information from Google. The actual solution is not terribly intuitive, and not well documented:",
+      "text": "Should you find yourself needing to send e-mail destined for a certain account to a blackhole or to /dev/null, you'll find very little information from Google. The actual solution is not terribly intuitive, and not well documented:"
     },
     {
       "self_ref": "#/texts/1",
@@ -104,8 +78,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "/2007/06/14/send-plesk-e-mail-to-devnull-or-blackhole/",
-      "text": "/2007/06/14/send-plesk-e-mail-to-devnull-or-blackhole/",
+      "orig": "Click ",
+      "text": "Click ",
       "enumerated": false,
       "marker": "-"
     },
@@ -118,8 +92,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "mail",
-      "text": "mail",
+      "orig": "Click the domain you want to modify",
+      "text": "Click the domain you want to modify",
       "enumerated": false,
       "marker": "-"
     },
@@ -132,8 +106,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "plesk",
-      "text": "plesk",
+      "orig": "Click ",
+      "text": "Click ",
       "enumerated": false,
       "marker": "-"
     },
@@ -146,65 +120,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "Should you find yourself needing to send e-mail destined for a certain account to a blackhole or to /dev/null, you'll find very little information from Google. The actual solution is not terribly intuitive, and not well documented:",
-      "text": "Should you find yourself needing to send e-mail destined for a certain account to a blackhole or to /dev/null, you'll find very little information from Google. The actual solution is not terribly intuitive, and not well documented:"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Click ",
-      "text": "Click ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Click the domain you want to modify",
-      "text": "Click the domain you want to modify",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Click ",
-      "text": "Click ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "If the account hasn't been created , click \"Add New Mail Name\" and create the account as usual. Then simply  uncheck the mailbox  option near the bottom. This will create a mail account, but any inbound e-mail for the user is thrown out.",
       "text": "If the account hasn't been created , click \"Add New Mail Name\" and create the account as usual. Then simply  uncheck the mailbox  option near the bottom. This will create a mail account, but any inbound e-mail for the user is thrown out."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },

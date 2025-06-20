@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 10361395018838036615,
-    "filename": "index.md"
+    "binary_hash": 3873734031744104344,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,10 +21,22 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
       },
       {
-        "$ref": "#/texts/8"
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/9"
@@ -42,25 +54,7 @@
         "$ref": "#/texts/13"
       },
       {
-        "$ref": "#/groups/1"
-      },
-      {
-        "$ref": "#/texts/17"
-      },
-      {
-        "$ref": "#/texts/18"
-      },
-      {
-        "$ref": "#/texts/19"
-      },
-      {
-        "$ref": "#/texts/20"
-      },
-      {
-        "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
+        "$ref": "#/texts/14"
       }
     ],
     "content_layer": "body",
@@ -75,45 +69,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
           "$ref": "#/texts/6"
         },
         {
           "$ref": "#/texts/7"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/14"
         },
         {
-          "$ref": "#/texts/15"
-        },
-        {
-          "$ref": "#/texts/16"
+          "$ref": "#/texts/8"
         }
       ],
       "content_layer": "body",
@@ -131,78 +93,68 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "Vitalie Cherpec contacted me back in May about his new hosted DNS offering,  Luadns . I gave it a try and I offered to write a review about the service.",
+      "text": "Vitalie Cherpec contacted me back in May about his new hosted DNS offering,  Luadns . I gave it a try and I offered to write a review about the service."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "/2012/07/22/dns-service-review-luadns/",
-      "text": "/2012/07/22/dns-service-review-luadns/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "DISCLAIMER:  I don't write many reviews on this blog, but I want to make sure a few things are clear. Vitalie was kind enough to set up an account for me to test with which would have normally cost me $9/month. However, he didn't give me any compensation of any kind for the review itself and there was nothing done for me outside of what a customer would receive at a paid service level at Luadns.  In other words, this is an honest review and I haven't been paid for a favorable (or unfavorable) response.",
+      "text": "DISCLAIMER:  I don't write many reviews on this blog, but I want to make sure a few things are clear. Vitalie was kind enough to set up an account for me to test with which would have normally cost me $9/month. However, he didn't give me any compensation of any kind for the review itself and there was nothing done for me outside of what a customer would receive at a paid service level at Luadns.  In other words, this is an honest review and I haven't been paid for a favorable (or unfavorable) response."
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "dns",
-      "text": "dns",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "At first glance, Luadns looks like many of the other hosted DNS services out there. Their DNS servers run  tinydns  and there are globally distributed DNS servers in Germany (Hetzner), California (Linode), New Jersey (Linode), Netherlands (LeaseWeb), and Japan (KDDI). The latency to the two US locations were reasonable from my home in San Antonio (on Time Warner Cable, usually under 70ms) but the overseas servers had reasonable latency except for the server in Germany. I was regularly seeing round trip times of over 300ms to that server.",
+      "text": "At first glance, Luadns looks like many of the other hosted DNS services out there. Their DNS servers run  tinydns  and there are globally distributed DNS servers in Germany (Hetzner), California (Linode), New Jersey (Linode), Netherlands (LeaseWeb), and Japan (KDDI). The latency to the two US locations were reasonable from my home in San Antonio (on Time Warner Cable, usually under 70ms) but the overseas servers had reasonable latency except for the server in Germany. I was regularly seeing round trip times of over 300ms to that server."
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "git",
-      "text": "git",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "What makes Luadns unique is  how you update  your DNS records. You can put your DNS zone files into a git repository in  GitHub  or  BitBucket  and then set up a post-commit hook to nudge Luadns when you make an update. This process gives you a good audit trail of when DNS changes were made, who changed them, and what was changed.",
+      "text": "What makes Luadns unique is  how you update  your DNS records. You can put your DNS zone files into a git repository in  GitHub  or  BitBucket  and then set up a post-commit hook to nudge Luadns when you make an update. This process gives you a good audit trail of when DNS changes were made, who changed them, and what was changed."
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "lua",
-      "text": "lua",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "As soon as you push your changes, Luadns is notified and they can go about updating the DNS records on their servers around the world. You also get the option to do manual updates if your business processes require a thorough review of DNS changes prior to their public release. You'll receive an email confirmation each time Luadns is nudged with changes to your zone files.",
+      "text": "As soon as you push your changes, Luadns is notified and they can go about updating the DNS records on their servers around the world. You also get the option to do manual updates if your business processes require a thorough review of DNS changes prior to their public release. You'll receive an email confirmation each time Luadns is nudged with changes to your zone files."
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "review",
-      "text": "review",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "In my experience, I saw pretty reasonable delays for updates. Here are the times I measured for DNS changes to propagate to all five Luadns servers:",
+      "text": "In my experience, I saw pretty reasonable delays for updates. Here are the times I measured for DNS changes to propagate to all five Luadns servers:"
     },
     {
       "self_ref": "#/texts/6",
@@ -213,8 +165,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "scripting",
-      "text": "scripting",
+      "orig": "Updates to an existing zone: 15-25 seconds (regardless of the amount of updates)",
+      "text": "Updates to an existing zone: 15-25 seconds (regardless of the amount of updates)",
       "enumerated": false,
       "marker": "-"
     },
@@ -227,115 +179,15 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "sysadmin",
-      "text": "sysadmin",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Vitalie Cherpec contacted me back in May about his new hosted DNS offering,  Luadns . I gave it a try and I offered to write a review about the service.",
-      "text": "Vitalie Cherpec contacted me back in May about his new hosted DNS offering,  Luadns . I gave it a try and I offered to write a review about the service."
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "DISCLAIMER:  I don't write many reviews on this blog, but I want to make sure a few things are clear. Vitalie was kind enough to set up an account for me to test with which would have normally cost me $9/month. However, he didn't give me any compensation of any kind for the review itself and there was nothing done for me outside of what a customer would receive at a paid service level at Luadns.  In other words, this is an honest review and I haven't been paid for a favorable (or unfavorable) response.",
-      "text": "DISCLAIMER:  I don't write many reviews on this blog, but I want to make sure a few things are clear. Vitalie was kind enough to set up an account for me to test with which would have normally cost me $9/month. However, he didn't give me any compensation of any kind for the review itself and there was nothing done for me outside of what a customer would receive at a paid service level at Luadns.  In other words, this is an honest review and I haven't been paid for a favorable (or unfavorable) response."
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "At first glance, Luadns looks like many of the other hosted DNS services out there. Their DNS servers run  tinydns  and there are globally distributed DNS servers in Germany (Hetzner), California (Linode), New Jersey (Linode), Netherlands (LeaseWeb), and Japan (KDDI). The latency to the two US locations were reasonable from my home in San Antonio (on Time Warner Cable, usually under 70ms) but the overseas servers had reasonable latency except for the server in Germany. I was regularly seeing round trip times of over 300ms to that server.",
-      "text": "At first glance, Luadns looks like many of the other hosted DNS services out there. Their DNS servers run  tinydns  and there are globally distributed DNS servers in Germany (Hetzner), California (Linode), New Jersey (Linode), Netherlands (LeaseWeb), and Japan (KDDI). The latency to the two US locations were reasonable from my home in San Antonio (on Time Warner Cable, usually under 70ms) but the overseas servers had reasonable latency except for the server in Germany. I was regularly seeing round trip times of over 300ms to that server."
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "What makes Luadns unique is  how you update  your DNS records. You can put your DNS zone files into a git repository in  GitHub  or  BitBucket  and then set up a post-commit hook to nudge Luadns when you make an update. This process gives you a good audit trail of when DNS changes were made, who changed them, and what was changed.",
-      "text": "What makes Luadns unique is  how you update  your DNS records. You can put your DNS zone files into a git repository in  GitHub  or  BitBucket  and then set up a post-commit hook to nudge Luadns when you make an update. This process gives you a good audit trail of when DNS changes were made, who changed them, and what was changed."
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "As soon as you push your changes, Luadns is notified and they can go about updating the DNS records on their servers around the world. You also get the option to do manual updates if your business processes require a thorough review of DNS changes prior to their public release. You'll receive an email confirmation each time Luadns is nudged with changes to your zone files.",
-      "text": "As soon as you push your changes, Luadns is notified and they can go about updating the DNS records on their servers around the world. You also get the option to do manual updates if your business processes require a thorough review of DNS changes prior to their public release. You'll receive an email confirmation each time Luadns is nudged with changes to your zone files."
-    },
-    {
-      "self_ref": "#/texts/13",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "In my experience, I saw pretty reasonable delays for updates. Here are the times I measured for DNS changes to propagate to all five Luadns servers:",
-      "text": "In my experience, I saw pretty reasonable delays for updates. Here are the times I measured for DNS changes to propagate to all five Luadns servers:"
-    },
-    {
-      "self_ref": "#/texts/14",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Updates to an existing zone: 15-25 seconds (regardless of the amount of updates)",
-      "text": "Updates to an existing zone: 15-25 seconds (regardless of the amount of updates)",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/15",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "Adding a totally new zone: 30-45 seconds",
       "text": "Adding a totally new zone: 30-45 seconds",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -347,7 +199,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -359,7 +211,7 @@
       "text": "I contacted Vitalie about the long delay in deleting entire zones from Luadns and he made some adjustments to the domain deletion priority. After his change, deletions were processed in under 20 seconds every time I tried it."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -371,7 +223,7 @@
       "text": "All of my testing was done with basic BIND zone files but Luadns allows you to  write your zones in Lua  if you prefer. That allows you to do some pretty slick automation with templates and you won't have to be quite so repetitive as you normally would with BIND zone files."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -383,7 +235,7 @@
       "text": "Summary"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -395,7 +247,7 @@
       "text": "Luadns provides a nice twist on the available DNS hosting solutions available today. Committing zone changes into a git repository allows for some great auditing and opens the door for pull requests that get a look from another team member before the DNS changes are released. The GitHub and Bitbucket integration is well done and the post-commit hooks seemed to work every time I tried them. The delays for zone updates are very reasonable and the pricing seems fair. I operate 48 domains and my bill each month would probably be $19 for the base plan. I'd easily go over the 4M queries/month so I'd expect to be paying extra."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -407,7 +259,7 @@
       "text": "I'd like to see Luadns improve by getting a more reliable European location that Hetzner since I can't get good round trip times from various locations that I've tried. Anycasted DNS servers would be a big plus, but that's a tough thing for a small company to do. I'd also like to see other development languages available other than Lua (python and ruby, perhaps)."
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },

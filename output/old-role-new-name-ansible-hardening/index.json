@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 2382457233512017610,
-    "filename": "index.md"
+    "binary_hash": 1983973894311083548,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,16 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
         "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
       },
       {
         "$ref": "#/texts/6"
@@ -31,21 +40,6 @@
       },
       {
         "$ref": "#/texts/8"
-      },
-      {
-        "$ref": "#/groups/1"
-      },
-      {
-        "$ref": "#/texts/11"
-      },
-      {
-        "$ref": "#/texts/12"
-      },
-      {
-        "$ref": "#/texts/13"
-      },
-      {
-        "$ref": "#/texts/14"
       }
     ],
     "content_layer": "body",
@@ -60,36 +54,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
           "$ref": "#/texts/3"
         },
         {
           "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/9"
-        },
-        {
-          "$ref": "#/texts/10"
         }
       ],
       "content_layer": "body",
@@ -107,36 +75,32 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "The interest in the  openstack-ansible-security  role has taken off faster than I expected, and one piece of constant feedback I received was around the name of the role. Some users were unsure if they needed to use the role in an OpenStack cloud or if the OpenStack-Ansible project was required.",
+      "text": "The interest in the  openstack-ansible-security  role has taken off faster than I expected, and one piece of constant feedback I received was around the name of the role. Some users were unsure if they needed to use the role in an OpenStack cloud or if the OpenStack-Ansible project was required."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "/2017/06/27/old-role-new-name-ansible-hardening/",
-      "text": "/2017/06/27/old-role-new-name-ansible-hardening/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "The role works everywhere - OpenStack cloud or not. I started a  mailing list thread  on the topic and we eventually settled on a new name:  ansible-hardening ! The updated documentation is  already available .",
+      "text": "The role works everywhere - OpenStack cloud or not. I started a  mailing list thread  on the topic and we eventually settled on a new name:  ansible-hardening ! The updated documentation is  already available ."
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "ansible",
-      "text": "ansible",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "The old openstack-ansible-security role is being retired and it will not receive any additional updates. Moving to the new role is easy:",
+      "text": "The old openstack-ansible-security role is being retired and it will not receive any additional updates. Moving to the new role is easy:"
     },
     {
       "self_ref": "#/texts/3",
@@ -147,8 +111,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "information security",
-      "text": "information security",
+      "orig": "Install ",
+      "text": "Install ",
       "enumerated": false,
       "marker": "-"
     },
@@ -161,91 +125,13 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "pythons",
-      "text": "pythons",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "The interest in the  openstack-ansible-security  role has taken off faster than I expected, and one piece of constant feedback I received was around the name of the role. Some users were unsure if they needed to use the role in an OpenStack cloud or if the OpenStack-Ansible project was required.",
-      "text": "The interest in the  openstack-ansible-security  role has taken off faster than I expected, and one piece of constant feedback I received was around the name of the role. Some users were unsure if they needed to use the role in an OpenStack cloud or if the OpenStack-Ansible project was required."
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "The role works everywhere - OpenStack cloud or not. I started a  mailing list thread  on the topic and we eventually settled on a new name:  ansible-hardening ! The updated documentation is  already available .",
-      "text": "The role works everywhere - OpenStack cloud or not. I started a  mailing list thread  on the topic and we eventually settled on a new name:  ansible-hardening ! The updated documentation is  already available ."
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "The old openstack-ansible-security role is being retired and it will not receive any additional updates. Moving to the new role is easy:",
-      "text": "The old openstack-ansible-security role is being retired and it will not receive any additional updates. Moving to the new role is easy:"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Install ",
-      "text": "Install ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "Change your playbooks to use the ansible-hardening role",
       "text": "Change your playbooks to use the ansible-hardening role",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -257,7 +143,7 @@
       "text": "There's no need to change any variable names or tags - they are all kept the same in the new role."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -269,7 +155,7 @@
       "text": "As always, if you have questions or comments about the role, drop by "
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -285,7 +171,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },

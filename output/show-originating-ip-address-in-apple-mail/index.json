@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 4122185756406077712,
-    "filename": "index.md"
+    "binary_hash": 13078290105610341021,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,28 +21,22 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
         "$ref": "#/groups/0"
-      },
-      {
-        "$ref": "#/texts/6"
-      },
-      {
-        "$ref": "#/texts/7"
       },
       {
         "$ref": "#/texts/8"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/9"
       },
       {
-        "$ref": "#/texts/14"
-      },
-      {
-        "$ref": "#/texts/15"
-      },
-      {
-        "$ref": "#/texts/16"
+        "$ref": "#/texts/10"
       }
     ],
     "content_layer": "body",
@@ -57,12 +51,6 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
           "$ref": "#/texts/3"
         },
         {
@@ -70,32 +58,12 @@
         },
         {
           "$ref": "#/texts/5"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/9"
         },
         {
-          "$ref": "#/texts/10"
+          "$ref": "#/texts/6"
         },
         {
-          "$ref": "#/texts/11"
-        },
-        {
-          "$ref": "#/texts/12"
-        },
-        {
-          "$ref": "#/texts/13"
+          "$ref": "#/texts/7"
         }
       ],
       "content_layer": "body",
@@ -113,36 +81,32 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "I've received some very sophisticated phishing emails lately and I was showing some of them to my coworkers. One of my coworkers noticed that my Apple Mail client displays the X-Originating-IP header for all of the emails I receive.",
+      "text": "I've received some very sophisticated phishing emails lately and I was showing some of them to my coworkers. One of my coworkers noticed that my Apple Mail client displays the X-Originating-IP header for all of the emails I receive."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "/2014/03/18/show-originating-ip-address-in-apple-mail/",
-      "text": "/2014/03/18/show-originating-ip-address-in-apple-mail/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "You can enter that IP into a whois search and get a better idea of who sent you the message without diving into the headers. If someone that regularly exchanges email with me suddenly has an originating IP in another country that would be unusual for them to travel to, I can approach the message with more caution.",
+      "text": "You can enter that IP into a whois search and get a better idea of who sent you the message without diving into the headers. If someone that regularly exchanges email with me suddenly has an originating IP in another country that would be unusual for them to travel to, I can approach the message with more caution."
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "apple",
-      "text": "apple",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "Enabling this feature in Mail is a quick process:",
+      "text": "Enabling this feature in Mail is a quick process:"
     },
     {
       "self_ref": "#/texts/3",
@@ -153,8 +117,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "email",
-      "text": "email",
+      "orig": "Click on the ",
+      "text": "Click on the ",
       "enumerated": false,
       "marker": "-"
     },
@@ -167,8 +131,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "mail",
-      "text": "mail",
+      "orig": "Go to the ",
+      "text": "Go to the ",
       "enumerated": false,
       "marker": "-"
     },
@@ -181,93 +145,15 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "I've received some very sophisticated phishing emails lately and I was showing some of them to my coworkers. One of my coworkers noticed that my Apple Mail client displays the X-Originating-IP header for all of the emails I receive.",
-      "text": "I've received some very sophisticated phishing emails lately and I was showing some of them to my coworkers. One of my coworkers noticed that my Apple Mail client displays the X-Originating-IP header for all of the emails I receive."
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "You can enter that IP into a whois search and get a better idea of who sent you the message without diving into the headers. If someone that regularly exchanges email with me suddenly has an originating IP in another country that would be unusual for them to travel to, I can approach the message with more caution.",
-      "text": "You can enter that IP into a whois search and get a better idea of who sent you the message without diving into the headers. If someone that regularly exchanges email with me suddenly has an originating IP in another country that would be unusual for them to travel to, I can approach the message with more caution."
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Enabling this feature in Mail is a quick process:",
-      "text": "Enabling this feature in Mail is a quick process:"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Click on the ",
-      "text": "Click on the ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Go to the ",
-      "text": "Go to the ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "Click the drop down menu next to ",
       "text": "Click the drop down menu next to ",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -279,9 +165,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -293,7 +179,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -305,7 +191,7 @@
       "text": "This should work in Apple Mail from OS X 10.6 through 10.9. You can also search your email for messages from certain IP addresses. Just start typing "
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -321,7 +207,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },

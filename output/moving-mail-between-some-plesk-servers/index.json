@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 12118312291576926704,
-    "filename": "index.md"
+    "binary_hash": 5001993269855631617,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -24,55 +24,49 @@
         "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/3"
+        "$ref": "#/texts/2"
       },
       {
         "$ref": "#/groups/1"
       },
       {
-        "$ref": "#/texts/5"
+        "$ref": "#/texts/4"
       },
       {
         "$ref": "#/groups/2"
       },
       {
-        "$ref": "#/texts/7"
+        "$ref": "#/texts/6"
       },
       {
         "$ref": "#/groups/3"
       },
       {
-        "$ref": "#/texts/9"
+        "$ref": "#/texts/8"
       },
       {
         "$ref": "#/groups/4"
       },
       {
-        "$ref": "#/texts/11"
+        "$ref": "#/texts/10"
       },
       {
         "$ref": "#/groups/5"
       },
       {
-        "$ref": "#/texts/13"
+        "$ref": "#/texts/12"
       },
       {
         "$ref": "#/groups/6"
       },
       {
-        "$ref": "#/texts/15"
+        "$ref": "#/texts/14"
       },
       {
         "$ref": "#/groups/7"
       },
       {
-        "$ref": "#/texts/17"
-      },
-      {
-        "$ref": "#/groups/8"
-      },
-      {
-        "$ref": "#/texts/19"
+        "$ref": "#/texts/16"
       }
     ],
     "content_layer": "body",
@@ -88,14 +82,11 @@
       "children": [
         {
           "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "list"
+      "label": "ordered_list"
     },
     {
       "self_ref": "#/groups/1",
@@ -104,7 +95,7 @@
       },
       "children": [
         {
-          "$ref": "#/texts/4"
+          "$ref": "#/texts/3"
         }
       ],
       "content_layer": "body",
@@ -118,7 +109,7 @@
       },
       "children": [
         {
-          "$ref": "#/texts/6"
+          "$ref": "#/texts/5"
         }
       ],
       "content_layer": "body",
@@ -132,7 +123,7 @@
       },
       "children": [
         {
-          "$ref": "#/texts/8"
+          "$ref": "#/texts/7"
         }
       ],
       "content_layer": "body",
@@ -146,7 +137,7 @@
       },
       "children": [
         {
-          "$ref": "#/texts/10"
+          "$ref": "#/texts/9"
         }
       ],
       "content_layer": "body",
@@ -160,7 +151,7 @@
       },
       "children": [
         {
-          "$ref": "#/texts/12"
+          "$ref": "#/texts/11"
         }
       ],
       "content_layer": "body",
@@ -174,7 +165,7 @@
       },
       "children": [
         {
-          "$ref": "#/texts/14"
+          "$ref": "#/texts/13"
         }
       ],
       "content_layer": "body",
@@ -188,21 +179,7 @@
       },
       "children": [
         {
-          "$ref": "#/texts/16"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "ordered_list"
-    },
-    {
-      "self_ref": "#/groups/8",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/18"
+          "$ref": "#/texts/15"
         }
       ],
       "content_layer": "body",
@@ -220,53 +197,13 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "If you're migrating a domain, sometimes their mail will go to the old server for a while after you've changed the DNS. You can move their mail to the new server by following these steps:",
+      "text": "If you're migrating a domain, sometimes their mail will go to the old server for a while after you've changed the DNS. You can move their mail to the new server by following these steps:"
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2007/01/27/moving-mail-between-some-plesk-servers/",
-      "text": "/2007/01/27/moving-mail-between-some-plesk-servers/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "plesk",
-      "text": "plesk",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "If you're migrating a domain, sometimes their mail will go to the old server for a while after you've changed the DNS. You can move their mail to the new server by following these steps:",
-      "text": "If you're migrating a domain, sometimes their mail will go to the old server for a while after you've changed the DNS. You can move their mail to the new server by following these steps:"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -278,7 +215,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -294,9 +231,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -308,7 +245,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -324,9 +261,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -338,7 +275,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -354,9 +291,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/4"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -368,7 +305,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -384,9 +321,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/5"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -398,7 +335,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -414,9 +351,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/groups/6"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
@@ -428,7 +365,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -444,9 +381,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/groups/7"
+        "$ref": "#/groups/6"
       },
       "children": [],
       "content_layer": "body",
@@ -458,7 +395,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -474,9 +411,9 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/15",
       "parent": {
-        "$ref": "#/groups/8"
+        "$ref": "#/groups/7"
       },
       "children": [],
       "content_layer": "body",
@@ -488,7 +425,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },

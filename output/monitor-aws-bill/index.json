@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 897589124679631829,
-    "filename": "index.md"
+    "binary_hash": 14882927333840327082,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,13 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
       },
       {
         "$ref": "#/texts/4"
@@ -45,10 +51,7 @@
         "$ref": "#/texts/10"
       },
       {
-        "$ref": "#/texts/11"
-      },
-      {
-        "$ref": "#/texts/12"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/13"
@@ -60,13 +63,16 @@
         "$ref": "#/groups/1"
       },
       {
-        "$ref": "#/texts/17"
-      },
-      {
         "$ref": "#/texts/18"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
       },
       {
         "$ref": "#/texts/22"
@@ -75,10 +81,7 @@
         "$ref": "#/texts/23"
       },
       {
-        "$ref": "#/texts/24"
-      },
-      {
-        "$ref": "#/texts/25"
+        "$ref": "#/groups/2"
       },
       {
         "$ref": "#/texts/26"
@@ -87,7 +90,10 @@
         "$ref": "#/texts/27"
       },
       {
-        "$ref": "#/groups/3"
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
       },
       {
         "$ref": "#/texts/30"
@@ -124,18 +130,6 @@
       },
       {
         "$ref": "#/texts/41"
-      },
-      {
-        "$ref": "#/texts/42"
-      },
-      {
-        "$ref": "#/texts/43"
-      },
-      {
-        "$ref": "#/texts/44"
-      },
-      {
-        "$ref": "#/texts/45"
       }
     ],
     "content_layer": "body",
@@ -150,18 +144,15 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/11"
         },
         {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
+          "$ref": "#/texts/12"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "list"
+      "label": "ordered_list"
     },
     {
       "self_ref": "#/groups/1",
@@ -174,6 +165,9 @@
         },
         {
           "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
         }
       ],
       "content_layer": "body",
@@ -187,30 +181,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/19"
+          "$ref": "#/texts/24"
         },
         {
-          "$ref": "#/texts/20"
-        },
-        {
-          "$ref": "#/texts/21"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "ordered_list"
-    },
-    {
-      "self_ref": "#/groups/3",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/28"
-        },
-        {
-          "$ref": "#/texts/29"
+          "$ref": "#/texts/25"
         }
       ],
       "content_layer": "body",
@@ -228,65 +202,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "author: Major Hayden date: '2023-03-02' Nobody likes a surprise bill. Learn some ways to keep your AWS bill under control and avoid that end of the month panic. \ud83d\ude31 tags:",
-      "text": "author: Major Hayden date: '2023-03-02' Nobody likes a surprise bill. Learn some ways to keep your AWS bill under control and avoid that end of the month panic. \ud83d\ude31 tags:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "aws",
-      "text": "aws",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "cloud",
-      "text": "cloud",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "cost",
-      "text": "cost",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Public clouds are the all-you-can-eat buffet of infrastructure. Nearly any IT problem can be solved in minutes with a few clicks or API requests.",
       "text": "Public clouds are the all-you-can-eat buffet of infrastructure. Nearly any IT problem can be solved in minutes with a few clicks or API requests."
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -298,7 +218,7 @@
       "text": "This is not your average buffet."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -310,7 +230,7 @@
       "text": "Every item at the buffet comes with a cost. Many of these costs are difficult to understand. Even if you do understand them, estimating your potential usage of these services is challenging."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -322,7 +242,7 @@
       "text": "Most services are pay-per-use where you pay based on the time used or the amount used. Other charges are one-time costs that get billed immediately."
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -334,7 +254,7 @@
       "text": "Some pricing, like object storage, looks totally straightforward at first glance. Then you find millions upon millions of half penny charges that add up to real money."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -346,7 +266,7 @@
       "text": "Then there's the situation that angers me the most: charges for infrastructure you deployed and forgot to clean up!"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -358,7 +278,7 @@
       "text": "How do we tackle this problem? Let's get right to it."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -370,7 +290,7 @@
       "text": "Set a budget"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -382,7 +302,7 @@
       "text": "AWS allows you to set a budget and get alarms when you've consumed part of your budget or exceeded it entirely. This is a great way to catch unexpected charges. It also helps you find forgotten deployments."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -394,7 +314,7 @@
       "text": "Head on over to the  AWS Billing Dashboard  first. Look for  Budgets  on the left navigation menu and click it."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -406,6 +326,58 @@
       "text": "Once you click  Create a Budget , you get a few handy options:"
     },
     {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Choose the ",
+      "text": "Choose the ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Choose the ",
+      "text": "Choose the ",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "I use a little more than what the free tier offers on some services, so I go for the monthly cost budget. Choose a budget amount and add some email recipients to be notified.",
+      "text": "I use a little more than what the free tier offers on some services, so I go for the monthly cost budget. Choose a budget amount and add some email recipients to be notified."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "As of this post's writing, AWS will send you notifications under three different conditions:",
+      "text": "As of this post's writing, AWS will send you notifications under three different conditions:"
+    },
+    {
       "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/groups/1"
@@ -414,8 +386,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Choose the ",
-      "text": "Choose the ",
+      "orig": "You used > 85% of your budget.",
+      "text": "You used > 85% of your budget.",
       "enumerated": false,
       "marker": "-"
     },
@@ -428,67 +400,15 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "Choose the ",
-      "text": "Choose the ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/17",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "I use a little more than what the free tier offers on some services, so I go for the monthly cost budget. Choose a budget amount and add some email recipients to be notified.",
-      "text": "I use a little more than what the free tier offers on some services, so I go for the monthly cost budget. Choose a budget amount and add some email recipients to be notified."
-    },
-    {
-      "self_ref": "#/texts/18",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "As of this post's writing, AWS will send you notifications under three different conditions:",
-      "text": "As of this post's writing, AWS will send you notifications under three different conditions:"
-    },
-    {
-      "self_ref": "#/texts/19",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "You used > 85% of your budget.",
-      "text": "You used > 85% of your budget.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/20",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "You used 100% of your budget.",
       "text": "You used 100% of your budget.",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/17",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -500,7 +420,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -512,7 +432,7 @@
       "text": "Keep a close watch for the forecasted spend emails. These are usually the earliest warning that you're potentially in danger of exceeding your budget."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -524,7 +444,7 @@
       "text": "Monitor your inbox closely for these emails."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -536,7 +456,7 @@
       "text": "Analyzing your spend"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -548,7 +468,7 @@
       "text": "AWS offers some tools for analyzing your cloud spend and these can give you clues to investigate. Start by going to  AWS Cost Management  and clicking on  Cost Explorer  on the left side."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -560,7 +480,7 @@
       "text": "Look for  Group by  on the right and choose  Service  from the drop down. The chart and table provided should help you see which service is running up charges."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -572,9 +492,9 @@
       "text": "In my situation, I had a lot of charges from S3 that I didn't expect. The bar chart showed a big jump in S3 expenses. I broke down the expenses by choosing two new options on the right side:"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/24",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -586,9 +506,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/25",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -600,7 +520,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -612,7 +532,7 @@
       "text": "My actual storage consumption costs were quite low, but my tier 1 and 2 requests increased massively. I began sifting through my scripts that do things in S3. There was one that was poorly written that was downloading larger and larger amounts of data from S3 frequently. These increased request counts caused my bill to increase by 4x!"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -624,7 +544,7 @@
       "text": "Remember the forgotten"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -636,7 +556,7 @@
       "text": "As I mentioned earlier, one of the most painful situations involves big charges for infrastructure that you forgot about. Perhaps it's an EC2 instance you spun up for testing. Maybe it's a Lambda you tried and forgot about. Perhaps you provisioned a NAT gateway  (ultimate pain) ."
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -648,7 +568,7 @@
       "text": "Monitoring your budgets will help a lot with forgotten infrastructure, but you only find out  after  your bill increased."
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -660,7 +580,7 @@
       "text": "Most of my mistakes happen with EC2-related infrastructure such as instances, volumes, or snapshots. EC2 is a region-specific service, though. Who wants to go through their EC2 infrastructure region by region?"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -672,7 +592,7 @@
       "text": "Luckily, AWS provides the  EC2 Global View . You get a look across all of your EC2 infrastructure in all regions to get counds of instances, networks, volumes, and auto scaling groups. This page helped me find some forgotten snapshots that kept dinging me with small bills each month."
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -684,7 +604,7 @@
       "text": "Another option is to provision infrastructure with  terraform . Terraform allows you to specify your cloud infrastructure in code. From there, you can build it ("
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -700,7 +620,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -712,7 +632,7 @@
       "text": ") and tear it down ("
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -728,7 +648,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -740,7 +660,7 @@
       "text": ") easily."
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -752,7 +672,7 @@
       "text": "Anything that you build with terraform is easily destroyed. Destroyed completely. If terraform can't clean up your infrastructure for some reason, it notifies you about the resources it could not delete."
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -764,7 +684,7 @@
       "text": "Plan ahead for costs"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -776,7 +696,7 @@
       "text": "Storing your terraform code in a GitHub repository allows you to make pull requests for changes and see what will change. You can  run terraform via GitHub Actions ."
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -788,7 +708,7 @@
       "text": "Once you have that running, consider adding  Infracost  to your repository. Infracost analyzes each pull request and explains the billing changes based on what you're deploying (or destroying). It replies in the PR with a comment detailing the potential charges that your change might incur."
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },

@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 2385800505432109573,
-    "filename": "index.md"
+    "binary_hash": 7359228493318204561,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,43 +21,37 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
         "$ref": "#/groups/0"
-      },
-      {
-        "$ref": "#/texts/9"
-      },
-      {
-        "$ref": "#/texts/10"
       },
       {
         "$ref": "#/texts/11"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/12"
       },
       {
-        "$ref": "#/texts/20"
+        "$ref": "#/texts/13"
       },
       {
-        "$ref": "#/texts/21"
+        "$ref": "#/texts/14"
       },
       {
-        "$ref": "#/texts/22"
+        "$ref": "#/texts/15"
       },
       {
-        "$ref": "#/texts/23"
+        "$ref": "#/texts/16"
       },
       {
-        "$ref": "#/texts/24"
+        "$ref": "#/texts/17"
       },
       {
-        "$ref": "#/texts/25"
-      },
-      {
-        "$ref": "#/texts/26"
-      },
-      {
-        "$ref": "#/texts/27"
+        "$ref": "#/texts/18"
       }
     ],
     "content_layer": "body",
@@ -71,12 +65,6 @@
         "$ref": "#/body"
       },
       "children": [
-        {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
         {
           "$ref": "#/texts/3"
         },
@@ -94,41 +82,12 @@
         },
         {
           "$ref": "#/texts/8"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/12"
         },
         {
-          "$ref": "#/texts/13"
+          "$ref": "#/texts/9"
         },
         {
-          "$ref": "#/texts/14"
-        },
-        {
-          "$ref": "#/texts/15"
-        },
-        {
-          "$ref": "#/texts/16"
-        },
-        {
-          "$ref": "#/texts/17"
-        },
-        {
-          "$ref": "#/texts/18"
-        },
-        {
-          "$ref": "#/texts/19"
+          "$ref": "#/texts/10"
         }
       ],
       "content_layer": "body",
@@ -146,36 +105,32 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "Tons of improvements made their way into the  ansible-hardening  role in preparation for the OpenStack Pike release  next month . The role has a  new name , new  documentation  and extra tests.",
+      "text": "Tons of improvements made their way into the  ansible-hardening  role in preparation for the OpenStack Pike release  next month . The role has a  new name , new  documentation  and extra tests."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "/2017/07/21/apply-stig-operating-systems-ansible-hardening/",
-      "text": "/2017/07/21/apply-stig-operating-systems-ansible-hardening/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "The role uses the Security Technical Implementation Guide (STIG) produced by the Defense Information Systems Agency (DISA) and applies the guidelines to Linux hosts using Ansible. Every control is configurable via simple Ansible variables and each control is thoroughly documented.",
+      "text": "The role uses the Security Technical Implementation Guide (STIG) produced by the Defense Information Systems Agency (DISA) and applies the guidelines to Linux hosts using Ansible. Every control is configurable via simple Ansible variables and each control is thoroughly documented."
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "ansible",
-      "text": "ansible",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "These controls are now applied to an even wider variety of Linux distributions:",
+      "text": "These controls are now applied to an even wider variety of Linux distributions:"
     },
     {
       "self_ref": "#/texts/3",
@@ -186,8 +141,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "debian",
-      "text": "debian",
+      "orig": "CentOS 7",
+      "text": "CentOS 7",
       "enumerated": false,
       "marker": "-"
     },
@@ -200,8 +155,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
+      "orig": "Debian 8 Jessie ",
+      "text": "Debian 8 Jessie ",
       "enumerated": false,
       "marker": "-"
     },
@@ -214,8 +169,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "linux",
-      "text": "linux",
+      "orig": "Fedora 25 ",
+      "text": "Fedora 25 ",
       "enumerated": false,
       "marker": "-"
     },
@@ -228,8 +183,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "opensuse",
-      "text": "opensuse",
+      "orig": "openSUSE Leap 42.2+ ",
+      "text": "openSUSE Leap 42.2+ ",
       "enumerated": false,
       "marker": "-"
     },
@@ -242,8 +197,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "security",
-      "text": "security",
+      "orig": "Red Hat Enterprise Linux 7",
+      "text": "Red Hat Enterprise Linux 7",
       "enumerated": false,
       "marker": "-"
     },
@@ -256,135 +211,15 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "suse",
-      "text": "suse",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Tons of improvements made their way into the  ansible-hardening  role in preparation for the OpenStack Pike release  next month . The role has a  new name , new  documentation  and extra tests.",
-      "text": "Tons of improvements made their way into the  ansible-hardening  role in preparation for the OpenStack Pike release  next month . The role has a  new name , new  documentation  and extra tests."
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "The role uses the Security Technical Implementation Guide (STIG) produced by the Defense Information Systems Agency (DISA) and applies the guidelines to Linux hosts using Ansible. Every control is configurable via simple Ansible variables and each control is thoroughly documented.",
-      "text": "The role uses the Security Technical Implementation Guide (STIG) produced by the Defense Information Systems Agency (DISA) and applies the guidelines to Linux hosts using Ansible. Every control is configurable via simple Ansible variables and each control is thoroughly documented."
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "These controls are now applied to an even wider variety of Linux distributions:",
-      "text": "These controls are now applied to an even wider variety of Linux distributions:"
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "CentOS 7",
-      "text": "CentOS 7",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/13",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Debian 8 Jessie ",
-      "text": "Debian 8 Jessie ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/14",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Fedora 25 ",
-      "text": "Fedora 25 ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/15",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "openSUSE Leap 42.2+ ",
-      "text": "openSUSE Leap 42.2+ ",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/16",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Red Hat Enterprise Linux 7",
-      "text": "Red Hat Enterprise Linux 7",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/17",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "SUSE Linux Enterprise 12 ",
       "text": "SUSE Linux Enterprise 12 ",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -396,9 +231,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -410,7 +245,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -422,7 +257,7 @@
       "text": "Any patches to the ansible-hardening role are tested against all of these operating systems (except RHEL 7 and SUSE Linux Enterprise). Support for openSUSE testing  landed this week ."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -434,7 +269,7 @@
       "text": "Work is underway to put the finishing touches on the master branch before the Pike release and we need your help!"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -446,7 +281,7 @@
       "text": "If you have any of these operating systems deployed, please test the role on your systems! This is pre-release software, so it's best to apply it only to a new server. Read the  \"Getting Started\"  documentation to get started with "
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -462,7 +297,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -474,7 +309,7 @@
       "text": " or "
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -490,7 +325,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -502,7 +337,7 @@
       "text": "."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },

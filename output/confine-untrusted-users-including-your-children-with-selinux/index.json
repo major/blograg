@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 3848962455957294433,
-    "filename": "index.md"
+    "binary_hash": 5493513907462914784,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,16 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
         "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
       },
       {
         "$ref": "#/texts/9"
@@ -30,7 +39,19 @@
         "$ref": "#/texts/10"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
       },
       {
         "$ref": "#/texts/16"
@@ -85,33 +106,6 @@
       },
       {
         "$ref": "#/texts/33"
-      },
-      {
-        "$ref": "#/texts/34"
-      },
-      {
-        "$ref": "#/texts/35"
-      },
-      {
-        "$ref": "#/texts/36"
-      },
-      {
-        "$ref": "#/texts/37"
-      },
-      {
-        "$ref": "#/texts/38"
-      },
-      {
-        "$ref": "#/texts/39"
-      },
-      {
-        "$ref": "#/texts/40"
-      },
-      {
-        "$ref": "#/texts/41"
-      },
-      {
-        "$ref": "#/texts/42"
       }
     ],
     "content_layer": "body",
@@ -126,9 +120,6 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
           "$ref": "#/texts/2"
         },
         {
@@ -142,38 +133,6 @@
         },
         {
           "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        },
-        {
-          "$ref": "#/texts/8"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/11"
-        },
-        {
-          "$ref": "#/texts/12"
-        },
-        {
-          "$ref": "#/texts/13"
-        },
-        {
-          "$ref": "#/texts/14"
-        },
-        {
-          "$ref": "#/texts/15"
         }
       ],
       "content_layer": "body",
@@ -191,22 +150,20 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "The  confined user support in SELinux  is handy for ensuring that users aren't able to do something that they shouldn't. It seems more effective and easier to use than most of the other methods I've seen before. Thanks to Dan for reminding me about this during his  SELinux in the Enterprise  talk from this year's Red Hat Summit.",
+      "text": "The  confined user support in SELinux  is handy for ensuring that users aren't able to do something that they shouldn't. It seems more effective and easier to use than most of the other methods I've seen before. Thanks to Dan for reminding me about this during his  SELinux in the Enterprise  talk from this year's Red Hat Summit."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "paragraph",
       "prov": [],
-      "orig": "/2013/07/05/confine-untrusted-users-including-your-children-with-selinux/",
-      "text": "/2013/07/05/confine-untrusted-users-including-your-children-with-selinux/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "There are five main SELinux user types (and a  handy chart  in the Fedora documentation):",
+      "text": "There are five main SELinux user types (and a  handy chart  in the Fedora documentation):"
     },
     {
       "self_ref": "#/texts/2",
@@ -217,8 +174,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "centos",
-      "text": "centos",
+      "orig": "[<RawText children='guest_u:'>]",
+      "text": "[<RawText children='guest_u:'>]",
       "enumerated": false,
       "marker": "-"
     },
@@ -231,8 +188,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "command line",
-      "text": "command line",
+      "orig": "[<RawText children='xguest_u:'>]",
+      "text": "[<RawText children='xguest_u:'>]",
       "enumerated": false,
       "marker": "-"
     },
@@ -245,8 +202,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
+      "orig": "[<RawText children='user_u:'>]",
+      "text": "[<RawText children='user_u:'>]",
       "enumerated": false,
       "marker": "-"
     },
@@ -259,8 +216,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "redhat",
-      "text": "redhat",
+      "orig": "[<RawText children='staff_u:'>]",
+      "text": "[<RawText children='staff_u:'>]",
       "enumerated": false,
       "marker": "-"
     },
@@ -273,135 +230,13 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "selinux",
-      "text": "selinux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "sysadmin",
-      "text": "sysadmin",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "The  confined user support in SELinux  is handy for ensuring that users aren't able to do something that they shouldn't. It seems more effective and easier to use than most of the other methods I've seen before. Thanks to Dan for reminding me about this during his  SELinux in the Enterprise  talk from this year's Red Hat Summit.",
-      "text": "The  confined user support in SELinux  is handy for ensuring that users aren't able to do something that they shouldn't. It seems more effective and easier to use than most of the other methods I've seen before. Thanks to Dan for reminding me about this during his  SELinux in the Enterprise  talk from this year's Red Hat Summit."
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "There are five main SELinux user types (and a  handy chart  in the Fedora documentation):",
-      "text": "There are five main SELinux user types (and a  handy chart  in the Fedora documentation):"
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "[<RawText children='guest_u:'>]",
-      "text": "[<RawText children='guest_u:'>]",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "[<RawText children='xguest_u:'>]",
-      "text": "[<RawText children='xguest_u:'>]",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/13",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "[<RawText children='user_u:'>]",
-      "text": "[<RawText children='user_u:'>]",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/14",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "[<RawText children='staff_u:'>]",
-      "text": "[<RawText children='staff_u:'>]",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/15",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "[<RawText children='unconfined_u:'>]",
       "text": "[<RawText children='unconfined_u:'>]",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -413,7 +248,7 @@
       "text": "One interesting thing to note is that all users are allowed to execute binary applications within their home directories by default. This can be switch off via some booleans (which I'll demonstrate in a moment)."
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -425,7 +260,7 @@
       "text": "Let's kick off a demonstration to show the power of these restrictions. First off, let's get a list of the default configuration:"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -441,7 +276,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -453,7 +288,7 @@
       "text": "By default, all new users come with no restrictions (as shown by unconfined_u). I'll create a new user called selinuxtest and set a password. If I ssh to the server as the selinuxtest user, I see that I'm unconfined:"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -469,7 +304,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -481,7 +316,7 @@
       "text": "That's what we expected. Let's apply the strongest restrictions to this user and apply guest_u:"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -497,7 +332,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -509,7 +344,7 @@
       "text": "I'll start a new ssh session as selinuxtest and try out some commands that I'd normally expect to work on a Linux server:"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -525,7 +360,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -537,7 +372,7 @@
       "text": "The networking and sudo restrictions applied as we expected. However, I was able to compile a small \"Hello World\" binary in C and run it. That could become a problem for some servers. Let's adjust a boolean that will restrict this activity:"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -553,7 +388,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -565,7 +400,7 @@
       "text": "Now I try running the binary again as my selinuxtest user:"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -581,7 +416,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -593,7 +428,7 @@
       "text": "I can't execute binary content in my home directory or in /tmp any longer after adjusting the boolean. Let's switch selinuxtest to xguest_u:"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -609,7 +444,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -621,7 +456,7 @@
       "text": "And now I'll re-test as the selinuxtest user:"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -637,7 +472,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -649,7 +484,7 @@
       "text": "I have full web connectivity but I can't do anything else on the network. Now for a switch to user_u:"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -665,7 +500,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -677,7 +512,7 @@
       "text": "And testing user_u with selinuxtest reveals:"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -693,7 +528,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -705,7 +540,7 @@
       "text": "Networking is wide open but I still don't have sudo. Let's try staff_u:"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -721,7 +556,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -733,7 +568,7 @@
       "text": "Testing staff_u with selinuxtest gives me the expected results:"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -749,7 +584,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -761,7 +596,7 @@
       "text": "I didn't add selinuxtest to sudoers, so this command would fail. However, I'm actually allowed to execute it now."
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },

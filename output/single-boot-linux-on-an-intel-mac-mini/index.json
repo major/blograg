@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/html",
-    "binary_hash": 1658127278862797603,
-    "filename": "index.md"
+    "binary_hash": 9016928010372318045,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,6 +21,9 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
         "$ref": "#/groups/0"
       },
       {
@@ -30,7 +33,13 @@
         "$ref": "#/texts/6"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
       },
       {
         "$ref": "#/texts/10"
@@ -82,21 +91,6 @@
       },
       {
         "$ref": "#/texts/26"
-      },
-      {
-        "$ref": "#/texts/27"
-      },
-      {
-        "$ref": "#/texts/28"
-      },
-      {
-        "$ref": "#/texts/29"
-      },
-      {
-        "$ref": "#/texts/30"
-      },
-      {
-        "$ref": "#/texts/31"
       }
     ],
     "content_layer": "body",
@@ -111,9 +105,6 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
           "$ref": "#/texts/2"
         },
         {
@@ -121,26 +112,6 @@
         },
         {
           "$ref": "#/texts/4"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/7"
-        },
-        {
-          "$ref": "#/texts/8"
-        },
-        {
-          "$ref": "#/texts/9"
         }
       ],
       "content_layer": "body",
@@ -158,22 +129,20 @@
       "content_layer": "body",
       "label": "text",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "After reading the title of this post, you might wonder &#8220;Why would someone pay for a Mac Mini and then not use OS X with it?&#8221; Well, if you have a somewhat older Mac Mini you want to use as a server with Linux, these instructions will come in handy.",
+      "text": "After reading the title of this post, you might wonder &#8220;Why would someone pay for a Mac Mini and then not use OS X with it?&#8221; Well, if you have a somewhat older Mac Mini you want to use as a server with Linux, these instructions will come in handy."
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "text",
       "prov": [],
-      "orig": "/2011/01/26/single-boot-linux-on-an-intel-mac-mini/",
-      "text": "/2011/01/26/single-boot-linux-on-an-intel-mac-mini/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "To get started, you'll need a few things:",
+      "text": "To get started, you'll need a few things:"
     },
     {
       "self_ref": "#/texts/2",
@@ -184,8 +153,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "apple",
-      "text": "apple",
+      "orig": "Mac OS X Install Disc",
+      "text": "Mac OS X Install Disc",
       "enumerated": false,
       "marker": "-"
     },
@@ -198,8 +167,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "command line",
-      "text": "command line",
+      "orig": "Your",
+      "text": "Your",
       "enumerated": false,
       "marker": "-"
     },
@@ -212,8 +181,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "linux",
-      "text": "linux",
+      "orig": "A CD with",
+      "text": "A CD with",
       "enumerated": false,
       "marker": "-"
     },
@@ -226,77 +195,11 @@
       "content_layer": "body",
       "label": "text",
       "prov": [],
-      "orig": "After reading the title of this post, you might wonder &#8220;Why would someone pay for a Mac Mini and then not use OS X with it?&#8221; Well, if you have a somewhat older Mac Mini you want to use as a server with Linux, these instructions will come in handy.",
-      "text": "After reading the title of this post, you might wonder &#8220;Why would someone pay for a Mac Mini and then not use OS X with it?&#8221; Well, if you have a somewhat older Mac Mini you want to use as a server with Linux, these instructions will come in handy."
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "To get started, you'll need a few things:",
-      "text": "To get started, you'll need a few things:"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Mac OS X Install Disc",
-      "text": "Mac OS X Install Disc",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Your",
-      "text": "Your",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "A CD with",
-      "text": "A CD with",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
       "orig": "First off, boot the Mac into your normal OS X installation first and mute the sound. This will get rid of the Mac chime on bootup. It's really difficult to get this done properly outside of OS X, so take the time to do it now. Put your Linux CD/DVD in the drive and reboot. While it's rebooting, hold down the Option key (alt key if you're using a PC keyboard) and you'll have the option to boot from the disc when it boots up. The boot screen might say &#8220;Windows&#8221; for the Linux CD/DVD, but choose it anyway.",
       "text": "First off, boot the Mac into your normal OS X installation first and mute the sound. This will get rid of the Mac chime on bootup. It's really difficult to get this done properly outside of OS X, so take the time to do it now. Put your Linux CD/DVD in the drive and reboot. While it's rebooting, hold down the Option key (alt key if you're using a PC keyboard) and you'll have the option to boot from the disc when it boots up. The boot screen might say &#8220;Windows&#8221; for the Linux CD/DVD, but choose it anyway."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -308,7 +211,7 @@
       "text": "When I installed Fedora, I had to switch the hard drive's partition table from GPT to a plain old &#8220;msdos&#8221; partition table. Hop into a terminal, start"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -324,7 +227,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -336,7 +239,7 @@
       "text": "on your main hard disk and type"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -352,7 +255,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -364,7 +267,7 @@
       "text": ". This will instantly erase the hard drive &#8212; make sure you're ready for this step. If you're using an anaconda-based installation, you can get to a root shell by pressing CTRL-ALT-F2. When you're done with"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -380,7 +283,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -392,7 +295,7 @@
       "text": "in that terminal, switch back to anaconda with CTRL-ALT-F6."
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -404,7 +307,7 @@
       "text": "At this point, you shouldn't have any partitions on your disk and you'll be ready to install your Linux distribution normally. I generally put everything in one giant partition as it makes the &#8220;bless&#8221; step a little easier later on."
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -416,7 +319,7 @@
       "text": "Eject the Linux CD/DVD once the installation is complete and toss in the refit CD that you burned previously. Reboot the Mini again while holding Option (or alt key) and choose the disc again at bootup. When refit appears, choose the second icon from the left in the bottom row and press enter. It might say that your GPT partition is empty &#8212; that's okay."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -428,7 +331,7 @@
       "text": "Reboot again, but hold down the Eject key (or F12 on PC keyboards) during boot to eject the refit disc. Pop in the OS X install disc (may need to reboot again to get it to boot) and open a terminal once the install disc fully boots. Once you're in the terminal, run"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -444,7 +347,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -456,7 +359,7 @@
       "text": "to figure out which partition is your boot partition. If you did one giant partition, this should be"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -472,7 +375,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -484,7 +387,7 @@
       "text": ". Just &#8220;bless&#8221; the partition to make it valid for booting:"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -500,7 +403,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -512,7 +415,7 @@
       "text": "Reboot again while holding Eject (or F12) to get the OS X disc out of the drive. At this point, you should be ready to go for hands-off booting. My Mac Mini went through about 10-20 seconds of wild screen flickering from grey to black to grey to black but then I saw the familiar Fedora framebuffer."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -524,7 +427,7 @@
       "text": "If you intend to run the Mac Mini headless with Linux, you're going to run into a problem. The legacy BIOS used to boot Linux requires a monitor to be attached, but there are  some workarounds . Also, if you want the Mini to power back on in case of a power failure, just run this at each boot:"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -540,7 +443,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -552,7 +455,7 @@
       "text": "Helpful resources:"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -564,7 +467,7 @@
       "text": "http://mac.linux.be/content/single-boot-linux-without-delay"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },

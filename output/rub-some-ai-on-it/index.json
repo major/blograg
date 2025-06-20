@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 7270937891888962914,
-    "filename": "index.md"
+    "binary_hash": 15949635684246730795,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,10 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
       },
       {
         "$ref": "#/texts/3"
@@ -36,31 +39,34 @@
         "$ref": "#/texts/6"
       },
       {
-        "$ref": "#/texts/7"
-      },
-      {
-        "$ref": "#/texts/8"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/9"
       },
       {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
         "$ref": "#/groups/1"
       },
       {
-        "$ref": "#/texts/12"
+        "$ref": "#/texts/16"
       },
       {
-        "$ref": "#/texts/13"
+        "$ref": "#/texts/17"
       },
       {
-        "$ref": "#/texts/14"
-      },
-      {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/18"
       },
       {
         "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/pictures/0"
       },
       {
         "$ref": "#/texts/20"
@@ -70,9 +76,6 @@
       },
       {
         "$ref": "#/texts/22"
-      },
-      {
-        "$ref": "#/pictures/0"
       },
       {
         "$ref": "#/texts/23"
@@ -117,22 +120,13 @@
         "$ref": "#/texts/36"
       },
       {
-        "$ref": "#/texts/37"
+        "$ref": "#/groups/2"
       },
       {
-        "$ref": "#/texts/38"
+        "$ref": "#/texts/40"
       },
       {
-        "$ref": "#/texts/39"
-      },
-      {
-        "$ref": "#/groups/3"
-      },
-      {
-        "$ref": "#/texts/43"
-      },
-      {
-        "$ref": "#/texts/44"
+        "$ref": "#/texts/41"
       }
     ],
     "content_layer": "body",
@@ -147,15 +141,15 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/7"
         },
         {
-          "$ref": "#/texts/2"
+          "$ref": "#/texts/8"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "list"
+      "label": "ordered_list"
     },
     {
       "self_ref": "#/groups/1",
@@ -164,15 +158,21 @@
       },
       "children": [
         {
-          "$ref": "#/texts/10"
+          "$ref": "#/texts/12"
         },
         {
-          "$ref": "#/texts/11"
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
         }
       ],
       "content_layer": "body",
       "name": "list",
-      "label": "ordered_list"
+      "label": "list"
     },
     {
       "self_ref": "#/groups/2",
@@ -181,36 +181,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/15"
+          "$ref": "#/texts/37"
         },
         {
-          "$ref": "#/texts/16"
+          "$ref": "#/texts/38"
         },
         {
-          "$ref": "#/texts/17"
-        },
-        {
-          "$ref": "#/texts/18"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/3",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/40"
-        },
-        {
-          "$ref": "#/texts/41"
-        },
-        {
-          "$ref": "#/texts/42"
+          "$ref": "#/texts/39"
         }
       ],
       "content_layer": "body",
@@ -228,51 +205,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "author: Major Hayden date: '2024-08-21' summary: >- If you have a problem, be sure to add artificial intelligence (AI) to it. Then you have two problems. tags: ",
-      "text": "author: Major Hayden date: '2024-08-21' summary: >- If you have a problem, be sure to add artificial intelligence (AI) to it. Then you have two problems. tags: "
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "ai",
-      "text": "ai",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Author's note: This post is all about my personal thoughts on artificial intelligence (AI) and they don't represent the views of any employer or group.",
       "text": "Author's note: This post is all about my personal thoughts on artificial intelligence (AI) and they don't represent the views of any employer or group."
     },
     {
-      "self_ref": "#/texts/4",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -284,7 +221,7 @@
       "text": "You can't escape the clutches of AI lately."
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -296,7 +233,7 @@
       "text": "It's in my smartphone  nestled  next to my text messages. It's in my  work chats . It's  reading my Spanish  in Duolingo. It's in my photo albums  retouching my images ."
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -308,7 +245,7 @@
       "text": "Sometimes we know that there's AI involved in something and sometimes we don't."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -320,7 +257,7 @@
       "text": "However, it seems like so many are in a rush to implement some kind of AI offering without a full idea of why they're doing it. Here an excerpt from the  September 2024 issue  of Harvard Business Review that explains it well:"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -332,7 +269,7 @@
       "text": "Smart early movers in sectors adopting gen AI have certainly captured some of this value in the short term. But relatively soon all surviving companies in those sectors will have applied gen AI, and it won\u2019t be a source of competitive advantage for any one of them, even where its impact on business and business practices will probably be profound. In fact, it will be more likely to remove a competitive advantage than to confer one.  But here\u2019s a silver lining: If you already have a competitive advantage that rivals cannot replicate using AI, the technology may serve to amplify the value you derive from that advantage."
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -344,9 +281,9 @@
       "text": "AI can help you only if:"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -358,9 +295,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -372,7 +309,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -385,7 +322,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -397,7 +334,7 @@
       "text": "I'm reminded of a time in the past where I was working hard on OpenStack public clouds. Kubernetes gained more traction day by day. Lots of customers told us:  \"I've got to get on kubernetes so I can move faster.\""
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -409,9 +346,9 @@
       "text": "As we asked more about their challenges, they listed lots of things that should look familiar:"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/12",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -423,9 +360,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -437,9 +374,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/14",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -451,9 +388,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/15",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -465,7 +402,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -477,7 +414,7 @@
       "text": "They had a serious problem with delivering their software, but kubernetes couldn't make any of these better. Adding kubernetes would just give them two problems instead of one."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -489,7 +426,7 @@
       "text": "The running joke whenever someone ran into a problem with a server, a piece of code, or a service was to say  \"Why don't you rub a little kubernetes on it?\"  \ud83e\udd23"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -501,7 +438,7 @@
       "text": "I'm seeing much of the same with AI as companies scramble to get their hands on the best hardware they can find and access to the highest quality large language models (LLMs) they can find. Cloud budgets are blown wide open. When someone asks about the AI effort, the reply is often:  \"We have to get it before our competitors do, or we're sunk!\""
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -513,7 +450,7 @@
       "text": "In February 2024, 36% of company earnings reports  mentioned AI  -- a record high:"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -525,7 +462,7 @@
       "text": "ai_mentions.webp"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -537,7 +474,7 @@
       "text": "How many of them are actually doing something meaningful for their employees or customers with AI?"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -550,7 +487,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -562,7 +499,7 @@
       "text": "One of my coworkers, Scott McCarty, wrote a great post on InfoWorld titled  \"What generative AI can do for sysadmins\" . What I love most about this article is that Scott remains laser-focused on the  experiences  and  challenges  that AI could improve."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -574,7 +511,7 @@
       "text": "There are plenty of challenging situations that every sysadmin faces. The worst of these are when you're under incredible pressure to bring a system back into a working state and you need to pick through tons of information to identify the problem. You can sometimes spot these issues easily, such as a failing storage drive in a server. Other situations are much more difficult."
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -586,7 +523,7 @@
       "text": "The key is to  start with the experience. Then work backwards from there."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -598,7 +535,7 @@
       "text": "As an example, one pattern I often see is companies putting AI chatbots in front of their documentation. Sometimes the chatbot will help you find the right documentation faster, but sometimes it's not much better than a CTRL-F or a quick look at the documentation's table of contents."
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -610,7 +547,7 @@
       "text": "If your documentation is so complicated that you need to spend the time and money to put an AI chatbot in front of it, why not make your documentation better instead?"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -622,7 +559,7 @@
       "text": "When something does fail, why not put a link to the documentation in the log message itself? This pattern shows up a lot in modern software lately. If I try to enable a  Tailscale exit node  but I haven't forwarded packets on an interface, I get quick instructions on the console with a link to documentation that explains it in more detail."
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -634,7 +571,7 @@
       "text": "You cannot use AI to paper over a poor experience. Your customers will see right through it."
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -647,7 +584,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -659,7 +596,7 @@
       "text": "Sometimes companies simply try to take AI much too far and upset the human nature in all of us."
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -671,7 +608,7 @@
       "text": "A great example of this was Google's awful Olympics ad where it shows a girl's father using Google Gemini to  write a letter to her hero . The reaction at my house when we saw it was:  \"Wait, you're taking the time to write a letter to your hero and you're letting an AI write it? Could that be any more impersonal?\" If I'm writing a letter or email to someone I admire, I'm taking the time to write it myself with my own voice."
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -683,7 +620,7 @@
       "text": "Another example is a Microsoft ad showing someone turning a long document into a long slide deck instead. If nobody wanted to read the document in the first place, why would they want to read your long slide deck? Also, how would they feel if they know you just jammed a document into a LLM to make a slide deck and then held them hostage in a conference room as you walked through a voiceless set of slides?"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -695,7 +632,7 @@
       "text": "This goes back to the last section, but if you're trying to add AI to replace a human interaction, think that through. Are you papering over a bad experience? Are you looking to cut costs without considering the customer reaction? What's your plan if the AI interactions backfire?"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -708,7 +645,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -720,9 +657,9 @@
       "text": "If you work backwards from the customer experience and land on an LLM as the best way to solve a problem or enhance a product, that's great. However, the experience you are enabling should be so good that:"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/37",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -734,9 +671,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/38",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -748,9 +685,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/39",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -762,7 +699,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -774,7 +711,7 @@
       "text": "Getting hardware or cloud infrastructure together and  running an LLM on top is boring . Even going retrieval augmented generation (RAG) is boring. We will soon live in a world where running an LLM is the same level of difficulty as running a web server or a container. That's not where the value lives."
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },

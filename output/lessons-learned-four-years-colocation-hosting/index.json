@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 18328169396497051326,
-    "filename": "index.md"
+    "binary_hash": 5072393309256273725,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,13 +21,28 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
         "$ref": "#/groups/0"
-      },
-      {
-        "$ref": "#/texts/9"
-      },
-      {
-        "$ref": "#/texts/10"
       },
       {
         "$ref": "#/texts/11"
@@ -48,46 +63,52 @@
         "$ref": "#/texts/16"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
       },
       {
         "$ref": "#/texts/20"
       },
       {
-        "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
-      },
-      {
-        "$ref": "#/texts/23"
-      },
-      {
-        "$ref": "#/texts/24"
-      },
-      {
-        "$ref": "#/texts/25"
+        "$ref": "#/groups/1"
       },
       {
         "$ref": "#/texts/26"
       },
       {
-        "$ref": "#/texts/27"
-      },
-      {
-        "$ref": "#/texts/28"
-      },
-      {
-        "$ref": "#/texts/29"
-      },
-      {
         "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
       },
       {
         "$ref": "#/texts/35"
       },
       {
-        "$ref": "#/groups/3"
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
       },
       {
         "$ref": "#/texts/40"
@@ -154,33 +175,6 @@
       },
       {
         "$ref": "#/texts/61"
-      },
-      {
-        "$ref": "#/texts/62"
-      },
-      {
-        "$ref": "#/texts/63"
-      },
-      {
-        "$ref": "#/texts/64"
-      },
-      {
-        "$ref": "#/texts/65"
-      },
-      {
-        "$ref": "#/texts/66"
-      },
-      {
-        "$ref": "#/texts/67"
-      },
-      {
-        "$ref": "#/texts/68"
-      },
-      {
-        "$ref": "#/texts/69"
-      },
-      {
-        "$ref": "#/texts/70"
       }
     ],
     "content_layer": "body",
@@ -195,28 +189,13 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        },
-        {
           "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
         }
       ],
       "content_layer": "body",
@@ -230,13 +209,19 @@
       },
       "children": [
         {
-          "$ref": "#/texts/17"
+          "$ref": "#/texts/21"
         },
         {
-          "$ref": "#/texts/18"
+          "$ref": "#/texts/22"
         },
         {
-          "$ref": "#/texts/19"
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
         }
       ],
       "content_layer": "body",
@@ -250,42 +235,16 @@
       },
       "children": [
         {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
           "$ref": "#/texts/30"
-        },
-        {
-          "$ref": "#/texts/31"
-        },
-        {
-          "$ref": "#/texts/32"
-        },
-        {
-          "$ref": "#/texts/33"
-        },
-        {
-          "$ref": "#/texts/34"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/3",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/36"
-        },
-        {
-          "$ref": "#/texts/37"
-        },
-        {
-          "$ref": "#/texts/38"
-        },
-        {
-          "$ref": "#/texts/39"
         }
       ],
       "content_layer": "body",
@@ -303,135 +262,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2016/04/22/lessons-learned-four-years-colocation-hosting/",
-      "text": "/2016/04/22/lessons-learned-four-years-colocation-hosting/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "colocation",
-      "text": "colocation",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "advice",
-      "text": "advice",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "hardware",
-      "text": "hardware",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "hosting",
-      "text": "hosting",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "networking",
-      "text": "networking",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "servers",
-      "text": "servers",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Back in 2011, I decided to try out a new method for hosting my websites and other applications:  colocation . Before that, I used shared hosting, VPS providers (\"cloud\" wasn't a popular thing back then), and dedicated servers. Each had their drawbacks in different areas. Some didn't perform well, some couldn't recover from failure well, and some were terribly time consuming to maintain.",
       "text": "Back in 2011, I decided to try out a new method for hosting my websites and other applications:  colocation . Before that, I used shared hosting, VPS providers (\"cloud\" wasn't a popular thing back then), and dedicated servers. Each had their drawbacks in different areas. Some didn't perform well, some couldn't recover from failure well, and some were terribly time consuming to maintain."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -443,7 +278,7 @@
       "text": "This post will explain why I decided to try colocation and will hopefully help you avoid some of my mistakes."
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -456,7 +291,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -468,7 +303,7 @@
       "text": "For the majority of us, hosting an application involves renting something from another company. This includes tangible things, such as disk space, servers, and networking, as well as the intangible items, like customer support. We all choose how much we rent (and hope our provider does well) and how much we do ourselves."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -480,7 +315,7 @@
       "text": "Colocation usually involves renting space in a rack, electricity, and network bandwidth. In these environments, the customer is expected to maintain the server hardware, perimeter network devices (switches, routers, and firewalls), and all of the other equipment downstream from the provider's equipment. Providers generally offer good price points for these services since they only need to ensure your rack is secure, powered, and networked."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -492,7 +327,7 @@
       "text": "As an example, a quarter rack in Dallas at a low to mid-range colocation provider can cost between $200-400 per month. That normally comes with a power allotment (mine is 8 amps) and network bandwidth (more on that later). In my quarter rack, I have five 1U servers plus a managed switch. One of those servers acts as my firewall."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -504,7 +339,7 @@
       "text": "Let's consider a similar scenario at a dedicated hosting provider. I checked some clearance prices in Dallas while writing this post and found pricing for servers which have similar CPUs as my servers, but with much less storage. The pricing for five servers runs about $550/month and we haven't even considered a switch and firewall yet."
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -516,9 +351,9 @@
       "text": "Cost is one factor, but I have some other preferences which push me strongly towards colocation:"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -530,9 +365,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -544,9 +379,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -558,7 +393,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -570,7 +405,7 @@
       "text": "If you have similar preferences, the rest of this post should be a good guide for getting started with a colocation environment."
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -583,7 +418,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -595,7 +430,7 @@
       "text": "Seriously -  buy quality parts . That doesn't mean you need to go buy the newest server available from a well-known manufacturer, but you do need to find reliable parts in a new or used server."
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -607,7 +442,7 @@
       "text": "I've built my environment entirely with  Supermicro  servers. The  X9SCi-LN4F  servers have been extremely reliable. My first two came brand new from  Silicon Mechanics  and I'm a big fan of their products. Look at their Rackform R.133 for something very similar to what I have."
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -619,7 +454,7 @@
       "text": "My last three have all come from  Mr. Rackables  (an eBay seller). They're used X9SCi-LN4F servers, but they're all in good condition. I couldn't beat the price for those servers, either."
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -631,7 +466,7 @@
       "text": "Before you buy, do some reading on brand reliability and compatibility. If you plan to run Linux, do a Google search for the model of the server and the version of Linux you plan to run. Also, take a moment to poke around some forums to see what other people think of the server. Go to  WebHostingTalk  and search for hardware there, too."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -643,7 +478,7 @@
       "text": "Buying quality parts gives you a little extra piece of mind, especially if your colo is a long drive from your home or work."
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -656,7 +491,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -668,7 +503,7 @@
       "text": "Your first conversation with most providers will be through a salesperson. That's not necessarily a bad thing since they will give you a feature and pricing overview fairly quickly. However, I like to ask additional questions of the salesperson to learn more about the technical staff."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -680,9 +515,9 @@
       "text": "Here are some good conversation starters for making it past a salesperson to the technical staff:"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/21",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -694,9 +529,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/22",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -708,9 +543,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/23",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -722,9 +557,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/24",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -736,9 +571,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/25",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -750,7 +585,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -762,9 +597,9 @@
       "text": "When you do get a response, look for a few things:"
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/27",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -776,9 +611,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/28",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -790,9 +625,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/29",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -804,9 +639,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/30",
       "parent": {
-        "$ref": "#/groups/3"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -818,7 +653,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -830,7 +665,7 @@
       "text": "It's much better to find problems now than after you've signed a contract. I'll talk more about contracts later."
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -843,7 +678,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -855,7 +690,7 @@
       "text": "Look for cities with very diverse network options. Big cities, or cities with lots of datacenters, will usually have good network provider choices and better prices. In Texas, your best bet is Dallas (which is where I host)."
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -867,7 +702,7 @@
       "text": "I've learned that bandwidth measurement is one of the biggest areas of confusion and \"creative interpretation\" in colocation hosting. Every datacenter I've hosted with has handled things differently."
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -879,7 +714,7 @@
       "text": "There are four main ways that most colocation providers handle networking:"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -892,7 +727,7 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -904,7 +739,7 @@
       "text": "This is sometimes called  burstable billing  since it allows you to have traffic bursts without getting charged a lot for it. In the old days, you had to commit to a rate and stick with it (more on that method next). 95th percentile billing allows you to have some spikes during the measurement period without requiring negotiations for a higher transfer rate."
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -916,7 +751,7 @@
       "text": "Long story short, this billing method measures your bandwidth on regular intervals and throws out the top 5% of your intervals. This means that some unusual spikes (so long as it's less than 36 hours in a month) won't cause you to need a higher committed rate. For most people, this measurement method is beneficial since your spikes are thrown out. However, if you have sustained spikes,  this billing method can be painful ."
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -929,7 +764,7 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -941,7 +776,7 @@
       "text": "If you see a datacenter say something like \"$15 per megabit\", they're probably measuring with  committed rates . In this model, you choose a rate, like 10 megabits/second, and pay based on that rate. At $15 per megabit, your bandwidth charge would be $150 per month. The actual space in the rack and the power often costs extra."
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -953,7 +788,7 @@
       "text": "Some people have good things to say about this billing method, but it seems awful to me. If you end up using 1 megabit per second, you still get billed for 10. If you have some spikes that creep over 10 megabit, even if you stay well under that rate as an average, the datacenter folks will ask you to do a higher commit. That means more money for something you may or may not use."
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -965,7 +800,7 @@
       "text": "In my experience, this is is a  serious red flag . This suggests that the datacenter network probably doesn't have much extra capacity available within the datacenter, with its providers, or both. You sometimes see this in cities where bandwidth is more expensive. If you find a datacenter that's totally perfect, but they want to do a committed rate, ask if there's an option for 95th percentile. If not, I strongly suggest looking elsewhere."
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -978,7 +813,7 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -990,7 +825,7 @@
       "text": "Total bandwidth billing is what you normally see from most dedicated server or VPS providers. They will promise a certain transfer allotment and a network port speed. You will often see something like \"10TB on a 100mbps port\" and that means you can transfer 10TB in a month at at 100 megabits per second. They often don't care how you consume the bandwidth, but if you pass 10TB, you will likely pay overages per gigabyte. (Be sure to ask about the overage price.)"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -1002,7 +837,7 @@
       "text": "This method is nice because you can watch it like a water meter. You can take your daily transfer, multiply by 30, and see if the transfer allotment is enough. Most datacenters will allow you to upgrade to a gigabit port for a fee and this will allow you to handle spikes a little easier."
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1014,7 +849,7 @@
       "text": "For personal colocation, this bandwidth billing method is great. It could be a red flag for larger customers because it gives a hint that the datacenter might be oversubscribed on networking. If every customer wanted to burst to 100 megabit at the same time, there probably isn't enough network connectivity to allow everyone to get that guaranteed rate."
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1027,7 +862,7 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1039,7 +874,7 @@
       "text": "Finally, you could always negotiate with bandwidth providers and bring your own bandwidth. This comes with its own challenges and it's probably not worth it for a personal colocation environment. Larger business like this method because they often have rates negotiated with providers for their office connectivity and they can often get a good rate within the colocation datacenter."
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1051,7 +886,7 @@
       "text": "There are plenty of up-front costs with bringing your own bandwidth provider. Some of those costs may come from the datacenter itself, especially if new cabling is required."
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1064,7 +899,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1076,7 +911,7 @@
       "text": "Ensure that spare parts are available at a moment's notice if something goes wrong. In my case, I keep two extra hard drives in the rack with my servers as well as two sticks of RAM. My colocation datacenter is about four hours away by car, and I certainly don't want to make an emergency trip there to replace a broken hard drive."
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1088,7 +923,7 @@
       "text": "Buying servers with out of band management can be a huge help during an emergency. Getting console access remotely can shave plenty of time off of an outage. The majority of Supermicro servers come with an out of band management controller by default. You can use simple IPMI commands to reboot the server or use the iKVM interface to interact with the console. Many of these management controllers allow you to mount USB drives remotely and re-image a server at any time."
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1100,7 +935,7 @@
       "text": "Ask the datacenter if they have a network KVM that you could use or rent during an emergency. Be sure to ask about pricing and the time expectations when you request one to be connected to your servers."
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1113,7 +948,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1125,7 +960,7 @@
       "text": "Be sure to read the contract carefully. Pay special attention to how the datacenter handles outages and how you can request SLA credits. Take time to review any sections on what rights you have when they don't hold up their end of the deal."
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1137,7 +972,7 @@
       "text": "As with any contract, find out what happens when the contract ends. Does it auto-renew? Do you keep the same rates? Can you go month to month? Reviewing these sections before signing could save a lot of money later."
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1150,7 +985,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1162,7 +997,7 @@
       "text": "Although cloud hosting has certainly made it easier to serve applications, there are still some people out there that prefer to have more customization than cloud hosting allows. For some applications, cloud hosting can be prohibitively expensive. Some applications don't tolerate a shared platform and the noisy neighbor issues that come with it."
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1174,7 +1009,7 @@
       "text": "Colocation can be a challenging, but rewarding, experience. As with anything, you must do your homework. I certainly hope this post helps make that homework a little easier."
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1186,7 +1021,7 @@
       "text": "Since I know someone will ask me:  I host with  Corespace  and I've been with them for a little over a year. They have been great so far and their staff has been friendly in person, via tickets, and via telephone."
     },
     {
-      "self_ref": "#/texts/70",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },

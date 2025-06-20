@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 17936383038514855602,
-    "filename": "index.md"
+    "binary_hash": 9757792087973741154,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -30,10 +30,16 @@
         "$ref": "#/groups/1"
       },
       {
+        "$ref": "#/texts/7"
+      },
+      {
         "$ref": "#/texts/8"
       },
       {
-        "$ref": "#/groups/2"
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
       },
       {
         "$ref": "#/texts/11"
@@ -64,18 +70,6 @@
       },
       {
         "$ref": "#/texts/20"
-      },
-      {
-        "$ref": "#/texts/21"
-      },
-      {
-        "$ref": "#/texts/22"
-      },
-      {
-        "$ref": "#/texts/23"
-      },
-      {
-        "$ref": "#/texts/24"
       }
     ],
     "content_layer": "body",
@@ -114,26 +108,6 @@
         },
         {
           "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/9"
-        },
-        {
-          "$ref": "#/texts/10"
         }
       ],
       "content_layer": "body",
@@ -151,8 +125,8 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "To install PayFlowPro, you will need a few things:",
+      "text": "To install PayFlowPro, you will need a few things:"
     },
     {
       "self_ref": "#/texts/1",
@@ -163,8 +137,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "/2007/04/26/install-payflowpro-for-php-on-rhel/",
-      "text": "/2007/04/26/install-payflowpro-for-php-on-rhel/",
+      "orig": "The PHP source code for version of PHP installed (",
+      "text": "The PHP source code for version of PHP installed (",
       "enumerated": false,
       "marker": "-"
     },
@@ -177,8 +151,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "development",
-      "text": "development",
+      "orig": "The SDK from Verisign/PayPal (this comes from the portal, login required)",
+      "text": "The SDK from Verisign/PayPal (this comes from the portal, login required)",
       "enumerated": false,
       "marker": "-"
     },
@@ -191,8 +165,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "web",
-      "text": "web",
+      "orig": "The gcc and automake packages",
+      "text": "The gcc and automake packages",
       "enumerated": false,
       "marker": "-"
     },
@@ -205,8 +179,8 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "To install PayFlowPro, you will need a few things:",
-      "text": "To install PayFlowPro, you will need a few things:"
+      "orig": "Take the Verisign SDK and copy the following:",
+      "text": "Take the Verisign SDK and copy the following:"
     },
     {
       "self_ref": "#/texts/5",
@@ -217,8 +191,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "The PHP source code for version of PHP installed (",
-      "text": "The PHP source code for version of PHP installed (",
+      "orig": "Copy pfpro.h to /usr/include",
+      "text": "Copy pfpro.h to /usr/include",
       "enumerated": false,
       "marker": "-"
     },
@@ -231,67 +205,13 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "The SDK from Verisign/PayPal (this comes from the portal, login required)",
-      "text": "The SDK from Verisign/PayPal (this comes from the portal, login required)",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "The gcc and automake packages",
-      "text": "The gcc and automake packages",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Take the Verisign SDK and copy the following:",
-      "text": "Take the Verisign SDK and copy the following:"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Copy pfpro.h to /usr/include",
-      "text": "Copy pfpro.h to /usr/include",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "Copy the .so file to /usr/lib",
       "text": "Copy the .so file to /usr/lib",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -303,7 +223,7 @@
       "text": "Untar the PHP source code and cd into php-[version]/ext/pfpro. Run "
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -319,7 +239,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -331,7 +251,7 @@
       "text": " and make sure it finishes successfully. Now run:"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -347,7 +267,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -359,7 +279,7 @@
       "text": "Then run "
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -375,7 +295,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -387,7 +307,7 @@
       "text": " and "
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -403,7 +323,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -415,7 +335,7 @@
       "text": ". Now, go to the php.ini and add:"
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -431,7 +351,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -443,7 +363,7 @@
       "text": "Run "
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -459,7 +379,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -471,7 +391,7 @@
       "text": " to make sure the module was successfully built. Restart Apache and you're all set!"
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },

@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 3946921500081775069,
-    "filename": "index.md"
+    "binary_hash": 4260790225831950951,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,25 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
       },
       {
         "$ref": "#/texts/8"
@@ -72,10 +90,7 @@
         "$ref": "#/texts/23"
       },
       {
-        "$ref": "#/texts/24"
-      },
-      {
-        "$ref": "#/texts/25"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/26"
@@ -96,7 +111,10 @@
         "$ref": "#/texts/31"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
       },
       {
         "$ref": "#/texts/34"
@@ -204,34 +222,10 @@
         "$ref": "#/texts/68"
       },
       {
-        "$ref": "#/texts/69"
-      },
-      {
-        "$ref": "#/texts/70"
-      },
-      {
-        "$ref": "#/texts/71"
-      },
-      {
-        "$ref": "#/texts/72"
-      },
-      {
-        "$ref": "#/texts/73"
-      },
-      {
-        "$ref": "#/texts/74"
-      },
-      {
-        "$ref": "#/texts/75"
-      },
-      {
-        "$ref": "#/texts/76"
-      },
-      {
         "$ref": "#/pictures/0"
       },
       {
-        "$ref": "#/texts/77"
+        "$ref": "#/texts/69"
       }
     ],
     "content_layer": "body",
@@ -246,42 +240,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/24"
         },
         {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
-        },
-        {
-          "$ref": "#/texts/6"
-        },
-        {
-          "$ref": "#/texts/7"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/32"
-        },
-        {
-          "$ref": "#/texts/33"
+          "$ref": "#/texts/25"
         }
       ],
       "content_layer": "body",
@@ -299,121 +261,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2022/04/20/basic-auth-with-traefik-on-kubernetes/",
-      "text": "/2022/04/20/basic-auth-with-traefik-on-kubernetes/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "flux",
-      "text": "flux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "gitops",
-      "text": "gitops",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "kubernetes",
-      "text": "kubernetes",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "security",
-      "text": "security",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "traefik",
-      "text": "traefik",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "Basic access authentication  dates back to 1993 and it's still heavily used today. The server provides a ",
       "text": "Basic access authentication  dates back to 1993 and it's still heavily used today. The server provides a "
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -429,7 +281,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -441,7 +293,7 @@
       "text": " header to the client and the client responds with an "
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -457,7 +309,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -469,7 +321,7 @@
       "text": " header and a base64-encoded  (not encrypted)  string to authenticate. When done over a secure TLS connection, this method of authentication works well."
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -481,7 +333,7 @@
       "text": "Traefik  is an application proxy that takes requests from clients and routes them to different backends. You can use it by itself, in conjunction with Docker, or in a kubernetes deployment. I love it because it gets most of its information and configuration details from the environment around it. I don't have to tell Traefik where my services are. It knows where they are based on the resources I add in kubernetes."
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -493,7 +345,7 @@
       "text": "In this post, I'll explain how to add kubernetes resources that allow Traefik to handle basic authentication for backend applications. This particular example covers authentication for Traefik's dashboard. The dashboard displays lots of helpful diagnostic information about routing and services that helps you troubleshoot configuration errors."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -505,7 +357,7 @@
       "text": "On the other hand, this information is also quite useful to attackers and it's a good idea to keep it hidden away. \ud83d\udd75\ud83c\udffb"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -518,7 +370,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -530,7 +382,7 @@
       "text": "Kubernetes aficionados know the  ingress  resource type well. It's a resource that signals to a load balancer how it should route traffic within the cluster. Here's an example:"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/10",
       "parent": {
         "$ref": "#/body"
       },
@@ -546,7 +398,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/11",
       "parent": {
         "$ref": "#/body"
       },
@@ -558,7 +410,7 @@
       "text": "This ingress takes traffic to "
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -574,7 +426,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -586,7 +438,7 @@
       "text": " underneath the URI "
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },
@@ -602,7 +454,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/15",
       "parent": {
         "$ref": "#/body"
       },
@@ -614,7 +466,7 @@
       "text": " and sends it to the service "
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/16",
       "parent": {
         "$ref": "#/body"
       },
@@ -630,7 +482,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/17",
       "parent": {
         "$ref": "#/body"
       },
@@ -642,7 +494,7 @@
       "text": " on port 80. Most kubernetes load balancers can take this information and begin routing requests."
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/18",
       "parent": {
         "$ref": "#/body"
       },
@@ -654,7 +506,7 @@
       "text": "Traefik takes this up a notch with the  IngressRoute  resource. This CRD is Traefik-specific, but it makes configuration easier:"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -670,7 +522,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/20",
       "parent": {
         "$ref": "#/body"
       },
@@ -682,7 +534,7 @@
       "text": "We now have access to specify which Traefik entry points to use (these are ports that Traefik listens to) as well as a certificate resolver of some sort. We can match the host header and URI prefix on the same line with complex rules and send the traffic to the "
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/21",
       "parent": {
         "$ref": "#/body"
       },
@@ -698,7 +550,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -710,7 +562,7 @@
       "text": " service on port 80."
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -722,9 +574,9 @@
       "text": "Our goal from here on out will be to:"
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/24",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -736,9 +588,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/25",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -750,7 +602,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -763,7 +615,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -775,7 +627,7 @@
       "text": "I'm using  flux  to manage my kubernetes cluster  (read more on that in  yesterday's post )  and I'm using its  HelmRelease  resource type to deploy Traefik. You can follow along with the files in my  gitops-ng repository ."
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -787,7 +639,7 @@
       "text": "First, we need a namespace in "
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -803,7 +655,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -815,7 +667,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -831,7 +683,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -843,7 +695,7 @@
       "text": "Let's deploy Traefik using a HelmRelease resource and store this in "
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -859,7 +711,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -871,7 +723,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -887,7 +739,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -899,7 +751,7 @@
       "text": "I'm specifying that I want to install Traefik's helm chart (version 10.19.4) into the"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -915,7 +767,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -927,7 +779,7 @@
       "text": " namespace and I want to update the CRDs (which gives me the IngressRoute resource type) on installation and during updates. At the end, I specify that all non-secure HTTP requests on port 80 should be redirected to a TLS connection."
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -939,7 +791,7 @@
       "text": "Now we need to set up the dashboard by creating a "
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -955,7 +807,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -967,7 +819,7 @@
       "text": " file:"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/42",
       "parent": {
         "$ref": "#/body"
       },
@@ -983,7 +835,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/43",
       "parent": {
         "$ref": "#/body"
       },
@@ -995,7 +847,7 @@
       "text": "The "
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/44",
       "parent": {
         "$ref": "#/body"
       },
@@ -1011,7 +863,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/45",
       "parent": {
         "$ref": "#/body"
       },
@@ -1023,7 +875,7 @@
       "text": " resource specifies that I want basic authentication using the"
     },
     {
-      "self_ref": "#/texts/54",
+      "self_ref": "#/texts/46",
       "parent": {
         "$ref": "#/body"
       },
@@ -1039,7 +891,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/55",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
@@ -1051,7 +903,7 @@
       "text": " secret  (which we will create momentarily) . The IngressRoute specifies that all traffic coming to the "
     },
     {
-      "self_ref": "#/texts/56",
+      "self_ref": "#/texts/48",
       "parent": {
         "$ref": "#/body"
       },
@@ -1067,7 +919,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/57",
+      "self_ref": "#/texts/49",
       "parent": {
         "$ref": "#/body"
       },
@@ -1079,7 +931,7 @@
       "text": " TLS-secured frontend that is destined for "
     },
     {
-      "self_ref": "#/texts/58",
+      "self_ref": "#/texts/50",
       "parent": {
         "$ref": "#/body"
       },
@@ -1095,7 +947,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/59",
+      "self_ref": "#/texts/51",
       "parent": {
         "$ref": "#/body"
       },
@@ -1107,7 +959,7 @@
       "text": " should be redirected to the internal Traefik dashboard "
     },
     {
-      "self_ref": "#/texts/60",
+      "self_ref": "#/texts/52",
       "parent": {
         "$ref": "#/body"
       },
@@ -1123,7 +975,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/61",
+      "self_ref": "#/texts/53",
       "parent": {
         "$ref": "#/body"
       },
@@ -1135,7 +987,7 @@
       "text": ". Before that happens, the "
     },
     {
-      "self_ref": "#/texts/62",
+      "self_ref": "#/texts/54",
       "parent": {
         "$ref": "#/body"
       },
@@ -1151,7 +1003,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/63",
+      "self_ref": "#/texts/55",
       "parent": {
         "$ref": "#/body"
       },
@@ -1163,7 +1015,7 @@
       "text": " middleware must be applied."
     },
     {
-      "self_ref": "#/texts/64",
+      "self_ref": "#/texts/56",
       "parent": {
         "$ref": "#/body"
       },
@@ -1175,7 +1027,7 @@
       "text": "\ud83d\udc40 In my case, I have a certificate resolver called "
     },
     {
-      "self_ref": "#/texts/65",
+      "self_ref": "#/texts/57",
       "parent": {
         "$ref": "#/body"
       },
@@ -1191,7 +1043,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/66",
+      "self_ref": "#/texts/58",
       "parent": {
         "$ref": "#/body"
       },
@@ -1203,7 +1055,7 @@
       "text": " already configured. This is outside the scope of this post, but the  ACME docs  have good examples of HTTP and DNS validation for certificates from LetsEncrypt."
     },
     {
-      "self_ref": "#/texts/67",
+      "self_ref": "#/texts/59",
       "parent": {
         "$ref": "#/body"
       },
@@ -1215,7 +1067,7 @@
       "text": "Now we reach the tricky part. We need to create a username and password combination for basic authentication and store it in a secret. The easiest method here us to use"
     },
     {
-      "self_ref": "#/texts/68",
+      "self_ref": "#/texts/60",
       "parent": {
         "$ref": "#/body"
       },
@@ -1231,7 +1083,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/69",
+      "self_ref": "#/texts/61",
       "parent": {
         "$ref": "#/body"
       },
@@ -1243,7 +1095,7 @@
       "text": ", create a secret from the file it creates, and then encrypt the file with SOPS:"
     },
     {
-      "self_ref": "#/texts/70",
+      "self_ref": "#/texts/62",
       "parent": {
         "$ref": "#/body"
       },
@@ -1259,7 +1111,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/71",
+      "self_ref": "#/texts/63",
       "parent": {
         "$ref": "#/body"
       },
@@ -1271,7 +1123,7 @@
       "text": "Add all of the files we created into your flux repository or apply them with "
     },
     {
-      "self_ref": "#/texts/72",
+      "self_ref": "#/texts/64",
       "parent": {
         "$ref": "#/body"
       },
@@ -1287,7 +1139,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/73",
+      "self_ref": "#/texts/65",
       "parent": {
         "$ref": "#/body"
       },
@@ -1299,7 +1151,7 @@
       "text": "  (and consider embracing gitops later) ."
     },
     {
-      "self_ref": "#/texts/74",
+      "self_ref": "#/texts/66",
       "parent": {
         "$ref": "#/body"
       },
@@ -1311,7 +1163,7 @@
       "text": "Access your Traefik dashboard URL and you should see a basic authentication prompt. Enter the credentials you set with "
     },
     {
-      "self_ref": "#/texts/75",
+      "self_ref": "#/texts/67",
       "parent": {
         "$ref": "#/body"
       },
@@ -1327,7 +1179,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/76",
+      "self_ref": "#/texts/68",
       "parent": {
         "$ref": "#/body"
       },
@@ -1339,7 +1191,7 @@
       "text": " and you should see your Traefik dashboard!"
     },
     {
-      "self_ref": "#/texts/77",
+      "self_ref": "#/texts/69",
       "parent": {
         "$ref": "#/body"
       },

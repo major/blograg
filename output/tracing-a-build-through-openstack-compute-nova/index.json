@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/html",
-    "binary_hash": 12924857241878251057,
-    "filename": "index.md"
+    "binary_hash": 15743942609860822933,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,28 +21,22 @@
         "$ref": "#/texts/0"
       },
       {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
         "$ref": "#/groups/0"
       },
       {
-        "$ref": "#/texts/6"
+        "$ref": "#/texts/12"
       },
       {
-        "$ref": "#/texts/7"
+        "$ref": "#/texts/13"
       },
       {
-        "$ref": "#/texts/8"
-      },
-      {
-        "$ref": "#/groups/1"
-      },
-      {
-        "$ref": "#/texts/18"
-      },
-      {
-        "$ref": "#/texts/19"
-      },
-      {
-        "$ref": "#/texts/20"
+        "$ref": "#/texts/14"
       }
     ],
     "content_layer": "body",
@@ -57,12 +51,6 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
-        },
-        {
-          "$ref": "#/texts/2"
-        },
-        {
           "$ref": "#/texts/3"
         },
         {
@@ -70,18 +58,16 @@
         },
         {
           "$ref": "#/texts/5"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
         {
           "$ref": "#/texts/9"
         },
@@ -90,24 +76,6 @@
         },
         {
           "$ref": "#/texts/11"
-        },
-        {
-          "$ref": "#/texts/12"
-        },
-        {
-          "$ref": "#/texts/13"
-        },
-        {
-          "$ref": "#/texts/14"
-        },
-        {
-          "$ref": "#/texts/15"
-        },
-        {
-          "$ref": "#/texts/16"
-        },
-        {
-          "$ref": "#/texts/17"
         }
       ],
       "content_layer": "body",
@@ -125,36 +93,32 @@
       "content_layer": "body",
       "label": "text",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
+      "orig": "1",
+      "text": "1"
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "text",
       "prov": [],
-      "orig": "/2011/11/07/tracing-a-build-through-openstack-compute-nova/",
-      "text": "/2011/11/07/tracing-a-build-through-openstack-compute-nova/",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "My work at Rackspace has changed a bit in the last few weeks and I've shifted from managing a team of engineers to a full technical focus on  OpenStack Nova . Although it was difficult to leave my management position, I'm happy to get back to my roots and dig into the technical stuff again.",
+      "text": "My work at Rackspace has changed a bit in the last few weeks and I've shifted from managing a team of engineers to a full technical focus on  OpenStack Nova . Although it was difficult to leave my management position, I'm happy to get back to my roots and dig into the technical stuff again."
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/0"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "list_item",
+      "label": "text",
       "prov": [],
-      "orig": "cloud",
-      "text": "cloud",
-      "enumerated": false,
-      "marker": "-"
+      "orig": "One of the first things I wanted to tackle was understanding how a build request flows through Nova to a XenServer hypervisor. Following this process through the code is a bit tricky (I'm still learning python, so that could explain it). Here are the basic steps:",
+      "text": "One of the first things I wanted to tackle was understanding how a build request flows through Nova to a XenServer hypervisor. Following this process through the code is a bit tricky (I'm still learning python, so that could explain it). Here are the basic steps:"
     },
     {
       "self_ref": "#/texts/3",
@@ -165,8 +129,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "nova",
-      "text": "nova",
+      "orig": "Client requests a build via the API.",
+      "text": "Client requests a build via the API.",
       "enumerated": false,
       "marker": "-"
     },
@@ -179,8 +143,8 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "openstack",
-      "text": "openstack",
+      "orig": "The API runs some checks (quotas, auth, etc) and hands the build off to the scheduler.",
+      "text": "The API runs some checks (quotas, auth, etc) and hands the build off to the scheduler.",
       "enumerated": false,
       "marker": "-"
     },
@@ -193,93 +157,15 @@
       "content_layer": "body",
       "label": "list_item",
       "prov": [],
-      "orig": "python",
-      "text": "python",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "1",
-      "text": "1"
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "My work at Rackspace has changed a bit in the last few weeks and I've shifted from managing a team of engineers to a full technical focus on  OpenStack Nova . Although it was difficult to leave my management position, I'm happy to get back to my roots and dig into the technical stuff again.",
-      "text": "My work at Rackspace has changed a bit in the last few weeks and I've shifted from managing a team of engineers to a full technical focus on  OpenStack Nova . Although it was difficult to leave my management position, I'm happy to get back to my roots and dig into the technical stuff again."
-    },
-    {
-      "self_ref": "#/texts/8",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [],
-      "orig": "One of the first things I wanted to tackle was understanding how a build request flows through Nova to a XenServer hypervisor. Following this process through the code is a bit tricky (I'm still learning python, so that could explain it). Here are the basic steps:",
-      "text": "One of the first things I wanted to tackle was understanding how a build request flows through Nova to a XenServer hypervisor. Following this process through the code is a bit tricky (I'm still learning python, so that could explain it). Here are the basic steps:"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "Client requests a build via the API.",
-      "text": "Client requests a build via the API.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "The API runs some checks (quotas, auth, etc) and hands the build off to the scheduler.",
-      "text": "The API runs some checks (quotas, auth, etc) and hands the build off to the scheduler.",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "$ref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
       "orig": "The scheduler figures out where the instance should go.",
       "text": "The scheduler figures out where the instance should go.",
       "enumerated": false,
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -291,9 +177,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -305,9 +191,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -319,9 +205,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -333,9 +219,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -347,9 +233,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -361,7 +247,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/12",
       "parent": {
         "$ref": "#/body"
       },
@@ -373,7 +259,7 @@
       "text": "3"
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/13",
       "parent": {
         "$ref": "#/body"
       },
@@ -385,7 +271,7 @@
       "text": "Click on the thumbnail on the right to see the flow chart I created to explain this process."
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/14",
       "parent": {
         "$ref": "#/body"
       },

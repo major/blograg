@@ -1,11 +1,11 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.4.0",
-  "name": "index",
+  "name": "myfile",
   "origin": {
     "mimetype": "text/markdown",
-    "binary_hash": 8714114063004186039,
-    "filename": "index.md"
+    "binary_hash": 17698793245641358608,
+    "filename": "myfile.md"
   },
   "furniture": {
     "self_ref": "#/furniture",
@@ -21,7 +21,19 @@
         "$ref": "#/texts/0"
       },
       {
-        "$ref": "#/groups/0"
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
       },
       {
         "$ref": "#/texts/6"
@@ -66,10 +78,7 @@
         "$ref": "#/texts/19"
       },
       {
-        "$ref": "#/texts/20"
-      },
-      {
-        "$ref": "#/texts/21"
+        "$ref": "#/groups/0"
       },
       {
         "$ref": "#/texts/22"
@@ -84,7 +93,10 @@
         "$ref": "#/texts/25"
       },
       {
-        "$ref": "#/groups/1"
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
       },
       {
         "$ref": "#/texts/28"
@@ -129,28 +141,10 @@
         "$ref": "#/texts/41"
       },
       {
-        "$ref": "#/texts/42"
-      },
-      {
-        "$ref": "#/texts/43"
-      },
-      {
-        "$ref": "#/texts/44"
-      },
-      {
-        "$ref": "#/texts/45"
-      },
-      {
-        "$ref": "#/texts/46"
+        "$ref": "#/groups/1"
       },
       {
         "$ref": "#/texts/47"
-      },
-      {
-        "$ref": "#/groups/2"
-      },
-      {
-        "$ref": "#/texts/53"
       }
     ],
     "content_layer": "body",
@@ -165,19 +159,10 @@
       },
       "children": [
         {
-          "$ref": "#/texts/1"
+          "$ref": "#/texts/20"
         },
         {
-          "$ref": "#/texts/2"
-        },
-        {
-          "$ref": "#/texts/3"
-        },
-        {
-          "$ref": "#/texts/4"
-        },
-        {
-          "$ref": "#/texts/5"
+          "$ref": "#/texts/21"
         }
       ],
       "content_layer": "body",
@@ -191,36 +176,19 @@
       },
       "children": [
         {
-          "$ref": "#/texts/26"
+          "$ref": "#/texts/42"
         },
         {
-          "$ref": "#/texts/27"
-        }
-      ],
-      "content_layer": "body",
-      "name": "list",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [
-        {
-          "$ref": "#/texts/48"
+          "$ref": "#/texts/43"
         },
         {
-          "$ref": "#/texts/49"
+          "$ref": "#/texts/44"
         },
         {
-          "$ref": "#/texts/50"
+          "$ref": "#/texts/45"
         },
         {
-          "$ref": "#/texts/51"
-        },
-        {
-          "$ref": "#/texts/52"
+          "$ref": "#/texts/46"
         }
       ],
       "content_layer": "body",
@@ -238,93 +206,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": "aliases:",
-      "text": "aliases:"
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "/2019/12/12/thinkpad-t490-fedora-install-tips/",
-      "text": "/2019/12/12/thinkpad-t490-fedora-install-tips/",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/2",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "fedora",
-      "text": "fedora",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "lenovo",
-      "text": "lenovo",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "linux",
-      "text": "linux",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "$ref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "list_item",
-      "prov": [],
-      "orig": "thinkpad",
-      "text": "thinkpad",
-      "enumerated": false,
-      "marker": "-"
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": "\ud83d\udd28  WORK IN PROGRESS!  I'm still finding some additional issues and I'll write those up here as soon as I find some solutions.",
       "text": "\ud83d\udd28  WORK IN PROGRESS!  I'm still finding some additional issues and I'll write those up here as soon as I find some solutions."
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/1",
       "parent": {
         "$ref": "#/body"
       },
@@ -336,7 +222,7 @@
       "text": "With my 4th Gen X1 Carbon beginning to age (especially the battery), it was time for an upgrade. I now have a T490 with a 10th gen Intel CPU and a discrete NVIDIA MX250 GPU. This laptop spec was just released on Black Friday!"
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/2",
       "parent": {
         "$ref": "#/body"
       },
@@ -348,7 +234,7 @@
       "text": "As with any new technology, there are bound to be some quirks in Linux that require some workarounds. This laptop is no exception!"
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/3",
       "parent": {
         "$ref": "#/body"
       },
@@ -360,7 +246,7 @@
       "text": "This post will grow over time as I find more workarounds and fixes for this laptop."
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/4",
       "parent": {
         "$ref": "#/body"
       },
@@ -373,7 +259,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/5",
       "parent": {
         "$ref": "#/body"
       },
@@ -385,7 +271,7 @@
       "text": "Start by downloading whichever installation method of Fedora you prefer. Since this laptop is fairly new, I went with the network installation (included in the Server ISOs) and chose to apply updates during installation."
     },
     {
-      "self_ref": "#/texts/12",
+      "self_ref": "#/texts/6",
       "parent": {
         "$ref": "#/body"
       },
@@ -397,7 +283,7 @@
       "text": "On the first boot, wait for the LUKS screen to appear and ask for your password to decrypt the drive. Hit "
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/7",
       "parent": {
         "$ref": "#/body"
       },
@@ -413,7 +299,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/8",
       "parent": {
         "$ref": "#/body"
       },
@@ -425,7 +311,7 @@
       "text": " at the password prompt and wait for the grub screen to appear on reboot."
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/9",
       "parent": {
         "$ref": "#/body"
       },
@@ -435,6 +321,90 @@
       "prov": [],
       "orig": "Why are we issuing the three finger salute?  If you allow the laptop to fully boot, it will hang when it starts gdm. There are some nouveau issues in the system journal that provide hints but I haven't made sense of them yet. By preventing the system from fully booting, the grub success flag won't be set and you will see the grub menu at the next boot that is normally hidden from you.",
       "text": "Why are we issuing the three finger salute?  If you allow the laptop to fully boot, it will hang when it starts gdm. There are some nouveau issues in the system journal that provide hints but I haven't made sense of them yet. By preventing the system from fully booting, the grub success flag won't be set and you will see the grub menu at the next boot that is normally hidden from you."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Press ",
+      "text": "Press "
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "e",
+      "text": "e",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": " on the first line of the grub menu. Find the longest line (it usually has ",
+      "text": " on the first line of the grub menu. Find the longest line (it usually has "
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "rhgb quiet",
+      "text": "rhgb quiet",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [],
+      "orig": ") and add this text to the end:",
+      "text": ") and add this text to the end:"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "rd.driver.blacklist=nouveau",
+      "text": "rd.driver.blacklist=nouveau",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
     },
     {
       "self_ref": "#/texts/16",
@@ -457,8 +427,8 @@
       "content_layer": "body",
       "label": "code",
       "prov": [],
-      "orig": "e",
-      "text": "e",
+      "orig": "CTRL-X",
+      "text": "CTRL-X",
       "captions": [],
       "references": [],
       "footnotes": [],
@@ -473,95 +443,11 @@
       "content_layer": "body",
       "label": "paragraph",
       "prov": [],
-      "orig": " on the first line of the grub menu. Find the longest line (it usually has ",
-      "text": " on the first line of the grub menu. Find the longest line (it usually has "
-    },
-    {
-      "self_ref": "#/texts/19",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "rhgb quiet",
-      "text": "rhgb quiet",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/20",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": ") and add this text to the end:",
-      "text": ") and add this text to the end:"
-    },
-    {
-      "self_ref": "#/texts/21",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "rd.driver.blacklist=nouveau",
-      "text": "rd.driver.blacklist=nouveau",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/22",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
-      "orig": "Press ",
-      "text": "Press "
-    },
-    {
-      "self_ref": "#/texts/23",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "code",
-      "prov": [],
-      "orig": "CTRL-X",
-      "text": "CTRL-X",
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "code_language": "unknown"
-    },
-    {
-      "self_ref": "#/texts/24",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "paragraph",
-      "prov": [],
       "orig": " to boot the system. Enter your LUKS password when asked and you should boot straight into gdm!",
       "text": " to boot the system. Enter your LUKS password when asked and you should boot straight into gdm!"
     },
     {
-      "self_ref": "#/texts/25",
+      "self_ref": "#/texts/19",
       "parent": {
         "$ref": "#/body"
       },
@@ -573,9 +459,9 @@
       "text": "You have two options here:"
     },
     {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/20",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -587,9 +473,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/21",
       "parent": {
-        "$ref": "#/groups/1"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
@@ -601,7 +487,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/22",
       "parent": {
         "$ref": "#/body"
       },
@@ -613,7 +499,7 @@
       "text": "I'm going to install NVIDIA's proprietary drivers that have power management and optimus support built in already. All of these steps here come from  RPM Fusion's excellent NVIDIA documentation ."
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/23",
       "parent": {
         "$ref": "#/body"
       },
@@ -625,7 +511,7 @@
       "text": "Start by installing RPMFusion's repository configuration:"
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/24",
       "parent": {
         "$ref": "#/body"
       },
@@ -641,7 +527,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/25",
       "parent": {
         "$ref": "#/body"
       },
@@ -653,7 +539,7 @@
       "text": "Next, install the proprietary drivers."
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/26",
       "parent": {
         "$ref": "#/body"
       },
@@ -669,7 +555,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/27",
       "parent": {
         "$ref": "#/body"
       },
@@ -681,7 +567,7 @@
       "text": "When the packages are installed, run "
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/28",
       "parent": {
         "$ref": "#/body"
       },
@@ -697,7 +583,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/29",
       "parent": {
         "$ref": "#/body"
       },
@@ -709,7 +595,7 @@
       "text": " to build the "
     },
     {
-      "self_ref": "#/texts/36",
+      "self_ref": "#/texts/30",
       "parent": {
         "$ref": "#/body"
       },
@@ -725,7 +611,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/37",
+      "self_ref": "#/texts/31",
       "parent": {
         "$ref": "#/body"
       },
@@ -737,7 +623,7 @@
       "text": " kernel module (this took about a minute on my laptop):"
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/32",
       "parent": {
         "$ref": "#/body"
       },
@@ -753,7 +639,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/33",
       "parent": {
         "$ref": "#/body"
       },
@@ -765,7 +651,7 @@
       "text": "Reboot your laptop. If all goes well, your laptop should boot right up without interaction (except for entering your LUKS password)."
     },
     {
-      "self_ref": "#/texts/40",
+      "self_ref": "#/texts/34",
       "parent": {
         "$ref": "#/body"
       },
@@ -778,7 +664,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/41",
+      "self_ref": "#/texts/35",
       "parent": {
         "$ref": "#/body"
       },
@@ -790,7 +676,7 @@
       "text": "You can enable some power management features for the NVIDIA GPU by following the (somewhat lengthy) documentation about  PCI-Express Runtime D3 (RTD3) Power Management . I've enabled the most aggressive setting by adding the following to "
     },
     {
-      "self_ref": "#/texts/42",
+      "self_ref": "#/texts/36",
       "parent": {
         "$ref": "#/body"
       },
@@ -806,7 +692,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/43",
+      "self_ref": "#/texts/37",
       "parent": {
         "$ref": "#/body"
       },
@@ -818,7 +704,7 @@
       "text": ":"
     },
     {
-      "self_ref": "#/texts/44",
+      "self_ref": "#/texts/38",
       "parent": {
         "$ref": "#/body"
       },
@@ -834,7 +720,7 @@
       "code_language": "unknown"
     },
     {
-      "self_ref": "#/texts/45",
+      "self_ref": "#/texts/39",
       "parent": {
         "$ref": "#/body"
       },
@@ -846,7 +732,7 @@
       "text": "Reboot your laptop for the change to take effect."
     },
     {
-      "self_ref": "#/texts/46",
+      "self_ref": "#/texts/40",
       "parent": {
         "$ref": "#/body"
       },
@@ -859,7 +745,7 @@
       "level": 1
     },
     {
-      "self_ref": "#/texts/47",
+      "self_ref": "#/texts/41",
       "parent": {
         "$ref": "#/body"
       },
@@ -871,9 +757,9 @@
       "text": "My laptop was shipped to me with the 1.04 BIOS, but 1.06 is the latest (as of this writing). Follow these steps to update:"
     },
     {
-      "self_ref": "#/texts/48",
+      "self_ref": "#/texts/42",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -885,9 +771,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/49",
+      "self_ref": "#/texts/43",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -899,9 +785,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/50",
+      "self_ref": "#/texts/44",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -913,9 +799,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/51",
+      "self_ref": "#/texts/45",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -927,9 +813,9 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/52",
+      "self_ref": "#/texts/46",
       "parent": {
-        "$ref": "#/groups/2"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -941,7 +827,7 @@
       "marker": "-"
     },
     {
-      "self_ref": "#/texts/53",
+      "self_ref": "#/texts/47",
       "parent": {
         "$ref": "#/body"
       },
