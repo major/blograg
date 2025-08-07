@@ -1,7 +1,7 @@
 services:
 
   db:
-    image: docker.io/pgvector/pgvector:pg17@sha256:a34f9992bd1b393b45dfa958bf278af54cad6ce90ecba88284923ccebd14895a
+    image: docker.io/pgvector/pgvector:pg17@sha256:0300b0eb0e177439e5fc415a481f72f1ba5d7cd3852101e200b95e86a440240b
     restart: always
     environment:
       POSTGRES_USER: postgres
