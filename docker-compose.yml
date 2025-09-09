@@ -13,7 +13,7 @@ services:
       - blograg_pgdata:/var/lib/postgresql/data
 
   adminer:
-    image: docker.io/library/adminer:latest@sha256:2b845b0e8e89245afd5bce48c20f3348581021492a64667a2c38a8e7e1096c46
+    image: docker.io/library/adminer:latest@sha256:34cb1d9dd8acf98abfb16ef5781a1f6052b912a0eedde931e638600260f45386
     restart: always
     ports:
       - 8080:8080
